@@ -64,12 +64,20 @@ const page = template
   .replace('/*@@TIMELINE@@*/', () => lib)
   .replace('/*@@DATA@@*/null', () => data);
 const [head, body] = page.split('<!--@@BODY@@-->');
+const SITE_URL = 'https://ihideck.github.io/chronology/';
+const ICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='6' y='3' width='8' height='26' rx='2' fill='%23d4452c'/%3E%3Crect x='18' y='9' width='8' height='20' rx='2' fill='%232c5aa0'/%3E%3C/svg%3E";
 await write('index.html', [
   '<!doctype html>',
   '<html lang="ja">',
   '<head>',
   '<meta charset="utf-8">',
   '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">',
+  `<link rel="icon" href="${ICON}">`,
+  '<meta property="og:type" content="website">',
+  '<meta property="og:locale" content="ja_JP">',
+  '<meta property="og:title" content="歴代総理大臣・歴代米大統領">',
+  '<meta property="og:description" content="1868年から今日まで、日本の内閣総理大臣とアメリカ合衆国大統領の在任期間をひとつの時間軸に並べた年表">',
+  `<meta property="og:url" content="${SITE_URL}">`,
   '<style>body{margin:0}[hidden]{display:none!important}</style>',
   head.trim(),
   '</head>',

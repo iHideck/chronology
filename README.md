@@ -2,17 +2,21 @@
 
 1868年（明治元年）から今日までの、日本の内閣総理大臣とアメリカ合衆国大統領の在任期間を、ひとつの時間軸に並べた年表です。
 
+**動く版：[ihideck.github.io/chronology](https://ihideck.github.io/chronology/)**　名前にカーソルを合わせると、在任日数や同じ時期の相手国の首脳が出ます。
+
+<a href="https://ihideck.github.io/chronology/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="timeline-dark.svg">
   <img src="timeline-light.svg" width="760" alt="1868年から現在までの年表。中央に西暦と和暦（明治・大正・昭和・平成・令和）、左に日本の内閣総理大臣、右にアメリカ合衆国大統領の在任期間を棒で示している">
 </picture>
+</a>
 
 ## 見かた
 
 - 中央の帯が西暦と和暦、左が日本の内閣総理大臣、右がアメリカ合衆国大統領です。上から下へ時間が流れます。
 - 棒の長さが在任期間です。同じ人が続けて務めた代（例：吉田茂の第48〜51代）は1本にまとめています。
 - 総理の棒の切れ目は、臨時兼任・臨時代理の期間です。
-- `index.html` をブラウザで開くと、名前にカーソルを合わせて在任日数や同じ時期の相手国の首脳を確かめられます。
+- 上の画像はデータを更新した日の時点のものです。動く版では、在任中の棒がページを開いた日まで伸びます。
 
 ## 一覧
 
@@ -182,7 +186,8 @@
 
 1. CSV を編集します。新しい総理が就任したら、前の行に退任日を入れ、新しい行を足して退任日を空欄にします（空欄は在任中という意味です）。
 2. `node build.mjs` を実行します（Node.js 18 以降。追加のパッケージは不要です）。
-3. `timeline-light.svg`・`timeline-dark.svg`・`index.html` と、この README の一覧表が作り直されます。在任中の棒は実行した日（日本時間）まで伸びます。日付を指定するときは `node build.mjs --as-of=2026-10-30` のようにします。
+3. `timeline-light.svg`・`timeline-dark.svg`・`index.html` と、この README の一覧表が作り直されます。画像の在任中の棒は実行した日（日本時間）まで伸びます。日付を指定するときは `node build.mjs --as-of=2026-10-30` のようにします。
+4. コミットして `main` に push すると、数分で動く版（GitHub Pages）も新しくなります。動く版は `main` の `index.html` をそのまま公開しています。
 
 ## 出典
 
