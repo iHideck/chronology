@@ -1,0 +1,619 @@
+<title>歴代総理大臣・歴代米大統領</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="1868年から現在まで、日本の内閣総理大臣とアメリカ合衆国大統領の在任期間を同じ時間軸に並べた年表">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Shippori+Mincho+B1:wght@700;800&display=swap">
+<style>
+/* 中央に西暦・和暦の背骨を通し、左に日本の総理、右に米大統領を吊るす。時間は上から下へ一定の縮尺で流れる。 */
+:root {
+  --paper: #fcfcfd;
+  --raise: #ffffff;
+  --ink: #1c2029;
+  --ink2: #4b5260;
+  --muted: #687080;
+  --rule: #e8eaef;
+  --rule2: #c3c8d2;
+  --spine-a: #f0f1f5;
+  --spine-b: #e6e8ef;
+  --jp: #d4452c;
+  --us: #2c5aa0;
+  --shadow: rgba(20, 24, 33, 0.12);
+  --font-body: "BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", sans-serif;
+  --font-display: "Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "Noto Serif JP", serif;
+  --measure: 820px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #14171f;
+    --raise: #1c2029;
+    --ink: #e6e8ee;
+    --ink2: #b2b8c4;
+    --muted: #8d94a3;
+    --rule: #232833;
+    --rule2: #3d4452;
+    --spine-a: #1b1f29;
+    --spine-b: #222733;
+    --jp: #e5604a;
+    --us: #678bd2;
+    --shadow: rgba(0, 0, 0, 0.45);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #14171f;
+  --raise: #1c2029;
+  --ink: #e6e8ee;
+  --ink2: #b2b8c4;
+  --muted: #8d94a3;
+  --rule: #232833;
+  --rule2: #3d4452;
+  --spine-a: #1b1f29;
+  --spine-b: #222733;
+  --jp: #e5604a;
+  --us: #678bd2;
+  --shadow: rgba(0, 0, 0, 0.45);
+  color-scheme: dark;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-text-size-adjust: 100%;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px);
+  z-index: 10;
+  background: var(--paper);
+}
+
+.wrap {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  box-sizing: content-box;
+}
+
+/* 見出し */
+.masthead { padding-block: 40px 22px; display: grid; gap: 10px; }
+.masthead h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(27px, 4.6vw, 40px);
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  text-wrap: balance;
+}
+.lede { margin: 0; max-width: 38em; color: var(--ink2); }
+.facts {
+  margin: 4px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 22px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.facts b { color: var(--ink); font-weight: 700; margin-right: 6px; }
+
+/* 追従する読み取り欄 */
+.dock {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 5;
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+}
+.dock-in {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas: "when who jump";
+  align-items: center;
+  gap: 6px 20px;
+  padding-block: 10px;
+}
+.when { grid-area: when; }
+.whos { grid-area: who; }
+.jump { grid-area: jump; }
+.whos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 18px;
+  min-width: 0;
+}
+.when { display: flex; align-items: baseline; gap: 8px; min-width: 9.6em; }
+.when b { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.when span { font-size: 13px; color: var(--muted); }
+.who { display: flex; align-items: baseline; gap: 7px; min-width: 0; }
+.who i {
+  display: inline-block;
+  width: 5px;
+  height: 14px;
+  border-radius: 2px;
+  align-self: center;
+  flex: none;
+}
+.who.jp i { background: var(--jp); }
+.who.us i { background: var(--us); }
+.who .role { font-size: 12px; color: var(--muted); flex: none; }
+.who b { font-size: 15px; font-weight: 700; overflow-wrap: anywhere; }
+.who b.none { font-weight: 400; color: var(--muted); }
+
+.jump { display: flex; gap: 2px; flex-wrap: wrap; }
+.jump button {
+  font: 700 15px/1 var(--font-display);
+  color: var(--ink2);
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  padding: 7px 9px;
+  cursor: pointer;
+}
+.jump button:hover { background: var(--spine-a); color: var(--ink); }
+.jump button[aria-current="true"] { background: var(--spine-b); color: var(--ink); }
+.jump button:focus-visible, .table-view summary:focus-visible, a:focus-visible {
+  outline: 2px solid var(--us);
+  outline-offset: 2px;
+}
+@media (max-width: 720px) {
+  .dock-in {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: "when jump" "who who";
+    padding-block: 8px;
+  }
+  .when { min-width: 0; }
+  .jump button { padding: 7px 8px; }
+  .jump .rest { display: none; }
+}
+
+/* 年表 */
+.how { margin: 18px 0 6px; font-size: 13px; color: var(--muted); }
+.chart { margin: 0 auto; padding-block: 4px 8px; }
+.chart svg { display: block; width: 100%; height: auto; touch-action: pan-y; }
+
+.tl .term { transition: opacity 0.15s ease; }
+.tl.has-focus .term { opacity: 0.18; }
+.tl.has-focus .term.is-focus, .tl.has-focus .term.is-counter { opacity: 1; }
+.tl .term.is-focus .name, .tl .term.is-now .name { font-weight: 700; }
+.tl .term:focus { outline: none; }
+.tl .term:focus-visible .bar, .tl .term:focus-visible .bar-open, .tl .term:focus-visible .bar-pre { stroke: var(--ink); stroke-width: 2; }
+.tl .xhair { pointer-events: none; }
+.tl .xhair-line { stroke: var(--ink); stroke-width: 1; opacity: 0.45; }
+.tl .xhair-dot { stroke: var(--paper); stroke-width: 2; }
+.tl .xhair-dot.jp { fill: var(--jp); }
+.tl .xhair-dot.us { fill: var(--us); }
+@media (prefers-reduced-motion: reduce) { .tl .term { transition: none; } }
+
+/* ツールチップ */
+.tip {
+  position: fixed;
+  z-index: 20;
+  max-width: min(300px, calc(100vw - 32px));
+  padding: 12px 14px;
+  background: var(--raise);
+  color: var(--ink);
+  border: 1px solid var(--rule2);
+  border-radius: 10px;
+  box-shadow: 0 6px 24px var(--shadow);
+  font-size: 13px;
+  line-height: 1.6;
+  pointer-events: none;
+}
+.tip p { margin: 0; }
+.tip .kicker { display: flex; align-items: center; gap: 7px; color: var(--muted); font-size: 12px; }
+.tip .kicker i { width: 5px; height: 13px; border-radius: 2px; flex: none; }
+.tip .kicker i.jp { background: var(--jp); }
+.tip .kicker i.us { background: var(--us); }
+.tip .name { font-size: 17px; font-weight: 700; margin: 2px 0 4px; line-height: 1.4; }
+.tip .dates { font-variant-numeric: tabular-nums; }
+.tip .days { color: var(--ink2); }
+.tip .with { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--rule); color: var(--ink2); }
+.tip .with span { display: block; color: var(--muted); font-size: 12px; }
+
+/* 一覧表 */
+.table-view { margin: 28px 0 0; border-top: 1px solid var(--rule); padding-block: 18px 6px; }
+.table-view summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+  width: fit-content;
+  border-radius: 4px;
+}
+.tables { display: grid; gap: 32px; margin-top: 16px; }
+.tables section { min-width: 0; }
+.tables h2 { font-size: 15px; margin: 0 0 8px; display: flex; align-items: center; gap: 8px; }
+.tables h2 i { width: 5px; height: 15px; border-radius: 2px; }
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.45; font-variant-numeric: tabular-nums; }
+th, td { padding: 6px 10px; text-align: left; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+th { font-weight: 700; color: var(--muted); font-size: 12px; position: sticky; top: 0; background: var(--paper); }
+td.num, th.num { text-align: right; }
+tr.cont td { color: var(--muted); }
+
+/* 注記 */
+/* 下に余白を取り、年表の最後（令和）まで横線の位置に持ってこられるようにする */
+.notes { margin: 26px 0 0; padding-block: 18px max(48px, 38vh); border-top: 1px solid var(--rule); font-size: 13px; color: var(--ink2); }
+.notes ul { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
+.notes p { margin: 12px 0 0; color: var(--muted); }
+.notes a { color: inherit; text-underline-offset: 3px; }
+</style>
+<!--@@BODY@@-->
+
+<header class="wrap masthead">
+  <h1>歴代総理大臣・歴代米大統領</h1>
+  <p class="lede">1868年（明治元年）から今日までの、日本の内閣総理大臣とアメリカ合衆国大統領の在任期間を、ひとつの時間軸に並べた年表です。中央の帯が西暦と和暦、棒の長さが在任期間です。</p>
+  <ul class="facts" id="facts"></ul>
+</header>
+
+<div class="dock" id="dock">
+  <div class="wrap dock-in">
+    <div class="when"><b id="r-date">1868年1月</b><span id="r-wareki">明治元年</span></div>
+    <div class="whos">
+      <div class="who jp"><i></i><span class="role">総理</span><b id="r-jp">内閣制度発足前</b></div>
+      <div class="who us"><i></i><span class="role">大統領</span><b id="r-us">A・ジョンソン</b></div>
+    </div>
+    <nav class="jump" id="jump" aria-label="元号の始まりへ移動"></nav>
+  </div>
+</div>
+
+<main class="wrap">
+  <p class="how">棒や名前にカーソルを合わせる（スマホではタップする）と、在任期間と同じ時期の相手国の首脳が表示されます。上の欄には、横線の位置の総理と大統領が出ます。</p>
+  <div class="chart" id="chart"></div>
+
+  <details class="table-view" id="table-view">
+    <summary>一覧表で見る</summary>
+    <div class="tables" id="tables"></div>
+  </details>
+
+  <footer class="notes">
+    <ul>
+      <li>総理の棒の切れ目は、臨時兼任・臨時代理の期間です。</li>
+      <li>同じ人が続けて務めた代（例：吉田茂の第48〜51代）は1本の棒にまとめています。</li>
+      <li>在任日数は、総理は首相官邸の数え方（就任日と退任日を両方含む）、大統領は就任日から退任日までの日数です。</li>
+      <li>明治への改元（1868年10月23日）より前の1868年も、明治元年として表示しています。</li>
+    </ul>
+    <p id="sources">出典：<a href="https://www.kantei.go.jp/jp/rekidainaikaku/" target="_blank" rel="noopener">首相官邸「歴代内閣」</a>、<a href="https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_time_in_office" target="_blank" rel="noopener">List of presidents of the United States by time in office</a></p>
+  </footer>
+</main>
+
+<div class="tip" id="tip" role="tooltip" hidden></div>
+
+<script type="module">
+/*@@TIMELINE@@*/
+
+const DATA = /*@@DATA@@*/null;
+const model = buildModel({ pmRows: DATA.pm, usRows: DATA.us, eraRows: DATA.eras, asOf: DATA.asOf });
+
+const $ = (s) => document.querySelector(s);
+const chart = $('#chart');
+const dock = $('#dock');
+const tip = $('#tip');
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+const svgStyle = document.createElement('style');
+document.head.appendChild(svgStyle);
+
+let g = null;
+let svg = null;
+let xhairs = [];
+let dotJP = null;
+let dotUS = null;
+let mouseY = null;
+let active = null;
+let pinned = false;
+
+// ---- 見出しの数字
+{
+  const jpPeople = new Set(model.pmRows.map((r) => r['氏名'])).size;
+  const usPeople = new Set(model.usRows.map((r) => r['氏名'])).size;
+  const first = (rows) => rows[0]['代'];
+  const last = (rows) => rows[rows.length - 1]['代'];
+  const items = [
+    ['データ', `${fmtDate(model.asOf)}時点`],
+    ['総理', `${jpPeople}人（第${first(model.pmRows)}〜${last(model.pmRows)}代）`],
+    ['大統領', `${usPeople}人（第${first(model.usRows)}〜${last(model.usRows)}代）`],
+  ];
+  const ul = $('#facts');
+  for (const [k, v] of items) {
+    const li = document.createElement('li');
+    const b = document.createElement('b');
+    b.textContent = k;
+    li.append(b, v);
+    ul.append(li);
+  }
+}
+
+// ---- 元号へのジャンプ
+const jumpButtons = model.eras.map((e, i) => {
+  const b = document.createElement('button');
+  b.type = 'button';
+  b.id = `jump-${i}`;
+  // スマホでは「明・大・昭・平・令」の1文字に縮める
+  const rest = document.createElement('span');
+  rest.className = 'rest';
+  rest.textContent = e.name.slice(1);
+  b.append(e.name.slice(0, 1), rest);
+  b.setAttribute('aria-label', e.name);
+  b.setAttribute('aria-current', 'false');
+  b.addEventListener('click', () => {
+    if (!svg) return;
+    const y = i === 0 ? g.top : g.yOf(e.start);
+    const r = svg.getBoundingClientRect();
+    const k = r.width / g.width;
+    // 移動後は読み取り欄が上に貼り付くので、その状態での横線の位置に元号の始まりを合わせる
+    const stuckTop = parseFloat(getComputedStyle(dock).top) || 0;
+    const stuck = stuckTop + dock.offsetHeight;
+    const line = stuck + (window.innerHeight - stuck) * 0.32;
+    // 読み取り欄が貼り付く位置より上には止めない（貼り付く前は横線の位置がずれるため）
+    const dockStart = window.scrollY + $('.masthead').getBoundingClientRect().bottom - stuckTop;
+    const target = Math.max(dockStart, window.scrollY + r.top + y * k - line + 1);
+    window.scrollTo({ top: Math.max(0, target), behavior: reduceMotion.matches ? 'auto' : 'smooth' });
+  });
+  $('#jump').append(b);
+  return b;
+});
+
+// ---- 描画
+function render() {
+  const w = Math.floor(chart.clientWidth);
+  if (!w) return;
+  clearActive();
+  g = layout(model, { width: w });
+  svgStyle.textContent = svgRules(g);
+  chart.innerHTML = renderSVG(model, g, { interactive: true });
+  svg = chart.querySelector('svg');
+  xhairs = [...svg.querySelectorAll('.xhair')];
+  dotJP = svg.querySelector('.xhair-dot.jp');
+  dotUS = svg.querySelector('.xhair-dot.us');
+  update();
+}
+
+let lastWidth = 0;
+new ResizeObserver(() => {
+  const w = Math.floor(chart.clientWidth);
+  if (w && w !== lastWidth) { lastWidth = w; render(); }
+}).observe(chart);
+
+// ---- 横線（読み取り位置）
+function readingLine() {
+  const top = dock.getBoundingClientRect().bottom;
+  return top + (window.innerHeight - top) * 0.32;
+}
+
+function setWho(el, text, none) {
+  el.textContent = text;
+  el.classList.toggle('none', none);
+}
+
+let frame = 0;
+function schedule() {
+  if (!frame) frame = requestAnimationFrame(() => { frame = 0; update(); });
+}
+
+function update() {
+  if (!svg) return;
+  const r = svg.getBoundingClientRect();
+  const k = g.width / r.width;
+  const cy = mouseY ?? readingLine();
+  const y = Math.max(g.top, Math.min(g.asOfY, (cy - r.top) * k));
+  const t = g.tOf(y);
+  const d = ymd(t);
+  for (const x of xhairs) x.setAttribute('transform', `translate(0 ${y.toFixed(1)})`);
+  $('#r-date').textContent = `${d.y}年${d.m}月`;
+  const w = wareki(t, model.eras);
+  $('#r-wareki').textContent = w.text;
+  const j = termAt(model.jp, t);
+  const u = termAt(model.us, t);
+  setWho($('#r-jp'), j ? j.name : (t < model.pre.end ? '内閣制度発足前' : '臨時兼任・代理の期間'), !j);
+  setWho($('#r-us'), u ? u.short : '—', !u);
+  dotJP.style.display = j ? '' : 'none';
+  dotUS.style.display = u ? '' : 'none';
+  jumpButtons.forEach((b, i) => b.setAttribute('aria-current', String(model.eras[i].name === w.era)));
+  for (const el of svg.querySelectorAll('.term.is-now')) el.classList.remove('is-now');
+  for (const x of [j, u]) if (x) svg.querySelector(`.term[data-id="${x.id}"]`)?.classList.add('is-now');
+}
+
+window.addEventListener('scroll', schedule, { passive: true });
+window.addEventListener('resize', schedule);
+chart.addEventListener('pointermove', (e) => {
+  if (e.pointerType !== 'mouse') return;
+  mouseY = e.clientY;
+  schedule();
+  if (active && !pinned) placeTip(e.clientX, e.clientY);
+});
+chart.addEventListener('pointerleave', (e) => {
+  if (e.pointerType !== 'mouse') return;
+  mouseY = null;
+  schedule();
+  if (!pinned) clearActive();
+});
+
+// ---- 強調とツールチップ
+function mark(id, cls) {
+  svg.querySelector(`.term[data-id="${id}"]`)?.classList.add(cls);
+}
+
+function clearActive() {
+  active = null;
+  pinned = false;
+  tip.hidden = true;
+  if (!svg) return;
+  svg.classList.remove('has-focus');
+  for (const el of svg.querySelectorAll('.is-focus, .is-counter')) el.classList.remove('is-focus', 'is-counter');
+}
+
+function activate(id) {
+  if (active === id) return;
+  clearActive();
+  active = id;
+  svg.classList.add('has-focus');
+  if (id === 'jp-pre') {
+    mark(id, 'is-focus');
+  } else {
+    const t = model.byId.get(id);
+    for (const x of model.persons.get(t.person).terms) mark(x.id, 'is-focus');
+    for (const c of t.counter) mark(c, 'is-counter');
+  }
+  fillTip(id);
+  tip.hidden = false;
+}
+
+function line(cls, text) {
+  const p = document.createElement('p');
+  p.className = cls;
+  p.textContent = text;
+  tip.append(p);
+  return p;
+}
+
+function fillTip(id) {
+  tip.replaceChildren();
+  if (id === 'jp-pre') {
+    const k = line('kicker', '');
+    const i = document.createElement('i');
+    i.className = 'jp';
+    k.append(i, '1868〜1885年');
+    line('name', '内閣制度発足前');
+    line('days', '1885年12月22日に内閣制度が発足し、伊藤博文が初代の内閣総理大臣に就任しました。それまでは太政官制のもとで政治が行われていました。');
+    return;
+  }
+  const t = model.byId.get(id);
+  const p = model.persons.get(t.person);
+  const k = line('kicker', '');
+  const i = document.createElement('i');
+  i.className = t.side;
+  k.append(i, `${daiText(t)}　${t.side === 'jp' ? '内閣総理大臣' : 'アメリカ合衆国大統領'}`);
+  line('name', t.name);
+  line('dates', `${fmtDate(t.start)} 〜 ${t.ongoing ? '在任中' : fmtDate(t.end)}`);
+  line('days', `在任 ${fmtNum(t.days)}日${t.ongoing ? `（${fmtDate(model.asOf)}時点）` : ''}`);
+  if (p.terms.length > 1) line('days', `通算 ${fmtNum(p.days)}日（${p.terms.length}回）`);
+  const names = [];
+  for (const c of t.counter) {
+    const x = model.byId.get(c);
+    const n = t.side === 'jp' ? x.short : x.name;
+    if (!names.includes(n)) names.push(n);
+  }
+  const w = line('with', names.join('、') || '—');
+  const head = document.createElement('span');
+  head.textContent = t.side === 'jp' ? '同じ時期の米大統領' : '同じ時期の日本の総理';
+  w.prepend(head);
+}
+
+function placeTip(x, y, side) {
+  const pad = 14;
+  const tw = tip.offsetWidth;
+  const th = tip.offsetHeight;
+  let left = side === 'jp' ? x - tw - pad : x + pad;
+  if (side === undefined && left + tw > window.innerWidth - 8) left = x - tw - pad;
+  left = Math.max(8, Math.min(window.innerWidth - tw - 8, left));
+  let top = y + pad;
+  if (top + th > window.innerHeight - 8) top = y - th - pad;
+  top = Math.max(dock.getBoundingClientRect().bottom + 6, top);
+  tip.style.left = `${left}px`;
+  tip.style.top = `${top}px`;
+}
+
+function placeTipAt(el) {
+  const target = el.querySelector('.label') || el;
+  const r = target.getBoundingClientRect();
+  const side = el.classList.contains('us') ? 'us' : 'jp';
+  placeTip(side === 'jp' ? r.left : r.right, r.top, side);
+}
+
+function termFrom(e) {
+  const hit = e.target.closest('[data-id]');
+  if (!hit || !chart.contains(hit)) return null;
+  return svg.querySelector(`.term[data-id="${hit.dataset.id}"]`);
+}
+
+chart.addEventListener('pointerover', (e) => {
+  if (e.pointerType !== 'mouse' || pinned) return;
+  const el = termFrom(e);
+  if (el) { activate(el.dataset.id); placeTip(e.clientX, e.clientY); }
+});
+chart.addEventListener('pointerout', (e) => {
+  if (e.pointerType !== 'mouse' || pinned) return;
+  const to = e.relatedTarget && e.relatedTarget.closest ? e.relatedTarget.closest('[data-id]') : null;
+  if (!to) clearActive();
+});
+chart.addEventListener('click', (e) => {
+  const el = termFrom(e);
+  if (!el) { clearActive(); return; }
+  if (pinned && active === el.dataset.id) { clearActive(); return; }
+  activate(el.dataset.id);
+  pinned = true;
+  placeTipAt(el);
+});
+chart.addEventListener('focusin', (e) => {
+  const el = e.target.closest('.term');
+  if (!el) return;
+  activate(el.dataset.id);
+  placeTipAt(el);
+});
+chart.addEventListener('focusout', (e) => {
+  if (!chart.contains(e.relatedTarget)) clearActive();
+});
+document.addEventListener('pointerdown', (e) => {
+  if (pinned && !chart.contains(e.target)) clearActive();
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') clearActive();
+});
+window.addEventListener('scroll', () => { if (pinned) clearActive(); }, { passive: true });
+
+// ---- 一覧表
+function buildTable(rows, side) {
+  const sec = document.createElement('section');
+  const h = document.createElement('h2');
+  const i = document.createElement('i');
+  i.style.background = `var(--${side})`;
+  h.append(i, side === 'jp' ? '日本の内閣総理大臣' : 'アメリカ合衆国大統領');
+  const box = document.createElement('div');
+  box.className = 'scroll';
+  const table = document.createElement('table');
+  const thead = table.createTHead().insertRow();
+  for (const [label, cls] of [['代', 'num'], ['氏名', ''], ['就任日', ''], ['退任日', ''], ['在任日数', 'num']]) {
+    const th = document.createElement('th');
+    th.textContent = label;
+    if (cls) th.className = cls;
+    th.scope = 'col';
+    thead.append(th);
+  }
+  const tbody = table.createTBody();
+  let prev = null;
+  for (const r of rows) {
+    const s = toTime(r['就任日']);
+    const ongoing = !r['退任日'];
+    const e = ongoing ? model.asOf : toTime(r['退任日']);
+    const days = side === 'jp' ? Math.round((e - s) / 86400000) + 1 : Math.round((e - s) / 86400000);
+    const tr = tbody.insertRow();
+    if (prev === r['氏名']) tr.className = 'cont';
+    prev = r['氏名'];
+    const cells = [
+      [r['代'], 'num'],
+      [r['氏名'], ''],
+      [r['就任日'].replaceAll('-', '/'), ''],
+      [ongoing ? '在任中' : r['退任日'].replaceAll('-', '/'), ''],
+      [fmtNum(days), 'num'],
+    ];
+    for (const [text, cls] of cells) {
+      const td = tr.insertCell();
+      td.textContent = text;
+      if (cls) td.className = cls;
+    }
+  }
+  box.append(table);
+  sec.append(h, box);
+  return sec;
+}
+$('#tables').append(buildTable(model.pmRows, 'jp'), buildTable(model.usRows, 'us'));
+</script>

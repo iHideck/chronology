@@ -1,0 +1,862 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="tl" viewBox="0 0 760 3982" width="760" height="3982" role="img" aria-labelledby="tl-title" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo2NzE4NjAyMC00ZjhhLTRkZTUtYTFjZi1jOWExMzM2YTM3NDkAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaIb4z2fVxXSc4gLBTPjczMcAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo1M2Q2MmQ0YS1mMDI3LTRlNDgtYWZhZS01YmM0YTUyNjdhY2ZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo1oFARMoYhzgrs16LIA1szgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggv9ltlcO7dUQVhcwnJFm0+qe5ICrK97QUxnVCvDNNVxqkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaCrPMn3GaiRABdNzahcaLLUAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCAliAU/dyrikpCHiYQnhBXiLitrGRJEckaM+Ctc+g4TmmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjJZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjY3MTg2MDIwLTRmOGEtNGRlNS1hMWNmLWM5YTEzMzZhMzc0OS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjI5MjY5N2VjLTdiYTItNDY3My1iNWFlLTk3ZjQwMjZlMmI3ZXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCC/2W2Vw7t1RBWFzCckWbT6p7kgKsr3tBTGdUK8M01XGqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggY7WER27+f//pmtsGAW7qIEqtDE5O0zF6C49bEkqq01iiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggakLNFOxG3i5CQymeO9dZYF9qIIQcdonB3PTLRa8vq+l0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQE5iBf34lL8YsuOUckSDAnePCRjHadysMemkF3SX/iqZL47SlSyBZ1zCp6YdwyqMG76EceXNoJD8n2dlTHLkXyk=</c2pa:manifest></metadata>
+<title id="tl-title">歴代総理大臣・歴代米大統領</title>
+<style>
+.tl{--paper:#fcfcfd;--ink:#1c2029;--ink2:#4b5260;--muted:#687080;--rule:#e8eaef;--rule2:#c3c8d2;--spine-a:#f0f1f5;--spine-b:#e6e8ef;--jp:#d4452c;--us:#2c5aa0;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .bar.jp{fill:var(--jp)}
+.tl .bar.us{fill:var(--us)}
+.tl .stop-jp{stop-color:var(--jp)}
+.tl .stop-us{stop-color:var(--us)}
+.tl .bar-pre{fill:url(#tl-hatch)}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .pre-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+</defs>
+<rect class="bg" x="0" y="0" width="760" height="3982" rx="14"/>
+<rect class="bar jp" x="313" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="298" y="44" text-anchor="end">日本の内閣総理大臣</text>
+<rect class="bar us" x="433" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="462" y="44">アメリカ合衆国大統領</text>
+<text class="spine-h" x="380" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="380" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="334" y="70" width="92" height="1069.8"/>
+<rect class="spine-b" x="334" y="1139.8" width="92" height="345.7"/>
+<rect class="spine-a" x="334" y="1485.5" width="92" height="1489"/>
+<rect class="spine-b" x="334" y="2974.5" width="92" height="727.4"/>
+<rect class="spine-a" x="334" y="3701.9" width="92" height="209.5"/>
+<line class="grid" x1="0" x2="760" y1="358" y2="358"/>
+<line class="grid" x1="0" x2="760" y1="598" y2="598"/>
+<line class="grid" x1="0" x2="760" y1="838" y2="838"/>
+<line class="grid" x1="0" x2="760" y1="1078" y2="1078"/>
+<line class="grid" x1="0" x2="760" y1="1318" y2="1318"/>
+<line class="grid" x1="0" x2="760" y1="1558" y2="1558"/>
+<line class="grid" x1="0" x2="760" y1="1798" y2="1798"/>
+<line class="grid" x1="0" x2="760" y1="2038" y2="2038"/>
+<line class="grid" x1="0" x2="760" y1="2278" y2="2278"/>
+<line class="grid" x1="0" x2="760" y1="2518" y2="2518"/>
+<line class="grid" x1="0" x2="760" y1="2758" y2="2758"/>
+<line class="grid" x1="0" x2="760" y1="3238" y2="3238"/>
+<line class="grid" x1="0" x2="760" y1="3478" y2="3478"/>
+<line class="era-line" x1="0" x2="760" y1="89.5" y2="89.5"/>
+<line class="era-line" x1="0" x2="760" y1="1139.8" y2="1139.8"/>
+<line class="era-line" x1="0" x2="760" y1="1485.5" y2="1485.5"/>
+<line class="era-line" x1="0" x2="760" y1="2974.5" y2="2974.5"/>
+<line class="era-line" x1="0" x2="760" y1="3701.9" y2="3701.9"/>
+<path class="tick" d="M334 70h3M426 70h-3"/>
+<path class="tick" d="M334 94h3M426 94h-3"/>
+<path class="tick" d="M334 118h9M426 118h-9"/>
+<path class="tick" d="M334 142h3M426 142h-3"/>
+<path class="tick" d="M334 166h3M426 166h-3"/>
+<path class="tick" d="M334 190.1h3M426 190.1h-3"/>
+<path class="tick" d="M334 214h3M426 214h-3"/>
+<path class="tick" d="M334 238h6M426 238h-6"/>
+<path class="tick" d="M334 262h3M426 262h-3"/>
+<path class="tick" d="M334 286.1h3M426 286.1h-3"/>
+<path class="tick" d="M334 310h3M426 310h-3"/>
+<path class="tick" d="M334 334h3M426 334h-3"/>
+<path class="tick" d="M334 358h9M426 358h-9"/>
+<path class="tick" d="M334 382.1h3M426 382.1h-3"/>
+<path class="tick" d="M334 406h3M426 406h-3"/>
+<path class="tick" d="M334 430h3M426 430h-3"/>
+<path class="tick" d="M334 454h3M426 454h-3"/>
+<path class="tick" d="M334 478.1h6M426 478.1h-6"/>
+<path class="tick" d="M334 502h3M426 502h-3"/>
+<path class="tick" d="M334 526h3M426 526h-3"/>
+<path class="tick" d="M334 550h3M426 550h-3"/>
+<path class="tick" d="M334 574.1h3M426 574.1h-3"/>
+<path class="tick" d="M334 598h9M426 598h-9"/>
+<path class="tick" d="M334 622h3M426 622h-3"/>
+<path class="tick" d="M334 646h3M426 646h-3"/>
+<path class="tick" d="M334 670.1h3M426 670.1h-3"/>
+<path class="tick" d="M334 694h3M426 694h-3"/>
+<path class="tick" d="M334 718h6M426 718h-6"/>
+<path class="tick" d="M334 742h3M426 742h-3"/>
+<path class="tick" d="M334 766.1h3M426 766.1h-3"/>
+<path class="tick" d="M334 790h3M426 790h-3"/>
+<path class="tick" d="M334 814h3M426 814h-3"/>
+<path class="tick" d="M334 838h9M426 838h-9"/>
+<path class="tick" d="M334 862h3M426 862h-3"/>
+<path class="tick" d="M334 886h3M426 886h-3"/>
+<path class="tick" d="M334 910h3M426 910h-3"/>
+<path class="tick" d="M334 934h3M426 934h-3"/>
+<path class="tick" d="M334 958h6M426 958h-6"/>
+<path class="tick" d="M334 982h3M426 982h-3"/>
+<path class="tick" d="M334 1006h3M426 1006h-3"/>
+<path class="tick" d="M334 1030h3M426 1030h-3"/>
+<path class="tick" d="M334 1054h3M426 1054h-3"/>
+<path class="tick" d="M334 1078h9M426 1078h-9"/>
+<path class="tick" d="M334 1102h3M426 1102h-3"/>
+<path class="tick" d="M334 1126h3M426 1126h-3"/>
+<path class="tick" d="M334 1150h3M426 1150h-3"/>
+<path class="tick" d="M334 1174h3M426 1174h-3"/>
+<path class="tick" d="M334 1198h6M426 1198h-6"/>
+<path class="tick" d="M334 1222h3M426 1222h-3"/>
+<path class="tick" d="M334 1246h3M426 1246h-3"/>
+<path class="tick" d="M334 1270h3M426 1270h-3"/>
+<path class="tick" d="M334 1294h3M426 1294h-3"/>
+<path class="tick" d="M334 1318h9M426 1318h-9"/>
+<path class="tick" d="M334 1342h3M426 1342h-3"/>
+<path class="tick" d="M334 1366h3M426 1366h-3"/>
+<path class="tick" d="M334 1390h3M426 1390h-3"/>
+<path class="tick" d="M334 1414h3M426 1414h-3"/>
+<path class="tick" d="M334 1438h6M426 1438h-6"/>
+<path class="tick" d="M334 1462h3M426 1462h-3"/>
+<path class="tick" d="M334 1486h3M426 1486h-3"/>
+<path class="tick" d="M334 1510h3M426 1510h-3"/>
+<path class="tick" d="M334 1534h3M426 1534h-3"/>
+<path class="tick" d="M334 1558h9M426 1558h-9"/>
+<path class="tick" d="M334 1582h3M426 1582h-3"/>
+<path class="tick" d="M334 1606h3M426 1606h-3"/>
+<path class="tick" d="M334 1630h3M426 1630h-3"/>
+<path class="tick" d="M334 1654h3M426 1654h-3"/>
+<path class="tick" d="M334 1678h6M426 1678h-6"/>
+<path class="tick" d="M334 1702h3M426 1702h-3"/>
+<path class="tick" d="M334 1726h3M426 1726h-3"/>
+<path class="tick" d="M334 1750h3M426 1750h-3"/>
+<path class="tick" d="M334 1774h3M426 1774h-3"/>
+<path class="tick" d="M334 1798h9M426 1798h-9"/>
+<path class="tick" d="M334 1822h3M426 1822h-3"/>
+<path class="tick" d="M334 1846h3M426 1846h-3"/>
+<path class="tick" d="M334 1870h3M426 1870h-3"/>
+<path class="tick" d="M334 1894h3M426 1894h-3"/>
+<path class="tick" d="M334 1918h6M426 1918h-6"/>
+<path class="tick" d="M334 1942h3M426 1942h-3"/>
+<path class="tick" d="M334 1966h3M426 1966h-3"/>
+<path class="tick" d="M334 1990h3M426 1990h-3"/>
+<path class="tick" d="M334 2014h3M426 2014h-3"/>
+<path class="tick" d="M334 2038h9M426 2038h-9"/>
+<path class="tick" d="M334 2062h3M426 2062h-3"/>
+<path class="tick" d="M334 2086h3M426 2086h-3"/>
+<path class="tick" d="M334 2110h3M426 2110h-3"/>
+<path class="tick" d="M334 2134h3M426 2134h-3"/>
+<path class="tick" d="M334 2158h6M426 2158h-6"/>
+<path class="tick" d="M334 2182h3M426 2182h-3"/>
+<path class="tick" d="M334 2206h3M426 2206h-3"/>
+<path class="tick" d="M334 2230h3M426 2230h-3"/>
+<path class="tick" d="M334 2254h3M426 2254h-3"/>
+<path class="tick" d="M334 2278h9M426 2278h-9"/>
+<path class="tick" d="M334 2302h3M426 2302h-3"/>
+<path class="tick" d="M334 2326h3M426 2326h-3"/>
+<path class="tick" d="M334 2350h3M426 2350h-3"/>
+<path class="tick" d="M334 2374h3M426 2374h-3"/>
+<path class="tick" d="M334 2398h6M426 2398h-6"/>
+<path class="tick" d="M334 2422h3M426 2422h-3"/>
+<path class="tick" d="M334 2446h3M426 2446h-3"/>
+<path class="tick" d="M334 2470h3M426 2470h-3"/>
+<path class="tick" d="M334 2494h3M426 2494h-3"/>
+<path class="tick" d="M334 2518h9M426 2518h-9"/>
+<path class="tick" d="M334 2542h3M426 2542h-3"/>
+<path class="tick" d="M334 2566h3M426 2566h-3"/>
+<path class="tick" d="M334 2590h3M426 2590h-3"/>
+<path class="tick" d="M334 2614h3M426 2614h-3"/>
+<path class="tick" d="M334 2638h6M426 2638h-6"/>
+<path class="tick" d="M334 2662h3M426 2662h-3"/>
+<path class="tick" d="M334 2686h3M426 2686h-3"/>
+<path class="tick" d="M334 2710h3M426 2710h-3"/>
+<path class="tick" d="M334 2734h3M426 2734h-3"/>
+<path class="tick" d="M334 2758h9M426 2758h-9"/>
+<path class="tick" d="M334 2782h3M426 2782h-3"/>
+<path class="tick" d="M334 2806h3M426 2806h-3"/>
+<path class="tick" d="M334 2830h3M426 2830h-3"/>
+<path class="tick" d="M334 2854h3M426 2854h-3"/>
+<path class="tick" d="M334 2878h6M426 2878h-6"/>
+<path class="tick" d="M334 2902h3M426 2902h-3"/>
+<path class="tick" d="M334 2926h3M426 2926h-3"/>
+<path class="tick" d="M334 2950h3M426 2950h-3"/>
+<path class="tick" d="M334 2974h3M426 2974h-3"/>
+<path class="tick" d="M334 2998h9M426 2998h-9"/>
+<path class="tick" d="M334 3022h3M426 3022h-3"/>
+<path class="tick" d="M334 3046h3M426 3046h-3"/>
+<path class="tick" d="M334 3070h3M426 3070h-3"/>
+<path class="tick" d="M334 3094h3M426 3094h-3"/>
+<path class="tick" d="M334 3118h6M426 3118h-6"/>
+<path class="tick" d="M334 3142h3M426 3142h-3"/>
+<path class="tick" d="M334 3166h3M426 3166h-3"/>
+<path class="tick" d="M334 3190h3M426 3190h-3"/>
+<path class="tick" d="M334 3214h3M426 3214h-3"/>
+<path class="tick" d="M334 3238h9M426 3238h-9"/>
+<path class="tick" d="M334 3262h3M426 3262h-3"/>
+<path class="tick" d="M334 3286h3M426 3286h-3"/>
+<path class="tick" d="M334 3310h3M426 3310h-3"/>
+<path class="tick" d="M334 3334h3M426 3334h-3"/>
+<path class="tick" d="M334 3358.1h6M426 3358.1h-6"/>
+<path class="tick" d="M334 3382h3M426 3382h-3"/>
+<path class="tick" d="M334 3406h3M426 3406h-3"/>
+<path class="tick" d="M334 3430h3M426 3430h-3"/>
+<path class="tick" d="M334 3454.1h3M426 3454.1h-3"/>
+<path class="tick" d="M334 3478h9M426 3478h-9"/>
+<path class="tick" d="M334 3502h3M426 3502h-3"/>
+<path class="tick" d="M334 3526h3M426 3526h-3"/>
+<path class="tick" d="M334 3550.1h3M426 3550.1h-3"/>
+<path class="tick" d="M334 3574h3M426 3574h-3"/>
+<path class="tick" d="M334 3598h6M426 3598h-6"/>
+<path class="tick" d="M334 3622h3M426 3622h-3"/>
+<path class="tick" d="M334 3646.1h3M426 3646.1h-3"/>
+<path class="tick" d="M334 3670h3M426 3670h-3"/>
+<path class="tick" d="M334 3694h3M426 3694h-3"/>
+<path class="tick" d="M334 3718h9M426 3718h-9"/>
+<path class="tick" d="M334 3742.1h3M426 3742.1h-3"/>
+<path class="tick" d="M334 3766h3M426 3766h-3"/>
+<path class="tick" d="M334 3790h3M426 3790h-3"/>
+<path class="tick" d="M334 3814h3M426 3814h-3"/>
+<path class="tick" d="M334 3838.1h6M426 3838.1h-6"/>
+<path class="tick" d="M334 3862h3M426 3862h-3"/>
+<path class="tick" d="M334 3886h3M426 3886h-3"/>
+<path class="tick" d="M334 3910h3M426 3910h-3"/>
+<text class="dec-y" x="380" y="362.5" text-anchor="middle">1880</text>
+<text class="dec-w" x="380" y="376" text-anchor="middle">明治13年</text>
+<text class="dec-y" x="380" y="602.5" text-anchor="middle">1890</text>
+<text class="dec-w" x="380" y="616" text-anchor="middle">明治23年</text>
+<text class="dec-y" x="380" y="842.5" text-anchor="middle">1900</text>
+<text class="dec-w" x="380" y="856" text-anchor="middle">明治33年</text>
+<text class="dec-y" x="380" y="1082.5" text-anchor="middle">1910</text>
+<text class="dec-w" x="380" y="1096" text-anchor="middle">明治43年</text>
+<text class="dec-y" x="380" y="1322.5" text-anchor="middle">1920</text>
+<text class="dec-w" x="380" y="1336" text-anchor="middle">大正9年</text>
+<text class="dec-y" x="380" y="1562.5" text-anchor="middle">1930</text>
+<text class="dec-w" x="380" y="1576" text-anchor="middle">昭和5年</text>
+<text class="dec-y" x="380" y="1802.5" text-anchor="middle">1940</text>
+<text class="dec-w" x="380" y="1816" text-anchor="middle">昭和15年</text>
+<text class="dec-y" x="380" y="2042.5" text-anchor="middle">1950</text>
+<text class="dec-w" x="380" y="2056" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="380" y="2282.5" text-anchor="middle">1960</text>
+<text class="dec-w" x="380" y="2296" text-anchor="middle">昭和35年</text>
+<text class="dec-y" x="380" y="2522.5" text-anchor="middle">1970</text>
+<text class="dec-w" x="380" y="2536" text-anchor="middle">昭和45年</text>
+<text class="dec-y" x="380" y="2762.5" text-anchor="middle">1980</text>
+<text class="dec-w" x="380" y="2776" text-anchor="middle">昭和55年</text>
+<text class="dec-y" x="380" y="3242.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="380" y="3256" text-anchor="middle">平成12年</text>
+<text class="dec-y" x="380" y="3482.5" text-anchor="middle">2010</text>
+<text class="dec-w" x="380" y="3496" text-anchor="middle">平成22年</text>
+<text class="era-name" x="380" y="112.5" text-anchor="middle">明治</text>
+<text class="era-date" x="380" y="126.5" text-anchor="middle">1868.10.23</text>
+<text class="era-name" x="380" y="1162.8" text-anchor="middle">大正</text>
+<text class="era-date" x="380" y="1176.8" text-anchor="middle">1912.7.30</text>
+<text class="era-name" x="380" y="1508.5" text-anchor="middle">昭和</text>
+<text class="era-date" x="380" y="1522.5" text-anchor="middle">1926.12.25</text>
+<text class="era-name" x="380" y="2997.5" text-anchor="middle">平成</text>
+<text class="era-date" x="380" y="3011.5" text-anchor="middle">1989.1.8</text>
+<text class="era-name" x="380" y="3724.9" text-anchor="middle">令和</text>
+<text class="era-date" x="380" y="3738.9" text-anchor="middle">2019.5.1</text>
+<line class="asof-line" x1="309" x2="451" y1="3881.9" y2="3881.9"/>
+<text class="era-date" x="380" y="3895.9" text-anchor="middle">2026.10.30</text>
+<text class="era-date" x="380" y="3908.9" text-anchor="middle">時点</text>
+<g class="term pre" data-id="jp-pre">
+<title>1885年12月22日に内閣制度が発足し、伊藤博文が初代内閣総理大臣に就任するまでは太政官制</title>
+<rect class="hit" x="193" y="70" width="134" height="430.4"/>
+<rect class="bar-pre" x="313" y="70" width="14" height="430.4" rx="3"/>
+<text class="label" x="298" y="83.4" text-anchor="end"><tspan class="name pre-name">内閣制度発足前</tspan></text>
+</g>
+<g class="term jp" data-id="jp0" data-person="jp:伊藤博文">
+<title>第1代内閣総理大臣 伊藤博文　1885年12月22日〜1888年4月30日（861日）</title>
+<rect class="bar jp" x="313" y="502.4" width="14" height="54.5" rx="3"/>
+<text class="label" x="298" y="514.7" text-anchor="end"><tspan class="yrs">1885–1888</tspan><tspan class="name" dx="6">伊藤博文</tspan></text>
+</g>
+<g class="term jp" data-id="jp1" data-person="jp:黒田清隆">
+<title>第2代内閣総理大臣 黒田清隆　1888年4月30日〜1889年10月25日（544日）</title>
+<rect class="bar jp" x="313" y="558.9" width="14" height="33.7" rx="3"/>
+<text class="label" x="298" y="571.3" text-anchor="end"><tspan class="yrs">1888–1889</tspan><tspan class="name" dx="6">黒田清隆</tspan></text>
+</g>
+<g class="term jp" data-id="jp2" data-person="jp:山縣有朋">
+<title>第3代内閣総理大臣 山縣有朋　1889年12月24日〜1891年5月6日（499日）</title>
+<rect class="bar jp" x="313" y="598.5" width="14" height="30.7" rx="3"/>
+<text class="label" x="298" y="610.9" text-anchor="end"><tspan class="yrs">1889–1891</tspan><tspan class="name" dx="6">山縣有朋</tspan></text>
+</g>
+<g class="term jp" data-id="jp3" data-person="jp:松方正義">
+<title>第4代内閣総理大臣 松方正義　1891年5月6日〜1892年8月8日（461日）</title>
+<rect class="bar jp" x="313" y="631.2" width="14" height="28.2" rx="3"/>
+<text class="label" x="298" y="643.6" text-anchor="end"><tspan class="yrs">1891–1892</tspan><tspan class="name" dx="6">松方正義</tspan></text>
+</g>
+<g class="term jp" data-id="jp4" data-person="jp:伊藤博文">
+<title>第5代内閣総理大臣 伊藤博文　1892年8月8日〜1896年8月31日（1,485日）</title>
+<rect class="bar jp" x="313" y="661.5" width="14" height="95.5" rx="3"/>
+<text class="label" x="298" y="673.8" text-anchor="end"><tspan class="yrs">1892–1896</tspan><tspan class="name" dx="6">伊藤博文</tspan></text>
+</g>
+<g class="term jp" data-id="jp5" data-person="jp:松方正義">
+<title>第6代内閣総理大臣 松方正義　1896年9月18日〜1898年1月12日（482日）</title>
+<rect class="bar jp" x="313" y="760.2" width="14" height="29.6" rx="3"/>
+<text class="label" x="298" y="772.5" text-anchor="end"><tspan class="yrs">1896–1898</tspan><tspan class="name" dx="6">松方正義</tspan></text>
+</g>
+<g class="term jp" data-id="jp6" data-person="jp:伊藤博文">
+<title>第7代内閣総理大臣 伊藤博文　1898年1月12日〜1898年6月30日（170日）</title>
+<rect class="bar jp" x="313" y="791.8" width="14" height="9.1" rx="3"/>
+<path class="leader" d="M311.5 796.3h-4L302 790.2h-2"/>
+<text class="label" x="298" y="795" text-anchor="end"><tspan class="yrs">1898</tspan><tspan class="name" dx="6">伊藤博文</tspan></text>
+</g>
+<g class="term jp" data-id="jp7" data-person="jp:大隈重信">
+<title>第8代内閣総理大臣 大隈重信　1898年6月30日〜1898年11月8日（132日）</title>
+<rect class="bar jp" x="313" y="802.9" width="14" height="6.6" rx="3"/>
+<text class="label" x="298" y="812" text-anchor="end"><tspan class="yrs">1898</tspan><tspan class="name" dx="6">大隈重信</tspan></text>
+</g>
+<g class="term jp" data-id="jp8" data-person="jp:山縣有朋">
+<title>第9代内閣総理大臣 山縣有朋　1898年11月8日〜1900年10月19日（711日）</title>
+<rect class="bar jp" x="313" y="811.5" width="14" height="44.7" rx="3"/>
+<path class="leader" d="M311.5 819h-4L302 824.2h-2"/>
+<text class="label" x="298" y="829" text-anchor="end"><tspan class="yrs">1898–1900</tspan><tspan class="name" dx="6">山縣有朋</tspan></text>
+</g>
+<g class="term jp" data-id="jp9" data-person="jp:伊藤博文">
+<title>第10代内閣総理大臣 伊藤博文　1900年10月19日〜1901年5月10日（204日）</title>
+<rect class="bar jp" x="313" y="858.1" width="14" height="11.3" rx="3"/>
+<text class="label" x="298" y="868.5" text-anchor="end"><tspan class="yrs">1900–1901</tspan><tspan class="name" dx="6">伊藤博文</tspan></text>
+</g>
+<g class="term jp" data-id="jp10" data-person="jp:桂太郎">
+<title>第11代内閣総理大臣 桂太郎　1901年6月2日〜1906年1月7日（1,681日）</title>
+<rect class="bar jp" x="313" y="873" width="14" height="108.4" rx="3"/>
+<text class="label" x="298" y="885.5" text-anchor="end"><tspan class="yrs">1901–1906</tspan><tspan class="name" dx="6">桂太郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp11" data-person="jp:西園寺公望">
+<title>第12代内閣総理大臣 西園寺公望　1906年1月7日〜1908年7月14日（920日）</title>
+<rect class="bar jp" x="313" y="983.4" width="14" height="58.4" rx="3"/>
+<text class="label" x="298" y="995.7" text-anchor="end"><tspan class="yrs">1906–1908</tspan><tspan class="name" dx="6">西園寺公望</tspan></text>
+</g>
+<g class="term jp" data-id="jp12" data-person="jp:桂太郎">
+<title>第13代内閣総理大臣 桂太郎　1908年7月14日〜1911年8月30日（1,143日）</title>
+<rect class="bar jp" x="313" y="1043.8" width="14" height="73" rx="3"/>
+<text class="label" x="298" y="1056.1" text-anchor="end"><tspan class="yrs">1908–1911</tspan><tspan class="name" dx="6">桂太郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp13" data-person="jp:西園寺公望">
+<title>第14代内閣総理大臣 西園寺公望　1911年8月30日〜1912年12月21日（480日）</title>
+<rect class="bar jp" x="313" y="1118.8" width="14" height="29.5" rx="3"/>
+<text class="label" x="298" y="1131.2" text-anchor="end"><tspan class="yrs">1911–1912</tspan><tspan class="name" dx="6">西園寺公望</tspan></text>
+</g>
+<g class="term jp" data-id="jp14" data-person="jp:桂太郎">
+<title>第15代内閣総理大臣 桂太郎　1912年12月21日〜1913年2月20日（62日）</title>
+<rect class="bar jp" x="313" y="1149.8" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M311.5 1151.3h-4L302 1148h-2"/>
+<text class="label" x="298" y="1152.9" text-anchor="end"><tspan class="yrs">1912–1913</tspan><tspan class="name" dx="6">桂太郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp15" data-person="jp:山本権兵衛">
+<title>第16代内閣総理大臣 山本権兵衛　1913年2月20日〜1914年4月16日（421日）</title>
+<rect class="bar jp" x="313" y="1154.3" width="14" height="25.6" rx="3"/>
+<path class="leader" d="M311.5 1161.8h-4L302 1165h-2"/>
+<text class="label" x="298" y="1169.9" text-anchor="end"><tspan class="yrs">1913–1914</tspan><tspan class="name" dx="6">山本権兵衛</tspan></text>
+</g>
+<g class="term jp" data-id="jp16" data-person="jp:大隈重信">
+<title>第17代内閣総理大臣 大隈重信　1914年4月16日〜1916年10月9日（908日）</title>
+<rect class="bar jp" x="313" y="1181.9" width="14" height="57.6" rx="3"/>
+<text class="label" x="298" y="1194.2" text-anchor="end"><tspan class="yrs">1914–1916</tspan><tspan class="name" dx="6">大隈重信</tspan></text>
+</g>
+<g class="term jp" data-id="jp17" data-person="jp:寺内正毅">
+<title>第18代内閣総理大臣 寺内正毅　1916年10月9日〜1918年9月29日（721日）</title>
+<rect class="bar jp" x="313" y="1241.5" width="14" height="45.3" rx="3"/>
+<text class="label" x="298" y="1253.8" text-anchor="end"><tspan class="yrs">1916–1918</tspan><tspan class="name" dx="6">寺内正毅</tspan></text>
+</g>
+<g class="term jp" data-id="jp18" data-person="jp:原敬">
+<title>第19代内閣総理大臣 原敬　1918年9月29日〜1921年11月4日（1,133日）</title>
+<rect class="bar jp" x="313" y="1288.8" width="14" height="72.4" rx="3"/>
+<text class="label" x="298" y="1301.2" text-anchor="end"><tspan class="yrs">1918–1921</tspan><tspan class="name" dx="6">原敬</tspan></text>
+</g>
+<g class="term jp" data-id="jp19" data-person="jp:高橋是清">
+<title>第20代内閣総理大臣 高橋是清　1921年11月13日〜1922年6月12日（212日）</title>
+<rect class="bar jp" x="313" y="1363.8" width="14" height="11.9" rx="3"/>
+<text class="label" x="298" y="1373.8" text-anchor="end"><tspan class="yrs">1921–1922</tspan><tspan class="name" dx="6">高橋是清</tspan></text>
+</g>
+<g class="term jp" data-id="jp20" data-person="jp:加藤友三郎">
+<title>第21代内閣総理大臣 加藤友三郎　1922年6月12日〜1923年8月24日（439日）</title>
+<rect class="bar jp" x="313" y="1377.6" width="14" height="26.8" rx="3"/>
+<text class="label" x="298" y="1390.8" text-anchor="end"><tspan class="yrs">1922–1923</tspan><tspan class="name" dx="6">加藤友三郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp21" data-person="jp:山本権兵衛">
+<title>第22代内閣総理大臣 山本権兵衛　1923年9月2日〜1924年1月7日（128日）</title>
+<rect class="bar jp" x="313" y="1407" width="14" height="6.3" rx="3"/>
+<path class="leader" d="M311.5 1410.2h-4L302 1403.9h-2"/>
+<text class="label" x="298" y="1408.8" text-anchor="end"><tspan class="yrs">1923–1924</tspan><tspan class="name" dx="6">山本権兵衛</tspan></text>
+</g>
+<g class="term jp" data-id="jp22" data-person="jp:清浦奎吾">
+<title>第23代内閣総理大臣 清浦奎吾　1924年1月7日〜1924年6月11日（157日）</title>
+<rect class="bar jp" x="313" y="1415.4" width="14" height="8.3" rx="3"/>
+<text class="label" x="298" y="1425.8" text-anchor="end"><tspan class="yrs">1924</tspan><tspan class="name" dx="6">清浦奎吾</tspan></text>
+</g>
+<g class="term jp" data-id="jp23" data-person="jp:加藤高明">
+<title>第24代内閣総理大臣 加藤高明　1924年6月11日〜1926年1月28日（597日）</title>
+<rect class="bar jp" x="313" y="1425.6" width="14" height="37.2" rx="3"/>
+<path class="leader" d="M311.5 1433.1h-4L302 1437.9h-2"/>
+<text class="label" x="298" y="1442.8" text-anchor="end"><tspan class="yrs">1924–1926</tspan><tspan class="name" dx="6">加藤高明</tspan></text>
+</g>
+<g class="term jp" data-id="jp24" data-person="jp:若槻禮次郎">
+<title>第25代内閣総理大臣 若槻禮次郎　1926年1月30日〜1927年4月20日（446日）</title>
+<rect class="bar jp" x="313" y="1464.9" width="14" height="27.2" rx="3"/>
+<text class="label" x="298" y="1477.3" text-anchor="end"><tspan class="yrs">1926–1927</tspan><tspan class="name" dx="6">若槻禮次郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp25" data-person="jp:田中義一">
+<title>第26代内閣総理大臣 田中義一　1927年4月20日〜1929年7月2日（805日）</title>
+<rect class="bar jp" x="313" y="1494.1" width="14" height="50.8" rx="3"/>
+<text class="label" x="298" y="1506.5" text-anchor="end"><tspan class="yrs">1927–1929</tspan><tspan class="name" dx="6">田中義一</tspan></text>
+</g>
+<g class="term jp" data-id="jp26" data-person="jp:濱口雄幸">
+<title>第27代内閣総理大臣 濱口雄幸　1929年7月2日〜1931年4月14日（652日）</title>
+<rect class="bar jp" x="313" y="1547" width="14" height="40.8" rx="3"/>
+<text class="label" x="298" y="1559.3" text-anchor="end"><tspan class="yrs">1929–1931</tspan><tspan class="name" dx="6">濱口雄幸</tspan></text>
+</g>
+<g class="term jp" data-id="jp27" data-person="jp:若槻禮次郎">
+<title>第28代内閣総理大臣 若槻禮次郎　1931年4月14日〜1931年12月13日（244日）</title>
+<rect class="bar jp" x="313" y="1589.7" width="14" height="14" rx="3"/>
+<path class="leader" d="M311.5 1596.7h-4L302 1593.2h-2"/>
+<text class="label" x="298" y="1598.1" text-anchor="end"><tspan class="yrs">1931</tspan><tspan class="name" dx="6">若槻禮次郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp28" data-person="jp:犬養毅">
+<title>第29代内閣総理大臣 犬養毅　1931年12月13日〜1932年5月16日（156日）</title>
+<rect class="bar jp" x="313" y="1605.7" width="14" height="8.2" rx="3"/>
+<text class="label" x="298" y="1615.1" text-anchor="end"><tspan class="yrs">1931–1932</tspan><tspan class="name" dx="6">犬養毅</tspan></text>
+</g>
+<g class="term jp" data-id="jp29" data-person="jp:齋藤實">
+<title>第30代内閣総理大臣 齋藤實　1932年5月26日〜1934年7月8日（774日）</title>
+<rect class="bar jp" x="313" y="1616.6" width="14" height="48.8" rx="3"/>
+<path class="leader" d="M311.5 1624.1h-4L302 1627.2h-2"/>
+<text class="label" x="298" y="1632.1" text-anchor="end"><tspan class="yrs">1932–1934</tspan><tspan class="name" dx="6">齋藤實</tspan></text>
+</g>
+<g class="term jp" data-id="jp30" data-person="jp:岡田啓介">
+<title>第31代内閣総理大臣 岡田啓介　1934年7月8日〜1936年3月9日（611日）</title>
+<rect class="bar jp" x="313" y="1667.4" width="14" height="38.1" rx="3"/>
+<text class="label" x="298" y="1679.7" text-anchor="end"><tspan class="yrs">1934–1936</tspan><tspan class="name" dx="6">岡田啓介</tspan></text>
+</g>
+<g class="term jp" data-id="jp31" data-person="jp:廣田弘毅">
+<title>第32代内閣総理大臣 廣田弘毅　1936年3月9日〜1937年2月2日（331日）</title>
+<rect class="bar jp" x="313" y="1707.4" width="14" height="19.7" rx="3"/>
+<text class="label" x="298" y="1718.4" text-anchor="end"><tspan class="yrs">1936–1937</tspan><tspan class="name" dx="6">廣田弘毅</tspan></text>
+</g>
+<g class="term jp" data-id="jp32" data-person="jp:林銑十郎">
+<title>第33代内閣総理大臣 林銑十郎　1937年2月2日〜1937年6月4日（123日）</title>
+<rect class="bar jp" x="313" y="1729.1" width="14" height="6" rx="3"/>
+<path class="leader" d="M311.5 1732.1h-4L302 1730.6h-2"/>
+<text class="label" x="298" y="1735.4" text-anchor="end"><tspan class="yrs">1937</tspan><tspan class="name" dx="6">林銑十郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp33" data-person="jp:近衛文麿">
+<title>第34代内閣総理大臣 近衛文麿　1937年6月4日〜1939年1月5日（581日）</title>
+<rect class="bar jp" x="313" y="1737.1" width="14" height="36.1" rx="3"/>
+<path class="leader" d="M311.5 1744.6h-4L302 1747.6h-2"/>
+<text class="label" x="298" y="1752.4" text-anchor="end"><tspan class="yrs">1937–1939</tspan><tspan class="name" dx="6">近衛文麿</tspan></text>
+</g>
+<g class="term jp" data-id="jp34" data-person="jp:平沼騏一郎">
+<title>第35代内閣総理大臣 平沼騏一郎　1939年1月5日〜1939年8月30日（238日）</title>
+<rect class="bar jp" x="313" y="1775.2" width="14" height="13.6" rx="3"/>
+<path class="leader" d="M311.5 1782h-4L302 1774.8h-2"/>
+<text class="label" x="298" y="1779.7" text-anchor="end"><tspan class="yrs">1939</tspan><tspan class="name" dx="6">平沼騏一郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp35" data-person="jp:阿部信行">
+<title>第36代内閣総理大臣 阿部信行　1939年8月30日〜1940年1月16日（140日）</title>
+<rect class="bar jp" x="313" y="1790.8" width="14" height="7.1" rx="3"/>
+<path class="leader" d="M311.5 1794.4h-4L302 1791.8h-2"/>
+<text class="label" x="298" y="1796.7" text-anchor="end"><tspan class="yrs">1939–1940</tspan><tspan class="name" dx="6">阿部信行</tspan></text>
+</g>
+<g class="term jp" data-id="jp36" data-person="jp:米内光政">
+<title>第37代内閣総理大臣 米内光政　1940年1月16日〜1940年7月22日（189日）</title>
+<rect class="bar jp" x="313" y="1800" width="14" height="10.4" rx="3"/>
+<path class="leader" d="M311.5 1805.1h-4L302 1808.8h-2"/>
+<text class="label" x="298" y="1813.7" text-anchor="end"><tspan class="yrs">1940</tspan><tspan class="name" dx="6">米内光政</tspan></text>
+</g>
+<g class="term jp" data-id="jp37" data-person="jp:近衛文麿">
+<title>第38〜39代内閣総理大臣 近衛文麿　1940年7月22日〜1941年10月18日（454日）</title>
+<rect class="bar jp" x="313" y="1812.3" width="14" height="27.8" rx="3"/>
+<path class="leader" d="M311.5 1819.8h-4L302 1825.8h-2"/>
+<text class="label" x="298" y="1830.7" text-anchor="end"><tspan class="yrs">1940–1941</tspan><tspan class="name" dx="6">近衛文麿</tspan></text>
+</g>
+<g class="term jp" data-id="jp38" data-person="jp:東條英機">
+<title>第40代内閣総理大臣 東條英機　1941年10月18日〜1944年7月22日（1,009日）</title>
+<rect class="bar jp" x="313" y="1842.1" width="14" height="64.2" rx="3"/>
+<text class="label" x="298" y="1854.4" text-anchor="end"><tspan class="yrs">1941–1944</tspan><tspan class="name" dx="6">東條英機</tspan></text>
+</g>
+<g class="term jp" data-id="jp39" data-person="jp:小磯國昭">
+<title>第41代内閣総理大臣 小磯國昭　1944年7月22日〜1945年4月7日（260日）</title>
+<rect class="bar jp" x="313" y="1908.3" width="14" height="15" rx="3"/>
+<path class="leader" d="M311.5 1915.8h-4L302 1901.2h-2"/>
+<text class="label" x="298" y="1906.1" text-anchor="end"><tspan class="yrs">1944–1945</tspan><tspan class="name" dx="6">小磯國昭</tspan></text>
+</g>
+<g class="term jp" data-id="jp40" data-person="jp:鈴木貫太郎">
+<title>第42代内閣総理大臣 鈴木貫太郎　1945年4月7日〜1945年8月17日（133日）</title>
+<rect class="bar jp" x="313" y="1925.3" width="14" height="6.7" rx="3"/>
+<path class="leader" d="M311.5 1928.7h-4L302 1918.2h-2"/>
+<text class="label" x="298" y="1923.1" text-anchor="end"><tspan class="yrs">1945</tspan><tspan class="name" dx="6">鈴木貫太郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp41" data-person="jp:東久邇宮稔彦王">
+<title>第43代内閣総理大臣 東久邇宮稔彦王　1945年8月17日〜1945年10月9日（54日）</title>
+<rect class="bar jp" x="313" y="1933.2" width="14" height="3" rx="1.5"/>
+<text class="label" x="298" y="1940.1" text-anchor="end"><tspan class="yrs">1945</tspan><tspan class="name" dx="6">東久邇宮稔彦王</tspan></text>
+</g>
+<g class="term jp" data-id="jp42" data-person="jp:幣原喜重郎">
+<title>第44代内閣総理大臣 幣原喜重郎　1945年10月9日〜1946年5月22日（226日）</title>
+<rect class="bar jp" x="313" y="1937.5" width="14" height="12.8" rx="3"/>
+<path class="leader" d="M311.5 1943.9h-4L302 1952.2h-2"/>
+<text class="label" x="298" y="1957.1" text-anchor="end"><tspan class="yrs">1945–1946</tspan><tspan class="name" dx="6">幣原喜重郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp43" data-person="jp:吉田茂">
+<title>第45代内閣総理大臣 吉田茂　1946年5月22日〜1947年5月24日（368日）</title>
+<rect class="bar jp" x="313" y="1952.3" width="14" height="22.1" rx="3"/>
+<path class="leader" d="M311.5 1959.8h-4L302 1969.2h-2"/>
+<text class="label" x="298" y="1974.1" text-anchor="end"><tspan class="yrs">1946–1947</tspan><tspan class="name" dx="6">吉田茂</tspan></text>
+</g>
+<g class="term jp" data-id="jp44" data-person="jp:片山哲">
+<title>第46代内閣総理大臣 片山哲　1947年5月24日〜1948年3月10日（292日）</title>
+<rect class="bar jp" x="313" y="1976.4" width="14" height="17.1" rx="3"/>
+<path class="leader" d="M311.5 1983.9h-4L302 1986.2h-2"/>
+<text class="label" x="298" y="1991.1" text-anchor="end"><tspan class="yrs">1947–1948</tspan><tspan class="name" dx="6">片山哲</tspan></text>
+</g>
+<g class="term jp" data-id="jp45" data-person="jp:芦田均">
+<title>第47代内閣総理大臣 芦田均　1948年3月10日〜1948年10月15日（220日）</title>
+<rect class="bar jp" x="313" y="1995.5" width="14" height="12.4" rx="3"/>
+<path class="leader" d="M311.5 2001.7h-4L302 2003.2h-2"/>
+<text class="label" x="298" y="2008.1" text-anchor="end"><tspan class="yrs">1948</tspan><tspan class="name" dx="6">芦田均</tspan></text>
+</g>
+<g class="term jp" data-id="jp46" data-person="jp:吉田茂">
+<title>第48〜51代内閣総理大臣 吉田茂　1948年10月15日〜1954年12月10日（2,248日）</title>
+<rect class="bar jp" x="313" y="2009.9" width="14" height="145.6" rx="3"/>
+<path class="leader" d="M311.5 2017.4h-4L302 2020.2h-2"/>
+<text class="label" x="298" y="2025.1" text-anchor="end"><tspan class="yrs">1948–1954</tspan><tspan class="name" dx="6">吉田茂</tspan></text>
+</g>
+<g class="term jp" data-id="jp47" data-person="jp:鳩山一郎">
+<title>第52〜54代内閣総理大臣 鳩山一郎　1954年12月10日〜1956年12月23日（745日）</title>
+<rect class="bar jp" x="313" y="2157.5" width="14" height="46.9" rx="3"/>
+<text class="label" x="298" y="2169.9" text-anchor="end"><tspan class="yrs">1954–1956</tspan><tspan class="name" dx="6">鳩山一郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp48" data-person="jp:石橋湛山">
+<title>第55代内閣総理大臣 石橋湛山　1956年12月23日〜1957年2月25日（65日）</title>
+<rect class="bar jp" x="313" y="2206" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M311.5 2207.5h-4L302 2204.3h-2"/>
+<text class="label" x="298" y="2209.2" text-anchor="end"><tspan class="yrs">1956–1957</tspan><tspan class="name" dx="6">石橋湛山</tspan></text>
+</g>
+<g class="term jp" data-id="jp49" data-person="jp:岸信介">
+<title>第56〜57代内閣総理大臣 岸信介　1957年2月25日〜1960年7月19日（1,241日）</title>
+<rect class="bar jp" x="313" y="2210.6" width="14" height="79.5" rx="3"/>
+<path class="leader" d="M311.5 2218.1h-4L302 2221.3h-2"/>
+<text class="label" x="298" y="2226.2" text-anchor="end"><tspan class="yrs">1957–1960</tspan><tspan class="name" dx="6">岸信介</tspan></text>
+</g>
+<g class="term jp" data-id="jp50" data-person="jp:池田勇人">
+<title>第58〜60代内閣総理大臣 池田勇人　1960年7月19日〜1964年11月9日（1,575日）</title>
+<rect class="bar jp" x="313" y="2292.1" width="14" height="101.4" rx="3"/>
+<text class="label" x="298" y="2304.5" text-anchor="end"><tspan class="yrs">1960–1964</tspan><tspan class="name" dx="6">池田勇人</tspan></text>
+</g>
+<g class="term jp" data-id="jp51" data-person="jp:佐藤栄作">
+<title>第61〜63代内閣総理大臣 佐藤栄作　1964年11月9日〜1972年7月7日（2,798日）</title>
+<rect class="bar jp" x="313" y="2395.5" width="14" height="181.8" rx="3"/>
+<text class="label" x="298" y="2407.9" text-anchor="end"><tspan class="yrs">1964–1972</tspan><tspan class="name" dx="6">佐藤栄作</tspan></text>
+</g>
+<g class="term jp" data-id="jp52" data-person="jp:田中角栄">
+<title>第64〜65代内閣総理大臣 田中角栄　1972年7月7日〜1974年12月9日（886日）</title>
+<rect class="bar jp" x="313" y="2579.3" width="14" height="56.2" rx="3"/>
+<text class="label" x="298" y="2591.7" text-anchor="end"><tspan class="yrs">1972–1974</tspan><tspan class="name" dx="6">田中角栄</tspan></text>
+</g>
+<g class="term jp" data-id="jp53" data-person="jp:三木武夫">
+<title>第66代内閣総理大臣 三木武夫　1974年12月9日〜1976年12月24日（747日）</title>
+<rect class="bar jp" x="313" y="2637.5" width="14" height="47" rx="3"/>
+<text class="label" x="298" y="2649.9" text-anchor="end"><tspan class="yrs">1974–1976</tspan><tspan class="name" dx="6">三木武夫</tspan></text>
+</g>
+<g class="term jp" data-id="jp54" data-person="jp:福田赳夫">
+<title>第67代内閣総理大臣 福田赳夫　1976年12月24日〜1978年12月7日（714日）</title>
+<rect class="bar jp" x="313" y="2686.5" width="14" height="44.9" rx="3"/>
+<text class="label" x="298" y="2698.9" text-anchor="end"><tspan class="yrs">1976–1978</tspan><tspan class="name" dx="6">福田赳夫</tspan></text>
+</g>
+<g class="term jp" data-id="jp55" data-person="jp:大平正芳">
+<title>第68〜69代内閣総理大臣 大平正芳　1978年12月7日〜1980年6月12日（554日）</title>
+<rect class="bar jp" x="313" y="2733.4" width="14" height="34.3" rx="3"/>
+<text class="label" x="298" y="2745.7" text-anchor="end"><tspan class="yrs">1978–1980</tspan><tspan class="name" dx="6">大平正芳</tspan></text>
+</g>
+<g class="term jp" data-id="jp56" data-person="jp:鈴木善幸">
+<title>第70代内閣総理大臣 鈴木善幸　1980年7月17日〜1982年11月27日（864日）</title>
+<rect class="bar jp" x="313" y="2772" width="14" height="54.7" rx="3"/>
+<text class="label" x="298" y="2784.4" text-anchor="end"><tspan class="yrs">1980–1982</tspan><tspan class="name" dx="6">鈴木善幸</tspan></text>
+</g>
+<g class="term jp" data-id="jp57" data-person="jp:中曽根康弘">
+<title>第71〜73代内閣総理大臣 中曽根康弘　1982年11月27日〜1987年11月6日（1,806日）</title>
+<rect class="bar jp" x="313" y="2828.7" width="14" height="116.6" rx="3"/>
+<text class="label" x="298" y="2841.1" text-anchor="end"><tspan class="yrs">1982–1987</tspan><tspan class="name" dx="6">中曽根康弘</tspan></text>
+</g>
+<g class="term jp" data-id="jp58" data-person="jp:竹下登">
+<title>第74代内閣総理大臣 竹下登　1987年11月6日〜1989年6月3日（576日）</title>
+<rect class="bar jp" x="313" y="2947.3" width="14" height="35.8" rx="3"/>
+<text class="label" x="298" y="2959.7" text-anchor="end"><tspan class="yrs">1987–1989</tspan><tspan class="name" dx="6">竹下登</tspan></text>
+</g>
+<g class="term jp" data-id="jp59" data-person="jp:宇野宗佑">
+<title>第75代内閣総理大臣 宇野宗佑　1989年6月3日〜1989年8月10日（69日）</title>
+<rect class="bar jp" x="313" y="2984.8" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M311.5 2986.3h-4L302 2983.2h-2"/>
+<text class="label" x="298" y="2988.1" text-anchor="end"><tspan class="yrs">1989</tspan><tspan class="name" dx="6">宇野宗佑</tspan></text>
+</g>
+<g class="term jp" data-id="jp60" data-person="jp:海部俊樹">
+<title>第76〜77代内閣総理大臣 海部俊樹　1989年8月10日〜1991年11月5日（818日）</title>
+<rect class="bar jp" x="313" y="2989.6" width="14" height="51.7" rx="3"/>
+<path class="leader" d="M311.5 2997.1h-4L302 3000.2h-2"/>
+<text class="label" x="298" y="3005.1" text-anchor="end"><tspan class="yrs">1989–1991</tspan><tspan class="name" dx="6">海部俊樹</tspan></text>
+</g>
+<g class="term jp" data-id="jp61" data-person="jp:宮澤喜一">
+<title>第78代内閣総理大臣 宮澤喜一　1991年11月5日〜1993年8月9日（644日）</title>
+<rect class="bar jp" x="313" y="3043.2" width="14" height="40.3" rx="3"/>
+<text class="label" x="298" y="3055.6" text-anchor="end"><tspan class="yrs">1991–1993</tspan><tspan class="name" dx="6">宮澤喜一</tspan></text>
+</g>
+<g class="term jp" data-id="jp62" data-person="jp:細川護煕">
+<title>第79代内閣総理大臣 細川護煕　1993年8月9日〜1994年4月28日（263日）</title>
+<rect class="bar jp" x="313" y="3085.5" width="14" height="15.2" rx="3"/>
+<path class="leader" d="M311.5 3093h-4L302 3086.7h-2"/>
+<text class="label" x="298" y="3091.6" text-anchor="end"><tspan class="yrs">1993–1994</tspan><tspan class="name" dx="6">細川護煕</tspan></text>
+</g>
+<g class="term jp" data-id="jp63" data-person="jp:羽田孜">
+<title>第80代内閣総理大臣 羽田孜　1994年4月28日〜1994年6月30日（64日）</title>
+<rect class="bar jp" x="313" y="3102.3" width="14" height="3" rx="1.5"/>
+<text class="label" x="298" y="3108.6" text-anchor="end"><tspan class="yrs">1994</tspan><tspan class="name" dx="6">羽田孜</tspan></text>
+</g>
+<g class="term jp" data-id="jp64" data-person="jp:村山富市">
+<title>第81代内閣総理大臣 村山富市　1994年6月30日〜1996年1月11日（561日）</title>
+<rect class="bar jp" x="313" y="3106.9" width="14" height="34.8" rx="3"/>
+<path class="leader" d="M311.5 3114.4h-4L302 3120.7h-2"/>
+<text class="label" x="298" y="3125.6" text-anchor="end"><tspan class="yrs">1994–1996</tspan><tspan class="name" dx="6">村山富市</tspan></text>
+</g>
+<g class="term jp" data-id="jp65" data-person="jp:橋本龍太郎">
+<title>第82〜83代内閣総理大臣 橋本龍太郎　1996年1月11日〜1998年7月30日（932日）</title>
+<rect class="bar jp" x="313" y="3143.7" width="14" height="59.2" rx="3"/>
+<text class="label" x="298" y="3156" text-anchor="end"><tspan class="yrs">1996–1998</tspan><tspan class="name" dx="6">橋本龍太郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp66" data-person="jp:小渕恵三">
+<title>第84代内閣総理大臣 小渕恵三　1998年7月30日〜2000年4月5日（616日）</title>
+<rect class="bar jp" x="313" y="3204.8" width="14" height="38.4" rx="3"/>
+<text class="label" x="298" y="3217.2" text-anchor="end"><tspan class="yrs">1998–2000</tspan><tspan class="name" dx="6">小渕恵三</tspan></text>
+</g>
+<g class="term jp" data-id="jp67" data-person="jp:森喜朗">
+<title>第85〜86代内閣総理大臣 森喜朗　2000年4月5日〜2001年4月26日（387日）</title>
+<rect class="bar jp" x="313" y="3245.2" width="14" height="23.4" rx="3"/>
+<text class="label" x="298" y="3257.6" text-anchor="end"><tspan class="yrs">2000–2001</tspan><tspan class="name" dx="6">森喜朗</tspan></text>
+</g>
+<g class="term jp" data-id="jp68" data-person="jp:小泉純一郎">
+<title>第87〜89代内閣総理大臣 小泉純一郎　2001年4月26日〜2006年9月26日（1,980日）</title>
+<rect class="bar jp" x="313" y="3270.6" width="14" height="128" rx="3"/>
+<text class="label" x="298" y="3283" text-anchor="end"><tspan class="yrs">2001–2006</tspan><tspan class="name" dx="6">小泉純一郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp69" data-person="jp:安倍晋三">
+<title>第90代内閣総理大臣 安倍晋三　2006年9月26日〜2007年9月26日（366日）</title>
+<rect class="bar jp" x="313" y="3400.6" width="14" height="22" rx="3"/>
+<text class="label" x="298" y="3413" text-anchor="end"><tspan class="yrs">2006–2007</tspan><tspan class="name" dx="6">安倍晋三</tspan></text>
+</g>
+<g class="term jp" data-id="jp70" data-person="jp:福田康夫">
+<title>第91代内閣総理大臣 福田康夫　2007年9月26日〜2008年9月24日（365日）</title>
+<rect class="bar jp" x="313" y="3424.6" width="14" height="21.9" rx="3"/>
+<text class="label" x="298" y="3437" text-anchor="end"><tspan class="yrs">2007–2008</tspan><tspan class="name" dx="6">福田康夫</tspan></text>
+</g>
+<g class="term jp" data-id="jp71" data-person="jp:麻生太郎">
+<title>第92代内閣総理大臣 麻生太郎　2008年9月24日〜2009年9月16日（358日）</title>
+<rect class="bar jp" x="313" y="3448.5" width="14" height="21.5" rx="3"/>
+<text class="label" x="298" y="3460.9" text-anchor="end"><tspan class="yrs">2008–2009</tspan><tspan class="name" dx="6">麻生太郎</tspan></text>
+</g>
+<g class="term jp" data-id="jp72" data-person="jp:鳩山由紀夫">
+<title>第93代内閣総理大臣 鳩山由紀夫　2009年9月16日〜2010年6月8日（266日）</title>
+<rect class="bar jp" x="313" y="3472" width="14" height="15.4" rx="3"/>
+<text class="label" x="298" y="3484.4" text-anchor="end"><tspan class="yrs">2009–2010</tspan><tspan class="name" dx="6">鳩山由紀夫</tspan></text>
+</g>
+<g class="term jp" data-id="jp73" data-person="jp:菅直人">
+<title>第94代内閣総理大臣 菅直人　2010年6月8日〜2011年9月2日（452日）</title>
+<rect class="bar jp" x="313" y="3489.4" width="14" height="27.6" rx="3"/>
+<text class="label" x="298" y="3501.8" text-anchor="end"><tspan class="yrs">2010–2011</tspan><tspan class="name" dx="6">菅直人</tspan></text>
+</g>
+<g class="term jp" data-id="jp74" data-person="jp:野田佳彦">
+<title>第95代内閣総理大臣 野田佳彦　2011年9月2日〜2012年12月26日（482日）</title>
+<rect class="bar jp" x="313" y="3519.1" width="14" height="29.6" rx="3"/>
+<text class="label" x="298" y="3531.4" text-anchor="end"><tspan class="yrs">2011–2012</tspan><tspan class="name" dx="6">野田佳彦</tspan></text>
+</g>
+<g class="term jp" data-id="jp75" data-person="jp:安倍晋三">
+<title>第96〜98代内閣総理大臣 安倍晋三　2012年12月26日〜2020年9月16日（2,822日）</title>
+<rect class="bar jp" x="313" y="3550.7" width="14" height="183.4" rx="3"/>
+<text class="label" x="298" y="3563" text-anchor="end"><tspan class="yrs">2012–2020</tspan><tspan class="name" dx="6">安倍晋三</tspan></text>
+</g>
+<g class="term jp" data-id="jp76" data-person="jp:菅義偉">
+<title>第99代内閣総理大臣 菅義偉　2020年9月16日〜2021年10月4日（384日）</title>
+<rect class="bar jp" x="313" y="3736" width="14" height="23.2" rx="3"/>
+<text class="label" x="298" y="3748.4" text-anchor="end"><tspan class="yrs">2020–2021</tspan><tspan class="name" dx="6">菅義偉</tspan></text>
+</g>
+<g class="term jp" data-id="jp77" data-person="jp:岸田文雄">
+<title>第100〜101代内閣総理大臣 岸田文雄　2021年10月4日〜2024年10月1日（1,094日）</title>
+<rect class="bar jp" x="313" y="3761.2" width="14" height="69.8" rx="3"/>
+<text class="label" x="298" y="3773.6" text-anchor="end"><tspan class="yrs">2021–2024</tspan><tspan class="name" dx="6">岸田文雄</tspan></text>
+</g>
+<g class="term jp" data-id="jp78" data-person="jp:石破茂">
+<title>第102〜103代内閣総理大臣 石破茂　2024年10月1日〜2025年10月21日（386日）</title>
+<rect class="bar jp" x="313" y="3833" width="14" height="23.3" rx="3"/>
+<text class="label" x="298" y="3845.4" text-anchor="end"><tspan class="yrs">2024–2025</tspan><tspan class="name" dx="6">石破茂</tspan></text>
+</g>
+<g class="term jp" data-id="jp79" data-person="jp:高市早苗">
+<title>第104〜105代内閣総理大臣 高市早苗　2025年10月21日〜在任中（2026年10月30日時点）（375日）</title>
+<linearGradient id="tl-g-jp79" gradientUnits="userSpaceOnUse" x1="0" y1="3859.9" x2="0" y2="3881.9"><stop offset="0" class="stop-jp" stop-opacity="1"/><stop offset="1" class="stop-jp" stop-opacity="0"/></linearGradient>
+<path class="bar-open jp" d="M313 3861.3Q313 3858.3 316 3858.3H324Q327 3858.3 327 3861.3V3881.9Q327 3881.9 327 3881.9H313Q313 3881.9 313 3881.9Z" fill="url(#tl-g-jp79)"/>
+<text class="label" x="298" y="3870.7" text-anchor="end"><tspan class="yrs">2025–</tspan><tspan class="name" dx="6">高市早苗</tspan></text>
+</g>
+<g class="term us" data-id="us0" data-person="us:アンドリュー・ジョンソン">
+<title>第17代アメリカ合衆国大統領 アンドリュー・ジョンソン　1865年4月15日〜1869年3月4日（1,419日）</title>
+<linearGradient id="tl-g-us0" gradientUnits="userSpaceOnUse" x1="0" y1="70" x2="0" y2="92"><stop offset="0" class="stop-us" stop-opacity="0"/><stop offset="1" class="stop-us" stop-opacity="1"/></linearGradient>
+<path class="bar-open us" d="M433 70Q433 70 433 70H447Q447 70 447 70V94.1Q447 97.1 444 97.1H436Q433 97.1 433 94.1Z" fill="url(#tl-g-us0)"/>
+<text class="label" x="462" y="83.4"><tspan class="name">A・ジョンソン</tspan><tspan class="yrs" dx="6">1865–1869</tspan></text>
+</g>
+<g class="term us" data-id="us1" data-person="us:ユリシーズ・S・グラント">
+<title>第18代アメリカ合衆国大統領 ユリシーズ・S・グラント　1869年3月4日〜1877年3月4日（2,922日）</title>
+<rect class="bar us" x="433" y="99.1" width="14" height="190" rx="3"/>
+<text class="label" x="462" y="111.5"><tspan class="name">グラント</tspan><tspan class="yrs" dx="6">1869–1877</tspan></text>
+</g>
+<g class="term us" data-id="us2" data-person="us:ラザフォード・B・ヘイズ">
+<title>第19代アメリカ合衆国大統領 ラザフォード・B・ヘイズ　1877年3月4日〜1881年3月4日（1,461日）</title>
+<rect class="bar us" x="433" y="291.1" width="14" height="94" rx="3"/>
+<text class="label" x="462" y="303.5"><tspan class="name">ヘイズ</tspan><tspan class="yrs" dx="6">1877–1881</tspan></text>
+</g>
+<g class="term us" data-id="us3" data-person="us:ジェームズ・A・ガーフィールド">
+<title>第20代アメリカ合衆国大統領 ジェームズ・A・ガーフィールド　1881年3月4日〜1881年9月19日（199日）</title>
+<rect class="bar us" x="433" y="387.1" width="14" height="11.1" rx="3"/>
+<text class="label" x="462" y="396.5"><tspan class="name">ガーフィールド</tspan><tspan class="yrs" dx="6">1881</tspan></text>
+</g>
+<g class="term us" data-id="us4" data-person="us:チェスター・A・アーサー">
+<title>第21代アメリカ合衆国大統領 チェスター・A・アーサー　1881年9月19日〜1885年3月4日（1,262日）</title>
+<rect class="bar us" x="433" y="400.2" width="14" height="80.9" rx="3"/>
+<text class="label" x="462" y="413.5"><tspan class="name">アーサー</tspan><tspan class="yrs" dx="6">1881–1885</tspan></text>
+</g>
+<g class="term us" data-id="us5" data-person="us:グロバー・クリーブランド">
+<title>第22代アメリカ合衆国大統領 グロバー・クリーブランド　1885年3月4日〜1889年3月4日（1,461日）</title>
+<rect class="bar us" x="433" y="483.1" width="14" height="94" rx="3"/>
+<text class="label" x="462" y="495.5"><tspan class="name">クリーブランド</tspan><tspan class="yrs" dx="6">1885–1889</tspan></text>
+</g>
+<g class="term us" data-id="us6" data-person="us:ベンジャミン・ハリソン">
+<title>第23代アメリカ合衆国大統領 ベンジャミン・ハリソン　1889年3月4日〜1893年3月4日（1,461日）</title>
+<rect class="bar us" x="433" y="579.1" width="14" height="94" rx="3"/>
+<text class="label" x="462" y="591.5"><tspan class="name">ハリソン</tspan><tspan class="yrs" dx="6">1889–1893</tspan></text>
+</g>
+<g class="term us" data-id="us7" data-person="us:グロバー・クリーブランド">
+<title>第24代アメリカ合衆国大統領 グロバー・クリーブランド　1893年3月4日〜1897年3月4日（1,461日）</title>
+<rect class="bar us" x="433" y="675.1" width="14" height="94" rx="3"/>
+<text class="label" x="462" y="687.5"><tspan class="name">クリーブランド</tspan><tspan class="yrs" dx="6">1893–1897</tspan></text>
+</g>
+<g class="term us" data-id="us8" data-person="us:ウィリアム・マッキンリー">
+<title>第25代アメリカ合衆国大統領 ウィリアム・マッキンリー　1897年3月4日〜1901年9月14日（1,654日）</title>
+<rect class="bar us" x="433" y="771.1" width="14" height="106.7" rx="3"/>
+<text class="label" x="462" y="783.5"><tspan class="name">マッキンリー</tspan><tspan class="yrs" dx="6">1897–1901</tspan></text>
+</g>
+<g class="term us" data-id="us9" data-person="us:セオドア・ルーズベルト">
+<title>第26代アメリカ合衆国大統領 セオドア・ルーズベルト　1901年9月14日〜1909年3月4日（2,728日）</title>
+<rect class="bar us" x="433" y="879.8" width="14" height="177.3" rx="3"/>
+<text class="label" x="462" y="892.2"><tspan class="name">T・ルーズベルト</tspan><tspan class="yrs" dx="6">1901–1909</tspan></text>
+</g>
+<g class="term us" data-id="us10" data-person="us:ウィリアム・H・タフト">
+<title>第27代アメリカ合衆国大統領 ウィリアム・H・タフト　1909年3月4日〜1913年3月4日（1,461日）</title>
+<rect class="bar us" x="433" y="1059.1" width="14" height="94" rx="3"/>
+<text class="label" x="462" y="1071.4"><tspan class="name">タフト</tspan><tspan class="yrs" dx="6">1909–1913</tspan></text>
+</g>
+<g class="term us" data-id="us11" data-person="us:トーマス・ウッドロー・ウィルソン">
+<title>第28代アメリカ合衆国大統領 トーマス・ウッドロー・ウィルソン　1913年3月4日〜1921年3月4日（2,922日）</title>
+<rect class="bar us" x="433" y="1155.1" width="14" height="190" rx="3"/>
+<text class="label" x="462" y="1167.4"><tspan class="name">ウィルソン</tspan><tspan class="yrs" dx="6">1913–1921</tspan></text>
+</g>
+<g class="term us" data-id="us12" data-person="us:ウォレン・G・ハーディング">
+<title>第29代アメリカ合衆国大統領 ウォレン・G・ハーディング　1921年3月4日〜1923年8月2日（881日）</title>
+<rect class="bar us" x="433" y="1347.1" width="14" height="55.9" rx="3"/>
+<text class="label" x="462" y="1359.4"><tspan class="name">ハーディング</tspan><tspan class="yrs" dx="6">1921–1923</tspan></text>
+</g>
+<g class="term us" data-id="us13" data-person="us:カルビン・クーリッジ">
+<title>第30代アメリカ合衆国大統領 カルビン・クーリッジ　1923年8月2日〜1929年3月4日（2,041日）</title>
+<rect class="bar us" x="433" y="1405" width="14" height="132.1" rx="3"/>
+<text class="label" x="462" y="1417.3"><tspan class="name">クーリッジ</tspan><tspan class="yrs" dx="6">1923–1929</tspan></text>
+</g>
+<g class="term us" data-id="us14" data-person="us:ハーバート・C・フーヴァー">
+<title>第31代アメリカ合衆国大統領 ハーバート・C・フーヴァー　1929年3月4日〜1933年3月4日（1,461日）</title>
+<rect class="bar us" x="433" y="1539.1" width="14" height="94" rx="3"/>
+<text class="label" x="462" y="1551.4"><tspan class="name">フーヴァー</tspan><tspan class="yrs" dx="6">1929–1933</tspan></text>
+</g>
+<g class="term us" data-id="us15" data-person="us:フランクリン・D・ルーズベルト">
+<title>第32代アメリカ合衆国大統領 フランクリン・D・ルーズベルト　1933年3月4日〜1945年4月12日（4,422日）</title>
+<rect class="bar us" x="433" y="1635.1" width="14" height="288.6" rx="3"/>
+<text class="label" x="462" y="1647.4"><tspan class="name">F・ルーズベルト</tspan><tspan class="yrs" dx="6">1933–1945</tspan></text>
+</g>
+<g class="term us" data-id="us16" data-person="us:ハリー・S・トルーマン">
+<title>第33代アメリカ合衆国大統領 ハリー・S・トルーマン　1945年4月12日〜1953年1月20日（2,840日）</title>
+<rect class="bar us" x="433" y="1925.7" width="14" height="184.6" rx="3"/>
+<text class="label" x="462" y="1938"><tspan class="name">トルーマン</tspan><tspan class="yrs" dx="6">1945–1953</tspan></text>
+</g>
+<g class="term us" data-id="us17" data-person="us:ドワイト・D・アイゼンハワー">
+<title>第34代アメリカ合衆国大統領 ドワイト・D・アイゼンハワー　1953年1月20日〜1961年1月20日（2,922日）</title>
+<rect class="bar us" x="433" y="2112.3" width="14" height="190" rx="3"/>
+<text class="label" x="462" y="2124.6"><tspan class="name">アイゼンハワー</tspan><tspan class="yrs" dx="6">1953–1961</tspan></text>
+</g>
+<g class="term us" data-id="us18" data-person="us:ジョン・F・ケネディ">
+<title>第35代アメリカ合衆国大統領 ジョン・F・ケネディ　1961年1月20日〜1963年11月22日（1,036日）</title>
+<rect class="bar us" x="433" y="2304.3" width="14" height="66.1" rx="3"/>
+<text class="label" x="462" y="2316.6"><tspan class="name">ケネディ</tspan><tspan class="yrs" dx="6">1961–1963</tspan></text>
+</g>
+<g class="term us" data-id="us19" data-person="us:リンドン・B・ジョンソン">
+<title>第36代アメリカ合衆国大統領 リンドン・B・ジョンソン　1963年11月22日〜1969年1月20日（1,886日）</title>
+<rect class="bar us" x="433" y="2372.4" width="14" height="121.9" rx="3"/>
+<text class="label" x="462" y="2384.7"><tspan class="name">L・ジョンソン</tspan><tspan class="yrs" dx="6">1963–1969</tspan></text>
+</g>
+<g class="term us" data-id="us20" data-person="us:リチャード・M・ニクソン">
+<title>第37代アメリカ合衆国大統領 リチャード・M・ニクソン　1969年1月20日〜1974年8月9日（2,027日）</title>
+<rect class="bar us" x="433" y="2496.3" width="14" height="131.2" rx="3"/>
+<text class="label" x="462" y="2508.6"><tspan class="name">ニクソン</tspan><tspan class="yrs" dx="6">1969–1974</tspan></text>
+</g>
+<g class="term us" data-id="us21" data-person="us:ジェラルド・R・フォード">
+<title>第38代アメリカ合衆国大統領 ジェラルド・R・フォード　1974年8月9日〜1977年1月20日（895日）</title>
+<rect class="bar us" x="433" y="2629.5" width="14" height="56.8" rx="3"/>
+<text class="label" x="462" y="2641.8"><tspan class="name">フォード</tspan><tspan class="yrs" dx="6">1974–1977</tspan></text>
+</g>
+<g class="term us" data-id="us22" data-person="us:ジェームズ・E・カーター">
+<title>第39代アメリカ合衆国大統領 ジェームズ・E・カーター　1977年1月20日〜1981年1月20日（1,461日）</title>
+<rect class="bar us" x="433" y="2688.3" width="14" height="94" rx="3"/>
+<text class="label" x="462" y="2700.6"><tspan class="name">カーター</tspan><tspan class="yrs" dx="6">1977–1981</tspan></text>
+</g>
+<g class="term us" data-id="us23" data-person="us:ロナルド・W・レーガン">
+<title>第40代アメリカ合衆国大統領 ロナルド・W・レーガン　1981年1月20日〜1989年1月20日（2,922日）</title>
+<rect class="bar us" x="433" y="2784.3" width="14" height="190" rx="3"/>
+<text class="label" x="462" y="2796.6"><tspan class="name">レーガン</tspan><tspan class="yrs" dx="6">1981–1989</tspan></text>
+</g>
+<g class="term us" data-id="us24" data-person="us:ジョージ・H・W・ブッシュ">
+<title>第41代アメリカ合衆国大統領 ジョージ・H・W・ブッシュ　1989年1月20日〜1993年1月20日（1,461日）</title>
+<rect class="bar us" x="433" y="2976.3" width="14" height="94" rx="3"/>
+<text class="label" x="462" y="2988.7"><tspan class="name">ブッシュ（父）</tspan><tspan class="yrs" dx="6">1989–1993</tspan></text>
+</g>
+<g class="term us" data-id="us25" data-person="us:ビル・J・クリントン">
+<title>第42代アメリカ合衆国大統領 ビル・J・クリントン　1993年1月20日〜2001年1月20日（2,922日）</title>
+<rect class="bar us" x="433" y="3072.3" width="14" height="190" rx="3"/>
+<text class="label" x="462" y="3084.7"><tspan class="name">クリントン</tspan><tspan class="yrs" dx="6">1993–2001</tspan></text>
+</g>
+<g class="term us" data-id="us26" data-person="us:ジョージ・W・ブッシュ">
+<title>第43代アメリカ合衆国大統領 ジョージ・W・ブッシュ　2001年1月20日〜2009年1月20日（2,922日）</title>
+<rect class="bar us" x="433" y="3264.3" width="14" height="190" rx="3"/>
+<text class="label" x="462" y="3276.7"><tspan class="name">ブッシュ（子）</tspan><tspan class="yrs" dx="6">2001–2009</tspan></text>
+</g>
+<g class="term us" data-id="us27" data-person="us:バラク・オバマ">
+<title>第44代アメリカ合衆国大統領 バラク・オバマ　2009年1月20日〜2017年1月20日（2,922日）</title>
+<rect class="bar us" x="433" y="3456.3" width="14" height="190" rx="3"/>
+<text class="label" x="462" y="3468.7"><tspan class="name">オバマ</tspan><tspan class="yrs" dx="6">2009–2017</tspan></text>
+</g>
+<g class="term us" data-id="us28" data-person="us:ドナルド・トランプ">
+<title>第45代アメリカ合衆国大統領 ドナルド・トランプ　2017年1月20日〜2021年1月20日（1,461日）</title>
+<rect class="bar us" x="433" y="3648.3" width="14" height="94" rx="3"/>
+<text class="label" x="462" y="3660.7"><tspan class="name">トランプ</tspan><tspan class="yrs" dx="6">2017–2021</tspan></text>
+</g>
+<g class="term us" data-id="us29" data-person="us:ジョー・バイデン">
+<title>第46代アメリカ合衆国大統領 ジョー・バイデン　2021年1月20日〜2025年1月20日（1,461日）</title>
+<rect class="bar us" x="433" y="3744.3" width="14" height="94" rx="3"/>
+<text class="label" x="462" y="3756.7"><tspan class="name">バイデン</tspan><tspan class="yrs" dx="6">2021–2025</tspan></text>
+</g>
+<g class="term us" data-id="us30" data-person="us:ドナルド・トランプ">
+<title>第47代アメリカ合衆国大統領 ドナルド・トランプ　2025年1月20日〜在任中（2026年10月30日時点）（648日）</title>
+<linearGradient id="tl-g-us30" gradientUnits="userSpaceOnUse" x1="0" y1="3859.9" x2="0" y2="3881.9"><stop offset="0" class="stop-us" stop-opacity="1"/><stop offset="1" class="stop-us" stop-opacity="0"/></linearGradient>
+<path class="bar-open us" d="M433 3843.3Q433 3840.3 436 3840.3H444Q447 3840.3 447 3843.3V3881.9Q447 3881.9 447 3881.9H433Q433 3881.9 433 3881.9Z" fill="url(#tl-g-us30)"/>
+<text class="label" x="462" y="3852.7"><tspan class="name">トランプ</tspan><tspan class="yrs" dx="6">2025–</tspan></text>
+</g>
+<text class="foot" x="380" y="3941.5" text-anchor="middle">出典：首相官邸「歴代内閣」ほか　2026年10月30日時点</text>
+<text class="foot" x="380" y="3957.5" text-anchor="middle">総理の棒の切れ目は臨時兼任・臨時代理の期間。同じ人が続けて務めた代は1本にまとめています。</text>
+</svg>

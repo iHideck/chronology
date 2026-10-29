@@ -1,0 +1,1157 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>body{margin:0}[hidden]{display:none!important}</style>
+<title>歴代総理大臣・歴代米大統領</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="1868年から現在まで、日本の内閣総理大臣とアメリカ合衆国大統領の在任期間を同じ時間軸に並べた年表">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Shippori+Mincho+B1:wght@700;800&display=swap">
+<style>
+/* 中央に西暦・和暦の背骨を通し、左に日本の総理、右に米大統領を吊るす。時間は上から下へ一定の縮尺で流れる。 */
+:root {
+  --paper: #fcfcfd;
+  --raise: #ffffff;
+  --ink: #1c2029;
+  --ink2: #4b5260;
+  --muted: #687080;
+  --rule: #e8eaef;
+  --rule2: #c3c8d2;
+  --spine-a: #f0f1f5;
+  --spine-b: #e6e8ef;
+  --jp: #d4452c;
+  --us: #2c5aa0;
+  --shadow: rgba(20, 24, 33, 0.12);
+  --font-body: "BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", sans-serif;
+  --font-display: "Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "Noto Serif JP", serif;
+  --measure: 820px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #14171f;
+    --raise: #1c2029;
+    --ink: #e6e8ee;
+    --ink2: #b2b8c4;
+    --muted: #8d94a3;
+    --rule: #232833;
+    --rule2: #3d4452;
+    --spine-a: #1b1f29;
+    --spine-b: #222733;
+    --jp: #e5604a;
+    --us: #678bd2;
+    --shadow: rgba(0, 0, 0, 0.45);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #14171f;
+  --raise: #1c2029;
+  --ink: #e6e8ee;
+  --ink2: #b2b8c4;
+  --muted: #8d94a3;
+  --rule: #232833;
+  --rule2: #3d4452;
+  --spine-a: #1b1f29;
+  --spine-b: #222733;
+  --jp: #e5604a;
+  --us: #678bd2;
+  --shadow: rgba(0, 0, 0, 0.45);
+  color-scheme: dark;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-text-size-adjust: 100%;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px);
+  z-index: 10;
+  background: var(--paper);
+}
+
+.wrap {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  box-sizing: content-box;
+}
+
+/* 見出し */
+.masthead { padding-block: 40px 22px; display: grid; gap: 10px; }
+.masthead h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(27px, 4.6vw, 40px);
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  text-wrap: balance;
+}
+.lede { margin: 0; max-width: 38em; color: var(--ink2); }
+.facts {
+  margin: 4px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 22px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.facts b { color: var(--ink); font-weight: 700; margin-right: 6px; }
+
+/* 追従する読み取り欄 */
+.dock {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 5;
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+}
+.dock-in {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas: "when who jump";
+  align-items: center;
+  gap: 6px 20px;
+  padding-block: 10px;
+}
+.when { grid-area: when; }
+.whos { grid-area: who; }
+.jump { grid-area: jump; }
+.whos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 18px;
+  min-width: 0;
+}
+.when { display: flex; align-items: baseline; gap: 8px; min-width: 9.6em; }
+.when b { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.when span { font-size: 13px; color: var(--muted); }
+.who { display: flex; align-items: baseline; gap: 7px; min-width: 0; }
+.who i {
+  display: inline-block;
+  width: 5px;
+  height: 14px;
+  border-radius: 2px;
+  align-self: center;
+  flex: none;
+}
+.who.jp i { background: var(--jp); }
+.who.us i { background: var(--us); }
+.who .role { font-size: 12px; color: var(--muted); flex: none; }
+.who b { font-size: 15px; font-weight: 700; overflow-wrap: anywhere; }
+.who b.none { font-weight: 400; color: var(--muted); }
+
+.jump { display: flex; gap: 2px; flex-wrap: wrap; }
+.jump button {
+  font: 700 15px/1 var(--font-display);
+  color: var(--ink2);
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  padding: 7px 9px;
+  cursor: pointer;
+}
+.jump button:hover { background: var(--spine-a); color: var(--ink); }
+.jump button[aria-current="true"] { background: var(--spine-b); color: var(--ink); }
+.jump button:focus-visible, .table-view summary:focus-visible, a:focus-visible {
+  outline: 2px solid var(--us);
+  outline-offset: 2px;
+}
+@media (max-width: 720px) {
+  .dock-in {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: "when jump" "who who";
+    padding-block: 8px;
+  }
+  .when { min-width: 0; }
+  .jump button { padding: 7px 8px; }
+  .jump .rest { display: none; }
+}
+
+/* 年表 */
+.how { margin: 18px 0 6px; font-size: 13px; color: var(--muted); }
+.chart { margin: 0 auto; padding-block: 4px 8px; }
+.chart svg { display: block; width: 100%; height: auto; touch-action: pan-y; }
+
+.tl .term { transition: opacity 0.15s ease; }
+.tl.has-focus .term { opacity: 0.18; }
+.tl.has-focus .term.is-focus, .tl.has-focus .term.is-counter { opacity: 1; }
+.tl .term.is-focus .name, .tl .term.is-now .name { font-weight: 700; }
+.tl .term:focus { outline: none; }
+.tl .term:focus-visible .bar, .tl .term:focus-visible .bar-open, .tl .term:focus-visible .bar-pre { stroke: var(--ink); stroke-width: 2; }
+.tl .xhair { pointer-events: none; }
+.tl .xhair-line { stroke: var(--ink); stroke-width: 1; opacity: 0.45; }
+.tl .xhair-dot { stroke: var(--paper); stroke-width: 2; }
+.tl .xhair-dot.jp { fill: var(--jp); }
+.tl .xhair-dot.us { fill: var(--us); }
+@media (prefers-reduced-motion: reduce) { .tl .term { transition: none; } }
+
+/* ツールチップ */
+.tip {
+  position: fixed;
+  z-index: 20;
+  max-width: min(300px, calc(100vw - 32px));
+  padding: 12px 14px;
+  background: var(--raise);
+  color: var(--ink);
+  border: 1px solid var(--rule2);
+  border-radius: 10px;
+  box-shadow: 0 6px 24px var(--shadow);
+  font-size: 13px;
+  line-height: 1.6;
+  pointer-events: none;
+}
+.tip p { margin: 0; }
+.tip .kicker { display: flex; align-items: center; gap: 7px; color: var(--muted); font-size: 12px; }
+.tip .kicker i { width: 5px; height: 13px; border-radius: 2px; flex: none; }
+.tip .kicker i.jp { background: var(--jp); }
+.tip .kicker i.us { background: var(--us); }
+.tip .name { font-size: 17px; font-weight: 700; margin: 2px 0 4px; line-height: 1.4; }
+.tip .dates { font-variant-numeric: tabular-nums; }
+.tip .days { color: var(--ink2); }
+.tip .with { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--rule); color: var(--ink2); }
+.tip .with span { display: block; color: var(--muted); font-size: 12px; }
+
+/* 一覧表 */
+.table-view { margin: 28px 0 0; border-top: 1px solid var(--rule); padding-block: 18px 6px; }
+.table-view summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+  width: fit-content;
+  border-radius: 4px;
+}
+.tables { display: grid; gap: 32px; margin-top: 16px; }
+.tables section { min-width: 0; }
+.tables h2 { font-size: 15px; margin: 0 0 8px; display: flex; align-items: center; gap: 8px; }
+.tables h2 i { width: 5px; height: 15px; border-radius: 2px; }
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.45; font-variant-numeric: tabular-nums; }
+th, td { padding: 6px 10px; text-align: left; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+th { font-weight: 700; color: var(--muted); font-size: 12px; position: sticky; top: 0; background: var(--paper); }
+td.num, th.num { text-align: right; }
+tr.cont td { color: var(--muted); }
+
+/* 注記 */
+/* 下に余白を取り、年表の最後（令和）まで横線の位置に持ってこられるようにする */
+.notes { margin: 26px 0 0; padding-block: 18px max(48px, 38vh); border-top: 1px solid var(--rule); font-size: 13px; color: var(--ink2); }
+.notes ul { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
+.notes p { margin: 12px 0 0; color: var(--muted); }
+.notes a { color: inherit; text-underline-offset: 3px; }
+</style>
+</head>
+<body>
+<header class="wrap masthead">
+  <h1>歴代総理大臣・歴代米大統領</h1>
+  <p class="lede">1868年（明治元年）から今日までの、日本の内閣総理大臣とアメリカ合衆国大統領の在任期間を、ひとつの時間軸に並べた年表です。中央の帯が西暦と和暦、棒の長さが在任期間です。</p>
+  <ul class="facts" id="facts"></ul>
+</header>
+
+<div class="dock" id="dock">
+  <div class="wrap dock-in">
+    <div class="when"><b id="r-date">1868年1月</b><span id="r-wareki">明治元年</span></div>
+    <div class="whos">
+      <div class="who jp"><i></i><span class="role">総理</span><b id="r-jp">内閣制度発足前</b></div>
+      <div class="who us"><i></i><span class="role">大統領</span><b id="r-us">A・ジョンソン</b></div>
+    </div>
+    <nav class="jump" id="jump" aria-label="元号の始まりへ移動"></nav>
+  </div>
+</div>
+
+<main class="wrap">
+  <p class="how">棒や名前にカーソルを合わせる（スマホではタップする）と、在任期間と同じ時期の相手国の首脳が表示されます。上の欄には、横線の位置の総理と大統領が出ます。</p>
+  <div class="chart" id="chart"></div>
+
+  <details class="table-view" id="table-view">
+    <summary>一覧表で見る</summary>
+    <div class="tables" id="tables"></div>
+  </details>
+
+  <footer class="notes">
+    <ul>
+      <li>総理の棒の切れ目は、臨時兼任・臨時代理の期間です。</li>
+      <li>同じ人が続けて務めた代（例：吉田茂の第48〜51代）は1本の棒にまとめています。</li>
+      <li>在任日数は、総理は首相官邸の数え方（就任日と退任日を両方含む）、大統領は就任日から退任日までの日数です。</li>
+      <li>明治への改元（1868年10月23日）より前の1868年も、明治元年として表示しています。</li>
+    </ul>
+    <p id="sources">出典：<a href="https://www.kantei.go.jp/jp/rekidainaikaku/" target="_blank" rel="noopener">首相官邸「歴代内閣」</a>、<a href="https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_time_in_office" target="_blank" rel="noopener">List of presidents of the United States by time in office</a></p>
+  </footer>
+</main>
+
+<div class="tip" id="tip" role="tooltip" hidden></div>
+
+<script type="module">
+// 年表のデータ整形・レイアウト・SVG描画。
+// build.mjs（静的SVGの生成）と index.html（ブラウザでの描画）の両方がこのファイルを使う。
+
+const DAY = 86400000;
+const YEAR = 365.2425 * DAY;
+
+export const CHART_START = '1868-01-01';
+export const CABINET_START = '1885-12-22';
+
+// ---------------------------------------------------------------- 日付
+
+export function toTime(iso) {
+  const [y, m, d] = iso.split('-').map(Number);
+  return Date.UTC(y, m - 1, d);
+}
+
+export function ymd(t) {
+  const d = new Date(t);
+  return { y: d.getUTCFullYear(), m: d.getUTCMonth() + 1, d: d.getUTCDate() };
+}
+
+export function fmtDate(t) {
+  const { y, m, d } = ymd(t);
+  return `${y}年${m}月${d}日`;
+}
+
+export function fmtDot(t) {
+  const { y, m, d } = ymd(t);
+  return `${y}.${m}.${d}`;
+}
+
+export function fmtNum(n) {
+  return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+}
+
+// 西暦の日付を和暦（元号＋年）に。明治改元（1868年10月23日）より前の1868年は明治元年として扱う。
+export function wareki(t, eras) {
+  let era = eras[0];
+  for (const e of eras) if (e.start <= t) era = e;
+  const year = ymd(t).y - ymd(era.start).y + 1;
+  return { era: era.name, year, text: `${era.name}${year === 1 ? '元' : year}年` };
+}
+
+// ---------------------------------------------------------------- CSV
+
+export function parseCSV(text) {
+  const lines = text.replace(/^﻿/, '').split(/\r?\n/).filter((l) => l.trim() !== '');
+  const head = lines[0].split(',').map((s) => s.trim());
+  return lines.slice(1).map((line) => {
+    const cells = line.split(',');
+    const row = {};
+    head.forEach((h, i) => { row[h] = (cells[i] ?? '').trim(); });
+    return row;
+  });
+}
+
+// ---------------------------------------------------------------- モデル
+
+// 同じ人物が続けて務めた代（例：吉田茂の第48〜51代）は1本の在任期間にまとめる。
+// 在任日数は、総理は首相官邸の数え方（就任日と退任日を両方含む）、大統領は就任日から退任日までの日数。
+export function buildModel({ pmRows, usRows, eraRows, asOf }) {
+  const asOfT = toTime(asOf);
+  const eras = eraRows.map((r) => ({
+    name: r['元号'],
+    start: toTime(r['開始日']),
+    end: r['終了日'] ? toTime(r['終了日']) : null,
+  }));
+
+  const merge = (rows, side, countDays) => {
+    const terms = [];
+    for (const r of rows) {
+      const name = r['氏名'];
+      const dai = Number(r['代']);
+      const start = toTime(r['就任日']);
+      const ongoing = !r['退任日'];
+      const end = ongoing ? asOfT : toTime(r['退任日']);
+      const prev = terms[terms.length - 1];
+      if (prev && prev.name === name && prev.end === start) {
+        prev.end = end;
+        prev.ongoing = ongoing;
+        prev.daiTo = dai;
+      } else {
+        terms.push({
+          side, name, short: r['表示名'] || name,
+          daiFrom: dai, daiTo: dai, start, end, ongoing,
+        });
+      }
+    }
+    terms.forEach((t, i) => {
+      t.id = `${side}${i}`;
+      t.person = `${side}:${t.name}`;
+      t.days = countDays(t.start, t.end);
+    });
+    return terms;
+  };
+
+  const jp = merge(pmRows, 'jp', (s, e) => Math.round((e - s) / DAY) + 1);
+  const us = merge(usRows, 'us', (s, e) => Math.round((e - s) / DAY));
+
+  const persons = new Map();
+  for (const t of [...jp, ...us]) {
+    if (!persons.has(t.person)) persons.set(t.person, { terms: [], days: 0 });
+    const p = persons.get(t.person);
+    p.terms.push(t);
+    p.days += t.days;
+  }
+  for (const t of jp) t.counter = us.filter((u) => u.start < t.end && u.end > t.start).map((u) => u.id);
+  for (const u of us) u.counter = jp.filter((t) => t.start < u.end && t.end > u.start).map((t) => t.id);
+
+  const byId = new Map([...jp, ...us].map((t) => [t.id, t]));
+  const start = toTime(CHART_START);
+  const pre = { id: 'jp-pre', side: 'jp', kind: 'pre', start, end: toTime(CABINET_START) };
+
+  return {
+    jp, us, pre, eras, persons, byId,
+    start,
+    end: asOfT + 450 * DAY,
+    asOf: asOfT,
+    pmRows, usRows,
+  };
+}
+
+export function daiText(t) {
+  return t.daiFrom === t.daiTo ? `第${t.daiFrom}代` : `第${t.daiFrom}〜${t.daiTo}代`;
+}
+
+export function yearsText(t) {
+  const a = ymd(t.start).y;
+  if (t.ongoing) return `${a}–`;
+  const b = ymd(t.end).y;
+  return a === b ? `${a}` : `${a}–${b}`;
+}
+
+// その時点の在任者。見つからなければ null（臨時兼任・代理の期間など）。
+export function termAt(terms, t) {
+  for (const x of terms) {
+    if (x.start <= t && (t < x.end || (x.ongoing && t <= x.end))) return x;
+  }
+  return null;
+}
+
+// ---------------------------------------------------------------- レイアウト
+
+// 全角はほぼ1em、数字とラテン文字は約0.6emとして幅を見積もる（ラベル幅の判定用）。
+export function textWidth(s, size) {
+  let w = 0;
+  for (const ch of s) {
+    const c = ch.codePointAt(0);
+    w += (c > 0x2e80 ? 1 : 0.6) * size;
+  }
+  return w;
+}
+
+// ラベルを縦方向に重ならないよう並べる。順番は保ち、本来の位置からのずれ（二乗和）が最小になるよう塊ごとに寄せる。
+function dodge(items, lo, hi) {
+  const clusters = [];
+  const place = (c) => {
+    let off = 0;
+    let sum = 0;
+    for (const x of c.items) { sum += x.target - off - x.h / 2; off += x.h; }
+    c.top = Math.max(lo, Math.min(hi - c.h, sum / c.items.length));
+  };
+  for (const it of items) {
+    const c = { items: [it], h: it.h, top: 0 };
+    place(c);
+    clusters.push(c);
+    while (clusters.length > 1) {
+      const b = clusters[clusters.length - 1];
+      const a = clusters[clusters.length - 2];
+      if (a.top + a.h <= b.top + 0.01) break;
+      a.items.push(...b.items);
+      a.h += b.h;
+      clusters.pop();
+      place(a);
+    }
+  }
+  for (const c of clusters) {
+    let off = 0;
+    for (const x of c.items) { x.center = c.top + off + x.h / 2; off += x.h; }
+  }
+}
+
+export function layout(model, opts = {}) {
+  const width = Math.round(opts.width ?? 760);
+  const narrow = width < 600;
+  const g = { width, narrow };
+  g.ppy = opts.ppy ?? (narrow ? 22 : 24);
+  g.headerH = narrow ? 58 : 70;
+  g.footerH = opts.footer ? 70 : 24;
+  g.top = g.headerH;
+  g.t0 = model.start;
+  g.t1 = model.end;
+  g.yOf = (t) => g.top + ((t - g.t0) / YEAR) * g.ppy;
+  g.tOf = (y) => g.t0 + ((y - g.top) / g.ppy) * YEAR;
+  g.plotBottom = g.yOf(g.t1);
+  g.height = Math.ceil(g.plotBottom + g.footerH);
+
+  g.spineW = narrow ? 66 : 92;
+  g.barW = narrow ? 10 : 14;
+  const barGap = narrow ? 5 : 7;
+  g.labelGap = narrow ? 11 : 15;
+  const cx = width / 2;
+  g.spineX0 = cx - g.spineW / 2;
+  g.spineX1 = cx + g.spineW / 2;
+  g.jpBarX1 = g.spineX0 - barGap;
+  g.jpBarX0 = g.jpBarX1 - g.barW;
+  g.usBarX0 = g.spineX1 + barGap;
+  g.usBarX1 = g.usBarX0 + g.barW;
+  g.jpLabelX = g.jpBarX0 - g.labelGap;
+  g.usLabelX = g.usBarX1 + g.labelGap;
+  g.labelRoom = g.jpLabelX - 4;
+
+  g.nameSize = narrow ? 12.5 : 13.5;
+  g.yearSize = narrow ? 10.5 : 11;
+  g.labelH = narrow ? 15.5 : 17;
+
+  const widest = (terms) => Math.max(...terms.map((t) => textWidth(t.short, g.nameSize) + 6 + textWidth(yearsText(t), g.yearSize)));
+  g.showYears = Math.max(widest(model.jp), widest(model.us)) <= g.labelRoom;
+
+  const bars = (terms) => terms.map((t) => {
+    const clipped = t.start < g.t0;
+    const y0 = Math.max(g.top, g.yOf(t.start));
+    const y1 = g.yOf(t.end);
+    const anchor = y0 + Math.min((y1 - y0) / 2, g.labelH / 2);
+    return { term: t, y0, y1, h: y1 - y0, target: anchor, anchor, clipped };
+  });
+
+  g.jp = bars(model.jp);
+  g.us = bars(model.us);
+  g.pre = { y0: g.yOf(model.pre.start), y1: g.yOf(model.pre.end), target: g.top + g.labelH / 2, anchor: g.top + g.labelH / 2 };
+
+  const lo = g.top;
+  const hi = g.plotBottom;
+  const jpItems = [g.pre, ...g.jp].map((b) => ({ ref: b, target: b.target, h: g.labelH }));
+  const usItems = g.us.map((b) => ({ ref: b, target: b.target, h: g.labelH }));
+  dodge(jpItems, lo, hi);
+  dodge(usItems, lo, hi);
+  for (const it of [...jpItems, ...usItems]) it.ref.labelY = it.center;
+
+  // 元号の区切りと十年ごとの目盛り
+  g.eraMarks = model.eras
+    .map((e, i) => ({ era: e, i, y: g.yOf(e.start) }))
+    .filter((m) => m.y >= g.top && m.y <= g.plotBottom);
+  g.eraBands = model.eras.map((e, i) => {
+    const next = model.eras[i + 1];
+    return {
+      era: e, i,
+      y0: i === 0 ? g.top : g.yOf(e.start),
+      y1: next ? g.yOf(next.start) : g.plotBottom,
+    };
+  });
+  g.asOfY = g.yOf(model.asOf);
+
+  const startYear = ymd(g.t0).y;
+  const endYear = ymd(g.t1).y;
+  g.years = [];
+  for (let y = startYear; y <= endYear; y += 1) {
+    const yy = g.yOf(Date.UTC(y, 0, 1));
+    if (yy >= g.top && yy <= g.plotBottom) g.years.push({ year: y, y: yy });
+  }
+  const blocked = [
+    ...g.eraMarks.map((m) => [m.y - 4, m.y + 44]),
+    [g.asOfY - 4, g.asOfY + 34],
+  ];
+  g.decades = g.years
+    .filter((d) => d.year % 10 === 0)
+    .map((d) => ({ ...d, hidden: blocked.some(([a, b]) => d.y + 19 > a && d.y - 10 < b) }));
+
+  return g;
+}
+
+// ---------------------------------------------------------------- SVG
+
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const r1 = (n) => Math.round(n * 10) / 10;
+
+// 上下の角を個別に丸められる棒の形
+function barPath(x, y, w, h, roundTop, roundBottom) {
+  const r = Math.min(3, h / 2, w / 2);
+  const t = roundTop ? r : 0;
+  const b = roundBottom ? r : 0;
+  const X = r1(x), Y = r1(y), R = r1(x + w), B = r1(y + h);
+  return `M${X} ${r1(y + t)}Q${X} ${Y} ${r1(x + t)} ${Y}H${r1(x + w - t)}Q${R} ${Y} ${R} ${r1(y + t)}V${r1(y + h - b)}Q${R} ${B} ${r1(x + w - b)} ${B}H${r1(x + b)}Q${X} ${B} ${X} ${r1(y + h - b)}Z`;
+}
+
+export function termSummary(t, model) {
+  const role = t.side === 'jp' ? '内閣総理大臣' : 'アメリカ合衆国大統領';
+  const end = t.ongoing ? `在任中（${fmtDate(model.asOf)}時点）` : fmtDate(t.end);
+  return `${daiText(t)}${role} ${t.name}　${fmtDate(t.start)}〜${end}（${fmtNum(t.days)}日）`;
+}
+
+export function renderSVG(model, g, opts = {}) {
+  const { interactive = false, style = '', background = false, footer = null, titleTag = null } = opts;
+  const W = g.width;
+  const H = g.height;
+  const o = [];
+  const a11y = interactive
+    ? `role="group" aria-label="歴代総理大臣と歴代米大統領の年表"`
+    : `role="img" aria-labelledby="tl-title"`;
+  o.push(`<svg xmlns="http://www.w3.org/2000/svg" class="tl" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" ${a11y}>`);
+  if (!interactive) o.push(`<title id="tl-title">${esc(titleTag || '歴代総理大臣・歴代米大統領')}</title>`);
+  if (style) o.push(`<style>${style}</style>`);
+
+  o.push('<defs>');
+  o.push('<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>');
+  o.push('</defs>');
+
+  if (background) o.push(`<rect class="bg" x="0" y="0" width="${W}" height="${H}" rx="14"/>`);
+
+  // 見出し（左右の列名と、中央の「西暦／和暦」）
+  const hy = g.headerH - 26;
+  const jpHead = g.narrow ? '日本の総理大臣' : '日本の内閣総理大臣';
+  const usHead = g.narrow ? '米国の大統領' : 'アメリカ合衆国大統領';
+  o.push(`<rect class="bar jp" x="${r1(g.jpBarX0)}" y="${hy - 11}" width="${g.barW}" height="14" rx="3"/>`);
+  o.push(`<text class="lane-h" x="${r1(g.jpLabelX)}" y="${hy}" text-anchor="end">${jpHead}</text>`);
+  o.push(`<rect class="bar us" x="${r1(g.usBarX0)}" y="${hy - 11}" width="${g.barW}" height="14" rx="3"/>`);
+  o.push(`<text class="lane-h" x="${r1(g.usLabelX)}" y="${hy}">${usHead}</text>`);
+  o.push(`<text class="spine-h" x="${W / 2}" y="${hy - 3}" text-anchor="middle">西暦</text>`);
+  o.push(`<text class="spine-h2" x="${W / 2}" y="${hy + 10}" text-anchor="middle">和暦</text>`);
+
+  // 中央の帯（元号ごとに色を交互に）
+  for (const b of g.eraBands) {
+    const y0 = Math.max(g.top, b.y0);
+    const y1 = Math.min(g.plotBottom, b.y1);
+    if (y1 <= y0) continue;
+    o.push(`<rect class="${b.i % 2 ? 'spine-b' : 'spine-a'}" x="${r1(g.spineX0)}" y="${r1(y0)}" width="${g.spineW}" height="${r1(y1 - y0)}"/>`);
+  }
+
+  // 十年ごとの横線（全幅）。元号の区切りのすぐ近くでは二重線に見えるので引かない。
+  for (const d of g.decades) {
+    if (d.hidden) continue;
+    o.push(`<line class="grid" x1="0" x2="${W}" y1="${r1(d.y)}" y2="${r1(d.y)}"/>`);
+  }
+  // 元号の区切り線（全幅）
+  for (const m of g.eraMarks) {
+    o.push(`<line class="era-line" x1="0" x2="${W}" y1="${r1(m.y)}" y2="${r1(m.y)}"/>`);
+  }
+
+  // 年の目盛り（帯の両端）
+  for (const d of g.years) {
+    const len = d.year % 10 === 0 ? 9 : d.year % 5 === 0 ? 6 : 3;
+    const y = r1(d.y);
+    o.push(`<path class="tick" d="M${r1(g.spineX0)} ${y}h${len}M${r1(g.spineX1)} ${y}h-${len}"/>`);
+  }
+  // 十年ごとの年号（西暦＋和暦）
+  for (const d of g.decades) {
+    if (d.hidden) continue;
+    const w = wareki(Date.UTC(d.year, 0, 1), model.eras);
+    o.push(`<text class="dec-y" x="${W / 2}" y="${r1(d.y + 4.5)}" text-anchor="middle">${d.year}</text>`);
+    o.push(`<text class="dec-w" x="${W / 2}" y="${r1(d.y + 18)}" text-anchor="middle">${w.text}</text>`);
+  }
+  // 元号の見出し
+  for (const m of g.eraMarks) {
+    o.push(`<text class="era-name" x="${W / 2}" y="${r1(m.y + 23)}" text-anchor="middle">${esc(m.era.name)}</text>`);
+    o.push(`<text class="era-date" x="${W / 2}" y="${r1(m.y + 37)}" text-anchor="middle">${fmtDot(m.era.start)}</text>`);
+  }
+  // データの時点
+  o.push(`<line class="asof-line" x1="${r1(g.jpBarX0 - 4)}" x2="${r1(g.usBarX1 + 4)}" y1="${r1(g.asOfY)}" y2="${r1(g.asOfY)}"/>`);
+  o.push(`<text class="era-date" x="${W / 2}" y="${r1(g.asOfY + 14)}" text-anchor="middle">${fmtDot(model.asOf)}</text>`);
+  o.push(`<text class="era-date" x="${W / 2}" y="${r1(g.asOfY + 27)}" text-anchor="middle">時点</text>`);
+
+  // 内閣制度発足前
+  {
+    const p = g.pre;
+    const h = r1(p.y1 - p.y0 - 1);
+    o.push(`<g class="term pre" data-id="jp-pre"${interactive ? ' tabindex="0" aria-label="内閣制度発足前（太政官制）。1885年12月22日に内閣制度が発足"' : ''}>`);
+    if (!interactive) o.push('<title>1885年12月22日に内閣制度が発足し、伊藤博文が初代内閣総理大臣に就任するまでは太政官制</title>');
+    o.push(`<rect class="hit" x="${r1(g.jpBarX0 - 120)}" y="${r1(p.y0)}" width="${r1(g.jpBarX1 - g.jpBarX0 + 120)}" height="${h}"/>`);
+    o.push(`<rect class="bar-pre" x="${r1(g.jpBarX0)}" y="${r1(p.y0)}" width="${g.barW}" height="${h}" rx="3"/>`);
+    o.push(`<text class="label" x="${r1(g.jpLabelX)}" y="${r1(p.labelY + g.nameSize * 0.36)}" text-anchor="end"><tspan class="name pre-name">内閣制度発足前</tspan></text>`);
+    o.push('</g>');
+  }
+
+  // 読み取り用の横線（棒とラベルの下に敷く）
+  if (interactive) {
+    o.push(`<g class="xhair" transform="translate(0 ${g.top})" aria-hidden="true"><line class="xhair-line" x1="0" x2="${W}" y1="0" y2="0"/></g>`);
+  }
+
+  // ホバー用の当たり判定（描画はしない）。棒とラベルより下に置き、ラベルの上では隣の期間に負けないようにする。
+  if (interactive) {
+    o.push('<g class="hits">');
+    const reach = g.showYears ? 160 : 104;
+    for (const [list, side] of [[g.jp, 'jp'], [g.us, 'us']]) {
+      for (const b of list) {
+        const x0 = side === 'jp' ? g.jpLabelX - reach : g.usBarX0;
+        const x1 = side === 'jp' ? g.jpBarX1 : g.usLabelX + reach;
+        const y0 = Math.min(b.y0, b.labelY - g.labelH / 2);
+        const y1 = Math.max(b.y1, b.labelY + g.labelH / 2);
+        o.push(`<rect class="hit" data-id="${b.term.id}" x="${r1(x0)}" y="${r1(y0)}" width="${r1(x1 - x0)}" height="${r1(y1 - y0)}"/>`);
+      }
+    }
+    o.push('</g>');
+  }
+
+  // 在任期間
+  const drawSide = (list, side) => {
+    for (const b of list) {
+      const t = b.term;
+      const gapTop = 1;
+      const gapBottom = t.ongoing ? 0 : 1;
+      let y0 = b.y0 + gapTop;
+      let h = b.y1 - b.y0 - gapTop - gapBottom;
+      if (h < 3) { y0 = b.y0 + (b.y1 - b.y0) / 2 - 1.5; h = 3; }
+      const x = side === 'jp' ? g.jpBarX0 : g.usBarX0;
+      const rx = Math.min(3, h / 2);
+      const attrs = interactive
+        ? ` tabindex="0" aria-label="${esc(termSummary(t, model))}"`
+        : '';
+      o.push(`<g class="term ${side}" data-id="${t.id}" data-person="${esc(t.person)}"${attrs}>`);
+      if (!interactive) o.push(`<title>${esc(termSummary(t, model))}</title>`);
+      if (t.ongoing || b.clipped) {
+        // 在任中は下端を、年表の始まり（1868年）より前から在任していた人は上端を薄くして、棒が続いていることを示す
+        const yTop = b.clipped ? b.y0 : y0;
+        const yBot = t.ongoing ? b.y1 : b.y1 - gapBottom;
+        const gid = `tl-g-${t.id}`;
+        const [g1, g2, o1, o2] = t.ongoing ? [yBot - 22, yBot, 1, 0] : [yTop, yTop + 22, 0, 1];
+        o.push(`<linearGradient id="${gid}" gradientUnits="userSpaceOnUse" x1="0" y1="${r1(g1)}" x2="0" y2="${r1(g2)}"><stop offset="0" class="stop-${side}" stop-opacity="${o1}"/><stop offset="1" class="stop-${side}" stop-opacity="${o2}"/></linearGradient>`);
+        o.push(`<path class="bar-open ${side}" d="${barPath(x, yTop, g.barW, yBot - yTop, !b.clipped, !t.ongoing)}" fill="url(#${gid})"/>`);
+      } else {
+        o.push(`<rect class="bar ${side}" x="${r1(x)}" y="${r1(y0)}" width="${g.barW}" height="${r1(h)}" rx="${r1(rx)}"/>`);
+      }
+      // 引き出し線（ラベルが本来の位置からずれたときだけ）
+      const dy = b.labelY - b.anchor;
+      if (Math.abs(dy) > 1.5) {
+        if (side === 'jp') {
+          const xb = g.jpBarX0 - 1.5;
+          o.push(`<path class="leader" d="M${r1(xb)} ${r1(b.anchor)}h-4L${r1(g.jpLabelX + 4)} ${r1(b.labelY)}h-2"/>`);
+        } else {
+          const xb = g.usBarX1 + 1.5;
+          o.push(`<path class="leader" d="M${r1(xb)} ${r1(b.anchor)}h4L${r1(g.usLabelX - 4)} ${r1(b.labelY)}h2"/>`);
+        }
+      }
+      const ty = r1(b.labelY + g.nameSize * 0.36);
+      const yrs = esc(yearsText(t));
+      const nm = esc(t.short);
+      if (side === 'jp') {
+        const inner = g.showYears
+          ? `<tspan class="yrs">${yrs}</tspan><tspan class="name" dx="6">${nm}</tspan>`
+          : `<tspan class="name">${nm}</tspan>`;
+        o.push(`<text class="label" x="${r1(g.jpLabelX)}" y="${ty}" text-anchor="end">${inner}</text>`);
+      } else {
+        const inner = g.showYears
+          ? `<tspan class="name">${nm}</tspan><tspan class="yrs" dx="6">${yrs}</tspan>`
+          : `<tspan class="name">${nm}</tspan>`;
+        o.push(`<text class="label" x="${r1(g.usLabelX)}" y="${ty}">${inner}</text>`);
+      }
+      o.push('</g>');
+    }
+  };
+  drawSide(g.jp, 'jp');
+  drawSide(g.us, 'us');
+
+  // 横線が棒と交わる点（棒の上に重ねる）
+  if (interactive) {
+    o.push(`<g class="xhair xhair-dots" transform="translate(0 ${g.top})" aria-hidden="true">`);
+    o.push(`<circle class="xhair-dot jp" cx="${r1(g.jpBarX0 + g.barW / 2)}" cy="0" r="${g.narrow ? 4 : 5}"/>`);
+    o.push(`<circle class="xhair-dot us" cx="${r1(g.usBarX0 + g.barW / 2)}" cy="0" r="${g.narrow ? 4 : 5}"/>`);
+    o.push('</g>');
+  }
+
+  if (footer) {
+    const fy = g.plotBottom + 30;
+    footer.forEach((line, i) => {
+      o.push(`<text class="foot" x="${W / 2}" y="${r1(fy + i * 16)}" text-anchor="middle">${esc(line)}</text>`);
+    });
+  }
+
+  o.push('</svg>');
+  return o.join('\n');
+}
+
+// ---------------------------------------------------------------- 静的SVG用のスタイル
+
+export const THEMES = {
+  light: {
+    paper: '#fcfcfd', ink: '#1c2029', ink2: '#4b5260', muted: '#687080',
+    rule: '#e8eaef', rule2: '#c3c8d2', spineA: '#f0f1f5', spineB: '#e6e8ef',
+    jp: '#d4452c', us: '#2c5aa0', hatch: '#e3e5eb',
+  },
+  dark: {
+    paper: '#14171f', ink: '#e6e8ee', ink2: '#b2b8c4', muted: '#8d94a3',
+    rule: '#232833', rule2: '#3d4452', spineA: '#1b1f29', spineB: '#222733',
+    jp: '#e5604a', us: '#678bd2', hatch: '#2a303c',
+  },
+};
+
+export const FONT_BODY = '"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif';
+export const FONT_DISPLAY = '"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif';
+
+// 色以外の見た目。ページ側では var(--…) をページのトークンに対応させる。
+export function svgRules(g) {
+  return `
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:${g.narrow ? 12 : 13}px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:${g.narrow ? 9.5 : 10.5}px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:${g.narrow ? 17 : 19}px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:${g.narrow ? 9.5 : 10}px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:${g.narrow ? 13 : 14.5}px;font-weight:700;fill:var(--ink)}
+.tl .bar.jp{fill:var(--jp)}
+.tl .bar.us{fill:var(--us)}
+.tl .stop-jp{stop-color:var(--jp)}
+.tl .stop-us{stop-color:var(--us)}
+.tl .bar-pre{fill:url(#tl-hatch)}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .label{font-size:${g.nameSize}px}
+.tl .name{fill:var(--ink)}
+.tl .pre-name{fill:var(--muted)}
+.tl .yrs{font-size:${g.yearSize}px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+`;
+}
+
+export function staticStyle(g, theme) {
+  const c = THEMES[theme];
+  return `
+.tl{--paper:${c.paper};--ink:${c.ink};--ink2:${c.ink2};--muted:${c.muted};--rule:${c.rule};--rule2:${c.rule2};--spine-a:${c.spineA};--spine-b:${c.spineB};--jp:${c.jp};--us:${c.us};--font-body:${FONT_BODY};--font-display:${FONT_DISPLAY}}
+${svgRules(g)}`;
+}
+
+
+const DATA = {"pm":[{"代":"1","氏名":"伊藤博文","就任日":"1885-12-22","退任日":"1888-04-30"},{"代":"2","氏名":"黒田清隆","就任日":"1888-04-30","退任日":"1889-10-25"},{"代":"3","氏名":"山縣有朋","就任日":"1889-12-24","退任日":"1891-05-06"},{"代":"4","氏名":"松方正義","就任日":"1891-05-06","退任日":"1892-08-08"},{"代":"5","氏名":"伊藤博文","就任日":"1892-08-08","退任日":"1896-08-31"},{"代":"6","氏名":"松方正義","就任日":"1896-09-18","退任日":"1898-01-12"},{"代":"7","氏名":"伊藤博文","就任日":"1898-01-12","退任日":"1898-06-30"},{"代":"8","氏名":"大隈重信","就任日":"1898-06-30","退任日":"1898-11-08"},{"代":"9","氏名":"山縣有朋","就任日":"1898-11-08","退任日":"1900-10-19"},{"代":"10","氏名":"伊藤博文","就任日":"1900-10-19","退任日":"1901-05-10"},{"代":"11","氏名":"桂太郎","就任日":"1901-06-02","退任日":"1906-01-07"},{"代":"12","氏名":"西園寺公望","就任日":"1906-01-07","退任日":"1908-07-14"},{"代":"13","氏名":"桂太郎","就任日":"1908-07-14","退任日":"1911-08-30"},{"代":"14","氏名":"西園寺公望","就任日":"1911-08-30","退任日":"1912-12-21"},{"代":"15","氏名":"桂太郎","就任日":"1912-12-21","退任日":"1913-02-20"},{"代":"16","氏名":"山本権兵衛","就任日":"1913-02-20","退任日":"1914-04-16"},{"代":"17","氏名":"大隈重信","就任日":"1914-04-16","退任日":"1916-10-09"},{"代":"18","氏名":"寺内正毅","就任日":"1916-10-09","退任日":"1918-09-29"},{"代":"19","氏名":"原敬","就任日":"1918-09-29","退任日":"1921-11-04"},{"代":"20","氏名":"高橋是清","就任日":"1921-11-13","退任日":"1922-06-12"},{"代":"21","氏名":"加藤友三郎","就任日":"1922-06-12","退任日":"1923-08-24"},{"代":"22","氏名":"山本権兵衛","就任日":"1923-09-02","退任日":"1924-01-07"},{"代":"23","氏名":"清浦奎吾","就任日":"1924-01-07","退任日":"1924-06-11"},{"代":"24","氏名":"加藤高明","就任日":"1924-06-11","退任日":"1926-01-28"},{"代":"25","氏名":"若槻禮次郎","就任日":"1926-01-30","退任日":"1927-04-20"},{"代":"26","氏名":"田中義一","就任日":"1927-04-20","退任日":"1929-07-02"},{"代":"27","氏名":"濱口雄幸","就任日":"1929-07-02","退任日":"1931-04-14"},{"代":"28","氏名":"若槻禮次郎","就任日":"1931-04-14","退任日":"1931-12-13"},{"代":"29","氏名":"犬養毅","就任日":"1931-12-13","退任日":"1932-05-16"},{"代":"30","氏名":"齋藤實","就任日":"1932-05-26","退任日":"1934-07-08"},{"代":"31","氏名":"岡田啓介","就任日":"1934-07-08","退任日":"1936-03-09"},{"代":"32","氏名":"廣田弘毅","就任日":"1936-03-09","退任日":"1937-02-02"},{"代":"33","氏名":"林銑十郎","就任日":"1937-02-02","退任日":"1937-06-04"},{"代":"34","氏名":"近衛文麿","就任日":"1937-06-04","退任日":"1939-01-05"},{"代":"35","氏名":"平沼騏一郎","就任日":"1939-01-05","退任日":"1939-08-30"},{"代":"36","氏名":"阿部信行","就任日":"1939-08-30","退任日":"1940-01-16"},{"代":"37","氏名":"米内光政","就任日":"1940-01-16","退任日":"1940-07-22"},{"代":"38","氏名":"近衛文麿","就任日":"1940-07-22","退任日":"1941-07-18"},{"代":"39","氏名":"近衛文麿","就任日":"1941-07-18","退任日":"1941-10-18"},{"代":"40","氏名":"東條英機","就任日":"1941-10-18","退任日":"1944-07-22"},{"代":"41","氏名":"小磯國昭","就任日":"1944-07-22","退任日":"1945-04-07"},{"代":"42","氏名":"鈴木貫太郎","就任日":"1945-04-07","退任日":"1945-08-17"},{"代":"43","氏名":"東久邇宮稔彦王","就任日":"1945-08-17","退任日":"1945-10-09"},{"代":"44","氏名":"幣原喜重郎","就任日":"1945-10-09","退任日":"1946-05-22"},{"代":"45","氏名":"吉田茂","就任日":"1946-05-22","退任日":"1947-05-24"},{"代":"46","氏名":"片山哲","就任日":"1947-05-24","退任日":"1948-03-10"},{"代":"47","氏名":"芦田均","就任日":"1948-03-10","退任日":"1948-10-15"},{"代":"48","氏名":"吉田茂","就任日":"1948-10-15","退任日":"1949-02-16"},{"代":"49","氏名":"吉田茂","就任日":"1949-02-16","退任日":"1952-10-30"},{"代":"50","氏名":"吉田茂","就任日":"1952-10-30","退任日":"1953-05-21"},{"代":"51","氏名":"吉田茂","就任日":"1953-05-21","退任日":"1954-12-10"},{"代":"52","氏名":"鳩山一郎","就任日":"1954-12-10","退任日":"1955-03-19"},{"代":"53","氏名":"鳩山一郎","就任日":"1955-03-19","退任日":"1955-11-22"},{"代":"54","氏名":"鳩山一郎","就任日":"1955-11-22","退任日":"1956-12-23"},{"代":"55","氏名":"石橋湛山","就任日":"1956-12-23","退任日":"1957-02-25"},{"代":"56","氏名":"岸信介","就任日":"1957-02-25","退任日":"1958-06-12"},{"代":"57","氏名":"岸信介","就任日":"1958-06-12","退任日":"1960-07-19"},{"代":"58","氏名":"池田勇人","就任日":"1960-07-19","退任日":"1960-12-08"},{"代":"59","氏名":"池田勇人","就任日":"1960-12-08","退任日":"1963-12-09"},{"代":"60","氏名":"池田勇人","就任日":"1963-12-09","退任日":"1964-11-09"},{"代":"61","氏名":"佐藤栄作","就任日":"1964-11-09","退任日":"1967-02-17"},{"代":"62","氏名":"佐藤栄作","就任日":"1967-02-17","退任日":"1970-01-14"},{"代":"63","氏名":"佐藤栄作","就任日":"1970-01-14","退任日":"1972-07-07"},{"代":"64","氏名":"田中角栄","就任日":"1972-07-07","退任日":"1972-12-22"},{"代":"65","氏名":"田中角栄","就任日":"1972-12-22","退任日":"1974-12-09"},{"代":"66","氏名":"三木武夫","就任日":"1974-12-09","退任日":"1976-12-24"},{"代":"67","氏名":"福田赳夫","就任日":"1976-12-24","退任日":"1978-12-07"},{"代":"68","氏名":"大平正芳","就任日":"1978-12-07","退任日":"1979-11-09"},{"代":"69","氏名":"大平正芳","就任日":"1979-11-09","退任日":"1980-06-12"},{"代":"70","氏名":"鈴木善幸","就任日":"1980-07-17","退任日":"1982-11-27"},{"代":"71","氏名":"中曽根康弘","就任日":"1982-11-27","退任日":"1983-12-27"},{"代":"72","氏名":"中曽根康弘","就任日":"1983-12-27","退任日":"1986-07-22"},{"代":"73","氏名":"中曽根康弘","就任日":"1986-07-22","退任日":"1987-11-06"},{"代":"74","氏名":"竹下登","就任日":"1987-11-06","退任日":"1989-06-03"},{"代":"75","氏名":"宇野宗佑","就任日":"1989-06-03","退任日":"1989-08-10"},{"代":"76","氏名":"海部俊樹","就任日":"1989-08-10","退任日":"1990-02-28"},{"代":"77","氏名":"海部俊樹","就任日":"1990-02-28","退任日":"1991-11-05"},{"代":"78","氏名":"宮澤喜一","就任日":"1991-11-05","退任日":"1993-08-09"},{"代":"79","氏名":"細川護煕","就任日":"1993-08-09","退任日":"1994-04-28"},{"代":"80","氏名":"羽田孜","就任日":"1994-04-28","退任日":"1994-06-30"},{"代":"81","氏名":"村山富市","就任日":"1994-06-30","退任日":"1996-01-11"},{"代":"82","氏名":"橋本龍太郎","就任日":"1996-01-11","退任日":"1996-11-07"},{"代":"83","氏名":"橋本龍太郎","就任日":"1996-11-07","退任日":"1998-07-30"},{"代":"84","氏名":"小渕恵三","就任日":"1998-07-30","退任日":"2000-04-05"},{"代":"85","氏名":"森喜朗","就任日":"2000-04-05","退任日":"2000-07-04"},{"代":"86","氏名":"森喜朗","就任日":"2000-07-04","退任日":"2001-04-26"},{"代":"87","氏名":"小泉純一郎","就任日":"2001-04-26","退任日":"2003-11-19"},{"代":"88","氏名":"小泉純一郎","就任日":"2003-11-19","退任日":"2005-09-21"},{"代":"89","氏名":"小泉純一郎","就任日":"2005-09-21","退任日":"2006-09-26"},{"代":"90","氏名":"安倍晋三","就任日":"2006-09-26","退任日":"2007-09-26"},{"代":"91","氏名":"福田康夫","就任日":"2007-09-26","退任日":"2008-09-24"},{"代":"92","氏名":"麻生太郎","就任日":"2008-09-24","退任日":"2009-09-16"},{"代":"93","氏名":"鳩山由紀夫","就任日":"2009-09-16","退任日":"2010-06-08"},{"代":"94","氏名":"菅直人","就任日":"2010-06-08","退任日":"2011-09-02"},{"代":"95","氏名":"野田佳彦","就任日":"2011-09-02","退任日":"2012-12-26"},{"代":"96","氏名":"安倍晋三","就任日":"2012-12-26","退任日":"2014-12-24"},{"代":"97","氏名":"安倍晋三","就任日":"2014-12-24","退任日":"2017-11-01"},{"代":"98","氏名":"安倍晋三","就任日":"2017-11-01","退任日":"2020-09-16"},{"代":"99","氏名":"菅義偉","就任日":"2020-09-16","退任日":"2021-10-04"},{"代":"100","氏名":"岸田文雄","就任日":"2021-10-04","退任日":"2021-11-10"},{"代":"101","氏名":"岸田文雄","就任日":"2021-11-10","退任日":"2024-10-01"},{"代":"102","氏名":"石破茂","就任日":"2024-10-01","退任日":"2024-11-11"},{"代":"103","氏名":"石破茂","就任日":"2024-11-11","退任日":"2025-10-21"},{"代":"104","氏名":"高市早苗","就任日":"2025-10-21","退任日":"2026-02-18"},{"代":"105","氏名":"高市早苗","就任日":"2026-02-18","退任日":""}],"us":[{"代":"17","氏名":"アンドリュー・ジョンソン","表示名":"A・ジョンソン","就任日":"1865-04-15","退任日":"1869-03-04"},{"代":"18","氏名":"ユリシーズ・S・グラント","表示名":"グラント","就任日":"1869-03-04","退任日":"1877-03-04"},{"代":"19","氏名":"ラザフォード・B・ヘイズ","表示名":"ヘイズ","就任日":"1877-03-04","退任日":"1881-03-04"},{"代":"20","氏名":"ジェームズ・A・ガーフィールド","表示名":"ガーフィールド","就任日":"1881-03-04","退任日":"1881-09-19"},{"代":"21","氏名":"チェスター・A・アーサー","表示名":"アーサー","就任日":"1881-09-19","退任日":"1885-03-04"},{"代":"22","氏名":"グロバー・クリーブランド","表示名":"クリーブランド","就任日":"1885-03-04","退任日":"1889-03-04"},{"代":"23","氏名":"ベンジャミン・ハリソン","表示名":"ハリソン","就任日":"1889-03-04","退任日":"1893-03-04"},{"代":"24","氏名":"グロバー・クリーブランド","表示名":"クリーブランド","就任日":"1893-03-04","退任日":"1897-03-04"},{"代":"25","氏名":"ウィリアム・マッキンリー","表示名":"マッキンリー","就任日":"1897-03-04","退任日":"1901-09-14"},{"代":"26","氏名":"セオドア・ルーズベルト","表示名":"T・ルーズベルト","就任日":"1901-09-14","退任日":"1909-03-04"},{"代":"27","氏名":"ウィリアム・H・タフト","表示名":"タフト","就任日":"1909-03-04","退任日":"1913-03-04"},{"代":"28","氏名":"トーマス・ウッドロー・ウィルソン","表示名":"ウィルソン","就任日":"1913-03-04","退任日":"1921-03-04"},{"代":"29","氏名":"ウォレン・G・ハーディング","表示名":"ハーディング","就任日":"1921-03-04","退任日":"1923-08-02"},{"代":"30","氏名":"カルビン・クーリッジ","表示名":"クーリッジ","就任日":"1923-08-02","退任日":"1929-03-04"},{"代":"31","氏名":"ハーバート・C・フーヴァー","表示名":"フーヴァー","就任日":"1929-03-04","退任日":"1933-03-04"},{"代":"32","氏名":"フランクリン・D・ルーズベルト","表示名":"F・ルーズベルト","就任日":"1933-03-04","退任日":"1945-04-12"},{"代":"33","氏名":"ハリー・S・トルーマン","表示名":"トルーマン","就任日":"1945-04-12","退任日":"1953-01-20"},{"代":"34","氏名":"ドワイト・D・アイゼンハワー","表示名":"アイゼンハワー","就任日":"1953-01-20","退任日":"1961-01-20"},{"代":"35","氏名":"ジョン・F・ケネディ","表示名":"ケネディ","就任日":"1961-01-20","退任日":"1963-11-22"},{"代":"36","氏名":"リンドン・B・ジョンソン","表示名":"L・ジョンソン","就任日":"1963-11-22","退任日":"1969-01-20"},{"代":"37","氏名":"リチャード・M・ニクソン","表示名":"ニクソン","就任日":"1969-01-20","退任日":"1974-08-09"},{"代":"38","氏名":"ジェラルド・R・フォード","表示名":"フォード","就任日":"1974-08-09","退任日":"1977-01-20"},{"代":"39","氏名":"ジェームズ・E・カーター","表示名":"カーター","就任日":"1977-01-20","退任日":"1981-01-20"},{"代":"40","氏名":"ロナルド・W・レーガン","表示名":"レーガン","就任日":"1981-01-20","退任日":"1989-01-20"},{"代":"41","氏名":"ジョージ・H・W・ブッシュ","表示名":"ブッシュ（父）","就任日":"1989-01-20","退任日":"1993-01-20"},{"代":"42","氏名":"ビル・J・クリントン","表示名":"クリントン","就任日":"1993-01-20","退任日":"2001-01-20"},{"代":"43","氏名":"ジョージ・W・ブッシュ","表示名":"ブッシュ（子）","就任日":"2001-01-20","退任日":"2009-01-20"},{"代":"44","氏名":"バラク・オバマ","表示名":"オバマ","就任日":"2009-01-20","退任日":"2017-01-20"},{"代":"45","氏名":"ドナルド・トランプ","表示名":"トランプ","就任日":"2017-01-20","退任日":"2021-01-20"},{"代":"46","氏名":"ジョー・バイデン","表示名":"バイデン","就任日":"2021-01-20","退任日":"2025-01-20"},{"代":"47","氏名":"ドナルド・トランプ","表示名":"トランプ","就任日":"2025-01-20","退任日":""}],"eras":[{"元号":"明治","開始日":"1868-10-23","終了日":"1912-07-30"},{"元号":"大正","開始日":"1912-07-30","終了日":"1926-12-25"},{"元号":"昭和","開始日":"1926-12-25","終了日":"1989-01-07"},{"元号":"平成","開始日":"1989-01-08","終了日":"2019-04-30"},{"元号":"令和","開始日":"2019-05-01","終了日":""}],"asOf":"2026-10-30"};
+const model = buildModel({ pmRows: DATA.pm, usRows: DATA.us, eraRows: DATA.eras, asOf: DATA.asOf });
+
+const $ = (s) => document.querySelector(s);
+const chart = $('#chart');
+const dock = $('#dock');
+const tip = $('#tip');
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+const svgStyle = document.createElement('style');
+document.head.appendChild(svgStyle);
+
+let g = null;
+let svg = null;
+let xhairs = [];
+let dotJP = null;
+let dotUS = null;
+let mouseY = null;
+let active = null;
+let pinned = false;
+
+// ---- 見出しの数字
+{
+  const jpPeople = new Set(model.pmRows.map((r) => r['氏名'])).size;
+  const usPeople = new Set(model.usRows.map((r) => r['氏名'])).size;
+  const first = (rows) => rows[0]['代'];
+  const last = (rows) => rows[rows.length - 1]['代'];
+  const items = [
+    ['データ', `${fmtDate(model.asOf)}時点`],
+    ['総理', `${jpPeople}人（第${first(model.pmRows)}〜${last(model.pmRows)}代）`],
+    ['大統領', `${usPeople}人（第${first(model.usRows)}〜${last(model.usRows)}代）`],
+  ];
+  const ul = $('#facts');
+  for (const [k, v] of items) {
+    const li = document.createElement('li');
+    const b = document.createElement('b');
+    b.textContent = k;
+    li.append(b, v);
+    ul.append(li);
+  }
+}
+
+// ---- 元号へのジャンプ
+const jumpButtons = model.eras.map((e, i) => {
+  const b = document.createElement('button');
+  b.type = 'button';
+  b.id = `jump-${i}`;
+  // スマホでは「明・大・昭・平・令」の1文字に縮める
+  const rest = document.createElement('span');
+  rest.className = 'rest';
+  rest.textContent = e.name.slice(1);
+  b.append(e.name.slice(0, 1), rest);
+  b.setAttribute('aria-label', e.name);
+  b.setAttribute('aria-current', 'false');
+  b.addEventListener('click', () => {
+    if (!svg) return;
+    const y = i === 0 ? g.top : g.yOf(e.start);
+    const r = svg.getBoundingClientRect();
+    const k = r.width / g.width;
+    // 移動後は読み取り欄が上に貼り付くので、その状態での横線の位置に元号の始まりを合わせる
+    const stuckTop = parseFloat(getComputedStyle(dock).top) || 0;
+    const stuck = stuckTop + dock.offsetHeight;
+    const line = stuck + (window.innerHeight - stuck) * 0.32;
+    // 読み取り欄が貼り付く位置より上には止めない（貼り付く前は横線の位置がずれるため）
+    const dockStart = window.scrollY + $('.masthead').getBoundingClientRect().bottom - stuckTop;
+    const target = Math.max(dockStart, window.scrollY + r.top + y * k - line + 1);
+    window.scrollTo({ top: Math.max(0, target), behavior: reduceMotion.matches ? 'auto' : 'smooth' });
+  });
+  $('#jump').append(b);
+  return b;
+});
+
+// ---- 描画
+function render() {
+  const w = Math.floor(chart.clientWidth);
+  if (!w) return;
+  clearActive();
+  g = layout(model, { width: w });
+  svgStyle.textContent = svgRules(g);
+  chart.innerHTML = renderSVG(model, g, { interactive: true });
+  svg = chart.querySelector('svg');
+  xhairs = [...svg.querySelectorAll('.xhair')];
+  dotJP = svg.querySelector('.xhair-dot.jp');
+  dotUS = svg.querySelector('.xhair-dot.us');
+  update();
+}
+
+let lastWidth = 0;
+new ResizeObserver(() => {
+  const w = Math.floor(chart.clientWidth);
+  if (w && w !== lastWidth) { lastWidth = w; render(); }
+}).observe(chart);
+
+// ---- 横線（読み取り位置）
+function readingLine() {
+  const top = dock.getBoundingClientRect().bottom;
+  return top + (window.innerHeight - top) * 0.32;
+}
+
+function setWho(el, text, none) {
+  el.textContent = text;
+  el.classList.toggle('none', none);
+}
+
+let frame = 0;
+function schedule() {
+  if (!frame) frame = requestAnimationFrame(() => { frame = 0; update(); });
+}
+
+function update() {
+  if (!svg) return;
+  const r = svg.getBoundingClientRect();
+  const k = g.width / r.width;
+  const cy = mouseY ?? readingLine();
+  const y = Math.max(g.top, Math.min(g.asOfY, (cy - r.top) * k));
+  const t = g.tOf(y);
+  const d = ymd(t);
+  for (const x of xhairs) x.setAttribute('transform', `translate(0 ${y.toFixed(1)})`);
+  $('#r-date').textContent = `${d.y}年${d.m}月`;
+  const w = wareki(t, model.eras);
+  $('#r-wareki').textContent = w.text;
+  const j = termAt(model.jp, t);
+  const u = termAt(model.us, t);
+  setWho($('#r-jp'), j ? j.name : (t < model.pre.end ? '内閣制度発足前' : '臨時兼任・代理の期間'), !j);
+  setWho($('#r-us'), u ? u.short : '—', !u);
+  dotJP.style.display = j ? '' : 'none';
+  dotUS.style.display = u ? '' : 'none';
+  jumpButtons.forEach((b, i) => b.setAttribute('aria-current', String(model.eras[i].name === w.era)));
+  for (const el of svg.querySelectorAll('.term.is-now')) el.classList.remove('is-now');
+  for (const x of [j, u]) if (x) svg.querySelector(`.term[data-id="${x.id}"]`)?.classList.add('is-now');
+}
+
+window.addEventListener('scroll', schedule, { passive: true });
+window.addEventListener('resize', schedule);
+chart.addEventListener('pointermove', (e) => {
+  if (e.pointerType !== 'mouse') return;
+  mouseY = e.clientY;
+  schedule();
+  if (active && !pinned) placeTip(e.clientX, e.clientY);
+});
+chart.addEventListener('pointerleave', (e) => {
+  if (e.pointerType !== 'mouse') return;
+  mouseY = null;
+  schedule();
+  if (!pinned) clearActive();
+});
+
+// ---- 強調とツールチップ
+function mark(id, cls) {
+  svg.querySelector(`.term[data-id="${id}"]`)?.classList.add(cls);
+}
+
+function clearActive() {
+  active = null;
+  pinned = false;
+  tip.hidden = true;
+  if (!svg) return;
+  svg.classList.remove('has-focus');
+  for (const el of svg.querySelectorAll('.is-focus, .is-counter')) el.classList.remove('is-focus', 'is-counter');
+}
+
+function activate(id) {
+  if (active === id) return;
+  clearActive();
+  active = id;
+  svg.classList.add('has-focus');
+  if (id === 'jp-pre') {
+    mark(id, 'is-focus');
+  } else {
+    const t = model.byId.get(id);
+    for (const x of model.persons.get(t.person).terms) mark(x.id, 'is-focus');
+    for (const c of t.counter) mark(c, 'is-counter');
+  }
+  fillTip(id);
+  tip.hidden = false;
+}
+
+function line(cls, text) {
+  const p = document.createElement('p');
+  p.className = cls;
+  p.textContent = text;
+  tip.append(p);
+  return p;
+}
+
+function fillTip(id) {
+  tip.replaceChildren();
+  if (id === 'jp-pre') {
+    const k = line('kicker', '');
+    const i = document.createElement('i');
+    i.className = 'jp';
+    k.append(i, '1868〜1885年');
+    line('name', '内閣制度発足前');
+    line('days', '1885年12月22日に内閣制度が発足し、伊藤博文が初代の内閣総理大臣に就任しました。それまでは太政官制のもとで政治が行われていました。');
+    return;
+  }
+  const t = model.byId.get(id);
+  const p = model.persons.get(t.person);
+  const k = line('kicker', '');
+  const i = document.createElement('i');
+  i.className = t.side;
+  k.append(i, `${daiText(t)}　${t.side === 'jp' ? '内閣総理大臣' : 'アメリカ合衆国大統領'}`);
+  line('name', t.name);
+  line('dates', `${fmtDate(t.start)} 〜 ${t.ongoing ? '在任中' : fmtDate(t.end)}`);
+  line('days', `在任 ${fmtNum(t.days)}日${t.ongoing ? `（${fmtDate(model.asOf)}時点）` : ''}`);
+  if (p.terms.length > 1) line('days', `通算 ${fmtNum(p.days)}日（${p.terms.length}回）`);
+  const names = [];
+  for (const c of t.counter) {
+    const x = model.byId.get(c);
+    const n = t.side === 'jp' ? x.short : x.name;
+    if (!names.includes(n)) names.push(n);
+  }
+  const w = line('with', names.join('、') || '—');
+  const head = document.createElement('span');
+  head.textContent = t.side === 'jp' ? '同じ時期の米大統領' : '同じ時期の日本の総理';
+  w.prepend(head);
+}
+
+function placeTip(x, y, side) {
+  const pad = 14;
+  const tw = tip.offsetWidth;
+  const th = tip.offsetHeight;
+  let left = side === 'jp' ? x - tw - pad : x + pad;
+  if (side === undefined && left + tw > window.innerWidth - 8) left = x - tw - pad;
+  left = Math.max(8, Math.min(window.innerWidth - tw - 8, left));
+  let top = y + pad;
+  if (top + th > window.innerHeight - 8) top = y - th - pad;
+  top = Math.max(dock.getBoundingClientRect().bottom + 6, top);
+  tip.style.left = `${left}px`;
+  tip.style.top = `${top}px`;
+}
+
+function placeTipAt(el) {
+  const target = el.querySelector('.label') || el;
+  const r = target.getBoundingClientRect();
+  const side = el.classList.contains('us') ? 'us' : 'jp';
+  placeTip(side === 'jp' ? r.left : r.right, r.top, side);
+}
+
+function termFrom(e) {
+  const hit = e.target.closest('[data-id]');
+  if (!hit || !chart.contains(hit)) return null;
+  return svg.querySelector(`.term[data-id="${hit.dataset.id}"]`);
+}
+
+chart.addEventListener('pointerover', (e) => {
+  if (e.pointerType !== 'mouse' || pinned) return;
+  const el = termFrom(e);
+  if (el) { activate(el.dataset.id); placeTip(e.clientX, e.clientY); }
+});
+chart.addEventListener('pointerout', (e) => {
+  if (e.pointerType !== 'mouse' || pinned) return;
+  const to = e.relatedTarget && e.relatedTarget.closest ? e.relatedTarget.closest('[data-id]') : null;
+  if (!to) clearActive();
+});
+chart.addEventListener('click', (e) => {
+  const el = termFrom(e);
+  if (!el) { clearActive(); return; }
+  if (pinned && active === el.dataset.id) { clearActive(); return; }
+  activate(el.dataset.id);
+  pinned = true;
+  placeTipAt(el);
+});
+chart.addEventListener('focusin', (e) => {
+  const el = e.target.closest('.term');
+  if (!el) return;
+  activate(el.dataset.id);
+  placeTipAt(el);
+});
+chart.addEventListener('focusout', (e) => {
+  if (!chart.contains(e.relatedTarget)) clearActive();
+});
+document.addEventListener('pointerdown', (e) => {
+  if (pinned && !chart.contains(e.target)) clearActive();
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') clearActive();
+});
+window.addEventListener('scroll', () => { if (pinned) clearActive(); }, { passive: true });
+
+// ---- 一覧表
+function buildTable(rows, side) {
+  const sec = document.createElement('section');
+  const h = document.createElement('h2');
+  const i = document.createElement('i');
+  i.style.background = `var(--${side})`;
+  h.append(i, side === 'jp' ? '日本の内閣総理大臣' : 'アメリカ合衆国大統領');
+  const box = document.createElement('div');
+  box.className = 'scroll';
+  const table = document.createElement('table');
+  const thead = table.createTHead().insertRow();
+  for (const [label, cls] of [['代', 'num'], ['氏名', ''], ['就任日', ''], ['退任日', ''], ['在任日数', 'num']]) {
+    const th = document.createElement('th');
+    th.textContent = label;
+    if (cls) th.className = cls;
+    th.scope = 'col';
+    thead.append(th);
+  }
+  const tbody = table.createTBody();
+  let prev = null;
+  for (const r of rows) {
+    const s = toTime(r['就任日']);
+    const ongoing = !r['退任日'];
+    const e = ongoing ? model.asOf : toTime(r['退任日']);
+    const days = side === 'jp' ? Math.round((e - s) / 86400000) + 1 : Math.round((e - s) / 86400000);
+    const tr = tbody.insertRow();
+    if (prev === r['氏名']) tr.className = 'cont';
+    prev = r['氏名'];
+    const cells = [
+      [r['代'], 'num'],
+      [r['氏名'], ''],
+      [r['就任日'].replaceAll('-', '/'), ''],
+      [ongoing ? '在任中' : r['退任日'].replaceAll('-', '/'), ''],
+      [fmtNum(days), 'num'],
+    ];
+    for (const [text, cls] of cells) {
+      const td = tr.insertCell();
+      td.textContent = text;
+      if (cls) td.className = cls;
+    }
+  }
+  box.append(table);
+  sec.append(h, box);
+  return sec;
+}
+$('#tables').append(buildTable(model.pmRows, 'jp'), buildTable(model.usRows, 'us'));
+</script>
+</body>
+</html>
