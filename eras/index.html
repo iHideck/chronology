@@ -1760,7 +1760,8 @@ function fillTip(t) {
     const w = line('with', names.join('、') || '—');
     w.prepend(el('span', '', `同じ時期の${o.counterLabel ?? o.short ?? o.title}`));
   }
-  if (t.url) {
+  // リンクにするのは http(s) の URL だけ
+  if (/^https?:\/\//i.test(t.url)) {
     const m = line('more', '');
     const a = el('a', '', '詳しい説明');
     a.href = t.url;

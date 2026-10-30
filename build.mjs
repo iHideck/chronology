@@ -33,6 +33,8 @@ for (const d of await readdir(root, { withFileTypes: true })) {
 const problems = [];
 const ONGOING = new Set(['継続中', '在任中', '現在']);
 const isDate = (s) => TL.parseDate(s) != null;
+// リンクにしてよいのは http(s) の URL だけ（javascript: などをページに書き出さない）
+const isWebUrl = (u) => /^https?:\/\//i.test(u ?? '');
 for (const s of Object.values(sets)) {
   const { spec, rows, dir } = s;
   const C = { ...TL.DEFAULT_COLUMNS, ...spec.columns };
@@ -54,6 +56,7 @@ for (const s of Object.values(sets)) {
     }
     if (spec.check?.consecutive && prev && Number(r[C.ordinal]) !== Number(prev[C.ordinal]) + 1) problems.push(`${where}: ${C.ordinal}が前の行から連番になっていません`);
     if (C.photo && r[C.photo] && !existsSync(join(root, dir, r[C.photo]))) problems.push(`${where}: 写真 ${r[C.photo]} がありません`);
+    if (C.url && r[C.url] && !isWebUrl(r[C.url])) problems.push(`${where}: リンク「${r[C.url]}」が http:// か https:// で始まっていません`);
     if (spec.groups && C.group && r[C.group] && !(r[C.group] in spec.groups)) problems.push(`${where}: 区分「${r[C.group]}」が chronology.json の groups にありません`);
     if (spec.lanes && C.lane && r[C.lane] && !(r[C.lane] in spec.lanes)) problems.push(`${where}: ${C.lane}「${r[C.lane]}」が chronology.json の lanes にありません`);
     if (!en && !spec.points && isDate(st) && st > asOf) problems.push(`${where}: 時点（${asOf}）より後に始まっています`);
@@ -115,7 +118,9 @@ function usable(page, datasets) {
 }
 
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const link = (x) => (x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>` : esc(x.title));
+const link = (x) => (isWebUrl(x.url) ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>` : esc(x.title));
+// <script> の中に埋め込む JSON。データに「</script>」などが入っても、スクリプトの外に出られないよう < を \u003c にする
+const scriptJSON = (v) => JSON.stringify(v).replace(/</g, '\\u003c');
 const ICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='6' y='3' width='8' height='26' rx='2' fill='%23d4452c'/%3E%3Crect x='18' y='9' width='8' height='20' rx='2' fill='%232c5aa0'/%3E%3C/svg%3E";
 
 function htmlDoc({ title, description, url, head, body }) {
@@ -226,7 +231,7 @@ for (const s of Object.values(sets)) {
     ].join('\n      '))
     .replace('@@SOURCES@@', () => sources.map(link).join('、'))
     .replace('@@CREDITS@@', () => credits.map((c) => `<p>${esc(c.title)}：${esc(c.text)}${c.license ? `（${link({ title: c.license, url: c.licenseUrl })}）` : ''}</p>`).join('\n    '));
-  const data = JSON.stringify({ page, datasets, asOf, dir });
+  const data = scriptJSON({ page, datasets, asOf, dir });
   const html = fill(template)
     .replace('/*@@TIMELINE@@*/', () => lib)
     .replace('/*@@DATA@@*/null', () => data);
@@ -247,7 +252,7 @@ for (const s of Object.values(sets)) {
     }
     const embed = fill(template)
       .replace('/*@@TIMELINE@@*/', () => lib)
-      .replace('/*@@DATA@@*/null', () => JSON.stringify({ page, datasets: inlined, asOf, dir }))
+      .replace('/*@@DATA@@*/null', () => scriptJSON({ page, datasets: inlined, asOf, dir }))
       .replaceAll('href="../"', `href="${SITE_URL}"`);
     await writeFile(pageOut.slice('--page='.length), embed.replace('<!--@@BODY@@-->\n', ''));
   }
@@ -274,8 +279,8 @@ for (const s of Object.values(sets)) {
     ...(notes.length || others.length ? ['## 注記', '', ...notes.map((n) => `- ${n}`), ...(others.length ? [`- ほかの列の定義・注記・出典は、それぞれの年表に載せています：${others.map((x) => `[${x.title}](${x.url})`).join('、')}`] : []), ''] : []),
     '## 出典',
     '',
-    ...(sets[dir].conf.sources ?? []).map((x) => `- ${x.url ? `[${x.title}](${x.url})` : x.title}`),
-    ...(credits.length ? ['', ...credits.map((c) => `- ${c.title}：${c.text}${c.license ? `（${c.licenseUrl ? `[${c.license}](${c.licenseUrl})` : c.license}）` : ''}`)] : []),
+    ...(sets[dir].conf.sources ?? []).map((x) => `- ${isWebUrl(x.url) ? `[${x.title}](${x.url})` : x.title}`),
+    ...(credits.length ? ['', ...credits.map((c) => `- ${c.title}：${c.text}${c.license ? `（${isWebUrl(c.licenseUrl) ? `[${c.license}](${c.licenseUrl})` : c.license}）` : ''}`)] : []),
     END,
   ].join('\n');
   const readmePath = join(root, dir, 'README.md');
