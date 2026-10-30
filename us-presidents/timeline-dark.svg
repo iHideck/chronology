@@ -1,0 +1,681 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 6094" width="760" height="6094" role="img" aria-labelledby="tl-title">
+<title id="tl-title">歴代アメリカ合衆国大統領</title>
+<style>
+.tl{--paper:#14171f;--ink:#e6e8ee;--ink2:#b2b8c4;--muted:#8d94a3;--rule:#232833;--rule2:#3d4452;--spine-a:#1b1f29;--spine-b:#222733;--red:#e5604a;--blue:#678bd2;--amber:#c98500;--violet:#9085e9;--green:#199e70;--teal:#1f9fa1;--gray:#6b7280;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="760" height="6094" rx="14"/>
+<rect class="f-blue" x="79" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="108" y="44">歴代アメリカ合衆国大統領</text>
+<text class="spine-h" x="36" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="36" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="0" y="70" width="72" height="31.5"/>
+<rect class="spine-b" x="0" y="101.5" width="72" height="187.7"/>
+<rect class="spine-a" x="0" y="289.3" width="72" height="289.8"/>
+<rect class="spine-b" x="0" y="579.1" width="72" height="72.2"/>
+<rect class="spine-a" x="0" y="651.3" width="72" height="340.2"/>
+<rect class="spine-b" x="0" y="991.5" width="72" height="303.9"/>
+<rect class="spine-a" x="0" y="1295.4" width="72" height="335.1"/>
+<rect class="spine-b" x="0" y="1630.5" width="72" height="77.4"/>
+<rect class="spine-a" x="0" y="1707.9" width="72" height="163"/>
+<rect class="spine-b" x="0" y="1870.9" width="72" height="125.5"/>
+<rect class="spine-a" x="0" y="1996.4" width="72" height="23.3"/>
+<rect class="spine-b" x="0" y="2019.7" width="72" height="71.9"/>
+<rect class="spine-a" x="0" y="2091.6" width="72" height="26.3"/>
+<rect class="spine-b" x="0" y="2117.9" width="72" height="83.5"/>
+<rect class="spine-a" x="0" y="2201.4" width="72" height="1050.4"/>
+<rect class="spine-b" x="0" y="3251.8" width="72" height="345.7"/>
+<rect class="spine-a" x="0" y="3597.5" width="72" height="1489"/>
+<rect class="spine-b" x="0" y="5086.5" width="72" height="727.4"/>
+<rect class="spine-a" x="0" y="5813.9" width="72" height="209.5"/>
+<line class="grid" x1="0" x2="760" y1="550" y2="550"/>
+<line class="grid" x1="0" x2="760" y1="790" y2="790"/>
+<line class="grid" x1="0" x2="760" y1="1270" y2="1270"/>
+<line class="grid" x1="0" x2="760" y1="1510" y2="1510"/>
+<line class="grid" x1="0" x2="760" y1="1990" y2="1990"/>
+<line class="grid" x1="0" x2="760" y1="2470" y2="2470"/>
+<line class="grid" x1="0" x2="760" y1="2710" y2="2710"/>
+<line class="grid" x1="0" x2="760" y1="2950" y2="2950"/>
+<line class="grid" x1="0" x2="760" y1="3190" y2="3190"/>
+<line class="grid" x1="0" x2="760" y1="3429.9" y2="3429.9"/>
+<line class="grid" x1="0" x2="760" y1="3670" y2="3670"/>
+<line class="grid" x1="0" x2="760" y1="3909.9" y2="3909.9"/>
+<line class="grid" x1="0" x2="760" y1="4150" y2="4150"/>
+<line class="grid" x1="0" x2="760" y1="4390" y2="4390"/>
+<line class="grid" x1="0" x2="760" y1="4630" y2="4630"/>
+<line class="grid" x1="0" x2="760" y1="4870" y2="4870"/>
+<line class="grid" x1="0" x2="760" y1="5350" y2="5350"/>
+<line class="grid" x1="0" x2="760" y1="5590" y2="5590"/>
+<line class="era-line" x1="0" x2="760" y1="101.5" y2="101.5"/>
+<line class="era-line" x1="0" x2="760" y1="289.3" y2="289.3"/>
+<line class="era-line" x1="0" x2="760" y1="579.1" y2="579.1"/>
+<line class="era-line" x1="0" x2="760" y1="651.3" y2="651.3"/>
+<line class="era-line" x1="0" x2="760" y1="991.5" y2="991.5"/>
+<line class="era-line" x1="0" x2="760" y1="1295.4" y2="1295.4"/>
+<line class="era-line" x1="0" x2="760" y1="1630.5" y2="1630.5"/>
+<line class="era-line" x1="0" x2="760" y1="1707.9" y2="1707.9"/>
+<line class="era-line" x1="0" x2="760" y1="1870.9" y2="1870.9"/>
+<line class="era-line" x1="0" x2="760" y1="1996.4" y2="1996.4"/>
+<line class="era-line" x1="0" x2="760" y1="2019.7" y2="2019.7"/>
+<line class="era-line" x1="0" x2="760" y1="2091.6" y2="2091.6"/>
+<line class="era-line" x1="0" x2="760" y1="2117.9" y2="2117.9"/>
+<line class="era-line" x1="0" x2="760" y1="2201.4" y2="2201.4"/>
+<line class="era-line" x1="0" x2="760" y1="3251.8" y2="3251.8"/>
+<line class="era-line" x1="0" x2="760" y1="3597.5" y2="3597.5"/>
+<line class="era-line" x1="0" x2="760" y1="5086.5" y2="5086.5"/>
+<line class="era-line" x1="0" x2="760" y1="5813.9" y2="5813.9"/>
+<path class="tick" d="M0 70h9M72 70h-9"/>
+<path class="tick" d="M0 94h3M72 94h-3"/>
+<path class="tick" d="M0 118h3M72 118h-3"/>
+<path class="tick" d="M0 142h3M72 142h-3"/>
+<path class="tick" d="M0 166h3M72 166h-3"/>
+<path class="tick" d="M0 190.1h6M72 190.1h-6"/>
+<path class="tick" d="M0 214h3M72 214h-3"/>
+<path class="tick" d="M0 238h3M72 238h-3"/>
+<path class="tick" d="M0 262h3M72 262h-3"/>
+<path class="tick" d="M0 286.1h3M72 286.1h-3"/>
+<path class="tick" d="M0 310h9M72 310h-9"/>
+<path class="tick" d="M0 334h3M72 334h-3"/>
+<path class="tick" d="M0 358h3M72 358h-3"/>
+<path class="tick" d="M0 382.1h3M72 382.1h-3"/>
+<path class="tick" d="M0 406h3M72 406h-3"/>
+<path class="tick" d="M0 430h6M72 430h-6"/>
+<path class="tick" d="M0 454h3M72 454h-3"/>
+<path class="tick" d="M0 478.1h3M72 478.1h-3"/>
+<path class="tick" d="M0 502h3M72 502h-3"/>
+<path class="tick" d="M0 526h3M72 526h-3"/>
+<path class="tick" d="M0 550h9M72 550h-9"/>
+<path class="tick" d="M0 574h3M72 574h-3"/>
+<path class="tick" d="M0 598h3M72 598h-3"/>
+<path class="tick" d="M0 622h3M72 622h-3"/>
+<path class="tick" d="M0 645.9h3M72 645.9h-3"/>
+<path class="tick" d="M0 670h6M72 670h-6"/>
+<path class="tick" d="M0 694h3M72 694h-3"/>
+<path class="tick" d="M0 718h3M72 718h-3"/>
+<path class="tick" d="M0 741.9h3M72 741.9h-3"/>
+<path class="tick" d="M0 766h3M72 766h-3"/>
+<path class="tick" d="M0 790h9M72 790h-9"/>
+<path class="tick" d="M0 814h3M72 814h-3"/>
+<path class="tick" d="M0 838h3M72 838h-3"/>
+<path class="tick" d="M0 862h3M72 862h-3"/>
+<path class="tick" d="M0 886h3M72 886h-3"/>
+<path class="tick" d="M0 910h6M72 910h-6"/>
+<path class="tick" d="M0 934h3M72 934h-3"/>
+<path class="tick" d="M0 958h3M72 958h-3"/>
+<path class="tick" d="M0 982h3M72 982h-3"/>
+<path class="tick" d="M0 1006h3M72 1006h-3"/>
+<path class="tick" d="M0 1030h9M72 1030h-9"/>
+<path class="tick" d="M0 1054h3M72 1054h-3"/>
+<path class="tick" d="M0 1078h3M72 1078h-3"/>
+<path class="tick" d="M0 1102h3M72 1102h-3"/>
+<path class="tick" d="M0 1126h3M72 1126h-3"/>
+<path class="tick" d="M0 1150h6M72 1150h-6"/>
+<path class="tick" d="M0 1174h3M72 1174h-3"/>
+<path class="tick" d="M0 1198h3M72 1198h-3"/>
+<path class="tick" d="M0 1222h3M72 1222h-3"/>
+<path class="tick" d="M0 1246h3M72 1246h-3"/>
+<path class="tick" d="M0 1270h9M72 1270h-9"/>
+<path class="tick" d="M0 1294h3M72 1294h-3"/>
+<path class="tick" d="M0 1318h3M72 1318h-3"/>
+<path class="tick" d="M0 1342h3M72 1342h-3"/>
+<path class="tick" d="M0 1366h3M72 1366h-3"/>
+<path class="tick" d="M0 1390h6M72 1390h-6"/>
+<path class="tick" d="M0 1414h3M72 1414h-3"/>
+<path class="tick" d="M0 1438h3M72 1438h-3"/>
+<path class="tick" d="M0 1462h3M72 1462h-3"/>
+<path class="tick" d="M0 1486h3M72 1486h-3"/>
+<path class="tick" d="M0 1510h9M72 1510h-9"/>
+<path class="tick" d="M0 1534h3M72 1534h-3"/>
+<path class="tick" d="M0 1558h3M72 1558h-3"/>
+<path class="tick" d="M0 1582h3M72 1582h-3"/>
+<path class="tick" d="M0 1606h3M72 1606h-3"/>
+<path class="tick" d="M0 1630h6M72 1630h-6"/>
+<path class="tick" d="M0 1654h3M72 1654h-3"/>
+<path class="tick" d="M0 1678h3M72 1678h-3"/>
+<path class="tick" d="M0 1702h3M72 1702h-3"/>
+<path class="tick" d="M0 1726h3M72 1726h-3"/>
+<path class="tick" d="M0 1750h9M72 1750h-9"/>
+<path class="tick" d="M0 1774h3M72 1774h-3"/>
+<path class="tick" d="M0 1798h3M72 1798h-3"/>
+<path class="tick" d="M0 1822h3M72 1822h-3"/>
+<path class="tick" d="M0 1846h3M72 1846h-3"/>
+<path class="tick" d="M0 1870h6M72 1870h-6"/>
+<path class="tick" d="M0 1894h3M72 1894h-3"/>
+<path class="tick" d="M0 1918h3M72 1918h-3"/>
+<path class="tick" d="M0 1942h3M72 1942h-3"/>
+<path class="tick" d="M0 1966h3M72 1966h-3"/>
+<path class="tick" d="M0 1990h9M72 1990h-9"/>
+<path class="tick" d="M0 2014h3M72 2014h-3"/>
+<path class="tick" d="M0 2038h3M72 2038h-3"/>
+<path class="tick" d="M0 2062h3M72 2062h-3"/>
+<path class="tick" d="M0 2086h3M72 2086h-3"/>
+<path class="tick" d="M0 2110h6M72 2110h-6"/>
+<path class="tick" d="M0 2134h3M72 2134h-3"/>
+<path class="tick" d="M0 2158h3M72 2158h-3"/>
+<path class="tick" d="M0 2182h3M72 2182h-3"/>
+<path class="tick" d="M0 2206h3M72 2206h-3"/>
+<path class="tick" d="M0 2230h9M72 2230h-9"/>
+<path class="tick" d="M0 2254h3M72 2254h-3"/>
+<path class="tick" d="M0 2278h3M72 2278h-3"/>
+<path class="tick" d="M0 2302h3M72 2302h-3"/>
+<path class="tick" d="M0 2326h3M72 2326h-3"/>
+<path class="tick" d="M0 2350h6M72 2350h-6"/>
+<path class="tick" d="M0 2374h3M72 2374h-3"/>
+<path class="tick" d="M0 2398h3M72 2398h-3"/>
+<path class="tick" d="M0 2422h3M72 2422h-3"/>
+<path class="tick" d="M0 2446h3M72 2446h-3"/>
+<path class="tick" d="M0 2470h9M72 2470h-9"/>
+<path class="tick" d="M0 2494h3M72 2494h-3"/>
+<path class="tick" d="M0 2518h3M72 2518h-3"/>
+<path class="tick" d="M0 2542h3M72 2542h-3"/>
+<path class="tick" d="M0 2566h3M72 2566h-3"/>
+<path class="tick" d="M0 2590h6M72 2590h-6"/>
+<path class="tick" d="M0 2614h3M72 2614h-3"/>
+<path class="tick" d="M0 2638h3M72 2638h-3"/>
+<path class="tick" d="M0 2662h3M72 2662h-3"/>
+<path class="tick" d="M0 2686h3M72 2686h-3"/>
+<path class="tick" d="M0 2710h9M72 2710h-9"/>
+<path class="tick" d="M0 2734h3M72 2734h-3"/>
+<path class="tick" d="M0 2758h3M72 2758h-3"/>
+<path class="tick" d="M0 2782h3M72 2782h-3"/>
+<path class="tick" d="M0 2806h3M72 2806h-3"/>
+<path class="tick" d="M0 2830h6M72 2830h-6"/>
+<path class="tick" d="M0 2854h3M72 2854h-3"/>
+<path class="tick" d="M0 2878h3M72 2878h-3"/>
+<path class="tick" d="M0 2902h3M72 2902h-3"/>
+<path class="tick" d="M0 2926h3M72 2926h-3"/>
+<path class="tick" d="M0 2950h9M72 2950h-9"/>
+<path class="tick" d="M0 2974h3M72 2974h-3"/>
+<path class="tick" d="M0 2998h3M72 2998h-3"/>
+<path class="tick" d="M0 3021.9h3M72 3021.9h-3"/>
+<path class="tick" d="M0 3045.9h3M72 3045.9h-3"/>
+<path class="tick" d="M0 3070h6M72 3070h-6"/>
+<path class="tick" d="M0 3094h3M72 3094h-3"/>
+<path class="tick" d="M0 3117.9h3M72 3117.9h-3"/>
+<path class="tick" d="M0 3141.9h3M72 3141.9h-3"/>
+<path class="tick" d="M0 3166h3M72 3166h-3"/>
+<path class="tick" d="M0 3190h9M72 3190h-9"/>
+<path class="tick" d="M0 3213.9h3M72 3213.9h-3"/>
+<path class="tick" d="M0 3237.9h3M72 3237.9h-3"/>
+<path class="tick" d="M0 3262h3M72 3262h-3"/>
+<path class="tick" d="M0 3286h3M72 3286h-3"/>
+<path class="tick" d="M0 3310h6M72 3310h-6"/>
+<path class="tick" d="M0 3333.9h3M72 3333.9h-3"/>
+<path class="tick" d="M0 3358h3M72 3358h-3"/>
+<path class="tick" d="M0 3382h3M72 3382h-3"/>
+<path class="tick" d="M0 3406h3M72 3406h-3"/>
+<path class="tick" d="M0 3429.9h9M72 3429.9h-9"/>
+<path class="tick" d="M0 3454h3M72 3454h-3"/>
+<path class="tick" d="M0 3478h3M72 3478h-3"/>
+<path class="tick" d="M0 3502h3M72 3502h-3"/>
+<path class="tick" d="M0 3525.9h3M72 3525.9h-3"/>
+<path class="tick" d="M0 3550h6M72 3550h-6"/>
+<path class="tick" d="M0 3574h3M72 3574h-3"/>
+<path class="tick" d="M0 3598h3M72 3598h-3"/>
+<path class="tick" d="M0 3621.9h3M72 3621.9h-3"/>
+<path class="tick" d="M0 3646h3M72 3646h-3"/>
+<path class="tick" d="M0 3670h9M72 3670h-9"/>
+<path class="tick" d="M0 3694h3M72 3694h-3"/>
+<path class="tick" d="M0 3717.9h3M72 3717.9h-3"/>
+<path class="tick" d="M0 3742h3M72 3742h-3"/>
+<path class="tick" d="M0 3766h3M72 3766h-3"/>
+<path class="tick" d="M0 3790h6M72 3790h-6"/>
+<path class="tick" d="M0 3813.9h3M72 3813.9h-3"/>
+<path class="tick" d="M0 3838h3M72 3838h-3"/>
+<path class="tick" d="M0 3862h3M72 3862h-3"/>
+<path class="tick" d="M0 3886h3M72 3886h-3"/>
+<path class="tick" d="M0 3909.9h9M72 3909.9h-9"/>
+<path class="tick" d="M0 3934h3M72 3934h-3"/>
+<path class="tick" d="M0 3958h3M72 3958h-3"/>
+<path class="tick" d="M0 3982h3M72 3982h-3"/>
+<path class="tick" d="M0 4005.9h3M72 4005.9h-3"/>
+<path class="tick" d="M0 4030h6M72 4030h-6"/>
+<path class="tick" d="M0 4054h3M72 4054h-3"/>
+<path class="tick" d="M0 4078h3M72 4078h-3"/>
+<path class="tick" d="M0 4102h3M72 4102h-3"/>
+<path class="tick" d="M0 4126h3M72 4126h-3"/>
+<path class="tick" d="M0 4150h9M72 4150h-9"/>
+<path class="tick" d="M0 4174h3M72 4174h-3"/>
+<path class="tick" d="M0 4198h3M72 4198h-3"/>
+<path class="tick" d="M0 4222h3M72 4222h-3"/>
+<path class="tick" d="M0 4246h3M72 4246h-3"/>
+<path class="tick" d="M0 4270h6M72 4270h-6"/>
+<path class="tick" d="M0 4294h3M72 4294h-3"/>
+<path class="tick" d="M0 4318h3M72 4318h-3"/>
+<path class="tick" d="M0 4342h3M72 4342h-3"/>
+<path class="tick" d="M0 4366h3M72 4366h-3"/>
+<path class="tick" d="M0 4390h9M72 4390h-9"/>
+<path class="tick" d="M0 4414h3M72 4414h-3"/>
+<path class="tick" d="M0 4438h3M72 4438h-3"/>
+<path class="tick" d="M0 4462h3M72 4462h-3"/>
+<path class="tick" d="M0 4486h3M72 4486h-3"/>
+<path class="tick" d="M0 4510h6M72 4510h-6"/>
+<path class="tick" d="M0 4534h3M72 4534h-3"/>
+<path class="tick" d="M0 4558h3M72 4558h-3"/>
+<path class="tick" d="M0 4582h3M72 4582h-3"/>
+<path class="tick" d="M0 4606h3M72 4606h-3"/>
+<path class="tick" d="M0 4630h9M72 4630h-9"/>
+<path class="tick" d="M0 4654h3M72 4654h-3"/>
+<path class="tick" d="M0 4678h3M72 4678h-3"/>
+<path class="tick" d="M0 4702h3M72 4702h-3"/>
+<path class="tick" d="M0 4726h3M72 4726h-3"/>
+<path class="tick" d="M0 4750h6M72 4750h-6"/>
+<path class="tick" d="M0 4774h3M72 4774h-3"/>
+<path class="tick" d="M0 4798h3M72 4798h-3"/>
+<path class="tick" d="M0 4822h3M72 4822h-3"/>
+<path class="tick" d="M0 4846h3M72 4846h-3"/>
+<path class="tick" d="M0 4870h9M72 4870h-9"/>
+<path class="tick" d="M0 4894h3M72 4894h-3"/>
+<path class="tick" d="M0 4918h3M72 4918h-3"/>
+<path class="tick" d="M0 4942h3M72 4942h-3"/>
+<path class="tick" d="M0 4966h3M72 4966h-3"/>
+<path class="tick" d="M0 4990h6M72 4990h-6"/>
+<path class="tick" d="M0 5014h3M72 5014h-3"/>
+<path class="tick" d="M0 5038h3M72 5038h-3"/>
+<path class="tick" d="M0 5062h3M72 5062h-3"/>
+<path class="tick" d="M0 5086h3M72 5086h-3"/>
+<path class="tick" d="M0 5110h9M72 5110h-9"/>
+<path class="tick" d="M0 5134h3M72 5134h-3"/>
+<path class="tick" d="M0 5158h3M72 5158h-3"/>
+<path class="tick" d="M0 5182h3M72 5182h-3"/>
+<path class="tick" d="M0 5206h3M72 5206h-3"/>
+<path class="tick" d="M0 5230h6M72 5230h-6"/>
+<path class="tick" d="M0 5254h3M72 5254h-3"/>
+<path class="tick" d="M0 5278h3M72 5278h-3"/>
+<path class="tick" d="M0 5302h3M72 5302h-3"/>
+<path class="tick" d="M0 5326h3M72 5326h-3"/>
+<path class="tick" d="M0 5350h9M72 5350h-9"/>
+<path class="tick" d="M0 5374h3M72 5374h-3"/>
+<path class="tick" d="M0 5398h3M72 5398h-3"/>
+<path class="tick" d="M0 5422h3M72 5422h-3"/>
+<path class="tick" d="M0 5446h3M72 5446h-3"/>
+<path class="tick" d="M0 5470h6M72 5470h-6"/>
+<path class="tick" d="M0 5494h3M72 5494h-3"/>
+<path class="tick" d="M0 5518h3M72 5518h-3"/>
+<path class="tick" d="M0 5542h3M72 5542h-3"/>
+<path class="tick" d="M0 5566h3M72 5566h-3"/>
+<path class="tick" d="M0 5590h9M72 5590h-9"/>
+<path class="tick" d="M0 5614h3M72 5614h-3"/>
+<path class="tick" d="M0 5638h3M72 5638h-3"/>
+<path class="tick" d="M0 5662h3M72 5662h-3"/>
+<path class="tick" d="M0 5686h3M72 5686h-3"/>
+<path class="tick" d="M0 5710h6M72 5710h-6"/>
+<path class="tick" d="M0 5734h3M72 5734h-3"/>
+<path class="tick" d="M0 5758h3M72 5758h-3"/>
+<path class="tick" d="M0 5782h3M72 5782h-3"/>
+<path class="tick" d="M0 5806h3M72 5806h-3"/>
+<path class="tick" d="M0 5830h9M72 5830h-9"/>
+<path class="tick" d="M0 5854h3M72 5854h-3"/>
+<path class="tick" d="M0 5878h3M72 5878h-3"/>
+<path class="tick" d="M0 5902h3M72 5902h-3"/>
+<path class="tick" d="M0 5926h3M72 5926h-3"/>
+<path class="tick" d="M0 5950h6M72 5950h-6"/>
+<path class="tick" d="M0 5974h3M72 5974h-3"/>
+<path class="tick" d="M0 5998h3M72 5998h-3"/>
+<path class="tick" d="M0 6022h3M72 6022h-3"/>
+<text class="dec-y" x="36" y="554.5" text-anchor="middle">1800</text>
+<text class="dec-w" x="36" y="568" text-anchor="middle">寛政12年</text>
+<text class="dec-y" x="36" y="794.5" text-anchor="middle">1810</text>
+<text class="dec-w" x="36" y="808" text-anchor="middle">文化7年</text>
+<text class="dec-y" x="36" y="1274.5" text-anchor="middle">1830</text>
+<text class="dec-w" x="36" y="1288" text-anchor="middle">文政13年</text>
+<text class="dec-y" x="36" y="1514.5" text-anchor="middle">1840</text>
+<text class="dec-w" x="36" y="1528" text-anchor="middle">天保10年</text>
+<text class="dec-y" x="36" y="1994.5" text-anchor="middle">1860</text>
+<text class="dec-w" x="36" y="2008" text-anchor="middle">安政6年</text>
+<text class="dec-y" x="36" y="2474.5" text-anchor="middle">1880</text>
+<text class="dec-w" x="36" y="2488" text-anchor="middle">明治13年</text>
+<text class="dec-y" x="36" y="2714.5" text-anchor="middle">1890</text>
+<text class="dec-w" x="36" y="2728" text-anchor="middle">明治23年</text>
+<text class="dec-y" x="36" y="2954.5" text-anchor="middle">1900</text>
+<text class="dec-w" x="36" y="2968" text-anchor="middle">明治33年</text>
+<text class="dec-y" x="36" y="3194.5" text-anchor="middle">1910</text>
+<text class="dec-w" x="36" y="3208" text-anchor="middle">明治43年</text>
+<text class="dec-y" x="36" y="3434.4" text-anchor="middle">1920</text>
+<text class="dec-w" x="36" y="3447.9" text-anchor="middle">大正9年</text>
+<text class="dec-y" x="36" y="3674.5" text-anchor="middle">1930</text>
+<text class="dec-w" x="36" y="3688" text-anchor="middle">昭和5年</text>
+<text class="dec-y" x="36" y="3914.4" text-anchor="middle">1940</text>
+<text class="dec-w" x="36" y="3927.9" text-anchor="middle">昭和15年</text>
+<text class="dec-y" x="36" y="4154.5" text-anchor="middle">1950</text>
+<text class="dec-w" x="36" y="4168" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="36" y="4394.5" text-anchor="middle">1960</text>
+<text class="dec-w" x="36" y="4408" text-anchor="middle">昭和35年</text>
+<text class="dec-y" x="36" y="4634.5" text-anchor="middle">1970</text>
+<text class="dec-w" x="36" y="4648" text-anchor="middle">昭和45年</text>
+<text class="dec-y" x="36" y="4874.5" text-anchor="middle">1980</text>
+<text class="dec-w" x="36" y="4888" text-anchor="middle">昭和55年</text>
+<text class="dec-y" x="36" y="5354.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="36" y="5368" text-anchor="middle">平成12年</text>
+<text class="dec-y" x="36" y="5594.5" text-anchor="middle">2010</text>
+<text class="dec-w" x="36" y="5608" text-anchor="middle">平成22年</text>
+<text class="era-name" x="36" y="93" text-anchor="middle">安永</text>
+<text class="era-name" x="36" y="124.5" text-anchor="middle">天明</text>
+<text class="era-date" x="36" y="138.5" text-anchor="middle">1781.4.25</text>
+<text class="era-name" x="36" y="312.3" text-anchor="middle">寛政</text>
+<text class="era-date" x="36" y="326.3" text-anchor="middle">1789.2.19</text>
+<text class="era-name" x="36" y="602.1" text-anchor="middle">享和</text>
+<text class="era-date" x="36" y="616.1" text-anchor="middle">1801.3.19</text>
+<text class="era-name" x="36" y="674.3" text-anchor="middle">文化</text>
+<text class="era-date" x="36" y="688.3" text-anchor="middle">1804.3.22</text>
+<text class="era-name" x="36" y="1014.5" text-anchor="middle">文政</text>
+<text class="era-date" x="36" y="1028.5" text-anchor="middle">1818.5.26</text>
+<text class="era-name" x="36" y="1318.4" text-anchor="middle">天保</text>
+<text class="era-date" x="36" y="1332.4" text-anchor="middle">1831.1.23</text>
+<text class="era-name" x="36" y="1653.5" text-anchor="middle">弘化</text>
+<text class="era-date" x="36" y="1667.5" text-anchor="middle">1845.1.9</text>
+<text class="era-name" x="36" y="1730.9" text-anchor="middle">嘉永</text>
+<text class="era-date" x="36" y="1744.9" text-anchor="middle">1848.4.1</text>
+<text class="era-name" x="36" y="1893.9" text-anchor="middle">安政</text>
+<text class="era-date" x="36" y="1907.9" text-anchor="middle">1855.1.15</text>
+<text class="era-name" x="36" y="2042.7" text-anchor="middle">文久</text>
+<text class="era-date" x="36" y="2056.7" text-anchor="middle">1861.3.29</text>
+<text class="era-name" x="36" y="2114.6" text-anchor="middle">元治</text>
+<text class="era-name" x="36" y="2140.9" text-anchor="middle">慶応</text>
+<text class="era-date" x="36" y="2154.9" text-anchor="middle">1865.5.1</text>
+<text class="era-name" x="36" y="2224.4" text-anchor="middle">明治</text>
+<text class="era-date" x="36" y="2238.4" text-anchor="middle">1868.10.23</text>
+<text class="era-name" x="36" y="3274.8" text-anchor="middle">大正</text>
+<text class="era-date" x="36" y="3288.8" text-anchor="middle">1912.7.30</text>
+<text class="era-name" x="36" y="3620.5" text-anchor="middle">昭和</text>
+<text class="era-date" x="36" y="3634.5" text-anchor="middle">1926.12.25</text>
+<text class="era-name" x="36" y="5109.5" text-anchor="middle">平成</text>
+<text class="era-date" x="36" y="5123.5" text-anchor="middle">1989.1.8</text>
+<text class="era-name" x="36" y="5836.9" text-anchor="middle">令和</text>
+<text class="era-date" x="36" y="5850.9" text-anchor="middle">2019.5.1</text>
+<line class="asof-line" x1="-4" x2="97" y1="5993.9" y2="5993.9"/>
+<text class="era-date" x="36" y="6007.9" text-anchor="middle">2026.10.30</text>
+<text class="era-date" x="36" y="6020.9" text-anchor="middle">時点</text>
+<g class="term c-a" data-id="a0" data-person="a:ジョージ・ワシントン">
+<title>第1代アメリカ合衆国大統領 ジョージ・ワシントン　1789年4月30日 〜 1797年3月4日（在任 2,865日）</title>
+<rect class="bar f-blue" x="79" y="294.9" width="14" height="186.3" rx="3"/>
+<text class="label" x="108" y="307.2"><tspan class="name">ワシントン</tspan><tspan class="yrs" dx="6">1789–1797</tspan></text>
+</g>
+<g class="term c-a" data-id="a1" data-person="a:ジョン・アダムズ">
+<title>第2代アメリカ合衆国大統領 ジョン・アダムズ　1797年3月4日 〜 1801年3月4日（在任 1,460日）</title>
+<rect class="bar f-blue" x="79" y="483.1" width="14" height="93.9" rx="3"/>
+<text class="label" x="108" y="495.5"><tspan class="name">J・アダムズ</tspan><tspan class="yrs" dx="6">1797–1801</tspan></text>
+</g>
+<g class="term c-a" data-id="a2" data-person="a:トーマス・ジェファーソン">
+<title>第3代アメリカ合衆国大統領 トーマス・ジェファーソン　1801年3月4日 〜 1809年3月4日（在任 2,922日）</title>
+<rect class="bar f-blue" x="79" y="579.1" width="14" height="190" rx="3"/>
+<text class="label" x="108" y="591.4"><tspan class="name">ジェファーソン</tspan><tspan class="yrs" dx="6">1801–1809</tspan></text>
+</g>
+<g class="term c-a" data-id="a3" data-person="a:ジェームズ・マディソン">
+<title>第4代アメリカ合衆国大統領 ジェームズ・マディソン　1809年3月4日 〜 1817年3月4日（在任 2,922日）</title>
+<rect class="bar f-blue" x="79" y="771.1" width="14" height="190" rx="3"/>
+<text class="label" x="108" y="783.4"><tspan class="name">マディソン</tspan><tspan class="yrs" dx="6">1809–1817</tspan></text>
+</g>
+<g class="term c-a" data-id="a4" data-person="a:ジェームズ・モンロー">
+<title>第5代アメリカ合衆国大統領 ジェームズ・モンロー　1817年3月4日 〜 1825年3月4日（在任 2,922日）</title>
+<rect class="bar f-blue" x="79" y="963.1" width="14" height="190" rx="3"/>
+<text class="label" x="108" y="975.4"><tspan class="name">モンロー</tspan><tspan class="yrs" dx="6">1817–1825</tspan></text>
+</g>
+<g class="term c-a" data-id="a5" data-person="a:ジョン・クインシー・アダムズ">
+<title>第6代アメリカ合衆国大統領 ジョン・クインシー・アダムズ　1825年3月4日 〜 1829年3月4日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="1155.1" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="1167.4"><tspan class="name">J・Q・アダムズ</tspan><tspan class="yrs" dx="6">1825–1829</tspan></text>
+</g>
+<g class="term c-a" data-id="a6" data-person="a:アンドリュー・ジャクソン">
+<title>第7代アメリカ合衆国大統領 アンドリュー・ジャクソン　1829年3月4日 〜 1837年3月4日（在任 2,922日）</title>
+<rect class="bar f-blue" x="79" y="1251.1" width="14" height="190" rx="3"/>
+<text class="label" x="108" y="1263.4"><tspan class="name">ジャクソン</tspan><tspan class="yrs" dx="6">1829–1837</tspan></text>
+</g>
+<g class="term c-a" data-id="a7" data-person="a:マーティン・ヴァン・ビューレン">
+<title>第8代アメリカ合衆国大統領 マーティン・ヴァン・ビューレン　1837年3月4日 〜 1841年3月4日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="1443.1" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="1455.4"><tspan class="name">ヴァン・ビューレン</tspan><tspan class="yrs" dx="6">1837–1841</tspan></text>
+</g>
+<g class="term c-a" data-id="a8" data-person="a:ウィリアム・ヘンリー・ハリソン">
+<title>第9代アメリカ合衆国大統領 ウィリアム・ヘンリー・ハリソン　1841年3月4日 〜 1841年4月4日（在任 31日）</title>
+<rect class="bar f-blue" x="79" y="1537.6" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M94.5 1539.1h4L104 1535.4h2"/>
+<text class="label" x="108" y="1540.2"><tspan class="name">W・H・ハリソン</tspan><tspan class="yrs" dx="6">1841</tspan></text>
+</g>
+<g class="term c-a" data-id="a9" data-person="a:ジョン・タイラー">
+<title>第10代アメリカ合衆国大統領 ジョン・タイラー　1841年4月4日 〜 1845年3月4日（在任 1,430日）</title>
+<rect class="bar f-blue" x="79" y="1541.1" width="14" height="92" rx="3"/>
+<path class="leader" d="M94.5 1548.6h4L104 1552.4h2"/>
+<text class="label" x="108" y="1557.2"><tspan class="name">タイラー</tspan><tspan class="yrs" dx="6">1841–1845</tspan></text>
+</g>
+<g class="term c-a" data-id="a10" data-person="a:ジェームズ・K・ポーク">
+<title>第11代アメリカ合衆国大統領 ジェームズ・K・ポーク　1845年3月4日 〜 1849年3月4日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="1635.1" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="1647.4"><tspan class="name">ポーク</tspan><tspan class="yrs" dx="6">1845–1849</tspan></text>
+</g>
+<g class="term c-a" data-id="a11" data-person="a:ザカリー・テイラー">
+<title>第12代アメリカ合衆国大統領 ザカリー・テイラー　1849年3月4日 〜 1850年7月9日（在任 492日）</title>
+<rect class="bar f-blue" x="79" y="1731.1" width="14" height="30.3" rx="3"/>
+<text class="label" x="108" y="1743.5"><tspan class="name">テイラー</tspan><tspan class="yrs" dx="6">1849–1850</tspan></text>
+</g>
+<g class="term c-a" data-id="a12" data-person="a:ミラード・フィルモア">
+<title>第13代アメリカ合衆国大統領 ミラード・フィルモア　1850年7月9日 〜 1853年3月4日（在任 969日）</title>
+<rect class="bar f-blue" x="79" y="1763.4" width="14" height="61.7" rx="3"/>
+<text class="label" x="108" y="1775.8"><tspan class="name">フィルモア</tspan><tspan class="yrs" dx="6">1850–1853</tspan></text>
+</g>
+<g class="term c-a" data-id="a13" data-person="a:フランクリン・ピアース">
+<title>第14代アメリカ合衆国大統領 フランクリン・ピアース　1853年3月4日 〜 1857年3月4日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="1827.1" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="1839.5"><tspan class="name">ピアース</tspan><tspan class="yrs" dx="6">1853–1857</tspan></text>
+</g>
+<g class="term c-a" data-id="a14" data-person="a:ジェームズ・ブキャナン">
+<title>第15代アメリカ合衆国大統領 ジェームズ・ブキャナン　1857年3月4日 〜 1861年3月4日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="1923.1" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="1935.5"><tspan class="name">ブキャナン</tspan><tspan class="yrs" dx="6">1857–1861</tspan></text>
+</g>
+<g class="term c-a" data-id="a15" data-person="a:エイブラハム・リンカーン">
+<title>第16代アメリカ合衆国大統領 エイブラハム・リンカーン　1861年3月4日 〜 1865年4月15日（在任 1,503日）</title>
+<rect class="bar f-blue" x="79" y="2019.1" width="14" height="96.8" rx="3"/>
+<text class="label" x="108" y="2031.5"><tspan class="name">リンカーン</tspan><tspan class="yrs" dx="6">1861–1865</tspan></text>
+</g>
+<g class="term c-a" data-id="a16" data-person="a:アンドリュー・ジョンソン">
+<title>第17代アメリカ合衆国大統領 アンドリュー・ジョンソン　1865年4月15日 〜 1869年3月4日（在任 1,419日）</title>
+<rect class="bar f-blue" x="79" y="2117.9" width="14" height="91.2" rx="3"/>
+<text class="label" x="108" y="2130.2"><tspan class="name">A・ジョンソン</tspan><tspan class="yrs" dx="6">1865–1869</tspan></text>
+</g>
+<g class="term c-a" data-id="a17" data-person="a:ユリシーズ・S・グラント">
+<title>第18代アメリカ合衆国大統領 ユリシーズ・S・グラント　1869年3月4日 〜 1877年3月4日（在任 2,922日）</title>
+<rect class="bar f-blue" x="79" y="2211.1" width="14" height="190" rx="3"/>
+<text class="label" x="108" y="2223.5"><tspan class="name">グラント</tspan><tspan class="yrs" dx="6">1869–1877</tspan></text>
+</g>
+<g class="term c-a" data-id="a18" data-person="a:ラザフォード・B・ヘイズ">
+<title>第19代アメリカ合衆国大統領 ラザフォード・B・ヘイズ　1877年3月4日 〜 1881年3月4日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="2403.1" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="2415.5"><tspan class="name">ヘイズ</tspan><tspan class="yrs" dx="6">1877–1881</tspan></text>
+</g>
+<g class="term c-a" data-id="a19" data-person="a:ジェームズ・A・ガーフィールド">
+<title>第20代アメリカ合衆国大統領 ジェームズ・A・ガーフィールド　1881年3月4日 〜 1881年9月19日（在任 199日）</title>
+<rect class="bar f-blue" x="79" y="2499.1" width="14" height="11.1" rx="3"/>
+<text class="label" x="108" y="2508.5"><tspan class="name">ガーフィールド</tspan><tspan class="yrs" dx="6">1881</tspan></text>
+</g>
+<g class="term c-a" data-id="a20" data-person="a:チェスター・A・アーサー">
+<title>第21代アメリカ合衆国大統領 チェスター・A・アーサー　1881年9月19日 〜 1885年3月4日（在任 1,262日）</title>
+<rect class="bar f-blue" x="79" y="2512.2" width="14" height="80.9" rx="3"/>
+<text class="label" x="108" y="2525.5"><tspan class="name">アーサー</tspan><tspan class="yrs" dx="6">1881–1885</tspan></text>
+</g>
+<g class="term c-a" data-id="a21" data-person="a:グロバー・クリーブランド">
+<title>第22代アメリカ合衆国大統領 グロバー・クリーブランド　1885年3月4日 〜 1889年3月4日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="2595.1" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="2607.5"><tspan class="name">クリーブランド</tspan><tspan class="yrs" dx="6">1885–1889</tspan></text>
+</g>
+<g class="term c-a" data-id="a22" data-person="a:ベンジャミン・ハリソン">
+<title>第23代アメリカ合衆国大統領 ベンジャミン・ハリソン　1889年3月4日 〜 1893年3月4日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="2691.1" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="2703.5"><tspan class="name">B・ハリソン</tspan><tspan class="yrs" dx="6">1889–1893</tspan></text>
+</g>
+<g class="term c-a" data-id="a23" data-person="a:グロバー・クリーブランド">
+<title>第24代アメリカ合衆国大統領 グロバー・クリーブランド　1893年3月4日 〜 1897年3月4日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="2787.1" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="2799.5"><tspan class="name">クリーブランド</tspan><tspan class="yrs" dx="6">1893–1897</tspan></text>
+</g>
+<g class="term c-a" data-id="a24" data-person="a:ウィリアム・マッキンリー">
+<title>第25代アメリカ合衆国大統領 ウィリアム・マッキンリー　1897年3月4日 〜 1901年9月14日（在任 1,654日）</title>
+<rect class="bar f-blue" x="79" y="2883.1" width="14" height="106.7" rx="3"/>
+<text class="label" x="108" y="2895.5"><tspan class="name">マッキンリー</tspan><tspan class="yrs" dx="6">1897–1901</tspan></text>
+</g>
+<g class="term c-a" data-id="a25" data-person="a:セオドア・ルーズベルト">
+<title>第26代アメリカ合衆国大統領 セオドア・ルーズベルト　1901年9月14日 〜 1909年3月4日（在任 2,728日）</title>
+<rect class="bar f-blue" x="79" y="2991.8" width="14" height="177.3" rx="3"/>
+<text class="label" x="108" y="3004.2"><tspan class="name">T・ルーズベルト</tspan><tspan class="yrs" dx="6">1901–1909</tspan></text>
+</g>
+<g class="term c-a" data-id="a26" data-person="a:ウィリアム・H・タフト">
+<title>第27代アメリカ合衆国大統領 ウィリアム・H・タフト　1909年3月4日 〜 1913年3月4日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="3171.1" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="3183.4"><tspan class="name">タフト</tspan><tspan class="yrs" dx="6">1909–1913</tspan></text>
+</g>
+<g class="term c-a" data-id="a27" data-person="a:トーマス・ウッドロー・ウィルソン">
+<title>第28代アメリカ合衆国大統領 トーマス・ウッドロー・ウィルソン　1913年3月4日 〜 1921年3月4日（在任 2,922日）</title>
+<rect class="bar f-blue" x="79" y="3267.1" width="14" height="190" rx="3"/>
+<text class="label" x="108" y="3279.4"><tspan class="name">ウィルソン</tspan><tspan class="yrs" dx="6">1913–1921</tspan></text>
+</g>
+<g class="term c-a" data-id="a28" data-person="a:ウォレン・G・ハーディング">
+<title>第29代アメリカ合衆国大統領 ウォレン・G・ハーディング　1921年3月4日 〜 1923年8月2日（在任 881日）</title>
+<rect class="bar f-blue" x="79" y="3459.1" width="14" height="55.9" rx="3"/>
+<text class="label" x="108" y="3471.4"><tspan class="name">ハーディング</tspan><tspan class="yrs" dx="6">1921–1923</tspan></text>
+</g>
+<g class="term c-a" data-id="a29" data-person="a:カルビン・クーリッジ">
+<title>第30代アメリカ合衆国大統領 カルビン・クーリッジ　1923年8月2日 〜 1929年3月4日（在任 2,041日）</title>
+<rect class="bar f-blue" x="79" y="3517" width="14" height="132.1" rx="3"/>
+<text class="label" x="108" y="3529.3"><tspan class="name">クーリッジ</tspan><tspan class="yrs" dx="6">1923–1929</tspan></text>
+</g>
+<g class="term c-a" data-id="a30" data-person="a:ハーバート・C・フーヴァー">
+<title>第31代アメリカ合衆国大統領 ハーバート・C・フーヴァー　1929年3月4日 〜 1933年3月4日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="3651.1" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="3663.4"><tspan class="name">フーヴァー</tspan><tspan class="yrs" dx="6">1929–1933</tspan></text>
+</g>
+<g class="term c-a" data-id="a31" data-person="a:フランクリン・D・ルーズベルト">
+<title>第32代アメリカ合衆国大統領 フランクリン・D・ルーズベルト　1933年3月4日 〜 1945年4月12日（在任 4,422日）</title>
+<rect class="bar f-blue" x="79" y="3747.1" width="14" height="288.6" rx="3"/>
+<text class="label" x="108" y="3759.4"><tspan class="name">F・ルーズベルト</tspan><tspan class="yrs" dx="6">1933–1945</tspan></text>
+</g>
+<g class="term c-a" data-id="a32" data-person="a:ハリー・S・トルーマン">
+<title>第33代アメリカ合衆国大統領 ハリー・S・トルーマン　1945年4月12日 〜 1953年1月20日（在任 2,840日）</title>
+<rect class="bar f-blue" x="79" y="4037.6" width="14" height="184.6" rx="3"/>
+<text class="label" x="108" y="4050"><tspan class="name">トルーマン</tspan><tspan class="yrs" dx="6">1945–1953</tspan></text>
+</g>
+<g class="term c-a" data-id="a33" data-person="a:ドワイト・D・アイゼンハワー">
+<title>第34代アメリカ合衆国大統領 ドワイト・D・アイゼンハワー　1953年1月20日 〜 1961年1月20日（在任 2,922日）</title>
+<rect class="bar f-blue" x="79" y="4224.3" width="14" height="190" rx="3"/>
+<text class="label" x="108" y="4236.6"><tspan class="name">アイゼンハワー</tspan><tspan class="yrs" dx="6">1953–1961</tspan></text>
+</g>
+<g class="term c-a" data-id="a34" data-person="a:ジョン・F・ケネディ">
+<title>第35代アメリカ合衆国大統領 ジョン・F・ケネディ　1961年1月20日 〜 1963年11月22日（在任 1,036日）</title>
+<rect class="bar f-blue" x="79" y="4416.3" width="14" height="66.1" rx="3"/>
+<text class="label" x="108" y="4428.6"><tspan class="name">ケネディ</tspan><tspan class="yrs" dx="6">1961–1963</tspan></text>
+</g>
+<g class="term c-a" data-id="a35" data-person="a:リンドン・B・ジョンソン">
+<title>第36代アメリカ合衆国大統領 リンドン・B・ジョンソン　1963年11月22日 〜 1969年1月20日（在任 1,886日）</title>
+<rect class="bar f-blue" x="79" y="4484.3" width="14" height="121.9" rx="3"/>
+<text class="label" x="108" y="4496.7"><tspan class="name">L・ジョンソン</tspan><tspan class="yrs" dx="6">1963–1969</tspan></text>
+</g>
+<g class="term c-a" data-id="a36" data-person="a:リチャード・M・ニクソン">
+<title>第37代アメリカ合衆国大統領 リチャード・M・ニクソン　1969年1月20日 〜 1974年8月9日（在任 2,027日）</title>
+<rect class="bar f-blue" x="79" y="4608.3" width="14" height="131.2" rx="3"/>
+<text class="label" x="108" y="4620.6"><tspan class="name">ニクソン</tspan><tspan class="yrs" dx="6">1969–1974</tspan></text>
+</g>
+<g class="term c-a" data-id="a37" data-person="a:ジェラルド・R・フォード">
+<title>第38代アメリカ合衆国大統領 ジェラルド・R・フォード　1974年8月9日 〜 1977年1月20日（在任 895日）</title>
+<rect class="bar f-blue" x="79" y="4741.5" width="14" height="56.8" rx="3"/>
+<text class="label" x="108" y="4753.8"><tspan class="name">フォード</tspan><tspan class="yrs" dx="6">1974–1977</tspan></text>
+</g>
+<g class="term c-a" data-id="a38" data-person="a:ジェームズ・E・カーター">
+<title>第39代アメリカ合衆国大統領 ジェームズ・E・カーター　1977年1月20日 〜 1981年1月20日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="4800.3" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="4812.6"><tspan class="name">カーター</tspan><tspan class="yrs" dx="6">1977–1981</tspan></text>
+</g>
+<g class="term c-a" data-id="a39" data-person="a:ロナルド・W・レーガン">
+<title>第40代アメリカ合衆国大統領 ロナルド・W・レーガン　1981年1月20日 〜 1989年1月20日（在任 2,922日）</title>
+<rect class="bar f-blue" x="79" y="4896.3" width="14" height="190" rx="3"/>
+<text class="label" x="108" y="4908.6"><tspan class="name">レーガン</tspan><tspan class="yrs" dx="6">1981–1989</tspan></text>
+</g>
+<g class="term c-a" data-id="a40" data-person="a:ジョージ・H・W・ブッシュ">
+<title>第41代アメリカ合衆国大統領 ジョージ・H・W・ブッシュ　1989年1月20日 〜 1993年1月20日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="5088.3" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="5100.6"><tspan class="name">ブッシュ（父）</tspan><tspan class="yrs" dx="6">1989–1993</tspan></text>
+</g>
+<g class="term c-a" data-id="a41" data-person="a:ビル・J・クリントン">
+<title>第42代アメリカ合衆国大統領 ビル・J・クリントン　1993年1月20日 〜 2001年1月20日（在任 2,922日）</title>
+<rect class="bar f-blue" x="79" y="5184.3" width="14" height="190" rx="3"/>
+<text class="label" x="108" y="5196.6"><tspan class="name">クリントン</tspan><tspan class="yrs" dx="6">1993–2001</tspan></text>
+</g>
+<g class="term c-a" data-id="a42" data-person="a:ジョージ・W・ブッシュ">
+<title>第43代アメリカ合衆国大統領 ジョージ・W・ブッシュ　2001年1月20日 〜 2009年1月20日（在任 2,922日）</title>
+<rect class="bar f-blue" x="79" y="5376.3" width="14" height="190" rx="3"/>
+<text class="label" x="108" y="5388.6"><tspan class="name">ブッシュ（子）</tspan><tspan class="yrs" dx="6">2001–2009</tspan></text>
+</g>
+<g class="term c-a" data-id="a43" data-person="a:バラク・オバマ">
+<title>第44代アメリカ合衆国大統領 バラク・オバマ　2009年1月20日 〜 2017年1月20日（在任 2,922日）</title>
+<rect class="bar f-blue" x="79" y="5568.3" width="14" height="190" rx="3"/>
+<text class="label" x="108" y="5580.6"><tspan class="name">オバマ</tspan><tspan class="yrs" dx="6">2009–2017</tspan></text>
+</g>
+<g class="term c-a" data-id="a44" data-person="a:ドナルド・トランプ">
+<title>第45代アメリカ合衆国大統領 ドナルド・トランプ　2017年1月20日 〜 2021年1月20日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="5760.3" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="5772.6"><tspan class="name">トランプ</tspan><tspan class="yrs" dx="6">2017–2021</tspan></text>
+</g>
+<g class="term c-a" data-id="a45" data-person="a:ジョー・バイデン">
+<title>第46代アメリカ合衆国大統領 ジョー・バイデン　2021年1月20日 〜 2025年1月20日（在任 1,461日）</title>
+<rect class="bar f-blue" x="79" y="5856.3" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="5868.6"><tspan class="name">バイデン</tspan><tspan class="yrs" dx="6">2021–2025</tspan></text>
+</g>
+<g class="term c-a" data-id="a46" data-person="a:ドナルド・トランプ">
+<title>第47代アメリカ合衆国大統領 ドナルド・トランプ　2025年1月20日 〜 在任中（在任 648日（2026年10月30日時点））</title>
+<linearGradient id="tl-g-a46" gradientUnits="userSpaceOnUse" x1="0" y1="5971.9" x2="0" y2="5993.9"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 5955.3Q79 5952.3 82 5952.3H90Q93 5952.3 93 5955.3V5993.9Q93 5993.9 93 5993.9H79Q79 5993.9 79 5993.9Z" fill="url(#tl-g-a46)"/>
+<text class="label" x="108" y="5964.6"><tspan class="name">トランプ</tspan><tspan class="yrs" dx="6">2025–</tspan></text>
+</g>
+<text class="foot" x="380" y="6053.4" text-anchor="middle">出典：List of presidents of the United States by time in office　2026年10月30日時点</text>
+</svg>

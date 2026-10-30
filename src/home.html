@@ -1,0 +1,127 @@
+<title>chronology — 年表のあつまり</title>
+<meta name="description" content="歴代総理大臣、元号、偉人の生没年など、いろいろな年表をひとつの時間軸の見せ方で並べたサイト">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Shippori+Mincho+B1:wght@700;800&display=swap">
+<style>
+/* 年表の一覧。色と書体は各年表のページと同じトークンを使う。 */
+:root {
+  --paper: #fcfcfd;
+  --raise: #ffffff;
+  --ink: #1c2029;
+  --ink2: #4b5260;
+  --muted: #687080;
+  --rule: #e8eaef;
+  --rule2: #c3c8d2;
+  --spine-a: #f0f1f5;
+  --red: #d4452c;
+  --blue: #2c5aa0;
+  --amber: #b8730f;
+  --violet: #7a4fc4;
+  --green: #138a60;
+  --teal: #00897b;
+  --gray: #9aa0ab;
+  --font-body: "BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", sans-serif;
+  --font-display: "Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "Noto Serif JP", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #14171f;
+    --raise: #1c2029;
+    --ink: #e6e8ee;
+    --ink2: #b2b8c4;
+    --muted: #8d94a3;
+    --rule: #232833;
+    --rule2: #3d4452;
+    --spine-a: #1b1f29;
+    --red: #e5604a;
+    --blue: #678bd2;
+    --amber: #c98500;
+    --violet: #9085e9;
+    --green: #199e70;
+    --teal: #1f9fa1;
+    --gray: #6b7280;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #14171f;
+  --raise: #1c2029;
+  --ink: #e6e8ee;
+  --ink2: #b2b8c4;
+  --muted: #8d94a3;
+  --rule: #232833;
+  --rule2: #3d4452;
+  --spine-a: #1b1f29;
+  --red: #e5604a;
+  --blue: #678bd2;
+  --amber: #c98500;
+  --violet: #9085e9;
+  --green: #199e70;
+  --teal: #1f9fa1;
+  --gray: #6b7280;
+  color-scheme: dark;
+}
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-text-size-adjust: 100%;
+}
+.wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 max(16px, env(safe-area-inset-right, 0px)) 64px max(16px, env(safe-area-inset-left, 0px));
+}
+header { padding-block: 44px 8px; }
+h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(30px, 5vw, 44px);
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+h1 small { display: block; font-size: 0.42em; color: var(--muted); letter-spacing: 0.08em; }
+.lede { margin: 12px 0 0; max-width: 38em; color: var(--ink2); }
+section { margin-top: 36px; }
+h2 { font-size: 13px; font-weight: 700; color: var(--muted); letter-spacing: 0.08em; margin: 0 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--rule); }
+.cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.cards a {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-areas: "bars title" "bars desc" "bars meta";
+  column-gap: 14px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  background: var(--raise);
+  color: inherit;
+  text-decoration: none;
+}
+.cards a:hover { border-color: var(--rule2); }
+.cards a:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.bars { grid-area: bars; display: flex; gap: 3px; align-items: stretch; padding-block: 3px; }
+.bars i { width: 5px; border-radius: 2px; }
+.cards b { grid-area: title; font-family: var(--font-display); font-weight: 800; font-size: 19px; line-height: 1.4; }
+.desc { grid-area: desc; color: var(--ink2); font-size: 13.5px; line-height: 1.6; margin-top: 4px; }
+.meta { grid-area: meta; color: var(--muted); font-size: 12px; margin-top: 6px; font-variant-numeric: tabular-nums; }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 13px; }
+footer a { color: inherit; text-underline-offset: 3px; }
+</style>
+<!--@@BODY@@-->
+
+<div class="wrap">
+  <header>
+    <h1>年表のあつまり<small>chronology</small></h1>
+    <p class="lede">歴代の総理大臣や元号、偉人の生没年などを、上から下へ時間が流れる同じ見せ方で並べた年表です。年表どうしを重ねると、別々に覚えていた歴史が同じ時間軸の上でつながります。</p>
+  </header>
+@@CARDS@@
+  <footer>
+    <p>データ更新：@@ASOF@@　データと作り方：<a href="https://github.com/iHideck/chronology" target="_blank" rel="noopener">GitHub（iHideck/chronology）</a></p>
+  </footer>
+</div>

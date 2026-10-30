@@ -1,0 +1,76 @@
+{
+  "title": "歴代内閣総理大臣",
+  "short": "総理",
+  "description": "日本の内閣総理大臣の在任期間（第1〜105代）を、顔写真つきで、アメリカ・中国・ソ連／ロシア・イギリスの首脳や自民党総裁、景気、大きな出来事と並べた年表。",
+  "category": "政治と首脳",
+  "order": 10,
+  "color": "red",
+  "data": {
+    "file": "prime-ministers.csv",
+    "columns": { "ordinal": "代", "name": "氏名", "start": "就任日", "end": "退任日", "photo": "写真" },
+    "merge": true,
+    "days": "inclusive",
+    "durationLabel": "在任",
+    "ongoing": "在任中",
+    "role": "内閣総理大臣",
+    "nameLabel": "氏名",
+    "startLabel": "就任日",
+    "endLabel": "退任日",
+    "check": { "sequential": true, "consecutive": true }
+  },
+  "sources": [
+    { "title": "首相官邸「歴代内閣」", "url": "https://www.kantei.go.jp/jp/rekidainaikaku/" }
+  ],
+  "notes": [
+    "同じ人が続けて務めた代（例：吉田茂の第48〜51代）は1本の棒にまとめています。",
+    "総理の棒の切れ目は、臨時兼任・臨時代理の期間です。",
+    "総理の在任日数は、首相官邸の数え方（就任日と退任日を両方含む）です。"
+  ],
+  "credits": [
+    {
+      "title": "総理大臣の顔写真",
+      "photos": true,
+      "short": "写真：首相官邸ホームページ「歴代内閣」を加工して作成",
+      "text": "「歴代内閣」（首相官邸ホームページ）（https://www.kantei.go.jp/jp/rekidainaikaku/index.html）を加工して作成（円形に切り抜き・縮小）",
+      "license": "公共データ利用規約（第1.0版）",
+      "licenseUrl": "https://www.digital.go.jp/resources/open_data/public_data_license_v1.0"
+    }
+  ],
+  "page": {
+    "title": "歴代総理大臣と世界の首脳",
+    "description": "1868年から今日まで、日本の内閣総理大臣の在任期間を、顔写真つきで、各国の首脳や自民党総裁、景気、大きな出来事と同じ時間軸に並べた年表",
+    "lede": "1868年（明治元年）から今日までの、日本の内閣総理大臣の在任期間を、アメリカ・中国・ソ連／ロシア・イギリスの首脳や、自民党総裁、景気の波、大きな出来事と同じ時間軸に並べた年表です。中央の帯が西暦と和暦、棒の長さが在任期間です。",
+    "how": "棒や名前にカーソルを合わせる（スマホではタップする）と、在任期間と同じ時期の各国の首脳が表示されます。上の欄には、横線の位置の総理や各国の首脳が出ます。表示する列はボタンで切り替えられます。",
+    "notes": [
+      "在任中の棒と在任日数は、ページを開いた日まで伸ばして表示しています。",
+      "明治への改元（1868年10月23日）より前の1868年も、明治元年として表示しています。"
+    ],
+    "range": { "start": "1868-01-01" },
+    "ppy": [28, 22],
+    "maxWidth": 1240,
+    "spine": {
+      "bands": { "data": "eras", "after": "1868-10-23" },
+      "wareki": { "data": "eras", "after": "1868-10-23" },
+      "retro": true,
+      "headline": "和暦"
+    },
+    "jump": "bands",
+    "facts": ["jp", "us"],
+    "columns": [
+      {
+        "id": "jp", "data": "prime-ministers", "side": "left", "title": "日本の内閣総理大臣", "short": "総理", "counterLabel": "総理",
+        "color": "red", "photos": true, "fixed": true, "counter": ["us", "cn", "ru", "uk", "ldp"],
+        "gapText": "臨時兼任・代理の期間",
+        "lead": { "name": "内閣制度発足前", "until": "1885-12-22", "text": "1885年12月22日に内閣制度が発足し、伊藤博文が初代の内閣総理大臣に就任しました。それまでは太政官制のもとで政治が行われていました。" }
+      },
+      { "id": "ldp", "data": "ldp-presidents", "side": "left", "title": "自由民主党総裁", "short": "自民党総裁", "counterLabel": "自民党総裁", "mark": "総裁", "narrowHidden": true, "colorBy": "group", "labels": "none", "bar": 6, "counter": ["jp"] },
+      { "id": "econ", "data": "business-cycles", "side": "left", "title": "景気の波（内閣府「景気基準日付」）", "short": "景気", "mark": "景気", "narrowHidden": true, "colorBy": "group", "labels": "none", "bar": 6 },
+      { "id": "us", "data": "us-presidents", "side": "right", "title": "アメリカ合衆国大統領", "short": "米国", "mark": "米", "counterLabel": "米大統領", "color": "blue", "counter": ["jp"] },
+      { "id": "cn", "data": "china-leaders", "side": "right", "title": "中国の最高指導者", "short": "中国", "mark": "中", "counterLabel": "中国の指導者", "color": "amber", "counter": ["jp"] },
+      { "id": "ru", "data": "russia-leaders", "side": "right", "title": "ロシア・ソ連の最高指導者", "short": "ソ連・ロシア", "mark": "露", "counterLabel": "ソ連・ロシアの指導者", "color": "violet", "counter": ["jp"] },
+      { "id": "uk", "data": "uk-monarchs", "side": "right", "title": "イギリスの君主", "short": "英国", "mark": "英", "counterLabel": "英国の君主", "color": "green", "counter": ["jp"] },
+      { "id": "ev", "data": "events", "side": "right", "title": "戦争・大きな出来事", "short": "出来事", "mark": "事", "narrowHidden": true, "colorBy": "group", "bar": 6, "counter": ["jp"] }
+    ],
+    "preview": { "width": 1100, "hidden": ["ev"] }
+  }
+}

@@ -1,0 +1,532 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 3102" width="760" height="3102" role="img" aria-labelledby="tl-title">
+<title id="tl-title">お札の肖像</title>
+<style>
+.tl{--paper:#fcfcfd;--ink:#1c2029;--ink2:#4b5260;--muted:#687080;--rule:#e8eaef;--rule2:#c3c8d2;--spine-a:#f0f1f5;--spine-b:#e6e8ef;--red:#d4452c;--blue:#2c5aa0;--amber:#b8730f;--violet:#7a4fc4;--green:#138a60;--teal:#00897b;--gray:#9aa0ab;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:9px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="760" height="3102" rx="14"/>
+<text class="lane-s" x="79" y="40">一万</text>
+<rect class="f-amber" x="79" y="46" width="28" height="6" rx="2"/>
+<text class="lane-s" x="111" y="40">五千</text>
+<rect class="f-amber" x="111" y="46" width="28" height="6" rx="2"/>
+<text class="lane-s" x="143" y="40">千円</text>
+<rect class="f-amber" x="143" y="46" width="28" height="6" rx="2"/>
+<text class="lane-s" x="175" y="40">五百</text>
+<rect class="f-amber" x="175" y="46" width="28" height="6" rx="2"/>
+<text class="lane-s" x="207" y="40">二百</text>
+<rect class="f-amber" x="207" y="46" width="28" height="6" rx="2"/>
+<text class="lane-s" x="239" y="40">百円券</text>
+<rect class="f-amber" x="239" y="46" width="58" height="6" rx="2"/>
+<text class="lane-v" x="307.5" y="20" writing-mode="vertical-rl">五十</text>
+<rect class="f-amber" x="301" y="46" width="13" height="6" rx="2"/>
+<text class="lane-s" x="318" y="40">二十</text>
+<rect class="f-amber" x="318" y="46" width="28" height="6" rx="2"/>
+<text class="lane-s" x="350" y="40">十円券</text>
+<rect class="f-amber" x="350" y="46" width="73" height="6" rx="2"/>
+<text class="lane-s" x="427" y="40">五円券</text>
+<rect class="f-amber" x="427" y="46" width="73" height="6" rx="2"/>
+<text class="lane-s" x="504" y="40">一円券</text>
+<rect class="f-amber" x="504" y="46" width="58" height="6" rx="2"/>
+<text class="lane-s" x="566" y="40">五銭券</text>
+<rect class="f-amber" x="566" y="46" width="13" height="6" rx="2"/>
+<text class="spine-h" x="36" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="36" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="0" y="70" width="72" height="651.5"/>
+<rect class="spine-b" x="0" y="721.5" width="72" height="288.1"/>
+<rect class="spine-a" x="0" y="1009.6" width="72" height="1240.8"/>
+<rect class="spine-b" x="0" y="2250.4" width="72" height="606.2"/>
+<rect class="spine-a" x="0" y="2856.6" width="72" height="174.6"/>
+<line class="grid" x1="0" x2="760" y1="270" y2="270"/>
+<line class="grid" x1="0" x2="760" y1="470" y2="470"/>
+<line class="grid" x1="0" x2="760" y1="670" y2="670"/>
+<line class="grid" x1="0" x2="760" y1="870" y2="870"/>
+<line class="grid" x1="0" x2="760" y1="1070" y2="1070"/>
+<line class="grid" x1="0" x2="760" y1="1270" y2="1270"/>
+<line class="grid" x1="0" x2="760" y1="1470" y2="1470"/>
+<line class="grid" x1="0" x2="760" y1="1670" y2="1670"/>
+<line class="grid" x1="0" x2="760" y1="1870" y2="1870"/>
+<line class="grid" x1="0" x2="760" y1="2070" y2="2070"/>
+<line class="grid" x1="0" x2="760" y1="2470" y2="2470"/>
+<line class="grid" x1="0" x2="760" y1="2670" y2="2670"/>
+<line class="era-line" x1="0" x2="760" y1="721.5" y2="721.5"/>
+<line class="era-line" x1="0" x2="760" y1="1009.6" y2="1009.6"/>
+<line class="era-line" x1="0" x2="760" y1="2250.4" y2="2250.4"/>
+<line class="era-line" x1="0" x2="760" y1="2856.6" y2="2856.6"/>
+<path class="tick" d="M0 70h9M72 70h-9"/>
+<path class="tick" d="M0 90h3M72 90h-3"/>
+<path class="tick" d="M0 110h3M72 110h-3"/>
+<path class="tick" d="M0 130h3M72 130h-3"/>
+<path class="tick" d="M0 150h3M72 150h-3"/>
+<path class="tick" d="M0 170h6M72 170h-6"/>
+<path class="tick" d="M0 190h3M72 190h-3"/>
+<path class="tick" d="M0 210h3M72 210h-3"/>
+<path class="tick" d="M0 230h3M72 230h-3"/>
+<path class="tick" d="M0 250h3M72 250h-3"/>
+<path class="tick" d="M0 270h9M72 270h-9"/>
+<path class="tick" d="M0 290h3M72 290h-3"/>
+<path class="tick" d="M0 310h3M72 310h-3"/>
+<path class="tick" d="M0 330h3M72 330h-3"/>
+<path class="tick" d="M0 350h3M72 350h-3"/>
+<path class="tick" d="M0 370h6M72 370h-6"/>
+<path class="tick" d="M0 390h3M72 390h-3"/>
+<path class="tick" d="M0 410h3M72 410h-3"/>
+<path class="tick" d="M0 430h3M72 430h-3"/>
+<path class="tick" d="M0 450h3M72 450h-3"/>
+<path class="tick" d="M0 470h9M72 470h-9"/>
+<path class="tick" d="M0 490h3M72 490h-3"/>
+<path class="tick" d="M0 510h3M72 510h-3"/>
+<path class="tick" d="M0 530h3M72 530h-3"/>
+<path class="tick" d="M0 550h3M72 550h-3"/>
+<path class="tick" d="M0 570h6M72 570h-6"/>
+<path class="tick" d="M0 590h3M72 590h-3"/>
+<path class="tick" d="M0 610h3M72 610h-3"/>
+<path class="tick" d="M0 630h3M72 630h-3"/>
+<path class="tick" d="M0 650h3M72 650h-3"/>
+<path class="tick" d="M0 670h9M72 670h-9"/>
+<path class="tick" d="M0 690h3M72 690h-3"/>
+<path class="tick" d="M0 710h3M72 710h-3"/>
+<path class="tick" d="M0 730h3M72 730h-3"/>
+<path class="tick" d="M0 750h3M72 750h-3"/>
+<path class="tick" d="M0 770h6M72 770h-6"/>
+<path class="tick" d="M0 790h3M72 790h-3"/>
+<path class="tick" d="M0 810h3M72 810h-3"/>
+<path class="tick" d="M0 830h3M72 830h-3"/>
+<path class="tick" d="M0 850h3M72 850h-3"/>
+<path class="tick" d="M0 870h9M72 870h-9"/>
+<path class="tick" d="M0 890h3M72 890h-3"/>
+<path class="tick" d="M0 910h3M72 910h-3"/>
+<path class="tick" d="M0 930h3M72 930h-3"/>
+<path class="tick" d="M0 950h3M72 950h-3"/>
+<path class="tick" d="M0 970h6M72 970h-6"/>
+<path class="tick" d="M0 990h3M72 990h-3"/>
+<path class="tick" d="M0 1010h3M72 1010h-3"/>
+<path class="tick" d="M0 1030h3M72 1030h-3"/>
+<path class="tick" d="M0 1050h3M72 1050h-3"/>
+<path class="tick" d="M0 1070h9M72 1070h-9"/>
+<path class="tick" d="M0 1090h3M72 1090h-3"/>
+<path class="tick" d="M0 1110h3M72 1110h-3"/>
+<path class="tick" d="M0 1130h3M72 1130h-3"/>
+<path class="tick" d="M0 1150h3M72 1150h-3"/>
+<path class="tick" d="M0 1170h6M72 1170h-6"/>
+<path class="tick" d="M0 1190h3M72 1190h-3"/>
+<path class="tick" d="M0 1210h3M72 1210h-3"/>
+<path class="tick" d="M0 1230h3M72 1230h-3"/>
+<path class="tick" d="M0 1250h3M72 1250h-3"/>
+<path class="tick" d="M0 1270h9M72 1270h-9"/>
+<path class="tick" d="M0 1290h3M72 1290h-3"/>
+<path class="tick" d="M0 1310h3M72 1310h-3"/>
+<path class="tick" d="M0 1330h3M72 1330h-3"/>
+<path class="tick" d="M0 1350h3M72 1350h-3"/>
+<path class="tick" d="M0 1370h6M72 1370h-6"/>
+<path class="tick" d="M0 1390h3M72 1390h-3"/>
+<path class="tick" d="M0 1410h3M72 1410h-3"/>
+<path class="tick" d="M0 1430h3M72 1430h-3"/>
+<path class="tick" d="M0 1450h3M72 1450h-3"/>
+<path class="tick" d="M0 1470h9M72 1470h-9"/>
+<path class="tick" d="M0 1490h3M72 1490h-3"/>
+<path class="tick" d="M0 1510h3M72 1510h-3"/>
+<path class="tick" d="M0 1530h3M72 1530h-3"/>
+<path class="tick" d="M0 1550h3M72 1550h-3"/>
+<path class="tick" d="M0 1570h6M72 1570h-6"/>
+<path class="tick" d="M0 1590h3M72 1590h-3"/>
+<path class="tick" d="M0 1610h3M72 1610h-3"/>
+<path class="tick" d="M0 1630h3M72 1630h-3"/>
+<path class="tick" d="M0 1650h3M72 1650h-3"/>
+<path class="tick" d="M0 1670h9M72 1670h-9"/>
+<path class="tick" d="M0 1690h3M72 1690h-3"/>
+<path class="tick" d="M0 1710h3M72 1710h-3"/>
+<path class="tick" d="M0 1730h3M72 1730h-3"/>
+<path class="tick" d="M0 1750h3M72 1750h-3"/>
+<path class="tick" d="M0 1770h6M72 1770h-6"/>
+<path class="tick" d="M0 1790h3M72 1790h-3"/>
+<path class="tick" d="M0 1810h3M72 1810h-3"/>
+<path class="tick" d="M0 1830h3M72 1830h-3"/>
+<path class="tick" d="M0 1850h3M72 1850h-3"/>
+<path class="tick" d="M0 1870h9M72 1870h-9"/>
+<path class="tick" d="M0 1890h3M72 1890h-3"/>
+<path class="tick" d="M0 1910h3M72 1910h-3"/>
+<path class="tick" d="M0 1930h3M72 1930h-3"/>
+<path class="tick" d="M0 1950h3M72 1950h-3"/>
+<path class="tick" d="M0 1970h6M72 1970h-6"/>
+<path class="tick" d="M0 1990h3M72 1990h-3"/>
+<path class="tick" d="M0 2010h3M72 2010h-3"/>
+<path class="tick" d="M0 2030h3M72 2030h-3"/>
+<path class="tick" d="M0 2050h3M72 2050h-3"/>
+<path class="tick" d="M0 2070h9M72 2070h-9"/>
+<path class="tick" d="M0 2090h3M72 2090h-3"/>
+<path class="tick" d="M0 2110h3M72 2110h-3"/>
+<path class="tick" d="M0 2130h3M72 2130h-3"/>
+<path class="tick" d="M0 2150h3M72 2150h-3"/>
+<path class="tick" d="M0 2170h6M72 2170h-6"/>
+<path class="tick" d="M0 2190h3M72 2190h-3"/>
+<path class="tick" d="M0 2210h3M72 2210h-3"/>
+<path class="tick" d="M0 2230h3M72 2230h-3"/>
+<path class="tick" d="M0 2250h3M72 2250h-3"/>
+<path class="tick" d="M0 2270h9M72 2270h-9"/>
+<path class="tick" d="M0 2290h3M72 2290h-3"/>
+<path class="tick" d="M0 2310h3M72 2310h-3"/>
+<path class="tick" d="M0 2330h3M72 2330h-3"/>
+<path class="tick" d="M0 2350h3M72 2350h-3"/>
+<path class="tick" d="M0 2370h6M72 2370h-6"/>
+<path class="tick" d="M0 2390h3M72 2390h-3"/>
+<path class="tick" d="M0 2410h3M72 2410h-3"/>
+<path class="tick" d="M0 2430h3M72 2430h-3"/>
+<path class="tick" d="M0 2450h3M72 2450h-3"/>
+<path class="tick" d="M0 2470h9M72 2470h-9"/>
+<path class="tick" d="M0 2490h3M72 2490h-3"/>
+<path class="tick" d="M0 2510h3M72 2510h-3"/>
+<path class="tick" d="M0 2530h3M72 2530h-3"/>
+<path class="tick" d="M0 2550h3M72 2550h-3"/>
+<path class="tick" d="M0 2570h6M72 2570h-6"/>
+<path class="tick" d="M0 2590h3M72 2590h-3"/>
+<path class="tick" d="M0 2610h3M72 2610h-3"/>
+<path class="tick" d="M0 2630h3M72 2630h-3"/>
+<path class="tick" d="M0 2650h3M72 2650h-3"/>
+<path class="tick" d="M0 2670h9M72 2670h-9"/>
+<path class="tick" d="M0 2690h3M72 2690h-3"/>
+<path class="tick" d="M0 2710h3M72 2710h-3"/>
+<path class="tick" d="M0 2730h3M72 2730h-3"/>
+<path class="tick" d="M0 2750h3M72 2750h-3"/>
+<path class="tick" d="M0 2770h6M72 2770h-6"/>
+<path class="tick" d="M0 2790h3M72 2790h-3"/>
+<path class="tick" d="M0 2810h3M72 2810h-3"/>
+<path class="tick" d="M0 2830h3M72 2830h-3"/>
+<path class="tick" d="M0 2850h3M72 2850h-3"/>
+<path class="tick" d="M0 2870h9M72 2870h-9"/>
+<path class="tick" d="M0 2890h3M72 2890h-3"/>
+<path class="tick" d="M0 2910h3M72 2910h-3"/>
+<path class="tick" d="M0 2930h3M72 2930h-3"/>
+<path class="tick" d="M0 2950h3M72 2950h-3"/>
+<path class="tick" d="M0 2970h6M72 2970h-6"/>
+<path class="tick" d="M0 2990h3M72 2990h-3"/>
+<path class="tick" d="M0 3010h3M72 3010h-3"/>
+<path class="tick" d="M0 3030h3M72 3030h-3"/>
+<text class="dec-y" x="36" y="274.5" text-anchor="middle">1890</text>
+<text class="dec-w" x="36" y="288" text-anchor="middle">明治23年</text>
+<text class="dec-y" x="36" y="474.5" text-anchor="middle">1900</text>
+<text class="dec-w" x="36" y="488" text-anchor="middle">明治33年</text>
+<text class="dec-y" x="36" y="674.5" text-anchor="middle">1910</text>
+<text class="dec-w" x="36" y="688" text-anchor="middle">明治43年</text>
+<text class="dec-y" x="36" y="874.5" text-anchor="middle">1920</text>
+<text class="dec-w" x="36" y="888" text-anchor="middle">大正9年</text>
+<text class="dec-y" x="36" y="1074.5" text-anchor="middle">1930</text>
+<text class="dec-w" x="36" y="1088" text-anchor="middle">昭和5年</text>
+<text class="dec-y" x="36" y="1274.5" text-anchor="middle">1940</text>
+<text class="dec-w" x="36" y="1288" text-anchor="middle">昭和15年</text>
+<text class="dec-y" x="36" y="1474.5" text-anchor="middle">1950</text>
+<text class="dec-w" x="36" y="1488" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="36" y="1674.5" text-anchor="middle">1960</text>
+<text class="dec-w" x="36" y="1688" text-anchor="middle">昭和35年</text>
+<text class="dec-y" x="36" y="1874.5" text-anchor="middle">1970</text>
+<text class="dec-w" x="36" y="1888" text-anchor="middle">昭和45年</text>
+<text class="dec-y" x="36" y="2074.5" text-anchor="middle">1980</text>
+<text class="dec-w" x="36" y="2088" text-anchor="middle">昭和55年</text>
+<text class="dec-y" x="36" y="2474.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="36" y="2488" text-anchor="middle">平成12年</text>
+<text class="dec-y" x="36" y="2674.5" text-anchor="middle">2010</text>
+<text class="dec-w" x="36" y="2688" text-anchor="middle">平成22年</text>
+<text class="era-name" x="36" y="93" text-anchor="middle">明治</text>
+<text class="era-date" x="36" y="107" text-anchor="middle">1868.10.23</text>
+<text class="era-name" x="36" y="744.5" text-anchor="middle">大正</text>
+<text class="era-date" x="36" y="758.5" text-anchor="middle">1912.7.30</text>
+<text class="era-name" x="36" y="1032.6" text-anchor="middle">昭和</text>
+<text class="era-date" x="36" y="1046.6" text-anchor="middle">1926.12.25</text>
+<text class="era-name" x="36" y="2273.4" text-anchor="middle">平成</text>
+<text class="era-date" x="36" y="2287.4" text-anchor="middle">1989.1.8</text>
+<text class="era-name" x="36" y="2879.6" text-anchor="middle">令和</text>
+<text class="era-date" x="36" y="2893.6" text-anchor="middle">2019.5.1</text>
+<line class="asof-line" x1="-4" x2="583" y1="3006.6" y2="3006.6"/>
+<text class="era-date" x="36" y="3020.6" text-anchor="middle">2026.10.30</text>
+<text class="era-date" x="36" y="3033.6" text-anchor="middle">時点</text>
+<g class="term c-d0" data-id="d00" data-person="d0:聖徳太子">
+<title>聖徳太子　1958年12月1日 〜 1986年1月4日（発行 約27年）</title>
+<rect class="bar f-amber" x="79" y="1649.3" width="13" height="539.9" rx="3"/>
+<text class="inside" x="85.5" y="1654.3" writing-mode="vertical-rl">聖徳太子</text>
+</g>
+<g class="term c-d0" data-id="d01" data-person="d0:福沢諭吉">
+<title>福沢諭吉　1984年11月1日 〜 2007年4月2日（発行 約22年）</title>
+<rect class="bar f-amber" x="94" y="2167.7" width="13" height="446.3" rx="3"/>
+<text class="inside" x="100.5" y="2172.7" writing-mode="vertical-rl">福沢諭吉</text>
+</g>
+<g class="term c-d0" data-id="d02" data-person="d0:福沢諭吉">
+<title>福沢諭吉　2004年11月1日 〜 発行中（発行 約22年）</title>
+<linearGradient id="tl-g-d02" gradientUnits="userSpaceOnUse" x1="0" y1="2984.6" x2="0" y2="3006.6"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 2570.7Q79 2567.7 82 2567.7H89Q92 2567.7 92 2570.7V3006.6Q92 3006.6 92 3006.6H79Q79 3006.6 79 3006.6Z" fill="url(#tl-g-d02)"/>
+<text class="inside" x="85.5" y="2572.7" writing-mode="vertical-rl">福沢諭吉</text>
+</g>
+<g class="term c-d0" data-id="d03" data-person="d0:渋沢栄一">
+<title>渋沢栄一　2024年7月3日 〜 発行中（発行 約2年）</title>
+<linearGradient id="tl-g-d03" gradientUnits="userSpaceOnUse" x1="0" y1="2984.6" x2="0" y2="3006.6"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M94 2964.1Q94 2961.1 97 2961.1H104Q107 2961.1 107 2964.1V3006.6Q107 3006.6 107 3006.6H94Q94 3006.6 94 3006.6Z" fill="url(#tl-g-d03)"/>
+<text class="inside" x="100.5" y="2966.1" writing-mode="vertical-rl">渋沢栄一</text>
+</g>
+<g class="term c-d1" data-id="d10" data-person="d1:聖徳太子">
+<title>聖徳太子　1957年10月1日 〜 1986年1月4日（発行 約28年）</title>
+<rect class="bar f-amber" x="111" y="1626" width="13" height="563.2" rx="3"/>
+<text class="inside" x="117.5" y="1631" writing-mode="vertical-rl">聖徳太子</text>
+</g>
+<g class="term c-d1" data-id="d11" data-person="d1:新渡戸稲造">
+<title>新渡戸稲造　1984年11月1日 〜 2007年4月2日（発行 約22年）</title>
+<rect class="bar f-amber" x="126" y="2167.7" width="13" height="446.3" rx="3"/>
+<text class="inside" x="132.5" y="2172.7" writing-mode="vertical-rl">新渡戸稲造</text>
+</g>
+<g class="term c-d1" data-id="d12" data-person="d1:樋口一葉">
+<title>樋口一葉　2004年11月1日 〜 発行中（発行 約22年）</title>
+<linearGradient id="tl-g-d12" gradientUnits="userSpaceOnUse" x1="0" y1="2984.6" x2="0" y2="3006.6"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M111 2570.7Q111 2567.7 114 2567.7H121Q124 2567.7 124 2570.7V3006.6Q124 3006.6 124 3006.6H111Q111 3006.6 111 3006.6Z" fill="url(#tl-g-d12)"/>
+<text class="inside" x="117.5" y="2572.7" writing-mode="vertical-rl">樋口一葉</text>
+</g>
+<g class="term c-d1" data-id="d13" data-person="d1:津田梅子">
+<title>津田梅子　2024年7月3日 〜 発行中（発行 約2年）</title>
+<linearGradient id="tl-g-d13" gradientUnits="userSpaceOnUse" x1="0" y1="2984.6" x2="0" y2="3006.6"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M126 2964.1Q126 2961.1 129 2961.1H136Q139 2961.1 139 2964.1V3006.6Q139 3006.6 139 3006.6H126Q126 3006.6 126 3006.6Z" fill="url(#tl-g-d13)"/>
+<text class="inside" x="132.5" y="2966.1" writing-mode="vertical-rl">津田梅子</text>
+</g>
+<g class="term c-d2" data-id="d20" data-person="d2:日本武尊">
+<title>日本武尊　1945年8月17日 〜 1946年3月2日（発行 197日）</title>
+<rect class="bar f-amber approx" x="143" y="1383.5" width="13" height="8.8" rx="3"/>
+</g>
+<g class="term c-d2" data-id="d21" data-person="d2:聖徳太子">
+<title>聖徳太子　1950年1月7日 〜 1965年1月4日（発行 約15年）</title>
+<rect class="bar f-amber" x="143" y="1471.3" width="13" height="297.9" rx="3"/>
+<text class="inside" x="149.5" y="1476.3" writing-mode="vertical-rl">聖徳太子</text>
+</g>
+<g class="term c-d2" data-id="d22" data-person="d2:伊藤博文">
+<title>伊藤博文　1963年11月1日 〜 1986年1月4日（発行 約22年）</title>
+<rect class="bar f-amber" x="158" y="1747.6" width="13" height="441.5" rx="3"/>
+<text class="inside" x="164.5" y="1752.6" writing-mode="vertical-rl">伊藤博文</text>
+</g>
+<g class="term c-d2" data-id="d23" data-person="d2:夏目漱石">
+<title>夏目漱石　1984年11月1日 〜 2007年4月2日（発行 約22年）</title>
+<rect class="bar f-amber" x="143" y="2167.7" width="13" height="446.3" rx="3"/>
+<text class="inside" x="149.5" y="2172.7" writing-mode="vertical-rl">夏目漱石</text>
+</g>
+<g class="term c-d2" data-id="d24" data-person="d2:野口英世">
+<title>野口英世　2004年11月1日 〜 発行中（発行 約22年）</title>
+<linearGradient id="tl-g-d24" gradientUnits="userSpaceOnUse" x1="0" y1="2984.6" x2="0" y2="3006.6"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M158 2570.7Q158 2567.7 161 2567.7H168Q171 2567.7 171 2570.7V3006.6Q171 3006.6 171 3006.6H158Q158 3006.6 158 3006.6Z" fill="url(#tl-g-d24)"/>
+<text class="inside" x="164.5" y="2572.7" writing-mode="vertical-rl">野口英世</text>
+</g>
+<g class="term c-d2" data-id="d25" data-person="d2:北里柴三郎">
+<title>北里柴三郎　2024年7月3日 〜 発行中（発行 約2年）</title>
+<linearGradient id="tl-g-d25" gradientUnits="userSpaceOnUse" x1="0" y1="2984.6" x2="0" y2="3006.6"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M143 2964.1Q143 2961.1 146 2961.1H153Q156 2961.1 156 2964.1V3006.6Q156 3006.6 156 3006.6H143Q143 3006.6 143 3006.6Z" fill="url(#tl-g-d25)"/>
+</g>
+<g class="term c-d3" data-id="d30" data-person="d3:岩倉具視">
+<title>岩倉具視　1951年4月2日 〜 1971年1月4日（発行 約20年）</title>
+<rect class="bar f-amber" x="175" y="1496" width="13" height="393.2" rx="3"/>
+<text class="inside" x="181.5" y="1501" writing-mode="vertical-rl">岩倉具視</text>
+</g>
+<g class="term c-d3" data-id="d31" data-person="d3:岩倉具視">
+<title>岩倉具視　1969年11月1日 〜 1994年4月1日（発行 約24年）</title>
+<rect class="bar f-amber" x="190" y="1867.7" width="13" height="486.3" rx="3"/>
+<text class="inside" x="196.5" y="1872.7" writing-mode="vertical-rl">岩倉具視</text>
+</g>
+<g class="term c-d4" data-id="d40" data-person="d4:藤原鎌足">
+<title>藤原鎌足　1945年4月16日 〜 1946年3月2日（発行 320日）</title>
+<rect class="bar f-amber approx" x="207" y="1376.8" width="13" height="15.5" rx="3"/>
+</g>
+<g class="term c-d4" data-id="d41" data-person="d4:武内宿禰">
+<title>武内宿禰　1945年8月16日 〜 1946年3月2日（発行 198日）</title>
+<rect class="bar f-amber approx" x="222" y="1383.4" width="13" height="8.8" rx="3"/>
+</g>
+<g class="term c-d5" data-id="d50" data-person="d5:大黒天">
+<title>大黒天　1885年9月8日 〜 1939年3月31日（発行 約54年）</title>
+<rect class="bar f-amber approx" x="239" y="184.7" width="13" height="1069.1" rx="3"/>
+<text class="inside" x="245.5" y="189.7" writing-mode="vertical-rl">大黒天</text>
+</g>
+<g class="term c-d5" data-id="d51" data-person="d5:藤原鎌足">
+<title>藤原鎌足　1891年11月15日 〜 1939年3月31日（発行 約47年）</title>
+<rect class="bar f-amber approx" x="254" y="308.4" width="13" height="945.4" rx="3"/>
+<text class="inside" x="260.5" y="313.4" writing-mode="vertical-rl">藤原鎌足</text>
+</g>
+<g class="term c-d5" data-id="d52" data-person="d5:藤原鎌足">
+<title>藤原鎌足　1900年12月25日 〜 1939年3月31日（発行 約38年）</title>
+<rect class="bar f-amber approx" x="269" y="490.6" width="13" height="763.2" rx="3"/>
+<text class="inside" x="275.5" y="495.6" writing-mode="vertical-rl">藤原鎌足</text>
+</g>
+<g class="term c-d5" data-id="d53" data-person="d5:聖徳太子">
+<title>聖徳太子　1930年1月11日 〜 1946年3月2日（発行 約16年）</title>
+<rect class="bar f-amber approx" x="284" y="1071.5" width="13" height="320.7" rx="3"/>
+<text class="inside" x="290.5" y="1076.5" writing-mode="vertical-rl">聖徳太子</text>
+</g>
+<g class="term c-d5" data-id="d54" data-person="d5:聖徳太子">
+<title>聖徳太子　1944年3月20日 〜 1946年3月2日（発行 712日）</title>
+<rect class="bar f-amber approx" x="239" y="1355.3" width="13" height="37" rx="3"/>
+</g>
+<g class="term c-d5" data-id="d55" data-person="d5:聖徳太子">
+<title>聖徳太子　1945年8月17日 〜 1946年3月2日（発行 197日）</title>
+<rect class="bar f-amber approx" x="254" y="1383.5" width="13" height="8.8" rx="3"/>
+</g>
+<g class="term c-d5" data-id="d56" data-person="d5:聖徳太子">
+<title>聖徳太子　1946年2月25日 〜 1956年6月5日（発行 約10年）</title>
+<rect class="bar f-amber" x="269" y="1394" width="13" height="203.5" rx="3"/>
+<text class="inside" x="275.5" y="1399" writing-mode="vertical-rl">聖徳太子</text>
+</g>
+<g class="term c-d5" data-id="d57" data-person="d5:板垣退助">
+<title>板垣退助　1953年12月1日 〜 1974年8月1日（発行 約21年）</title>
+<rect class="bar f-amber" x="239" y="1549.3" width="13" height="411.3" rx="3"/>
+<text class="inside" x="245.5" y="1554.3" writing-mode="vertical-rl">板垣退助</text>
+</g>
+<g class="term c-d6" data-id="d60" data-person="d6:高橋是清">
+<title>高橋是清　1951年12月1日 〜 1958年10月1日（発行 約7年）</title>
+<rect class="bar f-amber" x="301" y="1509.3" width="13" height="134.7" rx="3"/>
+<text class="inside" x="307.5" y="1514.3" writing-mode="vertical-rl">高橋是清</text>
+</g>
+<g class="term c-d7" data-id="d70" data-person="d7:菅原道真">
+<title>菅原道真　1917年11月20日 〜 1939年3月31日（発行 約21年）</title>
+<rect class="bar f-amber approx" x="318" y="828.7" width="13" height="425.2" rx="3"/>
+<text class="inside" x="324.5" y="833.7" writing-mode="vertical-rl">菅原道真</text>
+</g>
+<g class="term c-d7" data-id="d71" data-person="d7:藤原鎌足">
+<title>藤原鎌足　1931年7月21日 〜 1946年3月2日（発行 約15年）</title>
+<rect class="bar f-amber approx" x="333" y="1102" width="13" height="290.3" rx="3"/>
+<text class="inside" x="339.5" y="1107" writing-mode="vertical-rl">藤原鎌足</text>
+</g>
+<g class="term c-d8" data-id="d80" data-person="d8:大黒天">
+<title>大黒天　1885年5月9日 〜 1939年3月31日（発行 約54年）</title>
+<rect class="bar f-amber approx" x="350" y="178.1" width="13" height="1075.8" rx="3"/>
+<text class="inside" x="356.5" y="183.1" writing-mode="vertical-rl">大黒天</text>
+</g>
+<g class="term c-d8" data-id="d81" data-person="d8:和気清麻呂">
+<title>和気清麻呂　1890年9月12日 〜 1939年3月31日（発行 約49年）</title>
+<rect class="bar f-amber approx" x="365" y="284.9" width="13" height="968.9" rx="3"/>
+<text class="inside" x="371.5" y="289.9" writing-mode="vertical-rl">和気清麻呂</text>
+</g>
+<g class="term c-d8" data-id="d82" data-person="d8:和気清麻呂">
+<title>和気清麻呂　1899年10月1日 〜 1939年3月31日（発行 約39年）</title>
+<rect class="bar f-amber approx" x="380" y="466" width="13" height="787.9" rx="3"/>
+<text class="inside" x="386.5" y="471" writing-mode="vertical-rl">和気清麻呂</text>
+</g>
+<g class="term c-d8" data-id="d83" data-person="d8:和気清麻呂">
+<title>和気清麻呂　1915年5月1日 〜 1939年3月31日（発行 約24年）</title>
+<rect class="bar f-amber approx" x="395" y="777.5" width="13" height="476.3" rx="3"/>
+<text class="inside" x="401.5" y="782.5" writing-mode="vertical-rl">和気清麻呂</text>
+</g>
+<g class="term c-d8" data-id="d84" data-person="d8:和気清麻呂">
+<title>和気清麻呂　1930年5月21日 〜 1946年3月2日（発行 約16年）</title>
+<rect class="bar f-amber approx" x="410" y="1078.7" width="13" height="313.6" rx="3"/>
+<text class="inside" x="416.5" y="1083.7" writing-mode="vertical-rl">和気清麻呂</text>
+</g>
+<g class="term c-d8" data-id="d85" data-person="d8:和気清麻呂">
+<title>和気清麻呂　1943年12月15日 〜 1946年3月2日（発行 約2年）</title>
+<rect class="bar f-amber approx" x="350" y="1350" width="13" height="42.2" rx="3"/>
+</g>
+<g class="term c-d8" data-id="d86" data-person="d8:和気清麻呂">
+<title>和気清麻呂　1945年8月17日 〜 1946年3月2日（発行 197日）</title>
+<rect class="bar f-amber approx" x="365" y="1383.5" width="13" height="8.8" rx="3"/>
+</g>
+<g class="term c-d9" data-id="d90" data-person="d9:菅原道真">
+<title>菅原道真　1888年12月3日 〜 1939年3月31日（発行 約50年）</title>
+<rect class="bar f-amber approx" x="427" y="249.5" width="13" height="1004.4" rx="3"/>
+<text class="inside" x="433.5" y="254.5" writing-mode="vertical-rl">菅原道真</text>
+</g>
+<g class="term c-d9" data-id="d91" data-person="d9:武内宿禰">
+<title>武内宿禰　1899年4月1日 〜 1939年3月31日（発行 約40年）</title>
+<rect class="bar f-amber approx" x="442" y="455.9" width="13" height="797.9" rx="3"/>
+<text class="inside" x="448.5" y="460.9" writing-mode="vertical-rl">武内宿禰</text>
+</g>
+<g class="term c-d9" data-id="d92" data-person="d9:菅原道真">
+<title>菅原道真　1910年9月1日 〜 1939年3月31日（発行 約29年）</title>
+<rect class="bar f-amber approx" x="457" y="684.3" width="13" height="569.6" rx="3"/>
+<text class="inside" x="463.5" y="689.3" writing-mode="vertical-rl">菅原道真</text>
+</g>
+<g class="term c-d9" data-id="d93" data-person="d9:武内宿禰">
+<title>武内宿禰　1916年12月15日 〜 1939年3月31日（発行 約22年）</title>
+<rect class="bar f-amber approx" x="472" y="810.1" width="13" height="443.8" rx="3"/>
+<text class="inside" x="478.5" y="815.1" writing-mode="vertical-rl">武内宿禰</text>
+</g>
+<g class="term c-d9" data-id="d94" data-person="d9:菅原道真">
+<title>菅原道真　1930年3月1日 〜 1946年3月2日（発行 約16年）</title>
+<rect class="bar f-amber approx" x="487" y="1074.2" width="13" height="318.1" rx="3"/>
+<text class="inside" x="493.5" y="1079.2" writing-mode="vertical-rl">菅原道真</text>
+</g>
+<g class="term c-d9" data-id="d95" data-person="d9:菅原道真">
+<title>菅原道真　1942年1月6日 〜 1946年3月2日（発行 約4年）</title>
+<rect class="bar f-amber approx" x="427" y="1311.3" width="13" height="81" rx="3"/>
+<text class="inside" x="433.5" y="1316.3" writing-mode="vertical-rl">菅原道真</text>
+</g>
+<g class="term c-d9" data-id="d96" data-person="d9:菅原道真">
+<title>菅原道真　1943年12月15日 〜 1946年3月2日（発行 約2年）</title>
+<rect class="bar f-amber approx" x="442" y="1350" width="13" height="42.2" rx="3"/>
+</g>
+<g class="term c-d10" data-id="d100" data-person="d10:大黒天">
+<title>大黒天　1885年9月8日 〜 1958年10月1日（発行 約73年）</title>
+<rect class="bar f-amber" x="504" y="184.7" width="13" height="1459.2" rx="3"/>
+<text class="inside" x="510.5" y="189.7" writing-mode="vertical-rl">大黒天</text>
+</g>
+<g class="term c-d10" data-id="d101" data-person="d10:武内宿禰">
+<title>武内宿禰　1889年5月1日 〜 1958年10月1日（発行 約69年）</title>
+<rect class="bar f-amber" x="519" y="257.6" width="13" height="1386.3" rx="3"/>
+<text class="inside" x="525.5" y="262.6" writing-mode="vertical-rl">武内宿禰</text>
+</g>
+<g class="term c-d10" data-id="d102" data-person="d10:武内宿禰">
+<title>武内宿禰　1943年12月15日 〜 1958年10月1日（発行 約15年）</title>
+<rect class="bar f-amber" x="534" y="1350" width="13" height="293.9" rx="3"/>
+<text class="inside" x="540.5" y="1355" writing-mode="vertical-rl">武内宿禰</text>
+</g>
+<g class="term c-d10" data-id="d103" data-person="d10:二宮尊徳">
+<title>二宮尊徳　1946年3月19日 〜 1958年10月1日（発行 約13年）</title>
+<rect class="bar f-amber" x="549" y="1395.2" width="13" height="248.7" rx="3"/>
+<text class="inside" x="555.5" y="1400.2" writing-mode="vertical-rl">二宮尊徳</text>
+</g>
+<g class="term c-d11" data-id="d110" data-person="d11:楠木正成">
+<title>楠木正成　1944年11月1日 〜 1953年12月31日（発行 約9年）</title>
+<rect class="bar f-amber approx" x="566" y="1367.7" width="13" height="181.3" rx="3"/>
+<text class="inside" x="572.5" y="1372.7" writing-mode="vertical-rl">楠木正成</text>
+</g>
+<text class="foot" x="380" y="3061.2" text-anchor="middle">出典：日本銀行「現在有効な銀行券」（2024年7月現在、PDF）、日本銀行「現在発行されている銀行券・貨幣」、日本銀行「その他有効な銀行券・貨幣」、国立印刷局 お札と切手の博物館「お札の歴史を知る」、Wikipedia「日本銀行券」、Wikipedia「一円紙幣」「五円紙幣」「十円紙幣」「二十円紙幣」「百円紙幣」「二百円紙幣」「千円紙幣」「五銭紙幣」など額面別の記事、秋田魁新報（共同通信）「諭吉先生、さようなら 日銀、旧紙幣の発行を実質終了」2025年12月10日　2026年10月30日時点</text>
+</svg>

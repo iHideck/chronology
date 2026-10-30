@@ -1,0 +1,418 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 4414" width="760" height="4414" role="img" aria-labelledby="tl-title">
+<title id="tl-title">ロシア・ソ連の最高指導者</title>
+<style>
+.tl{--paper:#fcfcfd;--ink:#1c2029;--ink2:#4b5260;--muted:#687080;--rule:#e8eaef;--rule2:#c3c8d2;--spine-a:#f0f1f5;--spine-b:#e6e8ef;--red:#d4452c;--blue:#2c5aa0;--amber:#b8730f;--violet:#7a4fc4;--green:#138a60;--teal:#00897b;--gray:#9aa0ab;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="760" height="4414" rx="14"/>
+<rect class="f-violet" x="79" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="108" y="44">ロシア・ソ連の最高指導者</text>
+<text class="spine-h" x="36" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="36" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="0" y="70" width="72" height="120.9"/>
+<rect class="spine-b" x="0" y="190.9" width="72" height="125.5"/>
+<rect class="spine-a" x="0" y="316.4" width="72" height="23.3"/>
+<rect class="spine-b" x="0" y="339.7" width="72" height="71.9"/>
+<rect class="spine-a" x="0" y="411.6" width="72" height="26.3"/>
+<rect class="spine-b" x="0" y="437.9" width="72" height="83.5"/>
+<rect class="spine-a" x="0" y="521.4" width="72" height="1050.4"/>
+<rect class="spine-b" x="0" y="1571.8" width="72" height="345.7"/>
+<rect class="spine-a" x="0" y="1917.5" width="72" height="1489"/>
+<rect class="spine-b" x="0" y="3406.5" width="72" height="727.4"/>
+<rect class="spine-a" x="0" y="4133.9" width="72" height="209.5"/>
+<line class="grid" x1="0" x2="760" y1="310" y2="310"/>
+<line class="grid" x1="0" x2="760" y1="790" y2="790"/>
+<line class="grid" x1="0" x2="760" y1="1030" y2="1030"/>
+<line class="grid" x1="0" x2="760" y1="1270" y2="1270"/>
+<line class="grid" x1="0" x2="760" y1="1510" y2="1510"/>
+<line class="grid" x1="0" x2="760" y1="1749.9" y2="1749.9"/>
+<line class="grid" x1="0" x2="760" y1="1990" y2="1990"/>
+<line class="grid" x1="0" x2="760" y1="2229.9" y2="2229.9"/>
+<line class="grid" x1="0" x2="760" y1="2470" y2="2470"/>
+<line class="grid" x1="0" x2="760" y1="2710" y2="2710"/>
+<line class="grid" x1="0" x2="760" y1="2950" y2="2950"/>
+<line class="grid" x1="0" x2="760" y1="3190" y2="3190"/>
+<line class="grid" x1="0" x2="760" y1="3670" y2="3670"/>
+<line class="grid" x1="0" x2="760" y1="3910" y2="3910"/>
+<line class="era-line" x1="0" x2="760" y1="190.9" y2="190.9"/>
+<line class="era-line" x1="0" x2="760" y1="316.4" y2="316.4"/>
+<line class="era-line" x1="0" x2="760" y1="339.7" y2="339.7"/>
+<line class="era-line" x1="0" x2="760" y1="411.6" y2="411.6"/>
+<line class="era-line" x1="0" x2="760" y1="437.9" y2="437.9"/>
+<line class="era-line" x1="0" x2="760" y1="521.4" y2="521.4"/>
+<line class="era-line" x1="0" x2="760" y1="1571.8" y2="1571.8"/>
+<line class="era-line" x1="0" x2="760" y1="1917.5" y2="1917.5"/>
+<line class="era-line" x1="0" x2="760" y1="3406.5" y2="3406.5"/>
+<line class="era-line" x1="0" x2="760" y1="4133.9" y2="4133.9"/>
+<path class="tick" d="M0 70h9M72 70h-9"/>
+<path class="tick" d="M0 94h3M72 94h-3"/>
+<path class="tick" d="M0 118h3M72 118h-3"/>
+<path class="tick" d="M0 142h3M72 142h-3"/>
+<path class="tick" d="M0 166h3M72 166h-3"/>
+<path class="tick" d="M0 190h6M72 190h-6"/>
+<path class="tick" d="M0 214h3M72 214h-3"/>
+<path class="tick" d="M0 238h3M72 238h-3"/>
+<path class="tick" d="M0 262h3M72 262h-3"/>
+<path class="tick" d="M0 286h3M72 286h-3"/>
+<path class="tick" d="M0 310h9M72 310h-9"/>
+<path class="tick" d="M0 334h3M72 334h-3"/>
+<path class="tick" d="M0 358h3M72 358h-3"/>
+<path class="tick" d="M0 382h3M72 382h-3"/>
+<path class="tick" d="M0 406h3M72 406h-3"/>
+<path class="tick" d="M0 430h6M72 430h-6"/>
+<path class="tick" d="M0 454h3M72 454h-3"/>
+<path class="tick" d="M0 478h3M72 478h-3"/>
+<path class="tick" d="M0 502h3M72 502h-3"/>
+<path class="tick" d="M0 526h3M72 526h-3"/>
+<path class="tick" d="M0 550h9M72 550h-9"/>
+<path class="tick" d="M0 574h3M72 574h-3"/>
+<path class="tick" d="M0 598h3M72 598h-3"/>
+<path class="tick" d="M0 622h3M72 622h-3"/>
+<path class="tick" d="M0 646h3M72 646h-3"/>
+<path class="tick" d="M0 670h6M72 670h-6"/>
+<path class="tick" d="M0 694h3M72 694h-3"/>
+<path class="tick" d="M0 718h3M72 718h-3"/>
+<path class="tick" d="M0 742h3M72 742h-3"/>
+<path class="tick" d="M0 766h3M72 766h-3"/>
+<path class="tick" d="M0 790h9M72 790h-9"/>
+<path class="tick" d="M0 814h3M72 814h-3"/>
+<path class="tick" d="M0 838h3M72 838h-3"/>
+<path class="tick" d="M0 862h3M72 862h-3"/>
+<path class="tick" d="M0 886h3M72 886h-3"/>
+<path class="tick" d="M0 910h6M72 910h-6"/>
+<path class="tick" d="M0 934h3M72 934h-3"/>
+<path class="tick" d="M0 958h3M72 958h-3"/>
+<path class="tick" d="M0 982h3M72 982h-3"/>
+<path class="tick" d="M0 1006h3M72 1006h-3"/>
+<path class="tick" d="M0 1030h9M72 1030h-9"/>
+<path class="tick" d="M0 1054h3M72 1054h-3"/>
+<path class="tick" d="M0 1078h3M72 1078h-3"/>
+<path class="tick" d="M0 1102h3M72 1102h-3"/>
+<path class="tick" d="M0 1126h3M72 1126h-3"/>
+<path class="tick" d="M0 1150h6M72 1150h-6"/>
+<path class="tick" d="M0 1174h3M72 1174h-3"/>
+<path class="tick" d="M0 1198h3M72 1198h-3"/>
+<path class="tick" d="M0 1222h3M72 1222h-3"/>
+<path class="tick" d="M0 1246h3M72 1246h-3"/>
+<path class="tick" d="M0 1270h9M72 1270h-9"/>
+<path class="tick" d="M0 1294h3M72 1294h-3"/>
+<path class="tick" d="M0 1318h3M72 1318h-3"/>
+<path class="tick" d="M0 1341.9h3M72 1341.9h-3"/>
+<path class="tick" d="M0 1365.9h3M72 1365.9h-3"/>
+<path class="tick" d="M0 1390h6M72 1390h-6"/>
+<path class="tick" d="M0 1414h3M72 1414h-3"/>
+<path class="tick" d="M0 1437.9h3M72 1437.9h-3"/>
+<path class="tick" d="M0 1461.9h3M72 1461.9h-3"/>
+<path class="tick" d="M0 1486h3M72 1486h-3"/>
+<path class="tick" d="M0 1510h9M72 1510h-9"/>
+<path class="tick" d="M0 1533.9h3M72 1533.9h-3"/>
+<path class="tick" d="M0 1557.9h3M72 1557.9h-3"/>
+<path class="tick" d="M0 1582h3M72 1582h-3"/>
+<path class="tick" d="M0 1606h3M72 1606h-3"/>
+<path class="tick" d="M0 1629.9h6M72 1629.9h-6"/>
+<path class="tick" d="M0 1653.9h3M72 1653.9h-3"/>
+<path class="tick" d="M0 1678h3M72 1678h-3"/>
+<path class="tick" d="M0 1702h3M72 1702h-3"/>
+<path class="tick" d="M0 1726h3M72 1726h-3"/>
+<path class="tick" d="M0 1749.9h9M72 1749.9h-9"/>
+<path class="tick" d="M0 1774h3M72 1774h-3"/>
+<path class="tick" d="M0 1798h3M72 1798h-3"/>
+<path class="tick" d="M0 1822h3M72 1822h-3"/>
+<path class="tick" d="M0 1845.9h3M72 1845.9h-3"/>
+<path class="tick" d="M0 1870h6M72 1870h-6"/>
+<path class="tick" d="M0 1894h3M72 1894h-3"/>
+<path class="tick" d="M0 1918h3M72 1918h-3"/>
+<path class="tick" d="M0 1941.9h3M72 1941.9h-3"/>
+<path class="tick" d="M0 1966h3M72 1966h-3"/>
+<path class="tick" d="M0 1990h9M72 1990h-9"/>
+<path class="tick" d="M0 2014h3M72 2014h-3"/>
+<path class="tick" d="M0 2037.9h3M72 2037.9h-3"/>
+<path class="tick" d="M0 2062h3M72 2062h-3"/>
+<path class="tick" d="M0 2086h3M72 2086h-3"/>
+<path class="tick" d="M0 2110h6M72 2110h-6"/>
+<path class="tick" d="M0 2133.9h3M72 2133.9h-3"/>
+<path class="tick" d="M0 2158h3M72 2158h-3"/>
+<path class="tick" d="M0 2182h3M72 2182h-3"/>
+<path class="tick" d="M0 2206h3M72 2206h-3"/>
+<path class="tick" d="M0 2229.9h9M72 2229.9h-9"/>
+<path class="tick" d="M0 2254h3M72 2254h-3"/>
+<path class="tick" d="M0 2278h3M72 2278h-3"/>
+<path class="tick" d="M0 2302h3M72 2302h-3"/>
+<path class="tick" d="M0 2325.9h3M72 2325.9h-3"/>
+<path class="tick" d="M0 2350h6M72 2350h-6"/>
+<path class="tick" d="M0 2374h3M72 2374h-3"/>
+<path class="tick" d="M0 2398h3M72 2398h-3"/>
+<path class="tick" d="M0 2421.9h3M72 2421.9h-3"/>
+<path class="tick" d="M0 2446h3M72 2446h-3"/>
+<path class="tick" d="M0 2470h9M72 2470h-9"/>
+<path class="tick" d="M0 2494h3M72 2494h-3"/>
+<path class="tick" d="M0 2518h3M72 2518h-3"/>
+<path class="tick" d="M0 2542h3M72 2542h-3"/>
+<path class="tick" d="M0 2566h3M72 2566h-3"/>
+<path class="tick" d="M0 2590h6M72 2590h-6"/>
+<path class="tick" d="M0 2614h3M72 2614h-3"/>
+<path class="tick" d="M0 2638h3M72 2638h-3"/>
+<path class="tick" d="M0 2662h3M72 2662h-3"/>
+<path class="tick" d="M0 2686h3M72 2686h-3"/>
+<path class="tick" d="M0 2710h9M72 2710h-9"/>
+<path class="tick" d="M0 2734h3M72 2734h-3"/>
+<path class="tick" d="M0 2758h3M72 2758h-3"/>
+<path class="tick" d="M0 2782h3M72 2782h-3"/>
+<path class="tick" d="M0 2806h3M72 2806h-3"/>
+<path class="tick" d="M0 2830h6M72 2830h-6"/>
+<path class="tick" d="M0 2854h3M72 2854h-3"/>
+<path class="tick" d="M0 2878h3M72 2878h-3"/>
+<path class="tick" d="M0 2902h3M72 2902h-3"/>
+<path class="tick" d="M0 2926h3M72 2926h-3"/>
+<path class="tick" d="M0 2950h9M72 2950h-9"/>
+<path class="tick" d="M0 2974h3M72 2974h-3"/>
+<path class="tick" d="M0 2998h3M72 2998h-3"/>
+<path class="tick" d="M0 3022h3M72 3022h-3"/>
+<path class="tick" d="M0 3046h3M72 3046h-3"/>
+<path class="tick" d="M0 3070h6M72 3070h-6"/>
+<path class="tick" d="M0 3094h3M72 3094h-3"/>
+<path class="tick" d="M0 3118h3M72 3118h-3"/>
+<path class="tick" d="M0 3142h3M72 3142h-3"/>
+<path class="tick" d="M0 3166h3M72 3166h-3"/>
+<path class="tick" d="M0 3190h9M72 3190h-9"/>
+<path class="tick" d="M0 3214h3M72 3214h-3"/>
+<path class="tick" d="M0 3238h3M72 3238h-3"/>
+<path class="tick" d="M0 3262h3M72 3262h-3"/>
+<path class="tick" d="M0 3286h3M72 3286h-3"/>
+<path class="tick" d="M0 3310h6M72 3310h-6"/>
+<path class="tick" d="M0 3334h3M72 3334h-3"/>
+<path class="tick" d="M0 3358h3M72 3358h-3"/>
+<path class="tick" d="M0 3382h3M72 3382h-3"/>
+<path class="tick" d="M0 3406h3M72 3406h-3"/>
+<path class="tick" d="M0 3430h9M72 3430h-9"/>
+<path class="tick" d="M0 3454h3M72 3454h-3"/>
+<path class="tick" d="M0 3478h3M72 3478h-3"/>
+<path class="tick" d="M0 3502h3M72 3502h-3"/>
+<path class="tick" d="M0 3526h3M72 3526h-3"/>
+<path class="tick" d="M0 3550h6M72 3550h-6"/>
+<path class="tick" d="M0 3574h3M72 3574h-3"/>
+<path class="tick" d="M0 3598h3M72 3598h-3"/>
+<path class="tick" d="M0 3622h3M72 3622h-3"/>
+<path class="tick" d="M0 3646h3M72 3646h-3"/>
+<path class="tick" d="M0 3670h9M72 3670h-9"/>
+<path class="tick" d="M0 3694h3M72 3694h-3"/>
+<path class="tick" d="M0 3718h3M72 3718h-3"/>
+<path class="tick" d="M0 3742h3M72 3742h-3"/>
+<path class="tick" d="M0 3766h3M72 3766h-3"/>
+<path class="tick" d="M0 3790h6M72 3790h-6"/>
+<path class="tick" d="M0 3814h3M72 3814h-3"/>
+<path class="tick" d="M0 3838h3M72 3838h-3"/>
+<path class="tick" d="M0 3862h3M72 3862h-3"/>
+<path class="tick" d="M0 3886h3M72 3886h-3"/>
+<path class="tick" d="M0 3910h9M72 3910h-9"/>
+<path class="tick" d="M0 3934h3M72 3934h-3"/>
+<path class="tick" d="M0 3958h3M72 3958h-3"/>
+<path class="tick" d="M0 3982h3M72 3982h-3"/>
+<path class="tick" d="M0 4006h3M72 4006h-3"/>
+<path class="tick" d="M0 4030h6M72 4030h-6"/>
+<path class="tick" d="M0 4054h3M72 4054h-3"/>
+<path class="tick" d="M0 4078h3M72 4078h-3"/>
+<path class="tick" d="M0 4102h3M72 4102h-3"/>
+<path class="tick" d="M0 4126h3M72 4126h-3"/>
+<path class="tick" d="M0 4150h9M72 4150h-9"/>
+<path class="tick" d="M0 4174h3M72 4174h-3"/>
+<path class="tick" d="M0 4198h3M72 4198h-3"/>
+<path class="tick" d="M0 4222h3M72 4222h-3"/>
+<path class="tick" d="M0 4246h3M72 4246h-3"/>
+<path class="tick" d="M0 4270h6M72 4270h-6"/>
+<path class="tick" d="M0 4294h3M72 4294h-3"/>
+<path class="tick" d="M0 4318h3M72 4318h-3"/>
+<path class="tick" d="M0 4342h3M72 4342h-3"/>
+<text class="dec-y" x="36" y="314.5" text-anchor="middle">1860</text>
+<text class="dec-w" x="36" y="328" text-anchor="middle">安政6年</text>
+<text class="dec-y" x="36" y="794.5" text-anchor="middle">1880</text>
+<text class="dec-w" x="36" y="808" text-anchor="middle">明治13年</text>
+<text class="dec-y" x="36" y="1034.5" text-anchor="middle">1890</text>
+<text class="dec-w" x="36" y="1048" text-anchor="middle">明治23年</text>
+<text class="dec-y" x="36" y="1274.5" text-anchor="middle">1900</text>
+<text class="dec-w" x="36" y="1288" text-anchor="middle">明治33年</text>
+<text class="dec-y" x="36" y="1514.5" text-anchor="middle">1910</text>
+<text class="dec-w" x="36" y="1528" text-anchor="middle">明治43年</text>
+<text class="dec-y" x="36" y="1754.4" text-anchor="middle">1920</text>
+<text class="dec-w" x="36" y="1767.9" text-anchor="middle">大正9年</text>
+<text class="dec-y" x="36" y="1994.5" text-anchor="middle">1930</text>
+<text class="dec-w" x="36" y="2008" text-anchor="middle">昭和5年</text>
+<text class="dec-y" x="36" y="2234.4" text-anchor="middle">1940</text>
+<text class="dec-w" x="36" y="2247.9" text-anchor="middle">昭和15年</text>
+<text class="dec-y" x="36" y="2474.5" text-anchor="middle">1950</text>
+<text class="dec-w" x="36" y="2488" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="36" y="2714.5" text-anchor="middle">1960</text>
+<text class="dec-w" x="36" y="2728" text-anchor="middle">昭和35年</text>
+<text class="dec-y" x="36" y="2954.5" text-anchor="middle">1970</text>
+<text class="dec-w" x="36" y="2968" text-anchor="middle">昭和45年</text>
+<text class="dec-y" x="36" y="3194.5" text-anchor="middle">1980</text>
+<text class="dec-w" x="36" y="3208" text-anchor="middle">昭和55年</text>
+<text class="dec-y" x="36" y="3674.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="36" y="3688" text-anchor="middle">平成12年</text>
+<text class="dec-y" x="36" y="3914.5" text-anchor="middle">2010</text>
+<text class="dec-w" x="36" y="3928" text-anchor="middle">平成22年</text>
+<text class="era-name" x="36" y="93" text-anchor="middle">嘉永</text>
+<text class="era-date" x="36" y="107" text-anchor="middle">1848.4.1</text>
+<text class="era-name" x="36" y="213.9" text-anchor="middle">安政</text>
+<text class="era-date" x="36" y="227.9" text-anchor="middle">1855.1.15</text>
+<text class="era-name" x="36" y="362.7" text-anchor="middle">文久</text>
+<text class="era-date" x="36" y="376.7" text-anchor="middle">1861.3.29</text>
+<text class="era-name" x="36" y="434.6" text-anchor="middle">元治</text>
+<text class="era-name" x="36" y="460.9" text-anchor="middle">慶応</text>
+<text class="era-date" x="36" y="474.9" text-anchor="middle">1865.5.1</text>
+<text class="era-name" x="36" y="544.4" text-anchor="middle">明治</text>
+<text class="era-date" x="36" y="558.4" text-anchor="middle">1868.10.23</text>
+<text class="era-name" x="36" y="1594.8" text-anchor="middle">大正</text>
+<text class="era-date" x="36" y="1608.8" text-anchor="middle">1912.7.30</text>
+<text class="era-name" x="36" y="1940.5" text-anchor="middle">昭和</text>
+<text class="era-date" x="36" y="1954.5" text-anchor="middle">1926.12.25</text>
+<text class="era-name" x="36" y="3429.5" text-anchor="middle">平成</text>
+<text class="era-date" x="36" y="3443.5" text-anchor="middle">1989.1.8</text>
+<text class="era-name" x="36" y="4156.9" text-anchor="middle">令和</text>
+<text class="era-date" x="36" y="4170.9" text-anchor="middle">2019.5.1</text>
+<line class="asof-line" x1="-4" x2="97" y1="4313.9" y2="4313.9"/>
+<text class="era-date" x="36" y="4327.9" text-anchor="middle">2026.10.30</text>
+<text class="era-date" x="36" y="4340.9" text-anchor="middle">時点</text>
+<g class="term c-a" data-id="a0" data-person="a:アレクサンドル2世">
+<title>最高指導者 アレクサンドル2世　1855年3月2日 〜 1881年3月13日（在任 9,508日）</title>
+<rect class="bar f-violet" x="79" y="194.9" width="14" height="622.8" rx="3"/>
+<text class="label" x="108" y="207.3"><tspan class="name">アレクサンドル2世</tspan><tspan class="yrs" dx="6">1855–1881</tspan></text>
+</g>
+<g class="term c-a" data-id="a1" data-person="a:アレクサンドル3世">
+<title>最高指導者 アレクサンドル3世　1881年3月13日 〜 1894年11月1日（在任 4,981日）</title>
+<rect class="bar f-violet" x="79" y="819.7" width="14" height="325.3" rx="3"/>
+<text class="label" x="108" y="832.1"><tspan class="name">アレクサンドル3世</tspan><tspan class="yrs" dx="6">1881–1894</tspan></text>
+</g>
+<g class="term c-a" data-id="a2" data-person="a:ニコライ2世">
+<title>最高指導者 ニコライ2世　1894年11月1日 〜 1917年3月15日（在任 8,169日）</title>
+<rect class="bar f-violet" x="79" y="1147" width="14" height="534.8" rx="3"/>
+<text class="label" x="108" y="1159.4"><tspan class="name">ニコライ2世</tspan><tspan class="yrs" dx="6">1894–1917</tspan></text>
+</g>
+<g class="term c-a" data-id="a3" data-person="a:ゲオルギー・リヴォフ">
+<title>最高指導者 ゲオルギー・リヴォフ　1917年3月15日 〜 1917年7月21日（在任 128日）</title>
+<rect class="bar f-violet" x="79" y="1683.8" width="14" height="6.4" rx="3"/>
+<path class="leader" d="M94.5 1687h4L104 1679.2h2"/>
+<text class="label" x="108" y="1684.1"><tspan class="name">リヴォフ</tspan><tspan class="yrs" dx="6">1917</tspan></text>
+</g>
+<g class="term c-a" data-id="a4" data-person="a:アレクサンドル・ケレンスキー">
+<title>最高指導者 アレクサンドル・ケレンスキー　1917年7月21日 〜 1917年11月8日（在任 110日）</title>
+<rect class="bar f-violet" x="79" y="1692.2" width="14" height="5.2" rx="2.6"/>
+<text class="label" x="108" y="1701.1"><tspan class="name">ケレンスキー</tspan><tspan class="yrs" dx="6">1917</tspan></text>
+</g>
+<g class="term c-a" data-id="a5" data-person="a:ウラジーミル・レーニン">
+<title>最高指導者 ウラジーミル・レーニン　1917年11月8日 〜 1924年1月21日（在任 2,265日）</title>
+<rect class="bar f-violet" x="79" y="1699.4" width="14" height="146.8" rx="3"/>
+<path class="leader" d="M94.5 1706.9h4L104 1713.2h2"/>
+<text class="label" x="108" y="1718.1"><tspan class="name">レーニン</tspan><tspan class="yrs" dx="6">1917–1924</tspan></text>
+</g>
+<g class="term c-a" data-id="a6" data-person="a:ヨシフ・スターリン">
+<title>最高指導者 ヨシフ・スターリン　1924年1月21日 〜 1953年3月5日（在任 10,636日）</title>
+<rect class="bar f-violet" x="79" y="1848.3" width="14" height="696.9" rx="3"/>
+<text class="label" x="108" y="1860.6"><tspan class="name">スターリン</tspan><tspan class="yrs" dx="6">1924–1953</tspan></text>
+</g>
+<g class="term c-a" data-id="a7" data-person="a:ゲオルギー・マレンコフ">
+<title>最高指導者 ゲオルギー・マレンコフ　1953年3月5日 〜 1953年9月7日（在任 186日）</title>
+<rect class="bar f-violet" x="79" y="2547.1" width="14" height="10.2" rx="3"/>
+<text class="label" x="108" y="2555.9"><tspan class="name">マレンコフ</tspan><tspan class="yrs" dx="6">1953</tspan></text>
+</g>
+<g class="term c-a" data-id="a8" data-person="a:ニキータ・フルシチョフ">
+<title>最高指導者 ニキータ・フルシチョフ　1953年9月7日 〜 1964年10月14日（在任 4,055日）</title>
+<rect class="bar f-violet" x="79" y="2559.4" width="14" height="264.5" rx="3"/>
+<text class="label" x="108" y="2572.9"><tspan class="name">フルシチョフ</tspan><tspan class="yrs" dx="6">1953–1964</tspan></text>
+</g>
+<g class="term c-a" data-id="a9" data-person="a:レオニード・ブレジネフ">
+<title>最高指導者 レオニード・ブレジネフ　1964年10月14日 〜 1982年11月10日（在任 6,601日）</title>
+<rect class="bar f-violet" x="79" y="2825.8" width="14" height="431.8" rx="3"/>
+<text class="label" x="108" y="2838.2"><tspan class="name">ブレジネフ</tspan><tspan class="yrs" dx="6">1964–1982</tspan></text>
+</g>
+<g class="term c-a" data-id="a10" data-person="a:ユーリ・アンドロポフ">
+<title>最高指導者 ユーリ・アンドロポフ　1982年11月12日 〜 1984年2月9日（在任 454日）</title>
+<rect class="bar f-violet" x="79" y="3259.7" width="14" height="27.8" rx="3"/>
+<text class="label" x="108" y="3272.1"><tspan class="name">アンドロポフ</tspan><tspan class="yrs" dx="6">1982–1984</tspan></text>
+</g>
+<g class="term c-a" data-id="a11" data-person="a:コンスタンティン・チェルネンコ">
+<title>最高指導者 コンスタンティン・チェルネンコ　1984年2月13日 〜 1985年3月10日（在任 391日）</title>
+<rect class="bar f-violet" x="79" y="3289.8" width="14" height="23.7" rx="3"/>
+<text class="label" x="108" y="3302.2"><tspan class="name">チェルネンコ</tspan><tspan class="yrs" dx="6">1984–1985</tspan></text>
+</g>
+<g class="term c-a" data-id="a12" data-person="a:ミハイル・ゴルバチョフ">
+<title>最高指導者 ミハイル・ゴルバチョフ　1985年3月11日 〜 1991年12月25日（在任 2,480日）</title>
+<rect class="bar f-violet" x="79" y="3315.6" width="14" height="161" rx="3"/>
+<text class="label" x="108" y="3327.9"><tspan class="name">ゴルバチョフ</tspan><tspan class="yrs" dx="6">1985–1991</tspan></text>
+</g>
+<g class="term c-a" data-id="a13" data-person="a:ボリス・エリツィン">
+<title>最高指導者 ボリス・エリツィン　1991年12月25日 〜 1999年12月31日（在任 2,928日）</title>
+<rect class="bar f-violet" x="79" y="3478.5" width="14" height="190.4" rx="3"/>
+<text class="label" x="108" y="3490.9"><tspan class="name">エリツィン</tspan><tspan class="yrs" dx="6">1991–1999</tspan></text>
+</g>
+<g class="term c-a" data-id="a14" data-person="a:ウラジーミル・プーチン">
+<title>最高指導者 ウラジーミル・プーチン　1999年12月31日 〜 2008年5月7日（在任 3,050日）</title>
+<rect class="bar f-violet" x="79" y="3670.9" width="14" height="198.4" rx="3"/>
+<text class="label" x="108" y="3683.3"><tspan class="name">プーチン</tspan><tspan class="yrs" dx="6">1999–2008</tspan></text>
+</g>
+<g class="term c-a" data-id="a15" data-person="a:ドミートリー・メドヴェージェフ">
+<title>最高指導者 ドミートリー・メドヴェージェフ　2008年5月7日 〜 2012年5月7日（在任 1,461日）</title>
+<rect class="bar f-violet" x="79" y="3871.3" width="14" height="94" rx="3"/>
+<text class="label" x="108" y="3883.7"><tspan class="name">メドヴェージェフ</tspan><tspan class="yrs" dx="6">2008–2012</tspan></text>
+</g>
+<g class="term c-a" data-id="a16" data-person="a:ウラジーミル・プーチン">
+<title>最高指導者 ウラジーミル・プーチン　2012年5月7日 〜 在任中（在任 5,289日（2026年10月30日時点））</title>
+<linearGradient id="tl-g-a16" gradientUnits="userSpaceOnUse" x1="0" y1="4291.9" x2="0" y2="4313.9"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 3970.3Q79 3967.3 82 3967.3H90Q93 3967.3 93 3970.3V4313.9Q93 4313.9 93 4313.9H79Q79 4313.9 79 4313.9Z" fill="url(#tl-g-a16)"/>
+<text class="label" x="108" y="3979.7"><tspan class="name">プーチン</tspan><tspan class="yrs" dx="6">2012–</tspan></text>
+</g>
+<text class="foot" x="380" y="4373.4" text-anchor="middle">出典：日本語版 Wikipedia「ロシア皇帝」、日本語版 Wikipedia「ロシア臨時政府」、日本語版 Wikipedia「ソビエト連邦の指導者の一覧」、日本語版 Wikipedia「ロシア連邦大統領」、英語版 Wikipedia「List of leaders of the Soviet Union」、英語版 Wikipedia「List of heads of state of Russia」、英語版 Wikipedia「List of heads of government of Russia」、ロシア語版 Wikipedia「Временное правительство России」　2026年10月30日時点</text>
+</svg>

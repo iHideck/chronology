@@ -1,0 +1,585 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 4321" width="760" height="4321" role="img" aria-labelledby="tl-title">
+<title id="tl-title">将棋の名人と竜王</title>
+<style>
+.tl{--paper:#14171f;--ink:#e6e8ee;--ink2:#b2b8c4;--muted:#8d94a3;--rule:#232833;--rule2:#3d4452;--spine-a:#1b1f29;--spine-b:#222733;--red:#e5604a;--blue:#678bd2;--amber:#c98500;--violet:#9085e9;--green:#199e70;--teal:#1f9fa1;--gray:#6b7280;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="760" height="4321" rx="14"/>
+<rect class="f-gray" x="79" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="124" y="44">名人</text>
+<rect class="f-red" x="276.9" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="305.9" y="44">竜王</text>
+<text class="spine-h" x="36" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="36" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="0" y="70" width="72" height="56.8"/>
+<rect class="spine-b" x="0" y="126.8" width="72" height="86.2"/>
+<rect class="spine-a" x="0" y="212.9" width="72" height="207.4"/>
+<rect class="spine-b" x="0" y="420.3" width="72" height="32.3"/>
+<rect class="spine-a" x="0" y="452.6" width="72" height="45.4"/>
+<rect class="spine-b" x="0" y="498" width="72" height="25.7"/>
+<rect class="spine-a" x="0" y="523.8" width="72" height="32.6"/>
+<rect class="spine-b" x="0" y="556.4" width="72" height="27.5"/>
+<rect class="spine-a" x="0" y="583.9" width="72" height="124.4"/>
+<rect class="spine-b" x="0" y="708.3" width="72" height="80.3"/>
+<rect class="spine-a" x="0" y="788.6" width="72" height="24"/>
+<rect class="spine-b" x="0" y="812.6" width="72" height="45.5"/>
+<rect class="spine-a" x="0" y="858.1" width="72" height="154.8"/>
+<rect class="spine-b" x="0" y="1012.9" width="72" height="71.5"/>
+<rect class="spine-a" x="0" y="1084.4" width="72" height="51.6"/>
+<rect class="spine-b" x="0" y="1136" width="72" height="198.3"/>
+<rect class="spine-a" x="0" y="1334.3" width="72" height="48.5"/>
+<rect class="spine-b" x="0" y="1382.8" width="72" height="29.8"/>
+<rect class="spine-a" x="0" y="1412.5" width="72" height="43.4"/>
+<rect class="spine-b" x="0" y="1455.9" width="72" height="33.6"/>
+<rect class="spine-a" x="0" y="1489.5" width="72" height="125.5"/>
+<rect class="spine-b" x="0" y="1614.9" width="72" height="84.5"/>
+<rect class="spine-a" x="0" y="1699.4" width="72" height="83.7"/>
+<rect class="spine-b" x="0" y="1783.1" width="72" height="78.2"/>
+<rect class="spine-a" x="0" y="1861.4" width="72" height="120.7"/>
+<rect class="spine-b" x="0" y="1982.1" width="72" height="30.1"/>
+<rect class="spine-a" x="0" y="2012.2" width="72" height="141.8"/>
+<rect class="spine-b" x="0" y="2154" width="72" height="126.6"/>
+<rect class="spine-a" x="0" y="2280.6" width="72" height="139.6"/>
+<rect class="spine-b" x="0" y="2420.2" width="72" height="32.3"/>
+<rect class="spine-a" x="0" y="2452.5" width="72" height="67.9"/>
+<rect class="spine-b" x="0" y="2520.4" width="72" height="52.3"/>
+<rect class="spine-a" x="0" y="2572.7" width="72" height="9.7"/>
+<rect class="spine-b" x="0" y="2582.4" width="72" height="30"/>
+<rect class="spine-a" x="0" y="2612.3" width="72" height="11"/>
+<rect class="spine-b" x="0" y="2623.3" width="72" height="34.8"/>
+<rect class="spine-a" x="0" y="2658.1" width="72" height="437.7"/>
+<rect class="spine-b" x="0" y="3095.7" width="72" height="144"/>
+<rect class="spine-a" x="0" y="3239.8" width="72" height="620.4"/>
+<rect class="spine-b" x="0" y="3860.2" width="72" height="303.1"/>
+<rect class="spine-a" x="0" y="4163.3" width="72" height="87.3"/>
+<line class="grid" x1="0" x2="760" y1="970" y2="970"/>
+<line class="grid" x1="0" x2="760" y1="2970" y2="2970"/>
+<line class="grid" x1="0" x2="760" y1="3470" y2="3470"/>
+<line class="grid" x1="0" x2="760" y1="3970" y2="3970"/>
+<line class="era-line" x1="0" x2="760" y1="126.8" y2="126.8"/>
+<line class="era-line" x1="0" x2="760" y1="212.9" y2="212.9"/>
+<line class="era-line" x1="0" x2="760" y1="420.3" y2="420.3"/>
+<line class="era-line" x1="0" x2="760" y1="452.6" y2="452.6"/>
+<line class="era-line" x1="0" x2="760" y1="498" y2="498"/>
+<line class="era-line" x1="0" x2="760" y1="523.8" y2="523.8"/>
+<line class="era-line" x1="0" x2="760" y1="556.4" y2="556.4"/>
+<line class="era-line" x1="0" x2="760" y1="583.9" y2="583.9"/>
+<line class="era-line" x1="0" x2="760" y1="708.3" y2="708.3"/>
+<line class="era-line" x1="0" x2="760" y1="788.6" y2="788.6"/>
+<line class="era-line" x1="0" x2="760" y1="812.6" y2="812.6"/>
+<line class="era-line" x1="0" x2="760" y1="858.1" y2="858.1"/>
+<line class="era-line" x1="0" x2="760" y1="1012.9" y2="1012.9"/>
+<line class="era-line" x1="0" x2="760" y1="1084.4" y2="1084.4"/>
+<line class="era-line" x1="0" x2="760" y1="1136" y2="1136"/>
+<line class="era-line" x1="0" x2="760" y1="1334.3" y2="1334.3"/>
+<line class="era-line" x1="0" x2="760" y1="1382.8" y2="1382.8"/>
+<line class="era-line" x1="0" x2="760" y1="1412.5" y2="1412.5"/>
+<line class="era-line" x1="0" x2="760" y1="1455.9" y2="1455.9"/>
+<line class="era-line" x1="0" x2="760" y1="1489.5" y2="1489.5"/>
+<line class="era-line" x1="0" x2="760" y1="1614.9" y2="1614.9"/>
+<line class="era-line" x1="0" x2="760" y1="1699.4" y2="1699.4"/>
+<line class="era-line" x1="0" x2="760" y1="1783.1" y2="1783.1"/>
+<line class="era-line" x1="0" x2="760" y1="1861.4" y2="1861.4"/>
+<line class="era-line" x1="0" x2="760" y1="1982.1" y2="1982.1"/>
+<line class="era-line" x1="0" x2="760" y1="2012.2" y2="2012.2"/>
+<line class="era-line" x1="0" x2="760" y1="2154" y2="2154"/>
+<line class="era-line" x1="0" x2="760" y1="2280.6" y2="2280.6"/>
+<line class="era-line" x1="0" x2="760" y1="2420.2" y2="2420.2"/>
+<line class="era-line" x1="0" x2="760" y1="2452.5" y2="2452.5"/>
+<line class="era-line" x1="0" x2="760" y1="2520.4" y2="2520.4"/>
+<line class="era-line" x1="0" x2="760" y1="2572.7" y2="2572.7"/>
+<line class="era-line" x1="0" x2="760" y1="2582.4" y2="2582.4"/>
+<line class="era-line" x1="0" x2="760" y1="2612.3" y2="2612.3"/>
+<line class="era-line" x1="0" x2="760" y1="2623.3" y2="2623.3"/>
+<line class="era-line" x1="0" x2="760" y1="2658.1" y2="2658.1"/>
+<line class="era-line" x1="0" x2="760" y1="3095.7" y2="3095.7"/>
+<line class="era-line" x1="0" x2="760" y1="3239.8" y2="3239.8"/>
+<line class="era-line" x1="0" x2="760" y1="3860.2" y2="3860.2"/>
+<line class="era-line" x1="0" x2="760" y1="4163.3" y2="4163.3"/>
+<path class="tick" d="M0 70h3M72 70h-3"/>
+<path class="tick" d="M0 170h3M72 170h-3"/>
+<path class="tick" d="M0 270h3M72 270h-3"/>
+<path class="tick" d="M0 370h3M72 370h-3"/>
+<path class="tick" d="M0 470h9M72 470h-9"/>
+<path class="tick" d="M0 570h3M72 570h-3"/>
+<path class="tick" d="M0 670h3M72 670h-3"/>
+<path class="tick" d="M0 770h3M72 770h-3"/>
+<path class="tick" d="M0 870h3M72 870h-3"/>
+<path class="tick" d="M0 970h9M72 970h-9"/>
+<path class="tick" d="M0 1070h3M72 1070h-3"/>
+<path class="tick" d="M0 1170h3M72 1170h-3"/>
+<path class="tick" d="M0 1270h3M72 1270h-3"/>
+<path class="tick" d="M0 1370h3M72 1370h-3"/>
+<path class="tick" d="M0 1470h9M72 1470h-9"/>
+<path class="tick" d="M0 1570h3M72 1570h-3"/>
+<path class="tick" d="M0 1670h3M72 1670h-3"/>
+<path class="tick" d="M0 1770h3M72 1770h-3"/>
+<path class="tick" d="M0 1870h3M72 1870h-3"/>
+<path class="tick" d="M0 1970h9M72 1970h-9"/>
+<path class="tick" d="M0 2070h3M72 2070h-3"/>
+<path class="tick" d="M0 2170h3M72 2170h-3"/>
+<path class="tick" d="M0 2270h3M72 2270h-3"/>
+<path class="tick" d="M0 2370h3M72 2370h-3"/>
+<path class="tick" d="M0 2470h9M72 2470h-9"/>
+<path class="tick" d="M0 2570h3M72 2570h-3"/>
+<path class="tick" d="M0 2670h3M72 2670h-3"/>
+<path class="tick" d="M0 2770h3M72 2770h-3"/>
+<path class="tick" d="M0 2870h3M72 2870h-3"/>
+<path class="tick" d="M0 2970h9M72 2970h-9"/>
+<path class="tick" d="M0 3070h3M72 3070h-3"/>
+<path class="tick" d="M0 3170h3M72 3170h-3"/>
+<path class="tick" d="M0 3270h3M72 3270h-3"/>
+<path class="tick" d="M0 3370h3M72 3370h-3"/>
+<path class="tick" d="M0 3470h9M72 3470h-9"/>
+<path class="tick" d="M0 3570h3M72 3570h-3"/>
+<path class="tick" d="M0 3670h3M72 3670h-3"/>
+<path class="tick" d="M0 3770h3M72 3770h-3"/>
+<path class="tick" d="M0 3870h3M72 3870h-3"/>
+<path class="tick" d="M0 3970h9M72 3970h-9"/>
+<path class="tick" d="M0 4070h3M72 4070h-3"/>
+<path class="tick" d="M0 4170h3M72 4170h-3"/>
+<text class="dec-y" x="36" y="974.5" text-anchor="middle">1700</text>
+<text class="dec-w" x="36" y="988" text-anchor="middle">元禄13年</text>
+<text class="dec-y" x="36" y="2974.5" text-anchor="middle">1900</text>
+<text class="dec-w" x="36" y="2988" text-anchor="middle">明治33年</text>
+<text class="dec-y" x="36" y="3474.5" text-anchor="middle">1950</text>
+<text class="dec-w" x="36" y="3488" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="36" y="3974.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="36" y="3988" text-anchor="middle">平成12年</text>
+<text class="era-name" x="36" y="93" text-anchor="middle">慶長</text>
+<text class="era-date" x="36" y="107" text-anchor="middle">1596.12.16</text>
+<text class="era-name" x="36" y="149.8" text-anchor="middle">元和</text>
+<text class="era-date" x="36" y="163.8" text-anchor="middle">1615.9.5</text>
+<text class="era-name" x="36" y="235.9" text-anchor="middle">寛永</text>
+<text class="era-date" x="36" y="249.9" text-anchor="middle">1624.4.17</text>
+<text class="era-name" x="36" y="443.3" text-anchor="middle">正保</text>
+<text class="era-name" x="36" y="475.6" text-anchor="middle">慶安</text>
+<text class="era-name" x="36" y="546.8" text-anchor="middle">明暦</text>
+<text class="era-name" x="36" y="579.4" text-anchor="middle">万治</text>
+<text class="era-name" x="36" y="606.9" text-anchor="middle">寛文</text>
+<text class="era-date" x="36" y="620.9" text-anchor="middle">1661.5.23</text>
+<text class="era-name" x="36" y="731.3" text-anchor="middle">延宝</text>
+<text class="era-date" x="36" y="745.3" text-anchor="middle">1673.10.30</text>
+<text class="era-name" x="36" y="835.6" text-anchor="middle">貞享</text>
+<text class="era-name" x="36" y="881.1" text-anchor="middle">元禄</text>
+<text class="era-date" x="36" y="895.1" text-anchor="middle">1688.10.23</text>
+<text class="era-name" x="36" y="1035.9" text-anchor="middle">宝永</text>
+<text class="era-date" x="36" y="1049.9" text-anchor="middle">1704.4.16</text>
+<text class="era-name" x="36" y="1107.4" text-anchor="middle">正徳</text>
+<text class="era-date" x="36" y="1121.4" text-anchor="middle">1711.6.11</text>
+<text class="era-name" x="36" y="1159" text-anchor="middle">享保</text>
+<text class="era-date" x="36" y="1173" text-anchor="middle">1716.8.9</text>
+<text class="era-name" x="36" y="1357.3" text-anchor="middle">元文</text>
+<text class="era-date" x="36" y="1371.3" text-anchor="middle">1736.6.7</text>
+<text class="era-name" x="36" y="1405.8" text-anchor="middle">寛保</text>
+<text class="era-name" x="36" y="1435.5" text-anchor="middle">延享</text>
+<text class="era-name" x="36" y="1478.9" text-anchor="middle">寛延</text>
+<text class="era-name" x="36" y="1512.5" text-anchor="middle">宝暦</text>
+<text class="era-date" x="36" y="1526.5" text-anchor="middle">1751.12.14</text>
+<text class="era-name" x="36" y="1637.9" text-anchor="middle">明和</text>
+<text class="era-date" x="36" y="1651.9" text-anchor="middle">1764.6.30</text>
+<text class="era-name" x="36" y="1722.4" text-anchor="middle">安永</text>
+<text class="era-date" x="36" y="1736.4" text-anchor="middle">1772.12.10</text>
+<text class="era-name" x="36" y="1806.1" text-anchor="middle">天明</text>
+<text class="era-date" x="36" y="1820.1" text-anchor="middle">1781.4.25</text>
+<text class="era-name" x="36" y="1884.4" text-anchor="middle">寛政</text>
+<text class="era-date" x="36" y="1898.4" text-anchor="middle">1789.2.19</text>
+<text class="era-name" x="36" y="2005.1" text-anchor="middle">享和</text>
+<text class="era-name" x="36" y="2035.2" text-anchor="middle">文化</text>
+<text class="era-date" x="36" y="2049.2" text-anchor="middle">1804.3.22</text>
+<text class="era-name" x="36" y="2177" text-anchor="middle">文政</text>
+<text class="era-date" x="36" y="2191" text-anchor="middle">1818.5.26</text>
+<text class="era-name" x="36" y="2303.6" text-anchor="middle">天保</text>
+<text class="era-date" x="36" y="2317.6" text-anchor="middle">1831.1.23</text>
+<text class="era-name" x="36" y="2443.2" text-anchor="middle">弘化</text>
+<text class="era-name" x="36" y="2475.5" text-anchor="middle">嘉永</text>
+<text class="era-date" x="36" y="2489.5" text-anchor="middle">1848.4.1</text>
+<text class="era-name" x="36" y="2543.4" text-anchor="middle">安政</text>
+<text class="era-date" x="36" y="2557.4" text-anchor="middle">1855.1.15</text>
+<text class="era-name" x="36" y="2605.4" text-anchor="middle">文久</text>
+<text class="era-name" x="36" y="2646.3" text-anchor="middle">慶応</text>
+<text class="era-name" x="36" y="2681.1" text-anchor="middle">明治</text>
+<text class="era-date" x="36" y="2695.1" text-anchor="middle">1868.10.23</text>
+<text class="era-name" x="36" y="3118.7" text-anchor="middle">大正</text>
+<text class="era-date" x="36" y="3132.7" text-anchor="middle">1912.7.30</text>
+<text class="era-name" x="36" y="3262.8" text-anchor="middle">昭和</text>
+<text class="era-date" x="36" y="3276.8" text-anchor="middle">1926.12.25</text>
+<text class="era-name" x="36" y="3883.2" text-anchor="middle">平成</text>
+<text class="era-date" x="36" y="3897.2" text-anchor="middle">1989.1.8</text>
+<text class="era-name" x="36" y="4186.3" text-anchor="middle">令和</text>
+<text class="era-date" x="36" y="4200.3" text-anchor="middle">2019.5.1</text>
+<line class="asof-line" x1="-4" x2="294.9" y1="4238.3" y2="4238.3"/>
+<text class="era-date" x="36" y="4252.3" text-anchor="middle">2026.10.30</text>
+<text class="era-date" x="36" y="4265.3" text-anchor="middle">時点</text>
+<g class="term c-mj" data-id="mj0" data-person="mj:初代 大橋宗桂">
+<title>初代 大橋宗桂　1612年 〜 1634年4月6日（保持 約22年）</title>
+<rect class="bar f-gray" x="79" y="91" width="14" height="220.6" rx="3"/>
+<text class="label" x="124" y="103.3"><tspan class="name">大橋宗桂</tspan><tspan class="yrs" dx="6">1612–1634</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj1" data-person="mj:二代 大橋宗古">
+<title>二代 大橋宗古　1634年 〜 1654年8月27日（保持 約21年）</title>
+<rect class="bar f-gray" x="79" y="311" width="14" height="204.5" rx="3"/>
+<text class="label" x="124" y="323.4"><tspan class="name">大橋宗古</tspan><tspan class="yrs" dx="6">1634–1654</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj2" data-person="mj:初代 伊藤宗看">
+<title>初代 伊藤宗看　1654年 〜 1691年（保持 約38年）</title>
+<rect class="bar f-gray" x="79" y="511" width="14" height="378" rx="3"/>
+<text class="label" x="124" y="523.4"><tspan class="name">伊藤宗看</tspan><tspan class="yrs" dx="6">1654–1691</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj3" data-person="mj:五代 大橋宗桂">
+<title>五代 大橋宗桂　1691年 〜 1713年6月28日（保持 約22年）</title>
+<rect class="bar f-gray" x="79" y="881" width="14" height="222.9" rx="3"/>
+<text class="label" x="124" y="893.4"><tspan class="name">大橋宗桂</tspan><tspan class="yrs" dx="6">1691–1713</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj4" data-person="mj:二代 伊藤宗印">
+<title>二代 伊藤宗印　1713年 〜 1723年12月28日（保持 約11年）</title>
+<rect class="bar f-gray" x="79" y="1101" width="14" height="107.9" rx="3"/>
+<text class="label" x="124" y="1113.4"><tspan class="name">伊藤宗印</tspan><tspan class="yrs" dx="6">1713–1723</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj5" data-person="mj:三代 大橋宗与">
+<title>三代 大橋宗与　1723年 〜 1728年5月13日（保持 約5年）</title>
+<rect class="bar f-gray" x="79" y="1201" width="14" height="51.6" rx="3"/>
+<text class="label" x="124" y="1213.3"><tspan class="name">大橋宗与</tspan><tspan class="yrs" dx="6">1723–1728</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj6" data-person="mj:三代 伊藤宗看">
+<title>三代 伊藤宗看　1728年 〜 1761年6月2日（保持 約33年）</title>
+<rect class="bar f-gray" x="79" y="1251" width="14" height="332.2" rx="3"/>
+<text class="label" x="124" y="1263.3"><tspan class="name">伊藤宗看</tspan><tspan class="yrs" dx="6">1728–1761</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj7" data-person="mj:九代 大橋宗桂">
+<title>九代 大橋宗桂　1789年 〜 1799年9月13日（保持 約11年）</title>
+<rect class="bar f-gray" x="79" y="1861" width="14" height="105" rx="3"/>
+<text class="label" x="124" y="1873.4"><tspan class="name">大橋宗桂</tspan><tspan class="yrs" dx="6">1789–1799</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj8" data-person="mj:大橋宗英">
+<title>大橋宗英　1799年 〜 1809年12月23日（保持 約11年）</title>
+<rect class="bar f-gray" x="79" y="1961" width="14" height="107.7" rx="3"/>
+<text class="label" x="124" y="1973.4"><tspan class="name">大橋宗英</tspan><tspan class="yrs" dx="6">1799–1809</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj9" data-person="mj:六代 伊藤宗看">
+<title>六代 伊藤宗看　1825年 〜 1843年10月9日（保持 約19年）</title>
+<rect class="bar f-gray" x="79" y="2221" width="14" height="185.7" rx="3"/>
+<text class="label" x="124" y="2233.4"><tspan class="name">伊藤宗看</tspan><tspan class="yrs" dx="6">1825–1843</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj10" data-person="mj:八代 伊藤宗印">
+<title>八代 伊藤宗印　1879年 〜 1893年1月6日（保持 約14年）</title>
+<rect class="bar f-gray" x="79" y="2761" width="14" height="138.2" rx="3"/>
+<text class="label" x="124" y="2773.4"><tspan class="name">伊藤宗印</tspan><tspan class="yrs" dx="6">1879–1893</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj11" data-person="mj:小野五平">
+<title>小野五平　1898年 〜 1921年1月29日（保持 約23年）</title>
+<rect class="bar f-gray" x="79" y="2951" width="14" height="228.8" rx="3"/>
+<text class="label" x="124" y="2963.4"><tspan class="name">小野五平</tspan><tspan class="yrs" dx="6">1898–1921</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj12" data-person="mj:関根金次郎">
+<title>関根金次郎　1921年 〜 1938年2月11日（保持 約17年）</title>
+<rect class="bar f-gray" x="79" y="3181" width="14" height="169.1" rx="3"/>
+<text class="label" x="124" y="3193.3"><tspan class="name">関根金次郎</tspan><tspan class="yrs" dx="6">1921–1938</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj13" data-person="mj:木村義雄">
+<title>木村義雄　1937年12月6日 〜 1947年6月6日（保持 約9年）</title>
+<rect class="bar f-blue" x="95" y="3350.3" width="14" height="93" rx="3"/>
+<text class="label" x="124" y="3362.6"><tspan class="name">木村義雄</tspan><tspan class="yrs" dx="6">1937–1947</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj14" data-person="mj:塚田正夫">
+<title>塚田正夫　1947年6月6日 〜 1949年5月24日（保持 718日）</title>
+<rect class="bar f-blue" x="79" y="3445.3" width="14" height="17.7" rx="3"/>
+<text class="label" x="124" y="3457.6"><tspan class="name">塚田正夫</tspan><tspan class="yrs" dx="6">1947–1949</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj15" data-person="mj:木村義雄">
+<title>木村義雄　1949年5月24日 〜 1952年7月15日（保持 約3年）</title>
+<rect class="bar f-blue" x="79" y="3464.9" width="14" height="29.4" rx="3"/>
+<text class="label" x="124" y="3477.3"><tspan class="name">木村義雄</tspan><tspan class="yrs" dx="6">1949–1952</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj16" data-person="mj:大山康晴">
+<title>大山康晴　1952年7月15日 〜 1957年7月11日（保持 約5年）</title>
+<rect class="bar f-blue" x="79" y="3496.3" width="14" height="47.9" rx="3"/>
+<text class="label" x="124" y="3508.7"><tspan class="name">大山康晴</tspan><tspan class="yrs" dx="6">1952–1957</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj17" data-person="mj:升田幸三">
+<title>升田幸三　1957年7月11日 〜 1959年6月12日（保持 701日）</title>
+<rect class="bar f-blue" x="79" y="3546.2" width="14" height="17.2" rx="3"/>
+<text class="label" x="124" y="3558.6"><tspan class="name">升田幸三</tspan><tspan class="yrs" dx="6">1957–1959</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj18" data-person="mj:大山康晴">
+<title>大山康晴　1959年6月12日 〜 1972年6月8日（保持 約13年）</title>
+<rect class="bar f-blue" x="79" y="3565.4" width="14" height="127.9" rx="3"/>
+<text class="label" x="124" y="3577.8"><tspan class="name">大山康晴</tspan><tspan class="yrs" dx="6">1959–1972</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj19" data-person="mj:中原誠">
+<title>中原誠　1972年6月8日 〜 1982年7月31日（保持 約10年）</title>
+<rect class="bar f-blue" x="79" y="3695.3" width="14" height="99.4" rx="3"/>
+<text class="label" x="124" y="3707.7"><tspan class="name">中原誠</tspan><tspan class="yrs" dx="6">1972–1982</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj20" data-person="mj:加藤一二三">
+<title>加藤一二三　1982年7月31日 〜 1983年6月15日（保持 319日）</title>
+<rect class="bar f-blue" x="79" y="3796.8" width="14" height="6.7" rx="3"/>
+<path class="leader" d="M94.5 3800.1h4L120 3798.1h2"/>
+<text class="label" x="124" y="3802.9"><tspan class="name">加藤一二三</tspan><tspan class="yrs" dx="6">1982–1983</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj21" data-person="mj:谷川浩司">
+<title>谷川浩司　1983年6月15日 〜 1985年6月4日（保持 720日）</title>
+<rect class="bar f-blue" x="79" y="3805.5" width="14" height="17.7" rx="3"/>
+<path class="leader" d="M94.5 3813h4L120 3815.1h2"/>
+<text class="label" x="124" y="3819.9"><tspan class="name">谷川浩司</tspan><tspan class="yrs" dx="6">1983–1985</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj22" data-person="mj:中原誠">
+<title>中原誠　1985年6月4日 〜 1988年6月14日（保持 約3年）</title>
+<rect class="bar f-blue" x="79" y="3825.2" width="14" height="28.3" rx="3"/>
+<text class="label" x="124" y="3837.6"><tspan class="name">中原誠</tspan><tspan class="yrs" dx="6">1985–1988</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj23" data-person="mj:谷川浩司">
+<title>谷川浩司　1988年6月14日 〜 1990年6月12日（保持 728日）</title>
+<rect class="bar f-blue" x="79" y="3855.5" width="14" height="17.9" rx="3"/>
+<text class="label" x="124" y="3867.9"><tspan class="name">谷川浩司</tspan><tspan class="yrs" dx="6">1988–1990</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj24" data-person="mj:中原誠">
+<title>中原誠　1990年6月12日 〜 1993年5月21日（保持 約3年）</title>
+<rect class="bar f-blue" x="79" y="3875.4" width="14" height="27.4" rx="3"/>
+<text class="label" x="124" y="3887.8"><tspan class="name">中原誠</tspan><tspan class="yrs" dx="6">1990–1993</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj25" data-person="mj:米長邦雄">
+<title>米長邦雄　1993年5月21日 〜 1994年6月7日（保持 382日）</title>
+<rect class="bar f-blue" x="79" y="3904.8" width="14" height="8.5" rx="3"/>
+<path class="leader" d="M94.5 3909.1h4L120 3907.4h2"/>
+<text class="label" x="124" y="3912.3"><tspan class="name">米長邦雄</tspan><tspan class="yrs" dx="6">1993–1994</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj26" data-person="mj:羽生善治">
+<title>羽生善治　1994年6月7日 〜 1997年6月11日（保持 約3年）</title>
+<rect class="bar f-blue" x="79" y="3915.3" width="14" height="28.1" rx="3"/>
+<path class="leader" d="M94.5 3922.8h4L120 3924.4h2"/>
+<text class="label" x="124" y="3929.3"><tspan class="name">羽生善治</tspan><tspan class="yrs" dx="6">1994–1997</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj27" data-person="mj:谷川浩司">
+<title>谷川浩司　1997年6月11日 〜 1998年6月18日（保持 372日）</title>
+<rect class="bar f-blue" x="79" y="3945.4" width="14" height="8.2" rx="3"/>
+<path class="leader" d="M94.5 3949.5h4L120 3945.3h2"/>
+<text class="label" x="124" y="3950.2"><tspan class="name">谷川浩司</tspan><tspan class="yrs" dx="6">1997–1998</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj28" data-person="mj:佐藤康光">
+<title>佐藤康光　1998年6月18日 〜 2000年6月27日（保持 約2年）</title>
+<rect class="bar f-blue" x="79" y="3955.6" width="14" height="18.3" rx="3"/>
+<text class="label" x="124" y="3967.2"><tspan class="name">佐藤康光</tspan><tspan class="yrs" dx="6">1998–2000</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj29" data-person="mj:丸山忠久">
+<title>丸山忠久　2000年6月27日 〜 2002年5月17日（保持 689日）</title>
+<rect class="bar f-blue" x="79" y="3975.9" width="14" height="16.9" rx="3"/>
+<path class="leader" d="M94.5 3983.4h4L120 3979.3h2"/>
+<text class="label" x="124" y="3984.2"><tspan class="name">丸山忠久</tspan><tspan class="yrs" dx="6">2000–2002</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj30" data-person="mj:森内俊之">
+<title>森内俊之　2002年5月17日 〜 2003年5月20日（保持 368日）</title>
+<rect class="bar f-blue" x="79" y="3994.7" width="14" height="8.1" rx="3"/>
+<path class="leader" d="M94.5 3998.8h4L120 3996.3h2"/>
+<text class="label" x="124" y="4001.2"><tspan class="name">森内俊之</tspan><tspan class="yrs" dx="6">2002–2003</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj31" data-person="mj:羽生善治">
+<title>羽生善治　2003年5月20日 〜 2004年6月11日（保持 388日）</title>
+<rect class="bar f-blue" x="79" y="4004.8" width="14" height="8.6" rx="3"/>
+<path class="leader" d="M94.5 4009.1h4L120 4013.3h2"/>
+<text class="label" x="124" y="4018.2"><tspan class="name">羽生善治</tspan><tspan class="yrs" dx="6">2003–2004</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj32" data-person="mj:森内俊之">
+<title>森内俊之　2004年6月11日 〜 2008年6月17日（保持 約4年）</title>
+<rect class="bar f-blue" x="79" y="4015.4" width="14" height="38.2" rx="3"/>
+<path class="leader" d="M94.5 4022.9h4L120 4030.3h2"/>
+<text class="label" x="124" y="4035.2"><tspan class="name">森内俊之</tspan><tspan class="yrs" dx="6">2004–2008</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj33" data-person="mj:羽生善治">
+<title>羽生善治　2008年6月17日 〜 2011年6月22日（保持 約3年）</title>
+<rect class="bar f-blue" x="79" y="4055.6" width="14" height="28.1" rx="3"/>
+<text class="label" x="124" y="4067.9"><tspan class="name">羽生善治</tspan><tspan class="yrs" dx="6">2008–2011</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj34" data-person="mj:森内俊之">
+<title>森内俊之　2011年6月22日 〜 2014年5月21日（保持 約3年）</title>
+<rect class="bar f-blue" x="79" y="4085.7" width="14" height="27.1" rx="3"/>
+<text class="label" x="124" y="4098.1"><tspan class="name">森内俊之</tspan><tspan class="yrs" dx="6">2011–2014</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj35" data-person="mj:羽生善治">
+<title>羽生善治　2014年5月21日 〜 2016年5月31日（保持 約2年）</title>
+<rect class="bar f-blue" x="79" y="4114.8" width="14" height="18.3" rx="3"/>
+<text class="label" x="124" y="4127.2"><tspan class="name">羽生善治</tspan><tspan class="yrs" dx="6">2014–2016</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj36" data-person="mj:佐藤天彦">
+<title>佐藤天彦　2016年5月31日 〜 2019年5月17日（保持 約3年）</title>
+<rect class="bar f-blue" x="79" y="4135.1" width="14" height="27.6" rx="3"/>
+<text class="label" x="124" y="4147.5"><tspan class="name">佐藤天彦</tspan><tspan class="yrs" dx="6">2016–2019</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj37" data-person="mj:豊島将之">
+<title>豊島将之　2019年5月17日 〜 2020年8月15日（保持 456日）</title>
+<rect class="bar f-blue" x="79" y="4164.7" width="14" height="10.5" rx="3"/>
+<text class="label" x="124" y="4173.7"><tspan class="name">豊島将之</tspan><tspan class="yrs" dx="6">2019–2020</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj38" data-person="mj:渡辺明">
+<title>渡辺明　2020年8月15日 〜 2023年6月1日（保持 約3年）</title>
+<rect class="bar f-blue" x="79" y="4177.2" width="14" height="25.9" rx="3"/>
+<text class="label" x="124" y="4190.7"><tspan class="name">渡辺明</tspan><tspan class="yrs" dx="6">2020–2023</tspan></text>
+</g>
+<g class="term c-mj" data-id="mj39" data-person="mj:藤井聡太">
+<title>藤井聡太　2023年6月1日 〜 保持中（保持 約3年）</title>
+<linearGradient id="tl-g-mj39" gradientUnits="userSpaceOnUse" x1="0" y1="4216.3" x2="0" y2="4238.3"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 4208.1Q79 4205.1 82 4205.1H90Q93 4205.1 93 4208.1V4238.3Q93 4238.3 93 4238.3H79Q79 4238.3 79 4238.3Z" fill="url(#tl-g-mj39)"/>
+<text class="label" x="124" y="4217.5"><tspan class="name">藤井聡太</tspan><tspan class="yrs" dx="6">2023–</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry0" data-person="ry:島朗">
+<title>島朗　1988年11月17日 〜 1989年12月27日（保持 405日）</title>
+<rect class="bar f-red" x="276.9" y="3859.8" width="14" height="9.1" rx="3"/>
+<path class="leader" d="M292.4 3864.3h4L301.9 3851.5h2"/>
+<text class="label" x="305.9" y="3856.4"><tspan class="name">島朗</tspan><tspan class="yrs" dx="6">1988–1989</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry1" data-person="ry:羽生善治">
+<title>羽生善治　1989年12月27日 〜 1990年11月27日（保持 335日）</title>
+<rect class="bar f-red" x="276.9" y="3870.9" width="14" height="7.2" rx="3"/>
+<path class="leader" d="M292.4 3874.4h4L301.9 3868.5h2"/>
+<text class="label" x="305.9" y="3873.4"><tspan class="name">羽生善治</tspan><tspan class="yrs" dx="6">1989–1990</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry2" data-person="ry:谷川浩司">
+<title>谷川浩司　1990年11月27日 〜 1993年1月6日（保持 約2年）</title>
+<rect class="bar f-red" x="276.9" y="3880" width="14" height="19.1" rx="3"/>
+<path class="leader" d="M292.4 3887.5h4L301.9 3885.5h2"/>
+<text class="label" x="305.9" y="3890.4"><tspan class="name">谷川浩司</tspan><tspan class="yrs" dx="6">1990–1993</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry3" data-person="ry:羽生善治">
+<title>羽生善治　1993年1月6日 〜 1993年12月10日（保持 338日）</title>
+<rect class="bar f-red" x="276.9" y="3901.1" width="14" height="7.3" rx="3"/>
+<path class="leader" d="M292.4 3904.8h4L301.9 3902.5h2"/>
+<text class="label" x="305.9" y="3907.4"><tspan class="name">羽生善治</tspan><tspan class="yrs" dx="6">1993</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry4" data-person="ry:佐藤康光">
+<title>佐藤康光　1993年12月10日 〜 1994年12月9日（保持 364日）</title>
+<rect class="bar f-red" x="276.9" y="3910.4" width="14" height="8" rx="3"/>
+<path class="leader" d="M292.4 3914.4h4L301.9 3919.5h2"/>
+<text class="label" x="305.9" y="3924.4"><tspan class="name">佐藤康光</tspan><tspan class="yrs" dx="6">1993–1994</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry5" data-person="ry:羽生善治">
+<title>羽生善治　1994年12月9日 〜 1996年11月29日（保持 721日）</title>
+<rect class="bar f-red" x="276.9" y="3920.4" width="14" height="17.7" rx="3"/>
+<path class="leader" d="M292.4 3927.9h4L301.9 3936.5h2"/>
+<text class="label" x="305.9" y="3941.4"><tspan class="name">羽生善治</tspan><tspan class="yrs" dx="6">1994–1996</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry6" data-person="ry:谷川浩司">
+<title>谷川浩司　1996年11月29日 〜 1998年11月19日（保持 720日）</title>
+<rect class="bar f-red" x="276.9" y="3940.1" width="14" height="17.7" rx="3"/>
+<path class="leader" d="M292.4 3947.6h4L301.9 3953.5h2"/>
+<text class="label" x="305.9" y="3958.4"><tspan class="name">谷川浩司</tspan><tspan class="yrs" dx="6">1996–1998</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry7" data-person="ry:藤井猛">
+<title>藤井猛　1998年11月19日 〜 2001年11月30日（保持 約3年）</title>
+<rect class="bar f-red" x="276.9" y="3959.8" width="14" height="28.3" rx="3"/>
+<path class="leader" d="M292.4 3967.3h4L301.9 3970.5h2"/>
+<text class="label" x="305.9" y="3975.4"><tspan class="name">藤井猛</tspan><tspan class="yrs" dx="6">1998–2001</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry8" data-person="ry:羽生善治">
+<title>羽生善治　2001年11月30日 〜 2003年11月27日（保持 727日）</title>
+<rect class="bar f-red" x="276.9" y="3990.1" width="14" height="17.9" rx="3"/>
+<text class="label" x="305.9" y="4001.4"><tspan class="name">羽生善治</tspan><tspan class="yrs" dx="6">2001–2003</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry9" data-person="ry:森内俊之">
+<title>森内俊之　2003年11月27日 〜 2004年12月28日（保持 397日）</title>
+<rect class="bar f-red" x="276.9" y="4010" width="14" height="8.9" rx="3"/>
+<text class="label" x="305.9" y="4018.4"><tspan class="name">森内俊之</tspan><tspan class="yrs" dx="6">2003–2004</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry10" data-person="ry:渡辺明">
+<title>渡辺明　2004年12月28日 〜 2013年11月29日（保持 約9年）</title>
+<rect class="bar f-red" x="276.9" y="4020.9" width="14" height="87.2" rx="3"/>
+<path class="leader" d="M292.4 4028.4h4L301.9 4030.5h2"/>
+<text class="label" x="305.9" y="4035.4"><tspan class="name">渡辺明</tspan><tspan class="yrs" dx="6">2004–2013</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry11" data-person="ry:森内俊之">
+<title>森内俊之　2013年11月29日 〜 2014年12月4日（保持 370日）</title>
+<rect class="bar f-red" x="276.9" y="4110.1" width="14" height="8.1" rx="3"/>
+<path class="leader" d="M292.4 4114.2h4L301.9 4101.9h2"/>
+<text class="label" x="305.9" y="4106.7"><tspan class="name">森内俊之</tspan><tspan class="yrs" dx="6">2013–2014</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry12" data-person="ry:糸谷哲郎">
+<title>糸谷哲郎　2014年12月4日 〜 2015年12月3日（保持 364日）</title>
+<rect class="bar f-red" x="276.9" y="4120.2" width="14" height="8" rx="3"/>
+<path class="leader" d="M292.4 4124.2h4L301.9 4118.9h2"/>
+<text class="label" x="305.9" y="4123.7"><tspan class="name">糸谷哲郎</tspan><tspan class="yrs" dx="6">2014–2015</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry13" data-person="ry:渡辺明">
+<title>渡辺明　2015年12月3日 〜 2017年12月5日（保持 約2年）</title>
+<rect class="bar f-red" x="276.9" y="4130.2" width="14" height="18.1" rx="3"/>
+<path class="leader" d="M292.4 4137.7h4L301.9 4135.9h2"/>
+<text class="label" x="305.9" y="4140.7"><tspan class="name">渡辺明</tspan><tspan class="yrs" dx="6">2015–2017</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry14" data-person="ry:羽生善治">
+<title>羽生善治　2017年12月5日 〜 2018年12月21日（保持 381日）</title>
+<rect class="bar f-red" x="276.9" y="4150.3" width="14" height="8.4" rx="3"/>
+<path class="leader" d="M292.4 4154.5h4L301.9 4152.9h2"/>
+<text class="label" x="305.9" y="4157.7"><tspan class="name">羽生善治</tspan><tspan class="yrs" dx="6">2017–2018</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry15" data-person="ry:広瀬章人">
+<title>広瀬章人　2018年12月21日 〜 2019年12月7日（保持 351日）</title>
+<rect class="bar f-red" x="276.9" y="4160.7" width="14" height="7.6" rx="3"/>
+<path class="leader" d="M292.4 4164.5h4L301.9 4169.9h2"/>
+<text class="label" x="305.9" y="4174.7"><tspan class="name">広瀬章人</tspan><tspan class="yrs" dx="6">2018–2019</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry16" data-person="ry:豊島将之">
+<title>豊島将之　2019年12月7日 〜 2021年11月13日（保持 707日）</title>
+<rect class="bar f-red" x="276.9" y="4170.3" width="14" height="17.4" rx="3"/>
+<path class="leader" d="M292.4 4177.8h4L301.9 4186.9h2"/>
+<text class="label" x="305.9" y="4191.7"><tspan class="name">豊島将之</tspan><tspan class="yrs" dx="6">2019–2021</tspan></text>
+</g>
+<g class="term c-ry" data-id="ry17" data-person="ry:藤井聡太">
+<title>藤井聡太　2021年11月13日 〜 保持中（保持 約5年）</title>
+<linearGradient id="tl-g-ry17" gradientUnits="userSpaceOnUse" x1="0" y1="4216.3" x2="0" y2="4238.3"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M276.9 4192.7Q276.9 4189.7 279.9 4189.7H287.9Q290.9 4189.7 290.9 4192.7V4238.3Q290.9 4238.3 290.9 4238.3H276.9Q276.9 4238.3 276.9 4238.3Z" fill="url(#tl-g-ry17)"/>
+<path class="leader" d="M292.4 4197.2h4L301.9 4203.9h2"/>
+<text class="label" x="305.9" y="4208.7"><tspan class="name">藤井聡太</tspan><tspan class="yrs" dx="6">2021–</tspan></text>
+</g>
+<text class="foot" x="380" y="4280.6" text-anchor="middle">出典：日本将棋連盟「竜王戦」（第39期の七番勝負と過去の結果）、日本将棋連盟「竜王戦」各期の七番勝負（第21期〜第38期）、日本将棋連盟「名人戦・順位戦」、日本将棋連盟「第84期名人戦七番勝負」、日本将棋連盟「将棋の歴史」、Wikipedia「名人戦 (将棋)」、Wikipedia「竜王戦」、Wikipedia「名人 (将棋)」、Wikipedia「第1期名人戦 (将棋)」「第N期順位戦」「第N期竜王戦」など各期の記事　2026年10月30日時点</text>
+</svg>

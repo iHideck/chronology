@@ -1,0 +1,476 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 4174" width="760" height="4174" role="img" aria-labelledby="tl-title">
+<title id="tl-title">中国の最高指導者</title>
+<style>
+.tl{--paper:#fcfcfd;--ink:#1c2029;--ink2:#4b5260;--muted:#687080;--rule:#e8eaef;--rule2:#c3c8d2;--spine-a:#f0f1f5;--spine-b:#e6e8ef;--red:#d4452c;--blue:#2c5aa0;--amber:#b8730f;--violet:#7a4fc4;--green:#138a60;--teal:#00897b;--gray:#9aa0ab;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="760" height="4174" rx="14"/>
+<rect class="f-amber" x="79" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="124" y="44">中国の最高指導者</text>
+<text class="spine-h" x="36" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="36" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="0" y="70" width="72" height="6.4"/>
+<rect class="spine-b" x="0" y="76.4" width="72" height="23.3"/>
+<rect class="spine-a" x="0" y="99.8" width="72" height="71.9"/>
+<rect class="spine-b" x="0" y="171.7" width="72" height="26.3"/>
+<rect class="spine-a" x="0" y="197.9" width="72" height="83.5"/>
+<rect class="spine-b" x="0" y="281.5" width="72" height="1050.4"/>
+<rect class="spine-a" x="0" y="1331.8" width="72" height="345.7"/>
+<rect class="spine-b" x="0" y="1677.5" width="72" height="1489"/>
+<rect class="spine-a" x="0" y="3166.5" width="72" height="727.4"/>
+<rect class="spine-b" x="0" y="3893.9" width="72" height="209.5"/>
+<line class="grid" x1="0" x2="760" y1="70" y2="70"/>
+<line class="grid" x1="0" x2="760" y1="550" y2="550"/>
+<line class="grid" x1="0" x2="760" y1="790" y2="790"/>
+<line class="grid" x1="0" x2="760" y1="1030" y2="1030"/>
+<line class="grid" x1="0" x2="760" y1="1270" y2="1270"/>
+<line class="grid" x1="0" x2="760" y1="1510" y2="1510"/>
+<line class="grid" x1="0" x2="760" y1="1750" y2="1750"/>
+<line class="grid" x1="0" x2="760" y1="1990" y2="1990"/>
+<line class="grid" x1="0" x2="760" y1="2230" y2="2230"/>
+<line class="grid" x1="0" x2="760" y1="2470" y2="2470"/>
+<line class="grid" x1="0" x2="760" y1="2710" y2="2710"/>
+<line class="grid" x1="0" x2="760" y1="2950" y2="2950"/>
+<line class="grid" x1="0" x2="760" y1="3430" y2="3430"/>
+<line class="grid" x1="0" x2="760" y1="3670" y2="3670"/>
+<line class="era-line" x1="0" x2="760" y1="76.4" y2="76.4"/>
+<line class="era-line" x1="0" x2="760" y1="99.8" y2="99.8"/>
+<line class="era-line" x1="0" x2="760" y1="171.7" y2="171.7"/>
+<line class="era-line" x1="0" x2="760" y1="197.9" y2="197.9"/>
+<line class="era-line" x1="0" x2="760" y1="281.5" y2="281.5"/>
+<line class="era-line" x1="0" x2="760" y1="1331.8" y2="1331.8"/>
+<line class="era-line" x1="0" x2="760" y1="1677.5" y2="1677.5"/>
+<line class="era-line" x1="0" x2="760" y1="3166.5" y2="3166.5"/>
+<line class="era-line" x1="0" x2="760" y1="3893.9" y2="3893.9"/>
+<path class="tick" d="M0 70h9M72 70h-9"/>
+<path class="tick" d="M0 94h3M72 94h-3"/>
+<path class="tick" d="M0 118h3M72 118h-3"/>
+<path class="tick" d="M0 142h3M72 142h-3"/>
+<path class="tick" d="M0 166h3M72 166h-3"/>
+<path class="tick" d="M0 190.1h6M72 190.1h-6"/>
+<path class="tick" d="M0 214h3M72 214h-3"/>
+<path class="tick" d="M0 238h3M72 238h-3"/>
+<path class="tick" d="M0 262h3M72 262h-3"/>
+<path class="tick" d="M0 286.1h3M72 286.1h-3"/>
+<path class="tick" d="M0 310h9M72 310h-9"/>
+<path class="tick" d="M0 334h3M72 334h-3"/>
+<path class="tick" d="M0 358h3M72 358h-3"/>
+<path class="tick" d="M0 382.1h3M72 382.1h-3"/>
+<path class="tick" d="M0 406h3M72 406h-3"/>
+<path class="tick" d="M0 430h6M72 430h-6"/>
+<path class="tick" d="M0 454h3M72 454h-3"/>
+<path class="tick" d="M0 478.1h3M72 478.1h-3"/>
+<path class="tick" d="M0 502h3M72 502h-3"/>
+<path class="tick" d="M0 526h3M72 526h-3"/>
+<path class="tick" d="M0 550h9M72 550h-9"/>
+<path class="tick" d="M0 574.1h3M72 574.1h-3"/>
+<path class="tick" d="M0 598h3M72 598h-3"/>
+<path class="tick" d="M0 622h3M72 622h-3"/>
+<path class="tick" d="M0 646h3M72 646h-3"/>
+<path class="tick" d="M0 670.1h6M72 670.1h-6"/>
+<path class="tick" d="M0 694h3M72 694h-3"/>
+<path class="tick" d="M0 718h3M72 718h-3"/>
+<path class="tick" d="M0 742h3M72 742h-3"/>
+<path class="tick" d="M0 766.1h3M72 766.1h-3"/>
+<path class="tick" d="M0 790h9M72 790h-9"/>
+<path class="tick" d="M0 814h3M72 814h-3"/>
+<path class="tick" d="M0 838h3M72 838h-3"/>
+<path class="tick" d="M0 862.1h3M72 862.1h-3"/>
+<path class="tick" d="M0 886h3M72 886h-3"/>
+<path class="tick" d="M0 910h6M72 910h-6"/>
+<path class="tick" d="M0 934h3M72 934h-3"/>
+<path class="tick" d="M0 958.1h3M72 958.1h-3"/>
+<path class="tick" d="M0 982.1h3M72 982.1h-3"/>
+<path class="tick" d="M0 1006h3M72 1006h-3"/>
+<path class="tick" d="M0 1030h9M72 1030h-9"/>
+<path class="tick" d="M0 1054h3M72 1054h-3"/>
+<path class="tick" d="M0 1078h3M72 1078h-3"/>
+<path class="tick" d="M0 1102h3M72 1102h-3"/>
+<path class="tick" d="M0 1126h3M72 1126h-3"/>
+<path class="tick" d="M0 1150h6M72 1150h-6"/>
+<path class="tick" d="M0 1174h3M72 1174h-3"/>
+<path class="tick" d="M0 1198h3M72 1198h-3"/>
+<path class="tick" d="M0 1222h3M72 1222h-3"/>
+<path class="tick" d="M0 1246h3M72 1246h-3"/>
+<path class="tick" d="M0 1270h9M72 1270h-9"/>
+<path class="tick" d="M0 1294h3M72 1294h-3"/>
+<path class="tick" d="M0 1318h3M72 1318h-3"/>
+<path class="tick" d="M0 1342h3M72 1342h-3"/>
+<path class="tick" d="M0 1366h3M72 1366h-3"/>
+<path class="tick" d="M0 1390h6M72 1390h-6"/>
+<path class="tick" d="M0 1414h3M72 1414h-3"/>
+<path class="tick" d="M0 1438h3M72 1438h-3"/>
+<path class="tick" d="M0 1462h3M72 1462h-3"/>
+<path class="tick" d="M0 1486h3M72 1486h-3"/>
+<path class="tick" d="M0 1510h9M72 1510h-9"/>
+<path class="tick" d="M0 1534h3M72 1534h-3"/>
+<path class="tick" d="M0 1558h3M72 1558h-3"/>
+<path class="tick" d="M0 1582h3M72 1582h-3"/>
+<path class="tick" d="M0 1606h3M72 1606h-3"/>
+<path class="tick" d="M0 1630h6M72 1630h-6"/>
+<path class="tick" d="M0 1654h3M72 1654h-3"/>
+<path class="tick" d="M0 1678h3M72 1678h-3"/>
+<path class="tick" d="M0 1702h3M72 1702h-3"/>
+<path class="tick" d="M0 1726h3M72 1726h-3"/>
+<path class="tick" d="M0 1750h9M72 1750h-9"/>
+<path class="tick" d="M0 1774h3M72 1774h-3"/>
+<path class="tick" d="M0 1798h3M72 1798h-3"/>
+<path class="tick" d="M0 1822h3M72 1822h-3"/>
+<path class="tick" d="M0 1846h3M72 1846h-3"/>
+<path class="tick" d="M0 1870h6M72 1870h-6"/>
+<path class="tick" d="M0 1894h3M72 1894h-3"/>
+<path class="tick" d="M0 1918h3M72 1918h-3"/>
+<path class="tick" d="M0 1942h3M72 1942h-3"/>
+<path class="tick" d="M0 1966h3M72 1966h-3"/>
+<path class="tick" d="M0 1990h9M72 1990h-9"/>
+<path class="tick" d="M0 2014h3M72 2014h-3"/>
+<path class="tick" d="M0 2038h3M72 2038h-3"/>
+<path class="tick" d="M0 2062h3M72 2062h-3"/>
+<path class="tick" d="M0 2086h3M72 2086h-3"/>
+<path class="tick" d="M0 2110h6M72 2110h-6"/>
+<path class="tick" d="M0 2134h3M72 2134h-3"/>
+<path class="tick" d="M0 2158h3M72 2158h-3"/>
+<path class="tick" d="M0 2182h3M72 2182h-3"/>
+<path class="tick" d="M0 2206h3M72 2206h-3"/>
+<path class="tick" d="M0 2230h9M72 2230h-9"/>
+<path class="tick" d="M0 2254h3M72 2254h-3"/>
+<path class="tick" d="M0 2278h3M72 2278h-3"/>
+<path class="tick" d="M0 2302h3M72 2302h-3"/>
+<path class="tick" d="M0 2326h3M72 2326h-3"/>
+<path class="tick" d="M0 2350h6M72 2350h-6"/>
+<path class="tick" d="M0 2374h3M72 2374h-3"/>
+<path class="tick" d="M0 2398h3M72 2398h-3"/>
+<path class="tick" d="M0 2422h3M72 2422h-3"/>
+<path class="tick" d="M0 2446h3M72 2446h-3"/>
+<path class="tick" d="M0 2470h9M72 2470h-9"/>
+<path class="tick" d="M0 2494h3M72 2494h-3"/>
+<path class="tick" d="M0 2518h3M72 2518h-3"/>
+<path class="tick" d="M0 2542h3M72 2542h-3"/>
+<path class="tick" d="M0 2566h3M72 2566h-3"/>
+<path class="tick" d="M0 2590h6M72 2590h-6"/>
+<path class="tick" d="M0 2614h3M72 2614h-3"/>
+<path class="tick" d="M0 2638h3M72 2638h-3"/>
+<path class="tick" d="M0 2662h3M72 2662h-3"/>
+<path class="tick" d="M0 2686h3M72 2686h-3"/>
+<path class="tick" d="M0 2710h9M72 2710h-9"/>
+<path class="tick" d="M0 2734h3M72 2734h-3"/>
+<path class="tick" d="M0 2758h3M72 2758h-3"/>
+<path class="tick" d="M0 2782h3M72 2782h-3"/>
+<path class="tick" d="M0 2806h3M72 2806h-3"/>
+<path class="tick" d="M0 2830h6M72 2830h-6"/>
+<path class="tick" d="M0 2854h3M72 2854h-3"/>
+<path class="tick" d="M0 2878h3M72 2878h-3"/>
+<path class="tick" d="M0 2902h3M72 2902h-3"/>
+<path class="tick" d="M0 2926h3M72 2926h-3"/>
+<path class="tick" d="M0 2950h9M72 2950h-9"/>
+<path class="tick" d="M0 2974h3M72 2974h-3"/>
+<path class="tick" d="M0 2998h3M72 2998h-3"/>
+<path class="tick" d="M0 3022h3M72 3022h-3"/>
+<path class="tick" d="M0 3046h3M72 3046h-3"/>
+<path class="tick" d="M0 3070h6M72 3070h-6"/>
+<path class="tick" d="M0 3094h3M72 3094h-3"/>
+<path class="tick" d="M0 3118h3M72 3118h-3"/>
+<path class="tick" d="M0 3142h3M72 3142h-3"/>
+<path class="tick" d="M0 3166h3M72 3166h-3"/>
+<path class="tick" d="M0 3190h9M72 3190h-9"/>
+<path class="tick" d="M0 3214h3M72 3214h-3"/>
+<path class="tick" d="M0 3238h3M72 3238h-3"/>
+<path class="tick" d="M0 3262h3M72 3262h-3"/>
+<path class="tick" d="M0 3286h3M72 3286h-3"/>
+<path class="tick" d="M0 3310h6M72 3310h-6"/>
+<path class="tick" d="M0 3334h3M72 3334h-3"/>
+<path class="tick" d="M0 3358.1h3M72 3358.1h-3"/>
+<path class="tick" d="M0 3382h3M72 3382h-3"/>
+<path class="tick" d="M0 3406h3M72 3406h-3"/>
+<path class="tick" d="M0 3430h9M72 3430h-9"/>
+<path class="tick" d="M0 3454.1h3M72 3454.1h-3"/>
+<path class="tick" d="M0 3478h3M72 3478h-3"/>
+<path class="tick" d="M0 3502h3M72 3502h-3"/>
+<path class="tick" d="M0 3526h3M72 3526h-3"/>
+<path class="tick" d="M0 3550.1h6M72 3550.1h-6"/>
+<path class="tick" d="M0 3574h3M72 3574h-3"/>
+<path class="tick" d="M0 3598h3M72 3598h-3"/>
+<path class="tick" d="M0 3622h3M72 3622h-3"/>
+<path class="tick" d="M0 3646.1h3M72 3646.1h-3"/>
+<path class="tick" d="M0 3670h9M72 3670h-9"/>
+<path class="tick" d="M0 3694h3M72 3694h-3"/>
+<path class="tick" d="M0 3718h3M72 3718h-3"/>
+<path class="tick" d="M0 3742.1h3M72 3742.1h-3"/>
+<path class="tick" d="M0 3766h3M72 3766h-3"/>
+<path class="tick" d="M0 3790h6M72 3790h-6"/>
+<path class="tick" d="M0 3814h3M72 3814h-3"/>
+<path class="tick" d="M0 3838.1h3M72 3838.1h-3"/>
+<path class="tick" d="M0 3862h3M72 3862h-3"/>
+<path class="tick" d="M0 3886h3M72 3886h-3"/>
+<path class="tick" d="M0 3910h9M72 3910h-9"/>
+<path class="tick" d="M0 3934.1h3M72 3934.1h-3"/>
+<path class="tick" d="M0 3958h3M72 3958h-3"/>
+<path class="tick" d="M0 3982h3M72 3982h-3"/>
+<path class="tick" d="M0 4006h3M72 4006h-3"/>
+<path class="tick" d="M0 4030.1h6M72 4030.1h-6"/>
+<path class="tick" d="M0 4054h3M72 4054h-3"/>
+<path class="tick" d="M0 4078h3M72 4078h-3"/>
+<path class="tick" d="M0 4102h3M72 4102h-3"/>
+<text class="dec-y" x="36" y="74.5" text-anchor="middle">1860</text>
+<text class="dec-w" x="36" y="88" text-anchor="middle">安政6年</text>
+<text class="dec-y" x="36" y="554.5" text-anchor="middle">1880</text>
+<text class="dec-w" x="36" y="568" text-anchor="middle">明治13年</text>
+<text class="dec-y" x="36" y="794.5" text-anchor="middle">1890</text>
+<text class="dec-w" x="36" y="808" text-anchor="middle">明治23年</text>
+<text class="dec-y" x="36" y="1034.5" text-anchor="middle">1900</text>
+<text class="dec-w" x="36" y="1048" text-anchor="middle">明治33年</text>
+<text class="dec-y" x="36" y="1274.5" text-anchor="middle">1910</text>
+<text class="dec-w" x="36" y="1288" text-anchor="middle">明治43年</text>
+<text class="dec-y" x="36" y="1514.5" text-anchor="middle">1920</text>
+<text class="dec-w" x="36" y="1528" text-anchor="middle">大正9年</text>
+<text class="dec-y" x="36" y="1754.5" text-anchor="middle">1930</text>
+<text class="dec-w" x="36" y="1768" text-anchor="middle">昭和5年</text>
+<text class="dec-y" x="36" y="1994.5" text-anchor="middle">1940</text>
+<text class="dec-w" x="36" y="2008" text-anchor="middle">昭和15年</text>
+<text class="dec-y" x="36" y="2234.5" text-anchor="middle">1950</text>
+<text class="dec-w" x="36" y="2248" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="36" y="2474.5" text-anchor="middle">1960</text>
+<text class="dec-w" x="36" y="2488" text-anchor="middle">昭和35年</text>
+<text class="dec-y" x="36" y="2714.5" text-anchor="middle">1970</text>
+<text class="dec-w" x="36" y="2728" text-anchor="middle">昭和45年</text>
+<text class="dec-y" x="36" y="2954.5" text-anchor="middle">1980</text>
+<text class="dec-w" x="36" y="2968" text-anchor="middle">昭和55年</text>
+<text class="dec-y" x="36" y="3434.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="36" y="3448" text-anchor="middle">平成12年</text>
+<text class="dec-y" x="36" y="3674.5" text-anchor="middle">2010</text>
+<text class="dec-w" x="36" y="3688" text-anchor="middle">平成22年</text>
+<text class="era-name" x="36" y="122.8" text-anchor="middle">文久</text>
+<text class="era-date" x="36" y="136.8" text-anchor="middle">1861.3.29</text>
+<text class="era-name" x="36" y="194.7" text-anchor="middle">元治</text>
+<text class="era-name" x="36" y="220.9" text-anchor="middle">慶応</text>
+<text class="era-date" x="36" y="234.9" text-anchor="middle">1865.5.1</text>
+<text class="era-name" x="36" y="304.5" text-anchor="middle">明治</text>
+<text class="era-date" x="36" y="318.5" text-anchor="middle">1868.10.23</text>
+<text class="era-name" x="36" y="1354.8" text-anchor="middle">大正</text>
+<text class="era-date" x="36" y="1368.8" text-anchor="middle">1912.7.30</text>
+<text class="era-name" x="36" y="1700.5" text-anchor="middle">昭和</text>
+<text class="era-date" x="36" y="1714.5" text-anchor="middle">1926.12.25</text>
+<text class="era-name" x="36" y="3189.5" text-anchor="middle">平成</text>
+<text class="era-date" x="36" y="3203.5" text-anchor="middle">1989.1.8</text>
+<text class="era-name" x="36" y="3916.9" text-anchor="middle">令和</text>
+<text class="era-date" x="36" y="3930.9" text-anchor="middle">2019.5.1</text>
+<line class="asof-line" x1="-4" x2="113" y1="4073.9" y2="4073.9"/>
+<text class="era-date" x="36" y="4087.9" text-anchor="middle">2026.10.30</text>
+<text class="era-date" x="36" y="4100.9" text-anchor="middle">時点</text>
+<g class="term c-a" data-id="a0" data-person="a:同治帝">
+<title>最高指導者 同治帝　1861年11月11日 〜 1875年1月12日（在任 4,810日）</title>
+<rect class="bar f-amber" x="79" y="115.7" width="14" height="314.1" rx="3"/>
+<text class="label" x="124" y="128"><tspan class="name">同治帝</tspan><tspan class="yrs" dx="6">1861–1875</tspan></text>
+</g>
+<g class="term c-a" data-id="a1" data-person="a:光緒帝">
+<title>最高指導者 光緒帝　1875年2月25日 〜 1908年11月14日（在任 12,315日）</title>
+<rect class="bar f-amber" x="79" y="434.6" width="14" height="807.2" rx="3"/>
+<text class="label" x="124" y="447"><tspan class="name">光緒帝</tspan><tspan class="yrs" dx="6">1875–1908</tspan></text>
+</g>
+<g class="term c-a" data-id="a2" data-person="a:宣統帝（溥儀）">
+<title>最高指導者 宣統帝（溥儀）　1908年12月2日 〜 1912年2月12日（在任 1,167日）</title>
+<rect class="bar f-amber" x="79" y="1245" width="14" height="74.7" rx="3"/>
+<text class="label" x="124" y="1257.4"><tspan class="name">宣統帝</tspan><tspan class="yrs" dx="6">1908–1912</tspan></text>
+</g>
+<g class="term c-a" data-id="a3" data-person="a:孫文">
+<title>最高指導者 孫文　1912年1月1日 〜 1912年4月1日（在任 91日）</title>
+<rect class="bar f-amber" x="95" y="1319" width="14" height="4" rx="2"/>
+<path class="leader" d="M110.5 1320.9h4L120 1317.5h2"/>
+<text class="label" x="124" y="1322.3"><tspan class="name">孫文</tspan><tspan class="yrs" dx="6">1912</tspan></text>
+</g>
+<g class="term c-a" data-id="a4" data-person="a:袁世凱">
+<title>最高指導者 袁世凱　1912年3月10日 〜 1916年6月6日（在任 1,549日）</title>
+<rect class="bar f-amber" x="79" y="1323.5" width="14" height="99.8" rx="3"/>
+<path class="leader" d="M94.5 1331h4L120 1334.5h2"/>
+<text class="label" x="124" y="1339.3"><tspan class="name">袁世凱</tspan><tspan class="yrs" dx="6">1912–1916</tspan></text>
+</g>
+<g class="term c-a" data-id="a5" data-person="a:黎元洪">
+<title>最高指導者 黎元洪　1916年6月7日 〜 1917年7月14日（在任 402日）</title>
+<rect class="bar f-amber" x="79" y="1425.3" width="14" height="24.4" rx="3"/>
+<text class="label" x="124" y="1437.7"><tspan class="name">黎元洪</tspan><tspan class="yrs" dx="6">1916–1917</tspan></text>
+</g>
+<g class="term c-a" data-id="a6" data-person="a:馮国璋">
+<title>最高指導者 馮国璋　1917年7月6日 〜 1918年10月10日（在任 461日）</title>
+<rect class="bar f-amber" x="95" y="1451.2" width="14" height="28.3" rx="3"/>
+<text class="label" x="124" y="1463.6"><tspan class="name">馮国璋</tspan><tspan class="yrs" dx="6">1917–1918</tspan></text>
+</g>
+<g class="term c-a" data-id="a7" data-person="a:徐世昌">
+<title>最高指導者 徐世昌　1918年10月10日 〜 1922年6月2日（在任 1,331日）</title>
+<rect class="bar f-amber" x="79" y="1481.5" width="14" height="85.5" rx="3"/>
+<text class="label" x="124" y="1493.9"><tspan class="name">徐世昌</tspan><tspan class="yrs" dx="6">1918–1922</tspan></text>
+</g>
+<g class="term c-a" data-id="a8" data-person="a:周自斉">
+<title>最高指導者 周自斉　1922年6月2日 〜 1922年6月11日（在任 9日）</title>
+<rect class="bar f-amber" x="79" y="1566.8" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M94.5 1568.3h4L120 1540.7h2"/>
+<text class="label" x="124" y="1545.6"><tspan class="name">周自斉</tspan><tspan class="yrs" dx="6">1922</tspan></text>
+</g>
+<g class="term c-a" data-id="a9" data-person="a:黎元洪">
+<title>最高指導者 黎元洪　1922年6月11日 〜 1923年6月13日（在任 367日）</title>
+<rect class="bar f-amber" x="79" y="1569.6" width="14" height="22.1" rx="3"/>
+<path class="leader" d="M94.5 1577.1h4L120 1557.7h2"/>
+<text class="label" x="124" y="1562.6"><tspan class="name">黎元洪</tspan><tspan class="yrs" dx="6">1922–1923</tspan></text>
+</g>
+<g class="term c-a" data-id="a10" data-person="a:高凌霨">
+<title>最高指導者 高凌霨　1923年6月14日 〜 1923年10月10日（在任 118日）</title>
+<rect class="bar f-amber" x="79" y="1593.8" width="14" height="5.8" rx="2.9"/>
+<path class="leader" d="M94.5 1596.6h4L120 1574.7h2"/>
+<text class="label" x="124" y="1579.6"><tspan class="name">高凌霨</tspan><tspan class="yrs" dx="6">1923</tspan></text>
+</g>
+<g class="term c-a" data-id="a11" data-person="a:曹錕">
+<title>最高指導者 曹錕　1923年10月10日 〜 1924年11月2日（在任 389日）</title>
+<rect class="bar f-amber" x="79" y="1601.5" width="14" height="23.6" rx="3"/>
+<path class="leader" d="M94.5 1609h4L120 1591.7h2"/>
+<text class="label" x="124" y="1596.6"><tspan class="name">曹錕</tspan><tspan class="yrs" dx="6">1923–1924</tspan></text>
+</g>
+<g class="term c-a" data-id="a12" data-person="a:黄郛">
+<title>最高指導者 黄郛　1924年11月2日 〜 1924年11月24日（在任 22日）</title>
+<rect class="bar f-amber" x="79" y="1625.3" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M94.5 1626.8h4L120 1608.7h2"/>
+<text class="label" x="124" y="1613.6"><tspan class="name">黄郛</tspan><tspan class="yrs" dx="6">1924</tspan></text>
+</g>
+<g class="term c-a" data-id="a13" data-person="a:段祺瑞">
+<title>最高指導者 段祺瑞　1924年11月24日 〜 1926年4月20日（在任 512日）</title>
+<rect class="bar f-amber" x="79" y="1628.5" width="14" height="31.6" rx="3"/>
+<path class="leader" d="M94.5 1636h4L120 1625.7h2"/>
+<text class="label" x="124" y="1630.6"><tspan class="name">段祺瑞</tspan><tspan class="yrs" dx="6">1924–1926</tspan></text>
+</g>
+<g class="term c-a" data-id="a14" data-person="a:胡惟徳">
+<title>最高指導者 胡惟徳　1926年4月20日 〜 1926年5月13日（在任 23日）</title>
+<rect class="bar f-amber" x="79" y="1660.4" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M94.5 1661.9h4L120 1642.7h2"/>
+<text class="label" x="124" y="1647.6"><tspan class="name">胡惟徳</tspan><tspan class="yrs" dx="6">1926</tspan></text>
+</g>
+<g class="term c-a" data-id="a15" data-person="a:顔恵慶">
+<title>最高指導者 顔恵慶　1926年5月13日 〜 1926年6月23日（在任 41日）</title>
+<rect class="bar f-amber" x="79" y="1662.5" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M94.5 1664h4L120 1659.7h2"/>
+<text class="label" x="124" y="1664.6"><tspan class="name">顔恵慶</tspan><tspan class="yrs" dx="6">1926</tspan></text>
+</g>
+<g class="term c-a" data-id="a16" data-person="a:杜錫珪">
+<title>最高指導者 杜錫珪　1926年6月23日 〜 1926年10月1日（在任 100日）</title>
+<rect class="bar f-amber" x="79" y="1666.4" width="14" height="4.6" rx="2.3"/>
+<path class="leader" d="M94.5 1668.7h4L120 1676.7h2"/>
+<text class="label" x="124" y="1681.6"><tspan class="name">杜錫珪</tspan><tspan class="yrs" dx="6">1926</tspan></text>
+</g>
+<g class="term c-a" data-id="a17" data-person="a:顧維鈞">
+<title>最高指導者 顧維鈞　1926年10月1日 〜 1927年6月16日（在任 258日）</title>
+<rect class="bar f-amber" x="79" y="1672.9" width="14" height="15" rx="3"/>
+<path class="leader" d="M94.5 1680.4h4L120 1693.7h2"/>
+<text class="label" x="124" y="1698.6"><tspan class="name">顧維鈞</tspan><tspan class="yrs" dx="6">1926–1927</tspan></text>
+</g>
+<g class="term c-a" data-id="a18" data-person="a:胡惟徳">
+<title>最高指導者 胡惟徳　1927年6月16日 〜 1927年6月18日（在任 2日）</title>
+<rect class="bar f-amber" x="79" y="1687.5" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M94.5 1689h4L120 1710.7h2"/>
+<text class="label" x="124" y="1715.6"><tspan class="name">胡惟徳</tspan><tspan class="yrs" dx="6">1927</tspan></text>
+</g>
+<g class="term c-a" data-id="a19" data-person="a:張作霖">
+<title>最高指導者 張作霖　1927年6月18日 〜 1928年6月3日（在任 351日）</title>
+<rect class="bar f-amber" x="79" y="1690" width="14" height="21.1" rx="3"/>
+<path class="leader" d="M94.5 1697.5h4L120 1727.7h2"/>
+<text class="label" x="124" y="1732.6"><tspan class="name">張作霖</tspan><tspan class="yrs" dx="6">1927–1928</tspan></text>
+</g>
+<g class="term c-a" data-id="a20" data-person="a:譚延闓">
+<title>最高指導者 譚延闓　1928年2月7日 〜 1928年10月10日（在任 246日）</title>
+<rect class="bar f-amber" x="95" y="1705.4" width="14" height="14.2" rx="3"/>
+<path class="leader" d="M110.5 1712.5h4L120 1744.7h2"/>
+<text class="label" x="124" y="1749.6"><tspan class="name">譚延闓</tspan><tspan class="yrs" dx="6">1928</tspan></text>
+</g>
+<g class="term c-a" data-id="a21" data-person="a:蒋介石">
+<title>最高指導者 蒋介石　1928年10月10日 〜 1949年1月21日（在任 7,408日）</title>
+<rect class="bar f-amber" x="79" y="1721.6" width="14" height="484.8" rx="3"/>
+<path class="leader" d="M94.5 1729.1h4L120 1761.7h2"/>
+<text class="label" x="124" y="1766.6"><tspan class="name">蒋介石</tspan><tspan class="yrs" dx="6">1928–1949</tspan></text>
+</g>
+<g class="term c-a" data-id="a22" data-person="a:李宗仁">
+<title>最高指導者 李宗仁　1949年1月21日 〜 1949年12月7日（在任 320日）</title>
+<rect class="bar f-amber" x="95" y="2208.3" width="14" height="19" rx="3"/>
+<text class="label" x="124" y="2220.5"><tspan class="name">李宗仁</tspan><tspan class="yrs" dx="6">1949</tspan></text>
+</g>
+<g class="term c-a" data-id="a23" data-person="a:毛沢東">
+<title>最高指導者 毛沢東　1949年10月1日 〜 1976年9月9日（在任 9,840日）</title>
+<rect class="bar f-amber" x="79" y="2225" width="14" height="644.6" rx="3"/>
+<text class="label" x="124" y="2237.5"><tspan class="name">毛沢東</tspan><tspan class="yrs" dx="6">1949–1976</tspan></text>
+</g>
+<g class="term c-a" data-id="a24" data-person="a:華国鋒">
+<title>最高指導者 華国鋒　1976年10月7日 〜 1978年12月22日（在任 806日）</title>
+<rect class="bar f-amber" x="79" y="2873.4" width="14" height="51" rx="3"/>
+<text class="label" x="124" y="2885.8"><tspan class="name">華国鋒</tspan><tspan class="yrs" dx="6">1976–1978</tspan></text>
+</g>
+<g class="term c-a" data-id="a25" data-person="a:鄧小平">
+<title>最高指導者 鄧小平　1978年12月22日 〜 1989年11月9日（在任 3,975日）</title>
+<rect class="bar f-amber" x="79" y="2926.4" width="14" height="259.2" rx="3"/>
+<text class="label" x="124" y="2938.7"><tspan class="name">鄧小平</tspan><tspan class="yrs" dx="6">1978–1989</tspan></text>
+</g>
+<g class="term c-a" data-id="a26" data-person="a:江沢民">
+<title>最高指導者 江沢民　1989年11月9日 〜 2002年11月15日（在任 4,754日）</title>
+<rect class="bar f-amber" x="79" y="3187.5" width="14" height="310.4" rx="3"/>
+<text class="label" x="124" y="3199.9"><tspan class="name">江沢民</tspan><tspan class="yrs" dx="6">1989–2002</tspan></text>
+</g>
+<g class="term c-a" data-id="a27" data-person="a:胡錦濤">
+<title>最高指導者 胡錦濤　2002年11月15日 〜 2012年11月15日（在任 3,653日）</title>
+<rect class="bar f-amber" x="79" y="3499.9" width="14" height="238" rx="3"/>
+<text class="label" x="124" y="3512.3"><tspan class="name">胡錦濤</tspan><tspan class="yrs" dx="6">2002–2012</tspan></text>
+</g>
+<g class="term c-a" data-id="a28" data-person="a:習近平">
+<title>最高指導者 習近平　2012年11月15日 〜 在任中（在任 5,097日（2026年10月30日時点））</title>
+<linearGradient id="tl-g-a28" gradientUnits="userSpaceOnUse" x1="0" y1="4051.9" x2="0" y2="4073.9"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 3743Q79 3740 82 3740H90Q93 3740 93 3743V4073.9Q93 4073.9 93 4073.9H79Q79 4073.9 79 4073.9Z" fill="url(#tl-g-a28)"/>
+<text class="label" x="124" y="3752.3"><tspan class="name">習近平</tspan><tspan class="yrs" dx="6">2012–</tspan></text>
+</g>
+<text class="foot" x="380" y="4133.5" text-anchor="middle">出典：英語版 Wikipedia「List of emperors of the Qing dynasty」、日本語版 Wikipedia「西太后」、日本語版 Wikipedia「中華民国の元首」、英語版 Wikipedia「List of presidents of the Republic of China」、日本語版 Wikipedia「蔣介石」、日本語版 Wikipedia「中華人民共和国の最高指導者一覧」、英語版 Wikipedia「Paramount leader」　2026年10月30日時点</text>
+</svg>

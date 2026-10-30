@@ -1,0 +1,836 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 4109" width="760" height="4109" role="img" aria-labelledby="tl-title">
+<title id="tl-title">歴代横綱</title>
+<style>
+.tl{--paper:#fcfcfd;--ink:#1c2029;--ink2:#4b5260;--muted:#687080;--rule:#e8eaef;--rule2:#c3c8d2;--spine-a:#f0f1f5;--spine-b:#e6e8ef;--red:#d4452c;--blue:#2c5aa0;--amber:#b8730f;--violet:#7a4fc4;--green:#138a60;--teal:#00897b;--gray:#9aa0ab;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="760" height="4109" rx="14"/>
+<rect class="f-violet" x="79" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="156" y="44">横綱</text>
+<text class="spine-h" x="36" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="36" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="0" y="70" width="72" height="21"/>
+<rect class="spine-b" x="0" y="91" width="72" height="125.2"/>
+<rect class="spine-a" x="0" y="216.2" width="72" height="193.2"/>
+<rect class="spine-b" x="0" y="409.4" width="72" height="48.1"/>
+<rect class="spine-a" x="0" y="457.5" width="72" height="226.8"/>
+<rect class="spine-b" x="0" y="684.3" width="72" height="202.6"/>
+<rect class="spine-a" x="0" y="886.9" width="72" height="223.4"/>
+<rect class="spine-b" x="0" y="1110.4" width="72" height="51.6"/>
+<rect class="spine-a" x="0" y="1162" width="72" height="108.6"/>
+<rect class="spine-b" x="0" y="1270.6" width="72" height="83.7"/>
+<rect class="spine-a" x="0" y="1354.3" width="72" height="15.6"/>
+<rect class="spine-b" x="0" y="1369.8" width="72" height="47.9"/>
+<rect class="spine-a" x="0" y="1417.8" width="72" height="17.5"/>
+<rect class="spine-b" x="0" y="1435.3" width="72" height="55.7"/>
+<rect class="spine-a" x="0" y="1491" width="72" height="700.2"/>
+<rect class="spine-b" x="0" y="2191.2" width="72" height="230.5"/>
+<rect class="spine-a" x="0" y="2421.7" width="72" height="992.7"/>
+<rect class="spine-b" x="0" y="3414.3" width="72" height="484.9"/>
+<rect class="spine-a" x="0" y="3899.3" width="72" height="139.7"/>
+<line class="grid" x1="0" x2="760" y1="550" y2="550"/>
+<line class="grid" x1="0" x2="760" y1="1030" y2="1030"/>
+<line class="grid" x1="0" x2="760" y1="1670" y2="1670"/>
+<line class="grid" x1="0" x2="760" y1="1830" y2="1830"/>
+<line class="grid" x1="0" x2="760" y1="1990" y2="1990"/>
+<line class="grid" x1="0" x2="760" y1="2150" y2="2150"/>
+<line class="grid" x1="0" x2="760" y1="2310" y2="2310"/>
+<line class="grid" x1="0" x2="760" y1="2630" y2="2630"/>
+<line class="grid" x1="0" x2="760" y1="2790" y2="2790"/>
+<line class="grid" x1="0" x2="760" y1="2950" y2="2950"/>
+<line class="grid" x1="0" x2="760" y1="3110" y2="3110"/>
+<line class="grid" x1="0" x2="760" y1="3270" y2="3270"/>
+<line class="grid" x1="0" x2="760" y1="3590" y2="3590"/>
+<line class="grid" x1="0" x2="760" y1="3750" y2="3750"/>
+<line class="era-line" x1="0" x2="760" y1="91" y2="91"/>
+<line class="era-line" x1="0" x2="760" y1="216.2" y2="216.2"/>
+<line class="era-line" x1="0" x2="760" y1="409.4" y2="409.4"/>
+<line class="era-line" x1="0" x2="760" y1="457.5" y2="457.5"/>
+<line class="era-line" x1="0" x2="760" y1="684.3" y2="684.3"/>
+<line class="era-line" x1="0" x2="760" y1="886.9" y2="886.9"/>
+<line class="era-line" x1="0" x2="760" y1="1110.4" y2="1110.4"/>
+<line class="era-line" x1="0" x2="760" y1="1162" y2="1162"/>
+<line class="era-line" x1="0" x2="760" y1="1270.6" y2="1270.6"/>
+<line class="era-line" x1="0" x2="760" y1="1354.3" y2="1354.3"/>
+<line class="era-line" x1="0" x2="760" y1="1369.8" y2="1369.8"/>
+<line class="era-line" x1="0" x2="760" y1="1417.8" y2="1417.8"/>
+<line class="era-line" x1="0" x2="760" y1="1435.3" y2="1435.3"/>
+<line class="era-line" x1="0" x2="760" y1="1491" y2="1491"/>
+<line class="era-line" x1="0" x2="760" y1="2191.2" y2="2191.2"/>
+<line class="era-line" x1="0" x2="760" y1="2421.7" y2="2421.7"/>
+<line class="era-line" x1="0" x2="760" y1="3414.3" y2="3414.3"/>
+<line class="era-line" x1="0" x2="760" y1="3899.3" y2="3899.3"/>
+<path class="tick" d="M0 70h9M72 70h-9"/>
+<path class="tick" d="M0 86h3M72 86h-3"/>
+<path class="tick" d="M0 102h3M72 102h-3"/>
+<path class="tick" d="M0 118h3M72 118h-3"/>
+<path class="tick" d="M0 134h3M72 134h-3"/>
+<path class="tick" d="M0 150h6M72 150h-6"/>
+<path class="tick" d="M0 166h3M72 166h-3"/>
+<path class="tick" d="M0 182h3M72 182h-3"/>
+<path class="tick" d="M0 198h3M72 198h-3"/>
+<path class="tick" d="M0 214h3M72 214h-3"/>
+<path class="tick" d="M0 230h9M72 230h-9"/>
+<path class="tick" d="M0 246h3M72 246h-3"/>
+<path class="tick" d="M0 262h3M72 262h-3"/>
+<path class="tick" d="M0 278h3M72 278h-3"/>
+<path class="tick" d="M0 294h3M72 294h-3"/>
+<path class="tick" d="M0 310h6M72 310h-6"/>
+<path class="tick" d="M0 326h3M72 326h-3"/>
+<path class="tick" d="M0 342h3M72 342h-3"/>
+<path class="tick" d="M0 358h3M72 358h-3"/>
+<path class="tick" d="M0 374h3M72 374h-3"/>
+<path class="tick" d="M0 390h9M72 390h-9"/>
+<path class="tick" d="M0 406h3M72 406h-3"/>
+<path class="tick" d="M0 422h3M72 422h-3"/>
+<path class="tick" d="M0 438h3M72 438h-3"/>
+<path class="tick" d="M0 454h3M72 454h-3"/>
+<path class="tick" d="M0 470h6M72 470h-6"/>
+<path class="tick" d="M0 486h3M72 486h-3"/>
+<path class="tick" d="M0 502h3M72 502h-3"/>
+<path class="tick" d="M0 518h3M72 518h-3"/>
+<path class="tick" d="M0 534h3M72 534h-3"/>
+<path class="tick" d="M0 550h9M72 550h-9"/>
+<path class="tick" d="M0 566h3M72 566h-3"/>
+<path class="tick" d="M0 582h3M72 582h-3"/>
+<path class="tick" d="M0 598h3M72 598h-3"/>
+<path class="tick" d="M0 614h3M72 614h-3"/>
+<path class="tick" d="M0 630h6M72 630h-6"/>
+<path class="tick" d="M0 646h3M72 646h-3"/>
+<path class="tick" d="M0 662h3M72 662h-3"/>
+<path class="tick" d="M0 678h3M72 678h-3"/>
+<path class="tick" d="M0 694h3M72 694h-3"/>
+<path class="tick" d="M0 710h9M72 710h-9"/>
+<path class="tick" d="M0 726h3M72 726h-3"/>
+<path class="tick" d="M0 742h3M72 742h-3"/>
+<path class="tick" d="M0 758h3M72 758h-3"/>
+<path class="tick" d="M0 774h3M72 774h-3"/>
+<path class="tick" d="M0 790h6M72 790h-6"/>
+<path class="tick" d="M0 806h3M72 806h-3"/>
+<path class="tick" d="M0 822h3M72 822h-3"/>
+<path class="tick" d="M0 838h3M72 838h-3"/>
+<path class="tick" d="M0 854h3M72 854h-3"/>
+<path class="tick" d="M0 870h9M72 870h-9"/>
+<path class="tick" d="M0 886h3M72 886h-3"/>
+<path class="tick" d="M0 902h3M72 902h-3"/>
+<path class="tick" d="M0 918h3M72 918h-3"/>
+<path class="tick" d="M0 934h3M72 934h-3"/>
+<path class="tick" d="M0 950h6M72 950h-6"/>
+<path class="tick" d="M0 966h3M72 966h-3"/>
+<path class="tick" d="M0 982h3M72 982h-3"/>
+<path class="tick" d="M0 998h3M72 998h-3"/>
+<path class="tick" d="M0 1014h3M72 1014h-3"/>
+<path class="tick" d="M0 1030h9M72 1030h-9"/>
+<path class="tick" d="M0 1046h3M72 1046h-3"/>
+<path class="tick" d="M0 1062h3M72 1062h-3"/>
+<path class="tick" d="M0 1078h3M72 1078h-3"/>
+<path class="tick" d="M0 1094h3M72 1094h-3"/>
+<path class="tick" d="M0 1110h6M72 1110h-6"/>
+<path class="tick" d="M0 1126h3M72 1126h-3"/>
+<path class="tick" d="M0 1142h3M72 1142h-3"/>
+<path class="tick" d="M0 1158h3M72 1158h-3"/>
+<path class="tick" d="M0 1174h3M72 1174h-3"/>
+<path class="tick" d="M0 1190h9M72 1190h-9"/>
+<path class="tick" d="M0 1206h3M72 1206h-3"/>
+<path class="tick" d="M0 1222h3M72 1222h-3"/>
+<path class="tick" d="M0 1238h3M72 1238h-3"/>
+<path class="tick" d="M0 1254h3M72 1254h-3"/>
+<path class="tick" d="M0 1270h6M72 1270h-6"/>
+<path class="tick" d="M0 1286h3M72 1286h-3"/>
+<path class="tick" d="M0 1302h3M72 1302h-3"/>
+<path class="tick" d="M0 1318h3M72 1318h-3"/>
+<path class="tick" d="M0 1334h3M72 1334h-3"/>
+<path class="tick" d="M0 1350h9M72 1350h-9"/>
+<path class="tick" d="M0 1366h3M72 1366h-3"/>
+<path class="tick" d="M0 1382h3M72 1382h-3"/>
+<path class="tick" d="M0 1398h3M72 1398h-3"/>
+<path class="tick" d="M0 1414h3M72 1414h-3"/>
+<path class="tick" d="M0 1430h6M72 1430h-6"/>
+<path class="tick" d="M0 1446h3M72 1446h-3"/>
+<path class="tick" d="M0 1462h3M72 1462h-3"/>
+<path class="tick" d="M0 1478h3M72 1478h-3"/>
+<path class="tick" d="M0 1494h3M72 1494h-3"/>
+<path class="tick" d="M0 1510h9M72 1510h-9"/>
+<path class="tick" d="M0 1526h3M72 1526h-3"/>
+<path class="tick" d="M0 1542h3M72 1542h-3"/>
+<path class="tick" d="M0 1558h3M72 1558h-3"/>
+<path class="tick" d="M0 1574h3M72 1574h-3"/>
+<path class="tick" d="M0 1590h6M72 1590h-6"/>
+<path class="tick" d="M0 1606h3M72 1606h-3"/>
+<path class="tick" d="M0 1622h3M72 1622h-3"/>
+<path class="tick" d="M0 1638h3M72 1638h-3"/>
+<path class="tick" d="M0 1654h3M72 1654h-3"/>
+<path class="tick" d="M0 1670h9M72 1670h-9"/>
+<path class="tick" d="M0 1686h3M72 1686h-3"/>
+<path class="tick" d="M0 1702h3M72 1702h-3"/>
+<path class="tick" d="M0 1718h3M72 1718h-3"/>
+<path class="tick" d="M0 1734h3M72 1734h-3"/>
+<path class="tick" d="M0 1750h6M72 1750h-6"/>
+<path class="tick" d="M0 1766h3M72 1766h-3"/>
+<path class="tick" d="M0 1782h3M72 1782h-3"/>
+<path class="tick" d="M0 1798h3M72 1798h-3"/>
+<path class="tick" d="M0 1814h3M72 1814h-3"/>
+<path class="tick" d="M0 1830h9M72 1830h-9"/>
+<path class="tick" d="M0 1846h3M72 1846h-3"/>
+<path class="tick" d="M0 1862h3M72 1862h-3"/>
+<path class="tick" d="M0 1878h3M72 1878h-3"/>
+<path class="tick" d="M0 1894h3M72 1894h-3"/>
+<path class="tick" d="M0 1910h6M72 1910h-6"/>
+<path class="tick" d="M0 1926h3M72 1926h-3"/>
+<path class="tick" d="M0 1942h3M72 1942h-3"/>
+<path class="tick" d="M0 1958h3M72 1958h-3"/>
+<path class="tick" d="M0 1974h3M72 1974h-3"/>
+<path class="tick" d="M0 1990h9M72 1990h-9"/>
+<path class="tick" d="M0 2006h3M72 2006h-3"/>
+<path class="tick" d="M0 2022h3M72 2022h-3"/>
+<path class="tick" d="M0 2038h3M72 2038h-3"/>
+<path class="tick" d="M0 2054h3M72 2054h-3"/>
+<path class="tick" d="M0 2070h6M72 2070h-6"/>
+<path class="tick" d="M0 2086h3M72 2086h-3"/>
+<path class="tick" d="M0 2102h3M72 2102h-3"/>
+<path class="tick" d="M0 2118h3M72 2118h-3"/>
+<path class="tick" d="M0 2134h3M72 2134h-3"/>
+<path class="tick" d="M0 2150h9M72 2150h-9"/>
+<path class="tick" d="M0 2166h3M72 2166h-3"/>
+<path class="tick" d="M0 2182h3M72 2182h-3"/>
+<path class="tick" d="M0 2198h3M72 2198h-3"/>
+<path class="tick" d="M0 2214h3M72 2214h-3"/>
+<path class="tick" d="M0 2230h6M72 2230h-6"/>
+<path class="tick" d="M0 2246h3M72 2246h-3"/>
+<path class="tick" d="M0 2262h3M72 2262h-3"/>
+<path class="tick" d="M0 2278h3M72 2278h-3"/>
+<path class="tick" d="M0 2294h3M72 2294h-3"/>
+<path class="tick" d="M0 2310h9M72 2310h-9"/>
+<path class="tick" d="M0 2326h3M72 2326h-3"/>
+<path class="tick" d="M0 2342h3M72 2342h-3"/>
+<path class="tick" d="M0 2358h3M72 2358h-3"/>
+<path class="tick" d="M0 2374h3M72 2374h-3"/>
+<path class="tick" d="M0 2390h6M72 2390h-6"/>
+<path class="tick" d="M0 2406h3M72 2406h-3"/>
+<path class="tick" d="M0 2422h3M72 2422h-3"/>
+<path class="tick" d="M0 2438h3M72 2438h-3"/>
+<path class="tick" d="M0 2454h3M72 2454h-3"/>
+<path class="tick" d="M0 2470h9M72 2470h-9"/>
+<path class="tick" d="M0 2486h3M72 2486h-3"/>
+<path class="tick" d="M0 2502h3M72 2502h-3"/>
+<path class="tick" d="M0 2518h3M72 2518h-3"/>
+<path class="tick" d="M0 2534h3M72 2534h-3"/>
+<path class="tick" d="M0 2550h6M72 2550h-6"/>
+<path class="tick" d="M0 2566h3M72 2566h-3"/>
+<path class="tick" d="M0 2582h3M72 2582h-3"/>
+<path class="tick" d="M0 2598h3M72 2598h-3"/>
+<path class="tick" d="M0 2614h3M72 2614h-3"/>
+<path class="tick" d="M0 2630h9M72 2630h-9"/>
+<path class="tick" d="M0 2646h3M72 2646h-3"/>
+<path class="tick" d="M0 2662h3M72 2662h-3"/>
+<path class="tick" d="M0 2678h3M72 2678h-3"/>
+<path class="tick" d="M0 2694h3M72 2694h-3"/>
+<path class="tick" d="M0 2710h6M72 2710h-6"/>
+<path class="tick" d="M0 2726h3M72 2726h-3"/>
+<path class="tick" d="M0 2742h3M72 2742h-3"/>
+<path class="tick" d="M0 2758h3M72 2758h-3"/>
+<path class="tick" d="M0 2774h3M72 2774h-3"/>
+<path class="tick" d="M0 2790h9M72 2790h-9"/>
+<path class="tick" d="M0 2806h3M72 2806h-3"/>
+<path class="tick" d="M0 2822h3M72 2822h-3"/>
+<path class="tick" d="M0 2838h3M72 2838h-3"/>
+<path class="tick" d="M0 2854h3M72 2854h-3"/>
+<path class="tick" d="M0 2870h6M72 2870h-6"/>
+<path class="tick" d="M0 2886h3M72 2886h-3"/>
+<path class="tick" d="M0 2902h3M72 2902h-3"/>
+<path class="tick" d="M0 2918h3M72 2918h-3"/>
+<path class="tick" d="M0 2934h3M72 2934h-3"/>
+<path class="tick" d="M0 2950h9M72 2950h-9"/>
+<path class="tick" d="M0 2966h3M72 2966h-3"/>
+<path class="tick" d="M0 2982h3M72 2982h-3"/>
+<path class="tick" d="M0 2998h3M72 2998h-3"/>
+<path class="tick" d="M0 3014h3M72 3014h-3"/>
+<path class="tick" d="M0 3030h6M72 3030h-6"/>
+<path class="tick" d="M0 3046h3M72 3046h-3"/>
+<path class="tick" d="M0 3062h3M72 3062h-3"/>
+<path class="tick" d="M0 3078h3M72 3078h-3"/>
+<path class="tick" d="M0 3094h3M72 3094h-3"/>
+<path class="tick" d="M0 3110h9M72 3110h-9"/>
+<path class="tick" d="M0 3126h3M72 3126h-3"/>
+<path class="tick" d="M0 3142h3M72 3142h-3"/>
+<path class="tick" d="M0 3158h3M72 3158h-3"/>
+<path class="tick" d="M0 3174h3M72 3174h-3"/>
+<path class="tick" d="M0 3190h6M72 3190h-6"/>
+<path class="tick" d="M0 3206h3M72 3206h-3"/>
+<path class="tick" d="M0 3222h3M72 3222h-3"/>
+<path class="tick" d="M0 3238h3M72 3238h-3"/>
+<path class="tick" d="M0 3254h3M72 3254h-3"/>
+<path class="tick" d="M0 3270h9M72 3270h-9"/>
+<path class="tick" d="M0 3286h3M72 3286h-3"/>
+<path class="tick" d="M0 3302h3M72 3302h-3"/>
+<path class="tick" d="M0 3318h3M72 3318h-3"/>
+<path class="tick" d="M0 3334h3M72 3334h-3"/>
+<path class="tick" d="M0 3350h6M72 3350h-6"/>
+<path class="tick" d="M0 3366h3M72 3366h-3"/>
+<path class="tick" d="M0 3382h3M72 3382h-3"/>
+<path class="tick" d="M0 3398h3M72 3398h-3"/>
+<path class="tick" d="M0 3414h3M72 3414h-3"/>
+<path class="tick" d="M0 3430h9M72 3430h-9"/>
+<path class="tick" d="M0 3446h3M72 3446h-3"/>
+<path class="tick" d="M0 3462h3M72 3462h-3"/>
+<path class="tick" d="M0 3478h3M72 3478h-3"/>
+<path class="tick" d="M0 3494h3M72 3494h-3"/>
+<path class="tick" d="M0 3510h6M72 3510h-6"/>
+<path class="tick" d="M0 3526h3M72 3526h-3"/>
+<path class="tick" d="M0 3542h3M72 3542h-3"/>
+<path class="tick" d="M0 3558h3M72 3558h-3"/>
+<path class="tick" d="M0 3574h3M72 3574h-3"/>
+<path class="tick" d="M0 3590h9M72 3590h-9"/>
+<path class="tick" d="M0 3606h3M72 3606h-3"/>
+<path class="tick" d="M0 3622h3M72 3622h-3"/>
+<path class="tick" d="M0 3638h3M72 3638h-3"/>
+<path class="tick" d="M0 3654h3M72 3654h-3"/>
+<path class="tick" d="M0 3670h6M72 3670h-6"/>
+<path class="tick" d="M0 3686h3M72 3686h-3"/>
+<path class="tick" d="M0 3702h3M72 3702h-3"/>
+<path class="tick" d="M0 3718h3M72 3718h-3"/>
+<path class="tick" d="M0 3734h3M72 3734h-3"/>
+<path class="tick" d="M0 3750h9M72 3750h-9"/>
+<path class="tick" d="M0 3766h3M72 3766h-3"/>
+<path class="tick" d="M0 3782h3M72 3782h-3"/>
+<path class="tick" d="M0 3798h3M72 3798h-3"/>
+<path class="tick" d="M0 3814h3M72 3814h-3"/>
+<path class="tick" d="M0 3830h6M72 3830h-6"/>
+<path class="tick" d="M0 3846h3M72 3846h-3"/>
+<path class="tick" d="M0 3862h3M72 3862h-3"/>
+<path class="tick" d="M0 3878h3M72 3878h-3"/>
+<path class="tick" d="M0 3894h3M72 3894h-3"/>
+<path class="tick" d="M0 3910h9M72 3910h-9"/>
+<path class="tick" d="M0 3926h3M72 3926h-3"/>
+<path class="tick" d="M0 3942h3M72 3942h-3"/>
+<path class="tick" d="M0 3958h3M72 3958h-3"/>
+<path class="tick" d="M0 3974h3M72 3974h-3"/>
+<path class="tick" d="M0 3990h6M72 3990h-6"/>
+<path class="tick" d="M0 4006h3M72 4006h-3"/>
+<path class="tick" d="M0 4022h3M72 4022h-3"/>
+<path class="tick" d="M0 4038h3M72 4038h-3"/>
+<text class="dec-y" x="36" y="554.5" text-anchor="middle">1810</text>
+<text class="dec-w" x="36" y="568" text-anchor="middle">文化7年</text>
+<text class="dec-y" x="36" y="1034.5" text-anchor="middle">1840</text>
+<text class="dec-w" x="36" y="1048" text-anchor="middle">天保10年</text>
+<text class="dec-y" x="36" y="1674.5" text-anchor="middle">1880</text>
+<text class="dec-w" x="36" y="1688" text-anchor="middle">明治13年</text>
+<text class="dec-y" x="36" y="1834.5" text-anchor="middle">1890</text>
+<text class="dec-w" x="36" y="1848" text-anchor="middle">明治23年</text>
+<text class="dec-y" x="36" y="1994.5" text-anchor="middle">1900</text>
+<text class="dec-w" x="36" y="2008" text-anchor="middle">明治33年</text>
+<text class="dec-y" x="36" y="2154.5" text-anchor="middle">1910</text>
+<text class="dec-w" x="36" y="2168" text-anchor="middle">明治43年</text>
+<text class="dec-y" x="36" y="2314.5" text-anchor="middle">1920</text>
+<text class="dec-w" x="36" y="2328" text-anchor="middle">大正9年</text>
+<text class="dec-y" x="36" y="2634.5" text-anchor="middle">1940</text>
+<text class="dec-w" x="36" y="2648" text-anchor="middle">昭和15年</text>
+<text class="dec-y" x="36" y="2794.5" text-anchor="middle">1950</text>
+<text class="dec-w" x="36" y="2808" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="36" y="2954.5" text-anchor="middle">1960</text>
+<text class="dec-w" x="36" y="2968" text-anchor="middle">昭和35年</text>
+<text class="dec-y" x="36" y="3114.5" text-anchor="middle">1970</text>
+<text class="dec-w" x="36" y="3128" text-anchor="middle">昭和45年</text>
+<text class="dec-y" x="36" y="3274.5" text-anchor="middle">1980</text>
+<text class="dec-w" x="36" y="3288" text-anchor="middle">昭和55年</text>
+<text class="dec-y" x="36" y="3594.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="36" y="3608" text-anchor="middle">平成12年</text>
+<text class="dec-y" x="36" y="3754.5" text-anchor="middle">2010</text>
+<text class="dec-w" x="36" y="3768" text-anchor="middle">平成22年</text>
+<text class="era-name" x="36" y="114" text-anchor="middle">天明</text>
+<text class="era-date" x="36" y="128" text-anchor="middle">1781.4.25</text>
+<text class="era-name" x="36" y="239.2" text-anchor="middle">寛政</text>
+<text class="era-date" x="36" y="253.2" text-anchor="middle">1789.2.19</text>
+<text class="era-name" x="36" y="432.4" text-anchor="middle">享和</text>
+<text class="era-date" x="36" y="446.4" text-anchor="middle">1801.3.19</text>
+<text class="era-name" x="36" y="480.5" text-anchor="middle">文化</text>
+<text class="era-date" x="36" y="494.5" text-anchor="middle">1804.3.22</text>
+<text class="era-name" x="36" y="707.3" text-anchor="middle">文政</text>
+<text class="era-date" x="36" y="721.3" text-anchor="middle">1818.5.26</text>
+<text class="era-name" x="36" y="909.9" text-anchor="middle">天保</text>
+<text class="era-date" x="36" y="923.9" text-anchor="middle">1831.1.23</text>
+<text class="era-name" x="36" y="1133.4" text-anchor="middle">弘化</text>
+<text class="era-date" x="36" y="1147.4" text-anchor="middle">1845.1.9</text>
+<text class="era-name" x="36" y="1185" text-anchor="middle">嘉永</text>
+<text class="era-date" x="36" y="1199" text-anchor="middle">1848.4.1</text>
+<text class="era-name" x="36" y="1293.6" text-anchor="middle">安政</text>
+<text class="era-date" x="36" y="1307.6" text-anchor="middle">1855.1.15</text>
+<text class="era-name" x="36" y="1392.8" text-anchor="middle">文久</text>
+<text class="era-date" x="36" y="1406.8" text-anchor="middle">1861.3.29</text>
+<text class="era-name" x="36" y="1458.3" text-anchor="middle">慶応</text>
+<text class="era-date" x="36" y="1472.3" text-anchor="middle">1865.5.1</text>
+<text class="era-name" x="36" y="1514" text-anchor="middle">明治</text>
+<text class="era-date" x="36" y="1528" text-anchor="middle">1868.10.23</text>
+<text class="era-name" x="36" y="2214.2" text-anchor="middle">大正</text>
+<text class="era-date" x="36" y="2228.2" text-anchor="middle">1912.7.30</text>
+<text class="era-name" x="36" y="2444.7" text-anchor="middle">昭和</text>
+<text class="era-date" x="36" y="2458.7" text-anchor="middle">1926.12.25</text>
+<text class="era-name" x="36" y="3437.3" text-anchor="middle">平成</text>
+<text class="era-date" x="36" y="3451.3" text-anchor="middle">1989.1.8</text>
+<text class="era-name" x="36" y="3922.3" text-anchor="middle">令和</text>
+<text class="era-date" x="36" y="3936.3" text-anchor="middle">2019.5.1</text>
+<line class="asof-line" x1="-4" x2="145" y1="4019.2" y2="4019.2"/>
+<text class="era-date" x="36" y="4033.2" text-anchor="middle">2026.10.30</text>
+<text class="era-date" x="36" y="4046.2" text-anchor="middle">時点</text>
+<g class="term c-yz" data-id="yz0" data-person="yz:谷風">
+<title>第4代横綱 谷風　1790年1月4日 〜 1795年2月27日（在位 約5年）</title>
+<rect class="bar f-violet" x="79" y="231.2" width="14" height="80.4" rx="3"/>
+<path class="leader" d="M94.5 238.7h4L152 230.2h2"/>
+<text class="label" x="156" y="235"><tspan class="name">谷風</tspan><tspan class="yrs" dx="6">1790–1795</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz1" data-person="yz:小野川">
+<title>第5代横綱 小野川　1790年1月4日 〜 1797年12月（在位 約8年）</title>
+<rect class="bar f-violet" x="95" y="231.2" width="14" height="125.9" rx="3"/>
+<path class="leader" d="M110.5 238.7h4L152 247.2h2"/>
+<text class="label" x="156" y="252"><tspan class="name">小野川</tspan><tspan class="yrs" dx="6">1790–1797</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz2" data-person="yz:阿武松">
+<title>第6代横綱 阿武松　1828年4月 〜 1835年12月（在位 約8年）</title>
+<rect class="bar f-violet" x="79" y="843" width="14" height="122" rx="3"/>
+<text class="label" x="156" y="855.3"><tspan class="name">阿武松</tspan><tspan class="yrs" dx="6">1828–1835</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz3" data-person="yz:稲妻">
+<title>第7代横綱 稲妻　1829年11月 〜 1839年12月（在位 約10年）</title>
+<rect class="bar f-violet" x="95" y="868.3" width="14" height="160.7" rx="3"/>
+<text class="label" x="156" y="880.7"><tspan class="name">稲妻</tspan><tspan class="yrs" dx="6">1829–1839</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz4" data-person="yz:不知火（諾右衛門）">
+<title>第8代横綱 不知火（諾右衛門）　1840年12月 〜 1844年3月（在位 約3年）</title>
+<rect class="bar f-violet" x="79" y="1045.7" width="14" height="51.3" rx="3"/>
+<text class="label" x="156" y="1058"><tspan class="name">不知火</tspan><tspan class="yrs" dx="6">1840–1844</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz5" data-person="yz:秀の山">
+<title>第9代横綱 秀の山　1845年12月 〜 1850年4月（在位 約4年）</title>
+<rect class="bar f-violet" x="79" y="1125.6" width="14" height="68.6" rx="3"/>
+<text class="label" x="156" y="1138"><tspan class="name">秀の山</tspan><tspan class="yrs" dx="6">1845–1850</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz6" data-person="yz:雲龍">
+<title>第10代横綱 雲龍　1861年11月 〜 1865年3月（在位 約3年）</title>
+<rect class="bar f-violet" x="79" y="1380.3" width="14" height="52.6" rx="3"/>
+<text class="label" x="156" y="1392.7"><tspan class="name">雲龍</tspan><tspan class="yrs" dx="6">1861–1865</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz7" data-person="yz:不知火（光右衛門）">
+<title>第11代横綱 不知火（光右衛門）　1863年12月 〜 1869年12月（在位 約6年）</title>
+<rect class="bar f-violet" x="95" y="1413.6" width="14" height="95.4" rx="3"/>
+<text class="label" x="156" y="1426"><tspan class="name">不知火</tspan><tspan class="yrs" dx="6">1863–1869</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz8" data-person="yz:陣幕">
+<title>第12代横綱 陣幕　1867年5月 〜 1867年12月（在位 約1年）</title>
+<rect class="bar f-violet" x="79" y="1468.3" width="14" height="8.7" rx="3"/>
+<path class="leader" d="M94.5 1472.6h4L152 1472.6h2"/>
+<text class="label" x="156" y="1477.5"><tspan class="name">陣幕</tspan><tspan class="yrs" dx="6">1867</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz9" data-person="yz:鬼面山">
+<title>第13代横綱 鬼面山　1869年5月 〜 1871年1月（在位 約2年）</title>
+<rect class="bar f-violet" x="79" y="1500.3" width="14" height="26.1" rx="3"/>
+<path class="leader" d="M94.5 1507.8h4L152 1507.8h2"/>
+<text class="label" x="156" y="1512.6"><tspan class="name">鬼面山</tspan><tspan class="yrs" dx="6">1869–1871</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz10" data-person="yz:境川">
+<title>第14代横綱 境川　1877年1月 〜 1881年1月（在位 約4年）</title>
+<rect class="bar f-violet" x="79" y="1623" width="14" height="63.4" rx="3"/>
+<text class="label" x="156" y="1635.4"><tspan class="name">境川</tspan><tspan class="yrs" dx="6">1877–1881</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz11" data-person="yz:梅ケ谷（初代）">
+<title>第15代横綱 梅ケ谷（初代）　1884年5月 〜 1885年5月（在位 約1年）</title>
+<rect class="bar f-violet" x="79" y="1740.3" width="14" height="15.3" rx="3"/>
+<text class="label" x="156" y="1752.7"><tspan class="name">梅ケ谷</tspan><tspan class="yrs" dx="6">1884–1885</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz12" data-person="yz:西ノ海（初代）">
+<title>第16代横綱 西ノ海（初代）　1890年5月 〜 1896年1月（在位 約6年）</title>
+<rect class="bar f-violet" x="79" y="1836.3" width="14" height="90.1" rx="3"/>
+<text class="label" x="156" y="1848.6"><tspan class="name">西ノ海</tspan><tspan class="yrs" dx="6">1890–1896</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz13" data-person="yz:小錦">
+<title>第17代横綱 小錦　1896年5月 〜 1901年1月（在位 約5年）</title>
+<rect class="bar f-violet" x="79" y="1932.3" width="14" height="74" rx="3"/>
+<text class="label" x="156" y="1944.7"><tspan class="name">小錦</tspan><tspan class="yrs" dx="6">1896–1901</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz14" data-person="yz:大砲">
+<title>第18代横綱 大砲　1901年5月 〜 1908年1月（在位 約7年）</title>
+<rect class="bar f-violet" x="79" y="2012.2" width="14" height="106.1" rx="3"/>
+<text class="label" x="156" y="2024.6"><tspan class="name">大砲</tspan><tspan class="yrs" dx="6">1901–1908</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz15" data-person="yz:常陸山">
+<title>第19代横綱 常陸山　1904年1月 〜 1914年5月（在位 約10年）</title>
+<rect class="bar f-violet" x="95" y="2055" width="14" height="164.6" rx="3"/>
+<path class="leader" d="M110.5 2062.5h4L152 2053h2"/>
+<text class="label" x="156" y="2057.9"><tspan class="name">常陸山</tspan><tspan class="yrs" dx="6">1904–1914</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz16" data-person="yz:梅ケ谷（二代）">
+<title>第20代横綱 梅ケ谷（二代）　1904年1月 〜 1915年6月（在位 約11年）</title>
+<rect class="bar f-violet" x="111" y="2055" width="14" height="181.9" rx="3"/>
+<path class="leader" d="M126.5 2062.5h4L152 2070h2"/>
+<text class="label" x="156" y="2074.9"><tspan class="name">梅ケ谷</tspan><tspan class="yrs" dx="6">1904–1915</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz17" data-person="yz:若島">
+<title>第21代横綱 若島　1905年6月 〜 1907年1月（在位 約2年）</title>
+<rect class="bar f-violet" x="127" y="2077.6" width="14" height="24.7" rx="3"/>
+<path class="leader" d="M142.5 2085.1h4L152 2087h2"/>
+<text class="label" x="156" y="2091.9"><tspan class="name">若島</tspan><tspan class="yrs" dx="6">1905–1907</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz18" data-person="yz:太刀山">
+<title>第22代横綱 太刀山　1911年6月 〜 1918年1月（在位 約7年）</title>
+<rect class="bar f-violet" x="79" y="2173.6" width="14" height="104.8" rx="3"/>
+<path class="leader" d="M94.5 2181.1h4L152 2181.1h2"/>
+<text class="label" x="156" y="2185.9"><tspan class="name">太刀山</tspan><tspan class="yrs" dx="6">1911–1918</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz19" data-person="yz:大木戸">
+<title>第23代横綱 大木戸　1913年1月 〜 1914年1月（在位 約1年）</title>
+<rect class="bar f-violet" x="127" y="2199" width="14" height="15.3" rx="3"/>
+<text class="label" x="156" y="2211.3"><tspan class="name">大木戸</tspan><tspan class="yrs" dx="6">1913–1914</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz20" data-person="yz:鳳">
+<title>第24代横綱 鳳　1915年6月 〜 1920年5月（在位 約5年）</title>
+<rect class="bar f-violet" x="95" y="2237.6" width="14" height="78" rx="3"/>
+<path class="leader" d="M110.5 2245.1h4L152 2238.8h2"/>
+<text class="label" x="156" y="2243.7"><tspan class="name">鳳</tspan><tspan class="yrs" dx="6">1915–1920</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz21" data-person="yz:西ノ海（二代）">
+<title>第25代横綱 西ノ海（二代）　1916年5月 〜 1918年5月（在位 約2年）</title>
+<rect class="bar f-violet" x="111" y="2252.3" width="14" height="31.3" rx="3"/>
+<path class="leader" d="M126.5 2259.8h4L152 2255.8h2"/>
+<text class="label" x="156" y="2260.7"><tspan class="name">西ノ海</tspan><tspan class="yrs" dx="6">1916–1918</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz22" data-person="yz:大錦（卯一郎）">
+<title>第26代横綱 大錦（卯一郎）　1917年5月 〜 1923年1月（在位 約6年）</title>
+<rect class="bar f-violet" x="127" y="2268.2" width="14" height="90.1" rx="3"/>
+<path class="leader" d="M142.5 2275.7h4L152 2272.8h2"/>
+<text class="label" x="156" y="2277.7"><tspan class="name">大錦</tspan><tspan class="yrs" dx="6">1917–1923</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz23" data-person="yz:栃木山">
+<title>第27代横綱 栃木山　1918年5月 〜 1925年5月（在位 約7年）</title>
+<rect class="bar f-violet" x="79" y="2284.2" width="14" height="111.4" rx="3"/>
+<path class="leader" d="M94.5 2291.7h4L152 2289.8h2"/>
+<text class="label" x="156" y="2294.7"><tspan class="name">栃木山</tspan><tspan class="yrs" dx="6">1918–1925</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz24" data-person="yz:大錦（大五郎）">
+<title>第28代横綱 大錦（大五郎）　1918年5月 〜 1922年1月（在位 約4年）</title>
+<rect class="bar f-violet" x="111" y="2284.2" width="14" height="58.1" rx="3"/>
+<path class="leader" d="M126.5 2291.7h4L152 2306.8h2"/>
+<text class="label" x="156" y="2311.7"><tspan class="name">大錦</tspan><tspan class="yrs" dx="6">1918–1922</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz25" data-person="yz:宮城山">
+<title>第29代横綱 宮城山　1922年5月 〜 1931年1月（在位 約9年）</title>
+<rect class="bar f-violet" x="95" y="2348.2" width="14" height="138.1" rx="3"/>
+<path class="leader" d="M110.5 2355.7h4L152 2354.7h2"/>
+<text class="label" x="156" y="2359.6"><tspan class="name">宮城山</tspan><tspan class="yrs" dx="6">1922–1931</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz26" data-person="yz:西ノ海（三代）">
+<title>第30代横綱 西ノ海（三代）　1923年5月 〜 1928年10月（在位 約6年）</title>
+<rect class="bar f-violet" x="111" y="2364.2" width="14" height="86.1" rx="3"/>
+<text class="label" x="156" y="2376.6"><tspan class="name">西ノ海</tspan><tspan class="yrs" dx="6">1923–1928</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz27" data-person="yz:常ノ花">
+<title>第31代横綱 常ノ花　1924年5月 〜 1930年5月（在位 約6年）</title>
+<rect class="bar f-violet" x="127" y="2380.3" width="14" height="95.3" rx="3"/>
+<text class="label" x="156" y="2393.6"><tspan class="name">常ノ花</tspan><tspan class="yrs" dx="6">1924–1930</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz28" data-person="yz:玉錦">
+<title>第32代横綱 玉錦　1933年1月 〜 1938年12月4日（在位 約6年）</title>
+<rect class="bar f-violet" x="79" y="2519" width="14" height="92.8" rx="3"/>
+<text class="label" x="156" y="2531.4"><tspan class="name">玉錦</tspan><tspan class="yrs" dx="6">1933–1938</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz29" data-person="yz:武蔵山">
+<title>第33代横綱 武蔵山　1936年1月 〜 1939年12月18日（在位 約4年）</title>
+<rect class="bar f-violet" x="95" y="2567" width="14" height="61.4" rx="3"/>
+<path class="leader" d="M110.5 2574.5h4L152 2566.4h2"/>
+<text class="label" x="156" y="2571.3"><tspan class="name">武蔵山</tspan><tspan class="yrs" dx="6">1936–1939</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz30" data-person="yz:男女ノ川">
+<title>第34代横綱 男女ノ川　1936年1月21日 〜 1942年1月（在位 約6年）</title>
+<rect class="bar f-violet" x="111" y="2567.8" width="14" height="94.5" rx="3"/>
+<path class="leader" d="M126.5 2575.3h4L152 2583.4h2"/>
+<text class="label" x="156" y="2588.3"><tspan class="name">男女ノ川</tspan><tspan class="yrs" dx="6">1936–1942</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz31" data-person="yz:双葉山">
+<title>第35代横綱 双葉山　1938年1月 〜 1945年11月（在位 約8年）</title>
+<rect class="bar f-violet" x="127" y="2599" width="14" height="124.6" rx="3"/>
+<text class="label" x="156" y="2611.3"><tspan class="name">双葉山</tspan><tspan class="yrs" dx="6">1938–1945</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz32" data-person="yz:羽黒山">
+<title>第36代横綱 羽黒山　1942年1月 〜 1953年9月（在位 約12年）</title>
+<rect class="bar f-violet" x="79" y="2663" width="14" height="186" rx="3"/>
+<path class="leader" d="M94.5 2670.5h4L152 2664.1h2"/>
+<text class="label" x="156" y="2669"><tspan class="name">羽黒山</tspan><tspan class="yrs" dx="6">1942–1953</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz33" data-person="yz:安藝ノ海">
+<title>第37代横綱 安藝ノ海　1943年1月 〜 1946年11月（在位 約4年）</title>
+<rect class="bar f-violet" x="95" y="2679" width="14" height="60.6" rx="3"/>
+<path class="leader" d="M110.5 2686.5h4L152 2681.1h2"/>
+<text class="label" x="156" y="2686"><tspan class="name">安藝ノ海</tspan><tspan class="yrs" dx="6">1943–1946</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz34" data-person="yz:照國">
+<title>第38代横綱 照國　1943年1月 〜 1953年1月（在位 約10年）</title>
+<rect class="bar f-violet" x="111" y="2679" width="14" height="159.4" rx="3"/>
+<path class="leader" d="M126.5 2686.5h4L152 2698.1h2"/>
+<text class="label" x="156" y="2703"><tspan class="name">照國</tspan><tspan class="yrs" dx="6">1943–1953</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz35" data-person="yz:前田山">
+<title>第39代横綱 前田山　1947年11月 〜 1949年10月（在位 約2年）</title>
+<rect class="bar f-violet" x="95" y="2756.3" width="14" height="30" rx="3"/>
+<path class="leader" d="M110.5 2763.8h4L152 2763.8h2"/>
+<text class="label" x="156" y="2768.7"><tspan class="name">前田山</tspan><tspan class="yrs" dx="6">1947–1949</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz36" data-person="yz:東富士">
+<title>第40代横綱 東富士　1949年1月 〜 1954年9月（在位 約6年）</title>
+<rect class="bar f-violet" x="127" y="2775" width="14" height="89.9" rx="3"/>
+<text class="label" x="156" y="2787.4"><tspan class="name">東富士</tspan><tspan class="yrs" dx="6">1949–1954</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz37" data-person="yz:千代の山">
+<title>第41代横綱 千代の山　1951年5月28日 〜 1959年1月16日（在位 約8年）</title>
+<rect class="bar f-violet" x="95" y="2813.4" width="14" height="120.2" rx="3"/>
+<path class="leader" d="M110.5 2820.9h4L152 2820.9h2"/>
+<text class="label" x="156" y="2825.8"><tspan class="name">千代の山</tspan><tspan class="yrs" dx="6">1951–1959</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz38" data-person="yz:鏡里">
+<title>第42代横綱 鏡里　1953年1月27日 〜 1958年1月26日（在位 約5年）</title>
+<rect class="bar f-violet" x="111" y="2840.1" width="14" height="77.9" rx="3"/>
+<path class="leader" d="M126.5 2847.6h4L152 2845h2"/>
+<text class="label" x="156" y="2849.9"><tspan class="name">鏡里</tspan><tspan class="yrs" dx="6">1953–1958</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz39" data-person="yz:吉葉山">
+<title>第43代横綱 吉葉山　1954年1月28日 〜 1958年1月20日（在位 約4年）</title>
+<rect class="bar f-violet" x="79" y="2856.2" width="14" height="61.7" rx="3"/>
+<path class="leader" d="M94.5 2863.7h4L152 2862h2"/>
+<text class="label" x="156" y="2866.9"><tspan class="name">吉葉山</tspan><tspan class="yrs" dx="6">1954–1958</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz40" data-person="yz:栃錦">
+<title>第44代横綱 栃錦　1954年10月7日 〜 1960年5月10日（在位 約6年）</title>
+<rect class="bar f-violet" x="127" y="2867.2" width="14" height="87.5" rx="3"/>
+<path class="leader" d="M142.5 2874.7h4L152 2879h2"/>
+<text class="label" x="156" y="2883.9"><tspan class="name">栃錦</tspan><tspan class="yrs" dx="6">1954–1960</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz41" data-person="yz:若乃花（初代）">
+<title>第45代横綱 若乃花（初代）　1958年1月29日 〜 1962年5月1日（在位 約4年）</title>
+<rect class="bar f-violet" x="79" y="2920.2" width="14" height="66" rx="3"/>
+<path class="leader" d="M94.5 2927.7h4L152 2927.7h2"/>
+<text class="label" x="156" y="2932.6"><tspan class="name">若乃花</tspan><tspan class="yrs" dx="6">1958–1962</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz42" data-person="yz:朝潮">
+<title>第46代横綱 朝潮　1959年3月25日 〜 1962年1月12日（在位 約3年）</title>
+<rect class="bar f-violet" x="95" y="2938.6" width="14" height="42.9" rx="3"/>
+<path class="leader" d="M110.5 2946.1h4L152 2946.1h2"/>
+<text class="label" x="156" y="2951"><tspan class="name">朝潮</tspan><tspan class="yrs" dx="6">1959–1962</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz43" data-person="yz:柏戸">
+<title>第47代横綱 柏戸　1961年9月27日 〜 1969年7月9日（在位 約8年）</title>
+<rect class="bar f-violet" x="111" y="2978.8" width="14" height="122.5" rx="3"/>
+<path class="leader" d="M126.5 2986.3h4L152 2977.8h2"/>
+<text class="label" x="156" y="2982.6"><tspan class="name">柏戸</tspan><tspan class="yrs" dx="6">1961–1969</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz44" data-person="yz:大鵬">
+<title>第48代横綱 大鵬　1961年9月27日 〜 1971年5月14日（在位 約10年）</title>
+<rect class="bar f-violet" x="127" y="2978.8" width="14" height="152" rx="3"/>
+<path class="leader" d="M142.5 2986.3h4L152 2994.8h2"/>
+<text class="label" x="156" y="2999.6"><tspan class="name">大鵬</tspan><tspan class="yrs" dx="6">1961–1971</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz45" data-person="yz:栃ノ海">
+<title>第49代横綱 栃ノ海　1964年1月29日 〜 1966年11月19日（在位 約3年）</title>
+<rect class="bar f-violet" x="79" y="3016.2" width="14" height="42.9" rx="3"/>
+<path class="leader" d="M94.5 3023.7h4L152 3023.7h2"/>
+<text class="label" x="156" y="3028.6"><tspan class="name">栃ノ海</tspan><tspan class="yrs" dx="6">1964–1966</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz46" data-person="yz:佐田の山">
+<title>第50代横綱 佐田の山　1965年3月 〜 1968年3月15日（在位 約3年）</title>
+<rect class="bar f-violet" x="95" y="3033.6" width="14" height="46.6" rx="3"/>
+<path class="leader" d="M110.5 3041.1h4L152 3041.1h2"/>
+<text class="label" x="156" y="3046"><tspan class="name">佐田の山</tspan><tspan class="yrs" dx="6">1965–1968</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz47" data-person="yz:玉の海">
+<title>第51代横綱 玉の海　1970年1月28日 〜 1971年10月11日（在位 621日）</title>
+<rect class="bar f-violet" x="79" y="3112.2" width="14" height="25.2" rx="3"/>
+<path class="leader" d="M94.5 3119.7h4L152 3111.2h2"/>
+<text class="label" x="156" y="3116"><tspan class="name">玉の海</tspan><tspan class="yrs" dx="6">1970–1971</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz48" data-person="yz:北の富士">
+<title>第52代横綱 北の富士　1970年1月28日 〜 1974年7月8日（在位 約4年）</title>
+<rect class="bar f-violet" x="95" y="3112.2" width="14" height="69.1" rx="3"/>
+<path class="leader" d="M110.5 3119.7h4L152 3128.2h2"/>
+<text class="label" x="156" y="3133"><tspan class="name">北の富士</tspan><tspan class="yrs" dx="6">1970–1974</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz49" data-person="yz:琴櫻">
+<title>第53代横綱 琴櫻　1973年1月24日 〜 1974年7月4日（在位 526日）</title>
+<rect class="bar f-violet" x="79" y="3160" width="14" height="21" rx="3"/>
+<path class="leader" d="M94.5 3167.5h4L152 3160.3h2"/>
+<text class="label" x="156" y="3165.2"><tspan class="name">琴櫻</tspan><tspan class="yrs" dx="6">1973–1974</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz50" data-person="yz:輪島">
+<title>第54代横綱 輪島　1973年5月30日 〜 1981年3月10日（在位 約8年）</title>
+<rect class="bar f-violet" x="111" y="3165.5" width="14" height="122.5" rx="3"/>
+<path class="leader" d="M126.5 3173h4L152 3177.3h2"/>
+<text class="label" x="156" y="3182.2"><tspan class="name">輪島</tspan><tspan class="yrs" dx="6">1973–1981</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz51" data-person="yz:北の湖">
+<title>第55代横綱 北の湖　1974年7月24日 〜 1985年1月15日（在位 約10年）</title>
+<rect class="bar f-violet" x="79" y="3183.9" width="14" height="165.7" rx="3"/>
+<path class="leader" d="M94.5 3191.4h4L152 3194.3h2"/>
+<text class="label" x="156" y="3199.2"><tspan class="name">北の湖</tspan><tspan class="yrs" dx="6">1974–1985</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz52" data-person="yz:若乃花（二代）">
+<title>第56代横綱 若乃花（二代）　1978年5月24日 〜 1983年1月14日（在位 約5年）</title>
+<rect class="bar f-violet" x="95" y="3245.3" width="14" height="72.3" rx="3"/>
+<path class="leader" d="M110.5 3252.8h4L152 3252.8h2"/>
+<text class="label" x="156" y="3257.6"><tspan class="name">若乃花</tspan><tspan class="yrs" dx="6">1978–1983</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz53" data-person="yz:三重ノ海">
+<title>第57代横綱 三重ノ海　1979年9月 〜 1980年11月11日（在位 約1年）</title>
+<rect class="bar f-violet" x="127" y="3265.6" width="14" height="17.1" rx="3"/>
+<text class="label" x="156" y="3278"><tspan class="name">三重ノ海</tspan><tspan class="yrs" dx="6">1979–1980</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz54" data-person="yz:千代の富士">
+<title>第58代横綱 千代の富士　1981年7月21日 〜 1991年5月14日（在位 約10年）</title>
+<rect class="bar f-violet" x="111" y="3295.8" width="14" height="155" rx="3"/>
+<text class="label" x="156" y="3308.2"><tspan class="name">千代の富士</tspan><tspan class="yrs" dx="6">1981–1991</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz55" data-person="yz:隆の里">
+<title>第59代横綱 隆の里　1983年7月20日 〜 1986年1月13日（在位 約2年）</title>
+<rect class="bar f-violet" x="95" y="3327.8" width="14" height="37.8" rx="3"/>
+<path class="leader" d="M110.5 3335.3h4L152 3335.3h2"/>
+<text class="label" x="156" y="3340.1"><tspan class="name">隆の里</tspan><tspan class="yrs" dx="6">1983–1986</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz56" data-person="yz:双羽黒">
+<title>第60代横綱 双羽黒　1986年7月23日 〜 1987年12月31日（在位 526日）</title>
+<rect class="bar f-violet" x="79" y="3375.9" width="14" height="21" rx="3"/>
+<path class="leader" d="M94.5 3383.4h4L152 3377.2h2"/>
+<text class="label" x="156" y="3382.1"><tspan class="name">双羽黒</tspan><tspan class="yrs" dx="6">1986–1987</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz57" data-person="yz:北勝海">
+<title>第61代横綱 北勝海　1987年5月27日 〜 1992年5月8日（在位 約5年）</title>
+<rect class="bar f-violet" x="95" y="3389.4" width="14" height="77.2" rx="3"/>
+<path class="leader" d="M110.5 3396.9h4L152 3394.2h2"/>
+<text class="label" x="156" y="3399.1"><tspan class="name">北勝海</tspan><tspan class="yrs" dx="6">1987–1992</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz58" data-person="yz:大乃国">
+<title>第62代横綱 大乃国　1987年9月30日 〜 1991年7月14日（在位 約4年）</title>
+<rect class="bar f-violet" x="127" y="3394.9" width="14" height="58.6" rx="3"/>
+<path class="leader" d="M142.5 3402.4h4L152 3411.2h2"/>
+<text class="label" x="156" y="3416.1"><tspan class="name">大乃国</tspan><tspan class="yrs" dx="6">1987–1991</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz59" data-person="yz:旭富士">
+<title>第63代横綱 旭富士　1990年7月25日 〜 1992年1月14日（在位 538日）</title>
+<rect class="bar f-violet" x="79" y="3440" width="14" height="21.6" rx="3"/>
+<path class="leader" d="M94.5 3447.5h4L152 3447.5h2"/>
+<text class="label" x="156" y="3452.3"><tspan class="name">旭富士</tspan><tspan class="yrs" dx="6">1990–1992</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz60" data-person="yz:曙">
+<title>第64代横綱 曙　1993年1月27日 〜 2001年1月22日（在位 約8年）</title>
+<rect class="bar f-violet" x="79" y="3480.2" width="14" height="125.8" rx="3"/>
+<text class="label" x="156" y="3492.5"><tspan class="name">曙</tspan><tspan class="yrs" dx="6">1993–2001</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz61" data-person="yz:貴乃花">
+<title>第65代横綱 貴乃花　1994年11月23日 〜 2003年1月20日（在位 約8年）</title>
+<rect class="bar f-violet" x="95" y="3509.3" width="14" height="128.5" rx="3"/>
+<text class="label" x="156" y="3521.6"><tspan class="name">貴乃花</tspan><tspan class="yrs" dx="6">1994–2003</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz62" data-person="yz:若乃花（三代）">
+<title>第66代横綱 若乃花（三代）　1998年5月27日 〜 2000年3月16日（在位 659日）</title>
+<rect class="bar f-violet" x="111" y="3565.4" width="14" height="26.9" rx="3"/>
+<text class="label" x="156" y="3577.2"><tspan class="name">若乃花</tspan><tspan class="yrs" dx="6">1998–2000</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz63" data-person="yz:武蔵丸">
+<title>第67代横綱 武蔵丸　1999年5月26日 〜 2003年11月15日（在位 約4年）</title>
+<rect class="bar f-violet" x="127" y="3581.3" width="14" height="69.6" rx="3"/>
+<text class="label" x="156" y="3594.2"><tspan class="name">武蔵丸</tspan><tspan class="yrs" dx="6">1999–2003</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz64" data-person="yz:朝青龍">
+<title>第68代横綱 朝青龍　2003年1月29日 〜 2010年2月4日（在位 約7年）</title>
+<rect class="bar f-violet" x="79" y="3640.2" width="14" height="110.3" rx="3"/>
+<path class="leader" d="M94.5 3647.7h4L152 3647.7h2"/>
+<text class="label" x="156" y="3652.6"><tspan class="name">朝青龍</tspan><tspan class="yrs" dx="6">2003–2010</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz65" data-person="yz:白鵬">
+<title>第69代横綱 白鵬　2007年5月30日 〜 2021年9月30日（在位 約14年）</title>
+<rect class="bar f-violet" x="95" y="3709.5" width="14" height="227.4" rx="3"/>
+<text class="label" x="156" y="3721.9"><tspan class="name">白鵬</tspan><tspan class="yrs" dx="6">2007–2021</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz66" data-person="yz:日馬富士">
+<title>第70代横綱 日馬富士　2012年9月26日 〜 2017年11月29日（在位 約5年）</title>
+<rect class="bar f-violet" x="79" y="3794.8" width="14" height="80.8" rx="3"/>
+<path class="leader" d="M94.5 3802.3h4L152 3802.3h2"/>
+<text class="label" x="156" y="3807.1"><tspan class="name">日馬富士</tspan><tspan class="yrs" dx="6">2012–2017</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz67" data-person="yz:鶴竜">
+<title>第71代横綱 鶴竜　2014年3月26日 〜 2021年3月24日（在位 約7年）</title>
+<rect class="bar f-violet" x="111" y="3818.7" width="14" height="109.9" rx="3"/>
+<text class="label" x="156" y="3831.1"><tspan class="name">鶴竜</tspan><tspan class="yrs" dx="6">2014–2021</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz68" data-person="yz:稀勢の里">
+<title>第72代横綱 稀勢の里　2017年1月25日 〜 2019年1月16日（在位 721日）</title>
+<rect class="bar f-violet" x="127" y="3864.1" width="14" height="29.6" rx="3"/>
+<text class="label" x="156" y="3876.4"><tspan class="name">稀勢の里</tspan><tspan class="yrs" dx="6">2017–2019</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz69" data-person="yz:照ノ富士">
+<title>第73代横綱 照ノ富士　2021年7月21日 〜 2025年1月17日（在位 約3年）</title>
+<rect class="bar f-violet" x="79" y="3935.8" width="14" height="53.9" rx="3"/>
+<text class="label" x="156" y="3948.2"><tspan class="name">照ノ富士</tspan><tspan class="yrs" dx="6">2021–2025</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz70" data-person="yz:豊昇龍">
+<title>第74代横綱 豊昇龍　2025年1月29日 〜 現役（在位 639日）</title>
+<linearGradient id="tl-g-yz70" gradientUnits="userSpaceOnUse" x1="0" y1="3997.2" x2="0" y2="4019.2"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 3995.3Q79 3992.3 82 3992.3H90Q93 3992.3 93 3995.3V4019.2Q93 4019.2 93 4019.2H79Q79 4019.2 79 4019.2Z" fill="url(#tl-g-yz70)"/>
+<path class="leader" d="M94.5 3999.8h4L152 3993.9h2"/>
+<text class="label" x="156" y="3998.7"><tspan class="name">豊昇龍</tspan><tspan class="yrs" dx="6">2025–</tspan></text>
+</g>
+<g class="term c-yz" data-id="yz71" data-person="yz:大の里">
+<title>第75代横綱 大の里　2025年5月28日 〜 現役（在位 520日）</title>
+<linearGradient id="tl-g-yz71" gradientUnits="userSpaceOnUse" x1="0" y1="3997.2" x2="0" y2="4019.2"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M95 4000.5Q95 3997.5 98 3997.5H106Q109 3997.5 109 4000.5V4019.2Q109 4019.2 109 4019.2H95Q95 4019.2 95 4019.2Z" fill="url(#tl-g-yz71)"/>
+<path class="leader" d="M110.5 4005h4L152 4010.9h2"/>
+<text class="label" x="156" y="4015.7"><tspan class="name">大の里</tspan><tspan class="yrs" dx="6">2025–</tspan></text>
+</g>
+<text class="foot" x="380" y="4069" text-anchor="middle">出典：日本相撲協会「歴代横綱」、日本相撲協会 歴代横綱の各プロフィール（所属部屋・新横綱・引退の場所）、日本相撲協会「協会からのお知らせ」大関鶴竜の横綱昇進（2014年3月26日）、日本相撲協会「協会からのお知らせ」横綱鶴竜の引退（2021年3月24日）、日本相撲協会「協会からのお知らせ」横綱照ノ富士の引退（2025年1月17日）、日本相撲協会「協会からのお知らせ」大関豊昇龍の横綱昇進（2025年1月29日）、日本相撲協会「協会からのお知らせ」大関大の里の横綱昇進（2025年5月28日）、日本相撲協会「番付表」（令和8年11月場所、2026年10月26日発表）、『近世日本相撲史』第3巻（日本相撲協会博物館運営委員監修、国立国会図書館デジタルコレクション）、『近世日本相撲史』第4巻（同）、『近世日本相撲史』第5巻（同）、明治神宮 歴史データベース「年表」（横綱推挙式・免許式）、時事通信 写真特集「歴代横綱 決意の口上」（昇進伝達式の写真。例：貴乃花）、時事通信「土俵に別れを告げた日」（横綱の引退。例：貴乃花）、毎日フォトバンク（毎日新聞の報道写真。例：大鵬の引退会見）、Wikipedia「横綱一覧」、Wikipedia「1973年の相撲」など各年の相撲の記事と各力士の記事、Wikipedia「11月19日 (旧暦)」（寛政元年11月19日＝1790年1月4日）　2026年10月30日時点</text>
+</svg>

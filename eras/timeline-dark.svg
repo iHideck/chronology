@@ -1,0 +1,2232 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 8469" width="760" height="8469" role="img" aria-labelledby="tl-title">
+<title id="tl-title">元号と天皇</title>
+<style>
+.tl{--paper:#14171f;--ink:#e6e8ee;--ink2:#b2b8c4;--muted:#8d94a3;--rule:#232833;--rule2:#3d4452;--spine-a:#1b1f29;--spine-b:#222733;--red:#e5604a;--blue:#678bd2;--amber:#c98500;--violet:#9085e9;--green:#199e70;--teal:#1f9fa1;--gray:#6b7280;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="760" height="8469" rx="14"/>
+<rect class="f-gray" x="313" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="282" y="44" text-anchor="end">元号</text>
+<rect class="f-violet" x="433" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="478" y="44">天皇</text>
+<text class="spine-h" x="380" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="380" y="54" text-anchor="middle">時代</text>
+<rect class="spine-a" x="334" y="70" width="92" height="420"/>
+<rect class="spine-b" x="334" y="490" width="92" height="504"/>
+<rect class="spine-a" x="334" y="994" width="92" height="2346.1"/>
+<rect class="spine-b" x="334" y="3340.1" width="92" height="888"/>
+<rect class="spine-a" x="334" y="4228.1" width="92" height="18"/>
+<rect class="spine-b" x="334" y="4246.1" width="92" height="1422"/>
+<rect class="spine-a" x="334" y="5668.1" width="92" height="179.8"/>
+<rect class="spine-b" x="334" y="5848" width="92" height="1590"/>
+<rect class="spine-a" x="334" y="7438" width="92" height="264"/>
+<rect class="spine-b" x="334" y="7701.9" width="92" height="84"/>
+<rect class="spine-a" x="334" y="7786" width="92" height="378"/>
+<rect class="spine-b" x="334" y="8164" width="92" height="180"/>
+<rect class="spine-a" x="334" y="8344" width="92" height="54.4"/>
+<line class="grid" x1="0" x2="760" y1="130" y2="130"/>
+<line class="grid" x1="0" x2="760" y1="430" y2="430"/>
+<line class="grid" x1="0" x2="760" y1="730" y2="730"/>
+<line class="grid" x1="0" x2="760" y1="1330" y2="1330"/>
+<line class="grid" x1="0" x2="760" y1="1630" y2="1630"/>
+<line class="grid" x1="0" x2="760" y1="1930" y2="1930"/>
+<line class="grid" x1="0" x2="760" y1="2230" y2="2230"/>
+<line class="grid" x1="0" x2="760" y1="2530.1" y2="2530.1"/>
+<line class="grid" x1="0" x2="760" y1="2830.1" y2="2830.1"/>
+<line class="grid" x1="0" x2="760" y1="3130.1" y2="3130.1"/>
+<line class="grid" x1="0" x2="760" y1="3430.1" y2="3430.1"/>
+<line class="grid" x1="0" x2="760" y1="3730.1" y2="3730.1"/>
+<line class="grid" x1="0" x2="760" y1="4030.1" y2="4030.1"/>
+<line class="grid" x1="0" x2="760" y1="4330.1" y2="4330.1"/>
+<line class="grid" x1="0" x2="760" y1="4630.1" y2="4630.1"/>
+<line class="grid" x1="0" x2="760" y1="4930.1" y2="4930.1"/>
+<line class="grid" x1="0" x2="760" y1="5230.1" y2="5230.1"/>
+<line class="grid" x1="0" x2="760" y1="5530.1" y2="5530.1"/>
+<line class="grid" x1="0" x2="760" y1="6130" y2="6130"/>
+<line class="grid" x1="0" x2="760" y1="6430" y2="6430"/>
+<line class="grid" x1="0" x2="760" y1="6730" y2="6730"/>
+<line class="grid" x1="0" x2="760" y1="7030" y2="7030"/>
+<line class="grid" x1="0" x2="760" y1="7330" y2="7330"/>
+<line class="grid" x1="0" x2="760" y1="7630" y2="7630"/>
+<line class="grid" x1="0" x2="760" y1="7930" y2="7930"/>
+<line class="grid" x1="0" x2="760" y1="8230" y2="8230"/>
+<line class="era-line" x1="0" x2="760" y1="490" y2="490"/>
+<line class="era-line" x1="0" x2="760" y1="994" y2="994"/>
+<line class="era-line" x1="0" x2="760" y1="3340.1" y2="3340.1"/>
+<line class="era-line" x1="0" x2="760" y1="4228.1" y2="4228.1"/>
+<line class="era-line" x1="0" x2="760" y1="4246.1" y2="4246.1"/>
+<line class="era-line" x1="0" x2="760" y1="5668.1" y2="5668.1"/>
+<line class="era-line" x1="0" x2="760" y1="5848" y2="5848"/>
+<line class="era-line" x1="0" x2="760" y1="7438" y2="7438"/>
+<line class="era-line" x1="0" x2="760" y1="7701.9" y2="7701.9"/>
+<line class="era-line" x1="0" x2="760" y1="7786" y2="7786"/>
+<line class="era-line" x1="0" x2="760" y1="8164" y2="8164"/>
+<line class="era-line" x1="0" x2="760" y1="8344" y2="8344"/>
+<path class="tick" d="M334 70h3M426 70h-3"/>
+<path class="tick" d="M334 130h9M426 130h-9"/>
+<path class="tick" d="M334 190h3M426 190h-3"/>
+<path class="tick" d="M334 250h3M426 250h-3"/>
+<path class="tick" d="M334 310h3M426 310h-3"/>
+<path class="tick" d="M334 370h3M426 370h-3"/>
+<path class="tick" d="M334 430h9M426 430h-9"/>
+<path class="tick" d="M334 490h3M426 490h-3"/>
+<path class="tick" d="M334 550h3M426 550h-3"/>
+<path class="tick" d="M334 610h3M426 610h-3"/>
+<path class="tick" d="M334 670h3M426 670h-3"/>
+<path class="tick" d="M334 730h9M426 730h-9"/>
+<path class="tick" d="M334 790h3M426 790h-3"/>
+<path class="tick" d="M334 850h3M426 850h-3"/>
+<path class="tick" d="M334 910h3M426 910h-3"/>
+<path class="tick" d="M334 970h3M426 970h-3"/>
+<path class="tick" d="M334 1030h9M426 1030h-9"/>
+<path class="tick" d="M334 1090h3M426 1090h-3"/>
+<path class="tick" d="M334 1150h3M426 1150h-3"/>
+<path class="tick" d="M334 1210h3M426 1210h-3"/>
+<path class="tick" d="M334 1270h3M426 1270h-3"/>
+<path class="tick" d="M334 1330h9M426 1330h-9"/>
+<path class="tick" d="M334 1390h3M426 1390h-3"/>
+<path class="tick" d="M334 1450h3M426 1450h-3"/>
+<path class="tick" d="M334 1510h3M426 1510h-3"/>
+<path class="tick" d="M334 1570h3M426 1570h-3"/>
+<path class="tick" d="M334 1630h9M426 1630h-9"/>
+<path class="tick" d="M334 1690h3M426 1690h-3"/>
+<path class="tick" d="M334 1750h3M426 1750h-3"/>
+<path class="tick" d="M334 1810h3M426 1810h-3"/>
+<path class="tick" d="M334 1870h3M426 1870h-3"/>
+<path class="tick" d="M334 1930h9M426 1930h-9"/>
+<path class="tick" d="M334 1990h3M426 1990h-3"/>
+<path class="tick" d="M334 2050h3M426 2050h-3"/>
+<path class="tick" d="M334 2110h3M426 2110h-3"/>
+<path class="tick" d="M334 2170.1h3M426 2170.1h-3"/>
+<path class="tick" d="M334 2230h9M426 2230h-9"/>
+<path class="tick" d="M334 2290.1h3M426 2290.1h-3"/>
+<path class="tick" d="M334 2350h3M426 2350h-3"/>
+<path class="tick" d="M334 2410.1h3M426 2410.1h-3"/>
+<path class="tick" d="M334 2470h3M426 2470h-3"/>
+<path class="tick" d="M334 2530.1h9M426 2530.1h-9"/>
+<path class="tick" d="M334 2590.1h3M426 2590.1h-3"/>
+<path class="tick" d="M334 2650.1h3M426 2650.1h-3"/>
+<path class="tick" d="M334 2710.1h3M426 2710.1h-3"/>
+<path class="tick" d="M334 2770.1h3M426 2770.1h-3"/>
+<path class="tick" d="M334 2830.1h9M426 2830.1h-9"/>
+<path class="tick" d="M334 2890.1h3M426 2890.1h-3"/>
+<path class="tick" d="M334 2950.1h3M426 2950.1h-3"/>
+<path class="tick" d="M334 3010.1h3M426 3010.1h-3"/>
+<path class="tick" d="M334 3070.1h3M426 3070.1h-3"/>
+<path class="tick" d="M334 3130.1h9M426 3130.1h-9"/>
+<path class="tick" d="M334 3190.1h3M426 3190.1h-3"/>
+<path class="tick" d="M334 3250.1h3M426 3250.1h-3"/>
+<path class="tick" d="M334 3310.1h3M426 3310.1h-3"/>
+<path class="tick" d="M334 3370.1h3M426 3370.1h-3"/>
+<path class="tick" d="M334 3430.1h9M426 3430.1h-9"/>
+<path class="tick" d="M334 3490.1h3M426 3490.1h-3"/>
+<path class="tick" d="M334 3550.1h3M426 3550.1h-3"/>
+<path class="tick" d="M334 3610.1h3M426 3610.1h-3"/>
+<path class="tick" d="M334 3670.1h3M426 3670.1h-3"/>
+<path class="tick" d="M334 3730.1h9M426 3730.1h-9"/>
+<path class="tick" d="M334 3790.1h3M426 3790.1h-3"/>
+<path class="tick" d="M334 3850.1h3M426 3850.1h-3"/>
+<path class="tick" d="M334 3910.1h3M426 3910.1h-3"/>
+<path class="tick" d="M334 3970.1h3M426 3970.1h-3"/>
+<path class="tick" d="M334 4030.1h9M426 4030.1h-9"/>
+<path class="tick" d="M334 4090.1h3M426 4090.1h-3"/>
+<path class="tick" d="M334 4150.1h3M426 4150.1h-3"/>
+<path class="tick" d="M334 4210.1h3M426 4210.1h-3"/>
+<path class="tick" d="M334 4270.1h3M426 4270.1h-3"/>
+<path class="tick" d="M334 4330.1h9M426 4330.1h-9"/>
+<path class="tick" d="M334 4390.1h3M426 4390.1h-3"/>
+<path class="tick" d="M334 4450.1h3M426 4450.1h-3"/>
+<path class="tick" d="M334 4510.1h3M426 4510.1h-3"/>
+<path class="tick" d="M334 4570.1h3M426 4570.1h-3"/>
+<path class="tick" d="M334 4630.1h9M426 4630.1h-9"/>
+<path class="tick" d="M334 4690.1h3M426 4690.1h-3"/>
+<path class="tick" d="M334 4750.1h3M426 4750.1h-3"/>
+<path class="tick" d="M334 4810.1h3M426 4810.1h-3"/>
+<path class="tick" d="M334 4870.1h3M426 4870.1h-3"/>
+<path class="tick" d="M334 4930.1h9M426 4930.1h-9"/>
+<path class="tick" d="M334 4990.1h3M426 4990.1h-3"/>
+<path class="tick" d="M334 5050.1h3M426 5050.1h-3"/>
+<path class="tick" d="M334 5110.1h3M426 5110.1h-3"/>
+<path class="tick" d="M334 5170.1h3M426 5170.1h-3"/>
+<path class="tick" d="M334 5230.1h9M426 5230.1h-9"/>
+<path class="tick" d="M334 5290.1h3M426 5290.1h-3"/>
+<path class="tick" d="M334 5350.1h3M426 5350.1h-3"/>
+<path class="tick" d="M334 5410.1h3M426 5410.1h-3"/>
+<path class="tick" d="M334 5470.1h3M426 5470.1h-3"/>
+<path class="tick" d="M334 5530.1h9M426 5530.1h-9"/>
+<path class="tick" d="M334 5590.1h3M426 5590.1h-3"/>
+<path class="tick" d="M334 5650.1h3M426 5650.1h-3"/>
+<path class="tick" d="M334 5710.1h3M426 5710.1h-3"/>
+<path class="tick" d="M334 5770h3M426 5770h-3"/>
+<path class="tick" d="M334 5830h9M426 5830h-9"/>
+<path class="tick" d="M334 5890h3M426 5890h-3"/>
+<path class="tick" d="M334 5950h3M426 5950h-3"/>
+<path class="tick" d="M334 6010h3M426 6010h-3"/>
+<path class="tick" d="M334 6070h3M426 6070h-3"/>
+<path class="tick" d="M334 6130h9M426 6130h-9"/>
+<path class="tick" d="M334 6190h3M426 6190h-3"/>
+<path class="tick" d="M334 6250h3M426 6250h-3"/>
+<path class="tick" d="M334 6310h3M426 6310h-3"/>
+<path class="tick" d="M334 6370h3M426 6370h-3"/>
+<path class="tick" d="M334 6430h9M426 6430h-9"/>
+<path class="tick" d="M334 6490h3M426 6490h-3"/>
+<path class="tick" d="M334 6550h3M426 6550h-3"/>
+<path class="tick" d="M334 6610h3M426 6610h-3"/>
+<path class="tick" d="M334 6670h3M426 6670h-3"/>
+<path class="tick" d="M334 6730h9M426 6730h-9"/>
+<path class="tick" d="M334 6790h3M426 6790h-3"/>
+<path class="tick" d="M334 6850h3M426 6850h-3"/>
+<path class="tick" d="M334 6910h3M426 6910h-3"/>
+<path class="tick" d="M334 6970h3M426 6970h-3"/>
+<path class="tick" d="M334 7030h9M426 7030h-9"/>
+<path class="tick" d="M334 7090h3M426 7090h-3"/>
+<path class="tick" d="M334 7149.9h3M426 7149.9h-3"/>
+<path class="tick" d="M334 7210h3M426 7210h-3"/>
+<path class="tick" d="M334 7270h3M426 7270h-3"/>
+<path class="tick" d="M334 7330h9M426 7330h-9"/>
+<path class="tick" d="M334 7390h3M426 7390h-3"/>
+<path class="tick" d="M334 7450h3M426 7450h-3"/>
+<path class="tick" d="M334 7510h3M426 7510h-3"/>
+<path class="tick" d="M334 7570h3M426 7570h-3"/>
+<path class="tick" d="M334 7630h9M426 7630h-9"/>
+<path class="tick" d="M334 7690h3M426 7690h-3"/>
+<path class="tick" d="M334 7749.9h3M426 7749.9h-3"/>
+<path class="tick" d="M334 7810h3M426 7810h-3"/>
+<path class="tick" d="M334 7869.9h3M426 7869.9h-3"/>
+<path class="tick" d="M334 7930h9M426 7930h-9"/>
+<path class="tick" d="M334 7989.9h3M426 7989.9h-3"/>
+<path class="tick" d="M334 8050h3M426 8050h-3"/>
+<path class="tick" d="M334 8110h3M426 8110h-3"/>
+<path class="tick" d="M334 8170h3M426 8170h-3"/>
+<path class="tick" d="M334 8230h9M426 8230h-9"/>
+<path class="tick" d="M334 8290h3M426 8290h-3"/>
+<path class="tick" d="M334 8350h3M426 8350h-3"/>
+<text class="dec-y" x="380" y="134.5" text-anchor="middle">650</text>
+<text class="dec-w" x="380" y="148" text-anchor="middle">大化6年</text>
+<text class="dec-y" x="380" y="434.5" text-anchor="middle">700</text>
+<text class="dec-y" x="380" y="734.5" text-anchor="middle">750</text>
+<text class="dec-w" x="380" y="748" text-anchor="middle">天平勝宝2年</text>
+<text class="dec-y" x="380" y="1334.5" text-anchor="middle">850</text>
+<text class="dec-w" x="380" y="1348" text-anchor="middle">嘉祥3年</text>
+<text class="dec-y" x="380" y="1634.5" text-anchor="middle">900</text>
+<text class="dec-w" x="380" y="1648" text-anchor="middle">昌泰3年</text>
+<text class="dec-y" x="380" y="1934.5" text-anchor="middle">950</text>
+<text class="dec-w" x="380" y="1948" text-anchor="middle">天暦4年</text>
+<text class="dec-y" x="380" y="2234.5" text-anchor="middle">1000</text>
+<text class="dec-w" x="380" y="2248" text-anchor="middle">長保2年</text>
+<text class="dec-y" x="380" y="2534.6" text-anchor="middle">1050</text>
+<text class="dec-w" x="380" y="2548.1" text-anchor="middle">永承5年</text>
+<text class="dec-y" x="380" y="2834.6" text-anchor="middle">1100</text>
+<text class="dec-w" x="380" y="2848.1" text-anchor="middle">康和2年</text>
+<text class="dec-y" x="380" y="3134.6" text-anchor="middle">1150</text>
+<text class="dec-w" x="380" y="3148.1" text-anchor="middle">久安6年</text>
+<text class="dec-y" x="380" y="3434.6" text-anchor="middle">1200</text>
+<text class="dec-w" x="380" y="3448.1" text-anchor="middle">正治2年</text>
+<text class="dec-y" x="380" y="3734.6" text-anchor="middle">1250</text>
+<text class="dec-w" x="380" y="3748.1" text-anchor="middle">建長2年</text>
+<text class="dec-y" x="380" y="4034.6" text-anchor="middle">1300</text>
+<text class="dec-w" x="380" y="4048.1" text-anchor="middle">正安2年</text>
+<text class="dec-y" x="380" y="4334.6" text-anchor="middle">1350</text>
+<text class="dec-w" x="380" y="4348.1" text-anchor="middle">正平4年</text>
+<text class="dec-y" x="380" y="4634.6" text-anchor="middle">1400</text>
+<text class="dec-w" x="380" y="4648.1" text-anchor="middle">応永7年</text>
+<text class="dec-y" x="380" y="4934.6" text-anchor="middle">1450</text>
+<text class="dec-w" x="380" y="4948.1" text-anchor="middle">宝徳2年</text>
+<text class="dec-y" x="380" y="5234.6" text-anchor="middle">1500</text>
+<text class="dec-w" x="380" y="5248.1" text-anchor="middle">明応9年</text>
+<text class="dec-y" x="380" y="5534.6" text-anchor="middle">1550</text>
+<text class="dec-w" x="380" y="5548.1" text-anchor="middle">天文19年</text>
+<text class="dec-y" x="380" y="6134.5" text-anchor="middle">1650</text>
+<text class="dec-w" x="380" y="6148" text-anchor="middle">慶安3年</text>
+<text class="dec-y" x="380" y="6434.5" text-anchor="middle">1700</text>
+<text class="dec-w" x="380" y="6448" text-anchor="middle">元禄13年</text>
+<text class="dec-y" x="380" y="6734.5" text-anchor="middle">1750</text>
+<text class="dec-w" x="380" y="6748" text-anchor="middle">寛延3年</text>
+<text class="dec-y" x="380" y="7034.5" text-anchor="middle">1800</text>
+<text class="dec-w" x="380" y="7048" text-anchor="middle">寛政12年</text>
+<text class="dec-y" x="380" y="7334.5" text-anchor="middle">1850</text>
+<text class="dec-w" x="380" y="7348" text-anchor="middle">嘉永3年</text>
+<text class="dec-y" x="380" y="7634.5" text-anchor="middle">1900</text>
+<text class="dec-w" x="380" y="7648" text-anchor="middle">明治33年</text>
+<text class="dec-y" x="380" y="7934.5" text-anchor="middle">1950</text>
+<text class="dec-w" x="380" y="7948" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="380" y="8234.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="380" y="8248" text-anchor="middle">平成12年</text>
+<text class="era-name" x="380" y="93" text-anchor="middle">飛鳥時代</text>
+<text class="era-date" x="380" y="107" text-anchor="middle">592</text>
+<text class="era-name" x="380" y="513" text-anchor="middle">奈良時代</text>
+<text class="era-date" x="380" y="527" text-anchor="middle">710</text>
+<text class="era-name" x="380" y="1017" text-anchor="middle">平安時代</text>
+<text class="era-date" x="380" y="1031" text-anchor="middle">794</text>
+<text class="era-name" x="380" y="3363.1" text-anchor="middle">鎌倉時代</text>
+<text class="era-date" x="380" y="3377.1" text-anchor="middle">1185</text>
+<text class="era-name" x="380" y="4269.1" text-anchor="middle">室町時代</text>
+<text class="era-date" x="380" y="4283.1" text-anchor="middle">1336</text>
+<text class="era-name" x="380" y="5691.1" text-anchor="middle">安土桃山</text>
+<text class="era-date" x="380" y="5705.1" text-anchor="middle">1573</text>
+<text class="era-name" x="380" y="5871" text-anchor="middle">江戸時代</text>
+<text class="era-date" x="380" y="5885" text-anchor="middle">1603</text>
+<text class="era-name" x="380" y="7461" text-anchor="middle">明治時代</text>
+<text class="era-date" x="380" y="7475" text-anchor="middle">1868</text>
+<text class="era-name" x="380" y="7724.9" text-anchor="middle">大正時代</text>
+<text class="era-date" x="380" y="7738.9" text-anchor="middle">1912</text>
+<text class="era-name" x="380" y="7809" text-anchor="middle">昭和時代</text>
+<text class="era-date" x="380" y="7823" text-anchor="middle">1926</text>
+<text class="era-name" x="380" y="8187" text-anchor="middle">平成時代</text>
+<text class="era-date" x="380" y="8201" text-anchor="middle">1989</text>
+<text class="era-name" x="380" y="8367" text-anchor="middle">令和時代</text>
+<text class="era-date" x="380" y="8381" text-anchor="middle">2019</text>
+<line class="asof-line" x1="293" x2="467" y1="8390.9" y2="8390.9"/>
+<text class="era-date" x="380" y="8404.9" text-anchor="middle">2026.10.30</text>
+<text class="era-date" x="380" y="8417.9" text-anchor="middle">時点</text>
+<g class="term c-era" data-id="era0" data-person="era:大化">
+<title>元号 大化　645年7月17日 〜 650年3月22日（期間 約5年）</title>
+<rect class="bar f-blue" x="313" y="104.2" width="14" height="26.1" rx="3"/>
+<text class="label" x="282" y="116.6" text-anchor="end"><tspan class="yrs">645–650</tspan><tspan class="name" dx="6">大化</tspan></text>
+</g>
+<g class="term c-era" data-id="era1" data-person="era:白雉">
+<title>元号 白雉　650年3月22日 〜 655年2月11日（期間 約5年）</title>
+<rect class="bar f-green" x="313" y="132.3" width="14" height="27.4" rx="3"/>
+<text class="label" x="282" y="144.7" text-anchor="end"><tspan class="yrs">650–655</tspan><tspan class="name" dx="6">白雉</tspan></text>
+</g>
+<g class="term c-era" data-id="era2" data-person="era:朱鳥">
+<title>元号 朱鳥　686年8月14日 〜 687年2月17日（期間 187日）</title>
+<rect class="bar f-gray" x="313" y="349.7" width="14" height="3" rx="1.5"/>
+<text class="label" x="282" y="356.1" text-anchor="end"><tspan class="yrs">686–687</tspan><tspan class="name" dx="6">朱鳥</tspan></text>
+</g>
+<g class="term c-era" data-id="era3" data-person="era:大宝">
+<title>元号 大宝　701年5月3日 〜 704年6月16日（期間 約3年）</title>
+<rect class="bar f-green" x="313" y="439" width="14" height="16.7" rx="3"/>
+<text class="label" x="282" y="451.4" text-anchor="end"><tspan class="yrs">701–704</tspan><tspan class="name" dx="6">大宝</tspan></text>
+</g>
+<g class="term c-era" data-id="era4" data-person="era:慶雲">
+<title>元号 慶雲　704年6月16日 〜 708年2月7日（期間 約4年）</title>
+<rect class="bar f-green" x="313" y="457.8" width="14" height="19.9" rx="3"/>
+<text class="label" x="282" y="470.1" text-anchor="end"><tspan class="yrs">704–708</tspan><tspan class="name" dx="6">慶雲</tspan></text>
+</g>
+<g class="term c-era" data-id="era5" data-person="era:和銅">
+<title>元号 和銅　708年2月7日 〜 715年10月3日（期間 約8年）</title>
+<rect class="bar f-green" x="313" y="479.6" width="14" height="43.9" rx="3"/>
+<text class="label" x="282" y="492" text-anchor="end"><tspan class="yrs">708–715</tspan><tspan class="name" dx="6">和銅</tspan></text>
+</g>
+<g class="term c-era" data-id="era6" data-person="era:霊亀">
+<title>元号 霊亀　715年10月3日 〜 717年12月24日（期間 約2年）</title>
+<rect class="bar f-green" x="313" y="525.5" width="14" height="11.4" rx="3"/>
+<text class="label" x="282" y="535.2" text-anchor="end"><tspan class="yrs">715–717</tspan><tspan class="name" dx="6">霊亀</tspan></text>
+</g>
+<g class="term c-era" data-id="era7" data-person="era:養老">
+<title>元号 養老　717年12月24日 〜 724年3月3日（期間 約6年）</title>
+<rect class="bar f-green" x="313" y="538.9" width="14" height="35.1" rx="3"/>
+<text class="label" x="282" y="552.2" text-anchor="end"><tspan class="yrs">717–724</tspan><tspan class="name" dx="6">養老</tspan></text>
+</g>
+<g class="term c-era" data-id="era8" data-person="era:神亀">
+<title>元号 神亀　724年3月3日 〜 729年9月2日（期間 約6年）</title>
+<rect class="bar f-green" x="313" y="576" width="14" height="31" rx="3"/>
+<text class="label" x="282" y="588.4" text-anchor="end"><tspan class="yrs">724–729</tspan><tspan class="name" dx="6">神亀</tspan></text>
+</g>
+<g class="term c-era" data-id="era9" data-person="era:天平">
+<title>元号 天平　729年9月2日 〜 749年5月4日（期間 約20年）</title>
+<rect class="bar f-green" x="313" y="609" width="14" height="116" rx="3"/>
+<text class="label" x="282" y="621.4" text-anchor="end"><tspan class="yrs">729–749</tspan><tspan class="name" dx="6">天平</tspan></text>
+</g>
+<g class="term c-era" data-id="era10" data-person="era:天平感宝">
+<title>元号 天平感宝　749年5月4日 〜 749年8月19日（期間 107日）</title>
+<rect class="bar f-green" x="313" y="725.4" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M311.5 726.9h-4L286 723.1h-2"/>
+<text class="label" x="282" y="728" text-anchor="end"><tspan class="yrs">749</tspan><tspan class="name" dx="6">天平感宝</tspan></text>
+</g>
+<g class="term c-era" data-id="era11" data-person="era:天平勝宝">
+<title>元号 天平勝宝　749年8月19日 〜 757年9月6日（期間 約8年）</title>
+<rect class="bar f-blue" x="313" y="728.8" width="14" height="46.3" rx="3"/>
+<path class="leader" d="M311.5 736.3h-4L286 740.1h-2"/>
+<text class="label" x="282" y="745" text-anchor="end"><tspan class="yrs">749–757</tspan><tspan class="name" dx="6">天平勝宝</tspan></text>
+</g>
+<g class="term c-era" data-id="era12" data-person="era:天平宝字">
+<title>元号 天平宝字　757年9月6日 〜 765年2月1日（期間 約7年）</title>
+<rect class="bar f-green" x="313" y="777.1" width="14" height="42.4" rx="3"/>
+<text class="label" x="282" y="789.5" text-anchor="end"><tspan class="yrs">757–765</tspan><tspan class="name" dx="6">天平宝字</tspan></text>
+</g>
+<g class="term c-era" data-id="era13" data-person="era:天平神護">
+<title>元号 天平神護　765年2月1日 〜 767年9月13日（期間 約3年）</title>
+<rect class="bar f-blue" x="313" y="821.5" width="14" height="13.7" rx="3"/>
+<text class="label" x="282" y="832.9" text-anchor="end"><tspan class="yrs">765–767</tspan><tspan class="name" dx="6">天平神護</tspan></text>
+</g>
+<g class="term c-era" data-id="era14" data-person="era:神護景雲">
+<title>元号 神護景雲　767年9月13日 〜 770年10月23日（期間 約3年）</title>
+<rect class="bar f-green" x="313" y="837.2" width="14" height="16.7" rx="3"/>
+<text class="label" x="282" y="849.9" text-anchor="end"><tspan class="yrs">767–770</tspan><tspan class="name" dx="6">神護景雲</tspan></text>
+</g>
+<g class="term c-era" data-id="era15" data-person="era:宝亀">
+<title>元号 宝亀　770年10月23日 〜 781年1月30日（期間 約10年）</title>
+<rect class="bar f-green" x="313" y="855.9" width="14" height="59.6" rx="3"/>
+<text class="label" x="282" y="868.2" text-anchor="end"><tspan class="yrs">770–781</tspan><tspan class="name" dx="6">宝亀</tspan></text>
+</g>
+<g class="term c-era" data-id="era16" data-person="era:天応">
+<title>元号 天応　781年1月30日 〜 782年9月30日（期間 608日）</title>
+<rect class="bar f-green" x="313" y="917.5" width="14" height="8" rx="3"/>
+<path class="leader" d="M311.5 921.5h-4L286 919.7h-2"/>
+<text class="label" x="282" y="924.6" text-anchor="end"><tspan class="yrs">781–782</tspan><tspan class="name" dx="6">天応</tspan></text>
+</g>
+<g class="term c-era" data-id="era17" data-person="era:延暦">
+<title>元号 延暦　782年9月30日 〜 806年6月8日（期間 約24年）</title>
+<rect class="bar f-blue" x="313" y="927.5" width="14" height="140.1" rx="3"/>
+<path class="leader" d="M311.5 935h-4L286 936.7h-2"/>
+<text class="label" x="282" y="941.6" text-anchor="end"><tspan class="yrs">782–806</tspan><tspan class="name" dx="6">延暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era18" data-person="era:大同">
+<title>元号 大同　806年6月8日 〜 810年10月20日（期間 約4年）</title>
+<rect class="bar f-blue" x="313" y="1069.6" width="14" height="24.2" rx="3"/>
+<text class="label" x="282" y="1082" text-anchor="end"><tspan class="yrs">806–810</tspan><tspan class="name" dx="6">大同</tspan></text>
+</g>
+<g class="term c-era" data-id="era19" data-person="era:弘仁">
+<title>元号 弘仁　810年10月20日 〜 824年2月8日（期間 約13年）</title>
+<rect class="bar f-blue" x="313" y="1095.8" width="14" height="77.8" rx="3"/>
+<text class="label" x="282" y="1108.2" text-anchor="end"><tspan class="yrs">810–824</tspan><tspan class="name" dx="6">弘仁</tspan></text>
+</g>
+<g class="term c-era" data-id="era20" data-person="era:天長">
+<title>元号 天長　824年2月8日 〜 834年2月14日（期間 約10年）</title>
+<rect class="bar f-blue" x="313" y="1175.6" width="14" height="58.1" rx="3"/>
+<text class="label" x="282" y="1188" text-anchor="end"><tspan class="yrs">824–834</tspan><tspan class="name" dx="6">天長</tspan></text>
+</g>
+<g class="term c-era" data-id="era21" data-person="era:承和">
+<title>元号 承和　834年2月14日 〜 848年7月16日（期間 約14年）</title>
+<rect class="bar f-blue" x="313" y="1235.8" width="14" height="84.5" rx="3"/>
+<text class="label" x="282" y="1248.1" text-anchor="end"><tspan class="yrs">834–848</tspan><tspan class="name" dx="6">承和</tspan></text>
+</g>
+<g class="term c-era" data-id="era22" data-person="era:嘉祥">
+<title>元号 嘉祥　848年7月16日 〜 851年6月1日（期間 約3年）</title>
+<rect class="bar f-green" x="313" y="1322.3" width="14" height="15.2" rx="3"/>
+<text class="label" x="282" y="1334.5" text-anchor="end"><tspan class="yrs">848–851</tspan><tspan class="name" dx="6">嘉祥</tspan></text>
+</g>
+<g class="term c-era" data-id="era23" data-person="era:仁寿">
+<title>元号 仁寿　851年6月1日 〜 854年12月23日（期間 約4年）</title>
+<rect class="bar f-blue" x="313" y="1339.5" width="14" height="19.4" rx="3"/>
+<text class="label" x="282" y="1351.5" text-anchor="end"><tspan class="yrs">851–854</tspan><tspan class="name" dx="6">仁寿</tspan></text>
+</g>
+<g class="term c-era" data-id="era24" data-person="era:斉衡">
+<title>元号 斉衡　854年12月23日 〜 857年3月20日（期間 約2年）</title>
+<rect class="bar f-green" x="313" y="1360.9" width="14" height="11.4" rx="3"/>
+<path class="leader" d="M311.5 1366.6h-4L286 1363.6h-2"/>
+<text class="label" x="282" y="1368.5" text-anchor="end"><tspan class="yrs">854–857</tspan><tspan class="name" dx="6">斉衡</tspan></text>
+</g>
+<g class="term c-era" data-id="era25" data-person="era:天安">
+<title>元号 天安　857年3月20日 〜 859年5月20日（期間 約2年）</title>
+<rect class="bar f-green" x="313" y="1374.3" width="14" height="11" rx="3"/>
+<text class="label" x="282" y="1385.5" text-anchor="end"><tspan class="yrs">857–859</tspan><tspan class="name" dx="6">天安</tspan></text>
+</g>
+<g class="term c-era" data-id="era26" data-person="era:貞観">
+<title>元号 貞観　859年5月20日 〜 877年6月1日（期間 約18年）</title>
+<rect class="bar f-blue" x="313" y="1387.3" width="14" height="106.2" rx="3"/>
+<path class="leader" d="M311.5 1394.8h-4L286 1397.6h-2"/>
+<text class="label" x="282" y="1402.5" text-anchor="end"><tspan class="yrs">859–877</tspan><tspan class="name" dx="6">貞観</tspan></text>
+</g>
+<g class="term c-era" data-id="era27" data-person="era:元慶">
+<title>元号 元慶　877年6月1日 〜 885年3月11日（期間 約8年）</title>
+<rect class="bar f-blue" x="313" y="1495.5" width="14" height="44.7" rx="3"/>
+<text class="label" x="282" y="1507.9" text-anchor="end"><tspan class="yrs">877–885</tspan><tspan class="name" dx="6">元慶</tspan></text>
+</g>
+<g class="term c-era" data-id="era28" data-person="era:仁和">
+<title>元号 仁和　885年3月11日 〜 889年5月30日（期間 約4年）</title>
+<rect class="bar f-blue" x="313" y="1542.2" width="14" height="23.3" rx="3"/>
+<text class="label" x="282" y="1554.5" text-anchor="end"><tspan class="yrs">885–889</tspan><tspan class="name" dx="6">仁和</tspan></text>
+</g>
+<g class="term c-era" data-id="era29" data-person="era:寛平">
+<title>元号 寛平　889年5月30日 〜 898年5月20日（期間 約9年）</title>
+<rect class="bar f-blue" x="313" y="1567.5" width="14" height="51.8" rx="3"/>
+<text class="label" x="282" y="1579.9" text-anchor="end"><tspan class="yrs">889–898</tspan><tspan class="name" dx="6">寛平</tspan></text>
+</g>
+<g class="term c-era" data-id="era30" data-person="era:昌泰">
+<title>元号 昌泰　898年5月20日 〜 901年8月31日（期間 約3年）</title>
+<rect class="bar f-blue" x="313" y="1621.3" width="14" height="17.7" rx="3"/>
+<text class="label" x="282" y="1633.7" text-anchor="end"><tspan class="yrs">898–901</tspan><tspan class="name" dx="6">昌泰</tspan></text>
+</g>
+<g class="term c-era" data-id="era31" data-person="era:延喜">
+<title>元号 延喜　901年8月31日 〜 923年5月29日（期間 約22年）</title>
+<rect class="bar-hatch" x="313" y="1641" width="14" height="128.5" rx="3"/>
+<text class="label" x="282" y="1653.4" text-anchor="end"><tspan class="yrs">901–923</tspan><tspan class="name" dx="6">延喜</tspan></text>
+</g>
+<g class="term c-era" data-id="era32" data-person="era:延長">
+<title>元号 延長　923年5月29日 〜 931年5月16日（期間 約8年）</title>
+<rect class="bar f-red" x="313" y="1771.5" width="14" height="45.8" rx="3"/>
+<text class="label" x="282" y="1783.8" text-anchor="end"><tspan class="yrs">923–931</tspan><tspan class="name" dx="6">延長</tspan></text>
+</g>
+<g class="term c-era" data-id="era33" data-person="era:承平">
+<title>元号 承平　931年5月16日 〜 938年6月22日（期間 約7年）</title>
+<rect class="bar f-blue" x="313" y="1819.3" width="14" height="40.6" rx="3"/>
+<text class="label" x="282" y="1831.6" text-anchor="end"><tspan class="yrs">931–938</tspan><tspan class="name" dx="6">承平</tspan></text>
+</g>
+<g class="term c-era" data-id="era34" data-person="era:天慶">
+<title>元号 天慶　938年6月22日 〜 947年5月15日（期間 約9年）</title>
+<rect class="bar f-red" x="313" y="1861.9" width="14" height="51.4" rx="3"/>
+<text class="label" x="282" y="1874.2" text-anchor="end"><tspan class="yrs">938–947</tspan><tspan class="name" dx="6">天慶</tspan></text>
+</g>
+<g class="term c-era" data-id="era35" data-person="era:天暦">
+<title>元号 天暦　947年5月15日 〜 957年11月21日（期間 約11年）</title>
+<rect class="bar f-blue" x="313" y="1915.2" width="14" height="61.1" rx="3"/>
+<text class="label" x="282" y="1927.6" text-anchor="end"><tspan class="yrs">947–957</tspan><tspan class="name" dx="6">天暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era36" data-person="era:天徳">
+<title>元号 天徳　957年11月21日 〜 961年3月5日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="1978.4" width="14" height="17.7" rx="3"/>
+<text class="label" x="282" y="1990.7" text-anchor="end"><tspan class="yrs">957–961</tspan><tspan class="name" dx="6">天徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era37" data-person="era:応和">
+<title>元号 応和　961年3月5日 〜 964年8月19日（期間 約3年）</title>
+<rect class="bar-hatch" x="313" y="1998.1" width="14" height="18.7" rx="3"/>
+<text class="label" x="282" y="2010.4" text-anchor="end"><tspan class="yrs">961–964</tspan><tspan class="name" dx="6">応和</tspan></text>
+</g>
+<g class="term c-era" data-id="era38" data-person="era:康保">
+<title>元号 康保　964年8月19日 〜 968年9月8日（期間 約4年）</title>
+<rect class="bar-hatch" x="313" y="2018.8" width="14" height="22.3" rx="3"/>
+<text class="label" x="282" y="2031.1" text-anchor="end"><tspan class="yrs">964–968</tspan><tspan class="name" dx="6">康保</tspan></text>
+</g>
+<g class="term c-era" data-id="era39" data-person="era:安和">
+<title>元号 安和　968年9月8日 〜 970年5月3日（期間 602日）</title>
+<rect class="bar f-blue" x="313" y="2043.2" width="14" height="7.9" rx="3"/>
+<path class="leader" d="M311.5 2047.1h-4L286 2043.2h-2"/>
+<text class="label" x="282" y="2048.1" text-anchor="end"><tspan class="yrs">968–970</tspan><tspan class="name" dx="6">安和</tspan></text>
+</g>
+<g class="term c-era" data-id="era40" data-person="era:天禄">
+<title>元号 天禄　970年5月3日 〜 974年1月16日（期間 約4年）</title>
+<rect class="bar f-blue" x="313" y="2053.1" width="14" height="20.2" rx="3"/>
+<text class="label" x="282" y="2065.1" text-anchor="end"><tspan class="yrs">970–974</tspan><tspan class="name" dx="6">天禄</tspan></text>
+</g>
+<g class="term c-era" data-id="era41" data-person="era:天延">
+<title>元号 天延　974年1月16日 〜 976年8月11日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="2075.3" width="14" height="13.4" rx="3"/>
+<path class="leader" d="M311.5 2082h-4L286 2077.2h-2"/>
+<text class="label" x="282" y="2082.1" text-anchor="end"><tspan class="yrs">974–976</tspan><tspan class="name" dx="6">天延</tspan></text>
+</g>
+<g class="term c-era" data-id="era42" data-person="era:貞元">
+<title>元号 貞元　976年8月11日 〜 978年12月31日（期間 約2年）</title>
+<rect class="bar f-red" x="313" y="2090.7" width="14" height="12.3" rx="3"/>
+<path class="leader" d="M311.5 2096.9h-4L286 2094.2h-2"/>
+<text class="label" x="282" y="2099.1" text-anchor="end"><tspan class="yrs">976–978</tspan><tspan class="name" dx="6">貞元</tspan></text>
+</g>
+<g class="term c-era" data-id="era43" data-person="era:天元">
+<title>元号 天元　978年12月31日 〜 983年5月29日（期間 約4年）</title>
+<rect class="bar f-red" x="313" y="2105" width="14" height="24.4" rx="3"/>
+<text class="label" x="282" y="2116.1" text-anchor="end"><tspan class="yrs">978–983</tspan><tspan class="name" dx="6">天元</tspan></text>
+</g>
+<g class="term c-era" data-id="era44" data-person="era:永観">
+<title>元号 永観　983年5月29日 〜 985年5月19日（期間 721日）</title>
+<rect class="bar f-red" x="313" y="2131.5" width="14" height="9.8" rx="3"/>
+<path class="leader" d="M311.5 2136.4h-4L286 2128.2h-2"/>
+<text class="label" x="282" y="2133.1" text-anchor="end"><tspan class="yrs">983–985</tspan><tspan class="name" dx="6">永観</tspan></text>
+</g>
+<g class="term c-era" data-id="era45" data-person="era:寛和">
+<title>元号 寛和　985年5月19日 〜 987年5月5日（期間 716日）</title>
+<rect class="bar f-blue" x="313" y="2143.3" width="14" height="9.8" rx="3"/>
+<path class="leader" d="M311.5 2148.2h-4L286 2145.2h-2"/>
+<text class="label" x="282" y="2150.1" text-anchor="end"><tspan class="yrs">985–987</tspan><tspan class="name" dx="6">寛和</tspan></text>
+</g>
+<g class="term c-era" data-id="era46" data-person="era:永延">
+<title>元号 永延　987年5月5日 〜 989年9月10日（期間 約2年）</title>
+<rect class="bar f-blue" x="313" y="2155.1" width="14" height="12.1" rx="3"/>
+<text class="label" x="282" y="2167.1" text-anchor="end"><tspan class="yrs">987–989</tspan><tspan class="name" dx="6">永延</tspan></text>
+</g>
+<g class="term c-era" data-id="era47" data-person="era:永祚">
+<title>元号 永祚　989年9月10日 〜 990年11月26日（期間 442日）</title>
+<rect class="bar f-red" x="313" y="2169.2" width="14" height="5.3" rx="2.6"/>
+<path class="leader" d="M311.5 2171.8h-4L286 2179.2h-2"/>
+<text class="label" x="282" y="2184.1" text-anchor="end"><tspan class="yrs">989–990</tspan><tspan class="name" dx="6">永祚</tspan></text>
+</g>
+<g class="term c-era" data-id="era48" data-person="era:正暦">
+<title>元号 正暦　990年11月26日 〜 995年3月25日（期間 約4年）</title>
+<rect class="bar f-red" x="313" y="2176.5" width="14" height="24" rx="3"/>
+<path class="leader" d="M311.5 2184h-4L286 2196.2h-2"/>
+<text class="label" x="282" y="2201.1" text-anchor="end"><tspan class="yrs">990–995</tspan><tspan class="name" dx="6">正暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era49" data-person="era:長徳">
+<title>元号 長徳　995年3月25日 〜 999年2月1日（期間 約4年）</title>
+<rect class="bar f-red" x="313" y="2202.4" width="14" height="21.1" rx="3"/>
+<path class="leader" d="M311.5 2209.9h-4L286 2213.2h-2"/>
+<text class="label" x="282" y="2218.1" text-anchor="end"><tspan class="yrs">995–999</tspan><tspan class="name" dx="6">長徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era50" data-person="era:長保">
+<title>元号 長保　999年2月1日 〜 1004年8月8日（期間 約6年）</title>
+<rect class="bar f-red" x="313" y="2225.6" width="14" height="31.1" rx="3"/>
+<text class="label" x="282" y="2237.9" text-anchor="end"><tspan class="yrs">999–1004</tspan><tspan class="name" dx="6">長保</tspan></text>
+</g>
+<g class="term c-era" data-id="era51" data-person="era:寛弘">
+<title>元号 寛弘　1004年8月8日 〜 1013年2月8日（期間 約9年）</title>
+<rect class="bar f-red" x="313" y="2258.7" width="14" height="49" rx="3"/>
+<text class="label" x="282" y="2271" text-anchor="end"><tspan class="yrs">1004–1013</tspan><tspan class="name" dx="6">寛弘</tspan></text>
+</g>
+<g class="term c-era" data-id="era52" data-person="era:長和">
+<title>元号 長和　1013年2月8日 〜 1017年5月21日（期間 約4年）</title>
+<rect class="bar f-blue" x="313" y="2309.7" width="14" height="23.7" rx="3"/>
+<text class="label" x="282" y="2322" text-anchor="end"><tspan class="yrs">1013–1017</tspan><tspan class="name" dx="6">長和</tspan></text>
+</g>
+<g class="term c-era" data-id="era53" data-person="era:寛仁">
+<title>元号 寛仁　1017年5月21日 〜 1021年3月17日（期間 約4年）</title>
+<rect class="bar f-blue" x="313" y="2335.4" width="14" height="20.9" rx="3"/>
+<text class="label" x="282" y="2347.7" text-anchor="end"><tspan class="yrs">1017–1021</tspan><tspan class="name" dx="6">寛仁</tspan></text>
+</g>
+<g class="term c-era" data-id="era54" data-person="era:治安">
+<title>元号 治安　1021年3月17日 〜 1024年8月19日（期間 約3年）</title>
+<rect class="bar-hatch" x="313" y="2358.3" width="14" height="18.6" rx="3"/>
+<text class="label" x="282" y="2370.7" text-anchor="end"><tspan class="yrs">1021–1024</tspan><tspan class="name" dx="6">治安</tspan></text>
+</g>
+<g class="term c-era" data-id="era55" data-person="era:万寿">
+<title>元号 万寿　1024年8月19日 〜 1028年8月18日（期間 約4年）</title>
+<rect class="bar-hatch" x="313" y="2378.8" width="14" height="22" rx="3"/>
+<text class="label" x="282" y="2391.2" text-anchor="end"><tspan class="yrs">1024–1028</tspan><tspan class="name" dx="6">万寿</tspan></text>
+</g>
+<g class="term c-era" data-id="era56" data-person="era:長元">
+<title>元号 長元　1028年8月18日 〜 1037年5月9日（期間 約9年）</title>
+<rect class="bar f-red" x="313" y="2402.8" width="14" height="50.3" rx="3"/>
+<text class="label" x="282" y="2415.2" text-anchor="end"><tspan class="yrs">1028–1037</tspan><tspan class="name" dx="6">長元</tspan></text>
+</g>
+<g class="term c-era" data-id="era57" data-person="era:長暦">
+<title>元号 長暦　1037年5月9日 〜 1040年12月16日（期間 約4年）</title>
+<rect class="bar f-blue" x="313" y="2455.2" width="14" height="19.6" rx="3"/>
+<text class="label" x="282" y="2467.5" text-anchor="end"><tspan class="yrs">1037–1040</tspan><tspan class="name" dx="6">長暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era58" data-person="era:長久">
+<title>元号 長久　1040年12月16日 〜 1044年12月16日（期間 約4年）</title>
+<rect class="bar f-red" x="313" y="2476.8" width="14" height="22" rx="3"/>
+<text class="label" x="282" y="2489.2" text-anchor="end"><tspan class="yrs">1040–1044</tspan><tspan class="name" dx="6">長久</tspan></text>
+</g>
+<g class="term c-era" data-id="era59" data-person="era:寛徳">
+<title>元号 寛徳　1044年12月16日 〜 1046年5月22日（期間 522日）</title>
+<rect class="bar f-red" x="313" y="2500.8" width="14" height="6.6" rx="3"/>
+<path class="leader" d="M311.5 2504.1h-4L286 2502h-2"/>
+<text class="label" x="282" y="2506.8" text-anchor="end"><tspan class="yrs">1044–1046</tspan><tspan class="name" dx="6">寛徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era60" data-person="era:永承">
+<title>元号 永承　1046年5月22日 〜 1053年2月2日（期間 約7年）</title>
+<rect class="bar f-blue" x="313" y="2509.4" width="14" height="38.2" rx="3"/>
+<path class="leader" d="M311.5 2516.9h-4L286 2519h-2"/>
+<text class="label" x="282" y="2523.8" text-anchor="end"><tspan class="yrs">1046–1053</tspan><tspan class="name" dx="6">永承</tspan></text>
+</g>
+<g class="term c-era" data-id="era61" data-person="era:天喜">
+<title>元号 天喜　1053年2月2日 〜 1058年9月19日（期間 約6年）</title>
+<rect class="bar f-red" x="313" y="2549.6" width="14" height="31.8" rx="3"/>
+<text class="label" x="282" y="2561.9" text-anchor="end"><tspan class="yrs">1053–1058</tspan><tspan class="name" dx="6">天喜</tspan></text>
+</g>
+<g class="term c-era" data-id="era62" data-person="era:康平">
+<title>元号 康平　1058年9月19日 〜 1065年9月4日（期間 約7年）</title>
+<rect class="bar f-red" x="313" y="2583.3" width="14" height="39.8" rx="3"/>
+<text class="label" x="282" y="2595.7" text-anchor="end"><tspan class="yrs">1058–1065</tspan><tspan class="name" dx="6">康平</tspan></text>
+</g>
+<g class="term c-era" data-id="era63" data-person="era:治暦">
+<title>元号 治暦　1065年9月4日 〜 1069年5月6日（期間 約4年）</title>
+<rect class="bar f-red" x="313" y="2625.1" width="14" height="20" rx="3"/>
+<text class="label" x="282" y="2637.5" text-anchor="end"><tspan class="yrs">1065–1069</tspan><tspan class="name" dx="6">治暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era64" data-person="era:延久">
+<title>元号 延久　1069年5月6日 〜 1074年9月16日（期間 約5年）</title>
+<rect class="bar f-blue" x="313" y="2647.1" width="14" height="30.2" rx="3"/>
+<text class="label" x="282" y="2659.5" text-anchor="end"><tspan class="yrs">1069–1074</tspan><tspan class="name" dx="6">延久</tspan></text>
+</g>
+<g class="term c-era" data-id="era65" data-person="era:承保">
+<title>元号 承保　1074年9月16日 〜 1077年12月5日（期間 約3年）</title>
+<rect class="bar f-blue" x="313" y="2679.3" width="14" height="17.3" rx="3"/>
+<path class="leader" d="M311.5 2686.8h-4L286 2677.9h-2"/>
+<text class="label" x="282" y="2682.8" text-anchor="end"><tspan class="yrs">1074–1077</tspan><tspan class="name" dx="6">承保</tspan></text>
+</g>
+<g class="term c-era" data-id="era66" data-person="era:承暦">
+<title>元号 承暦　1077年12月5日 〜 1081年3月22日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="2698.6" width="14" height="17.8" rx="3"/>
+<path class="leader" d="M311.5 2706.1h-4L286 2694.9h-2"/>
+<text class="label" x="282" y="2699.8" text-anchor="end"><tspan class="yrs">1077–1081</tspan><tspan class="name" dx="6">承暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era67" data-person="era:永保">
+<title>元号 永保　1081年3月22日 〜 1084年3月15日（期間 約3年）</title>
+<rect class="bar-hatch" x="313" y="2718.4" width="14" height="15.9" rx="3"/>
+<path class="leader" d="M311.5 2725.9h-4L286 2711.9h-2"/>
+<text class="label" x="282" y="2716.8" text-anchor="end"><tspan class="yrs">1081–1084</tspan><tspan class="name" dx="6">永保</tspan></text>
+</g>
+<g class="term c-era" data-id="era68" data-person="era:応徳">
+<title>元号 応徳　1084年3月15日 〜 1087年5月11日（期間 約3年）</title>
+<rect class="bar-hatch" x="313" y="2736.3" width="14" height="16.9" rx="3"/>
+<path class="leader" d="M311.5 2743.8h-4L286 2728.9h-2"/>
+<text class="label" x="282" y="2733.8" text-anchor="end"><tspan class="yrs">1084–1087</tspan><tspan class="name" dx="6">応徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era69" data-person="era:寛治">
+<title>元号 寛治　1087年5月11日 〜 1095年1月23日（期間 約8年）</title>
+<rect class="bar f-blue" x="313" y="2755.2" width="14" height="44.2" rx="3"/>
+<path class="leader" d="M311.5 2762.7h-4L286 2745.9h-2"/>
+<text class="label" x="282" y="2750.8" text-anchor="end"><tspan class="yrs">1087–1095</tspan><tspan class="name" dx="6">寛治</tspan></text>
+</g>
+<g class="term c-era" data-id="era70" data-person="era:嘉保">
+<title>元号 嘉保　1095年1月23日 〜 1097年1月3日（期間 711日）</title>
+<rect class="bar f-red" x="313" y="2801.4" width="14" height="9.7" rx="3"/>
+<path class="leader" d="M311.5 2806.3h-4L286 2762.9h-2"/>
+<text class="label" x="282" y="2767.8" text-anchor="end"><tspan class="yrs">1095–1097</tspan><tspan class="name" dx="6">嘉保</tspan></text>
+</g>
+<g class="term c-era" data-id="era71" data-person="era:永長">
+<title>元号 永長　1097年1月3日 〜 1097年12月27日（期間 358日）</title>
+<rect class="bar f-red" x="313" y="2813.1" width="14" height="3.9" rx="1.9"/>
+<path class="leader" d="M311.5 2815h-4L286 2779.9h-2"/>
+<text class="label" x="282" y="2784.8" text-anchor="end"><tspan class="yrs">1097</tspan><tspan class="name" dx="6">永長</tspan></text>
+</g>
+<g class="term c-era" data-id="era72" data-person="era:承徳">
+<title>元号 承徳　1097年12月27日 〜 1099年9月15日（期間 627日）</title>
+<rect class="bar f-red" x="313" y="2819" width="14" height="8.3" rx="3"/>
+<path class="leader" d="M311.5 2823.1h-4L286 2796.9h-2"/>
+<text class="label" x="282" y="2801.8" text-anchor="end"><tspan class="yrs">1097–1099</tspan><tspan class="name" dx="6">承徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era73" data-person="era:康和">
+<title>元号 康和　1099年9月15日 〜 1104年3月8日（期間 約4年）</title>
+<rect class="bar f-red" x="313" y="2829.3" width="14" height="24.9" rx="3"/>
+<path class="leader" d="M311.5 2836.8h-4L286 2813.9h-2"/>
+<text class="label" x="282" y="2818.8" text-anchor="end"><tspan class="yrs">1099–1104</tspan><tspan class="name" dx="6">康和</tspan></text>
+</g>
+<g class="term c-era" data-id="era74" data-person="era:長治">
+<title>元号 長治　1104年3月8日 〜 1106年5月13日（期間 約2年）</title>
+<rect class="bar f-red" x="313" y="2856.2" width="14" height="11.1" rx="3"/>
+<path class="leader" d="M311.5 2861.7h-4L286 2830.9h-2"/>
+<text class="label" x="282" y="2835.8" text-anchor="end"><tspan class="yrs">1104–1106</tspan><tspan class="name" dx="6">長治</tspan></text>
+</g>
+<g class="term c-era" data-id="era75" data-person="era:嘉承">
+<title>元号 嘉承　1106年5月13日 〜 1108年9月9日（期間 約2年）</title>
+<rect class="bar f-red" x="313" y="2869.2" width="14" height="12" rx="3"/>
+<path class="leader" d="M311.5 2875.2h-4L286 2847.9h-2"/>
+<text class="label" x="282" y="2852.8" text-anchor="end"><tspan class="yrs">1106–1108</tspan><tspan class="name" dx="6">嘉承</tspan></text>
+</g>
+<g class="term c-era" data-id="era76" data-person="era:天仁">
+<title>元号 天仁　1108年9月9日 〜 1110年7月31日（期間 690日）</title>
+<rect class="bar f-blue" x="313" y="2883.2" width="14" height="9.3" rx="3"/>
+<path class="leader" d="M311.5 2887.9h-4L286 2864.9h-2"/>
+<text class="label" x="282" y="2869.8" text-anchor="end"><tspan class="yrs">1108–1110</tspan><tspan class="name" dx="6">天仁</tspan></text>
+</g>
+<g class="term c-era" data-id="era77" data-person="era:天永">
+<title>元号 天永　1110年7月31日 〜 1113年8月25日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="2894.5" width="14" height="16.4" rx="3"/>
+<path class="leader" d="M311.5 2902h-4L286 2881.9h-2"/>
+<text class="label" x="282" y="2886.8" text-anchor="end"><tspan class="yrs">1110–1113</tspan><tspan class="name" dx="6">天永</tspan></text>
+</g>
+<g class="term c-era" data-id="era78" data-person="era:永久">
+<title>元号 永久　1113年8月25日 〜 1118年4月25日（期間 約5年）</title>
+<rect class="bar f-red" x="313" y="2912.9" width="14" height="26" rx="3"/>
+<path class="leader" d="M311.5 2920.4h-4L286 2898.9h-2"/>
+<text class="label" x="282" y="2903.8" text-anchor="end"><tspan class="yrs">1113–1118</tspan><tspan class="name" dx="6">永久</tspan></text>
+</g>
+<g class="term c-era" data-id="era79" data-person="era:元永">
+<title>元号 元永　1118年4月25日 〜 1120年5月9日（期間 約2年）</title>
+<rect class="bar f-red" x="313" y="2940.9" width="14" height="10.2" rx="3"/>
+<path class="leader" d="M311.5 2946.1h-4L286 2915.9h-2"/>
+<text class="label" x="282" y="2920.8" text-anchor="end"><tspan class="yrs">1118–1120</tspan><tspan class="name" dx="6">元永</tspan></text>
+</g>
+<g class="term c-era" data-id="era80" data-person="era:保安">
+<title>元号 保安　1120年5月9日 〜 1124年5月18日（期間 約4年）</title>
+<rect class="bar f-red" x="313" y="2953.2" width="14" height="22.1" rx="3"/>
+<path class="leader" d="M311.5 2960.7h-4L286 2932.9h-2"/>
+<text class="label" x="282" y="2937.8" text-anchor="end"><tspan class="yrs">1120–1124</tspan><tspan class="name" dx="6">保安</tspan></text>
+</g>
+<g class="term c-era" data-id="era81" data-person="era:天治">
+<title>元号 天治　1124年5月18日 〜 1126年2月15日（期間 638日）</title>
+<rect class="bar f-blue" x="313" y="2977.3" width="14" height="8.5" rx="3"/>
+<path class="leader" d="M311.5 2981.6h-4L286 2949.9h-2"/>
+<text class="label" x="282" y="2954.8" text-anchor="end"><tspan class="yrs">1124–1126</tspan><tspan class="name" dx="6">天治</tspan></text>
+</g>
+<g class="term c-era" data-id="era82" data-person="era:大治">
+<title>元号 大治　1126年2月15日 〜 1131年2月28日（期間 約5年）</title>
+<rect class="bar f-red" x="313" y="2987.8" width="14" height="28.2" rx="3"/>
+<path class="leader" d="M311.5 2995.3h-4L286 2966.9h-2"/>
+<text class="label" x="282" y="2971.8" text-anchor="end"><tspan class="yrs">1126–1131</tspan><tspan class="name" dx="6">大治</tspan></text>
+</g>
+<g class="term c-era" data-id="era83" data-person="era:天承">
+<title>元号 天承　1131年2月28日 〜 1132年9月21日（期間 571日）</title>
+<rect class="bar f-red" x="313" y="3018" width="14" height="7.4" rx="3"/>
+<path class="leader" d="M311.5 3021.7h-4L286 2983.9h-2"/>
+<text class="label" x="282" y="2988.8" text-anchor="end"><tspan class="yrs">1131–1132</tspan><tspan class="name" dx="6">天承</tspan></text>
+</g>
+<g class="term c-era" data-id="era84" data-person="era:長承">
+<title>元号 長承　1132年9月21日 〜 1135年6月10日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="3027.4" width="14" height="14.3" rx="3"/>
+<path class="leader" d="M311.5 3034.5h-4L286 3000.9h-2"/>
+<text class="label" x="282" y="3005.8" text-anchor="end"><tspan class="yrs">1132–1135</tspan><tspan class="name" dx="6">長承</tspan></text>
+</g>
+<g class="term c-era" data-id="era85" data-person="era:保延">
+<title>元号 保延　1135年6月10日 〜 1141年8月13日（期間 約6年）</title>
+<rect class="bar f-red" x="313" y="3043.7" width="14" height="35.1" rx="3"/>
+<path class="leader" d="M311.5 3051.2h-4L286 3017.9h-2"/>
+<text class="label" x="282" y="3022.8" text-anchor="end"><tspan class="yrs">1135–1141</tspan><tspan class="name" dx="6">保延</tspan></text>
+</g>
+<g class="term c-era" data-id="era86" data-person="era:永治">
+<title>元号 永治　1141年8月13日 〜 1142年5月25日（期間 285日）</title>
+<rect class="bar-hatch" x="313" y="3080.6" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M311.5 3082.1h-4L286 3034.9h-2"/>
+<text class="label" x="282" y="3039.8" text-anchor="end"><tspan class="yrs">1141–1142</tspan><tspan class="name" dx="6">永治</tspan></text>
+</g>
+<g class="term c-era" data-id="era87" data-person="era:康治">
+<title>元号 康治　1142年5月25日 〜 1144年3月28日（期間 673日）</title>
+<rect class="bar f-blue" x="313" y="3085.4" width="14" height="9.1" rx="3"/>
+<path class="leader" d="M311.5 3090h-4L286 3051.9h-2"/>
+<text class="label" x="282" y="3056.8" text-anchor="end"><tspan class="yrs">1142–1144</tspan><tspan class="name" dx="6">康治</tspan></text>
+</g>
+<g class="term c-era" data-id="era88" data-person="era:天養">
+<title>元号 天養　1144年3月28日 〜 1145年8月12日（期間 502日）</title>
+<rect class="bar-hatch" x="313" y="3096.5" width="14" height="6.2" rx="3"/>
+<path class="leader" d="M311.5 3099.6h-4L286 3068.9h-2"/>
+<text class="label" x="282" y="3073.8" text-anchor="end"><tspan class="yrs">1144–1145</tspan><tspan class="name" dx="6">天養</tspan></text>
+</g>
+<g class="term c-era" data-id="era89" data-person="era:久安">
+<title>元号 久安　1145年8月12日 〜 1151年2月14日（期間 約6年）</title>
+<rect class="bar f-red" x="313" y="3104.7" width="14" height="31.1" rx="3"/>
+<path class="leader" d="M311.5 3112.2h-4L286 3085.9h-2"/>
+<text class="label" x="282" y="3090.8" text-anchor="end"><tspan class="yrs">1145–1151</tspan><tspan class="name" dx="6">久安</tspan></text>
+</g>
+<g class="term c-era" data-id="era90" data-person="era:仁平">
+<title>元号 仁平　1151年2月14日 〜 1154年12月4日（期間 約4年）</title>
+<rect class="bar f-red" x="313" y="3137.8" width="14" height="20.8" rx="3"/>
+<path class="leader" d="M311.5 3145.3h-4L286 3102.9h-2"/>
+<text class="label" x="282" y="3107.8" text-anchor="end"><tspan class="yrs">1151–1154</tspan><tspan class="name" dx="6">仁平</tspan></text>
+</g>
+<g class="term c-era" data-id="era91" data-person="era:久寿">
+<title>元号 久寿　1154年12月4日 〜 1156年5月18日（期間 531日）</title>
+<rect class="bar f-red" x="313" y="3160.6" width="14" height="6.7" rx="3"/>
+<path class="leader" d="M311.5 3164h-4L286 3119.9h-2"/>
+<text class="label" x="282" y="3124.8" text-anchor="end"><tspan class="yrs">1154–1156</tspan><tspan class="name" dx="6">久寿</tspan></text>
+</g>
+<g class="term c-era" data-id="era92" data-person="era:保元">
+<title>元号 保元　1156年5月18日 〜 1159年5月9日（期間 約3年）</title>
+<rect class="bar f-blue" x="313" y="3169.3" width="14" height="15.8" rx="3"/>
+<path class="leader" d="M311.5 3176.8h-4L286 3136.9h-2"/>
+<text class="label" x="282" y="3141.8" text-anchor="end"><tspan class="yrs">1156–1159</tspan><tspan class="name" dx="6">保元</tspan></text>
+</g>
+<g class="term c-era" data-id="era93" data-person="era:平治">
+<title>元号 平治　1159年5月9日 〜 1160年2月18日（期間 285日）</title>
+<rect class="bar f-blue" x="313" y="3187" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M311.5 3188.5h-4L286 3153.9h-2"/>
+<text class="label" x="282" y="3158.8" text-anchor="end"><tspan class="yrs">1159–1160</tspan><tspan class="name" dx="6">平治</tspan></text>
+</g>
+<g class="term c-era" data-id="era94" data-person="era:永暦">
+<title>元号 永暦　1160年2月18日 〜 1161年9月24日（期間 584日）</title>
+<rect class="bar f-red" x="313" y="3191.9" width="14" height="7.6" rx="3"/>
+<path class="leader" d="M311.5 3195.6h-4L286 3170.9h-2"/>
+<text class="label" x="282" y="3175.8" text-anchor="end"><tspan class="yrs">1160–1161</tspan><tspan class="name" dx="6">永暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era95" data-person="era:応保">
+<title>元号 応保　1161年9月24日 〜 1163年5月4日（期間 587日）</title>
+<rect class="bar f-red" x="313" y="3201.4" width="14" height="7.6" rx="3"/>
+<path class="leader" d="M311.5 3205.3h-4L286 3187.9h-2"/>
+<text class="label" x="282" y="3192.8" text-anchor="end"><tspan class="yrs">1161–1163</tspan><tspan class="name" dx="6">応保</tspan></text>
+</g>
+<g class="term c-era" data-id="era96" data-person="era:長寛">
+<title>元号 長寛　1163年5月4日 〜 1165年7月14日（期間 約2年）</title>
+<rect class="bar f-red" x="313" y="3211.1" width="14" height="11.2" rx="3"/>
+<path class="leader" d="M311.5 3216.7h-4L286 3204.9h-2"/>
+<text class="label" x="282" y="3209.8" text-anchor="end"><tspan class="yrs">1163–1165</tspan><tspan class="name" dx="6">長寛</tspan></text>
+</g>
+<g class="term c-era" data-id="era97" data-person="era:永万">
+<title>元号 永万　1165年7月14日 〜 1166年9月23日（期間 436日）</title>
+<rect class="bar f-red" x="313" y="3224.3" width="14" height="5.2" rx="2.6"/>
+<path class="leader" d="M311.5 3226.8h-4L286 3221.9h-2"/>
+<text class="label" x="282" y="3226.8" text-anchor="end"><tspan class="yrs">1165–1166</tspan><tspan class="name" dx="6">永万</tspan></text>
+</g>
+<g class="term c-era" data-id="era98" data-person="era:仁安">
+<title>元号 仁安　1166年9月23日 〜 1169年5月6日（期間 約3年）</title>
+<rect class="bar f-blue" x="313" y="3231.4" width="14" height="13.7" rx="3"/>
+<text class="label" x="282" y="3243.8" text-anchor="end"><tspan class="yrs">1166–1169</tspan><tspan class="name" dx="6">仁安</tspan></text>
+</g>
+<g class="term c-era" data-id="era99" data-person="era:嘉応">
+<title>元号 嘉応　1169年5月6日 〜 1171年5月27日（期間 約2年）</title>
+<rect class="bar f-blue" x="313" y="3247.1" width="14" height="10.3" rx="3"/>
+<path class="leader" d="M311.5 3252.3h-4L286 3255.9h-2"/>
+<text class="label" x="282" y="3260.8" text-anchor="end"><tspan class="yrs">1169–1171</tspan><tspan class="name" dx="6">嘉応</tspan></text>
+</g>
+<g class="term c-era" data-id="era100" data-person="era:承安">
+<title>元号 承安　1171年5月27日 〜 1175年8月16日（期間 約4年）</title>
+<rect class="bar f-red" x="313" y="3259.5" width="14" height="23.3" rx="3"/>
+<path class="leader" d="M311.5 3267h-4L286 3272.9h-2"/>
+<text class="label" x="282" y="3277.8" text-anchor="end"><tspan class="yrs">1171–1175</tspan><tspan class="name" dx="6">承安</tspan></text>
+</g>
+<g class="term c-era" data-id="era101" data-person="era:安元">
+<title>元号 安元　1175年8月16日 〜 1177年8月29日（期間 約2年）</title>
+<rect class="bar f-red" x="313" y="3284.8" width="14" height="10.2" rx="3"/>
+<text class="label" x="282" y="3294.8" text-anchor="end"><tspan class="yrs">1175–1177</tspan><tspan class="name" dx="6">安元</tspan></text>
+</g>
+<g class="term c-era" data-id="era102" data-person="era:治承">
+<title>元号 治承　1177年8月29日 〜 1181年8月25日（期間 約4年）</title>
+<rect class="bar f-red" x="313" y="3297" width="14" height="21.9" rx="3"/>
+<path class="leader" d="M311.5 3304.5h-4L286 3306.9h-2"/>
+<text class="label" x="282" y="3311.8" text-anchor="end"><tspan class="yrs">1177–1181</tspan><tspan class="name" dx="6">治承</tspan></text>
+</g>
+<g class="term c-era" data-id="era103" data-person="era:養和">
+<title>元号 養和　1181年8月25日 〜 1182年6月29日（期間 308日）</title>
+<rect class="bar f-blue" x="313" y="3321" width="14" height="3.1" rx="1.5"/>
+<text class="label" x="282" y="3328.8" text-anchor="end"><tspan class="yrs">1181–1182</tspan><tspan class="name" dx="6">養和</tspan></text>
+</g>
+<g class="term c-era" data-id="era104" data-person="era:寿永">
+<title>元号 寿永　1182年6月29日 〜 1184年5月27日（期間 698日）</title>
+<rect class="bar f-red" x="313" y="3326" width="14" height="9.5" rx="3"/>
+<path class="leader" d="M311.5 3330.7h-4L286 3340.9h-2"/>
+<text class="label" x="282" y="3345.8" text-anchor="end"><tspan class="yrs">1182–1184</tspan><tspan class="name" dx="6">寿永</tspan></text>
+</g>
+<g class="term c-era" data-id="era105" data-person="era:元暦">
+<title>元号 元暦　1184年5月27日 〜 1185年9月9日（期間 470日）</title>
+<rect class="bar f-blue" x="313" y="3337.5" width="14" height="5.7" rx="2.9"/>
+<path class="leader" d="M311.5 3340.3h-4L286 3357.9h-2"/>
+<text class="label" x="282" y="3362.8" text-anchor="end"><tspan class="yrs">1184–1185</tspan><tspan class="name" dx="6">元暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era106" data-person="era:文治">
+<title>元号 文治　1185年9月9日 〜 1190年5月16日（期間 約5年）</title>
+<rect class="bar f-red" x="313" y="3345.2" width="14" height="26.1" rx="3"/>
+<path class="leader" d="M311.5 3352.7h-4L286 3374.9h-2"/>
+<text class="label" x="282" y="3379.8" text-anchor="end"><tspan class="yrs">1185–1190</tspan><tspan class="name" dx="6">文治</tspan></text>
+</g>
+<g class="term c-era" data-id="era107" data-person="era:建久">
+<title>元号 建久　1190年5月16日 〜 1199年5月23日（期間 約9年）</title>
+<rect class="bar f-red" x="313" y="3373.3" width="14" height="52.1" rx="3"/>
+<path class="leader" d="M311.5 3380.8h-4L286 3391.9h-2"/>
+<text class="label" x="282" y="3396.8" text-anchor="end"><tspan class="yrs">1190–1199</tspan><tspan class="name" dx="6">建久</tspan></text>
+</g>
+<g class="term c-era" data-id="era108" data-person="era:正治">
+<title>元号 正治　1199年5月23日 〜 1201年3月19日（期間 666日）</title>
+<rect class="bar f-blue" x="313" y="3427.4" width="14" height="8.9" rx="3"/>
+<path class="leader" d="M311.5 3431.9h-4L286 3408.9h-2"/>
+<text class="label" x="282" y="3413.8" text-anchor="end"><tspan class="yrs">1199–1201</tspan><tspan class="name" dx="6">正治</tspan></text>
+</g>
+<g class="term c-era" data-id="era109" data-person="era:建仁">
+<title>元号 建仁　1201年3月19日 〜 1204年3月23日（期間 約3年）</title>
+<rect class="bar-hatch" x="313" y="3438.3" width="14" height="16.1" rx="3"/>
+<path class="leader" d="M311.5 3445.8h-4L286 3425.9h-2"/>
+<text class="label" x="282" y="3430.8" text-anchor="end"><tspan class="yrs">1201–1204</tspan><tspan class="name" dx="6">建仁</tspan></text>
+</g>
+<g class="term c-era" data-id="era110" data-person="era:元久">
+<title>元号 元久　1204年3月23日 〜 1206年6月5日（期間 約2年）</title>
+<rect class="bar-hatch" x="313" y="3456.4" width="14" height="11.2" rx="3"/>
+<path class="leader" d="M311.5 3462h-4L286 3442.9h-2"/>
+<text class="label" x="282" y="3447.8" text-anchor="end"><tspan class="yrs">1204–1206</tspan><tspan class="name" dx="6">元久</tspan></text>
+</g>
+<g class="term c-era" data-id="era111" data-person="era:建永">
+<title>元号 建永　1206年6月5日 〜 1207年11月16日（期間 529日）</title>
+<rect class="bar f-red" x="313" y="3469.6" width="14" height="6.7" rx="3"/>
+<path class="leader" d="M311.5 3473h-4L286 3459.9h-2"/>
+<text class="label" x="282" y="3464.8" text-anchor="end"><tspan class="yrs">1206–1207</tspan><tspan class="name" dx="6">建永</tspan></text>
+</g>
+<g class="term c-era" data-id="era112" data-person="era:承元">
+<title>元号 承元　1207年11月16日 〜 1211年4月23日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="3478.3" width="14" height="18.6" rx="3"/>
+<path class="leader" d="M311.5 3485.8h-4L286 3476.9h-2"/>
+<text class="label" x="282" y="3481.8" text-anchor="end"><tspan class="yrs">1207–1211</tspan><tspan class="name" dx="6">承元</tspan></text>
+</g>
+<g class="term c-era" data-id="era113" data-person="era:建暦">
+<title>元号 建暦　1211年4月23日 〜 1214年1月18日（期間 約3年）</title>
+<rect class="bar f-blue" x="313" y="3498.9" width="14" height="14.4" rx="3"/>
+<path class="leader" d="M311.5 3506.1h-4L286 3493.9h-2"/>
+<text class="label" x="282" y="3498.8" text-anchor="end"><tspan class="yrs">1211–1214</tspan><tspan class="name" dx="6">建暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era114" data-person="era:建保">
+<title>元号 建保　1214年1月18日 〜 1219年5月27日（期間 約5年）</title>
+<rect class="bar f-red" x="313" y="3515.4" width="14" height="30.1" rx="3"/>
+<path class="leader" d="M311.5 3522.9h-4L286 3510.9h-2"/>
+<text class="label" x="282" y="3515.8" text-anchor="end"><tspan class="yrs">1214–1219</tspan><tspan class="name" dx="6">建保</tspan></text>
+</g>
+<g class="term c-era" data-id="era115" data-person="era:承久">
+<title>元号 承久　1219年5月27日 〜 1222年5月25日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="3547.5" width="14" height="16" rx="3"/>
+<path class="leader" d="M311.5 3555h-4L286 3527.9h-2"/>
+<text class="label" x="282" y="3532.8" text-anchor="end"><tspan class="yrs">1219–1222</tspan><tspan class="name" dx="6">承久</tspan></text>
+</g>
+<g class="term c-era" data-id="era116" data-person="era:貞応">
+<title>元号 貞応　1222年5月25日 〜 1224年12月31日（期間 約3年）</title>
+<rect class="bar f-blue" x="313" y="3565.4" width="14" height="13.6" rx="3"/>
+<path class="leader" d="M311.5 3572.3h-4L286 3544.9h-2"/>
+<text class="label" x="282" y="3549.8" text-anchor="end"><tspan class="yrs">1222–1224</tspan><tspan class="name" dx="6">貞応</tspan></text>
+</g>
+<g class="term c-era" data-id="era117" data-person="era:元仁">
+<title>元号 元仁　1224年12月31日 〜 1225年5月28日（期間 148日）</title>
+<rect class="bar f-red" x="313" y="3579.8" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M311.5 3581.3h-4L286 3561.9h-2"/>
+<text class="label" x="282" y="3566.8" text-anchor="end"><tspan class="yrs">1224–1225</tspan><tspan class="name" dx="6">元仁</tspan></text>
+</g>
+<g class="term c-era" data-id="era118" data-person="era:嘉禄">
+<title>元号 嘉禄　1225年5月28日 〜 1228年1月18日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="3583.5" width="14" height="13.9" rx="3"/>
+<path class="leader" d="M311.5 3590.4h-4L286 3578.9h-2"/>
+<text class="label" x="282" y="3583.8" text-anchor="end"><tspan class="yrs">1225–1228</tspan><tspan class="name" dx="6">嘉禄</tspan></text>
+</g>
+<g class="term c-era" data-id="era119" data-person="era:安貞">
+<title>元号 安貞　1228年1月18日 〜 1229年3月31日（期間 438日）</title>
+<rect class="bar f-red" x="313" y="3599.4" width="14" height="5.2" rx="2.6"/>
+<path class="leader" d="M311.5 3601.9h-4L286 3595.9h-2"/>
+<text class="label" x="282" y="3600.8" text-anchor="end"><tspan class="yrs">1228–1229</tspan><tspan class="name" dx="6">安貞</tspan></text>
+</g>
+<g class="term c-era" data-id="era120" data-person="era:寛喜">
+<title>元号 寛喜　1229年3月31日 〜 1232年4月23日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="3606.5" width="14" height="16.4" rx="3"/>
+<text class="label" x="282" y="3617.8" text-anchor="end"><tspan class="yrs">1229–1232</tspan><tspan class="name" dx="6">寛喜</tspan></text>
+</g>
+<g class="term c-era" data-id="era121" data-person="era:貞永">
+<title>元号 貞永　1232年4月23日 〜 1233年5月25日（期間 397日）</title>
+<rect class="bar f-red" x="313" y="3624.9" width="14" height="4.5" rx="2.3"/>
+<path class="leader" d="M311.5 3627.2h-4L286 3629.9h-2"/>
+<text class="label" x="282" y="3634.8" text-anchor="end"><tspan class="yrs">1232–1233</tspan><tspan class="name" dx="6">貞永</tspan></text>
+</g>
+<g class="term c-era" data-id="era122" data-person="era:天福">
+<title>元号 天福　1233年5月25日 〜 1234年11月27日（期間 551日）</title>
+<rect class="bar f-blue" x="313" y="3631.5" width="14" height="7.1" rx="3"/>
+<path class="leader" d="M311.5 3635h-4L286 3646.9h-2"/>
+<text class="label" x="282" y="3651.8" text-anchor="end"><tspan class="yrs">1233–1234</tspan><tspan class="name" dx="6">天福</tspan></text>
+</g>
+<g class="term c-era" data-id="era123" data-person="era:文暦">
+<title>元号 文暦　1234年11月27日 〜 1235年11月1日（期間 339日）</title>
+<rect class="bar f-red" x="313" y="3640.5" width="14" height="3.6" rx="1.8"/>
+<path class="leader" d="M311.5 3642.3h-4L286 3663.9h-2"/>
+<text class="label" x="282" y="3668.8" text-anchor="end"><tspan class="yrs">1234–1235</tspan><tspan class="name" dx="6">文暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era124" data-person="era:嘉禎">
+<title>元号 嘉禎　1235年11月1日 〜 1238年12月30日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="3646.1" width="14" height="17" rx="3"/>
+<path class="leader" d="M311.5 3653.6h-4L286 3680.9h-2"/>
+<text class="label" x="282" y="3685.8" text-anchor="end"><tspan class="yrs">1235–1238</tspan><tspan class="name" dx="6">嘉禎</tspan></text>
+</g>
+<g class="term c-era" data-id="era125" data-person="era:暦仁">
+<title>元号 暦仁　1238年12月30日 〜 1239年3月13日（期間 73日）</title>
+<rect class="bar f-red" x="313" y="3663.1" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M311.5 3664.6h-4L286 3697.9h-2"/>
+<text class="label" x="282" y="3702.8" text-anchor="end"><tspan class="yrs">1238–1239</tspan><tspan class="name" dx="6">暦仁</tspan></text>
+</g>
+<g class="term c-era" data-id="era126" data-person="era:延応">
+<title>元号 延応　1239年3月13日 〜 1240年8月5日（期間 511日）</title>
+<rect class="bar f-red" x="313" y="3666.2" width="14" height="6.4" rx="3"/>
+<path class="leader" d="M311.5 3669.4h-4L286 3714.9h-2"/>
+<text class="label" x="282" y="3719.8" text-anchor="end"><tspan class="yrs">1239–1240</tspan><tspan class="name" dx="6">延応</tspan></text>
+</g>
+<g class="term c-era" data-id="era127" data-person="era:仁治">
+<title>元号 仁治　1240年8月5日 〜 1243年3月18日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="3674.6" width="14" height="13.7" rx="3"/>
+<path class="leader" d="M311.5 3681.5h-4L286 3731.9h-2"/>
+<text class="label" x="282" y="3736.8" text-anchor="end"><tspan class="yrs">1240–1243</tspan><tspan class="name" dx="6">仁治</tspan></text>
+</g>
+<g class="term c-era" data-id="era128" data-person="era:寛元">
+<title>元号 寛元　1243年3月18日 〜 1247年4月5日（期間 約4年）</title>
+<rect class="bar f-blue" x="313" y="3690.3" width="14" height="22.3" rx="3"/>
+<path class="leader" d="M311.5 3697.8h-4L286 3748.9h-2"/>
+<text class="label" x="282" y="3753.8" text-anchor="end"><tspan class="yrs">1243–1247</tspan><tspan class="name" dx="6">寛元</tspan></text>
+</g>
+<g class="term c-era" data-id="era129" data-person="era:宝治">
+<title>元号 宝治　1247年4月5日 〜 1249年5月2日（期間 約2年）</title>
+<rect class="bar f-blue" x="313" y="3714.6" width="14" height="10.5" rx="3"/>
+<path class="leader" d="M311.5 3719.8h-4L286 3765.9h-2"/>
+<text class="label" x="282" y="3770.8" text-anchor="end"><tspan class="yrs">1247–1249</tspan><tspan class="name" dx="6">宝治</tspan></text>
+</g>
+<g class="term c-era" data-id="era130" data-person="era:建長">
+<title>元号 建長　1249年5月2日 〜 1256年10月24日（期間 約7年）</title>
+<rect class="bar f-red" x="313" y="3727.1" width="14" height="42.9" rx="3"/>
+<path class="leader" d="M311.5 3734.6h-4L286 3782.9h-2"/>
+<text class="label" x="282" y="3787.8" text-anchor="end"><tspan class="yrs">1249–1256</tspan><tspan class="name" dx="6">建長</tspan></text>
+</g>
+<g class="term c-era" data-id="era131" data-person="era:康元">
+<title>元号 康元　1256年10月24日 〜 1257年3月31日（期間 158日）</title>
+<rect class="bar f-red" x="313" y="3770.8" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M311.5 3772.3h-4L286 3799.9h-2"/>
+<text class="label" x="282" y="3804.8" text-anchor="end"><tspan class="yrs">1256–1257</tspan><tspan class="name" dx="6">康元</tspan></text>
+</g>
+<g class="term c-era" data-id="era132" data-person="era:正嘉">
+<title>元号 正嘉　1257年3月31日 〜 1259年4月20日（期間 約2年）</title>
+<rect class="bar f-red" x="313" y="3774.6" width="14" height="10.3" rx="3"/>
+<path class="leader" d="M311.5 3779.7h-4L286 3816.9h-2"/>
+<text class="label" x="282" y="3821.8" text-anchor="end"><tspan class="yrs">1257–1259</tspan><tspan class="name" dx="6">正嘉</tspan></text>
+</g>
+<g class="term c-era" data-id="era133" data-person="era:正元">
+<title>元号 正元　1259年4月20日 〜 1260年5月24日（期間 400日）</title>
+<rect class="bar f-red" x="313" y="3786.9" width="14" height="4.6" rx="2.3"/>
+<path class="leader" d="M311.5 3789.2h-4L286 3833.9h-2"/>
+<text class="label" x="282" y="3838.8" text-anchor="end"><tspan class="yrs">1259–1260</tspan><tspan class="name" dx="6">正元</tspan></text>
+</g>
+<g class="term c-era" data-id="era134" data-person="era:文応">
+<title>元号 文応　1260年5月24日 〜 1261年3月22日（期間 302日）</title>
+<rect class="bar f-blue" x="313" y="3793.4" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M311.5 3794.9h-4L286 3850.9h-2"/>
+<text class="label" x="282" y="3855.8" text-anchor="end"><tspan class="yrs">1260–1261</tspan><tspan class="name" dx="6">文応</tspan></text>
+</g>
+<g class="term c-era" data-id="era135" data-person="era:弘長">
+<title>元号 弘長　1261年3月22日 〜 1264年3月27日（期間 約3年）</title>
+<rect class="bar-hatch" x="313" y="3798.4" width="14" height="16.1" rx="3"/>
+<path class="leader" d="M311.5 3805.9h-4L286 3867.9h-2"/>
+<text class="label" x="282" y="3872.8" text-anchor="end"><tspan class="yrs">1261–1264</tspan><tspan class="name" dx="6">弘長</tspan></text>
+</g>
+<g class="term c-era" data-id="era136" data-person="era:文永">
+<title>元号 文永　1264年3月27日 〜 1275年5月22日（期間 約11年）</title>
+<rect class="bar-hatch" x="313" y="3816.5" width="14" height="64.9" rx="3"/>
+<path class="leader" d="M311.5 3824h-4L286 3884.9h-2"/>
+<text class="label" x="282" y="3889.8" text-anchor="end"><tspan class="yrs">1264–1275</tspan><tspan class="name" dx="6">文永</tspan></text>
+</g>
+<g class="term c-era" data-id="era137" data-person="era:建治">
+<title>元号 建治　1275年5月22日 〜 1278年3月23日（期間 約3年）</title>
+<rect class="bar f-blue" x="313" y="3883.4" width="14" height="15" rx="3"/>
+<path class="leader" d="M311.5 3890.9h-4L286 3901.9h-2"/>
+<text class="label" x="282" y="3906.8" text-anchor="end"><tspan class="yrs">1275–1278</tspan><tspan class="name" dx="6">建治</tspan></text>
+</g>
+<g class="term c-era" data-id="era138" data-person="era:弘安">
+<title>元号 弘安　1278年3月23日 〜 1288年5月29日（期間 約10年）</title>
+<rect class="bar f-red" x="313" y="3900.4" width="14" height="59.1" rx="3"/>
+<path class="leader" d="M311.5 3907.9h-4L286 3918.9h-2"/>
+<text class="label" x="282" y="3923.8" text-anchor="end"><tspan class="yrs">1278–1288</tspan><tspan class="name" dx="6">弘安</tspan></text>
+</g>
+<g class="term c-era" data-id="era139" data-person="era:正応">
+<title>元号 正応　1288年5月29日 〜 1293年9月6日（期間 約5年）</title>
+<rect class="bar f-blue" x="313" y="3961.5" width="14" height="29.6" rx="3"/>
+<path class="leader" d="M311.5 3969h-4L286 3935.9h-2"/>
+<text class="label" x="282" y="3940.8" text-anchor="end"><tspan class="yrs">1288–1293</tspan><tspan class="name" dx="6">正応</tspan></text>
+</g>
+<g class="term c-era" data-id="era140" data-person="era:永仁">
+<title>元号 永仁　1293年9月6日 〜 1299年5月25日（期間 約6年）</title>
+<rect class="bar f-red" x="313" y="3993.2" width="14" height="32.3" rx="3"/>
+<path class="leader" d="M311.5 4000.7h-4L286 3952.9h-2"/>
+<text class="label" x="282" y="3957.8" text-anchor="end"><tspan class="yrs">1293–1299</tspan><tspan class="name" dx="6">永仁</tspan></text>
+</g>
+<g class="term c-era" data-id="era141" data-person="era:正安">
+<title>元号 正安　1299年5月25日 〜 1302年12月10日（期間 約4年）</title>
+<rect class="bar f-blue" x="313" y="4027.5" width="14" height="19.3" rx="3"/>
+<path class="leader" d="M311.5 4035h-4L286 3969.9h-2"/>
+<text class="label" x="282" y="3974.8" text-anchor="end"><tspan class="yrs">1299–1302</tspan><tspan class="name" dx="6">正安</tspan></text>
+</g>
+<g class="term c-era" data-id="era142" data-person="era:乾元">
+<title>元号 乾元　1302年12月10日 〜 1303年9月16日（期間 280日）</title>
+<rect class="bar f-blue" x="313" y="4048.5" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M311.5 4050h-4L286 3986.9h-2"/>
+<text class="label" x="282" y="3991.8" text-anchor="end"><tspan class="yrs">1302–1303</tspan><tspan class="name" dx="6">乾元</tspan></text>
+</g>
+<g class="term c-era" data-id="era143" data-person="era:嘉元">
+<title>元号 嘉元　1303年9月16日 〜 1307年1月18日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="4053.3" width="14" height="18" rx="3"/>
+<path class="leader" d="M311.5 4060.8h-4L286 4003.9h-2"/>
+<text class="label" x="282" y="4008.8" text-anchor="end"><tspan class="yrs">1303–1307</tspan><tspan class="name" dx="6">嘉元</tspan></text>
+</g>
+<g class="term c-era" data-id="era144" data-person="era:徳治">
+<title>元号 徳治　1307年1月18日 〜 1308年11月22日（期間 674日）</title>
+<rect class="bar f-red" x="313" y="4073.4" width="14" height="9.1" rx="3"/>
+<path class="leader" d="M311.5 4077.9h-4L286 4020.9h-2"/>
+<text class="label" x="282" y="4025.8" text-anchor="end"><tspan class="yrs">1307–1308</tspan><tspan class="name" dx="6">徳治</tspan></text>
+</g>
+<g class="term c-era" data-id="era145" data-person="era:延慶">
+<title>元号 延慶　1308年11月22日 〜 1311年5月17日（期間 約2年）</title>
+<rect class="bar f-blue" x="313" y="4084.4" width="14" height="12.9" rx="3"/>
+<path class="leader" d="M311.5 4090.9h-4L286 4037.9h-2"/>
+<text class="label" x="282" y="4042.8" text-anchor="end"><tspan class="yrs">1308–1311</tspan><tspan class="name" dx="6">延慶</tspan></text>
+</g>
+<g class="term c-era" data-id="era146" data-person="era:応長">
+<title>元号 応長　1311年5月17日 〜 1312年4月27日（期間 346日）</title>
+<rect class="bar f-red" x="313" y="4099.3" width="14" height="3.7" rx="1.8"/>
+<path class="leader" d="M311.5 4101.2h-4L286 4054.9h-2"/>
+<text class="label" x="282" y="4059.8" text-anchor="end"><tspan class="yrs">1311–1312</tspan><tspan class="name" dx="6">応長</tspan></text>
+</g>
+<g class="term c-era" data-id="era147" data-person="era:正和">
+<title>元号 正和　1312年4月27日 〜 1317年3月16日（期間 約5年）</title>
+<rect class="bar f-red" x="313" y="4105" width="14" height="27.3" rx="3"/>
+<path class="leader" d="M311.5 4112.5h-4L286 4071.9h-2"/>
+<text class="label" x="282" y="4076.8" text-anchor="end"><tspan class="yrs">1312–1317</tspan><tspan class="name" dx="6">正和</tspan></text>
+</g>
+<g class="term c-era" data-id="era148" data-person="era:文保">
+<title>元号 文保　1317年3月16日 〜 1319年5月18日（期間 約2年）</title>
+<rect class="bar f-red" x="313" y="4134.3" width="14" height="11" rx="3"/>
+<path class="leader" d="M311.5 4139.8h-4L286 4088.9h-2"/>
+<text class="label" x="282" y="4093.8" text-anchor="end"><tspan class="yrs">1317–1319</tspan><tspan class="name" dx="6">文保</tspan></text>
+</g>
+<g class="term c-era" data-id="era149" data-person="era:元応">
+<title>元号 元応　1319年5月18日 〜 1321年3月22日（期間 674日）</title>
+<rect class="bar f-blue" x="313" y="4147.3" width="14" height="9.1" rx="3"/>
+<path class="leader" d="M311.5 4151.9h-4L286 4105.9h-2"/>
+<text class="label" x="282" y="4110.8" text-anchor="end"><tspan class="yrs">1319–1321</tspan><tspan class="name" dx="6">元応</tspan></text>
+</g>
+<g class="term c-era" data-id="era150" data-person="era:元亨">
+<title>元号 元亨　1321年3月22日 〜 1324年12月25日（期間 約4年）</title>
+<rect class="bar-hatch" x="313" y="4158.4" width="14" height="20.6" rx="3"/>
+<path class="leader" d="M311.5 4165.9h-4L286 4122.9h-2"/>
+<text class="label" x="282" y="4127.8" text-anchor="end"><tspan class="yrs">1321–1324</tspan><tspan class="name" dx="6">元亨</tspan></text>
+</g>
+<g class="term c-era" data-id="era151" data-person="era:正中">
+<title>元号 正中　1324年12月25日 〜 1326年5月28日（期間 519日）</title>
+<rect class="bar-hatch" x="313" y="4181" width="14" height="6.5" rx="3"/>
+<path class="leader" d="M311.5 4184.2h-4L286 4139.9h-2"/>
+<text class="label" x="282" y="4144.8" text-anchor="end"><tspan class="yrs">1324–1326</tspan><tspan class="name" dx="6">正中</tspan></text>
+</g>
+<g class="term c-era" data-id="era152" data-person="era:嘉暦">
+<title>元号 嘉暦　1326年5月28日 〜 1329年9月22日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="4189.5" width="14" height="17.9" rx="3"/>
+<path class="leader" d="M311.5 4197h-4L286 4156.9h-2"/>
+<text class="label" x="282" y="4161.8" text-anchor="end"><tspan class="yrs">1326–1329</tspan><tspan class="name" dx="6">嘉暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era153" data-person="era:元徳">
+<title>元号 元徳　1329年9月22日 〜 1331年9月11日（期間 719日）</title>
+<rect class="bar f-red" x="313" y="4209.4" width="14" height="9.8" rx="3"/>
+<path class="leader" d="M311.5 4214.3h-4L286 4173.9h-2"/>
+<text class="label" x="282" y="4178.8" text-anchor="end"><tspan class="yrs">1329–1331</tspan><tspan class="name" dx="6">元徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era154" data-person="era:元弘">
+<title>元号 元弘　1331年9月11日 〜 1334年3月5日（期間 約2年）</title>
+<rect class="bar f-red" x="313" y="4221.2" width="14" height="12.9" rx="3"/>
+<path class="leader" d="M311.5 4227.7h-4L286 4190.9h-2"/>
+<text class="label" x="282" y="4195.8" text-anchor="end"><tspan class="yrs">1331–1334</tspan><tspan class="name" dx="6">元弘</tspan></text>
+</g>
+<g class="term c-era" data-id="era155" data-person="era:元徳">
+<title>元号 元徳　1331年9月11日 〜 1332年5月23日（期間 255日）</title>
+<rect class="bar f-red" x="297" y="4220.8" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M295.5 4222.3h-4L286 4207.9h-2"/>
+<text class="label" x="282" y="4212.8" text-anchor="end"><tspan class="yrs">1331–1332</tspan><tspan class="name" dx="6">元徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era156" data-person="era:正慶">
+<title>元号 正慶　1332年5月23日 〜 1333年7月7日（期間 410日）</title>
+<rect class="bar f-blue" x="297" y="4225.4" width="14" height="4.7" rx="2.4"/>
+<path class="leader" d="M295.5 4227.8h-4L286 4224.9h-2"/>
+<text class="label" x="282" y="4229.8" text-anchor="end"><tspan class="yrs">1332–1333</tspan><tspan class="name" dx="6">正慶</tspan></text>
+</g>
+<g class="term c-era" data-id="era157" data-person="era:建武">
+<title>元号 建武　1334年3月5日 〜 1336年4月11日（期間 約2年）</title>
+<rect class="bar f-gray" x="313" y="4236.1" width="14" height="10.6" rx="3"/>
+<text class="label" x="282" y="4246.8" text-anchor="end"><tspan class="yrs">1334–1336</tspan><tspan class="name" dx="6">建武</tspan></text>
+</g>
+<g class="term c-era" data-id="era158" data-person="era:延元">
+<title>元号 延元　1336年4月11日 〜 1340年5月25日（期間 約4年）</title>
+<rect class="bar f-red" x="313" y="4248.7" width="14" height="22.7" rx="3"/>
+<path class="leader" d="M311.5 4256.2h-4L286 4258.9h-2"/>
+<text class="label" x="282" y="4263.8" text-anchor="end"><tspan class="yrs">1336–1340</tspan><tspan class="name" dx="6">延元</tspan></text>
+</g>
+<g class="term c-era" data-id="era159" data-person="era:建武">
+<title>元号 建武　1336年4月11日 〜 1338年10月11日（期間 約2年）</title>
+<rect class="bar f-gray" x="297" y="4248.7" width="14" height="13" rx="3"/>
+<path class="leader" d="M295.5 4255.2h-4L286 4275.9h-2"/>
+<text class="label" x="282" y="4280.8" text-anchor="end"><tspan class="yrs">1336–1338</tspan><tspan class="name" dx="6">建武</tspan></text>
+</g>
+<g class="term c-era" data-id="era160" data-person="era:暦応">
+<title>元号 暦応　1338年10月11日 〜 1342年6月1日（期間 約4年）</title>
+<rect class="bar f-blue" x="297" y="4263.7" width="14" height="19.8" rx="3"/>
+<path class="leader" d="M295.5 4271.2h-4L286 4292.9h-2"/>
+<text class="label" x="282" y="4297.8" text-anchor="end"><tspan class="yrs">1338–1342</tspan><tspan class="name" dx="6">暦応</tspan></text>
+</g>
+<g class="term c-era" data-id="era161" data-person="era:興国">
+<title>元号 興国　1340年5月25日 〜 1347年1月20日（期間 約7年）</title>
+<rect class="bar f-blue" x="313" y="4273.5" width="14" height="37.9" rx="3"/>
+<path class="leader" d="M311.5 4281h-4L286 4309.9h-2"/>
+<text class="label" x="282" y="4314.8" text-anchor="end"><tspan class="yrs">1340–1347</tspan><tspan class="name" dx="6">興国</tspan></text>
+</g>
+<g class="term c-era" data-id="era162" data-person="era:康永">
+<title>元号 康永　1342年6月1日 〜 1345年11月15日（期間 約3年）</title>
+<rect class="bar f-red" x="297" y="4285.6" width="14" height="18.7" rx="3"/>
+<path class="leader" d="M295.5 4293.1h-4L286 4326.9h-2"/>
+<text class="label" x="282" y="4331.8" text-anchor="end"><tspan class="yrs">1342–1345</tspan><tspan class="name" dx="6">康永</tspan></text>
+</g>
+<g class="term c-era" data-id="era163" data-person="era:貞和">
+<title>元号 貞和　1345年11月15日 〜 1350年4月4日（期間 約4年）</title>
+<rect class="bar f-red" x="297" y="4306.3" width="14" height="24.3" rx="3"/>
+<path class="leader" d="M295.5 4313.8h-4L286 4343.9h-2"/>
+<text class="label" x="282" y="4348.8" text-anchor="end"><tspan class="yrs">1345–1350</tspan><tspan class="name" dx="6">貞和</tspan></text>
+</g>
+<g class="term c-era" data-id="era164" data-person="era:正平">
+<title>元号 正平　1347年1月20日 〜 1370年8月16日（期間 約24年）</title>
+<rect class="bar f-gray" x="313" y="4313.4" width="14" height="139.4" rx="3"/>
+<path class="leader" d="M311.5 4320.9h-4L286 4360.9h-2"/>
+<text class="label" x="282" y="4365.8" text-anchor="end"><tspan class="yrs">1347–1370</tspan><tspan class="name" dx="6">正平</tspan></text>
+</g>
+<g class="term c-era" data-id="era165" data-person="era:観応">
+<title>元号 観応　1350年4月4日 〜 1352年11月4日（期間 約3年）</title>
+<rect class="bar f-blue" x="297" y="4332.6" width="14" height="13.5" rx="3"/>
+<path class="leader" d="M295.5 4339.4h-4L286 4377.9h-2"/>
+<text class="label" x="282" y="4382.8" text-anchor="end"><tspan class="yrs">1350–1352</tspan><tspan class="name" dx="6">観応</tspan></text>
+</g>
+<g class="term c-era" data-id="era166" data-person="era:文和">
+<title>元号 文和　1352年11月4日 〜 1356年4月29日（期間 約3年）</title>
+<rect class="bar f-blue" x="297" y="4348.1" width="14" height="18.9" rx="3"/>
+<path class="leader" d="M295.5 4355.6h-4L286 4394.9h-2"/>
+<text class="label" x="282" y="4399.8" text-anchor="end"><tspan class="yrs">1352–1356</tspan><tspan class="name" dx="6">文和</tspan></text>
+</g>
+<g class="term c-era" data-id="era167" data-person="era:延文">
+<title>元号 延文　1356年4月29日 〜 1361年5月4日（期間 約5年）</title>
+<rect class="bar f-red" x="297" y="4369" width="14" height="28.1" rx="3"/>
+<path class="leader" d="M295.5 4376.5h-4L286 4411.9h-2"/>
+<text class="label" x="282" y="4416.8" text-anchor="end"><tspan class="yrs">1356–1361</tspan><tspan class="name" dx="6">延文</tspan></text>
+</g>
+<g class="term c-era" data-id="era168" data-person="era:康安">
+<title>元号 康安　1361年5月4日 〜 1362年10月11日（期間 525日）</title>
+<rect class="bar f-red" x="297" y="4399.1" width="14" height="6.6" rx="3"/>
+<path class="leader" d="M295.5 4402.4h-4L286 4428.9h-2"/>
+<text class="label" x="282" y="4433.8" text-anchor="end"><tspan class="yrs">1361–1362</tspan><tspan class="name" dx="6">康安</tspan></text>
+</g>
+<g class="term c-era" data-id="era169" data-person="era:貞治">
+<title>元号 貞治　1362年10月11日 〜 1368年3月7日（期間 約5年）</title>
+<rect class="bar f-red" x="297" y="4407.7" width="14" height="30.4" rx="3"/>
+<path class="leader" d="M295.5 4415.2h-4L286 4445.9h-2"/>
+<text class="label" x="282" y="4450.8" text-anchor="end"><tspan class="yrs">1362–1368</tspan><tspan class="name" dx="6">貞治</tspan></text>
+</g>
+<g class="term c-era" data-id="era170" data-person="era:応安">
+<title>元号 応安　1368年3月7日 〜 1375年3月29日（期間 約7年）</title>
+<rect class="bar f-red" x="297" y="4440.2" width="14" height="40.3" rx="3"/>
+<path class="leader" d="M295.5 4447.7h-4L286 4462.9h-2"/>
+<text class="label" x="282" y="4467.8" text-anchor="end"><tspan class="yrs">1368–1375</tspan><tspan class="name" dx="6">応安</tspan></text>
+</g>
+<g class="term c-era" data-id="era171" data-person="era:建徳">
+<title>元号 建徳　1370年8月16日 〜 1372年5月（期間 655日）</title>
+<rect class="bar f-gray" x="313" y="4454.8" width="14" height="8.8" rx="3"/>
+<path class="leader" d="M311.5 4459.2h-4L286 4479.9h-2"/>
+<text class="label" x="282" y="4484.8" text-anchor="end"><tspan class="yrs">1370–1372</tspan><tspan class="name" dx="6">建徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era172" data-person="era:文中">
+<title>元号 文中　1372年5月 〜 1375年6月26日（期間 約3年）</title>
+<rect class="bar f-gray" x="313" y="4465.1" width="14" height="16.9" rx="3"/>
+<path class="leader" d="M311.5 4472.6h-4L286 4496.9h-2"/>
+<text class="label" x="282" y="4501.8" text-anchor="end"><tspan class="yrs">1372–1375</tspan><tspan class="name" dx="6">文中</tspan></text>
+</g>
+<g class="term c-era" data-id="era173" data-person="era:永和">
+<title>元号 永和　1375年3月29日 〜 1379年4月9日（期間 約4年）</title>
+<rect class="bar f-blue" x="297" y="4482.5" width="14" height="22.2" rx="3"/>
+<path class="leader" d="M295.5 4490h-4L286 4513.9h-2"/>
+<text class="label" x="282" y="4518.8" text-anchor="end"><tspan class="yrs">1375–1379</tspan><tspan class="name" dx="6">永和</tspan></text>
+</g>
+<g class="term c-era" data-id="era174" data-person="era:天授">
+<title>元号 天授　1375年6月26日 〜 1381年3月6日（期間 約6年）</title>
+<rect class="bar f-red" x="313" y="4484" width="14" height="32.2" rx="3"/>
+<path class="leader" d="M311.5 4491.5h-4L286 4530.9h-2"/>
+<text class="label" x="282" y="4535.8" text-anchor="end"><tspan class="yrs">1375–1381</tspan><tspan class="name" dx="6">天授</tspan></text>
+</g>
+<g class="term c-era" data-id="era175" data-person="era:康暦">
+<title>元号 康暦　1379年4月9日 〜 1381年3月20日（期間 711日）</title>
+<rect class="bar f-red" x="297" y="4506.7" width="14" height="9.7" rx="3"/>
+<path class="leader" d="M295.5 4511.5h-4L286 4547.9h-2"/>
+<text class="label" x="282" y="4552.8" text-anchor="end"><tspan class="yrs">1379–1381</tspan><tspan class="name" dx="6">康暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era176" data-person="era:弘和">
+<title>元号 弘和　1381年3月6日 〜 1384年5月18日（期間 約3年）</title>
+<rect class="bar-hatch" x="313" y="4518.2" width="14" height="17.2" rx="3"/>
+<path class="leader" d="M311.5 4525.7h-4L286 4564.9h-2"/>
+<text class="label" x="282" y="4569.8" text-anchor="end"><tspan class="yrs">1381–1384</tspan><tspan class="name" dx="6">弘和</tspan></text>
+</g>
+<g class="term c-era" data-id="era177" data-person="era:永徳">
+<title>元号 永徳　1381年3月20日 〜 1384年3月19日（期間 約3年）</title>
+<rect class="bar-hatch" x="297" y="4518.4" width="14" height="16" rx="3"/>
+<path class="leader" d="M295.5 4525.9h-4L286 4581.9h-2"/>
+<text class="label" x="282" y="4586.8" text-anchor="end"><tspan class="yrs">1381–1384</tspan><tspan class="name" dx="6">永徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era178" data-person="era:至徳">
+<title>元号 至徳　1384年3月19日 〜 1387年10月5日（期間 約4年）</title>
+<rect class="bar-hatch" x="297" y="4536.4" width="14" height="19.3" rx="3"/>
+<path class="leader" d="M295.5 4543.9h-4L286 4598.9h-2"/>
+<text class="label" x="282" y="4603.8" text-anchor="end"><tspan class="yrs">1384–1387</tspan><tspan class="name" dx="6">至徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era179" data-person="era:元中">
+<title>元号 元中　1384年5月18日 〜 1392年11月19日（期間 約9年）</title>
+<rect class="bar-hatch" x="313" y="4537.4" width="14" height="49" rx="3"/>
+<path class="leader" d="M311.5 4544.9h-4L286 4615.9h-2"/>
+<text class="label" x="282" y="4620.8" text-anchor="end"><tspan class="yrs">1384–1392</tspan><tspan class="name" dx="6">元中</tspan></text>
+</g>
+<g class="term c-era" data-id="era180" data-person="era:嘉慶">
+<title>元号 嘉慶　1387年10月5日 〜 1389年3月7日（期間 519日）</title>
+<rect class="bar f-red" x="297" y="4557.6" width="14" height="6.5" rx="3"/>
+<path class="leader" d="M295.5 4560.9h-4L286 4632.9h-2"/>
+<text class="label" x="282" y="4637.8" text-anchor="end"><tspan class="yrs">1387–1389</tspan><tspan class="name" dx="6">嘉慶</tspan></text>
+</g>
+<g class="term c-era" data-id="era181" data-person="era:康応">
+<title>元号 康応　1389年3月7日 〜 1390年4月12日（期間 401日）</title>
+<rect class="bar f-red" x="297" y="4566.2" width="14" height="4.6" rx="2.3"/>
+<path class="leader" d="M295.5 4568.5h-4L286 4649.9h-2"/>
+<text class="label" x="282" y="4654.8" text-anchor="end"><tspan class="yrs">1389–1390</tspan><tspan class="name" dx="6">康応</tspan></text>
+</g>
+<g class="term c-era" data-id="era182" data-person="era:明徳">
+<title>元号 明徳　1390年4月12日 〜 1392年11月19日（期間 約3年）</title>
+<rect class="bar f-red" x="297" y="4572.8" width="14" height="13.6" rx="3"/>
+<path class="leader" d="M295.5 4579.6h-4L286 4666.9h-2"/>
+<text class="label" x="282" y="4671.8" text-anchor="end"><tspan class="yrs">1390–1392</tspan><tspan class="name" dx="6">明徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era183" data-person="era:明徳">
+<title>元号 明徳　1392年11月19日 〜 1394年8月2日（期間 621日）</title>
+<rect class="bar f-red" x="313" y="4588.4" width="14" height="8.2" rx="3"/>
+<path class="leader" d="M311.5 4592.5h-4L286 4683.9h-2"/>
+<text class="label" x="282" y="4688.8" text-anchor="end"><tspan class="yrs">1392–1394</tspan><tspan class="name" dx="6">明徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era184" data-person="era:応永">
+<title>元号 応永　1394年8月2日 〜 1428年6月10日（期間 約34年）</title>
+<rect class="bar f-red" x="313" y="4598.6" width="14" height="201.1" rx="3"/>
+<path class="leader" d="M311.5 4606.1h-4L286 4700.9h-2"/>
+<text class="label" x="282" y="4705.8" text-anchor="end"><tspan class="yrs">1394–1428</tspan><tspan class="name" dx="6">応永</tspan></text>
+</g>
+<g class="term c-era" data-id="era185" data-person="era:正長">
+<title>元号 正長　1428年6月10日 〜 1429年10月3日（期間 480日）</title>
+<rect class="bar f-blue" x="313" y="4801.7" width="14" height="5.9" rx="2.9"/>
+<path class="leader" d="M311.5 4804.7h-4L286 4802.4h-2"/>
+<text class="label" x="282" y="4807.3" text-anchor="end"><tspan class="yrs">1428–1429</tspan><tspan class="name" dx="6">正長</tspan></text>
+</g>
+<g class="term c-era" data-id="era186" data-person="era:永享">
+<title>元号 永享　1429年10月3日 〜 1441年3月10日（期間 約11年）</title>
+<rect class="bar f-blue" x="313" y="4809.6" width="14" height="66.6" rx="3"/>
+<path class="leader" d="M311.5 4817.1h-4L286 4819.4h-2"/>
+<text class="label" x="282" y="4824.3" text-anchor="end"><tspan class="yrs">1429–1441</tspan><tspan class="name" dx="6">永享</tspan></text>
+</g>
+<g class="term c-era" data-id="era187" data-person="era:嘉吉">
+<title>元号 嘉吉　1441年3月10日 〜 1444年2月23日（期間 約3年）</title>
+<rect class="bar-hatch" x="313" y="4878.2" width="14" height="15.7" rx="3"/>
+<text class="label" x="282" y="4890.6" text-anchor="end"><tspan class="yrs">1441–1444</tspan><tspan class="name" dx="6">嘉吉</tspan></text>
+</g>
+<g class="term c-era" data-id="era188" data-person="era:文安">
+<title>元号 文安　1444年2月23日 〜 1449年8月16日（期間 約5年）</title>
+<rect class="bar-hatch" x="313" y="4896" width="14" height="30.9" rx="3"/>
+<text class="label" x="282" y="4908.3" text-anchor="end"><tspan class="yrs">1444–1449</tspan><tspan class="name" dx="6">文安</tspan></text>
+</g>
+<g class="term c-era" data-id="era189" data-person="era:宝徳">
+<title>元号 宝徳　1449年8月16日 〜 1452年8月10日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="4928.8" width="14" height="15.9" rx="3"/>
+<text class="label" x="282" y="4941" text-anchor="end"><tspan class="yrs">1449–1452</tspan><tspan class="name" dx="6">宝徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era190" data-person="era:享徳">
+<title>元号 享徳　1452年8月10日 〜 1455年9月6日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="4946.7" width="14" height="16.4" rx="3"/>
+<text class="label" x="282" y="4958" text-anchor="end"><tspan class="yrs">1452–1455</tspan><tspan class="name" dx="6">享徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era191" data-person="era:康正">
+<title>元号 康正　1455年9月6日 〜 1457年10月16日（期間 約2年）</title>
+<rect class="bar f-red" x="313" y="4965.2" width="14" height="10.7" rx="3"/>
+<text class="label" x="282" y="4975" text-anchor="end"><tspan class="yrs">1455–1457</tspan><tspan class="name" dx="6">康正</tspan></text>
+</g>
+<g class="term c-era" data-id="era192" data-person="era:長禄">
+<title>元号 長禄　1457年10月16日 〜 1461年2月1日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="4977.8" width="14" height="17.8" rx="3"/>
+<path class="leader" d="M311.5 4985.3h-4L286 4987.1h-2"/>
+<text class="label" x="282" y="4992" text-anchor="end"><tspan class="yrs">1457–1461</tspan><tspan class="name" dx="6">長禄</tspan></text>
+</g>
+<g class="term c-era" data-id="era193" data-person="era:寛正">
+<title>元号 寛正　1461年2月1日 〜 1466年3月14日（期間 約5年）</title>
+<rect class="bar f-red" x="313" y="4997.6" width="14" height="28.7" rx="3"/>
+<text class="label" x="282" y="5010" text-anchor="end"><tspan class="yrs">1461–1466</tspan><tspan class="name" dx="6">寛正</tspan></text>
+</g>
+<g class="term c-era" data-id="era194" data-person="era:文正">
+<title>元号 文正　1466年3月14日 〜 1467年4月9日（期間 391日）</title>
+<rect class="bar f-blue" x="313" y="5028.3" width="14" height="4.4" rx="2.2"/>
+<path class="leader" d="M311.5 5030.5h-4L286 5025h-2"/>
+<text class="label" x="282" y="5029.8" text-anchor="end"><tspan class="yrs">1466–1467</tspan><tspan class="name" dx="6">文正</tspan></text>
+</g>
+<g class="term c-era" data-id="era195" data-person="era:応仁">
+<title>元号 応仁　1467年4月9日 〜 1469年6月8日（期間 約2年）</title>
+<rect class="bar f-red" x="313" y="5034.7" width="14" height="11" rx="3"/>
+<path class="leader" d="M311.5 5040.2h-4L286 5042h-2"/>
+<text class="label" x="282" y="5046.8" text-anchor="end"><tspan class="yrs">1467–1469</tspan><tspan class="name" dx="6">応仁</tspan></text>
+</g>
+<g class="term c-era" data-id="era196" data-person="era:文明">
+<title>元号 文明　1469年6月8日 〜 1487年8月9日（期間 約18年）</title>
+<rect class="bar f-red" x="313" y="5047.7" width="14" height="107" rx="3"/>
+<path class="leader" d="M311.5 5055.2h-4L286 5059h-2"/>
+<text class="label" x="282" y="5063.8" text-anchor="end"><tspan class="yrs">1469–1487</tspan><tspan class="name" dx="6">文明</tspan></text>
+</g>
+<g class="term c-era" data-id="era197" data-person="era:長享">
+<title>元号 長享　1487年8月9日 〜 1489年9月16日（期間 約2年）</title>
+<rect class="bar f-red" x="313" y="5156.7" width="14" height="10.6" rx="3"/>
+<text class="label" x="282" y="5165.6" text-anchor="end"><tspan class="yrs">1487–1489</tspan><tspan class="name" dx="6">長享</tspan></text>
+</g>
+<g class="term c-era" data-id="era198" data-person="era:延徳">
+<title>元号 延徳　1489年9月16日 〜 1492年8月12日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="5169.4" width="14" height="15.4" rx="3"/>
+<text class="label" x="282" y="5182.6" text-anchor="end"><tspan class="yrs">1489–1492</tspan><tspan class="name" dx="6">延徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era199" data-person="era:明応">
+<title>元号 明応　1492年8月12日 〜 1501年3月18日（期間 約9年）</title>
+<rect class="bar f-red" x="313" y="5186.8" width="14" height="49.6" rx="3"/>
+<text class="label" x="282" y="5199.6" text-anchor="end"><tspan class="yrs">1492–1501</tspan><tspan class="name" dx="6">明応</tspan></text>
+</g>
+<g class="term c-era" data-id="era200" data-person="era:文亀">
+<title>元号 文亀　1501年3月18日 〜 1504年3月16日（期間 約3年）</title>
+<rect class="bar f-blue" x="313" y="5238.4" width="14" height="16" rx="3"/>
+<text class="label" x="282" y="5250.7" text-anchor="end"><tspan class="yrs">1501–1504</tspan><tspan class="name" dx="6">文亀</tspan></text>
+</g>
+<g class="term c-era" data-id="era201" data-person="era:永正">
+<title>元号 永正　1504年3月16日 〜 1521年9月23日（期間 約18年）</title>
+<rect class="bar-hatch" x="313" y="5256.3" width="14" height="103.1" rx="3"/>
+<text class="label" x="282" y="5268.7" text-anchor="end"><tspan class="yrs">1504–1521</tspan><tspan class="name" dx="6">永正</tspan></text>
+</g>
+<g class="term c-era" data-id="era202" data-person="era:大永">
+<title>元号 大永　1521年9月23日 〜 1528年9月3日（期間 約7年）</title>
+<rect class="bar f-red" x="313" y="5361.5" width="14" height="39.7" rx="3"/>
+<text class="label" x="282" y="5373.8" text-anchor="end"><tspan class="yrs">1521–1528</tspan><tspan class="name" dx="6">大永</tspan></text>
+</g>
+<g class="term c-era" data-id="era203" data-person="era:享禄">
+<title>元号 享禄　1528年9月3日 〜 1532年8月29日（期間 約4年）</title>
+<rect class="bar f-blue" x="313" y="5403.2" width="14" height="21.9" rx="3"/>
+<text class="label" x="282" y="5415.5" text-anchor="end"><tspan class="yrs">1528–1532</tspan><tspan class="name" dx="6">享禄</tspan></text>
+</g>
+<g class="term c-era" data-id="era204" data-person="era:天文">
+<title>元号 天文　1532年8月29日 〜 1555年11月7日（期間 約23年）</title>
+<rect class="bar f-red" x="313" y="5427.1" width="14" height="137.1" rx="3"/>
+<text class="label" x="282" y="5439.4" text-anchor="end"><tspan class="yrs">1532–1555</tspan><tspan class="name" dx="6">天文</tspan></text>
+</g>
+<g class="term c-era" data-id="era205" data-person="era:弘治">
+<title>元号 弘治　1555年11月7日 〜 1558年3月18日（期間 約2年）</title>
+<rect class="bar f-red" x="313" y="5566.2" width="14" height="12.2" rx="3"/>
+<text class="label" x="282" y="5576.4" text-anchor="end"><tspan class="yrs">1555–1558</tspan><tspan class="name" dx="6">弘治</tspan></text>
+</g>
+<g class="term c-era" data-id="era206" data-person="era:永禄">
+<title>元号 永禄　1558年3月18日 〜 1570年5月27日（期間 約12年）</title>
+<rect class="bar f-blue" x="313" y="5580.4" width="14" height="71.2" rx="3"/>
+<text class="label" x="282" y="5593.4" text-anchor="end"><tspan class="yrs">1558–1570</tspan><tspan class="name" dx="6">永禄</tspan></text>
+</g>
+<g class="term c-era" data-id="era207" data-person="era:元亀">
+<title>元号 元亀　1570年5月27日 〜 1573年8月25日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="5653.5" width="14" height="17.5" rx="3"/>
+<text class="label" x="282" y="5665.9" text-anchor="end"><tspan class="yrs">1570–1573</tspan><tspan class="name" dx="6">元亀</tspan></text>
+</g>
+<g class="term c-era" data-id="era208" data-person="era:天正">
+<title>元号 天正　1573年8月25日 〜 1593年1月10日（期間 約19年）</title>
+<rect class="bar f-red" x="313" y="5673" width="14" height="114.1" rx="3"/>
+<text class="label" x="282" y="5685.4" text-anchor="end"><tspan class="yrs">1573–1593</tspan><tspan class="name" dx="6">天正</tspan></text>
+</g>
+<g class="term c-era" data-id="era209" data-person="era:文禄">
+<title>元号 文禄　1593年1月10日 〜 1596年12月16日（期間 約4年）</title>
+<rect class="bar f-blue" x="313" y="5789.1" width="14" height="21.6" rx="3"/>
+<text class="label" x="282" y="5801.5" text-anchor="end"><tspan class="yrs">1593–1596</tspan><tspan class="name" dx="6">文禄</tspan></text>
+</g>
+<g class="term c-era" data-id="era210" data-person="era:慶長">
+<title>元号 慶長　1596年12月16日 〜 1615年9月5日（期間 約19年）</title>
+<rect class="bar f-red" x="313" y="5812.7" width="14" height="110.3" rx="3"/>
+<text class="label" x="282" y="5825.1" text-anchor="end"><tspan class="yrs">1596–1615</tspan><tspan class="name" dx="6">慶長</tspan></text>
+</g>
+<g class="term c-era" data-id="era211" data-person="era:元和">
+<title>元号 元和　1615年9月5日 〜 1624年4月17日（期間 約9年）</title>
+<rect class="bar f-blue" x="313" y="5925" width="14" height="49.7" rx="3"/>
+<text class="label" x="282" y="5937.4" text-anchor="end"><tspan class="yrs">1615–1624</tspan><tspan class="name" dx="6">元和</tspan></text>
+</g>
+<g class="term c-era" data-id="era212" data-person="era:寛永">
+<title>元号 寛永　1624年4月17日 〜 1645年1月13日（期間 約21年）</title>
+<rect class="bar-hatch" x="313" y="5976.7" width="14" height="122.5" rx="3"/>
+<text class="label" x="282" y="5989.1" text-anchor="end"><tspan class="yrs">1624–1645</tspan><tspan class="name" dx="6">寛永</tspan></text>
+</g>
+<g class="term c-era" data-id="era213" data-person="era:正保">
+<title>元号 正保　1645年1月13日 〜 1648年4月7日（期間 約3年）</title>
+<rect class="bar f-blue" x="313" y="6101.2" width="14" height="17.4" rx="3"/>
+<text class="label" x="282" y="6113.5" text-anchor="end"><tspan class="yrs">1645–1648</tspan><tspan class="name" dx="6">正保</tspan></text>
+</g>
+<g class="term c-era" data-id="era214" data-person="era:慶安">
+<title>元号 慶安　1648年4月7日 〜 1652年10月20日（期間 約5年）</title>
+<rect class="bar f-gray" x="313" y="6120.6" width="14" height="25.2" rx="3"/>
+<text class="label" x="282" y="6132.9" text-anchor="end"><tspan class="yrs">1648–1652</tspan><tspan class="name" dx="6">慶安</tspan></text>
+</g>
+<g class="term c-era" data-id="era215" data-person="era:承応">
+<title>元号 承応　1652年10月20日 〜 1655年5月18日（期間 約3年）</title>
+<rect class="bar f-gray" x="313" y="6147.8" width="14" height="13.4" rx="3"/>
+<text class="label" x="282" y="6159" text-anchor="end"><tspan class="yrs">1652–1655</tspan><tspan class="name" dx="6">承応</tspan></text>
+</g>
+<g class="term c-era" data-id="era216" data-person="era:明暦">
+<title>元号 明暦　1655年5月18日 〜 1658年8月21日（期間 約3年）</title>
+<rect class="bar f-blue" x="313" y="6163.2" width="14" height="17.6" rx="3"/>
+<text class="label" x="282" y="6176" text-anchor="end"><tspan class="yrs">1655–1658</tspan><tspan class="name" dx="6">明暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era217" data-person="era:万治">
+<title>元号 万治　1658年8月21日 〜 1661年5月23日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="6182.8" width="14" height="14.5" rx="3"/>
+<text class="label" x="282" y="6194.8" text-anchor="end"><tspan class="yrs">1658–1661</tspan><tspan class="name" dx="6">万治</tspan></text>
+</g>
+<g class="term c-era" data-id="era218" data-person="era:寛文">
+<title>元号 寛文　1661年5月23日 〜 1673年10月30日（期間 約12年）</title>
+<rect class="bar f-red" x="313" y="6199.3" width="14" height="72.6" rx="3"/>
+<text class="label" x="282" y="6211.8" text-anchor="end"><tspan class="yrs">1661–1673</tspan><tspan class="name" dx="6">寛文</tspan></text>
+</g>
+<g class="term c-era" data-id="era219" data-person="era:延宝">
+<title>元号 延宝　1673年10月30日 〜 1681年11月9日（期間 約8年）</title>
+<rect class="bar f-red" x="313" y="6273.9" width="14" height="46.2" rx="3"/>
+<text class="label" x="282" y="6286.3" text-anchor="end"><tspan class="yrs">1673–1681</tspan><tspan class="name" dx="6">延宝</tspan></text>
+</g>
+<g class="term c-era" data-id="era220" data-person="era:天和">
+<title>元号 天和　1681年11月9日 〜 1684年4月5日（期間 約2年）</title>
+<rect class="bar-hatch" x="313" y="6322.1" width="14" height="12.4" rx="3"/>
+<text class="label" x="282" y="6332.5" text-anchor="end"><tspan class="yrs">1681–1684</tspan><tspan class="name" dx="6">天和</tspan></text>
+</g>
+<g class="term c-era" data-id="era221" data-person="era:貞享">
+<title>元号 貞享　1684年4月5日 〜 1688年10月23日（期間 約5年）</title>
+<rect class="bar-hatch" x="313" y="6336.5" width="14" height="25.3" rx="3"/>
+<text class="label" x="282" y="6349.5" text-anchor="end"><tspan class="yrs">1684–1688</tspan><tspan class="name" dx="6">貞享</tspan></text>
+</g>
+<g class="term c-era" data-id="era222" data-person="era:元禄">
+<title>元号 元禄　1688年10月23日 〜 1704年4月16日（期間 約15年）</title>
+<rect class="bar f-blue" x="313" y="6363.8" width="14" height="90.9" rx="3"/>
+<text class="label" x="282" y="6376.2" text-anchor="end"><tspan class="yrs">1688–1704</tspan><tspan class="name" dx="6">元禄</tspan></text>
+</g>
+<g class="term c-era" data-id="era223" data-person="era:宝永">
+<title>元号 宝永　1704年4月16日 〜 1711年6月11日（期間 約7年）</title>
+<rect class="bar f-red" x="313" y="6456.7" width="14" height="40.9" rx="3"/>
+<text class="label" x="282" y="6469.1" text-anchor="end"><tspan class="yrs">1704–1711</tspan><tspan class="name" dx="6">宝永</tspan></text>
+</g>
+<g class="term c-era" data-id="era224" data-person="era:正徳">
+<title>元号 正徳　1711年6月11日 〜 1716年8月9日（期間 約5年）</title>
+<rect class="bar f-blue" x="313" y="6499.6" width="14" height="29" rx="3"/>
+<text class="label" x="282" y="6512" text-anchor="end"><tspan class="yrs">1711–1716</tspan><tspan class="name" dx="6">正徳</tspan></text>
+</g>
+<g class="term c-era" data-id="era225" data-person="era:享保">
+<title>元号 享保　1716年8月9日 〜 1736年6月7日（期間 約20年）</title>
+<rect class="bar f-red" x="313" y="6530.6" width="14" height="117" rx="3"/>
+<text class="label" x="282" y="6542.9" text-anchor="end"><tspan class="yrs">1716–1736</tspan><tspan class="name" dx="6">享保</tspan></text>
+</g>
+<g class="term c-era" data-id="era226" data-person="era:元文">
+<title>元号 元文　1736年6月7日 〜 1741年4月12日（期間 約5年）</title>
+<rect class="bar f-blue" x="313" y="6649.5" width="14" height="27.1" rx="3"/>
+<text class="label" x="282" y="6661.9" text-anchor="end"><tspan class="yrs">1736–1741</tspan><tspan class="name" dx="6">元文</tspan></text>
+</g>
+<g class="term c-era" data-id="era227" data-person="era:寛保">
+<title>元号 寛保　1741年4月12日 〜 1744年4月3日（期間 約3年）</title>
+<rect class="bar-hatch" x="313" y="6678.6" width="14" height="15.9" rx="3"/>
+<text class="label" x="282" y="6691" text-anchor="end"><tspan class="yrs">1741–1744</tspan><tspan class="name" dx="6">寛保</tspan></text>
+</g>
+<g class="term c-era" data-id="era228" data-person="era:延享">
+<title>元号 延享　1744年4月3日 〜 1748年8月5日（期間 約4年）</title>
+<rect class="bar-hatch" x="313" y="6696.5" width="14" height="24" rx="3"/>
+<text class="label" x="282" y="6708.8" text-anchor="end"><tspan class="yrs">1744–1748</tspan><tspan class="name" dx="6">延享</tspan></text>
+</g>
+<g class="term c-era" data-id="era229" data-person="era:寛延">
+<title>元号 寛延　1748年8月5日 〜 1751年12月14日（期間 約3年）</title>
+<rect class="bar f-blue" x="313" y="6722.5" width="14" height="18.1" rx="3"/>
+<text class="label" x="282" y="6734.9" text-anchor="end"><tspan class="yrs">1748–1751</tspan><tspan class="name" dx="6">寛延</tspan></text>
+</g>
+<g class="term c-era" data-id="era230" data-person="era:宝暦">
+<title>元号 宝暦　1751年12月14日 〜 1764年6月30日（期間 約13年）</title>
+<rect class="bar f-red" x="313" y="6742.7" width="14" height="73.3" rx="3"/>
+<text class="label" x="282" y="6755" text-anchor="end"><tspan class="yrs">1751–1764</tspan><tspan class="name" dx="6">宝暦</tspan></text>
+</g>
+<g class="term c-era" data-id="era231" data-person="era:明和">
+<title>元号 明和　1764年6月30日 〜 1772年12月10日（期間 約8年）</title>
+<rect class="bar f-blue" x="313" y="6817.9" width="14" height="48.7" rx="3"/>
+<text class="label" x="282" y="6830.3" text-anchor="end"><tspan class="yrs">1764–1772</tspan><tspan class="name" dx="6">明和</tspan></text>
+</g>
+<g class="term c-era" data-id="era232" data-person="era:安永">
+<title>元号 安永　1772年12月10日 〜 1781年4月25日（期間 約8年）</title>
+<rect class="bar f-red" x="313" y="6868.6" width="14" height="48.2" rx="3"/>
+<text class="label" x="282" y="6881" text-anchor="end"><tspan class="yrs">1772–1781</tspan><tspan class="name" dx="6">安永</tspan></text>
+</g>
+<g class="term c-era" data-id="era233" data-person="era:天明">
+<title>元号 天明　1781年4月25日 〜 1789年2月19日（期間 約8年）</title>
+<rect class="bar f-blue" x="313" y="6918.8" width="14" height="44.9" rx="3"/>
+<text class="label" x="282" y="6931.2" text-anchor="end"><tspan class="yrs">1781–1789</tspan><tspan class="name" dx="6">天明</tspan></text>
+</g>
+<g class="term c-era" data-id="era234" data-person="era:寛政">
+<title>元号 寛政　1789年2月19日 〜 1801年3月19日（期間 約12年）</title>
+<rect class="bar f-red" x="313" y="6965.8" width="14" height="70.4" rx="3"/>
+<text class="label" x="282" y="6978.1" text-anchor="end"><tspan class="yrs">1789–1801</tspan><tspan class="name" dx="6">寛政</tspan></text>
+</g>
+<g class="term c-era" data-id="era235" data-person="era:享和">
+<title>元号 享和　1801年3月19日 〜 1804年3月22日（期間 約3年）</title>
+<rect class="bar-hatch" x="313" y="7038.2" width="14" height="16.1" rx="3"/>
+<text class="label" x="282" y="7050.6" text-anchor="end"><tspan class="yrs">1801–1804</tspan><tspan class="name" dx="6">享和</tspan></text>
+</g>
+<g class="term c-era" data-id="era236" data-person="era:文化">
+<title>元号 文化　1804年3月22日 〜 1818年5月26日（期間 約14年）</title>
+<rect class="bar-hatch" x="313" y="7056.3" width="14" height="83.1" rx="3"/>
+<text class="label" x="282" y="7068.6" text-anchor="end"><tspan class="yrs">1804–1818</tspan><tspan class="name" dx="6">文化</tspan></text>
+</g>
+<g class="term c-era" data-id="era237" data-person="era:文政">
+<title>元号 文政　1818年5月26日 〜 1831年1月23日（期間 約13年）</title>
+<rect class="bar f-blue" x="313" y="7141.3" width="14" height="74" rx="3"/>
+<text class="label" x="282" y="7153.7" text-anchor="end"><tspan class="yrs">1818–1831</tspan><tspan class="name" dx="6">文政</tspan></text>
+</g>
+<g class="term c-era" data-id="era238" data-person="era:天保">
+<title>元号 天保　1831年1月23日 〜 1845年1月9日（期間 約14年）</title>
+<rect class="bar f-red" x="313" y="7217.3" width="14" height="81.8" rx="3"/>
+<text class="label" x="282" y="7229.7" text-anchor="end"><tspan class="yrs">1831–1845</tspan><tspan class="name" dx="6">天保</tspan></text>
+</g>
+<g class="term c-era" data-id="era239" data-person="era:弘化">
+<title>元号 弘化　1845年1月9日 〜 1848年4月1日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="7301.1" width="14" height="17.4" rx="3"/>
+<text class="label" x="282" y="7313.5" text-anchor="end"><tspan class="yrs">1845–1848</tspan><tspan class="name" dx="6">弘化</tspan></text>
+</g>
+<g class="term c-era" data-id="era240" data-person="era:嘉永">
+<title>元号 嘉永　1848年4月1日 〜 1855年1月15日（期間 約7年）</title>
+<rect class="bar f-blue" x="313" y="7320.4" width="14" height="38.7" rx="3"/>
+<text class="label" x="282" y="7332.8" text-anchor="end"><tspan class="yrs">1848–1855</tspan><tspan class="name" dx="6">嘉永</tspan></text>
+</g>
+<g class="term c-era" data-id="era241" data-person="era:安政">
+<title>元号 安政　1855年1月15日 〜 1860年4月8日（期間 約5年）</title>
+<rect class="bar f-red" x="313" y="7361.2" width="14" height="29.4" rx="3"/>
+<text class="label" x="282" y="7373.5" text-anchor="end"><tspan class="yrs">1855–1860</tspan><tspan class="name" dx="6">安政</tspan></text>
+</g>
+<g class="term c-era" data-id="era242" data-person="era:万延">
+<title>元号 万延　1860年4月8日 〜 1861年3月29日（期間 355日）</title>
+<rect class="bar f-red" x="313" y="7392.6" width="14" height="3.8" rx="1.9"/>
+<path class="leader" d="M311.5 7394.5h-4L286 7386.2h-2"/>
+<text class="label" x="282" y="7391" text-anchor="end"><tspan class="yrs">1860–1861</tspan><tspan class="name" dx="6">万延</tspan></text>
+</g>
+<g class="term c-era" data-id="era243" data-person="era:文久">
+<title>元号 文久　1861年3月29日 〜 1864年3月27日（期間 約3年）</title>
+<rect class="bar-hatch" x="313" y="7398.4" width="14" height="16" rx="3"/>
+<path class="leader" d="M311.5 7405.9h-4L286 7403.2h-2"/>
+<text class="label" x="282" y="7408" text-anchor="end"><tspan class="yrs">1861–1864</tspan><tspan class="name" dx="6">文久</tspan></text>
+</g>
+<g class="term c-era" data-id="era244" data-person="era:元治">
+<title>元号 元治　1864年3月27日 〜 1865年5月1日（期間 400日）</title>
+<rect class="bar-hatch" x="313" y="7416.4" width="14" height="4.6" rx="2.3"/>
+<path class="leader" d="M311.5 7418.7h-4L286 7420.2h-2"/>
+<text class="label" x="282" y="7425" text-anchor="end"><tspan class="yrs">1864–1865</tspan><tspan class="name" dx="6">元治</tspan></text>
+</g>
+<g class="term c-era" data-id="era245" data-person="era:慶応">
+<title>元号 慶応　1865年5月1日 〜 1868年10月23日（期間 約3年）</title>
+<rect class="bar f-red" x="313" y="7422.9" width="14" height="18.9" rx="3"/>
+<path class="leader" d="M311.5 7430.4h-4L286 7437.2h-2"/>
+<text class="label" x="282" y="7442" text-anchor="end"><tspan class="yrs">1865–1868</tspan><tspan class="name" dx="6">慶応</tspan></text>
+</g>
+<g class="term c-era" data-id="era246" data-person="era:明治">
+<title>元号 明治　1868年10月23日 〜 1912年7月30日（期間 約44年）</title>
+<rect class="bar f-blue" x="313" y="7443.8" width="14" height="260.6" rx="3"/>
+<path class="leader" d="M311.5 7451.3h-4L286 7454.2h-2"/>
+<text class="label" x="282" y="7459" text-anchor="end"><tspan class="yrs">1868–1912</tspan><tspan class="name" dx="6">明治</tspan></text>
+</g>
+<g class="term c-era" data-id="era247" data-person="era:大正">
+<title>元号 大正　1912年7月30日 〜 1926年12月25日（期間 約14年）</title>
+<rect class="bar f-blue" x="313" y="7706.4" width="14" height="84.4" rx="3"/>
+<text class="label" x="282" y="7718.8" text-anchor="end"><tspan class="yrs">1912–1926</tspan><tspan class="name" dx="6">大正</tspan></text>
+</g>
+<g class="term c-era" data-id="era248" data-person="era:昭和">
+<title>元号 昭和　1926年12月25日 〜 1989年1月8日（期間 約62年）</title>
+<rect class="bar f-blue" x="313" y="7792.8" width="14" height="370.2" rx="3"/>
+<text class="label" x="282" y="7805.2" text-anchor="end"><tspan class="yrs">1926–1989</tspan><tspan class="name" dx="6">昭和</tspan></text>
+</g>
+<g class="term c-era" data-id="era249" data-person="era:平成">
+<title>元号 平成　1989年1月8日 〜 2019年5月1日（期間 約30年）</title>
+<rect class="bar f-blue" x="313" y="8165.1" width="14" height="179.9" rx="3"/>
+<text class="label" x="282" y="8177.4" text-anchor="end"><tspan class="yrs">1989–2019</tspan><tspan class="name" dx="6">平成</tspan></text>
+</g>
+<g class="term c-era" data-id="era250" data-person="era:令和">
+<title>元号 令和　2019年5月1日 〜 現在（期間 約7年）</title>
+<linearGradient id="tl-g-era250" gradientUnits="userSpaceOnUse" x1="0" y1="8368.9" x2="0" y2="8390.9"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M313 8349.9Q313 8346.9 316 8346.9H324Q327 8346.9 327 8349.9V8390.9Q327 8390.9 327 8390.9H313Q313 8390.9 313 8390.9Z" fill="url(#tl-g-era250)"/>
+<text class="label" x="282" y="8359.3" text-anchor="end"><tspan class="yrs">2019–</tspan><tspan class="name" dx="6">令和</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp0" data-person="emp:皇極天皇">
+<title>天皇 皇極天皇　642年2月19日 〜 645年7月12日（在位 1,239日）</title>
+<rect class="bar f-violet" x="433" y="83.8" width="14" height="18.4" rx="3"/>
+<text class="label" x="478" y="96.2"><tspan class="name">皇極</tspan><tspan class="yrs" dx="6">642–645</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp1" data-person="emp:孝徳天皇">
+<title>天皇 孝徳天皇　645年7月12日 〜 654年11月24日（在位 3,422日）</title>
+<rect class="bar f-violet" x="433" y="104.2" width="14" height="54.2" rx="3"/>
+<text class="label" x="478" y="116.5"><tspan class="name">孝徳</tspan><tspan class="yrs" dx="6">645–654</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp2" data-person="emp:斉明天皇">
+<title>天皇 斉明天皇　655年2月14日 〜 661年8月24日（在位 2,383日）</title>
+<rect class="bar f-violet" x="433" y="161.7" width="14" height="37.1" rx="3"/>
+<text class="label" x="478" y="174.1"><tspan class="name">斉明</tspan><tspan class="yrs" dx="6">655–661</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp3" data-person="emp:天智天皇">
+<title>天皇 天智天皇　668年2月20日 〜 672年1月7日（在位 1,417日）</title>
+<rect class="bar f-violet" x="433" y="239.8" width="14" height="21.3" rx="3"/>
+<text class="label" x="478" y="250.9"><tspan class="name">天智</tspan><tspan class="yrs" dx="6">668–672</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp4" data-person="emp:弘文天皇">
+<title>天皇 弘文天皇　672年1月9日 〜 672年8月21日（在位 225日）</title>
+<rect class="bar f-violet" x="433" y="262.5" width="14" height="3" rx="1.5"/>
+<text class="label" x="478" y="267.9"><tspan class="name">弘文</tspan><tspan class="yrs" dx="6">672</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp5" data-person="emp:天武天皇">
+<title>天皇 天武天皇　673年3月20日 〜 686年10月1日（在位 4,943日）</title>
+<rect class="bar f-violet" x="433" y="270.3" width="14" height="79.2" rx="3"/>
+<path class="leader" d="M448.5 277.8h4L474 280h2"/>
+<text class="label" x="478" y="284.9"><tspan class="name">天武</tspan><tspan class="yrs" dx="6">673–686</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp6" data-person="emp:持統天皇">
+<title>天皇 持統天皇　690年2月14日 〜 697年8月22日（在位 2,746日）</title>
+<rect class="bar f-violet" x="433" y="371.7" width="14" height="43.1" rx="3"/>
+<text class="label" x="478" y="384.1"><tspan class="name">持統</tspan><tspan class="yrs" dx="6">690–697</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp7" data-person="emp:文武天皇">
+<title>天皇 文武天皇　697年8月22日 〜 707年7月18日（在位 3,617日）</title>
+<rect class="bar f-violet" x="433" y="416.8" width="14" height="57.4" rx="3"/>
+<text class="label" x="478" y="429.2"><tspan class="name">文武</tspan><tspan class="yrs" dx="6">697–707</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp8" data-person="emp:元明天皇">
+<title>天皇 元明天皇　707年8月18日 〜 715年10月3日（在位 2,968日）</title>
+<rect class="bar f-violet" x="433" y="476.8" width="14" height="46.8" rx="3"/>
+<text class="label" x="478" y="489.1"><tspan class="name">元明</tspan><tspan class="yrs" dx="6">707–715</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp9" data-person="emp:元正天皇">
+<title>天皇 元正天皇　715年10月3日 〜 724年3月3日（在位 3,074日）</title>
+<rect class="bar f-violet" x="433" y="525.5" width="14" height="48.5" rx="3"/>
+<text class="label" x="478" y="537.9"><tspan class="name">元正</tspan><tspan class="yrs" dx="6">715–724</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp10" data-person="emp:聖武天皇">
+<title>天皇 聖武天皇　724年3月3日 〜 749年8月19日（在位 9,300日）</title>
+<rect class="bar f-violet" x="433" y="576" width="14" height="150.8" rx="3"/>
+<text class="label" x="478" y="588.4"><tspan class="name">聖武</tspan><tspan class="yrs" dx="6">724–749</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp11" data-person="emp:孝謙天皇">
+<title>天皇 孝謙天皇　749年8月19日 〜 758年9月7日（在位 3,306日）</title>
+<rect class="bar f-violet" x="433" y="728.8" width="14" height="52.3" rx="3"/>
+<text class="label" x="478" y="741.2"><tspan class="name">孝謙</tspan><tspan class="yrs" dx="6">749–758</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp12" data-person="emp:淳仁天皇">
+<title>天皇 淳仁天皇　758年9月7日 〜 764年11月6日（在位 2,252日）</title>
+<rect class="bar f-violet" x="433" y="783.1" width="14" height="35" rx="3"/>
+<text class="label" x="478" y="795.5"><tspan class="name">淳仁</tspan><tspan class="yrs" dx="6">758–764</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp13" data-person="emp:称徳天皇">
+<title>天皇 称徳天皇　764年11月6日 〜 770年8月28日（在位 2,121日）</title>
+<rect class="bar f-violet" x="433" y="820.1" width="14" height="32.8" rx="3"/>
+<text class="label" x="478" y="832.5"><tspan class="name">称徳</tspan><tspan class="yrs" dx="6">764–770</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp14" data-person="emp:光仁天皇">
+<title>天皇 光仁天皇　770年10月23日 〜 781年4月30日（在位 3,842日）</title>
+<rect class="bar f-violet" x="433" y="855.9" width="14" height="61.1" rx="3"/>
+<text class="label" x="478" y="868.2"><tspan class="name">光仁</tspan><tspan class="yrs" dx="6">770–781</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp15" data-person="emp:桓武天皇">
+<title>天皇 桓武天皇　781年4月30日 〜 806年4月9日（在位 9,110日）</title>
+<rect class="bar f-violet" x="433" y="919" width="14" height="147.7" rx="3"/>
+<text class="label" x="478" y="931.3"><tspan class="name">桓武</tspan><tspan class="yrs" dx="6">781–806</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp16" data-person="emp:平城天皇">
+<title>天皇 平城天皇　806年4月9日 〜 809年5月18日（在位 1,135日）</title>
+<rect class="bar f-violet" x="433" y="1068.6" width="14" height="16.6" rx="3"/>
+<text class="label" x="478" y="1081"><tspan class="name">平城</tspan><tspan class="yrs" dx="6">806–809</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp17" data-person="emp:嵯峨天皇">
+<title>天皇 嵯峨天皇　809年5月18日 〜 823年5月29日（在位 5,124日）</title>
+<rect class="bar f-violet" x="433" y="1087.3" width="14" height="82.2" rx="3"/>
+<text class="label" x="478" y="1099.6"><tspan class="name">嵯峨</tspan><tspan class="yrs" dx="6">809–823</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp18" data-person="emp:淳和天皇">
+<title>天皇 淳和天皇　823年5月29日 〜 833年3月22日（在位 3,585日）</title>
+<rect class="bar f-violet" x="433" y="1171.5" width="14" height="56.9" rx="3"/>
+<text class="label" x="478" y="1183.8"><tspan class="name">淳和</tspan><tspan class="yrs" dx="6">823–833</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp19" data-person="emp:仁明天皇">
+<title>天皇 仁明天皇　833年3月22日 〜 850年5月4日（在位 6,252日）</title>
+<rect class="bar f-violet" x="433" y="1230.4" width="14" height="100.7" rx="3"/>
+<text class="label" x="478" y="1242.7"><tspan class="name">仁明</tspan><tspan class="yrs" dx="6">833–850</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp20" data-person="emp:文徳天皇">
+<title>天皇 文徳天皇　850年5月4日 〜 858年10月7日（在位 3,078日）</title>
+<rect class="bar f-violet" x="433" y="1333.1" width="14" height="48.6" rx="3"/>
+<text class="label" x="478" y="1345.4"><tspan class="name">文徳</tspan><tspan class="yrs" dx="6">850–858</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp21" data-person="emp:清和天皇">
+<title>天皇 清和天皇　858年10月7日 〜 876年12月18日（在位 6,647日）</title>
+<rect class="bar f-violet" x="433" y="1383.6" width="14" height="107.2" rx="3"/>
+<text class="label" x="478" y="1396"><tspan class="name">清和</tspan><tspan class="yrs" dx="6">858–876</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp22" data-person="emp:陽成天皇">
+<title>天皇 陽成天皇　876年12月18日 〜 884年3月4日（在位 2,633日）</title>
+<rect class="bar f-violet" x="433" y="1492.8" width="14" height="41.3" rx="3"/>
+<text class="label" x="478" y="1505.2"><tspan class="name">陽成</tspan><tspan class="yrs" dx="6">876–884</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp23" data-person="emp:光孝天皇">
+<title>天皇 光孝天皇　884年3月4日 〜 887年9月17日（在位 1,292日）</title>
+<rect class="bar f-violet" x="433" y="1536.1" width="14" height="19.2" rx="3"/>
+<text class="label" x="478" y="1548.4"><tspan class="name">光孝</tspan><tspan class="yrs" dx="6">884–887</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp24" data-person="emp:宇多天皇">
+<title>天皇 宇多天皇　887年9月17日 〜 897年8月4日（在位 3,609日）</title>
+<rect class="bar f-violet" x="433" y="1557.3" width="14" height="57.3" rx="3"/>
+<text class="label" x="478" y="1569.6"><tspan class="name">宇多</tspan><tspan class="yrs" dx="6">887–897</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp25" data-person="emp:醍醐天皇">
+<title>天皇 醍醐天皇　897年8月4日 〜 930年10月16日（在位 12,126日）</title>
+<rect class="bar f-violet" x="433" y="1616.6" width="14" height="197.2" rx="3"/>
+<text class="label" x="478" y="1628.9"><tspan class="name">醍醐</tspan><tspan class="yrs" dx="6">897–930</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp26" data-person="emp:朱雀天皇">
+<title>天皇 朱雀天皇　930年10月16日 〜 946年5月23日（在位 5,698日）</title>
+<rect class="bar f-violet" x="433" y="1815.8" width="14" height="91.6" rx="3"/>
+<text class="label" x="478" y="1828.1"><tspan class="name">朱雀</tspan><tspan class="yrs" dx="6">930–946</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp27" data-person="emp:村上天皇">
+<title>天皇 村上天皇　946年5月23日 〜 967年7月5日（在位 7,713日）</title>
+<rect class="bar f-violet" x="433" y="1909.4" width="14" height="124.7" rx="3"/>
+<text class="label" x="478" y="1921.7"><tspan class="name">村上</tspan><tspan class="yrs" dx="6">946–967</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp28" data-person="emp:冷泉天皇">
+<title>天皇 冷泉天皇　967年7月5日 〜 969年9月27日（在位 815日）</title>
+<rect class="bar f-violet" x="433" y="2036.1" width="14" height="11.4" rx="3"/>
+<text class="label" x="478" y="2045.7"><tspan class="name">冷泉</tspan><tspan class="yrs" dx="6">967–969</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp29" data-person="emp:円融天皇">
+<title>天皇 円融天皇　969年9月27日 〜 984年9月24日（在位 5,476日）</title>
+<rect class="bar f-violet" x="433" y="2049.5" width="14" height="88" rx="3"/>
+<text class="label" x="478" y="2062.7"><tspan class="name">円融</tspan><tspan class="yrs" dx="6">969–984</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp30" data-person="emp:花山天皇">
+<title>天皇 花山天皇　984年9月24日 〜 986年8月1日（在位 676日）</title>
+<rect class="bar f-violet" x="433" y="2139.4" width="14" height="9.1" rx="3"/>
+<text class="label" x="478" y="2147.4"><tspan class="name">花山</tspan><tspan class="yrs" dx="6">984–986</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp31" data-person="emp:一条天皇">
+<title>天皇 一条天皇　986年8月1日 〜 1011年7月16日（在位 9,115日）</title>
+<rect class="bar f-violet" x="433" y="2150.5" width="14" height="147.7" rx="3"/>
+<text class="label" x="478" y="2164.4"><tspan class="name">一条</tspan><tspan class="yrs" dx="6">986–1011</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp32" data-person="emp:三条天皇">
+<title>天皇 三条天皇　1011年7月16日 〜 1016年3月10日（在位 1,699日）</title>
+<rect class="bar f-violet" x="433" y="2300.3" width="14" height="25.9" rx="3"/>
+<text class="label" x="478" y="2312.6"><tspan class="name">三条</tspan><tspan class="yrs" dx="6">1011–1016</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp33" data-person="emp:後一条天皇">
+<title>天皇 後一条天皇　1016年3月10日 〜 1036年5月15日（在位 7,371日）</title>
+<rect class="bar f-violet" x="433" y="2328.2" width="14" height="119.1" rx="3"/>
+<text class="label" x="478" y="2340.5"><tspan class="name">後一条</tspan><tspan class="yrs" dx="6">1016–1036</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp34" data-person="emp:後朱雀天皇">
+<title>天皇 後朱雀天皇　1036年5月15日 〜 1045年2月5日（在位 3,188日）</title>
+<rect class="bar f-violet" x="433" y="2449.3" width="14" height="50.4" rx="3"/>
+<text class="label" x="478" y="2461.6"><tspan class="name">後朱雀</tspan><tspan class="yrs" dx="6">1036–1045</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp35" data-person="emp:後冷泉天皇">
+<title>天皇 後冷泉天皇　1045年2月5日 〜 1068年5月22日（在位 8,507日）</title>
+<rect class="bar f-violet" x="433" y="2501.6" width="14" height="137.7" rx="3"/>
+<text class="label" x="478" y="2514"><tspan class="name">後冷泉</tspan><tspan class="yrs" dx="6">1045–1068</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp36" data-person="emp:後三条天皇">
+<title>天皇 後三条天皇　1068年5月22日 〜 1073年1月18日（在位 1,702日）</title>
+<rect class="bar f-violet" x="433" y="2641.4" width="14" height="26" rx="3"/>
+<text class="label" x="478" y="2653.7"><tspan class="name">後三条</tspan><tspan class="yrs" dx="6">1068–1073</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp37" data-person="emp:白河天皇">
+<title>天皇 白河天皇　1073年1月18日 〜 1087年1月3日（在位 5,098日）</title>
+<rect class="bar f-violet" x="433" y="2669.3" width="14" height="81.7" rx="3"/>
+<text class="label" x="478" y="2681.7"><tspan class="name">白河</tspan><tspan class="yrs" dx="6">1073–1087</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp38" data-person="emp:堀河天皇">
+<title>天皇 堀河天皇　1087年1月3日 〜 1107年8月9日（在位 7,523日）</title>
+<rect class="bar f-violet" x="433" y="2753.1" width="14" height="121.6" rx="3"/>
+<text class="label" x="478" y="2765.5"><tspan class="name">堀河</tspan><tspan class="yrs" dx="6">1087–1107</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp39" data-person="emp:鳥羽天皇">
+<title>天皇 鳥羽天皇　1107年8月9日 〜 1123年2月25日（在位 5,679日）</title>
+<rect class="bar f-violet" x="433" y="2876.7" width="14" height="91.3" rx="3"/>
+<text class="label" x="478" y="2889"><tspan class="name">鳥羽</tspan><tspan class="yrs" dx="6">1107–1123</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp40" data-person="emp:崇徳天皇">
+<title>天皇 崇徳天皇　1123年2月25日 〜 1142年1月5日（在位 6,889日）</title>
+<rect class="bar f-violet" x="433" y="2970" width="14" height="111.2" rx="3"/>
+<text class="label" x="478" y="2982.3"><tspan class="name">崇徳</tspan><tspan class="yrs" dx="6">1123–1142</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp41" data-person="emp:近衛天皇">
+<title>天皇 近衛天皇　1142年1月5日 〜 1155年8月22日（在位 4,977日）</title>
+<rect class="bar f-violet" x="433" y="3083.1" width="14" height="79.8" rx="3"/>
+<text class="label" x="478" y="3095.5"><tspan class="name">近衛</tspan><tspan class="yrs" dx="6">1142–1155</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp42" data-person="emp:後白河天皇">
+<title>天皇 後白河天皇　1155年8月23日 〜 1158年9月5日（在位 1,109日）</title>
+<rect class="bar f-violet" x="433" y="3164.9" width="14" height="16.2" rx="3"/>
+<text class="label" x="478" y="3177.3"><tspan class="name">後白河</tspan><tspan class="yrs" dx="6">1155–1158</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp43" data-person="emp:二条天皇">
+<title>天皇 二条天皇　1158年9月5日 〜 1165年8月3日（在位 2,524日）</title>
+<rect class="bar f-violet" x="433" y="3183.1" width="14" height="39.5" rx="3"/>
+<text class="label" x="478" y="3195.5"><tspan class="name">二条</tspan><tspan class="yrs" dx="6">1158–1165</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp44" data-person="emp:六条天皇">
+<title>天皇 六条天皇　1165年8月3日 〜 1168年3月30日（在位 970日）</title>
+<rect class="bar f-violet" x="433" y="3224.6" width="14" height="13.9" rx="3"/>
+<text class="label" x="478" y="3236.2"><tspan class="name">六条</tspan><tspan class="yrs" dx="6">1165–1168</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp45" data-person="emp:高倉天皇">
+<title>天皇 高倉天皇　1168年3月30日 〜 1180年3月18日（在位 4,371日）</title>
+<rect class="bar f-violet" x="433" y="3240.5" width="14" height="69.8" rx="3"/>
+<text class="label" x="478" y="3253.2"><tspan class="name">高倉</tspan><tspan class="yrs" dx="6">1168–1180</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp46" data-person="emp:安徳天皇">
+<title>天皇 安徳天皇　1180年3月18日 〜 1185年4月25日（在位 1,864日）</title>
+<rect class="bar f-violet" x="433" y="3312.3" width="14" height="28.6" rx="3"/>
+<text class="label" x="478" y="3324.7"><tspan class="name">安徳</tspan><tspan class="yrs" dx="6">1180–1185</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp47" data-person="emp:後鳥羽天皇">
+<title>天皇 後鳥羽天皇　1183年9月8日 〜 1198年2月18日（在位 5,277日）</title>
+<rect class="bar f-violet" x="449" y="3333.2" width="14" height="84.7" rx="3"/>
+<text class="label" x="478" y="3345.5"><tspan class="name">後鳥羽</tspan><tspan class="yrs" dx="6">1183–1198</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp48" data-person="emp:土御門天皇">
+<title>天皇 土御門天皇　1198年2月18日 〜 1210年12月12日（在位 4,680日）</title>
+<rect class="bar f-violet" x="433" y="3419.9" width="14" height="74.9" rx="3"/>
+<text class="label" x="478" y="3432.2"><tspan class="name">土御門</tspan><tspan class="yrs" dx="6">1198–1210</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp49" data-person="emp:順徳天皇">
+<title>天皇 順徳天皇　1210年12月12日 〜 1221年5月13日（在位 3,805日）</title>
+<rect class="bar f-violet" x="433" y="3496.7" width="14" height="60.5" rx="3"/>
+<text class="label" x="478" y="3509.1"><tspan class="name">順徳</tspan><tspan class="yrs" dx="6">1210–1221</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp50" data-person="emp:仲恭天皇">
+<title>天皇 仲恭天皇　1221年5月13日 〜 1221年7月29日（在位 77日）</title>
+<rect class="bar f-violet" x="433" y="3557.4" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M448.5 3558.9h4L474 3555h2"/>
+<text class="label" x="478" y="3559.8"><tspan class="name">仲恭</tspan><tspan class="yrs" dx="6">1221</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp51" data-person="emp:後堀河天皇">
+<title>天皇 後堀河天皇　1221年7月29日 〜 1232年11月17日（在位 4,129日）</title>
+<rect class="bar f-violet" x="433" y="3560.5" width="14" height="65.8" rx="3"/>
+<path class="leader" d="M448.5 3568h4L474 3572h2"/>
+<text class="label" x="478" y="3576.8"><tspan class="name">後堀河</tspan><tspan class="yrs" dx="6">1221–1232</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp52" data-person="emp:四条天皇">
+<title>天皇 四条天皇　1232年11月17日 〜 1242年2月10日（在位 3,372日）</title>
+<rect class="bar f-violet" x="433" y="3628.3" width="14" height="53.4" rx="3"/>
+<text class="label" x="478" y="3640.7"><tspan class="name">四条</tspan><tspan class="yrs" dx="6">1232–1242</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp53" data-person="emp:後嵯峨天皇">
+<title>天皇 後嵯峨天皇　1242年2月21日 〜 1246年2月16日（在位 1,456日）</title>
+<rect class="bar f-violet" x="433" y="3683.9" width="14" height="21.9" rx="3"/>
+<text class="label" x="478" y="3696.3"><tspan class="name">後嵯峨</tspan><tspan class="yrs" dx="6">1242–1246</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp54" data-person="emp:後深草天皇">
+<title>天皇 後深草天皇　1246年2月16日 〜 1260年1月9日（在位 5,075日）</title>
+<rect class="bar f-violet" x="433" y="3707.8" width="14" height="81.4" rx="3"/>
+<text class="label" x="478" y="3720.2"><tspan class="name">後深草</tspan><tspan class="yrs" dx="6">1246–1260</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp55" data-person="emp:亀山天皇">
+<title>天皇 亀山天皇　1260年1月9日 〜 1274年3月6日（在位 5,170日）</title>
+<rect class="bar f-violet" x="433" y="3791.2" width="14" height="82.9" rx="3"/>
+<text class="label" x="478" y="3803.6"><tspan class="name">亀山</tspan><tspan class="yrs" dx="6">1260–1274</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp56" data-person="emp:後宇多天皇">
+<title>天皇 後宇多天皇　1274年3月6日 〜 1287年11月27日（在位 5,014日）</title>
+<rect class="bar f-violet" x="433" y="3876.1" width="14" height="80.4" rx="3"/>
+<text class="label" x="478" y="3888.5"><tspan class="name">後宇多</tspan><tspan class="yrs" dx="6">1274–1287</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp57" data-person="emp:伏見天皇">
+<title>天皇 伏見天皇　1287年11月27日 〜 1298年8月30日（在位 3,929日）</title>
+<rect class="bar f-violet" x="433" y="3958.5" width="14" height="62.5" rx="3"/>
+<text class="label" x="478" y="3970.9"><tspan class="name">伏見</tspan><tspan class="yrs" dx="6">1287–1298</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp58" data-person="emp:後伏見天皇">
+<title>天皇 後伏見天皇　1298年8月30日 〜 1301年3月2日（在位 915日）</title>
+<rect class="bar f-violet" x="433" y="4023" width="14" height="13" rx="3"/>
+<text class="label" x="478" y="4033.9"><tspan class="name">後伏見</tspan><tspan class="yrs" dx="6">1298–1301</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp59" data-person="emp:後二条天皇">
+<title>天皇 後二条天皇　1301年3月2日 〜 1308年9月10日（在位 2,749日）</title>
+<rect class="bar f-violet" x="433" y="4038.1" width="14" height="43.2" rx="3"/>
+<text class="label" x="478" y="4050.9"><tspan class="name">後二条</tspan><tspan class="yrs" dx="6">1301–1308</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp60" data-person="emp:花園天皇">
+<title>天皇 花園天皇　1308年9月11日 〜 1318年3月29日（在位 3,486日）</title>
+<rect class="bar f-violet" x="433" y="4083.3" width="14" height="55.3" rx="3"/>
+<text class="label" x="478" y="4095.6"><tspan class="name">花園</tspan><tspan class="yrs" dx="6">1308–1318</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp61" data-person="emp:後醍醐天皇">
+<title>天皇 後醍醐天皇　1318年3月29日 〜 1339年9月18日（在位 7,843日）</title>
+<rect class="bar f-violet" x="433" y="4140.5" width="14" height="126.8" rx="3"/>
+<text class="label" x="478" y="4152.9"><tspan class="name">後醍醐</tspan><tspan class="yrs" dx="6">1318–1339</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp62" data-person="emp:光厳天皇">
+<title>天皇 光厳天皇　1331年10月22日 〜 1333年7月7日（在位 624日）</title>
+<rect class="bar f-violet" x="449" y="4221.9" width="14" height="8.3" rx="3"/>
+<text class="label" x="478" y="4230.9"><tspan class="name">光厳</tspan><tspan class="yrs" dx="6">1331–1333</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp63" data-person="emp:光明天皇">
+<title>天皇 光明天皇　1336年9月20日 〜 1348年11月18日（在位 4,442日）</title>
+<rect class="bar f-violet" x="449" y="4251.4" width="14" height="71" rx="3"/>
+<text class="label" x="478" y="4263.8"><tspan class="name">光明</tspan><tspan class="yrs" dx="6">1336–1348</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp64" data-person="emp:後村上天皇">
+<title>天皇 後村上天皇　1339年9月18日 〜 1368年3月29日（在位 10,420日）</title>
+<rect class="bar f-violet" x="433" y="4269.4" width="14" height="169.2" rx="3"/>
+<path class="leader" d="M448.5 4276.9h4L474 4276.9h2"/>
+<text class="label" x="478" y="4281.7"><tspan class="name">後村上</tspan><tspan class="yrs" dx="6">1339–1368</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp65" data-person="emp:崇光天皇">
+<title>天皇 崇光天皇　1348年11月18日 〜 1351年11月26日（在位 1,103日）</title>
+<rect class="bar f-violet" x="449" y="4324.4" width="14" height="16.1" rx="3"/>
+<text class="label" x="478" y="4336.7"><tspan class="name">崇光</tspan><tspan class="yrs" dx="6">1348–1351</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp66" data-person="emp:後光厳天皇">
+<title>天皇 後光厳天皇　1352年9月25日 〜 1371年4月9日（在位 6,770日）</title>
+<rect class="bar f-violet" x="449" y="4347.5" width="14" height="109.2" rx="3"/>
+<text class="label" x="478" y="4359.9"><tspan class="name">後光厳</tspan><tspan class="yrs" dx="6">1352–1371</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp67" data-person="emp:長慶天皇">
+<title>天皇 長慶天皇　1368年3月 〜 1383年12月（在位 5,784日）</title>
+<rect class="bar f-violet" x="433" y="4440.1" width="14" height="93" rx="3"/>
+<path class="leader" d="M448.5 4447.6h4L474 4447.6h2"/>
+<text class="label" x="478" y="4452.4"><tspan class="name">長慶</tspan><tspan class="yrs" dx="6">1368–1383</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp68" data-person="emp:後円融天皇">
+<title>天皇 後円融天皇　1371年4月9日 〜 1382年5月24日（在位 4,063日）</title>
+<rect class="bar f-violet" x="449" y="4458.7" width="14" height="64.7" rx="3"/>
+<text class="label" x="478" y="4471.1"><tspan class="name">後円融</tspan><tspan class="yrs" dx="6">1371–1382</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp69" data-person="emp:後小松天皇">
+<title>天皇 後小松天皇　1382年5月24日 〜 1392年11月19日（在位 3,832日）</title>
+<rect class="bar f-violet" x="449" y="4525.4" width="14" height="60.9" rx="3"/>
+<path class="leader" d="M464.5 4532.9h4L474 4529h2"/>
+<text class="label" x="478" y="4533.9"><tspan class="name">後小松</tspan><tspan class="yrs" dx="6">1382–1392</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp70" data-person="emp:後亀山天皇">
+<title>天皇 後亀山天皇　1383年12月 〜 1392年11月19日（在位 3,276日）</title>
+<rect class="bar f-violet" x="433" y="4534.6" width="14" height="51.8" rx="3"/>
+<path class="leader" d="M448.5 4542.1h4L474 4546h2"/>
+<text class="label" x="478" y="4550.9"><tspan class="name">後亀山</tspan><tspan class="yrs" dx="6">1383–1392</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp71" data-person="emp:後小松天皇">
+<title>天皇 後小松天皇　1392年11月19日 〜 1412年10月5日（在位 7,260日）</title>
+<rect class="bar f-violet" x="433" y="4588.4" width="14" height="117.3" rx="3"/>
+<text class="label" x="478" y="4600.8"><tspan class="name">後小松</tspan><tspan class="yrs" dx="6">1392–1412</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp72" data-person="emp:称光天皇">
+<title>天皇 称光天皇　1412年10月5日 〜 1428年8月30日（在位 5,808日）</title>
+<rect class="bar f-violet" x="433" y="4707.7" width="14" height="93.4" rx="3"/>
+<text class="label" x="478" y="4720"><tspan class="name">称光</tspan><tspan class="yrs" dx="6">1412–1428</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp73" data-person="emp:後花園天皇">
+<title>天皇 後花園天皇　1428年9月7日 〜 1464年8月21日（在位 13,132日）</title>
+<rect class="bar f-violet" x="433" y="4803.2" width="14" height="213.7" rx="3"/>
+<text class="label" x="478" y="4815.6"><tspan class="name">後花園</tspan><tspan class="yrs" dx="6">1428–1464</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp74" data-person="emp:後土御門天皇">
+<title>天皇 後土御門天皇　1464年8月21日 〜 1500年10月21日（在位 13,210日）</title>
+<rect class="bar f-violet" x="433" y="5018.9" width="14" height="215" rx="3"/>
+<text class="label" x="478" y="5031.3"><tspan class="name">後土御門</tspan><tspan class="yrs" dx="6">1464–1500</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp75" data-person="emp:後柏原天皇">
+<title>天皇 後柏原天皇　1500年11月16日 〜 1526年5月18日（在位 9,314日）</title>
+<rect class="bar f-violet" x="433" y="5236.4" width="14" height="151" rx="3"/>
+<text class="label" x="478" y="5248.7"><tspan class="name">後柏原</tspan><tspan class="yrs" dx="6">1500–1526</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp76" data-person="emp:後奈良天皇">
+<title>天皇 後奈良天皇　1526年6月9日 〜 1557年9月27日（在位 11,433日）</title>
+<rect class="bar f-violet" x="433" y="5389.7" width="14" height="185.8" rx="3"/>
+<text class="label" x="478" y="5402.1"><tspan class="name">後奈良</tspan><tspan class="yrs" dx="6">1526–1557</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp77" data-person="emp:正親町天皇">
+<title>天皇 正親町天皇　1557年11月17日 〜 1586年12月17日（在位 10,612日）</title>
+<rect class="bar f-violet" x="433" y="5578.4" width="14" height="172.3" rx="3"/>
+<text class="label" x="478" y="5590.7"><tspan class="name">正親町</tspan><tspan class="yrs" dx="6">1557–1586</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp78" data-person="emp:後陽成天皇">
+<title>天皇 後陽成天皇　1586年12月17日 〜 1611年5月9日（在位 8,909日）</title>
+<rect class="bar f-violet" x="433" y="5752.7" width="14" height="144.4" rx="3"/>
+<text class="label" x="478" y="5765.1"><tspan class="name">後陽成</tspan><tspan class="yrs" dx="6">1586–1611</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp79" data-person="emp:後水尾天皇">
+<title>天皇 後水尾天皇　1611年5月9日 〜 1629年12月22日（在位 6,802日）</title>
+<rect class="bar f-violet" x="433" y="5899.1" width="14" height="109.7" rx="3"/>
+<text class="label" x="478" y="5911.4"><tspan class="name">後水尾</tspan><tspan class="yrs" dx="6">1611–1629</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp80" data-person="emp:明正天皇">
+<title>天皇 明正天皇　1629年12月22日 〜 1643年11月14日（在位 5,075日）</title>
+<rect class="bar f-violet" x="433" y="6010.8" width="14" height="81.4" rx="3"/>
+<text class="label" x="478" y="6023.2"><tspan class="name">明正</tspan><tspan class="yrs" dx="6">1629–1643</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp81" data-person="emp:後光明天皇">
+<title>天皇 後光明天皇　1643年11月14日 〜 1654年10月30日（在位 4,003日）</title>
+<rect class="bar f-violet" x="433" y="6094.2" width="14" height="63.8" rx="3"/>
+<text class="label" x="478" y="6106.5"><tspan class="name">後光明</tspan><tspan class="yrs" dx="6">1643–1654</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp82" data-person="emp:後西天皇">
+<title>天皇 後西天皇　1655年1月5日 〜 1663年3月5日（在位 2,981日）</title>
+<rect class="bar f-violet" x="433" y="6161" width="14" height="47" rx="3"/>
+<text class="label" x="478" y="6173.4"><tspan class="name">後西</tspan><tspan class="yrs" dx="6">1655–1663</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp83" data-person="emp:霊元天皇">
+<title>天皇 霊元天皇　1663年3月5日 〜 1687年5月2日（在位 8,824日）</title>
+<rect class="bar f-violet" x="433" y="6210" width="14" height="143" rx="3"/>
+<text class="label" x="478" y="6222.4"><tspan class="name">霊元</tspan><tspan class="yrs" dx="6">1663–1687</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp84" data-person="emp:東山天皇">
+<title>天皇 東山天皇　1687年5月2日 〜 1709年7月27日（在位 8,121日）</title>
+<rect class="bar f-violet" x="433" y="6355" width="14" height="131.4" rx="3"/>
+<text class="label" x="478" y="6367.3"><tspan class="name">東山</tspan><tspan class="yrs" dx="6">1687–1709</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp85" data-person="emp:中御門天皇">
+<title>天皇 中御門天皇　1709年7月27日 〜 1735年4月13日（在位 9,391日）</title>
+<rect class="bar f-violet" x="433" y="6488.4" width="14" height="152.3" rx="3"/>
+<text class="label" x="478" y="6500.7"><tspan class="name">中御門</tspan><tspan class="yrs" dx="6">1709–1735</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp86" data-person="emp:桜町天皇">
+<title>天皇 桜町天皇　1735年4月13日 〜 1747年6月9日（在位 4,440日）</title>
+<rect class="bar f-violet" x="433" y="6642.6" width="14" height="70.9" rx="3"/>
+<text class="label" x="478" y="6655"><tspan class="name">桜町</tspan><tspan class="yrs" dx="6">1735–1747</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp87" data-person="emp:桃園天皇">
+<title>天皇 桃園天皇　1747年6月9日 〜 1762年8月31日（在位 5,562日）</title>
+<rect class="bar f-violet" x="433" y="6715.6" width="14" height="89.4" rx="3"/>
+<text class="label" x="478" y="6727.9"><tspan class="name">桃園</tspan><tspan class="yrs" dx="6">1747–1762</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp88" data-person="emp:後桜町天皇">
+<title>天皇 後桜町天皇　1762年9月15日 〜 1771年1月9日（在位 3,038日）</title>
+<rect class="bar f-violet" x="433" y="6807.2" width="14" height="47.9" rx="3"/>
+<text class="label" x="478" y="6819.5"><tspan class="name">後桜町</tspan><tspan class="yrs" dx="6">1762–1771</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp89" data-person="emp:後桃園天皇">
+<title>天皇 後桃園天皇　1771年1月9日 〜 1779年12月16日（在位 3,263日）</title>
+<rect class="bar f-violet" x="433" y="6857.1" width="14" height="51.6" rx="3"/>
+<text class="label" x="478" y="6869.5"><tspan class="name">後桃園</tspan><tspan class="yrs" dx="6">1771–1779</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp90" data-person="emp:光格天皇">
+<title>天皇 光格天皇　1780年1月1日 〜 1817年5月7日（在位 13,640日）</title>
+<rect class="bar f-violet" x="433" y="6911" width="14" height="222.1" rx="3"/>
+<text class="label" x="478" y="6923.3"><tspan class="name">光格</tspan><tspan class="yrs" dx="6">1780–1817</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp91" data-person="emp:仁孝天皇">
+<title>天皇 仁孝天皇　1817年5月7日 〜 1846年2月21日（在位 10,517日）</title>
+<rect class="bar f-violet" x="433" y="7135" width="14" height="170.8" rx="3"/>
+<text class="label" x="478" y="7147.4"><tspan class="name">仁孝</tspan><tspan class="yrs" dx="6">1817–1846</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp92" data-person="emp:孝明天皇">
+<title>天皇 孝明天皇　1846年3月10日 〜 1867年1月30日（在位 7,631日）</title>
+<rect class="bar f-violet" x="433" y="7308.1" width="14" height="123.4" rx="3"/>
+<text class="label" x="478" y="7320.4"><tspan class="name">孝明</tspan><tspan class="yrs" dx="6">1846–1867</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp93" data-person="emp:明治天皇">
+<title>天皇 明治天皇　1867年2月13日 〜 1912年7月30日（在位 16,603日）</title>
+<rect class="bar f-violet" x="433" y="7433.7" width="14" height="270.7" rx="3"/>
+<text class="label" x="478" y="7446"><tspan class="name">明治</tspan><tspan class="yrs" dx="6">1867–1912</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp94" data-person="emp:大正天皇">
+<title>天皇 大正天皇　1912年7月30日 〜 1926年12月25日（在位 5,261日）</title>
+<rect class="bar f-violet" x="433" y="7706.4" width="14" height="84.4" rx="3"/>
+<text class="label" x="478" y="7718.8"><tspan class="name">大正</tspan><tspan class="yrs" dx="6">1912–1926</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp95" data-person="emp:昭和天皇">
+<title>天皇 昭和天皇　1926年12月25日 〜 1989年1月7日（在位 22,659日）</title>
+<rect class="bar f-violet" x="433" y="7792.8" width="14" height="370.2" rx="3"/>
+<text class="label" x="478" y="7805.2"><tspan class="name">昭和</tspan><tspan class="yrs" dx="6">1926–1989</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp96" data-person="emp:上皇（明仁）">
+<title>天皇 上皇（明仁）　1989年1月7日 〜 2019年4月30日（在位 11,070日）</title>
+<rect class="bar f-violet" x="433" y="8165.1" width="14" height="179.9" rx="3"/>
+<text class="label" x="478" y="8177.4"><tspan class="name">明仁</tspan><tspan class="yrs" dx="6">1989–2019</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp97" data-person="emp:今上天皇（徳仁）">
+<title>天皇 今上天皇（徳仁）　2019年5月1日 〜 在位中（在位 2,739日（2026年10月30日時点））</title>
+<linearGradient id="tl-g-emp97" gradientUnits="userSpaceOnUse" x1="0" y1="8368.9" x2="0" y2="8390.9"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M433 8349.9Q433 8346.9 436 8346.9H444Q447 8346.9 447 8349.9V8390.9Q447 8390.9 447 8390.9H433Q433 8390.9 433 8390.9Z" fill="url(#tl-g-emp97)"/>
+<text class="label" x="478" y="8359.3"><tspan class="name">今上</tspan><tspan class="yrs" dx="6">2019–</tspan></text>
+</g>
+<text class="foot" x="380" y="8428.3" text-anchor="middle">出典：日本語版 Wikipedia「元号一覧 (日本)」、日本語版 Wikipedia の各元号の記事（各項目の url、Category:日本の元号）、日本語版 Wikipedia「改元」（改元理由の分類）、日本語版 Wikipedia「建武の新政」（建武の元号）、国立天文台 暦計算室「日本の暦日データベース」（改元日と西暦換算の照合）、国立天文台 暦計算室 暦Wiki「元号」（明治以降の改元の詔書・政令）、国立公文書館「日本のあゆみ」明治元年（1868）9月「一世一元の制となる」、国立公文書館「日本のあゆみ」明治45年（1912）7月「大正と改元」、国立公文書館ニュース「あの日の公文書」（平成への改元）、講談社『日本の元号がわかる事典』（コトバンク、改元理由の照合）、小学館『精選版 日本国語大辞典』（コトバンク、改元理由・典拠の照合）　2026年10月30日時点</text>
+</svg>

@@ -1,0 +1,625 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 7342" width="760" height="7342" role="img" aria-labelledby="tl-title">
+<title id="tl-title">偉人の生没年</title>
+<style>
+.tl{--paper:#14171f;--ink:#e6e8ee;--ink2:#b2b8c4;--muted:#8d94a3;--rule:#232833;--rule2:#3d4452;--spine-a:#1b1f29;--spine-b:#222733;--red:#e5604a;--blue:#678bd2;--amber:#c98500;--violet:#9085e9;--green:#199e70;--teal:#1f9fa1;--gray:#6b7280;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="760" height="7342" rx="14"/>
+<text class="lane-s" x="89" y="40">日本の人物</text>
+<rect class="f-red" x="89" y="46" width="238" height="6" rx="2"/>
+<text class="lane-s" x="433" y="40">世界の人物</text>
+<rect class="f-blue" x="433" y="46" width="166" height="6" rx="2"/>
+<text class="spine-h" x="380" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="380" y="54" text-anchor="middle">時代</text>
+<rect class="spine-a" x="334" y="70" width="92" height="210"/>
+<rect class="spine-b" x="334" y="280" width="92" height="590"/>
+<rect class="spine-a" x="334" y="870" width="92" height="420"/>
+<rect class="spine-b" x="334" y="1290" width="92" height="1955"/>
+<rect class="spine-a" x="334" y="3245.1" width="92" height="740"/>
+<rect class="spine-b" x="334" y="3985.1" width="92" height="15"/>
+<rect class="spine-a" x="334" y="4000.1" width="92" height="1185"/>
+<rect class="spine-b" x="334" y="5185.1" width="92" height="149.9"/>
+<rect class="spine-a" x="334" y="5335" width="92" height="1325"/>
+<rect class="spine-b" x="334" y="6660" width="92" height="220"/>
+<rect class="spine-a" x="334" y="6880" width="92" height="70"/>
+<rect class="spine-b" x="334" y="6950" width="92" height="315"/>
+<rect class="spine-a" x="334" y="7265" width="92" height="6.7"/>
+<line class="grid" x1="0" x2="760" y1="570" y2="570"/>
+<line class="grid" x1="0" x2="760" y1="820" y2="820"/>
+<line class="grid" x1="0" x2="760" y1="1070" y2="1070"/>
+<line class="grid" x1="0" x2="760" y1="1570" y2="1570"/>
+<line class="grid" x1="0" x2="760" y1="1820" y2="1820"/>
+<line class="grid" x1="0" x2="760" y1="2070" y2="2070"/>
+<line class="grid" x1="0" x2="760" y1="2320" y2="2320"/>
+<line class="grid" x1="0" x2="760" y1="2570.1" y2="2570.1"/>
+<line class="grid" x1="0" x2="760" y1="2820" y2="2820"/>
+<line class="grid" x1="0" x2="760" y1="3070.1" y2="3070.1"/>
+<line class="grid" x1="0" x2="760" y1="3320.1" y2="3320.1"/>
+<line class="grid" x1="0" x2="760" y1="3570.1" y2="3570.1"/>
+<line class="grid" x1="0" x2="760" y1="3820.1" y2="3820.1"/>
+<line class="grid" x1="0" x2="760" y1="4070.1" y2="4070.1"/>
+<line class="grid" x1="0" x2="760" y1="4320.1" y2="4320.1"/>
+<line class="grid" x1="0" x2="760" y1="4570.1" y2="4570.1"/>
+<line class="grid" x1="0" x2="760" y1="4820.1" y2="4820.1"/>
+<line class="grid" x1="0" x2="760" y1="5070.1" y2="5070.1"/>
+<line class="grid" x1="0" x2="760" y1="5570" y2="5570"/>
+<line class="grid" x1="0" x2="760" y1="5820" y2="5820"/>
+<line class="grid" x1="0" x2="760" y1="6070" y2="6070"/>
+<line class="grid" x1="0" x2="760" y1="6320" y2="6320"/>
+<line class="grid" x1="0" x2="760" y1="6570" y2="6570"/>
+<line class="grid" x1="0" x2="760" y1="6820" y2="6820"/>
+<line class="grid" x1="0" x2="760" y1="7070" y2="7070"/>
+<line class="era-line" x1="0" x2="760" y1="280" y2="280"/>
+<line class="era-line" x1="0" x2="760" y1="870" y2="870"/>
+<line class="era-line" x1="0" x2="760" y1="1290" y2="1290"/>
+<line class="era-line" x1="0" x2="760" y1="3245.1" y2="3245.1"/>
+<line class="era-line" x1="0" x2="760" y1="3985.1" y2="3985.1"/>
+<line class="era-line" x1="0" x2="760" y1="4000.1" y2="4000.1"/>
+<line class="era-line" x1="0" x2="760" y1="5185.1" y2="5185.1"/>
+<line class="era-line" x1="0" x2="760" y1="5335" y2="5335"/>
+<line class="era-line" x1="0" x2="760" y1="6660" y2="6660"/>
+<line class="era-line" x1="0" x2="760" y1="6880" y2="6880"/>
+<line class="era-line" x1="0" x2="760" y1="6950" y2="6950"/>
+<line class="era-line" x1="0" x2="760" y1="7265" y2="7265"/>
+<path class="tick" d="M334 70h9M426 70h-9"/>
+<path class="tick" d="M334 120h3M426 120h-3"/>
+<path class="tick" d="M334 170h3M426 170h-3"/>
+<path class="tick" d="M334 220h3M426 220h-3"/>
+<path class="tick" d="M334 270h3M426 270h-3"/>
+<path class="tick" d="M334 320h9M426 320h-9"/>
+<path class="tick" d="M334 370h3M426 370h-3"/>
+<path class="tick" d="M334 420h3M426 420h-3"/>
+<path class="tick" d="M334 470h3M426 470h-3"/>
+<path class="tick" d="M334 520h3M426 520h-3"/>
+<path class="tick" d="M334 570h9M426 570h-9"/>
+<path class="tick" d="M334 620h3M426 620h-3"/>
+<path class="tick" d="M334 670h3M426 670h-3"/>
+<path class="tick" d="M334 720h3M426 720h-3"/>
+<path class="tick" d="M334 770h3M426 770h-3"/>
+<path class="tick" d="M334 820h9M426 820h-9"/>
+<path class="tick" d="M334 870h3M426 870h-3"/>
+<path class="tick" d="M334 920h3M426 920h-3"/>
+<path class="tick" d="M334 970h3M426 970h-3"/>
+<path class="tick" d="M334 1020h3M426 1020h-3"/>
+<path class="tick" d="M334 1070h9M426 1070h-9"/>
+<path class="tick" d="M334 1120h3M426 1120h-3"/>
+<path class="tick" d="M334 1170h3M426 1170h-3"/>
+<path class="tick" d="M334 1220h3M426 1220h-3"/>
+<path class="tick" d="M334 1270h3M426 1270h-3"/>
+<path class="tick" d="M334 1320h9M426 1320h-9"/>
+<path class="tick" d="M334 1370h3M426 1370h-3"/>
+<path class="tick" d="M334 1420h3M426 1420h-3"/>
+<path class="tick" d="M334 1470h3M426 1470h-3"/>
+<path class="tick" d="M334 1520h3M426 1520h-3"/>
+<path class="tick" d="M334 1570h9M426 1570h-9"/>
+<path class="tick" d="M334 1620h3M426 1620h-3"/>
+<path class="tick" d="M334 1670h3M426 1670h-3"/>
+<path class="tick" d="M334 1720h3M426 1720h-3"/>
+<path class="tick" d="M334 1770h3M426 1770h-3"/>
+<path class="tick" d="M334 1820h9M426 1820h-9"/>
+<path class="tick" d="M334 1870h3M426 1870h-3"/>
+<path class="tick" d="M334 1920h3M426 1920h-3"/>
+<path class="tick" d="M334 1970h3M426 1970h-3"/>
+<path class="tick" d="M334 2020h3M426 2020h-3"/>
+<path class="tick" d="M334 2070h9M426 2070h-9"/>
+<path class="tick" d="M334 2120h3M426 2120h-3"/>
+<path class="tick" d="M334 2170h3M426 2170h-3"/>
+<path class="tick" d="M334 2220h3M426 2220h-3"/>
+<path class="tick" d="M334 2270h3M426 2270h-3"/>
+<path class="tick" d="M334 2320h9M426 2320h-9"/>
+<path class="tick" d="M334 2370h3M426 2370h-3"/>
+<path class="tick" d="M334 2420h3M426 2420h-3"/>
+<path class="tick" d="M334 2470h3M426 2470h-3"/>
+<path class="tick" d="M334 2520h3M426 2520h-3"/>
+<path class="tick" d="M334 2570.1h9M426 2570.1h-9"/>
+<path class="tick" d="M334 2620h3M426 2620h-3"/>
+<path class="tick" d="M334 2670.1h3M426 2670.1h-3"/>
+<path class="tick" d="M334 2720h3M426 2720h-3"/>
+<path class="tick" d="M334 2770.1h3M426 2770.1h-3"/>
+<path class="tick" d="M334 2820h9M426 2820h-9"/>
+<path class="tick" d="M334 2870.1h3M426 2870.1h-3"/>
+<path class="tick" d="M334 2920.1h3M426 2920.1h-3"/>
+<path class="tick" d="M334 2970.1h3M426 2970.1h-3"/>
+<path class="tick" d="M334 3020.1h3M426 3020.1h-3"/>
+<path class="tick" d="M334 3070.1h9M426 3070.1h-9"/>
+<path class="tick" d="M334 3120.1h3M426 3120.1h-3"/>
+<path class="tick" d="M334 3170.1h3M426 3170.1h-3"/>
+<path class="tick" d="M334 3220.1h3M426 3220.1h-3"/>
+<path class="tick" d="M334 3270.1h3M426 3270.1h-3"/>
+<path class="tick" d="M334 3320.1h9M426 3320.1h-9"/>
+<path class="tick" d="M334 3370.1h3M426 3370.1h-3"/>
+<path class="tick" d="M334 3420.1h3M426 3420.1h-3"/>
+<path class="tick" d="M334 3470.1h3M426 3470.1h-3"/>
+<path class="tick" d="M334 3520.1h3M426 3520.1h-3"/>
+<path class="tick" d="M334 3570.1h9M426 3570.1h-9"/>
+<path class="tick" d="M334 3620.1h3M426 3620.1h-3"/>
+<path class="tick" d="M334 3670.1h3M426 3670.1h-3"/>
+<path class="tick" d="M334 3720.1h3M426 3720.1h-3"/>
+<path class="tick" d="M334 3770.1h3M426 3770.1h-3"/>
+<path class="tick" d="M334 3820.1h9M426 3820.1h-9"/>
+<path class="tick" d="M334 3870.1h3M426 3870.1h-3"/>
+<path class="tick" d="M334 3920.1h3M426 3920.1h-3"/>
+<path class="tick" d="M334 3970.1h3M426 3970.1h-3"/>
+<path class="tick" d="M334 4020.1h3M426 4020.1h-3"/>
+<path class="tick" d="M334 4070.1h9M426 4070.1h-9"/>
+<path class="tick" d="M334 4120.1h3M426 4120.1h-3"/>
+<path class="tick" d="M334 4170.1h3M426 4170.1h-3"/>
+<path class="tick" d="M334 4220.1h3M426 4220.1h-3"/>
+<path class="tick" d="M334 4270.1h3M426 4270.1h-3"/>
+<path class="tick" d="M334 4320.1h9M426 4320.1h-9"/>
+<path class="tick" d="M334 4370.1h3M426 4370.1h-3"/>
+<path class="tick" d="M334 4420.1h3M426 4420.1h-3"/>
+<path class="tick" d="M334 4470.1h3M426 4470.1h-3"/>
+<path class="tick" d="M334 4520.1h3M426 4520.1h-3"/>
+<path class="tick" d="M334 4570.1h9M426 4570.1h-9"/>
+<path class="tick" d="M334 4620.1h3M426 4620.1h-3"/>
+<path class="tick" d="M334 4670.1h3M426 4670.1h-3"/>
+<path class="tick" d="M334 4720.1h3M426 4720.1h-3"/>
+<path class="tick" d="M334 4770.1h3M426 4770.1h-3"/>
+<path class="tick" d="M334 4820.1h9M426 4820.1h-9"/>
+<path class="tick" d="M334 4870.1h3M426 4870.1h-3"/>
+<path class="tick" d="M334 4920.1h3M426 4920.1h-3"/>
+<path class="tick" d="M334 4970.1h3M426 4970.1h-3"/>
+<path class="tick" d="M334 5020.1h3M426 5020.1h-3"/>
+<path class="tick" d="M334 5070.1h9M426 5070.1h-9"/>
+<path class="tick" d="M334 5120.1h3M426 5120.1h-3"/>
+<path class="tick" d="M334 5170.1h3M426 5170.1h-3"/>
+<path class="tick" d="M334 5220.1h3M426 5220.1h-3"/>
+<path class="tick" d="M334 5270h3M426 5270h-3"/>
+<path class="tick" d="M334 5320h9M426 5320h-9"/>
+<path class="tick" d="M334 5370h3M426 5370h-3"/>
+<path class="tick" d="M334 5420h3M426 5420h-3"/>
+<path class="tick" d="M334 5470h3M426 5470h-3"/>
+<path class="tick" d="M334 5520h3M426 5520h-3"/>
+<path class="tick" d="M334 5570h9M426 5570h-9"/>
+<path class="tick" d="M334 5620h3M426 5620h-3"/>
+<path class="tick" d="M334 5670h3M426 5670h-3"/>
+<path class="tick" d="M334 5720h3M426 5720h-3"/>
+<path class="tick" d="M334 5770h3M426 5770h-3"/>
+<path class="tick" d="M334 5820h9M426 5820h-9"/>
+<path class="tick" d="M334 5870h3M426 5870h-3"/>
+<path class="tick" d="M334 5920h3M426 5920h-3"/>
+<path class="tick" d="M334 5970h3M426 5970h-3"/>
+<path class="tick" d="M334 6020h3M426 6020h-3"/>
+<path class="tick" d="M334 6070h9M426 6070h-9"/>
+<path class="tick" d="M334 6120h3M426 6120h-3"/>
+<path class="tick" d="M334 6170h3M426 6170h-3"/>
+<path class="tick" d="M334 6220h3M426 6220h-3"/>
+<path class="tick" d="M334 6270h3M426 6270h-3"/>
+<path class="tick" d="M334 6320h9M426 6320h-9"/>
+<path class="tick" d="M334 6370h3M426 6370h-3"/>
+<path class="tick" d="M334 6420h3M426 6420h-3"/>
+<path class="tick" d="M334 6470h3M426 6470h-3"/>
+<path class="tick" d="M334 6520h3M426 6520h-3"/>
+<path class="tick" d="M334 6570h9M426 6570h-9"/>
+<path class="tick" d="M334 6620h3M426 6620h-3"/>
+<path class="tick" d="M334 6670h3M426 6670h-3"/>
+<path class="tick" d="M334 6720h3M426 6720h-3"/>
+<path class="tick" d="M334 6770h3M426 6770h-3"/>
+<path class="tick" d="M334 6820h9M426 6820h-9"/>
+<path class="tick" d="M334 6870h3M426 6870h-3"/>
+<path class="tick" d="M334 6920h3M426 6920h-3"/>
+<path class="tick" d="M334 6970h3M426 6970h-3"/>
+<path class="tick" d="M334 7020h3M426 7020h-3"/>
+<path class="tick" d="M334 7070h9M426 7070h-9"/>
+<path class="tick" d="M334 7120h3M426 7120h-3"/>
+<path class="tick" d="M334 7170h3M426 7170h-3"/>
+<path class="tick" d="M334 7220h3M426 7220h-3"/>
+<path class="tick" d="M334 7270h3M426 7270h-3"/>
+<text class="dec-y" x="380" y="574.5" text-anchor="middle">650</text>
+<text class="dec-y" x="380" y="824.5" text-anchor="middle">700</text>
+<text class="dec-y" x="380" y="1074.5" text-anchor="middle">750</text>
+<text class="dec-y" x="380" y="1574.5" text-anchor="middle">850</text>
+<text class="dec-y" x="380" y="1824.5" text-anchor="middle">900</text>
+<text class="dec-y" x="380" y="2074.5" text-anchor="middle">950</text>
+<text class="dec-y" x="380" y="2324.5" text-anchor="middle">1000</text>
+<text class="dec-y" x="380" y="2574.6" text-anchor="middle">1050</text>
+<text class="dec-y" x="380" y="2824.5" text-anchor="middle">1100</text>
+<text class="dec-y" x="380" y="3074.6" text-anchor="middle">1150</text>
+<text class="dec-y" x="380" y="3324.6" text-anchor="middle">1200</text>
+<text class="dec-y" x="380" y="3574.6" text-anchor="middle">1250</text>
+<text class="dec-y" x="380" y="3824.6" text-anchor="middle">1300</text>
+<text class="dec-y" x="380" y="4074.6" text-anchor="middle">1350</text>
+<text class="dec-y" x="380" y="4324.6" text-anchor="middle">1400</text>
+<text class="dec-y" x="380" y="4574.6" text-anchor="middle">1450</text>
+<text class="dec-y" x="380" y="4824.6" text-anchor="middle">1500</text>
+<text class="dec-y" x="380" y="5074.6" text-anchor="middle">1550</text>
+<text class="dec-y" x="380" y="5574.5" text-anchor="middle">1650</text>
+<text class="dec-y" x="380" y="5824.5" text-anchor="middle">1700</text>
+<text class="dec-y" x="380" y="6074.5" text-anchor="middle">1750</text>
+<text class="dec-y" x="380" y="6324.5" text-anchor="middle">1800</text>
+<text class="dec-y" x="380" y="6574.5" text-anchor="middle">1850</text>
+<text class="dec-y" x="380" y="6824.5" text-anchor="middle">1900</text>
+<text class="dec-y" x="380" y="7074.5" text-anchor="middle">1950</text>
+<text class="era-name" x="380" y="93" text-anchor="middle">古墳時代</text>
+<text class="era-date" x="380" y="107" text-anchor="middle">250</text>
+<text class="era-name" x="380" y="303" text-anchor="middle">飛鳥時代</text>
+<text class="era-date" x="380" y="317" text-anchor="middle">592</text>
+<text class="era-name" x="380" y="893" text-anchor="middle">奈良時代</text>
+<text class="era-date" x="380" y="907" text-anchor="middle">710</text>
+<text class="era-name" x="380" y="1313" text-anchor="middle">平安時代</text>
+<text class="era-date" x="380" y="1327" text-anchor="middle">794</text>
+<text class="era-name" x="380" y="3268.1" text-anchor="middle">鎌倉時代</text>
+<text class="era-date" x="380" y="3282.1" text-anchor="middle">1185</text>
+<text class="era-name" x="380" y="4023.1" text-anchor="middle">室町時代</text>
+<text class="era-date" x="380" y="4037.1" text-anchor="middle">1336</text>
+<text class="era-name" x="380" y="5208.1" text-anchor="middle">安土桃山</text>
+<text class="era-date" x="380" y="5222.1" text-anchor="middle">1573</text>
+<text class="era-name" x="380" y="5358" text-anchor="middle">江戸時代</text>
+<text class="era-date" x="380" y="5372" text-anchor="middle">1603</text>
+<text class="era-name" x="380" y="6683" text-anchor="middle">明治時代</text>
+<text class="era-date" x="380" y="6697" text-anchor="middle">1868</text>
+<text class="era-name" x="380" y="6903" text-anchor="middle">大正時代</text>
+<text class="era-date" x="380" y="6917" text-anchor="middle">1912</text>
+<text class="era-name" x="380" y="6973" text-anchor="middle">昭和時代</text>
+<text class="era-date" x="380" y="6987" text-anchor="middle">1926</text>
+<g class="term c-jp" data-id="jp0" data-person="jp:聖徳太子">
+<title>聖徳太子　574年2月7日 〜 622年4月8日（48歳ごろ没）</title>
+<rect class="bar f-red" x="305" y="191.5" width="22" height="238.8" rx="3"/>
+<text class="inside" x="316" y="196.5" writing-mode="vertical-rl">聖徳太子</text>
+</g>
+<g class="term c-jp" data-id="jp1" data-person="jp:聖武天皇">
+<title>聖武天皇　701年9月18日 〜 756年6月4日（満54歳で没）</title>
+<rect class="bar f-red" x="305" y="829.6" width="22" height="271.6" rx="3"/>
+<text class="inside" x="316" y="834.6" writing-mode="vertical-rl">聖武天皇</text>
+</g>
+<g class="term c-jp" data-id="jp2" data-person="jp:空海">
+<title>空海　774年 〜 835年4月22日（61歳ごろ没）</title>
+<rect class="bar f-red" x="305" y="1191" width="22" height="304.5" rx="3"/>
+<text class="inside" x="316" y="1196" writing-mode="vertical-rl">空海</text>
+</g>
+<g class="term c-jp" data-id="jp3" data-person="jp:紫式部">
+<title>紫式部　973年 〜 1014年（41歳ごろ没）</title>
+<rect class="bar f-red" x="305" y="2186" width="22" height="208" rx="3"/>
+<text class="inside" x="316" y="2191" writing-mode="vertical-rl">紫式部</text>
+</g>
+<g class="term c-jp" data-id="jp4" data-person="jp:源頼朝">
+<title>源頼朝　1147年5月9日 〜 1199年2月9日（満51歳で没）</title>
+<rect class="bar f-red" x="305" y="3057.8" width="22" height="256.8" rx="3"/>
+<text class="inside" x="316" y="3062.8" writing-mode="vertical-rl">源頼朝</text>
+</g>
+<g class="term c-jp" data-id="jp5" data-person="jp:北条時宗">
+<title>北条時宗　1251年6月5日 〜 1284年4月20日（満32歳で没）</title>
+<rect class="bar f-red" x="305" y="3578.2" width="22" height="162.4" rx="3"/>
+<text class="inside" x="316" y="3583.2" writing-mode="vertical-rl">北条時宗</text>
+</g>
+<g class="term c-jp" data-id="jp6" data-person="jp:足利義満">
+<title>足利義満　1358年9月25日 〜 1408年5月31日（満49歳で没）</title>
+<rect class="bar f-red" x="305" y="4114.7" width="22" height="246.4" rx="3"/>
+<text class="inside" x="316" y="4119.7" writing-mode="vertical-rl">足利義満</text>
+</g>
+<g class="term c-jp" data-id="jp7" data-person="jp:雪舟">
+<title>雪舟　1420年 〜 1506年（86歳ごろ没）</title>
+<rect class="bar f-red" x="305" y="4421.1" width="22" height="433" rx="3"/>
+<text class="inside" x="316" y="4426.1" writing-mode="vertical-rl">雪舟</text>
+</g>
+<g class="term c-jp" data-id="jp8" data-person="jp:千利休">
+<title>千利休　1522年 〜 1591年4月21日（69歳ごろ没）</title>
+<rect class="bar f-red" x="305" y="4931.1" width="22" height="344.4" rx="3"/>
+<text class="inside" x="316" y="4936.1" writing-mode="vertical-rl">千利休</text>
+</g>
+<g class="term c-jp" data-id="jp9" data-person="jp:織田信長">
+<title>織田信長　1534年6月23日 〜 1582年6月21日（47歳ごろ没）</title>
+<rect class="bar f-red" x="281" y="4993.5" width="22" height="238" rx="3"/>
+<text class="inside" x="292" y="4998.5" writing-mode="vertical-rl">織田信長</text>
+</g>
+<g class="term c-jp" data-id="jp10" data-person="jp:豊臣秀吉">
+<title>豊臣秀吉　1537年3月17日 〜 1598年9月18日（61歳ごろ没）</title>
+<rect class="bar f-red" x="257" y="5007.1" width="22" height="305.4" rx="3"/>
+<text class="inside" x="268" y="5012.1" writing-mode="vertical-rl">豊臣秀吉</text>
+</g>
+<g class="term c-jp" data-id="jp11" data-person="jp:徳川家康">
+<title>徳川家康　1543年1月31日 〜 1616年6月1日（満73歳で没）</title>
+<rect class="bar f-red" x="233" y="5036.5" width="22" height="364.5" rx="3"/>
+<text class="inside" x="244" y="5041.5" writing-mode="vertical-rl">徳川家康</text>
+</g>
+<g class="term c-jp" data-id="jp12" data-person="jp:宮本武蔵">
+<title>宮本武蔵　1584年 〜 1645年6月13日（61歳ごろ没）</title>
+<rect class="bar f-red" x="281" y="5241" width="22" height="305.2" rx="3"/>
+<text class="inside" x="292" y="5246" writing-mode="vertical-rl">宮本武蔵</text>
+</g>
+<g class="term c-jp" data-id="jp13" data-person="jp:関孝和">
+<title>関孝和　1642年 〜 1708年12月5日（66歳ごろ没）</title>
+<rect class="bar f-red" x="305" y="5531" width="22" height="332.6" rx="3"/>
+<text class="inside" x="316" y="5536" writing-mode="vertical-rl">関孝和</text>
+</g>
+<g class="term c-jp" data-id="jp14" data-person="jp:松尾芭蕉">
+<title>松尾芭蕉　1644年 〜 1694年11月28日（50歳ごろ没）</title>
+<rect class="bar f-red" x="257" y="5541" width="22" height="252.5" rx="3"/>
+<text class="inside" x="268" y="5546" writing-mode="vertical-rl">松尾芭蕉</text>
+</g>
+<g class="term c-jp" data-id="jp15" data-person="jp:徳川吉宗">
+<title>徳川吉宗　1684年11月27日 〜 1751年7月12日（満66歳で没）</title>
+<rect class="bar f-red" x="281" y="5745.5" width="22" height="331.1" rx="3"/>
+<text class="inside" x="292" y="5750.5" writing-mode="vertical-rl">徳川吉宗</text>
+</g>
+<g class="term c-jp" data-id="jp16" data-person="jp:伊能忠敬">
+<title>伊能忠敬　1745年2月11日 〜 1818年5月17日（満73歳で没）</title>
+<rect class="bar f-red" x="305" y="6046.5" width="22" height="364.3" rx="3"/>
+<text class="inside" x="316" y="6051.5" writing-mode="vertical-rl">伊能忠敬</text>
+</g>
+<g class="term c-jp" data-id="jp17" data-person="jp:葛飾北斎">
+<title>葛飾北斎　1760年10月31日 〜 1849年5月10日（88歳ごろ没）</title>
+<rect class="bar f-red" x="281" y="6125.1" width="22" height="440.6" rx="3"/>
+<text class="inside" x="292" y="6130.1" writing-mode="vertical-rl">葛飾北斎</text>
+</g>
+<g class="term c-jp" data-id="jp18" data-person="jp:吉田松陰">
+<title>吉田松陰　1830年9月20日 〜 1859年11月21日（満29歳で没）</title>
+<rect class="bar f-red" x="305" y="6474.6" width="22" height="143.8" rx="3"/>
+<text class="inside" x="316" y="6479.6" writing-mode="vertical-rl">吉田松陰</text>
+</g>
+<g class="term c-jp" data-id="jp19" data-person="jp:福沢諭吉">
+<title>福沢諭吉　1835年1月10日 〜 1901年2月3日（満66歳で没）</title>
+<rect class="bar f-red" x="257" y="6496.1" width="22" height="328.3" rx="3"/>
+<text class="inside" x="268" y="6501.1" writing-mode="vertical-rl">福沢諭吉</text>
+</g>
+<g class="term c-jp" data-id="jp20" data-person="jp:坂本龍馬">
+<title>坂本龍馬　1836年1月3日 〜 1867年12月10日（満31歳で没）</title>
+<rect class="bar f-red" x="233" y="6501" width="22" height="157.7" rx="3"/>
+<text class="inside" x="244" y="6506" writing-mode="vertical-rl">坂本龍馬</text>
+</g>
+<g class="term c-jp" data-id="jp21" data-person="jp:徳川慶喜">
+<title>徳川慶喜　1837年10月28日 〜 1913年11月22日（満76歳で没）</title>
+<rect class="bar f-red" x="209" y="6510.1" width="22" height="378.3" rx="3"/>
+<text class="inside" x="220" y="6515.1" writing-mode="vertical-rl">徳川慶喜</text>
+</g>
+<g class="term c-jp" data-id="jp22" data-person="jp:明治天皇">
+<title>明治天皇　1852年11月3日 〜 1912年7月30日（満59歳で没）</title>
+<rect class="bar f-red" x="281" y="6585.2" width="22" height="296.7" rx="3"/>
+<text class="inside" x="292" y="6590.2" writing-mode="vertical-rl">明治天皇</text>
+</g>
+<g class="term c-jp" data-id="jp23" data-person="jp:北里柴三郎">
+<title>北里柴三郎　1853年1月29日 〜 1931年6月13日（満78歳で没）</title>
+<rect class="bar f-red" x="185" y="6586.4" width="22" height="389.8" rx="3"/>
+<text class="inside" x="196" y="6591.4" writing-mode="vertical-rl">北里柴三郎</text>
+</g>
+<g class="term c-jp" data-id="jp24" data-person="jp:津田梅子">
+<title>津田梅子　1864年12月31日 〜 1929年8月16日（満64歳で没）</title>
+<rect class="bar f-red" x="305" y="6646" width="22" height="321.1" rx="3"/>
+<text class="inside" x="316" y="6651" writing-mode="vertical-rl">津田梅子</text>
+</g>
+<g class="term c-jp" data-id="jp25" data-person="jp:夏目漱石">
+<title>夏目漱石　1867年2月9日 〜 1916年12月9日（満49歳で没）</title>
+<rect class="bar f-red" x="161" y="6656.5" width="22" height="247.1" rx="3"/>
+<text class="inside" x="172" y="6661.5" writing-mode="vertical-rl">夏目漱石</text>
+</g>
+<g class="term c-jp" data-id="jp26" data-person="jp:正岡子規">
+<title>正岡子規　1867年10月14日 〜 1902年9月19日（満34歳で没）</title>
+<rect class="bar f-red" x="137" y="6659.9" width="22" height="172.7" rx="3"/>
+<text class="inside" x="148" y="6664.9" writing-mode="vertical-rl">正岡子規</text>
+</g>
+<g class="term c-jp" data-id="jp27" data-person="jp:樋口一葉">
+<title>樋口一葉　1872年5月2日 〜 1896年11月23日（満24歳で没）</title>
+<rect class="bar f-red" x="233" y="6682.6" width="22" height="120.8" rx="3"/>
+<text class="inside" x="244" y="6687.6" writing-mode="vertical-rl">樋口一葉</text>
+</g>
+<g class="term c-jp" data-id="jp28" data-person="jp:野口英世">
+<title>野口英世　1876年11月9日 〜 1928年5月21日（満51歳で没）</title>
+<rect class="bar f-red" x="113" y="6705.2" width="22" height="255.6" rx="3"/>
+<text class="inside" x="124" y="6710.2" writing-mode="vertical-rl">野口英世</text>
+</g>
+<g class="term c-jp" data-id="jp29" data-person="jp:与謝野晶子">
+<title>与謝野晶子　1878年12月7日 〜 1942年5月29日（満63歳で没）</title>
+<rect class="bar f-red" x="89" y="6715.6" width="22" height="315.4" rx="3"/>
+<text class="inside" x="100" y="6720.6" writing-mode="vertical-rl">与謝野晶子</text>
+</g>
+<g class="term c-jp" data-id="jp30" data-person="jp:湯川秀樹">
+<title>湯川秀樹　1907年1月23日 〜 1981年9月8日（満74歳で没）</title>
+<rect class="bar f-red" x="257" y="6856.3" width="22" height="371.1" rx="3"/>
+<text class="inside" x="268" y="6861.3" writing-mode="vertical-rl">湯川秀樹</text>
+</g>
+<g class="term c-jp" data-id="jp31" data-person="jp:手塚治虫">
+<title>手塚治虫　1928年11月3日 〜 1989年2月9日（満60歳で没）</title>
+<rect class="bar f-red" x="281" y="6965.2" width="22" height="299.3" rx="3"/>
+<text class="inside" x="292" y="6970.2" writing-mode="vertical-rl">手塚治虫</text>
+</g>
+<g class="term c-world" data-id="world0" data-person="world:ムハンマド">
+<title>ムハンマド　570年 〜 632年6月8日（62歳ごろ没）</title>
+<rect class="bar f-blue" x="433" y="171" width="22" height="310.2" rx="3"/>
+<text class="inside" x="444" y="176" writing-mode="vertical-rl">ムハンマド</text>
+</g>
+<g class="term c-world" data-id="world1" data-person="world:李白">
+<title>李白　701年 〜 762年（61歳ごろ没）</title>
+<rect class="bar f-blue" x="433" y="826" width="22" height="308" rx="3"/>
+<text class="inside" x="444" y="831" writing-mode="vertical-rl">李白</text>
+</g>
+<g class="term c-world" data-id="world2" data-person="world:カール大帝">
+<title>カール大帝　748年 〜 814年1月28日（66歳ごろ没）</title>
+<rect class="bar f-blue" x="457" y="1061" width="22" height="328.4" rx="3"/>
+<text class="inside" x="468" y="1066" writing-mode="vertical-rl">カール大帝</text>
+</g>
+<g class="term c-world" data-id="world3" data-person="world:チンギス・カン">
+<title>チンギス・カン　1162年 〜 1227年8月25日（65歳ごろ没）</title>
+<rect class="bar f-blue" x="433" y="3131.1" width="22" height="326.2" rx="3"/>
+<text class="inside" x="444" y="3136.1" writing-mode="vertical-rl">チンギス</text>
+</g>
+<g class="term c-world" data-id="world4" data-person="world:クビライ（フビライ）">
+<title>クビライ（フビライ）　1215年9月23日 〜 1294年2月18日（満78歳で没）</title>
+<rect class="bar f-blue" x="457" y="3399.7" width="22" height="390" rx="3"/>
+<text class="inside" x="468" y="3404.7" writing-mode="vertical-rl">クビライ</text>
+</g>
+<g class="term c-world" data-id="world5" data-person="world:マルコ・ポーロ">
+<title>マルコ・ポーロ　1254年 〜 1324年1月8日（70歳ごろ没）</title>
+<rect class="bar f-blue" x="433" y="3591.1" width="22" height="348.1" rx="3"/>
+<text class="inside" x="444" y="3596.1" writing-mode="vertical-rl">マルコ・ポーロ</text>
+</g>
+<g class="term c-world" data-id="world6" data-person="world:永楽帝">
+<title>永楽帝　1360年5月2日 〜 1424年8月12日（満64歳で没）</title>
+<rect class="bar f-blue" x="433" y="4122.7" width="22" height="319.4" rx="3"/>
+<text class="inside" x="444" y="4127.7" writing-mode="vertical-rl">永楽帝</text>
+</g>
+<g class="term c-world" data-id="world7" data-person="world:クリストファー・コロンブス">
+<title>クリストファー・コロンブス　1451年 〜 1506年5月20日（55歳ごろ没）</title>
+<rect class="bar f-blue" x="433" y="4576.1" width="22" height="274.9" rx="3"/>
+<text class="inside" x="444" y="4581.1" writing-mode="vertical-rl">コロンブス</text>
+</g>
+<g class="term c-world" data-id="world8" data-person="world:レオナルド・ダ・ヴィンチ">
+<title>レオナルド・ダ・ヴィンチ　1452年4月15日 〜 1519年5月2日（満67歳で没）</title>
+<rect class="bar f-blue" x="457" y="4582.5" width="22" height="333.2" rx="3"/>
+<text class="inside" x="468" y="4587.5" writing-mode="vertical-rl">ダ・ヴィンチ</text>
+</g>
+<g class="term c-world" data-id="world9" data-person="world:ニコラウス・コペルニクス">
+<title>ニコラウス・コペルニクス　1473年2月19日 〜 1543年5月24日（満70歳で没）</title>
+<rect class="bar f-blue" x="481" y="4686.8" width="22" height="349.3" rx="3"/>
+<text class="inside" x="492" y="4691.8" writing-mode="vertical-rl">コペルニクス</text>
+</g>
+<g class="term c-world" data-id="world10" data-person="world:ミケランジェロ">
+<title>ミケランジェロ　1475年3月6日 〜 1564年2月18日（満88歳で没）</title>
+<rect class="bar f-blue" x="505" y="4697" width="22" height="442.8" rx="3"/>
+<text class="inside" x="516" y="4702" writing-mode="vertical-rl">ミケランジェロ</text>
+</g>
+<g class="term c-world" data-id="world11" data-person="world:マルティン・ルター">
+<title>マルティン・ルター　1483年11月10日 〜 1546年2月18日（満62歳で没）</title>
+<rect class="bar f-blue" x="529" y="4740.4" width="22" height="309.4" rx="3"/>
+<text class="inside" x="540" y="4745.4" writing-mode="vertical-rl">ルター</text>
+</g>
+<g class="term c-world" data-id="world12" data-person="world:フランシスコ・ザビエル">
+<title>フランシスコ・ザビエル　1506年4月7日 〜 1552年12月3日（満46歳で没）</title>
+<rect class="bar f-blue" x="553" y="4852.4" width="22" height="231.3" rx="3"/>
+<text class="inside" x="564" y="4857.4" writing-mode="vertical-rl">ザビエル</text>
+</g>
+<g class="term c-world" data-id="world13" data-person="world:エリザベス1世">
+<title>エリザベス1世　1533年9月7日 〜 1603年4月3日（満69歳で没）</title>
+<rect class="bar f-blue" x="433" y="4989.5" width="22" height="345.7" rx="3"/>
+<text class="inside" x="444" y="4994.5" writing-mode="vertical-rl">エリザベス1世</text>
+</g>
+<g class="term c-world" data-id="world14" data-person="world:ウィリアム・シェイクスピア">
+<title>ウィリアム・シェイクスピア　1564年 〜 1616年5月3日（52歳ごろ没）</title>
+<rect class="bar f-blue" x="457" y="5141.1" width="22" height="259.6" rx="3"/>
+<text class="inside" x="468" y="5146.1" writing-mode="vertical-rl">シェイクスピア</text>
+</g>
+<g class="term c-world" data-id="world15" data-person="world:ガリレオ・ガリレイ">
+<title>ガリレオ・ガリレイ　1564年2月15日 〜 1642年1月8日（満77歳で没）</title>
+<rect class="bar f-blue" x="481" y="5141.7" width="22" height="387.4" rx="3"/>
+<text class="inside" x="492" y="5146.7" writing-mode="vertical-rl">ガリレオ</text>
+</g>
+<g class="term c-world" data-id="world16" data-person="world:ルイ14世">
+<title>ルイ14世　1638年9月5日 〜 1715年9月1日（満76歳で没）</title>
+<rect class="bar f-blue" x="433" y="5514.4" width="22" height="382.9" rx="3"/>
+<text class="inside" x="444" y="5519.4" writing-mode="vertical-rl">ルイ14世</text>
+</g>
+<g class="term c-world" data-id="world17" data-person="world:アイザック・ニュートン">
+<title>アイザック・ニュートン　1643年1月4日 〜 1727年3月31日（満84歳で没）</title>
+<rect class="bar f-blue" x="457" y="5536" width="22" height="419.2" rx="3"/>
+<text class="inside" x="468" y="5541" writing-mode="vertical-rl">ニュートン</text>
+</g>
+<g class="term c-world" data-id="world18" data-person="world:ヨハン・ゼバスティアン・バッハ">
+<title>ヨハン・ゼバスティアン・バッハ　1685年3月31日 〜 1750年7月28日（満65歳で没）</title>
+<rect class="bar f-blue" x="481" y="5747.2" width="22" height="324.6" rx="3"/>
+<text class="inside" x="492" y="5752.2" writing-mode="vertical-rl">バッハ</text>
+</g>
+<g class="term c-world" data-id="world19" data-person="world:ジョージ・ワシントン">
+<title>ジョージ・ワシントン　1732年2月22日 〜 1799年12月14日（満67歳で没）</title>
+<rect class="bar f-blue" x="433" y="5981.7" width="22" height="337" rx="3"/>
+<text class="inside" x="444" y="5986.7" writing-mode="vertical-rl">ワシントン</text>
+</g>
+<g class="term c-world" data-id="world20" data-person="world:ナポレオン・ボナパルト">
+<title>ナポレオン・ボナパルト　1769年8月15日 〜 1821年5月5日（満51歳で没）</title>
+<rect class="bar f-blue" x="457" y="6169.1" width="22" height="256.6" rx="3"/>
+<text class="inside" x="468" y="6174.1" writing-mode="vertical-rl">ナポレオン</text>
+</g>
+<g class="term c-world" data-id="world21" data-person="world:ルートヴィヒ・ヴァン・ベートーヴェン">
+<title>ルートヴィヒ・ヴァン・ベートーヴェン　1770年 〜 1827年3月26日（57歳ごろ没）</title>
+<rect class="bar f-blue" x="481" y="6171" width="22" height="284.1" rx="3"/>
+<text class="inside" x="492" y="6176" writing-mode="vertical-rl">ベートーヴェン</text>
+</g>
+<g class="term c-world" data-id="world22" data-person="world:エイブラハム・リンカーン">
+<title>エイブラハム・リンカーン　1809年2月12日 〜 1865年4月15日（満56歳で没）</title>
+<rect class="bar f-blue" x="433" y="6366.5" width="22" height="278.9" rx="3"/>
+<text class="inside" x="444" y="6371.5" writing-mode="vertical-rl">リンカーン</text>
+</g>
+<g class="term c-world" data-id="world23" data-person="world:チャールズ・ダーウィン">
+<title>チャールズ・ダーウィン　1809年2月12日 〜 1882年4月19日（満73歳で没）</title>
+<rect class="bar f-blue" x="505" y="6366.5" width="22" height="363.9" rx="3"/>
+<text class="inside" x="516" y="6371.5" writing-mode="vertical-rl">ダーウィン</text>
+</g>
+<g class="term c-world" data-id="world24" data-person="world:フローレンス・ナイチンゲール">
+<title>フローレンス・ナイチンゲール　1820年5月12日 〜 1910年8月13日（満90歳で没）</title>
+<rect class="bar f-blue" x="529" y="6422.8" width="22" height="449.3" rx="3"/>
+<text class="inside" x="540" y="6427.8" writing-mode="vertical-rl">ナイチンゲール</text>
+</g>
+<g class="term c-world" data-id="world25" data-person="world:トーマス・エジソン">
+<title>トーマス・エジソン　1847年2月11日 〜 1931年10月18日（満84歳で没）</title>
+<rect class="bar f-blue" x="457" y="6556.5" width="22" height="421.4" rx="3"/>
+<text class="inside" x="468" y="6561.5" writing-mode="vertical-rl">エジソン</text>
+</g>
+<g class="term c-world" data-id="world26" data-person="world:フィンセント・ファン・ゴッホ">
+<title>フィンセント・ファン・ゴッホ　1853年3月30日 〜 1890年7月29日（満37歳で没）</title>
+<rect class="bar f-blue" x="481" y="6587.2" width="22" height="184.7" rx="3"/>
+<text class="inside" x="492" y="6592.2" writing-mode="vertical-rl">ゴッホ</text>
+</g>
+<g class="term c-world" data-id="world27" data-person="world:マリ・キュリー">
+<title>マリ・キュリー　1867年11月7日 〜 1934年7月4日（満66歳で没）</title>
+<rect class="bar f-blue" x="433" y="6660.2" width="22" height="331.3" rx="3"/>
+<text class="inside" x="444" y="6665.2" writing-mode="vertical-rl">キュリー</text>
+</g>
+<g class="term c-world" data-id="world28" data-person="world:マハトマ・ガンディー">
+<title>マハトマ・ガンディー　1869年10月2日 〜 1948年1月30日（満78歳で没）</title>
+<rect class="bar f-blue" x="553" y="6669.7" width="22" height="389.6" rx="3"/>
+<text class="inside" x="564" y="6674.7" writing-mode="vertical-rl">ガンディー</text>
+</g>
+<g class="term c-world" data-id="world29" data-person="world:アルベルト・アインシュタイン">
+<title>アルベルト・アインシュタイン　1879年3月14日 〜 1955年4月18日（満76歳で没）</title>
+<rect class="bar f-blue" x="577" y="6717" width="22" height="378.5" rx="3"/>
+<text class="inside" x="588" y="6722" writing-mode="vertical-rl">アインシュタイン</text>
+</g>
+<g class="term c-world" data-id="world30" data-person="world:ウォルト・ディズニー">
+<title>ウォルト・ディズニー　1901年12月5日 〜 1966年12月15日（満65歳で没）</title>
+<rect class="bar f-blue" x="481" y="6830.6" width="22" height="323.1" rx="3"/>
+<text class="inside" x="492" y="6835.6" writing-mode="vertical-rl">ディズニー</text>
+</g>
+<text class="foot" x="380" y="7301.7" text-anchor="middle">出典：日本語版 Wikipedia（各人物の記事の冒頭と基礎情報）、Wikidata（生年月日 P569・没年月日 P570。照合に使用）　2026年10月30日時点</text>
+</svg>

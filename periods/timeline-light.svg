@@ -1,0 +1,581 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 6800" width="760" height="6800" role="img" aria-labelledby="tl-title">
+<title id="tl-title">日本史と世界史の時代区分</title>
+<style>
+.tl{--paper:#fcfcfd;--ink:#1c2029;--ink2:#4b5260;--muted:#687080;--rule:#e8eaef;--rule2:#c3c8d2;--spine-a:#f0f1f5;--spine-b:#e6e8ef;--red:#d4452c;--blue:#2c5aa0;--amber:#b8730f;--violet:#7a4fc4;--green:#138a60;--teal:#00897b;--gray:#9aa0ab;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="760" height="6800" rx="14"/>
+<text class="lane-s" x="79" y="40">日本</text>
+<rect class="f-red" x="79" y="46" width="46" height="6" rx="2"/>
+<text class="lane-s" x="129" y="40">朝鮮半島</text>
+<rect class="f-green" x="129" y="46" width="118" height="6" rx="2"/>
+<text class="lane-s" x="251" y="40">中国</text>
+<rect class="f-amber" x="251" y="46" width="94" height="6" rx="2"/>
+<text class="lane-s" x="349" y="40">ヨーロッパ</text>
+<rect class="f-blue" x="349" y="46" width="94" height="6" rx="2"/>
+<text class="spine-h" x="36" y="41" text-anchor="middle">西暦</text>
+<rect class="spine-a" x="0" y="70" width="72" height="6659.6"/>
+<line class="grid" x1="0" x2="760" y1="70" y2="70"/>
+<line class="grid" x1="0" x2="760" y1="510" y2="510"/>
+<line class="grid" x1="0" x2="760" y1="950" y2="950"/>
+<line class="grid" x1="0" x2="760" y1="1390" y2="1390"/>
+<line class="grid" x1="0" x2="760" y1="1830" y2="1830"/>
+<line class="grid" x1="0" x2="760" y1="2270" y2="2270"/>
+<line class="grid" x1="0" x2="760" y1="2707.8" y2="2707.8"/>
+<line class="grid" x1="0" x2="760" y1="3147.9" y2="3147.9"/>
+<line class="grid" x1="0" x2="760" y1="3587.9" y2="3587.9"/>
+<line class="grid" x1="0" x2="760" y1="4027.9" y2="4027.9"/>
+<line class="grid" x1="0" x2="760" y1="4467.9" y2="4467.9"/>
+<line class="grid" x1="0" x2="760" y1="4907.9" y2="4907.9"/>
+<line class="grid" x1="0" x2="760" y1="5347.9" y2="5347.9"/>
+<line class="grid" x1="0" x2="760" y1="5787.9" y2="5787.9"/>
+<line class="grid" x1="0" x2="760" y1="6227.9" y2="6227.9"/>
+<line class="grid" x1="0" x2="760" y1="6667.9" y2="6667.9"/>
+<path class="tick" d="M0 70h9M72 70h-9"/>
+<path class="tick" d="M0 180h3M72 180h-3"/>
+<path class="tick" d="M0 290h3M72 290h-3"/>
+<path class="tick" d="M0 400h3M72 400h-3"/>
+<path class="tick" d="M0 510h9M72 510h-9"/>
+<path class="tick" d="M0 620h6M72 620h-6"/>
+<path class="tick" d="M0 730h3M72 730h-3"/>
+<path class="tick" d="M0 840h3M72 840h-3"/>
+<path class="tick" d="M0 950h9M72 950h-9"/>
+<path class="tick" d="M0 1060h3M72 1060h-3"/>
+<path class="tick" d="M0 1170h6M72 1170h-6"/>
+<path class="tick" d="M0 1280h3M72 1280h-3"/>
+<path class="tick" d="M0 1390h9M72 1390h-9"/>
+<path class="tick" d="M0 1500h3M72 1500h-3"/>
+<path class="tick" d="M0 1610h3M72 1610h-3"/>
+<path class="tick" d="M0 1720h6M72 1720h-6"/>
+<path class="tick" d="M0 1830h9M72 1830h-9"/>
+<path class="tick" d="M0 1940h3M72 1940h-3"/>
+<path class="tick" d="M0 2050h3M72 2050h-3"/>
+<path class="tick" d="M0 2160h3M72 2160h-3"/>
+<path class="tick" d="M0 2270h9M72 2270h-9"/>
+<path class="tick" d="M0 2377.8h3M72 2377.8h-3"/>
+<path class="tick" d="M0 2487.8h3M72 2487.8h-3"/>
+<path class="tick" d="M0 2597.9h3M72 2597.9h-3"/>
+<path class="tick" d="M0 2707.8h9M72 2707.8h-9"/>
+<path class="tick" d="M0 2817.9h6M72 2817.9h-6"/>
+<path class="tick" d="M0 2927.9h3M72 2927.9h-3"/>
+<path class="tick" d="M0 3037.9h3M72 3037.9h-3"/>
+<path class="tick" d="M0 3147.9h9M72 3147.9h-9"/>
+<path class="tick" d="M0 3257.9h3M72 3257.9h-3"/>
+<path class="tick" d="M0 3367.9h6M72 3367.9h-6"/>
+<path class="tick" d="M0 3477.9h3M72 3477.9h-3"/>
+<path class="tick" d="M0 3587.9h9M72 3587.9h-9"/>
+<path class="tick" d="M0 3697.9h3M72 3697.9h-3"/>
+<path class="tick" d="M0 3807.9h3M72 3807.9h-3"/>
+<path class="tick" d="M0 3917.9h6M72 3917.9h-6"/>
+<path class="tick" d="M0 4027.9h9M72 4027.9h-9"/>
+<path class="tick" d="M0 4137.9h3M72 4137.9h-3"/>
+<path class="tick" d="M0 4247.9h3M72 4247.9h-3"/>
+<path class="tick" d="M0 4357.9h3M72 4357.9h-3"/>
+<path class="tick" d="M0 4467.9h9M72 4467.9h-9"/>
+<path class="tick" d="M0 4577.9h3M72 4577.9h-3"/>
+<path class="tick" d="M0 4687.9h3M72 4687.9h-3"/>
+<path class="tick" d="M0 4797.9h3M72 4797.9h-3"/>
+<path class="tick" d="M0 4907.9h9M72 4907.9h-9"/>
+<path class="tick" d="M0 5017.9h6M72 5017.9h-6"/>
+<path class="tick" d="M0 5127.9h3M72 5127.9h-3"/>
+<path class="tick" d="M0 5237.9h3M72 5237.9h-3"/>
+<path class="tick" d="M0 5347.9h9M72 5347.9h-9"/>
+<path class="tick" d="M0 5457.9h3M72 5457.9h-3"/>
+<path class="tick" d="M0 5567.9h6M72 5567.9h-6"/>
+<path class="tick" d="M0 5677.9h3M72 5677.9h-3"/>
+<path class="tick" d="M0 5787.9h9M72 5787.9h-9"/>
+<path class="tick" d="M0 5897.9h3M72 5897.9h-3"/>
+<path class="tick" d="M0 6007.9h3M72 6007.9h-3"/>
+<path class="tick" d="M0 6117.9h6M72 6117.9h-6"/>
+<path class="tick" d="M0 6227.9h9M72 6227.9h-9"/>
+<path class="tick" d="M0 6337.9h3M72 6337.9h-3"/>
+<path class="tick" d="M0 6447.9h3M72 6447.9h-3"/>
+<path class="tick" d="M0 6557.9h3M72 6557.9h-3"/>
+<path class="tick" d="M0 6667.9h9M72 6667.9h-9"/>
+<text class="dec-y" x="36" y="74.5" text-anchor="middle">前1000</text>
+<text class="dec-y" x="36" y="514.5" text-anchor="middle">前800</text>
+<text class="dec-y" x="36" y="954.5" text-anchor="middle">前600</text>
+<text class="dec-y" x="36" y="1394.5" text-anchor="middle">前400</text>
+<text class="dec-y" x="36" y="1834.5" text-anchor="middle">前200</text>
+<text class="dec-y" x="36" y="2274.5" text-anchor="middle">1</text>
+<text class="dec-y" x="36" y="2712.3" text-anchor="middle">200</text>
+<text class="dec-y" x="36" y="3152.4" text-anchor="middle">400</text>
+<text class="dec-y" x="36" y="3592.4" text-anchor="middle">600</text>
+<text class="dec-y" x="36" y="4032.4" text-anchor="middle">800</text>
+<text class="dec-y" x="36" y="4472.4" text-anchor="middle">1000</text>
+<text class="dec-y" x="36" y="4912.4" text-anchor="middle">1200</text>
+<text class="dec-y" x="36" y="5352.4" text-anchor="middle">1400</text>
+<text class="dec-y" x="36" y="5792.4" text-anchor="middle">1600</text>
+<text class="dec-y" x="36" y="6232.4" text-anchor="middle">1800</text>
+<text class="dec-y" x="36" y="6672.4" text-anchor="middle">2000</text>
+<line class="asof-line" x1="-4" x2="447" y1="6726.9" y2="6726.9"/>
+<text class="era-date" x="36" y="6740.9" text-anchor="middle">2026.10.30</text>
+<text class="era-date" x="36" y="6753.9" text-anchor="middle">時点</text>
+<g class="term c-jp" data-id="jp0" data-person="jp:縄文時代（晩期）">
+<title>縄文時代（晩期）　紀元前1300年 〜 紀元前800年（期間 約500年）</title>
+<linearGradient id="tl-g-jp0" gradientUnits="userSpaceOnUse" x1="0" y1="70" x2="0" y2="92"><stop offset="0" class="s-red" stop-opacity="0"/><stop offset="1" class="s-red" stop-opacity="1"/></linearGradient>
+<path class="bar-open" d="M79 70Q79 70 79 70H101Q101 70 101 70V506Q101 509 98 509H82Q79 509 79 506Z" fill="url(#tl-g-jp0)"/>
+<text class="inside" x="90" y="76" writing-mode="vertical-rl">縄文</text>
+</g>
+<g class="term c-jp" data-id="jp1" data-person="jp:弥生時代">
+<title>弥生時代　紀元前800年 〜 250年（期間 約1049年）</title>
+<rect class="bar f-red" x="79" y="511" width="22" height="2305.8" rx="3"/>
+<text class="inside" x="90" y="516" writing-mode="vertical-rl">弥生</text>
+</g>
+<g class="term c-jp" data-id="jp2" data-person="jp:古墳時代">
+<title>古墳時代　250年 〜 592年（期間 約342年）</title>
+<rect class="bar f-red" x="79" y="2818.9" width="22" height="750.4" rx="3"/>
+<text class="inside" x="90" y="2823.9" writing-mode="vertical-rl">古墳</text>
+</g>
+<g class="term c-jp" data-id="jp3" data-person="jp:飛鳥時代">
+<title>飛鳥時代　592年 〜 710年（期間 約118年）</title>
+<rect class="bar f-red" x="79" y="3571.3" width="22" height="257.6" rx="3"/>
+<text class="inside" x="90" y="3576.3" writing-mode="vertical-rl">飛鳥</text>
+</g>
+<g class="term c-jp" data-id="jp4" data-person="jp:奈良時代">
+<title>奈良時代　710年 〜 794年（期間 約84年）</title>
+<rect class="bar f-red" x="79" y="3830.9" width="22" height="182.8" rx="3"/>
+<text class="inside" x="90" y="3835.9" writing-mode="vertical-rl">奈良</text>
+</g>
+<g class="term c-jp" data-id="jp5" data-person="jp:平安時代">
+<title>平安時代　794年 〜 1185年（期間 約391年）</title>
+<rect class="bar f-red" x="79" y="4015.7" width="22" height="858.2" rx="3"/>
+<text class="inside" x="90" y="4020.7" writing-mode="vertical-rl">平安</text>
+</g>
+<g class="term c-jp" data-id="jp6" data-person="jp:鎌倉時代">
+<title>鎌倉時代　1185年 〜 1333年（期間 約148年）</title>
+<rect class="bar f-red" x="79" y="4875.9" width="22" height="323.6" rx="3"/>
+<text class="inside" x="90" y="4880.9" writing-mode="vertical-rl">鎌倉</text>
+</g>
+<g class="term c-jp" data-id="jp7" data-person="jp:建武の新政">
+<title>建武の新政　1333年 〜 1336年（期間 約3年）</title>
+<rect class="bar f-red" x="79" y="5201.5" width="22" height="4.6" rx="2.3"/>
+</g>
+<g class="term c-jp" data-id="jp8" data-person="jp:室町時代">
+<title>室町時代　1336年 〜 1573年（期間 約237年）</title>
+<rect class="bar f-red" x="79" y="5208.1" width="22" height="519.4" rx="3"/>
+<text class="inside" x="90" y="5213.1" writing-mode="vertical-rl">室町</text>
+</g>
+<g class="term c-jp" data-id="jp9" data-person="jp:南北朝時代">
+<title>南北朝時代　1336年 〜 1392年（期間 約56年）</title>
+<rect class="bar f-red" x="103" y="5208.1" width="22" height="121.2" rx="3"/>
+<text class="inside" x="114" y="5213.1" writing-mode="vertical-rl">南北朝</text>
+</g>
+<g class="term c-jp" data-id="jp10" data-person="jp:戦国時代">
+<title>戦国時代　1467年 〜 1568年（期間 約101年）</title>
+<rect class="bar f-red" x="103" y="5496.3" width="22" height="220.2" rx="3"/>
+<text class="inside" x="114" y="5501.3" writing-mode="vertical-rl">戦国</text>
+</g>
+<g class="term c-jp" data-id="jp11" data-person="jp:安土桃山時代">
+<title>安土桃山時代　1573年 〜 1603年（期間 約30年）</title>
+<rect class="bar f-red" x="79" y="5729.5" width="22" height="63.9" rx="3"/>
+<text class="inside" x="90" y="5734.5" writing-mode="vertical-rl">安土桃山</text>
+</g>
+<g class="term c-jp" data-id="jp12" data-person="jp:江戸時代">
+<title>江戸時代　1603年 〜 1868年（期間 約265年）</title>
+<rect class="bar f-red" x="79" y="5795.5" width="22" height="581" rx="3"/>
+<text class="inside" x="90" y="5800.5" writing-mode="vertical-rl">江戸</text>
+</g>
+<g class="term c-jp" data-id="jp13" data-person="jp:明治時代">
+<title>明治時代　1868年 〜 1912年（期間 約44年）</title>
+<rect class="bar f-red" x="79" y="6378.5" width="22" height="94.8" rx="3"/>
+<text class="inside" x="90" y="6383.5" writing-mode="vertical-rl">明治</text>
+</g>
+<g class="term c-jp" data-id="jp14" data-person="jp:大正時代">
+<title>大正時代　1912年 〜 1926年（期間 約14年）</title>
+<rect class="bar f-red" x="79" y="6475.2" width="22" height="28.8" rx="3"/>
+</g>
+<g class="term c-jp" data-id="jp15" data-person="jp:昭和時代">
+<title>昭和時代　1926年 〜 1989年（期間 約63年）</title>
+<rect class="bar f-red" x="79" y="6506.1" width="22" height="136.6" rx="3"/>
+<text class="inside" x="90" y="6511.1" writing-mode="vertical-rl">昭和</text>
+</g>
+<g class="term c-jp" data-id="jp16" data-person="jp:平成時代">
+<title>平成時代　1989年 〜 2019年（期間 約30年）</title>
+<rect class="bar f-red" x="79" y="6644.7" width="22" height="64" rx="3"/>
+<text class="inside" x="90" y="6649.7" writing-mode="vertical-rl">平成</text>
+</g>
+<g class="term c-jp" data-id="jp17" data-person="jp:令和時代">
+<title>令和時代　2019年 〜 現在（期間 約8年）</title>
+<linearGradient id="tl-g-jp17" gradientUnits="userSpaceOnUse" x1="0" y1="6704.9" x2="0" y2="6726.9"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 6713.7Q79 6710.7 82 6710.7H98Q101 6710.7 101 6713.7V6726.9Q101 6726.9 101 6726.9H79Q79 6726.9 79 6726.9Z" fill="url(#tl-g-jp17)"/>
+</g>
+<g class="term c-kr" data-id="kr0" data-person="kr:古朝鮮">
+<title>古朝鮮　紀元前2333年 〜 紀元前108年（期間 約2225年）</title>
+<linearGradient id="tl-g-kr0" gradientUnits="userSpaceOnUse" x1="0" y1="70" x2="0" y2="92"><stop offset="0" class="s-green" stop-opacity="0"/><stop offset="1" class="s-green" stop-opacity="1"/></linearGradient>
+<path class="bar-open" d="M129 70Q129 70 129 70H151Q151 70 151 70V2028.4Q151 2031.4 148 2031.4H132Q129 2031.4 129 2028.4Z" fill="url(#tl-g-kr0)"/>
+<text class="inside" x="140" y="76" writing-mode="vertical-rl">古朝鮮</text>
+</g>
+<g class="term c-kr" data-id="kr1" data-person="kr:楽浪郡">
+<title>楽浪郡　紀元前108年 〜 313年（期間 約420年）</title>
+<rect class="bar f-green" x="201" y="2033.4" width="22" height="922" rx="3"/>
+<text class="inside" x="212" y="2038.4" writing-mode="vertical-rl">楽浪郡</text>
+</g>
+<g class="term c-kr" data-id="kr2" data-person="kr:新羅">
+<title>新羅　紀元前57年 〜 676年（期間 約732年）</title>
+<rect class="bar f-green" x="129" y="2145.6" width="22" height="1608.4" rx="3"/>
+<text class="inside" x="140" y="2150.6" writing-mode="vertical-rl">新羅</text>
+</g>
+<g class="term c-kr" data-id="kr3" data-person="kr:高句麗">
+<title>高句麗　紀元前37年 〜 668年（期間 約704年）</title>
+<rect class="bar f-green" x="153" y="2189.6" width="22" height="1546.8" rx="3"/>
+<text class="inside" x="164" y="2194.6" writing-mode="vertical-rl">高句麗</text>
+</g>
+<g class="term c-kr" data-id="kr4" data-person="kr:百済">
+<title>百済　紀元前18年 〜 660年（期間 約677年）</title>
+<rect class="bar f-green" x="177" y="2231.4" width="22" height="1487.4" rx="3"/>
+<text class="inside" x="188" y="2236.4" writing-mode="vertical-rl">百済</text>
+</g>
+<g class="term c-kr" data-id="kr5" data-person="kr:伽耶">
+<title>伽耶　42年 〜 562年（期間 約520年）</title>
+<rect class="bar f-green" x="225" y="2361.2" width="22" height="1142" rx="3"/>
+<text class="inside" x="236" y="2366.2" writing-mode="vertical-rl">伽耶</text>
+</g>
+<g class="term c-kr" data-id="kr6" data-person="kr:統一新羅">
+<title>統一新羅　676年 〜 892年（期間 約216年）</title>
+<rect class="bar f-green" x="129" y="3756.1" width="22" height="473.2" rx="3"/>
+<text class="inside" x="140" y="3761.1" writing-mode="vertical-rl">統一新羅</text>
+</g>
+<g class="term c-kr" data-id="kr7" data-person="kr:渤海">
+<title>渤海　698年 〜 926年（期間 約228年）</title>
+<rect class="bar f-green" x="153" y="3804.5" width="22" height="499.6" rx="3"/>
+<text class="inside" x="164" y="3809.5" writing-mode="vertical-rl">渤海</text>
+</g>
+<g class="term c-kr" data-id="kr8" data-person="kr:後三国時代">
+<title>後三国時代　892年 〜 936年（期間 約44年）</title>
+<rect class="bar f-green" x="129" y="4231.3" width="22" height="94.8" rx="3"/>
+<text class="inside" x="140" y="4236.3" writing-mode="vertical-rl">後三国</text>
+</g>
+<g class="term c-kr" data-id="kr9" data-person="kr:高麗">
+<title>高麗　936年 〜 1392年（期間 約456年）</title>
+<rect class="bar f-green" x="129" y="4328.1" width="22" height="1001.2" rx="3"/>
+<text class="inside" x="140" y="4333.1" writing-mode="vertical-rl">高麗</text>
+</g>
+<g class="term c-kr" data-id="kr10" data-person="kr:朝鮮（李氏朝鮮）">
+<title>朝鮮（李氏朝鮮）　1392年 〜 1897年（期間 約505年）</title>
+<rect class="bar f-green" x="129" y="5331.3" width="22" height="1109" rx="3"/>
+<text class="inside" x="140" y="5336.3" writing-mode="vertical-rl">朝鮮</text>
+</g>
+<g class="term c-kr" data-id="kr11" data-person="kr:大韓帝国">
+<title>大韓帝国　1897年 〜 1910年（期間 約13年）</title>
+<rect class="bar f-green" x="129" y="6442.3" width="22" height="26.6" rx="3"/>
+</g>
+<g class="term c-kr" data-id="kr12" data-person="kr:日本統治時代">
+<title>日本統治時代　1910年 〜 1945年（期間 約35年）</title>
+<rect class="bar f-green" x="129" y="6470.9" width="22" height="75" rx="3"/>
+<text class="inside" x="140" y="6475.9" writing-mode="vertical-rl">日本統治</text>
+</g>
+<g class="term c-kr" data-id="kr13" data-person="kr:アメリカ軍政期（南部）">
+<title>アメリカ軍政期（南部）　1945年 〜 1948年（期間 約3年）</title>
+<rect class="bar f-green" x="129" y="6547.9" width="22" height="4.6" rx="2.3"/>
+</g>
+<g class="term c-kr" data-id="kr14" data-person="kr:ソ連軍政期（北部）">
+<title>ソ連軍政期（北部）　1945年 〜 1948年（期間 約3年）</title>
+<rect class="bar f-green" x="153" y="6547.9" width="22" height="4.6" rx="2.3"/>
+</g>
+<g class="term c-kr" data-id="kr15" data-person="kr:大韓民国">
+<title>大韓民国　1948年 〜 現在（期間 約79年）</title>
+<linearGradient id="tl-g-kr15" gradientUnits="userSpaceOnUse" x1="0" y1="6704.9" x2="0" y2="6726.9"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M129 6557.5Q129 6554.5 132 6554.5H148Q151 6554.5 151 6557.5V6726.9Q151 6726.9 151 6726.9H129Q129 6726.9 129 6726.9Z" fill="url(#tl-g-kr15)"/>
+<text class="inside" x="140" y="6559.5" writing-mode="vertical-rl">韓国</text>
+</g>
+<g class="term c-kr" data-id="kr16" data-person="kr:朝鮮民主主義人民共和国">
+<title>朝鮮民主主義人民共和国　1948年 〜 現在（期間 約79年）</title>
+<linearGradient id="tl-g-kr16" gradientUnits="userSpaceOnUse" x1="0" y1="6704.9" x2="0" y2="6726.9"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M153 6557.5Q153 6554.5 156 6554.5H172Q175 6554.5 175 6557.5V6726.9Q175 6726.9 175 6726.9H153Q153 6726.9 153 6726.9Z" fill="url(#tl-g-kr16)"/>
+<text class="inside" x="164" y="6559.5" writing-mode="vertical-rl">北朝鮮</text>
+</g>
+<g class="term c-cn" data-id="cn0" data-person="cn:周">
+<title>周　紀元前1046年 〜 紀元前256年（期間 約790年）</title>
+<linearGradient id="tl-g-cn0" gradientUnits="userSpaceOnUse" x1="0" y1="70" x2="0" y2="92"><stop offset="0" class="s-amber" stop-opacity="0"/><stop offset="1" class="s-amber" stop-opacity="1"/></linearGradient>
+<path class="bar-open" d="M251 70Q251 70 251 70H273Q273 70 273 70V1702.8Q273 1705.8 270 1705.8H254Q251 1705.8 251 1702.8Z" fill="url(#tl-g-cn0)"/>
+<text class="inside" x="262" y="76" writing-mode="vertical-rl">周</text>
+</g>
+<g class="term c-cn" data-id="cn1" data-person="cn:春秋時代">
+<title>春秋時代　紀元前770年 〜 紀元前403年（期間 約367年）</title>
+<rect class="bar f-amber" x="275" y="577" width="22" height="805.4" rx="3"/>
+<text class="inside" x="286" y="582" writing-mode="vertical-rl">春秋</text>
+</g>
+<g class="term c-cn" data-id="cn2" data-person="cn:戦国時代">
+<title>戦国時代　紀元前403年 〜 紀元前221年（期間 約182年）</title>
+<rect class="bar f-amber" x="275" y="1384.4" width="22" height="398.4" rx="3"/>
+<text class="inside" x="286" y="1389.4" writing-mode="vertical-rl">戦国</text>
+</g>
+<g class="term c-cn" data-id="cn3" data-person="cn:秦">
+<title>秦　紀元前221年 〜 紀元前206年（期間 約15年）</title>
+<rect class="bar f-amber" x="251" y="1784.8" width="22" height="31" rx="3"/>
+<text class="inside" x="262" y="1789.8" writing-mode="vertical-rl">秦</text>
+</g>
+<g class="term c-cn" data-id="cn4" data-person="cn:前漢">
+<title>前漢　紀元前206年 〜 8年（期間 約213年）</title>
+<rect class="bar f-amber" x="251" y="1817.8" width="22" height="466.6" rx="3"/>
+<text class="inside" x="262" y="1822.8" writing-mode="vertical-rl">前漢</text>
+</g>
+<g class="term c-cn" data-id="cn5" data-person="cn:新">
+<title>新　8年 〜 23年（期間 約15年）</title>
+<rect class="bar f-amber" x="251" y="2286.4" width="22" height="31" rx="3"/>
+<text class="inside" x="262" y="2291.4" writing-mode="vertical-rl">新</text>
+</g>
+<g class="term c-cn" data-id="cn6" data-person="cn:後漢">
+<title>後漢　25年 〜 220年（期間 約195年）</title>
+<rect class="bar f-amber" x="251" y="2323.8" width="22" height="427" rx="3"/>
+<text class="inside" x="262" y="2328.8" writing-mode="vertical-rl">後漢</text>
+</g>
+<g class="term c-cn" data-id="cn7" data-person="cn:魏（三国）">
+<title>魏（三国）　220年 〜 265年（期間 約45年）</title>
+<rect class="bar f-amber" x="251" y="2752.9" width="22" height="97" rx="3"/>
+<text class="inside" x="262" y="2757.9" writing-mode="vertical-rl">魏</text>
+</g>
+<g class="term c-cn" data-id="cn8" data-person="cn:蜀（蜀漢）">
+<title>蜀（蜀漢）　221年 〜 263年（期間 約42年）</title>
+<rect class="bar f-amber" x="275" y="2755.1" width="22" height="90.4" rx="3"/>
+<text class="inside" x="286" y="2760.1" writing-mode="vertical-rl">蜀</text>
+</g>
+<g class="term c-cn" data-id="cn9" data-person="cn:呉（三国）">
+<title>呉（三国）　222年 〜 280年（期間 約58年）</title>
+<rect class="bar f-amber" x="299" y="2757.3" width="22" height="125.6" rx="3"/>
+<text class="inside" x="310" y="2762.3" writing-mode="vertical-rl">呉</text>
+</g>
+<g class="term c-cn" data-id="cn10" data-person="cn:晋（西晋・東晋）">
+<title>晋（西晋・東晋）　265年 〜 420年（期間 約155年）</title>
+<rect class="bar f-amber" x="251" y="2851.9" width="22" height="339" rx="3"/>
+<text class="inside" x="262" y="2856.9" writing-mode="vertical-rl">晋</text>
+</g>
+<g class="term c-cn" data-id="cn11" data-person="cn:五胡十六国">
+<title>五胡十六国　304年 〜 439年（期間 約135年）</title>
+<rect class="bar f-amber" x="275" y="2937.7" width="22" height="295" rx="3"/>
+<text class="inside" x="286" y="2942.7" writing-mode="vertical-rl">五胡十六国</text>
+</g>
+<g class="term c-cn" data-id="cn12" data-person="cn:南朝">
+<title>南朝　420年 〜 589年（期間 約169年）</title>
+<rect class="bar f-amber" x="299" y="3192.9" width="22" height="369.8" rx="3"/>
+<text class="inside" x="310" y="3197.9" writing-mode="vertical-rl">南朝</text>
+</g>
+<g class="term c-cn" data-id="cn13" data-person="cn:北朝">
+<title>北朝　439年 〜 581年（期間 約142年）</title>
+<rect class="bar f-amber" x="251" y="3234.7" width="22" height="310.4" rx="3"/>
+<text class="inside" x="262" y="3239.7" writing-mode="vertical-rl">北朝</text>
+</g>
+<g class="term c-cn" data-id="cn14" data-person="cn:隋">
+<title>隋　581年 〜 618年（期間 約37年）</title>
+<rect class="bar f-amber" x="251" y="3547.1" width="22" height="79.4" rx="3"/>
+<text class="inside" x="262" y="3552.1" writing-mode="vertical-rl">隋</text>
+</g>
+<g class="term c-cn" data-id="cn15" data-person="cn:唐">
+<title>唐　618年 〜 907年（期間 約289年）</title>
+<rect class="bar f-amber" x="251" y="3628.5" width="22" height="633.8" rx="3"/>
+<text class="inside" x="262" y="3633.5" writing-mode="vertical-rl">唐</text>
+</g>
+<g class="term c-cn" data-id="cn16" data-person="cn:五代十国">
+<title>五代十国　907年 〜 960年（期間 約53年）</title>
+<rect class="bar f-amber" x="251" y="4264.3" width="22" height="114.6" rx="3"/>
+<text class="inside" x="262" y="4269.3" writing-mode="vertical-rl">五代十国</text>
+</g>
+<g class="term c-cn" data-id="cn17" data-person="cn:遼">
+<title>遼　916年 〜 1125年（期間 約209年）</title>
+<rect class="bar f-amber" x="275" y="4284.1" width="22" height="457.8" rx="3"/>
+<text class="inside" x="286" y="4289.1" writing-mode="vertical-rl">遼</text>
+</g>
+<g class="term c-cn" data-id="cn18" data-person="cn:北宋">
+<title>北宋　960年 〜 1127年（期間 約167年）</title>
+<rect class="bar f-amber" x="251" y="4380.9" width="22" height="365.4" rx="3"/>
+<text class="inside" x="262" y="4385.9" writing-mode="vertical-rl">北宋</text>
+</g>
+<g class="term c-cn" data-id="cn19" data-person="cn:西夏">
+<title>西夏　1038年 〜 1227年（期間 約189年）</title>
+<rect class="bar f-amber" x="323" y="4552.5" width="22" height="413.8" rx="3"/>
+<text class="inside" x="334" y="4557.5" writing-mode="vertical-rl">西夏</text>
+</g>
+<g class="term c-cn" data-id="cn20" data-person="cn:金">
+<title>金　1115年 〜 1234年（期間 約119年）</title>
+<rect class="bar f-amber" x="299" y="4721.9" width="22" height="259.8" rx="3"/>
+<text class="inside" x="310" y="4726.9" writing-mode="vertical-rl">金</text>
+</g>
+<g class="term c-cn" data-id="cn21" data-person="cn:南宋">
+<title>南宋　1127年 〜 1279年（期間 約152年）</title>
+<rect class="bar f-amber" x="251" y="4748.3" width="22" height="332.4" rx="3"/>
+<text class="inside" x="262" y="4753.3" writing-mode="vertical-rl">南宋</text>
+</g>
+<g class="term c-cn" data-id="cn22" data-person="cn:モンゴル帝国">
+<title>モンゴル帝国　1206年 〜 1279年（期間 約73年）</title>
+<rect class="bar f-amber" x="275" y="4922.1" width="22" height="158.6" rx="3"/>
+<text class="inside" x="286" y="4927.1" writing-mode="vertical-rl">モンゴル</text>
+</g>
+<g class="term c-cn" data-id="cn23" data-person="cn:元">
+<title>元　1279年 〜 1368年（期間 約89年）</title>
+<rect class="bar f-amber" x="251" y="5082.7" width="22" height="193.8" rx="3"/>
+<text class="inside" x="262" y="5087.7" writing-mode="vertical-rl">元</text>
+</g>
+<g class="term c-cn" data-id="cn24" data-person="cn:明">
+<title>明　1368年 〜 1644年（期間 約276年）</title>
+<rect class="bar f-amber" x="251" y="5278.5" width="22" height="605.2" rx="3"/>
+<text class="inside" x="262" y="5283.5" writing-mode="vertical-rl">明</text>
+</g>
+<g class="term c-cn" data-id="cn25" data-person="cn:後金・清（入関前）">
+<title>後金・清（入関前）　1616年 〜 1644年（期間 約28年）</title>
+<rect class="bar f-amber" x="275" y="5824.1" width="22" height="59.6" rx="3"/>
+<text class="inside" x="286" y="5829.1" writing-mode="vertical-rl">後金</text>
+</g>
+<g class="term c-cn" data-id="cn26" data-person="cn:清">
+<title>清　1644年 〜 1912年（期間 約268年）</title>
+<rect class="bar f-amber" x="251" y="5885.7" width="22" height="587.6" rx="3"/>
+<text class="inside" x="262" y="5890.7" writing-mode="vertical-rl">清</text>
+</g>
+<g class="term c-cn" data-id="cn27" data-person="cn:中華民国">
+<title>中華民国　1912年 〜 1949年（期間 約37年）</title>
+<rect class="bar f-amber" x="251" y="6475.2" width="22" height="79.4" rx="3"/>
+<text class="inside" x="262" y="6480.2" writing-mode="vertical-rl">民国</text>
+</g>
+<g class="term c-cn" data-id="cn28" data-person="cn:中華人民共和国">
+<title>中華人民共和国　1949年 〜 現在（期間 約78年）</title>
+<linearGradient id="tl-g-cn28" gradientUnits="userSpaceOnUse" x1="0" y1="6704.9" x2="0" y2="6726.9"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M251 6559.7Q251 6556.7 254 6556.7H270Q273 6556.7 273 6559.7V6726.9Q273 6726.9 273 6726.9H251Q251 6726.9 251 6726.9Z" fill="url(#tl-g-cn28)"/>
+<text class="inside" x="262" y="6561.7" writing-mode="vertical-rl">中華人民共和国</text>
+</g>
+<g class="term c-eu" data-id="eu0" data-person="eu:古代">
+<title>古代　紀元前3000年 〜 476年（期間 約3475年）</title>
+<linearGradient id="tl-g-eu0" gradientUnits="userSpaceOnUse" x1="0" y1="70" x2="0" y2="92"><stop offset="0" class="s-blue" stop-opacity="0"/><stop offset="1" class="s-blue" stop-opacity="1"/></linearGradient>
+<path class="bar-open" d="M349 70Q349 70 349 70H371Q371 70 371 70V3311.1Q371 3314.1 368 3314.1H352Q349 3314.1 349 3311.1Z" fill="url(#tl-g-eu0)"/>
+<text class="inside" x="360" y="76" writing-mode="vertical-rl">古代</text>
+</g>
+<g class="term c-eu" data-id="eu1" data-person="eu:古代ギリシア">
+<title>古代ギリシア　紀元前800年 〜 紀元前146年（期間 約654年）</title>
+<rect class="bar f-blue" x="397" y="511" width="22" height="1436.8" rx="3"/>
+<text class="inside" x="408" y="516" writing-mode="vertical-rl">古代ギリシア</text>
+</g>
+<g class="term c-eu" data-id="eu2" data-person="eu:共和政ローマ">
+<title>共和政ローマ　紀元前509年 〜 紀元前27年（期間 約482年）</title>
+<rect class="bar f-blue" x="373" y="1151.2" width="22" height="1058.4" rx="3"/>
+<text class="inside" x="384" y="1156.2" writing-mode="vertical-rl">共和政ローマ</text>
+</g>
+<g class="term c-eu" data-id="eu3" data-person="eu:ヘレニズム時代">
+<title>ヘレニズム時代　紀元前336年 〜 紀元前30年（期間 約306年）</title>
+<rect class="bar f-blue" x="421" y="1531.8" width="22" height="671.2" rx="3"/>
+<text class="inside" x="432" y="1536.8" writing-mode="vertical-rl">ヘレニズム</text>
+</g>
+<g class="term c-eu" data-id="eu4" data-person="eu:ローマ帝国">
+<title>ローマ帝国　紀元前27年 〜 395年（期間 約421年）</title>
+<rect class="bar f-blue" x="373" y="2211.6" width="22" height="924.2" rx="3"/>
+<text class="inside" x="384" y="2216.6" writing-mode="vertical-rl">ローマ帝国</text>
+</g>
+<g class="term c-eu" data-id="eu5" data-person="eu:西ローマ帝国">
+<title>西ローマ帝国　395年 〜 476年（期間 約81年）</title>
+<rect class="bar f-blue" x="373" y="3137.9" width="22" height="176.2" rx="3"/>
+<text class="inside" x="384" y="3142.9" writing-mode="vertical-rl">西ローマ</text>
+</g>
+<g class="term c-eu" data-id="eu6" data-person="eu:東ローマ帝国">
+<title>東ローマ帝国　395年 〜 1453年（期間 約1058年）</title>
+<rect class="bar f-blue" x="397" y="3137.9" width="22" height="2325.7" rx="3"/>
+<text class="inside" x="408" y="3142.9" writing-mode="vertical-rl">東ローマ</text>
+</g>
+<g class="term c-eu" data-id="eu7" data-person="eu:中世">
+<title>中世　476年 〜 1453年（期間 約977年）</title>
+<rect class="bar f-blue" x="349" y="3316.1" width="22" height="2147.4" rx="3"/>
+<text class="inside" x="360" y="3321.1" writing-mode="vertical-rl">中世</text>
+</g>
+<g class="term c-eu" data-id="eu8" data-person="eu:フランク王国">
+<title>フランク王国　481年 〜 843年（期間 約362年）</title>
+<rect class="bar f-blue" x="373" y="3327.1" width="22" height="794.4" rx="3"/>
+<text class="inside" x="384" y="3332.1" writing-mode="vertical-rl">フランク王国</text>
+</g>
+<g class="term c-eu" data-id="eu9" data-person="eu:神聖ローマ帝国">
+<title>神聖ローマ帝国　962年 〜 1806年（期間 約844年）</title>
+<rect class="bar f-blue" x="373" y="4385.3" width="22" height="1854.8" rx="3"/>
+<text class="inside" x="384" y="4390.3" writing-mode="vertical-rl">神聖ローマ帝国</text>
+</g>
+<g class="term c-eu" data-id="eu10" data-person="eu:ルネサンス">
+<title>ルネサンス　1400年 〜 1600年（期間 約200年）</title>
+<rect class="bar f-blue" x="421" y="5348.9" width="22" height="437.9" rx="3"/>
+<text class="inside" x="432" y="5353.9" writing-mode="vertical-rl">ルネサンス</text>
+</g>
+<g class="term c-eu" data-id="eu11" data-person="eu:近世">
+<title>近世　1453年 〜 1789年（期間 約336年）</title>
+<rect class="bar f-blue" x="349" y="5465.5" width="22" height="737.1" rx="3"/>
+<text class="inside" x="360" y="5470.5" writing-mode="vertical-rl">近世</text>
+</g>
+<g class="term c-eu" data-id="eu12" data-person="eu:宗教改革">
+<title>宗教改革　1517年 〜 1555年（期間 約38年）</title>
+<rect class="bar f-blue" x="397" y="5606.3" width="22" height="81.6" rx="3"/>
+<text class="inside" x="408" y="5611.3" writing-mode="vertical-rl">宗教改革</text>
+</g>
+<g class="term c-eu" data-id="eu13" data-person="eu:近代">
+<title>近代　1789年 〜 1945年（期間 約156年）</title>
+<rect class="bar f-blue" x="349" y="6204.7" width="22" height="341.2" rx="3"/>
+<text class="inside" x="360" y="6209.7" writing-mode="vertical-rl">近代</text>
+</g>
+<g class="term c-eu" data-id="eu14" data-person="eu:フランス革命">
+<title>フランス革命　1789年 〜 1799年（期間 約10年）</title>
+<rect class="bar f-blue" x="421" y="6204.7" width="22" height="20" rx="3"/>
+</g>
+<g class="term c-eu" data-id="eu15" data-person="eu:現代">
+<title>現代　1945年 〜 現在（期間 約82年）</title>
+<linearGradient id="tl-g-eu15" gradientUnits="userSpaceOnUse" x1="0" y1="6704.9" x2="0" y2="6726.9"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M349 6550.9Q349 6547.9 352 6547.9H368Q371 6547.9 371 6550.9V6726.9Q371 6726.9 371 6726.9H349Q349 6726.9 349 6726.9Z" fill="url(#tl-g-eu15)"/>
+<text class="inside" x="360" y="6552.9" writing-mode="vertical-rl">現代</text>
+</g>
+<g class="term c-eu" data-id="eu16" data-person="eu:冷戦">
+<title>冷戦　1947年 〜 1989年（期間 約42年）</title>
+<rect class="bar f-blue" x="421" y="6552.3" width="22" height="90.4" rx="3"/>
+<text class="inside" x="432" y="6557.3" writing-mode="vertical-rl">冷戦</text>
+</g>
+<g class="term c-eu" data-id="eu17" data-person="eu:欧州連合（EU）">
+<title>欧州連合（EU）　1993年 〜 現在（期間 約34年）</title>
+<linearGradient id="tl-g-eu17" gradientUnits="userSpaceOnUse" x1="0" y1="6704.9" x2="0" y2="6726.9"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M421 6656.5Q421 6653.5 424 6653.5H440Q443 6653.5 443 6656.5V6726.9Q443 6726.9 443 6726.9H421Q421 6726.9 421 6726.9Z" fill="url(#tl-g-eu17)"/>
+<text class="inside" x="432" y="6658.5" writing-mode="vertical-rl">EU</text>
+</g>
+<text class="foot" x="380" y="6759.6" text-anchor="middle">出典：日本語版 Wikipedia（各時代・王朝・国の記事）、日本語版 Wikipedia「弥生時代」（始まりの年代の新旧の説）、日本語版 Wikipedia「Template:中国の歴史」、日本語版 Wikipedia「Template:朝鮮の歴史」、日本語版 Wikipedia「古代」「中世」「近世」「現代 (時代区分)」（西洋史の区分）、Wikidata　2026年10月30日時点</text>
+</svg>

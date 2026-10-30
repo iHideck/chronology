@@ -1,11 +1,11 @@
-<title>歴代総理大臣・歴代米大統領</title>
+<title>@@TITLE@@</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="1868年から現在まで、日本の内閣総理大臣とアメリカ合衆国大統領の在任期間を同じ時間軸に並べた年表">
+<meta name="description" content="@@DESCRIPTION@@">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Shippori+Mincho+B1:wght@700;800&display=swap">
 <style>
-/* 中央に西暦・和暦の背骨を通し、左に日本の総理、右に米大統領を吊るす。時間は上から下へ一定の縮尺で流れる。 */
+/* 中央（または左端）に西暦と時代の背骨を通し、その左右に列を吊るす。時間は上から下へ一定の縮尺で流れる。 */
 :root {
   --paper: #fcfcfd;
   --raise: #ffffff;
@@ -16,12 +16,18 @@
   --rule2: #c3c8d2;
   --spine-a: #f0f1f5;
   --spine-b: #e6e8ef;
-  --jp: #d4452c;
-  --us: #2c5aa0;
+  --red: #d4452c;
+  --blue: #2c5aa0;
+  --amber: #b8730f;
+  --violet: #7a4fc4;
+  --green: #138a60;
+  --teal: #00897b;
+  --gray: #9aa0ab;
   --shadow: rgba(20, 24, 33, 0.12);
   --font-body: "BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", sans-serif;
   --font-display: "Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "Noto Serif JP", serif;
   --measure: 820px;
+  --chart: @@MAXWIDTH@@px;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -34,8 +40,13 @@
     --rule2: #3d4452;
     --spine-a: #1b1f29;
     --spine-b: #222733;
-    --jp: #e5604a;
-    --us: #678bd2;
+    --red: #e5604a;
+    --blue: #678bd2;
+    --amber: #c98500;
+    --violet: #9085e9;
+    --green: #199e70;
+    --teal: #1f9fa1;
+    --gray: #6b7280;
     --shadow: rgba(0, 0, 0, 0.45);
     color-scheme: dark;
   }
@@ -50,8 +61,13 @@
   --rule2: #3d4452;
   --spine-a: #1b1f29;
   --spine-b: #222733;
-  --jp: #e5604a;
-  --us: #678bd2;
+  --red: #e5604a;
+  --blue: #678bd2;
+  --amber: #c98500;
+  --violet: #9085e9;
+  --green: #199e70;
+  --teal: #1f9fa1;
+  --gray: #6b7280;
   --shadow: rgba(0, 0, 0, 0.45);
   color-scheme: dark;
 }
@@ -80,9 +96,13 @@ body::before {
   padding-right: max(16px, env(safe-area-inset-right, 0px));
   box-sizing: content-box;
 }
+.wrap.wide { max-width: var(--chart); }
 
 /* 見出し */
-.masthead { padding-block: 40px 22px; display: grid; gap: 10px; }
+.masthead { padding-block: 28px 22px; display: grid; gap: 10px; }
+.crumb { margin: 0; font-size: 13px; }
+.crumb a { color: var(--muted); text-decoration: none; }
+.crumb a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
 .masthead h1 {
   margin: 0;
   font-family: var(--font-display);
@@ -92,7 +112,7 @@ body::before {
   letter-spacing: 0.02em;
   text-wrap: balance;
 }
-.lede { margin: 0; max-width: 38em; color: var(--ink2); }
+.lede { margin: 0; max-width: 38em; color: var(--ink2); overflow-wrap: anywhere; }
 .facts {
   margin: 4px 0 0;
   padding: 0;
@@ -132,8 +152,8 @@ body::before {
   min-width: 0;
 }
 .when { display: flex; align-items: baseline; gap: 8px; min-width: 9.6em; }
-.when b { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
-.when span { font-size: 13px; color: var(--muted); }
+.when b { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.when span { font-size: 13px; color: var(--muted); white-space: nowrap; }
 .who { display: flex; align-items: baseline; gap: 7px; min-width: 0; }
 .who i {
   display: inline-block;
@@ -143,13 +163,11 @@ body::before {
   align-self: center;
   flex: none;
 }
-.who.jp i { background: var(--jp); }
-.who.us i { background: var(--us); }
 .who .role { font-size: 12px; color: var(--muted); flex: none; }
 .who b { font-size: 15px; font-weight: 700; overflow-wrap: anywhere; }
 .who b.none { font-weight: 400; color: var(--muted); }
 
-.jump { display: flex; gap: 2px; flex-wrap: wrap; }
+.jump { display: flex; gap: 2px; flex-wrap: wrap; justify-content: flex-end; }
 .jump button {
   font: 700 15px/1 var(--font-display);
   color: var(--ink2);
@@ -159,10 +177,11 @@ body::before {
   padding: 7px 9px;
   cursor: pointer;
 }
+.jump.many button { font-size: 13.5px; padding: 6px 7px; }
 .jump button:hover { background: var(--spine-a); color: var(--ink); }
 .jump button[aria-current="true"] { background: var(--spine-b); color: var(--ink); }
-.jump button:focus-visible, .table-view summary:focus-visible, a:focus-visible {
-  outline: 2px solid var(--us);
+.jump button:focus-visible, .table-view summary:focus-visible, a:focus-visible, .picker button:focus-visible {
+  outline: 2px solid var(--blue);
   outline-offset: 2px;
 }
 @media (max-width: 720px) {
@@ -174,10 +193,39 @@ body::before {
   .when { min-width: 0; }
   .jump button { padding: 7px 8px; }
   .jump .rest { display: none; }
+  .jump.many { flex-wrap: nowrap; overflow-x: auto; max-width: 52vw; scrollbar-width: none; }
+  .whos { gap: 0 14px; }
+  .who b { font-size: 14px; }
 }
 
+/* 列の切り替え */
+.picker { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 16px 0 0; font-size: 13px; }
+.picker > span { color: var(--muted); margin-right: 4px; }
+.picker button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font: inherit;
+  color: var(--ink2);
+  background: transparent;
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+  padding: 4px 12px 4px 10px;
+  cursor: pointer;
+}
+.picker button i { width: 5px; height: 13px; border-radius: 2px; }
+.picker button[aria-pressed="false"] { color: var(--muted); border-style: dashed; }
+.picker button[aria-pressed="false"] i { opacity: 0.25; }
+.picker button:hover { background: var(--spine-a); color: var(--ink); }
+
+/* 凡例 */
+.legend { margin: 12px 0 0; display: grid; gap: 4px; font-size: 12.5px; color: var(--ink2); }
+.legend-row { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
+.legend-row .k { color: var(--muted); }
+.legend-row i { display: inline-block; width: 11px; height: 11px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+
 /* 年表 */
-.how { margin: 18px 0 6px; font-size: 13px; color: var(--muted); }
+.how { margin: 14px 0 6px; font-size: 13px; color: var(--muted); }
 .chart { margin: 0 auto; padding-block: 4px 8px; }
 .chart svg { display: block; width: 100%; height: auto; touch-action: pan-y; }
 
@@ -186,19 +234,17 @@ body::before {
 .tl.has-focus .term.is-focus, .tl.has-focus .term.is-counter { opacity: 1; }
 .tl .term.is-focus .name, .tl .term.is-now .name { font-weight: 700; }
 .tl .term:focus { outline: none; }
-.tl .term:focus-visible .bar, .tl .term:focus-visible .bar-open, .tl .term:focus-visible .bar-pre { stroke: var(--ink); stroke-width: 2; }
+.tl .term:focus-visible .bar, .tl .term:focus-visible .bar-open, .tl .term:focus-visible .bar-lead, .tl .term:focus-visible .dot, .tl .term:focus-visible .bar-hatch { stroke: var(--ink); stroke-width: 2; }
 .tl .xhair { pointer-events: none; }
 .tl .xhair-line { stroke: var(--ink); stroke-width: 1; opacity: 0.45; }
 .tl .xhair-dot { stroke: var(--paper); stroke-width: 2; }
-.tl .xhair-dot.jp { fill: var(--jp); }
-.tl .xhair-dot.us { fill: var(--us); }
 @media (prefers-reduced-motion: reduce) { .tl .term { transition: none; } }
 
 /* ツールチップ */
 .tip {
   position: fixed;
   z-index: 20;
-  max-width: min(300px, calc(100vw - 32px));
+  max-width: min(320px, calc(100vw - 32px));
   padding: 12px 14px;
   background: var(--raise);
   color: var(--ink);
@@ -209,16 +255,24 @@ body::before {
   line-height: 1.6;
   pointer-events: none;
 }
+.tip.pinned { pointer-events: auto; }
 .tip p { margin: 0; }
+.tip .head { display: flex; gap: 12px; align-items: center; margin-bottom: 2px; }
+.tip .head img { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex: none; background: var(--spine-b); }
 .tip .kicker { display: flex; align-items: center; gap: 7px; color: var(--muted); font-size: 12px; }
 .tip .kicker i { width: 5px; height: 13px; border-radius: 2px; flex: none; }
-.tip .kicker i.jp { background: var(--jp); }
-.tip .kicker i.us { background: var(--us); }
-.tip .name { font-size: 17px; font-weight: 700; margin: 2px 0 4px; line-height: 1.4; }
+.tip .name { font-size: 17px; font-weight: 700; margin: 2px 0 2px; line-height: 1.4; }
+.tip .reading { font-size: 12px; color: var(--muted); }
 .tip .dates { font-variant-numeric: tabular-nums; }
 .tip .days { color: var(--ink2); }
+.tip .detail { color: var(--ink2); }
+.tip .detail span { color: var(--muted); margin-right: 6px; }
 .tip .with { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--rule); color: var(--ink2); }
+.tip .with + .with { margin-top: 4px; padding-top: 0; border-top: 0; }
 .tip .with span { display: block; color: var(--muted); font-size: 12px; }
+.tip .more { margin-top: 8px; font-size: 12px; }
+.tip .more a { color: var(--blue); text-underline-offset: 3px; }
+.tip .credit { margin-top: 6px; font-size: 11px; color: var(--muted); }
 
 /* 一覧表 */
 .table-view { margin: 28px 0 0; border-top: 1px solid var(--rule); padding-block: 18px 6px; }
@@ -236,38 +290,40 @@ body::before {
 .scroll { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.45; font-variant-numeric: tabular-nums; }
 th, td { padding: 6px 10px; text-align: left; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+td.wrap-cell { white-space: normal; min-width: 14em; }
 th { font-weight: 700; color: var(--muted); font-size: 12px; position: sticky; top: 0; background: var(--paper); }
 td.num, th.num { text-align: right; }
+td img { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; vertical-align: middle; background: var(--spine-b); }
 tr.cont td { color: var(--muted); }
 
 /* 注記 */
-/* 下に余白を取り、年表の最後（令和）まで横線の位置に持ってこられるようにする */
-.notes { margin: 26px 0 0; padding-block: 18px max(48px, 38vh); border-top: 1px solid var(--rule); font-size: 13px; color: var(--ink2); }
+/* 下に余白を取り、年表の最後まで横線の位置に持ってこられるようにする */
+.notes { margin: 26px 0 0; padding-block: 18px max(48px, 38vh); border-top: 1px solid var(--rule); font-size: 13px; color: var(--ink2); overflow-wrap: anywhere; }
 .notes ul { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
 .notes p { margin: 12px 0 0; color: var(--muted); }
 .notes a { color: inherit; text-underline-offset: 3px; }
 </style>
 <!--@@BODY@@-->
 
-<header class="wrap masthead">
-  <h1>歴代総理大臣・歴代米大統領</h1>
-  <p class="lede">1868年（明治元年）から今日までの、日本の内閣総理大臣とアメリカ合衆国大統領の在任期間を、ひとつの時間軸に並べた年表です。中央の帯が西暦と和暦、棒の長さが在任期間です。</p>
+<header class="wrap wide masthead">
+  <p class="crumb"><a href="@@HOME@@">← 年表の一覧</a></p>
+  <h1>@@TITLE@@</h1>
+  <p class="lede">@@LEDE@@</p>
   <ul class="facts" id="facts"></ul>
 </header>
 
 <div class="dock" id="dock">
-  <div class="wrap dock-in">
-    <div class="when"><b id="r-date">1868年1月</b><span id="r-wareki">明治元年</span></div>
-    <div class="whos">
-      <div class="who jp"><i></i><span class="role">総理</span><b id="r-jp">内閣制度発足前</b></div>
-      <div class="who us"><i></i><span class="role">大統領</span><b id="r-us">A・ジョンソン</b></div>
-    </div>
-    <nav class="jump" id="jump" aria-label="元号の始まりへ移動"></nav>
+  <div class="wrap wide dock-in">
+    <div class="when"><b id="r-date"></b><span id="r-sub"></span></div>
+    <div class="whos" id="whos"></div>
+    <nav class="jump" id="jump" aria-label="時代の始まりへ移動"></nav>
   </div>
 </div>
 
-<main class="wrap">
-  <p class="how">棒や名前にカーソルを合わせる（スマホではタップする）と、在任期間と同じ時期の相手国の首脳が表示されます。上の欄には、横線の位置の総理と大統領が出ます。</p>
+<main class="wrap wide">
+  <div class="picker" id="picker" hidden></div>
+  <div class="legend" id="legend" hidden></div>
+  <p class="how">@@HOW@@</p>
   <div class="chart" id="chart"></div>
 
   <details class="table-view" id="table-view">
@@ -276,15 +332,10 @@ tr.cont td { color: var(--muted); }
   </details>
 
   <footer class="notes">
-    <ul>
-      <li>在任中の棒と在任日数は、ページを開いた日まで伸ばして表示しています。</li>
-      <li>総理の棒の切れ目は、臨時兼任・臨時代理の期間です。</li>
-      <li>同じ人が続けて務めた代（例：吉田茂の第48〜51代）は1本の棒にまとめています。</li>
-      <li>在任日数は、総理は首相官邸の数え方（就任日と退任日を両方含む）、大統領は就任日から退任日までの日数です。</li>
-      <li>明治への改元（1868年10月23日）より前の1868年も、明治元年として表示しています。</li>
-    </ul>
-    <p id="sources">出典：<a href="https://www.kantei.go.jp/jp/rekidainaikaku/" target="_blank" rel="noopener">首相官邸「歴代内閣」</a>、<a href="https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_time_in_office" target="_blank" rel="noopener">List of presidents of the United States by time in office</a></p>
-    <p>データと作り方：<a href="https://github.com/iHideck/chronology" target="_blank" rel="noopener">GitHub（iHideck/chronology）</a></p>
+    <ul>@@NOTES@@</ul>
+    <p>出典：@@SOURCES@@</p>
+    @@CREDITS@@
+    <p>データと作り方：<a href="https://github.com/iHideck/chronology/tree/main/@@DIR@@" target="_blank" rel="noopener">GitHub（iHideck/chronology）</a></p>
   </footer>
 </main>
 
@@ -294,10 +345,11 @@ tr.cont td { color: var(--muted); }
 /*@@TIMELINE@@*/
 
 const DATA = /*@@DATA@@*/null;
-// 在任中の期間は、ページを開いた日（日本時間）まで伸ばして表示する。データを更新した日より前には戻さない。
+// 続いている期間は、ページを開いた日（日本時間）まで伸ばして表示する。データを更新した日より前には戻さない。
 const todayJST = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
 const asOf = todayJST > DATA.asOf ? todayJST : DATA.asOf;
-const model = buildModel({ pmRows: DATA.pm, usRows: DATA.us, eraRows: DATA.eras, asOf });
+const model = buildModel({ page: DATA.page, datasets: DATA.datasets, asOf });
+const P = model.page;
 
 const $ = (s) => document.querySelector(s);
 const chart = $('#chart');
@@ -306,55 +358,169 @@ const tip = $('#tip');
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
 const svgStyle = document.createElement('style');
 document.head.appendChild(svgStyle);
+const el = (tag, cls, text) => {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+};
+const swatch = (color) => {
+  const i = el('i');
+  i.style.background = color === 'hatch' ? 'repeating-linear-gradient(45deg, var(--rule2) 0 2px, var(--spine-a) 2px 5px)' : `var(--${color})`;
+  return i;
+};
+const colColor = (c) => (c.colorBy === 'group' ? 'gray' : c.color ?? 'gray');
 
 let g = null;
 let svg = null;
 let xhairs = [];
-let dotJP = null;
-let dotUS = null;
 let mouseY = null;
 let active = null;
 let pinned = false;
 
+// ---- 表示する列（ボタンで切り替え、ブラウザに覚えておく）
+const storeKey = `chronology:${DATA.dir}:hidden`;
+// 狭い画面では、narrowHidden の付いた列を最初は出さない（ボタンで出せる）
+const narrowScreen = window.innerWidth < 600;
+let hidden = new Set(P.columns.filter((c) => c.hidden || (narrowScreen && c.narrowHidden)).map((c) => c.id));
+try {
+  const saved = JSON.parse(localStorage.getItem(storeKey) ?? 'null');
+  if (Array.isArray(saved)) hidden = new Set(saved.filter((id) => model.colById.has(id) && !model.colById.get(id).fixed));
+} catch { /* 保存できない環境では毎回の既定に戻す */ }
+const visible = () => model.columns.filter((c) => !hidden.has(c.id));
+
+{
+  const optional = model.columns.filter((c) => !c.fixed);
+  if (optional.length && model.columns.length > 1) {
+    const box = $('#picker');
+    box.append(el('span', '', '表示する列'));
+    for (const c of optional) {
+      const b = el('button');
+      b.type = 'button';
+      b.setAttribute('aria-pressed', String(!hidden.has(c.id)));
+      b.append(swatch(colColor(c)), c.short ?? c.title);
+      b.title = c.title;
+      b.addEventListener('click', () => {
+        if (hidden.has(c.id)) hidden.delete(c.id); else hidden.add(c.id);
+        b.setAttribute('aria-pressed', String(!hidden.has(c.id)));
+        try { localStorage.setItem(storeKey, JSON.stringify([...hidden])); } catch { /* 覚えられなくても表示は切り替わる */ }
+        buildWhos();
+        buildLegend();
+        render();
+      });
+      box.append(b);
+    }
+    box.hidden = false;
+  }
+}
+
 // ---- 見出しの数字
 {
-  const jpPeople = new Set(model.pmRows.map((r) => r['氏名'])).size;
-  const usPeople = new Set(model.usRows.map((r) => r['氏名'])).size;
-  const first = (rows) => rows[0]['代'];
-  const last = (rows) => rows[rows.length - 1]['代'];
-  const items = [
-    ['データ更新', fmtDate(toTime(DATA.asOf))],
-    ['総理', `${jpPeople}人（第${first(model.pmRows)}〜${last(model.pmRows)}代）`],
-    ['大統領', `${usPeople}人（第${first(model.usRows)}〜${last(model.usRows)}代）`],
-  ];
+  const items = [['データ更新', fmtDate(toTime(DATA.asOf))]];
+  for (const id of P.facts ?? model.columns.slice(0, 2).map((c) => c.id)) {
+    // 数字を書き添えたいときは {"label": "…", "text": "…"} で直接書ける
+    if (typeof id === 'object') { items.push([id.label, id.text]); continue; }
+    const c = model.colById.get(id);
+    if (!c) continue;
+    const ords = c.terms.flatMap((t) => [t.ordFrom, t.ordTo]).filter((n) => n != null);
+    const people = c.persons.size;
+    const text = ords.length
+      ? `${people}${c.unit ?? '人'}（第${Math.min(...ords)}〜${Math.max(...ords)}代）`
+      : `${c.terms.length}${c.unit ?? '件'}`;
+    items.push([c.short ?? c.title, text]);
+  }
   const ul = $('#facts');
   for (const [k, v] of items) {
-    const li = document.createElement('li');
-    const b = document.createElement('b');
-    b.textContent = k;
-    li.append(b, v);
+    const li = el('li');
+    li.append(el('b', '', k), v);
     ul.append(li);
   }
 }
 
-// ---- 元号へのジャンプ
-const jumpButtons = model.eras.map((e, i) => {
-  const b = document.createElement('button');
+// ---- 区分で色分けした列の凡例
+function buildLegend() {
+  const box = $('#legend');
+  box.replaceChildren();
+  for (const c of visible()) {
+    if (c.colorBy !== 'group') continue;
+    const groups = Object.entries(c.spec.groups ?? {}).filter(([k]) => c.terms.some((t) => t.group === k));
+    if (!groups.length) continue;
+    const row = el('p', 'legend-row');
+    row.append(el('span', 'k', c.title));
+    for (const [k, v] of groups) {
+      const item = el('span');
+      item.append(swatch(v.color ?? 'gray'), k);
+      row.append(item);
+    }
+    if (c.terms.some((t) => !t.group && !t.point)) {
+      const item = el('span');
+      item.append(swatch('gray'), '分類なし');
+      row.append(item);
+    }
+    box.append(row);
+  }
+  // 推定の日付を薄く描いている列があれば、その説明も出す
+  for (const c of visible()) {
+    if (!c.fadeApprox || !c.terms.some((t) => t.approx)) continue;
+    const row = el('p', 'legend-row');
+    const i = swatch(colColor(c));
+    i.style.opacity = '0.45';
+    const item = el('span');
+    item.append(i, c.fadeApprox);
+    row.append(item);
+    box.append(row);
+    break;
+  }
+  box.hidden = !box.childElementCount;
+}
+buildLegend();
+
+// ---- 読み取り欄の「その時点の…」
+let whoEls = [];
+function buildWhos() {
+  const box = $('#whos');
+  box.replaceChildren();
+  // dockCombine を指定したページは、すべての列のその時点の項目を1つの欄にまとめる（例：発行中のお札の肖像）
+  if (P.dockCombine) {
+    const d = el('div', 'who');
+    const b = el('b');
+    d.append(swatch(colColor(model.columns[0])), el('span', 'role', P.dockCombine.label), b);
+    box.append(d);
+    whoEls = [{ c: null, b }];
+    return;
+  }
+  whoEls = visible().filter((c) => c.dock !== false).map((c) => {
+    const d = el('div', 'who');
+    const b = el('b');
+    d.append(swatch(colColor(c)), el('span', 'role', c.short ?? c.title), b);
+    box.append(d);
+    return { c, b };
+  });
+}
+buildWhos();
+
+// ---- 時代の始まりへのジャンプ
+const jumps = (P.jump === 'bands' ? model.bands.map((b, i) => ({ label: b.name, short: b.short, t: i === 0 ? model.start : b.start })) : (P.jump ?? []).map((j) => ({ label: j.label, t: toTime(j.date) })))
+  .filter((j) => j.t < model.end);
+const jumpNav = $('#jump');
+if (jumps.length > 7) jumpNav.classList.add('many');
+const jumpButtons = jumps.map((j, i) => {
+  const b = el('button');
   b.type = 'button';
-  b.id = `jump-${i}`;
-  // スマホでは「明・大・昭・平・令」の1文字に縮める
-  const rest = document.createElement('span');
-  rest.className = 'rest';
-  rest.textContent = e.name.slice(1);
-  b.append(e.name.slice(0, 1), rest);
-  b.setAttribute('aria-label', e.name);
+  // スマホでは「明・大・昭・平・令」のように1文字に縮める（多いときは横に送る）
+  if (jumps.length <= 7 && [...j.label].length > 1) {
+    b.append([...j.label][0], el('span', 'rest', [...j.label].slice(1).join('')));
+  } else {
+    b.textContent = j.short ?? j.label;
+  }
+  b.setAttribute('aria-label', j.label);
   b.setAttribute('aria-current', 'false');
   b.addEventListener('click', () => {
     if (!svg) return;
-    const y = i === 0 ? g.top : g.yOf(e.start);
+    const y = i === 0 ? g.top : g.yOf(j.t);
     const r = svg.getBoundingClientRect();
     const k = r.width / g.width;
-    // 移動後は読み取り欄が上に貼り付くので、その状態での横線の位置に元号の始まりを合わせる
+    // 移動後は読み取り欄が上に貼り付くので、その状態での横線の位置に時代の始まりを合わせる
     const stuckTop = parseFloat(getComputedStyle(dock).top) || 0;
     const stuck = stuckTop + dock.offsetHeight;
     const line = stuck + (window.innerHeight - stuck) * 0.32;
@@ -363,7 +529,7 @@ const jumpButtons = model.eras.map((e, i) => {
     const target = Math.max(dockStart, window.scrollY + r.top + y * k - line + 1);
     window.scrollTo({ top: Math.max(0, target), behavior: reduceMotion.matches ? 'auto' : 'smooth' });
   });
-  $('#jump').append(b);
+  jumpNav.append(b);
   return b;
 });
 
@@ -372,13 +538,11 @@ function render() {
   const w = Math.floor(chart.clientWidth);
   if (!w) return;
   clearActive();
-  g = layout(model, { width: w });
+  g = layout(model, { width: w, hidden });
   svgStyle.textContent = svgRules(g);
   chart.innerHTML = renderSVG(model, g, { interactive: true });
   svg = chart.querySelector('svg');
   xhairs = [...svg.querySelectorAll('.xhair')];
-  dotJP = svg.querySelector('.xhair-dot.jp');
-  dotUS = svg.querySelector('.xhair-dot.us');
   update();
 }
 
@@ -394,9 +558,9 @@ function readingLine() {
   return top + (window.innerHeight - top) * 0.32;
 }
 
-function setWho(el, text, none) {
-  el.textContent = text;
-  el.classList.toggle('none', none);
+function setWho(b, text, none) {
+  b.textContent = text;
+  b.classList.toggle('none', none);
 }
 
 let frame = 0;
@@ -404,27 +568,55 @@ function schedule() {
   if (!frame) frame = requestAnimationFrame(() => { frame = 0; update(); });
 }
 
+function ageAt(t, x) {
+  const a = ymd(x.start);
+  const b = ymd(t);
+  return b.y - a.y - (b.m < a.m || (b.m === a.m && b.d < a.d) ? 1 : 0);
+}
+
 function update() {
   if (!svg) return;
   const r = svg.getBoundingClientRect();
   const k = g.width / r.width;
   const cy = mouseY ?? readingLine();
-  const y = Math.max(g.top, Math.min(g.asOfY, (cy - r.top) * k));
+  const lastY = g.showAsOf ? g.asOfY : g.plotBottom;
+  const y = Math.max(g.top, Math.min(lastY, (cy - r.top) * k));
   const t = g.tOf(y);
   const d = ymd(t);
   for (const x of xhairs) x.setAttribute('transform', `translate(0 ${y.toFixed(1)})`);
-  $('#r-date').textContent = `${d.y}年${d.m}月`;
-  const w = wareki(t, model.eras);
-  $('#r-wareki').textContent = w.text;
-  const j = termAt(model.jp, t);
-  const u = termAt(model.us, t);
-  setWho($('#r-jp'), j ? j.name : (t < model.pre.end ? '内閣制度発足前' : '臨時兼任・代理の期間'), !j);
-  setWho($('#r-us'), u ? u.short : '—', !u);
-  dotJP.style.display = j ? '' : 'none';
-  dotUS.style.display = u ? '' : 'none';
-  jumpButtons.forEach((b, i) => b.setAttribute('aria-current', String(model.eras[i].name === w.era)));
-  for (const el of svg.querySelectorAll('.term.is-now')) el.classList.remove('is-now');
-  for (const x of [j, u]) if (x) svg.querySelector(`.term[data-id="${x.id}"]`)?.classList.add('is-now');
+  $('#r-date').textContent = d.y > 0 ? `${d.y}年${d.m}月` : `${yearText(d.y)}年`;
+  const w = model.eras.length ? wareki(t, model.eras, model.retro) : null;
+  const band = model.bands.findLast?.((b) => b.start <= t) ?? null;
+  $('#r-sub').textContent = w ? w.text : band && P.spine?.bands ? band.name : '';
+  const now = new Set();
+  for (const { c, b } of whoEls) {
+    if (!c) {
+      const all = visible().flatMap((v) => termsAt(v, t).map((x) => ({ x, v })));
+      for (const { x } of all) now.add(x.id);
+      const names = all.map(({ x, v }) => `${x.short}（${v.short ?? v.title}）`);
+      const more = names.length > 6 ? `ほか${names.length - 6}${P.dockCombine.unit ?? '件'}` : '';
+      setWho(b, names.length ? `${names.slice(0, 6).join('・')}${more ? `・${more}` : ''}` : '—', !names.length);
+      continue;
+    }
+    const list = termsAt(c, t);
+    for (const x of list) now.add(x.id);
+    if (list.length) {
+      const names = list.map((x) => (c.spec.days === 'age' ? `${x.short}（${ageAt(t, x)}）` : x.short));
+      setWho(b, names.length > 4 ? `${names.slice(0, 4).join('・')}ほか${names.length - 4}人` : names.join('・'), false);
+    } else if (c.lead && t < c.lead.end) {
+      setWho(b, c.lead.name, true);
+    } else {
+      setWho(b, c.gapText ?? '—', true);
+    }
+  }
+  for (const dot of svg.querySelectorAll('.xhair-dot')) {
+    const c = model.colById.get(dot.dataset.col);
+    dot.style.display = termsAt(c, t).length ? '' : 'none';
+  }
+  const cur = jumps.reduce((acc, j, i) => (j.t <= t ? i : acc), 0);
+  jumpButtons.forEach((b, i) => b.setAttribute('aria-current', String(i === cur)));
+  for (const e of svg.querySelectorAll('.term.is-now')) e.classList.remove('is-now');
+  for (const id of now) svg.querySelector(`.term[data-id="${id}"]`)?.classList.add('is-now');
 }
 
 window.addEventListener('scroll', schedule, { passive: true });
@@ -451,9 +643,10 @@ function clearActive() {
   active = null;
   pinned = false;
   tip.hidden = true;
+  tip.classList.remove('pinned');
   if (!svg) return;
   svg.classList.remove('has-focus');
-  for (const el of svg.querySelectorAll('.is-focus, .is-counter')) el.classList.remove('is-focus', 'is-counter');
+  for (const e of svg.querySelectorAll('.is-focus, .is-counter')) e.classList.remove('is-focus', 'is-counter');
 }
 
 function activate(id) {
@@ -461,63 +654,91 @@ function activate(id) {
   clearActive();
   active = id;
   svg.classList.add('has-focus');
-  if (id === 'jp-pre') {
+  const t = model.byId.get(id);
+  if (t.kind === 'lead') {
     mark(id, 'is-focus');
   } else {
-    const t = model.byId.get(id);
-    for (const x of model.persons.get(t.person).terms) mark(x.id, 'is-focus');
-    for (const c of t.counter) mark(c, 'is-counter');
+    const c = model.colById.get(t.col);
+    for (const x of c.persons.get(t.name).terms) mark(x.id, 'is-focus');
+    for (const u of t.counter) mark(u, 'is-counter');
   }
-  fillTip(id);
+  fillTip(t);
   tip.hidden = false;
 }
 
-function line(cls, text) {
-  const p = document.createElement('p');
-  p.className = cls;
-  p.textContent = text;
-  tip.append(p);
+function line(cls, text, parent = tip) {
+  const p = el('p', cls, text);
+  parent.append(p);
   return p;
 }
 
-function fillTip(id) {
+function fillTip(t) {
   tip.replaceChildren();
-  if (id === 'jp-pre') {
+  const c = model.colById.get(t.col);
+  if (t.kind === 'lead') {
     const k = line('kicker', '');
-    const i = document.createElement('i');
-    i.className = 'jp';
-    k.append(i, '1868〜1885年');
-    line('name', '内閣制度発足前');
-    line('days', '1885年12月22日に内閣制度が発足し、伊藤博文が初代の内閣総理大臣に就任しました。それまでは太政官制のもとで政治が行われていました。');
+    k.append(swatch('hatch'), `${yearShort(ymd(t.start).y)}〜${yearShort(ymd(t.end).y)}年`);
+    line('name', t.name);
+    line('days', t.text);
     return;
   }
-  const t = model.byId.get(id);
-  const p = model.persons.get(t.person);
-  const k = line('kicker', '');
-  const i = document.createElement('i');
-  i.className = t.side;
-  k.append(i, `${daiText(t)}　${t.side === 'jp' ? '内閣総理大臣' : 'アメリカ合衆国大統領'}`);
-  line('name', t.name);
-  line('dates', `${fmtDate(t.start)} 〜 ${t.ongoing ? '在任中' : fmtDate(t.end)}`);
-  line('days', `在任 ${fmtNum(t.days)}日${t.ongoing ? `（${fmtDate(model.asOf)}時点）` : ''}`);
-  if (p.terms.length > 1) line('days', `通算 ${fmtNum(p.days)}日（${p.terms.length}回）`);
-  const names = [];
-  for (const c of t.counter) {
-    const x = model.byId.get(c);
-    const n = t.side === 'jp' ? x.short : x.name;
-    if (!names.includes(n)) names.push(n);
+  const head = el('div', 'head');
+  if (t.photo) {
+    const img = el('img');
+    img.src = t.photo;
+    img.alt = '';
+    head.append(img);
   }
-  const w = line('with', names.join('、') || '—');
-  const head = document.createElement('span');
-  head.textContent = t.side === 'jp' ? '同じ時期の米大統領' : '同じ時期の日本の総理';
-  w.prepend(head);
+  const box = el('div');
+  const k = line('kicker', '', box);
+  const color = c.colorBy === 'group' ? c.spec.groups?.[t.group]?.color ?? 'gray' : colColor(c);
+  k.append(swatch(color), [ordText(t), c.role || c.title].filter(Boolean).join('　'));
+  const nm = line('name', t.name, box);
+  if (t.reading) nm.append(' ', el('span', 'reading', t.reading));
+  head.append(box);
+  tip.append(head);
+  line('dates', `${rangeText(t, c.spec)}${!t.ongoing && !t.point && t.end > model.asOf ? '（予定）' : ''}${t.approx ? '（推定・諸説あり）' : ''}`);
+  const dur = durationText(t, c.spec, model.asOf);
+  if (dur) line('days', dur);
+  const p = c.persons.get(t.name);
+  if (p.terms.length > 1 && (c.spec.days === 'inclusive' || c.spec.days === 'exclusive')) line('days', `通算 ${fmtNum(p.days)}日（${p.terms.length}回）`);
+  if (c.colorBy === 'group' && t.group) {
+    const d = line('detail', t.group);
+    d.prepend(el('span', '', '区分'));
+  }
+  for (const [key, value] of t.details) {
+    const d = line('detail', value);
+    d.prepend(el('span', '', key));
+  }
+  for (const oid of c.counter ?? []) {
+    if (hidden.has(oid)) continue;
+    const o = model.colById.get(oid);
+    if (!o) continue;
+    const names = [];
+    for (const id of t.counter) {
+      const x = model.byId.get(id);
+      if (x.col !== oid) continue;
+      if (!names.includes(x.short)) names.push(x.short);
+    }
+    const w = line('with', names.join('、') || '—');
+    w.prepend(el('span', '', `同じ時期の${o.counterLabel ?? o.short ?? o.title}`));
+  }
+  if (t.url) {
+    const m = line('more', '');
+    const a = el('a', '', '詳しい説明');
+    a.href = t.url;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    m.append(a);
+  }
+  if (t.photo && c.spec.photoCredit) line('credit', c.spec.photoCredit);
 }
 
 function placeTip(x, y, side) {
   const pad = 14;
   const tw = tip.offsetWidth;
   const th = tip.offsetHeight;
-  let left = side === 'jp' ? x - tw - pad : x + pad;
+  let left = side === 'left' ? x - tw - pad : x + pad;
   if (side === undefined && left + tw > window.innerWidth - 8) left = x - tw - pad;
   left = Math.max(8, Math.min(window.innerWidth - tw - 8, left));
   let top = y + pad;
@@ -527,11 +748,12 @@ function placeTip(x, y, side) {
   tip.style.top = `${top}px`;
 }
 
-function placeTipAt(el) {
-  const target = el.querySelector('.label') || el;
+function placeTipAt(e) {
+  const target = e.querySelector('.label') || e;
   const r = target.getBoundingClientRect();
-  const side = el.classList.contains('us') ? 'us' : 'jp';
-  placeTip(side === 'jp' ? r.left : r.right, r.top, side);
+  const col = g.cols.find((x) => x.c.id === model.byId.get(e.dataset.id)?.col);
+  const side = col?.side ?? 'right';
+  placeTip(side === 'left' ? r.left : r.right, r.top, side);
 }
 
 function termFrom(e) {
@@ -542,8 +764,8 @@ function termFrom(e) {
 
 chart.addEventListener('pointerover', (e) => {
   if (e.pointerType !== 'mouse' || pinned) return;
-  const el = termFrom(e);
-  if (el) { activate(el.dataset.id); placeTip(e.clientX, e.clientY); }
+  const t = termFrom(e);
+  if (t) { activate(t.dataset.id); placeTip(e.clientX, e.clientY); }
 });
 chart.addEventListener('pointerout', (e) => {
   if (e.pointerType !== 'mouse' || pinned) return;
@@ -551,74 +773,95 @@ chart.addEventListener('pointerout', (e) => {
   if (!to) clearActive();
 });
 chart.addEventListener('click', (e) => {
-  const el = termFrom(e);
-  if (!el) { clearActive(); return; }
-  if (pinned && active === el.dataset.id) { clearActive(); return; }
-  activate(el.dataset.id);
+  const t = termFrom(e);
+  if (!t) { clearActive(); return; }
+  if (pinned && active === t.dataset.id) { clearActive(); return; }
+  activate(t.dataset.id);
   pinned = true;
-  placeTipAt(el);
+  tip.classList.add('pinned');
+  placeTipAt(t);
 });
 chart.addEventListener('focusin', (e) => {
-  const el = e.target.closest('.term');
-  if (!el) return;
-  activate(el.dataset.id);
-  placeTipAt(el);
+  const t = e.target.closest('.term');
+  if (!t) return;
+  activate(t.dataset.id);
+  placeTipAt(t);
 });
 chart.addEventListener('focusout', (e) => {
-  if (!chart.contains(e.relatedTarget)) clearActive();
+  if (!chart.contains(e.relatedTarget) && !tip.contains(e.relatedTarget)) clearActive();
 });
 document.addEventListener('pointerdown', (e) => {
-  if (pinned && !chart.contains(e.target)) clearActive();
+  if (pinned && !chart.contains(e.target) && !tip.contains(e.target)) clearActive();
 });
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') clearActive();
 });
 window.addEventListener('scroll', () => { if (pinned) clearActive(); }, { passive: true });
 
-// ---- 一覧表
-function buildTable(rows, side) {
-  const sec = document.createElement('section');
-  const h = document.createElement('h2');
-  const i = document.createElement('i');
-  i.style.background = `var(--${side})`;
-  h.append(i, side === 'jp' ? '日本の内閣総理大臣' : 'アメリカ合衆国大統領');
-  const box = document.createElement('div');
-  box.className = 'scroll';
-  const table = document.createElement('table');
+// ---- 一覧表（列ごと。CSV の追加の列もそのまま出す）
+function buildTable(c) {
+  const sec = el('section');
+  const h = el('h2');
+  h.append(swatch(colColor(c)), c.title);
+  const box = el('div', 'scroll');
+  const table = el('table');
+  const extra = [];
+  for (const t of c.terms) for (const [key] of t.details) if (!extra.includes(key)) extra.push(key);
+  const hasOrd = c.terms.some((t) => t.ordFrom != null);
+  const hasPhoto = c.terms.some((t) => t.photo);
+  const hasGroup = c.colorBy === 'group' && c.terms.some((t) => t.group);
+  const durable = c.terms.some((t) => !t.point);
+  const heads = [
+    ...(hasOrd ? [['代', 'num']] : []),
+    ...(hasPhoto ? [['', '']] : []),
+    [c.spec.nameLabel ?? '名前', ''],
+    ...(c.terms.some((t) => t.reading) ? [['読み', '']] : []),
+    [durable ? (c.spec.startLabel ?? '開始') : '日付', ''],
+    ...(durable ? [[c.spec.endLabel ?? '終了', ''], [c.spec.durationLabel ?? '期間', '']] : []),
+    ...(hasGroup ? [['区分', '']] : []),
+    ...extra.map((x) => [x, '']),
+  ];
   const thead = table.createTHead().insertRow();
-  for (const [label, cls] of [['代', 'num'], ['氏名', ''], ['就任日', ''], ['退任日', ''], ['在任日数', 'num']]) {
-    const th = document.createElement('th');
-    th.textContent = label;
-    if (cls) th.className = cls;
+  for (const [label, cls] of heads) {
+    const th = el('th', cls, label);
     th.scope = 'col';
     thead.append(th);
   }
   const tbody = table.createTBody();
   let prev = null;
-  for (const r of rows) {
-    const s = toTime(r['就任日']);
-    const ongoing = !r['退任日'];
-    const e = ongoing ? model.asOf : toTime(r['退任日']);
-    const days = side === 'jp' ? Math.round((e - s) / 86400000) + 1 : Math.round((e - s) / 86400000);
+  for (const t of c.terms) {
     const tr = tbody.insertRow();
-    if (prev === r['氏名']) tr.className = 'cont';
-    prev = r['氏名'];
-    const cells = [
-      [r['代'], 'num'],
-      [r['氏名'], ''],
-      [r['就任日'].replaceAll('-', '/'), ''],
-      [ongoing ? '在任中' : r['退任日'].replaceAll('-', '/'), ''],
-      [fmtNum(days), 'num'],
-    ];
-    for (const [text, cls] of cells) {
+    if (prev === t.name && c.spec.merge) tr.className = 'cont';
+    prev = t.name;
+    const add = (text, cls = '') => {
       const td = tr.insertCell();
-      td.textContent = text;
       if (cls) td.className = cls;
+      if (text instanceof Node) td.append(text); else td.textContent = text;
+    };
+    if (hasOrd) add(t.ordFrom == null ? '' : t.ordFrom === t.ordTo ? String(t.ordFrom) : `${t.ordFrom}〜${t.ordTo}`, 'num');
+    if (hasPhoto) {
+      if (t.photo) {
+        const img = el('img');
+        img.src = t.photo;
+        img.alt = '';
+        img.loading = 'lazy';
+        add(img);
+      } else add('');
     }
+    add(t.name);
+    if (heads.some(([l]) => l === '読み')) add(t.reading);
+    add(`${fmtStr(t.startStr)}${t.approx ? '頃' : ''}`);
+    if (durable) {
+      add(t.point ? '' : t.ongoing ? (c.spec.ongoing ?? '現在') : fmtStr(t.endStr));
+      add(durationText(t, c.spec, model.asOf).replace(/^\S+ /, ''));
+    }
+    if (hasGroup) add(t.group);
+    const map = new Map(t.details);
+    for (const key of extra) add(map.get(key) ?? '', (map.get(key) ?? '').length > 24 ? 'wrap-cell' : '');
   }
   box.append(table);
   sec.append(h, box);
   return sec;
 }
-$('#tables').append(buildTable(model.pmRows, 'jp'), buildTable(model.usRows, 'us'));
+$('#tables').append(...model.columns.map(buildTable));
 </script>

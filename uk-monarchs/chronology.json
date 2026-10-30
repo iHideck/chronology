@@ -1,0 +1,26 @@
+{
+  "title": "イギリスの君主",
+  "short": "英国",
+  "description": "グレートブリテンおよびアイルランド連合王国（現在の英国）の国王・女王の在位期間（1760年〜）。",
+  "category": "政治と首脳",
+  "order": 45,
+  "color": "green",
+  "data": {
+    "file": "uk-monarchs.csv",
+    "columns": { "name": "名前", "short": "略称", "start": "開始日", "end": "終了日", "url": "リンク" },
+    "role": "イギリスの君主",
+    "days": "exclusive",
+    "durationLabel": "在位",
+    "ongoing": "在位中",
+    "startLabel": "即位",
+    "endLabel": "退位・死去",
+    "check": { "sequential": true }
+  },
+  "sources": [
+    { "title": "The Royal Family「Kings and Queens of the United Kingdom」", "url": "https://www.royal.uk/kings-and-queens-of-the-united-kingdom" },
+    { "title": "List of British monarchs（Wikipedia）", "url": "https://en.wikipedia.org/wiki/List_of_British_monarchs" }
+  ],
+  "notes": [
+    "在位の始まりは先代の死去・退位の日（即位を宣言した日や戴冠式の日ではありません）。1801年までの国名はグレートブリテン王国です。"
+  ]
+}

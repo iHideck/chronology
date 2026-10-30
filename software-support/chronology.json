@@ -1,0 +1,59 @@
+{
+  "title": "ソフトウェアのサポート期間",
+  "short": "ソフトウェア",
+  "description": "Windows・Ubuntu LTS・macOS・Python・Node.js（LTS）の各バージョンが、公開されてからサポートが終わるまで。",
+  "category": "テクノロジー",
+  "order": 90,
+  "color": "blue",
+  "data": {
+    "file": "software-support.csv",
+    "columns": { "name": "名前", "short": "略称", "start": "開始日", "end": "終了日", "group": "製品", "url": "リンク" },
+    "groups": {
+      "Windows": { "color": "blue" },
+      "Ubuntu LTS": { "color": "amber" },
+      "macOS": { "color": "violet" },
+      "Python": { "color": "green" },
+      "Node.js": { "color": "red" }
+    },
+    "durationLabel": "サポート",
+    "ongoing": "サポート中",
+    "startLabel": "公開",
+    "endLabel": "サポート終了",
+    "nameLabel": "バージョン"
+  },
+  "sources": [
+    { "title": "endoflife.date（Windows・macOS・Ubuntu・Python・Node.js）", "url": "https://endoflife.date/" },
+    { "title": "Microsoft「製品とサービスのライフサイクル情報」", "url": "https://learn.microsoft.com/ja-jp/lifecycle/products/" },
+    { "title": "Python Developer's Guide「Status of Python versions」", "url": "https://devguide.python.org/versions/" },
+    { "title": "Node.js「Previous Releases」", "url": "https://nodejs.org/en/about/previous-releases" },
+    { "title": "Ubuntu「Release cycle」", "url": "https://ubuntu.com/about/release-cycle" }
+  ],
+  "notes": [
+    "期間は、各バージョンの公開（一般向けの発売）からサポート終了まで。Windows は延長サポートの終了、Ubuntu は LTS の標準サポートの終了、Python はセキュリティ修正の終了、Node.js は LTS 版のサポート終了（End-of-life）までです。",
+    "Windows XP・Vista・7 の公開日は一般向けの発売日、それ以降は Microsoft のライフサイクルの開始日です。",
+    "macOS は Apple がサポート終了を発表しないため、終了日は最後のセキュリティ更新などをもとにした endoflife.date の推定です。新しい3つのバージョンはサポート中として扱っています。",
+    "終了日がまだ先のものは予定です。棒の「時点」より後の部分を薄く表示しています。"
+  ],
+  "page": {
+    "title": "ソフトウェアのサポート期間",
+    "description": "Windows・Ubuntu LTS・macOS・Python・Node.js（LTS）の各バージョンの、公開からサポート終了までを並べた年表",
+    "lede": "Windows・Ubuntu LTS・macOS・Python・Node.js（LTS）の各バージョンが、公開されてからサポートが終わるまでを、同じ時間軸に並べた年表です。同じ時期にいくつのバージョンがサポートされていたかが、棒の重なりで分かります。",
+    "how": "棒にカーソルを合わせる（スマホではタップする）と、公開日とサポート終了日が表示されます。上の欄には、横線の位置でサポートされていたバージョンが出ます。",
+    "range": { "start": "1995-01-01", "pad": 150 },
+    "ppy": [40, 30],
+    "maxWidth": 1000,
+    "spine": { "position": "left", "bands": { "data": "eras", "lane": 0 }, "wareki": { "data": "eras", "lane": 0 }, "headline": "和暦" },
+    "jump": [
+      { "label": "1995", "date": "1995" }, { "label": "2000", "date": "2000" }, { "label": "2005", "date": "2005" },
+      { "label": "2010", "date": "2010" }, { "label": "2015", "date": "2015" }, { "label": "2020", "date": "2020" }, { "label": "2025", "date": "2025" }
+    ],
+    "facts": ["win", "py"],
+    "columns": [
+      { "id": "win", "data": "software-support", "group": "Windows", "title": "Windows", "short": "Windows", "color": "blue", "labels": "inside", "fixed": true, "unit": "版" },
+      { "id": "ubu", "data": "software-support", "group": "Ubuntu LTS", "title": "Ubuntu LTS", "short": "Ubuntu", "color": "amber", "labels": "inside" },
+      { "id": "mac", "data": "software-support", "group": "macOS", "title": "macOS", "short": "macOS", "color": "violet", "labels": "inside" },
+      { "id": "py", "data": "software-support", "group": "Python", "title": "Python", "short": "Python", "color": "green", "labels": "inside", "unit": "版" },
+      { "id": "node", "data": "software-support", "group": "Node.js", "title": "Node.js（LTS）", "short": "Node.js", "color": "red", "labels": "inside" }
+    ]
+  }
+}
