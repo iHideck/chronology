@@ -12,8 +12,11 @@
 | 政治と首脳 | [歴代総理大臣と世界の首脳](https://ihideck.github.io/chronology/prime-ministers/) | 1885年〜現在 | 105 | [prime-ministers/](prime-ministers/) |
 | 政治と首脳 | [歴代アメリカ合衆国大統領](https://ihideck.github.io/chronology/us-presidents/) | 1789年〜現在 | 47 | [us-presidents/](us-presidents/) |
 | 政治と首脳 | [中国の最高指導者](https://ihideck.github.io/chronology/china-leaders/) | 1861年〜現在 | 29 | [china-leaders/](china-leaders/) |
+| 政治と首脳 | [韓国の首脳](https://ihideck.github.io/chronology/korea-leaders/) | 1864年〜現在 | 17 | [korea-leaders/](korea-leaders/) |
 | 政治と首脳 | [ロシア・ソ連の最高指導者](https://ihideck.github.io/chronology/russia-leaders/) | 1855年〜現在 | 17 | [russia-leaders/](russia-leaders/) |
 | 政治と首脳 | [イギリスの君主](https://ihideck.github.io/chronology/uk-monarchs/) | 1760年〜現在 | 10 | [uk-monarchs/](uk-monarchs/) |
+| 政治と首脳 | [フランスの首脳](https://ihideck.github.io/chronology/france-leaders/) | 1852年〜現在 | 34 | [france-leaders/](france-leaders/) |
+| 政治と首脳 | [ドイツの首脳](https://ihideck.github.io/chronology/germany-leaders/) | 1867年〜現在 | 40 | [germany-leaders/](germany-leaders/) |
 | 政治と首脳 | [自由民主党総裁](https://ihideck.github.io/chronology/ldp-presidents/) | 1956年〜現在 | 29 | [ldp-presidents/](ldp-presidents/) |
 | 日本の歴史 | [元号と天皇](https://ihideck.github.io/chronology/eras/) | 645年〜現在 | 251 | [eras/](eras/) |
 | 日本の歴史 | [歴代天皇](https://ihideck.github.io/chronology/emperors/) | 642年〜現在 | 98 | [emperors/](emperors/) |

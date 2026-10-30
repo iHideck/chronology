@@ -380,9 +380,9 @@ let pinned = false;
 
 // ---- 表示する列（ボタンで切り替え、ブラウザに覚えておく）
 const storeKey = `chronology:${DATA.dir}:hidden`;
-// 狭い画面では、narrowHidden の付いた列を最初は出さない（ボタンで出せる）
+// 狭い画面では、narrowHidden の付いた列や、hideBelow（px）より狭いときに隠す列を、最初は出さない（ボタンで出せる）
 const narrowScreen = window.innerWidth < 600;
-let hidden = new Set(P.columns.filter((c) => c.hidden || (narrowScreen && c.narrowHidden)).map((c) => c.id));
+let hidden = new Set(P.columns.filter((c) => c.hidden || (narrowScreen && c.narrowHidden) || (c.hideBelow && window.innerWidth < c.hideBelow)).map((c) => c.id));
 try {
   const saved = JSON.parse(localStorage.getItem(storeKey) ?? 'null');
   if (Array.isArray(saved)) hidden = new Set(saved.filter((id) => model.colById.has(id) && !model.colById.get(id).fixed));

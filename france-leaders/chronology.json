@@ -1,0 +1,110 @@
+{
+  "title": "フランスの首脳",
+  "short": "フランス",
+  "description": "第二帝政のナポレオン3世から、第三・第四・第五共和政の大統領までの、フランスの国家元首の在任期間。",
+  "category": "政治と首脳",
+  "order": 46,
+  "color": "green",
+  "data": {
+    "file": "france-leaders.csv",
+    "columns": {
+      "name": "名前",
+      "start": "開始日",
+      "end": "終了日",
+      "short": "略称",
+      "group": "区分",
+      "lane": "段",
+      "approx": "推定",
+      "url": "リンク"
+    },
+    "groups": {
+      "第二帝政": {},
+      "第三共和政": {},
+      "ヴィシー政権": {},
+      "自由フランス・臨時政府": {},
+      "第四共和政": {},
+      "第五共和政": {},
+      "大統領代行": {}
+    },
+    "hidden": [
+      "Wikidata"
+    ],
+    "days": "exclusive",
+    "durationLabel": "在任",
+    "ongoing": "在任中",
+    "startLabel": "就任",
+    "endLabel": "退任"
+  },
+  "sources": [
+    {
+      "title": "エリゼ宮（フランス大統領府）「Les présidents de la République」",
+      "url": "https://www.elysee.fr/la-presidence/les-presidents-de-la-republique"
+    },
+    {
+      "title": "エリゼ宮「Albert Lebrun」",
+      "url": "https://www.elysee.fr/albert-lebrun"
+    },
+    {
+      "title": "エリゼ宮「Vincent Auriol」",
+      "url": "https://www.elysee.fr/vincent-auriol"
+    },
+    {
+      "title": "日本語版 Wikipedia「フランスの大統領」",
+      "url": "https://ja.wikipedia.org/wiki/フランスの大統領"
+    },
+    {
+      "title": "日本語版 Wikipedia「フランス共和国臨時政府」",
+      "url": "https://ja.wikipedia.org/wiki/フランス共和国臨時政府"
+    },
+    {
+      "title": "英語版 Wikipedia「List of presidents of France」",
+      "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_France"
+    },
+    {
+      "title": "英語版 Wikipedia「List of French monarchs」",
+      "url": "https://en.wikipedia.org/wiki/List_of_French_monarchs"
+    },
+    {
+      "title": "英語版 Wikipedia「Government of National Defense」",
+      "url": "https://en.wikipedia.org/wiki/Government_of_National_Defense"
+    },
+    {
+      "title": "フランス語版 Wikipedia「Liste des chefs d'État français」",
+      "url": "https://fr.wikipedia.org/wiki/Liste_des_chefs_d'État_français"
+    },
+    {
+      "title": "フランス語版 Wikipedia「Liste des présidents de la République française」",
+      "url": "https://fr.wikipedia.org/wiki/Liste_des_présidents_de_la_République_française"
+    },
+    {
+      "title": "フランス語版 Wikipedia「Gouvernement provisoire de la République française」",
+      "url": "https://fr.wikipedia.org/wiki/Gouvernement_provisoire_de_la_République_française"
+    },
+    {
+      "title": "フランス語版 Wikipedia「Intérim du président de la République française」",
+      "url": "https://fr.wikipedia.org/wiki/Intérim_du_président_de_la_République_française"
+    },
+    {
+      "title": "Wikidata（各人物の「役職（P39）」の開始日・終了日）",
+      "url": "https://www.wikidata.org/wiki/Property:P39"
+    }
+  ],
+  "notes": [
+    "国家元首の在任期間を並べた。第二帝政は皇帝、第三〜第五共和政は大統領、ヴィシー政権は国家主席（フランス国主席）、1944〜1947年は共和国臨時政府の主席。日付はすべてグレゴリオ暦。",
+    "第三共和政と第四共和政では大統領の権限は限られ、政治の実権は首相（閣僚評議会議長）にあった。しかし首相は短い期間で次々に交代していて数が多すぎるので、年表には入れていない。第五共和政では大統領が強い権限を持つ。",
+    "ナポレオン3世は1848年12月20日から第二共和政の大統領（ルイ＝ナポレオン・ボナパルト）で、1851年12月2日のクーデタのあと、1852年12月2日に皇帝に即位した。この年表は即位の日から始まる。",
+    "1870年9月4日、普仏戦争のさなかにパリで共和政が宣言され、トロシュを首班とする国防政府ができた。トロシュの終わりは出典で分かれる。英語版・日本語版 Wikipedia は国防政府が終わった1871年2月13日、フランス語版 Wikipedia はティエールが行政長官に選ばれた2月17日、Wikidata はトロシュがパリ総督を解かれた1月22日としている。ここでは2月13日とし、「推定・諸説あり」とした。",
+    "ティエールは1871年2月17日に国民議会から行政長官（chef du pouvoir exécutif）に選ばれ、8月31日に大統領の称号を得た。2つの期間を1件にまとめた。",
+    "第三共和政で大統領が辞任・死去したときは、次の大統領が選ばれるまでの0〜3日間、閣僚評議会（内閣）が大統領の職務を代行した。個人の代行ではないので、この間は空白にした。",
+    "ルブランは辞任していない。1940年7月10日に国民議会がペタンに全権を与え、11日にペタンが「フランス国主席」に就いて大統領の職は空席になったので、ルブランの終わりとペタンの始まりを7月11日とした（エリゼ宮の公式サイトは、ルブランが10日に権力をペタンに委ねたと書いている）。",
+    "ペタンの終わりは、ドイツ軍にヴィシーからベルフォールへ連れ去られた1944年8月20日とした（英語版・フランス語版の記事、日本語版の一覧、Wikidata による。英語版の一覧だけは8月19日）。",
+    "ド・ゴールは1940年6月18日にロンドンから抗戦を呼びかけて自由フランスを率い、1943年6月3日にフランス国民解放委員会の議長（当初はジローと共同）、1944年6月3日に共和国臨時政府の主席になった。ヴィシー政権と同じ時期に並べるため、1940年6月18日からヴィシー政権の終わり（1944年8月20日）までを別の段に置き、8月20日からを本流の臨時政府主席とした。",
+    "臨時政府の主席の交代日は出典で分かれる。ここでは内閣が発足した日で区切った（グーアン1946年1月26日、ビドー6月24日、ブルム12月16日）。グーアンが憲法制定議会で主席に選ばれたのは1月23日で、グーアン内閣の終わりを6月12日、ビドー内閣の終わりを11月28日とする出典もある（フランス語版 Wikipedia の国家元首の一覧や各内閣の記事、英語版・日本語版 Wikipedia の一覧）。グーアンとビドーは「推定・諸説あり」とした。",
+    "ド・ゴールは1946年1月20日に辞任した。グーアン内閣が発足した1月26日までは空白にした（エリゼ宮の公式サイトによれば、グーアンが選ばれるまではヴァンサン・オリオールが臨時政府主席を代行した）。",
+    "第四共和政の憲法の公布（1946年10月27日）から最初の大統領の就任（1947年1月16日）までの間、1946年12月3日に国民議会議長に選ばれたヴァンサン・オリオールが、憲法第41条により大統領の職務を暫定的に担ったとする出典もある（エリゼ宮の公式サイト、フランス語版 Wikipedia）。英語版・日本語版 Wikipedia の一覧は、ビドー内閣が倒れた11月28日からブルム内閣の発足（12月16日）までをオリオールの代行としている。この年表では臨時政府の主席をド・ゴール、グーアン、ビドー、ブルムの4人とし、オリオールは1947年1月16日の大統領就任からとした。",
+    "コティは7年の任期の途中だったが、第五共和政の憲法（1958年10月4日公布）のもとで大統領に選ばれたド・ゴールが1959年1月8日に就任したので、その日に退任した。区分は第四共和政とした。",
+    "第五共和政では、大統領が欠けると元老院議長が大統領の職務を代行する（憲法第7条）。ド・ゴールの辞任（1969年）とポンピドゥーの死去（1974年）のあと、元老院議長のアラン・ポエールが代行した。区分は「大統領代行」とした。2回目の始まりは、日本語版・英語版・フランス語版 Wikipedia に合わせてポンピドゥーが死去した1974年4月2日とした（Wikidata だけは4月3日）。",
+    "同じ人が続けて務めた期間（グレヴィ、ルブラン、ド・ゴール、ミッテラン、シラク、マクロンの2期）は1件にまとめ、何期かを「任期」に書いた。",
+    "2026年10月31日の時点で、エマニュエル・マクロンが在任中（2022年に再選され、2期目の任期は2027年5月まで）。エリゼ宮の公式サイトで確かめた。"
+  ]
+}

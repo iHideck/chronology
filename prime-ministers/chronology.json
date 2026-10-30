@@ -1,7 +1,7 @@
 {
   "title": "歴代内閣総理大臣",
   "short": "総理",
-  "description": "日本の内閣総理大臣の在任期間（第1〜105代）を、顔写真つきで、アメリカ・中国・ソ連／ロシア・イギリスの首脳や自民党総裁、景気、大きな出来事と並べた年表。",
+  "description": "日本の内閣総理大臣の在任期間（第1〜105代）を、顔写真つきで、アメリカ・中国・韓国・ソ連／ロシア・イギリス・フランス・ドイツの首脳や自民党総裁、景気、大きな出来事と並べた年表。",
   "category": "政治と首脳",
   "order": 10,
   "color": "red",
@@ -39,7 +39,7 @@
   "page": {
     "title": "歴代総理大臣と世界の首脳",
     "description": "1868年から今日まで、日本の内閣総理大臣の在任期間を、顔写真つきで、各国の首脳や自民党総裁、景気、大きな出来事と同じ時間軸に並べた年表",
-    "lede": "1868年（明治元年）から今日までの、日本の内閣総理大臣の在任期間を、アメリカ・中国・ソ連／ロシア・イギリスの首脳や、自民党総裁、景気の波、大きな出来事と同じ時間軸に並べた年表です。中央の帯が西暦と和暦、棒の長さが在任期間です。",
+    "lede": "1868年（明治元年）から今日までの、日本の内閣総理大臣の在任期間を、アメリカ・中国・韓国・ソ連／ロシア・イギリス・フランス・ドイツの首脳や、自民党総裁、景気の波、大きな出来事と同じ時間軸に並べた年表です。中央の帯が西暦と和暦、棒の長さが在任期間です。",
     "how": "棒や名前にカーソルを合わせる（スマホではタップする）と、在任期間と同じ時期の各国の首脳が表示されます。上の欄には、横線の位置の総理や各国の首脳が出ます。表示する列はボタンで切り替えられます。",
     "notes": [
       "在任中の棒と在任日数は、ページを開いた日まで伸ばして表示しています。",
@@ -47,7 +47,7 @@
     ],
     "range": { "start": "1868-01-01" },
     "ppy": [28, 22],
-    "maxWidth": 1240,
+    "maxWidth": 1600,
     "spine": {
       "bands": { "data": "eras", "after": "1868-10-23" },
       "wareki": { "data": "eras", "after": "1868-10-23" },
@@ -59,7 +59,7 @@
     "columns": [
       {
         "id": "jp", "data": "prime-ministers", "side": "left", "title": "日本の内閣総理大臣", "short": "総理", "counterLabel": "総理",
-        "color": "red", "photos": true, "fixed": true, "counter": ["us", "cn", "ru", "uk", "ldp"],
+        "color": "red", "photos": true, "fixed": true, "counter": ["us", "cn", "kr", "ru", "uk", "fr", "de", "ldp"],
         "gapText": "臨時兼任・代理の期間",
         "lead": { "name": "内閣制度発足前", "until": "1885-12-22", "text": "1885年12月22日に内閣制度が発足し、伊藤博文が初代の内閣総理大臣に就任しました。それまでは太政官制のもとで政治が行われていました。" }
       },
@@ -67,9 +67,12 @@
       { "id": "econ", "data": "business-cycles", "side": "left", "title": "景気の波（内閣府「景気基準日付」）", "short": "景気", "mark": "景気", "narrowHidden": true, "colorBy": "group", "labels": "none", "bar": 6 },
       { "id": "us", "data": "us-presidents", "side": "right", "title": "アメリカ合衆国大統領", "short": "米国", "mark": "米", "counterLabel": "米大統領", "color": "blue", "photos": true, "counter": ["jp"] },
       { "id": "cn", "data": "china-leaders", "side": "right", "title": "中国の最高指導者", "short": "中国", "mark": "中", "counterLabel": "中国の指導者", "color": "amber", "narrowHidden": true, "counter": ["jp"] },
+      { "id": "kr", "data": "korea-leaders", "side": "right", "title": "韓国の首脳", "short": "韓国", "mark": "韓", "counterLabel": "韓国の首脳", "color": "amber", "narrowHidden": true, "counter": ["jp"], "gapText": "日本統治・米軍政の時期" },
       { "id": "ru", "data": "russia-leaders", "side": "right", "title": "ロシア・ソ連の最高指導者", "short": "ソ連・ロシア", "mark": "露", "counterLabel": "ソ連・ロシアの指導者", "color": "violet", "narrowHidden": true, "counter": ["jp"] },
       { "id": "uk", "data": "uk-monarchs", "side": "right", "title": "イギリスの君主", "short": "英国", "mark": "英", "counterLabel": "英国の君主", "color": "green", "narrowHidden": true, "counter": ["jp"] },
-      { "id": "ev", "data": "events", "side": "right", "title": "戦争・大きな出来事", "short": "出来事", "mark": "事", "narrowHidden": true, "colorBy": "group", "bar": 6, "counter": ["jp"] }
+      { "id": "fr", "data": "france-leaders", "side": "right", "title": "フランスの首脳", "short": "フランス", "mark": "仏", "counterLabel": "フランスの首脳", "color": "green", "narrowHidden": true, "counter": ["jp"] },
+      { "id": "de", "data": "germany-leaders", "side": "right", "title": "ドイツの首脳", "short": "ドイツ", "mark": "独", "counterLabel": "ドイツの首脳", "color": "green", "narrowHidden": true, "counter": ["jp"], "gapText": "連合国の占領期" },
+      { "id": "ev", "data": "events", "side": "right", "title": "戦争・大きな出来事", "short": "出来事", "mark": "事", "narrowHidden": true, "hideBelow": 1500, "colorBy": "group", "bar": 6, "counter": ["jp"] }
     ],
     "preview": { "width": 1100, "hidden": ["ev"] }
   }

@@ -427,7 +427,7 @@ export function layout(model, opts = {}) {
   g.labelGap = narrow ? 11 : 15;
   g.insideSize = narrow ? 11 : 12;
   const barGap = narrow ? 5 : 7;
-  const colGap = narrow ? 10 : 16;
+  let colGap = narrow ? 10 : 16;
 
   // ---- 帯
   g.spinePos = P.spine?.position ?? 'center';
@@ -446,6 +446,16 @@ export function layout(model, opts = {}) {
       photo: !!c.photos,
     };
   });
+  // ラベル付きの列が多いページは、列のあいだを少し詰める
+  if (!narrow && cols.filter((x) => x.mode === 'side').length > 5) {
+    g.labelGap = 11;
+    colGap = 10;
+  }
+  // 各側でいちばん帯に近いラベル付きの列（総理・米大統領など）を主な列とし、名前を省略しない
+  for (const side of ['left', 'right']) {
+    const first = cols.find((x) => x.side === side && x.mode === 'side');
+    if (first) first.primary = true;
+  }
   const labelWidth = (col, t, withYears) => {
     let w = textWidth(t.short, g.nameSize);
     if (withYears) w += 6 + textWidth(yearsText(t), g.yearSize);
@@ -456,7 +466,7 @@ export function layout(model, opts = {}) {
   const need = (col) => {
     if (col.mode !== 'side' || !col.labeled) return 0;
     const ws = col.c.terms.map((t) => labelWidth(col, t, col.withYears)).sort((a, b) => a - b);
-    const widest = narrow ? ws[Math.floor((ws.length - 1) * 0.9)] ?? 0 : Math.max(0, ...ws, col.c.lead ? textWidth(col.c.lead.name, g.nameSize) : 0);
+    const widest = narrow || !col.primary ? ws[Math.floor((ws.length - 1) * 0.9)] ?? 0 : Math.max(0, ...ws, col.c.lead ? textWidth(col.c.lead.name, g.nameSize) : 0);
     return g.labelGap + Math.min(widest, narrow ? 150 : 230) + 4;
   };
   const sideNeed = (side) => cols
