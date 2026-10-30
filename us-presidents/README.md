@@ -65,7 +65,7 @@
 | 44 | バラク・オバマ | 2009年1月20日 | 2017年1月20日 | 2,922日 |
 | 45 | ドナルド・トランプ | 2017年1月20日 | 2021年1月20日 | 1,461日 |
 | 46 | ジョー・バイデン | 2021年1月20日 | 2025年1月20日 | 1,461日 |
-| 47 | ドナルド・トランプ | 2025年1月20日 | 在任中 | 648日（2026年10月30日時点） |
+| 47 | ドナルド・トランプ | 2025年1月20日 | 在任中 | 649日（2026年10月31日時点） |
 
 </details>
 
@@ -77,4 +77,55 @@
 ## 出典
 
 - [List of presidents of the United States by time in office](https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_time_in_office)
+
+- 大統領の肖像：Wikimedia Commons の画像を円形に切り抜き・縮小して使用。フランクリン・ルーズベルトの肖像（Leon Perskie）だけが CC BY 2.0 で、ほかはパブリックドメイン。画像ごとの作者とページは、吹き出しと README の「写真の出典」に載せています（[CC BY 2.0（フランクリン・ルーズベルトの肖像）](https://creativecommons.org/licenses/by/2.0/deed.ja)）
+
+### 写真の出典
+
+- ジョージ・ワシントン：Gilbert Stuart・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg)）
+- ジョン・アダムズ：Gilbert Stuart・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:John_Adams_A18236.jpg)）
+- トーマス・ジェファーソン：Rembrandt Peale・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Official_Presidential_portrait_of_Thomas_Jefferson_(by_Rembrandt_Peale,_1800)(cropped).jpg)）
+- ジェームズ・マディソン：John Vanderlyn・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:James_Madison.jpg)）
+- ジェームズ・モンロー：Gilbert Stuart・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:James_Monroe_by_Gilbert_Stuart_c1817.jpg)）
+- ジョン・クインシー・アダムズ：作者不明（Wikimedia Commons の利用者が修整）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:John_Q._Adams-edit.jpg)）
+- アンドリュー・ジャクソン：Ralph Eleaser Whiteside Earl・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Andrew_jackson_head.jpg)）
+- マーティン・ヴァン・ビューレン：Mathew Brady・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Martin_Van_Buren_by_Mathew_Brady_c1855-58_sepia_original_restored.jpg)）
+- ウィリアム・ヘンリー・ハリソン：James Reid Lambdin・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:William_Henry_Harrison_by_James_Reid_Lambdin,_1835.jpg)）
+- ジョン・タイラー：George Peter Alexander Healy・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:WHOportTyler.jpg)）
+- ジェームズ・K・ポーク：George Peter Alexander Healy・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:JamesKnoxPolk.jpg)）
+- ザカリー・テイラー：James Reid Lambdin・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Zachary_Taylor_2.jpg)）
+- ミラード・フィルモア：Mathew Brady・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Millard_Fillmore.jpg)）
+- フランクリン・ピアース：Mathew Brady・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Franklin_Pierce.jpg)）
+- ジェームズ・ブキャナン：Mathew Brady・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:James_Buchanan_(cropped).jpg)）
+- エイブラハム・リンカーン：Alexander Gardner・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg)）
+- アンドリュー・ジョンソン：Mathew Brady・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:President_Andrew_Johnson.jpg)）
+- ユリシーズ・S・グラント：Brady-Handy Photograph Collection（アメリカ議会図書館）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Ulysses_S._Grant_1870-1880.jpg)）
+- ラザフォード・B・ヘイズ：Mathew Brady・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:President_Rutherford_Hayes_1870_-_1880_Restored.jpg)）
+- ジェームズ・A・ガーフィールド：作者不明（Brady-Handy Photograph Collection）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:James_Abram_Garfield,_photo_portrait_seated.jpg)）
+- チェスター・A・アーサー：Abraham Bogardus（修復：Adam Cuerden）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Chester_A._Arthur_by_Abraham_Bogardus.jpg)）
+- グロバー・クリーブランド：作者不明（アメリカ国立公文書記録管理局所蔵）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Grover_Cleveland_-_NARA_-_518139_(cropped).jpg)）
+- ベンジャミン・ハリソン：Pach Brothers・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Benjamin_Harrison,_head_and_shoulders_bw_photo,_1896.jpg)）
+- ウィリアム・マッキンリー：作者不明（アメリカ議会図書館所蔵）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:William_mckinley.jpg)）
+- セオドア・ルーズベルト：Pach Brothers（修復：Adam Cuerden）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros.jpg)）
+- ウィリアム・H・タフト：Pach Brothers（修復：Adam Cuerden）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Cabinet_card_of_William_Howard_Taft_by_Pach_Brothers_-_Cropped_to_image.jpg)）
+- トーマス・ウッドロー・ウィルソン：Harris & Ewing・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:President_Woodrow_Wilson_Harris_%26_Ewing_(3x4_cropped_b).jpg)）
+- ウォレン・G・ハーディング：Moffett Studio（シカゴ）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Warren_G_Harding_portrait_as_senator_June_1920.jpg)）
+- カルビン・クーリッジ：Harris & Ewing・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:President_Calvin_Coolidge,_1924_portrait_photograph_(3x4_cropped).jpeg)）
+- ハーバート・C・フーヴァー：Underwood & Underwood・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:President_Hoover_portrait.jpg)）
+- フランクリン・D・ルーズベルト：Leon Perskie・CC BY 2.0（[画像のページ](https://commons.wikimedia.org/wiki/File:FDR_1944_Color_Portrait.jpg)）
+- ハリー・S・トルーマン：トルーマン大統領図書館（アメリカ国立公文書記録管理局）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:TRUMAN_58-766-06_(cropped).jpg)）
+- ドワイト・D・アイゼンハワー：ホワイトハウス・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959.jpg)）
+- ジョン・F・ケネディ：Cecil W. Stoughton・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg)）
+- リンドン・B・ジョンソン：Arnold Newman・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson,_photo_portrait,_leaning_on_chair,_color_cropped.jpg)）
+- リチャード・M・ニクソン：アメリカ陸軍視聴覚センター・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Richard_Nixon_presidential_portrait.jpg)）
+- ジェラルド・R・フォード：David Hume Kennerly・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Gerald_Ford_presidential_portrait_(cropped).jpg)）
+- ジェームズ・E・カーター：アメリカ海軍写真センター・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:JimmyCarterPortrait2.jpg)）
+- ロナルド・W・レーガン：Michael Evans（ホワイトハウス）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Ronald_Reagan_1981_presidential_portrait.jpg)）
+- ジョージ・H・W・ブッシュ：David Valdez（ホワイトハウス）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:George_H._W._Bush_presidential_portrait_(cropped).jpg)）
+- ビル・J・クリントン：Bob McNeely（ホワイトハウス）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Bill_Clinton.jpg)）
+- ジョージ・W・ブッシュ：Eric Draper（ホワイトハウス）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:George-W-Bush.jpeg)）
+- バラク・オバマ：Pete Souza（ホワイトハウス）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg)）
+- ドナルド・トランプ：Shealah Craighead（ホワイトハウス）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg)）
+- ジョー・バイデン：Adam Schultz（ホワイトハウス）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg)）
+- ドナルド・トランプ：Daniel Torok（ホワイトハウス）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025)_(3x4).jpg)）
 <!-- ここまで -->

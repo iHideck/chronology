@@ -162,7 +162,7 @@
 <text class="dec-y" x="36" y="6232.4" text-anchor="middle">1800</text>
 <text class="dec-y" x="36" y="6672.4" text-anchor="middle">2000</text>
 <line class="asof-line" x1="-4" x2="447" y1="6726.9" y2="6726.9"/>
-<text class="era-date" x="36" y="6740.9" text-anchor="middle">2026.10.30</text>
+<text class="era-date" x="36" y="6740.9" text-anchor="middle">2026.10.31</text>
 <text class="era-date" x="36" y="6753.9" text-anchor="middle">時点</text>
 <g class="term c-jp" data-id="jp0" data-person="jp:縄文時代（晩期）">
 <title>縄文時代（晩期）　紀元前1300年 〜 紀元前800年（期間 約500年）</title>
@@ -577,5 +577,5 @@
 <path class="bar-open" d="M421 6656.5Q421 6653.5 424 6653.5H440Q443 6653.5 443 6656.5V6726.9Q443 6726.9 443 6726.9H421Q421 6726.9 421 6726.9Z" fill="url(#tl-g-eu17)"/>
 <text class="inside" x="432" y="6658.5" writing-mode="vertical-rl">EU</text>
 </g>
-<text class="foot" x="380" y="6759.6" text-anchor="middle">出典：日本語版 Wikipedia（各時代・王朝・国の記事）、日本語版 Wikipedia「弥生時代」（始まりの年代の新旧の説）、日本語版 Wikipedia「Template:中国の歴史」、日本語版 Wikipedia「Template:朝鮮の歴史」、日本語版 Wikipedia「古代」「中世」「近世」「現代 (時代区分)」（西洋史の区分）、Wikidata　2026年10月30日時点</text>
+<text class="foot" x="380" y="6759.6" text-anchor="middle">出典：日本語版 Wikipedia（各時代・王朝・国の記事）、日本語版 Wikipedia「弥生時代」（始まりの年代の新旧の説）、日本語版 Wikipedia「Template:中国の歴史」、日本語版 Wikipedia「Template:朝鮮の歴史」、日本語版 Wikipedia「古代」「中世」「近世」「現代 (時代区分)」（西洋史の区分）、Wikidata　2026年10月31日時点</text>
 </svg>

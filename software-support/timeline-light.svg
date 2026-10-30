@@ -124,9 +124,9 @@
 <text class="era-date" x="36" y="107" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="36" y="1066.2" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="1080.2" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="-4" x2="641" y1="1343.1" y2="1343.1"/>
-<text class="era-date" x="36" y="1357.1" text-anchor="middle">2026.10.30</text>
-<text class="era-date" x="36" y="1370.1" text-anchor="middle">時点</text>
+<line class="asof-line" x1="-4" x2="641" y1="1343.2" y2="1343.2"/>
+<text class="era-date" x="36" y="1357.2" text-anchor="middle">2026.10.31</text>
+<text class="era-date" x="36" y="1370.2" text-anchor="middle">時点</text>
 <g class="term c-win" data-id="win0" data-person="win:Windows 95">
 <title>Windows 95　1995年8月24日 〜 2001年12月31日（サポート 約6年）</title>
 <rect class="bar f-blue" x="79" y="96.7" width="22" height="252.2" rx="3"/>
@@ -179,8 +179,8 @@
 </g>
 <g class="term c-win" data-id="win10" data-person="win:Windows 11">
 <title>Windows 11　2021年10月4日 〜 サポート中（サポート 約5年）</title>
-<linearGradient id="tl-g-win10" gradientUnits="userSpaceOnUse" x1="0" y1="1321.1" x2="0" y2="1343.1"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M79 1144.3Q79 1141.3 82 1141.3H98Q101 1141.3 101 1144.3V1343.1Q101 1343.1 101 1343.1H79Q79 1343.1 79 1343.1Z" fill="url(#tl-g-win10)"/>
+<linearGradient id="tl-g-win10" gradientUnits="userSpaceOnUse" x1="0" y1="1321.2" x2="0" y2="1343.2"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 1144.3Q79 1141.3 82 1141.3H98Q101 1141.3 101 1144.3V1343.2Q101 1343.2 101 1343.2H79Q79 1343.2 79 1343.2Z" fill="url(#tl-g-win10)"/>
 <text class="inside" x="90" y="1146.3" writing-mode="vertical-rl">11</text>
 </g>
 <g class="term c-ubu" data-id="ubu0" data-person="ubu:Ubuntu 6.06 LTS（Dapper Drake）">
@@ -225,20 +225,20 @@
 </g>
 <g class="term c-ubu" data-id="ubu8" data-person="ubu:Ubuntu 22.04 LTS（Jammy Jellyfish）">
 <title>Ubuntu 22.04 LTS（Jammy Jellyfish）　2022年4月21日 〜 2027年6月1日（サポート 約5年）</title>
-<rect class="bar f-amber" x="249" y="1163.1" width="22" height="180" rx="3"/>
-<rect class="bar f-amber future" x="249" y="1343.1" width="22" height="22.4" rx="3"/>
+<rect class="bar f-amber" x="249" y="1163.1" width="22" height="180.1" rx="3"/>
+<rect class="bar f-amber future" x="249" y="1343.2" width="22" height="22.3" rx="3"/>
 <text class="inside" x="260" y="1168.1" writing-mode="vertical-rl">22.04</text>
 </g>
 <g class="term c-ubu" data-id="ubu9" data-person="ubu:Ubuntu 24.04 LTS（Noble Numbat）">
 <title>Ubuntu 24.04 LTS（Noble Numbat）　2024年4月25日 〜 2029年5月31日（サポート 約5年）</title>
-<rect class="bar f-amber" x="201" y="1243.6" width="22" height="99.5" rx="3"/>
-<rect class="bar f-amber future" x="201" y="1343.1" width="22" height="102.4" rx="3"/>
+<rect class="bar f-amber" x="201" y="1243.6" width="22" height="99.6" rx="3"/>
+<rect class="bar f-amber future" x="201" y="1343.2" width="22" height="102.3" rx="3"/>
 <text class="inside" x="212" y="1248.6" writing-mode="vertical-rl">24.04</text>
 </g>
 <g class="term c-ubu" data-id="ubu10" data-person="ubu:Ubuntu 26.04 LTS（Resolute Raccoon）">
 <title>Ubuntu 26.04 LTS（Resolute Raccoon）　2026年4月23日 〜 2031年5月29日（サポート 約5年）</title>
-<rect class="bar f-amber" x="225" y="1323.3" width="22" height="19.8" rx="3"/>
-<rect class="bar f-amber future" x="225" y="1343.1" width="22" height="182.1" rx="3"/>
+<rect class="bar f-amber" x="225" y="1323.3" width="22" height="19.9" rx="3"/>
+<rect class="bar f-amber future" x="225" y="1343.2" width="22" height="182" rx="3"/>
 <text class="inside" x="236" y="1328.3" writing-mode="vertical-rl">26.04</text>
 </g>
 <g class="term c-mac" data-id="mac0" data-person="mac:Mac OS X 10.0 Cheetah">
@@ -339,20 +339,20 @@
 </g>
 <g class="term c-mac" data-id="mac20" data-person="mac:macOS 15 Sequoia">
 <title>macOS 15 Sequoia　2024年9月16日 〜 サポート中（サポート 約2年）</title>
-<linearGradient id="tl-g-mac20" gradientUnits="userSpaceOnUse" x1="0" y1="1321.1" x2="0" y2="1343.1"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M299 1262.4Q299 1259.4 302 1259.4H318Q321 1259.4 321 1262.4V1343.1Q321 1343.1 321 1343.1H299Q299 1343.1 299 1343.1Z" fill="url(#tl-g-mac20)"/>
+<linearGradient id="tl-g-mac20" gradientUnits="userSpaceOnUse" x1="0" y1="1321.2" x2="0" y2="1343.2"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M299 1262.4Q299 1259.4 302 1259.4H318Q321 1259.4 321 1262.4V1343.2Q321 1343.2 321 1343.2H299Q299 1343.2 299 1343.2Z" fill="url(#tl-g-mac20)"/>
 <text class="inside" x="310" y="1264.4" writing-mode="vertical-rl">15</text>
 </g>
 <g class="term c-mac" data-id="mac21" data-person="mac:macOS 26 Tahoe">
-<title>macOS 26 Tahoe　2025年9月15日 〜 サポート中（サポート 410日）</title>
-<linearGradient id="tl-g-mac21" gradientUnits="userSpaceOnUse" x1="0" y1="1321.1" x2="0" y2="1343.1"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M323 1302.2Q323 1299.2 326 1299.2H342Q345 1299.2 345 1302.2V1343.1Q345 1343.1 345 1343.1H323Q323 1343.1 323 1343.1Z" fill="url(#tl-g-mac21)"/>
+<title>macOS 26 Tahoe　2025年9月15日 〜 サポート中（サポート 411日）</title>
+<linearGradient id="tl-g-mac21" gradientUnits="userSpaceOnUse" x1="0" y1="1321.2" x2="0" y2="1343.2"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M323 1302.2Q323 1299.2 326 1299.2H342Q345 1299.2 345 1302.2V1343.2Q345 1343.2 345 1343.2H323Q323 1343.2 323 1343.2Z" fill="url(#tl-g-mac21)"/>
 <text class="inside" x="334" y="1304.2" writing-mode="vertical-rl">26</text>
 </g>
 <g class="term c-mac" data-id="mac22" data-person="mac:macOS 27 Golden Gate">
-<title>macOS 27 Golden Gate　2026年9月14日 〜 サポート中（サポート 46日）</title>
-<linearGradient id="tl-g-mac22" gradientUnits="userSpaceOnUse" x1="0" y1="1321.1" x2="0" y2="1343.1"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M275 1341.1Q275 1339.1 277 1339.1H295Q297 1339.1 297 1341.1V1343.1Q297 1343.1 297 1343.1H275Q275 1343.1 275 1343.1Z" fill="url(#tl-g-mac22)"/>
+<title>macOS 27 Golden Gate　2026年9月14日 〜 サポート中（サポート 47日）</title>
+<linearGradient id="tl-g-mac22" gradientUnits="userSpaceOnUse" x1="0" y1="1321.2" x2="0" y2="1343.2"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M275 1341.2Q275 1339.1 277.1 1339.1H294.9Q297 1339.1 297 1341.2V1343.2Q297 1343.2 297 1343.2H275Q275 1343.2 275 1343.2Z" fill="url(#tl-g-mac22)"/>
 </g>
 <g class="term c-py" data-id="py0" data-person="py:Python 2.6">
 <title>Python 2.6　2008年10月1日 〜 2013年10月29日（サポート 約5年）</title>
@@ -420,32 +420,32 @@
 </g>
 <g class="term c-py" data-id="py13" data-person="py:Python 3.11">
 <title>Python 3.11　2022年10月24日 〜 2027年10月31日（サポート 約5年）</title>
-<rect class="bar f-green" x="469" y="1183.5" width="22" height="159.7" rx="3"/>
-<rect class="bar f-green future" x="469" y="1343.1" width="22" height="39.1" rx="3"/>
+<rect class="bar f-green" x="469" y="1183.5" width="22" height="159.8" rx="3"/>
+<rect class="bar f-green future" x="469" y="1343.2" width="22" height="39" rx="3"/>
 <text class="inside" x="480" y="1188.5" writing-mode="vertical-rl">3.11</text>
 </g>
 <g class="term c-py" data-id="py14" data-person="py:Python 3.12">
 <title>Python 3.12　2023年10月2日 〜 2028年10月31日（サポート 約5年）</title>
-<rect class="bar f-green" x="421" y="1221" width="22" height="122.1" rx="3"/>
-<rect class="bar f-green future" x="421" y="1343.1" width="22" height="79.2" rx="3"/>
+<rect class="bar f-green" x="421" y="1221" width="22" height="122.2" rx="3"/>
+<rect class="bar f-green future" x="421" y="1343.2" width="22" height="79.1" rx="3"/>
 <text class="inside" x="432" y="1226" writing-mode="vertical-rl">3.12</text>
 </g>
 <g class="term c-py" data-id="py15" data-person="py:Python 3.13">
 <title>Python 3.13　2024年10月7日 〜 2029年10月31日（サポート 約5年）</title>
-<rect class="bar f-green" x="397" y="1261.7" width="22" height="81.5" rx="3"/>
-<rect class="bar f-green future" x="397" y="1343.1" width="22" height="119.1" rx="3"/>
+<rect class="bar f-green" x="397" y="1261.7" width="22" height="81.6" rx="3"/>
+<rect class="bar f-green future" x="397" y="1343.2" width="22" height="119" rx="3"/>
 <text class="inside" x="408" y="1266.7" writing-mode="vertical-rl">3.13</text>
 </g>
 <g class="term c-py" data-id="py16" data-person="py:Python 3.14">
 <title>Python 3.14　2025年10月7日 〜 2030年10月31日（サポート 約5年）</title>
-<rect class="bar f-green" x="517" y="1301.6" width="22" height="41.5" rx="3"/>
-<rect class="bar f-green future" x="517" y="1343.1" width="22" height="159.1" rx="3"/>
+<rect class="bar f-green" x="517" y="1301.6" width="22" height="41.6" rx="3"/>
+<rect class="bar f-green future" x="517" y="1343.2" width="22" height="159" rx="3"/>
 <text class="inside" x="528" y="1306.6" writing-mode="vertical-rl">3.14</text>
 </g>
 <g class="term c-py" data-id="py17" data-person="py:Python 3.15">
 <title>Python 3.15　2026年10月9日 〜 2031年10月31日（サポート 約5年）</title>
-<rect class="bar f-green" x="445" y="1341.8" width="22" height="1.3" rx="0.6"/>
-<rect class="bar f-green future" x="445" y="1343.1" width="22" height="199.1" rx="3"/>
+<rect class="bar f-green" x="445" y="1341.8" width="22" height="1.4" rx="0.7"/>
+<rect class="bar f-green future" x="445" y="1343.2" width="22" height="199" rx="3"/>
 <text class="inside" x="456" y="1346.8" writing-mode="vertical-rl">3.15</text>
 </g>
 <g class="term c-node" data-id="node0" data-person="node:Node.js 4">
@@ -495,21 +495,21 @@
 </g>
 <g class="term c-node" data-id="node9" data-person="node:Node.js 22">
 <title>Node.js 22　2024年4月24日 〜 2027年4月30日（サポート 約3年）</title>
-<rect class="bar f-red" x="567" y="1243.5" width="22" height="99.6" rx="3"/>
-<rect class="bar f-red future" x="567" y="1343.1" width="22" height="18.9" rx="3"/>
+<rect class="bar f-red" x="567" y="1243.5" width="22" height="99.8" rx="3"/>
+<rect class="bar f-red future" x="567" y="1343.2" width="22" height="18.8" rx="3"/>
 <text class="inside" x="578" y="1248.5" writing-mode="vertical-rl">22</text>
 </g>
 <g class="term c-node" data-id="node10" data-person="node:Node.js 24">
 <title>Node.js 24　2025年5月6日 〜 2028年4月30日（サポート 約3年）</title>
-<rect class="bar f-red" x="591" y="1284.8" width="22" height="58.4" rx="3"/>
-<rect class="bar f-red future" x="591" y="1343.1" width="22" height="59" rx="3"/>
+<rect class="bar f-red" x="591" y="1284.8" width="22" height="58.5" rx="3"/>
+<rect class="bar f-red future" x="591" y="1343.2" width="22" height="58.9" rx="3"/>
 <text class="inside" x="602" y="1289.8" writing-mode="vertical-rl">24</text>
 </g>
 <g class="term c-node" data-id="node11" data-person="node:Node.js 26">
 <title>Node.js 26　2026年5月5日 〜 2029年4月30日（サポート 約3年）</title>
-<rect class="bar f-red" x="543" y="1324.6" width="22" height="18.5" rx="3"/>
-<rect class="bar f-red future" x="543" y="1343.1" width="22" height="99" rx="3"/>
+<rect class="bar f-red" x="543" y="1324.6" width="22" height="18.6" rx="3"/>
+<rect class="bar f-red future" x="543" y="1343.2" width="22" height="98.9" rx="3"/>
 <text class="inside" x="554" y="1329.6" writing-mode="vertical-rl">26</text>
 </g>
-<text class="foot" x="380" y="1589.6" text-anchor="middle">出典：endoflife.date（Windows・macOS・Ubuntu・Python・Node.js）、Microsoft「製品とサービスのライフサイクル情報」、Python Developer's Guide「Status of Python versions」、Node.js「Previous Releases」、Ubuntu「Release cycle」　2026年10月30日時点</text>
+<text class="foot" x="380" y="1589.6" text-anchor="middle">出典：endoflife.date（Windows・macOS・Ubuntu・Python・Node.js）、Microsoft「製品とサービスのライフサイクル情報」、Python Developer's Guide「Status of Python versions」、Node.js「Previous Releases」、Ubuntu「Release cycle」　2026年10月31日時点</text>
 </svg>

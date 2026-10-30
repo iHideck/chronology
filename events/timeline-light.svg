@@ -71,7 +71,7 @@
 <rect class="spine-a" x="0" y="1331.8" width="72" height="345.7"/>
 <rect class="spine-b" x="0" y="1677.5" width="72" height="1489"/>
 <rect class="spine-a" x="0" y="3166.5" width="72" height="727.4"/>
-<rect class="spine-b" x="0" y="3893.9" width="72" height="209.5"/>
+<rect class="spine-b" x="0" y="3893.9" width="72" height="209.6"/>
 <line class="grid" x1="0" x2="760" y1="70" y2="70"/>
 <line class="grid" x1="0" x2="760" y1="550" y2="550"/>
 <line class="grid" x1="0" x2="760" y1="790" y2="790"/>
@@ -307,9 +307,9 @@
 <text class="era-date" x="36" y="3203.5" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="36" y="3916.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="3930.9" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="-4" x2="161" y1="4073.9" y2="4073.9"/>
-<text class="era-date" x="36" y="4087.9" text-anchor="middle">2026.10.30</text>
-<text class="era-date" x="36" y="4100.9" text-anchor="middle">時点</text>
+<line class="asof-line" x1="-4" x2="161" y1="4074" y2="4074"/>
+<text class="era-date" x="36" y="4088" text-anchor="middle">2026.10.31</text>
+<text class="era-date" x="36" y="4101" text-anchor="middle">時点</text>
 <line class="axis" x1="86" x2="86" y1="70" y2="4103.5"/>
 <g class="term c-a" data-id="a0" data-person="a:戊辰戦争">
 <title>戊辰戦争　1868年1月27日 〜 1869年6月27日（期間 517日）</title>
@@ -684,8 +684,8 @@
 </g>
 <g class="term c-a" data-id="a67" data-person="a:ロシアのウクライナ侵攻">
 <title>ロシアのウクライナ侵攻　2022年2月24日 〜 継続中（期間 約5年）</title>
-<linearGradient id="tl-g-a67" gradientUnits="userSpaceOnUse" x1="0" y1="4051.9" x2="0" y2="4073.9"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M111 3965.6Q111 3962.6 114 3962.6H122Q125 3962.6 125 3965.6V4073.9Q125 4073.9 125 4073.9H111Q111 4073.9 111 4073.9Z" fill="url(#tl-g-a67)"/>
+<linearGradient id="tl-g-a67" gradientUnits="userSpaceOnUse" x1="0" y1="4052" x2="0" y2="4074"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M111 3965.6Q111 3962.6 114 3962.6H122Q125 3962.6 125 3965.6V4074Q125 4074 125 4074H111Q111 4074 111 4074Z" fill="url(#tl-g-a67)"/>
 <text class="label" x="172" y="3975"><tspan class="name">ウクライナ侵攻</tspan><tspan class="yrs" dx="6">2022–</tspan></text>
 </g>
 <g class="term c-a" data-id="a68" data-person="a:能登半島地震">
@@ -700,5 +700,5 @@
 <path class="leader" d="M110.5 4042.8h4L168 4042.8h2"/>
 <text class="label" x="172" y="4047.6"><tspan class="name">大阪・関西万博</tspan><tspan class="yrs" dx="6">2025</tspan></text>
 </g>
-<text class="foot" x="380" y="4133.5" text-anchor="middle">出典：日本語版 Wikipedia（各項目の url の記事）、英語版 Wikipedia（各項目の日付の突き合わせ）、国立公文書館デジタルアーカイブ「詔シテ藩ヲ廃シ県ヲ置キ政令多岐ノ憂ナカラシム」（廃藩置県の詔書）、nippon.com「今日は何の日：3月22日」（ラジオ放送の開始）、財務省財務総合政策研究所『平成財政史―平成元〜12年度』第4巻（租税）第2章第5節「消費税その1」　2026年10月30日時点</text>
+<text class="foot" x="380" y="4133.5" text-anchor="middle">出典：日本語版 Wikipedia（各項目の url の記事）、英語版 Wikipedia（各項目の日付の突き合わせ）、国立公文書館デジタルアーカイブ「詔シテ藩ヲ廃シ県ヲ置キ政令多岐ノ憂ナカラシム」（廃藩置県の詔書）、nippon.com「今日は何の日：3月22日」（ラジオ放送の開始）、財務省財務総合政策研究所『平成財政史―平成元〜12年度』第4巻（租税）第2章第5節「消費税その1」　2026年10月31日時点</text>
 </svg>

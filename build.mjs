@@ -56,7 +56,9 @@ for (const s of Object.values(sets)) {
     }
     if (spec.check?.consecutive && prev && Number(r[C.ordinal]) !== Number(prev[C.ordinal]) + 1) problems.push(`${where}: ${C.ordinal}が前の行から連番になっていません`);
     if (C.photo && r[C.photo] && !existsSync(join(root, dir, r[C.photo]))) problems.push(`${where}: 写真 ${r[C.photo]} がありません`);
-    if (C.url && r[C.url] && !isWebUrl(r[C.url])) problems.push(`${where}: リンク「${r[C.url]}」が http:// か https:// で始まっていません`);
+    for (const col of [C.url, C.photoUrl]) {
+      if (col && r[col] && !isWebUrl(r[col])) problems.push(`${where}: ${col}「${r[col]}」が http:// か https:// で始まっていません`);
+    }
     if (spec.groups && C.group && r[C.group] && !(r[C.group] in spec.groups)) problems.push(`${where}: 区分「${r[C.group]}」が chronology.json の groups にありません`);
     if (spec.lanes && C.lane && r[C.lane] && !(r[C.lane] in spec.lanes)) problems.push(`${where}: ${C.lane}「${r[C.lane]}」が chronology.json の lanes にありません`);
     if (!en && !spec.points && isDate(st) && st > asOf) problems.push(`${where}: 時点（${asOf}）より後に始まっています`);
@@ -75,7 +77,7 @@ function pageOf(s) {
     lede: s.conf.description,
     spine: { position: 'left', bands: { data: 'eras', lane: 0 }, wareki: { data: 'eras', lane: 0 }, headline: '和暦' },
     jump: [],
-    columns: [{ id: 'a', data: s.dir, side: 'right', title: s.conf.title, short: s.conf.short, color: s.conf.color ?? 'blue', colorBy: s.conf.colorBy, fixed: true }],
+    columns: [{ id: 'a', data: s.dir, side: 'right', title: s.conf.title, short: s.conf.short, color: s.conf.color ?? 'blue', colorBy: s.conf.colorBy, photos: !!s.conf.data.columns?.photo, fixed: true }],
   };
 }
 
@@ -260,6 +262,15 @@ for (const s of Object.values(sets)) {
   // ---- README（マーカーの間だけ書き換える。なければ作る）
   const BEGIN = '<!-- ここから下は build.mjs が書き換えます -->';
   const END = '<!-- ここまで -->';
+  // 画像ごとの作者とライセンス（写真の列に出典の列があるデータだけ）
+  const photoCredits = (() => {
+    const C = { ...TL.DEFAULT_COLUMNS, ...sets[dir].spec.columns };
+    if (!C.photo || !C.photoCredit) return [];
+    const seen = new Set();
+    return sets[dir].rows
+      .filter((r) => r[C.photo] && !seen.has(r[C.photo]) && seen.add(r[C.photo]))
+      .map((r) => `- ${r[C.name]}：${r[C.photoCredit]}${isWebUrl(r[C.photoUrl]) ? `（[画像のページ](${r[C.photoUrl]})）` : ''}`);
+  })();
   const tables = model.columns
     .filter((c) => c.data === dir)
     .map((c) => ['<details>', `<summary>一覧（${c.terms.length}件）</summary>`, '', markdownTable(model, c), '', '</details>'].join('\n'));
@@ -281,6 +292,7 @@ for (const s of Object.values(sets)) {
     '',
     ...(sets[dir].conf.sources ?? []).map((x) => `- ${isWebUrl(x.url) ? `[${x.title}](${x.url})` : x.title}`),
     ...(credits.length ? ['', ...credits.map((c) => `- ${c.title}：${c.text}${c.license ? `（${isWebUrl(c.licenseUrl) ? `[${c.license}](${c.licenseUrl})` : c.license}）` : ''}`)] : []),
+    ...(photoCredits.length ? ['', '### 写真の出典', '', ...photoCredits] : []),
     END,
   ].join('\n');
   const readmePath = join(root, dir, 'README.md');
@@ -303,11 +315,12 @@ for (const s of Object.values(sets)) {
     ].join('\n'));
   }
 
-  const main = model.columns.find((c) => c.data === dir) ?? model.columns[0];
+  const ownTerms = model.columns.filter((c) => c.data === dir).flatMap((c) => c.terms);
+  const yearOf = (str) => TL.parseDate(str).y;
   pages.push({
     dir, conf: s.conf, page, model,
     count: s.rows.length,
-    span: main && main.terms.length ? [TL.parseDate(main.terms[0].startStr).y, main.terms.some((t) => t.ongoing) ? null : TL.parseDate(main.terms[main.terms.length - 1].endStr || main.terms[main.terms.length - 1].startStr).y] : null,
+    span: ownTerms.length ? [Math.min(...ownTerms.map((t) => yearOf(t.startStr))), ownTerms.some((t) => t.ongoing) ? null : Math.max(...ownTerms.map((t) => yearOf(t.endStr || t.startStr)))] : null,
   });
 }
 

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 4109" width="760" height="4109" role="img" aria-labelledby="tl-title">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 4110" width="760" height="4110" role="img" aria-labelledby="tl-title">
 <title id="tl-title">歴代横綱</title>
 <style>
 .tl{--paper:#14171f;--ink:#e6e8ee;--ink2:#b2b8c4;--muted:#8d94a3;--rule:#232833;--rule2:#3d4452;--spine-a:#1b1f29;--spine-b:#222733;--red:#e5604a;--blue:#678bd2;--amber:#c98500;--violet:#9085e9;--green:#199e70;--teal:#1f9fa1;--gray:#6b7280;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
@@ -57,7 +57,7 @@
 <pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
 <clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
 </defs>
-<rect class="bg" x="0" y="0" width="760" height="4109" rx="14"/>
+<rect class="bg" x="0" y="0" width="760" height="4110" rx="14"/>
 <rect class="f-violet" x="79" y="33" width="14" height="14" rx="3"/>
 <text class="lane-h" x="156" y="44">横綱</text>
 <text class="spine-h" x="36" y="41" text-anchor="middle">西暦</text>
@@ -422,9 +422,9 @@
 <text class="era-date" x="36" y="3451.3" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="36" y="3922.3" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="3936.3" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="-4" x2="145" y1="4019.2" y2="4019.2"/>
-<text class="era-date" x="36" y="4033.2" text-anchor="middle">2026.10.30</text>
-<text class="era-date" x="36" y="4046.2" text-anchor="middle">時点</text>
+<line class="asof-line" x1="-4" x2="145" y1="4019.3" y2="4019.3"/>
+<text class="era-date" x="36" y="4033.3" text-anchor="middle">2026.10.31</text>
+<text class="era-date" x="36" y="4046.3" text-anchor="middle">時点</text>
 <g class="term c-yz" data-id="yz0" data-person="yz:谷風">
 <title>第4代横綱 谷風　1790年1月4日 〜 1795年2月27日（在位 約5年）</title>
 <rect class="bar f-violet" x="79" y="231.2" width="14" height="80.4" rx="3"/>
@@ -819,18 +819,18 @@
 <text class="label" x="156" y="3948.2"><tspan class="name">照ノ富士</tspan><tspan class="yrs" dx="6">2021–2025</tspan></text>
 </g>
 <g class="term c-yz" data-id="yz70" data-person="yz:豊昇龍">
-<title>第74代横綱 豊昇龍　2025年1月29日 〜 現役（在位 639日）</title>
-<linearGradient id="tl-g-yz70" gradientUnits="userSpaceOnUse" x1="0" y1="3997.2" x2="0" y2="4019.2"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M79 3995.3Q79 3992.3 82 3992.3H90Q93 3992.3 93 3995.3V4019.2Q93 4019.2 93 4019.2H79Q79 4019.2 79 4019.2Z" fill="url(#tl-g-yz70)"/>
+<title>第74代横綱 豊昇龍　2025年1月29日 〜 現役（在位 640日）</title>
+<linearGradient id="tl-g-yz70" gradientUnits="userSpaceOnUse" x1="0" y1="3997.3" x2="0" y2="4019.3"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 3995.3Q79 3992.3 82 3992.3H90Q93 3992.3 93 3995.3V4019.3Q93 4019.3 93 4019.3H79Q79 4019.3 79 4019.3Z" fill="url(#tl-g-yz70)"/>
 <path class="leader" d="M94.5 3999.8h4L152 3993.9h2"/>
 <text class="label" x="156" y="3998.7"><tspan class="name">豊昇龍</tspan><tspan class="yrs" dx="6">2025–</tspan></text>
 </g>
 <g class="term c-yz" data-id="yz71" data-person="yz:大の里">
-<title>第75代横綱 大の里　2025年5月28日 〜 現役（在位 520日）</title>
-<linearGradient id="tl-g-yz71" gradientUnits="userSpaceOnUse" x1="0" y1="3997.2" x2="0" y2="4019.2"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M95 4000.5Q95 3997.5 98 3997.5H106Q109 3997.5 109 4000.5V4019.2Q109 4019.2 109 4019.2H95Q95 4019.2 95 4019.2Z" fill="url(#tl-g-yz71)"/>
+<title>第75代横綱 大の里　2025年5月28日 〜 現役（在位 521日）</title>
+<linearGradient id="tl-g-yz71" gradientUnits="userSpaceOnUse" x1="0" y1="3997.3" x2="0" y2="4019.3"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M95 4000.5Q95 3997.5 98 3997.5H106Q109 3997.5 109 4000.5V4019.3Q109 4019.3 109 4019.3H95Q95 4019.3 95 4019.3Z" fill="url(#tl-g-yz71)"/>
 <path class="leader" d="M110.5 4005h4L152 4010.9h2"/>
 <text class="label" x="156" y="4015.7"><tspan class="name">大の里</tspan><tspan class="yrs" dx="6">2025–</tspan></text>
 </g>
-<text class="foot" x="380" y="4069" text-anchor="middle">出典：日本相撲協会「歴代横綱」、日本相撲協会 歴代横綱の各プロフィール（所属部屋・新横綱・引退の場所）、日本相撲協会「協会からのお知らせ」大関鶴竜の横綱昇進（2014年3月26日）、日本相撲協会「協会からのお知らせ」横綱鶴竜の引退（2021年3月24日）、日本相撲協会「協会からのお知らせ」横綱照ノ富士の引退（2025年1月17日）、日本相撲協会「協会からのお知らせ」大関豊昇龍の横綱昇進（2025年1月29日）、日本相撲協会「協会からのお知らせ」大関大の里の横綱昇進（2025年5月28日）、日本相撲協会「番付表」（令和8年11月場所、2026年10月26日発表）、『近世日本相撲史』第3巻（日本相撲協会博物館運営委員監修、国立国会図書館デジタルコレクション）、『近世日本相撲史』第4巻（同）、『近世日本相撲史』第5巻（同）、明治神宮 歴史データベース「年表」（横綱推挙式・免許式）、時事通信 写真特集「歴代横綱 決意の口上」（昇進伝達式の写真。例：貴乃花）、時事通信「土俵に別れを告げた日」（横綱の引退。例：貴乃花）、毎日フォトバンク（毎日新聞の報道写真。例：大鵬の引退会見）、Wikipedia「横綱一覧」、Wikipedia「1973年の相撲」など各年の相撲の記事と各力士の記事、Wikipedia「11月19日 (旧暦)」（寛政元年11月19日＝1790年1月4日）　2026年10月30日時点</text>
+<text class="foot" x="380" y="4069" text-anchor="middle">出典：日本相撲協会「歴代横綱」、日本相撲協会 歴代横綱の各プロフィール（所属部屋・新横綱・引退の場所）、日本相撲協会「協会からのお知らせ」大関鶴竜の横綱昇進（2014年3月26日）、日本相撲協会「協会からのお知らせ」横綱鶴竜の引退（2021年3月24日）、日本相撲協会「協会からのお知らせ」横綱照ノ富士の引退（2025年1月17日）、日本相撲協会「協会からのお知らせ」大関豊昇龍の横綱昇進（2025年1月29日）、日本相撲協会「協会からのお知らせ」大関大の里の横綱昇進（2025年5月28日）、日本相撲協会「番付表」（令和8年11月場所、2026年10月26日発表）、『近世日本相撲史』第3巻（日本相撲協会博物館運営委員監修、国立国会図書館デジタルコレクション）、『近世日本相撲史』第4巻（同）、『近世日本相撲史』第5巻（同）、明治神宮 歴史データベース「年表」（横綱推挙式・免許式）、時事通信 写真特集「歴代横綱 決意の口上」（昇進伝達式の写真。例：貴乃花）、時事通信「土俵に別れを告げた日」（横綱の引退。例：貴乃花）、毎日フォトバンク（毎日新聞の報道写真。例：大鵬の引退会見）、Wikipedia「横綱一覧」、Wikipedia「1973年の相撲」など各年の相撲の記事と各力士の記事、Wikipedia「11月19日 (旧暦)」（寛政元年11月19日＝1790年1月4日）　2026年10月31日時点</text>
 </svg>

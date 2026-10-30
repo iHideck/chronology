@@ -65,10 +65,10 @@
       },
       { "id": "ldp", "data": "ldp-presidents", "side": "left", "title": "自由民主党総裁", "short": "自民党総裁", "counterLabel": "自民党総裁", "mark": "総裁", "narrowHidden": true, "colorBy": "group", "labels": "none", "bar": 6, "counter": ["jp"] },
       { "id": "econ", "data": "business-cycles", "side": "left", "title": "景気の波（内閣府「景気基準日付」）", "short": "景気", "mark": "景気", "narrowHidden": true, "colorBy": "group", "labels": "none", "bar": 6 },
-      { "id": "us", "data": "us-presidents", "side": "right", "title": "アメリカ合衆国大統領", "short": "米国", "mark": "米", "counterLabel": "米大統領", "color": "blue", "counter": ["jp"] },
-      { "id": "cn", "data": "china-leaders", "side": "right", "title": "中国の最高指導者", "short": "中国", "mark": "中", "counterLabel": "中国の指導者", "color": "amber", "counter": ["jp"] },
-      { "id": "ru", "data": "russia-leaders", "side": "right", "title": "ロシア・ソ連の最高指導者", "short": "ソ連・ロシア", "mark": "露", "counterLabel": "ソ連・ロシアの指導者", "color": "violet", "counter": ["jp"] },
-      { "id": "uk", "data": "uk-monarchs", "side": "right", "title": "イギリスの君主", "short": "英国", "mark": "英", "counterLabel": "英国の君主", "color": "green", "counter": ["jp"] },
+      { "id": "us", "data": "us-presidents", "side": "right", "title": "アメリカ合衆国大統領", "short": "米国", "mark": "米", "counterLabel": "米大統領", "color": "blue", "photos": true, "counter": ["jp"] },
+      { "id": "cn", "data": "china-leaders", "side": "right", "title": "中国の最高指導者", "short": "中国", "mark": "中", "counterLabel": "中国の指導者", "color": "amber", "narrowHidden": true, "counter": ["jp"] },
+      { "id": "ru", "data": "russia-leaders", "side": "right", "title": "ロシア・ソ連の最高指導者", "short": "ソ連・ロシア", "mark": "露", "counterLabel": "ソ連・ロシアの指導者", "color": "violet", "narrowHidden": true, "counter": ["jp"] },
+      { "id": "uk", "data": "uk-monarchs", "side": "right", "title": "イギリスの君主", "short": "英国", "mark": "英", "counterLabel": "英国の君主", "color": "green", "narrowHidden": true, "counter": ["jp"] },
       { "id": "ev", "data": "events", "side": "right", "title": "戦争・大きな出来事", "short": "出来事", "mark": "事", "narrowHidden": true, "colorBy": "group", "bar": 6, "counter": ["jp"] }
     ],
     "preview": { "width": 1100, "hidden": ["ev"] }

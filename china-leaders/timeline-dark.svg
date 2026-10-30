@@ -71,7 +71,7 @@
 <rect class="spine-a" x="0" y="1331.8" width="72" height="345.7"/>
 <rect class="spine-b" x="0" y="1677.5" width="72" height="1489"/>
 <rect class="spine-a" x="0" y="3166.5" width="72" height="727.4"/>
-<rect class="spine-b" x="0" y="3893.9" width="72" height="209.5"/>
+<rect class="spine-b" x="0" y="3893.9" width="72" height="209.6"/>
 <line class="grid" x1="0" x2="760" y1="70" y2="70"/>
 <line class="grid" x1="0" x2="760" y1="550" y2="550"/>
 <line class="grid" x1="0" x2="760" y1="790" y2="790"/>
@@ -307,9 +307,9 @@
 <text class="era-date" x="36" y="3203.5" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="36" y="3916.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="3930.9" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="-4" x2="113" y1="4073.9" y2="4073.9"/>
-<text class="era-date" x="36" y="4087.9" text-anchor="middle">2026.10.30</text>
-<text class="era-date" x="36" y="4100.9" text-anchor="middle">時点</text>
+<line class="asof-line" x1="-4" x2="113" y1="4074" y2="4074"/>
+<text class="era-date" x="36" y="4088" text-anchor="middle">2026.10.31</text>
+<text class="era-date" x="36" y="4101" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:同治帝">
 <title>最高指導者 同治帝　1861年11月11日 〜 1875年1月12日（在任 4,810日）</title>
 <rect class="bar f-amber" x="79" y="115.7" width="14" height="314.1" rx="3"/>
@@ -467,10 +467,10 @@
 <text class="label" x="124" y="3512.3"><tspan class="name">胡錦濤</tspan><tspan class="yrs" dx="6">2002–2012</tspan></text>
 </g>
 <g class="term c-a" data-id="a28" data-person="a:習近平">
-<title>最高指導者 習近平　2012年11月15日 〜 在任中（在任 5,097日（2026年10月30日時点））</title>
-<linearGradient id="tl-g-a28" gradientUnits="userSpaceOnUse" x1="0" y1="4051.9" x2="0" y2="4073.9"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M79 3743Q79 3740 82 3740H90Q93 3740 93 3743V4073.9Q93 4073.9 93 4073.9H79Q79 4073.9 79 4073.9Z" fill="url(#tl-g-a28)"/>
+<title>最高指導者 習近平　2012年11月15日 〜 在任中（在任 5,098日（2026年10月31日時点））</title>
+<linearGradient id="tl-g-a28" gradientUnits="userSpaceOnUse" x1="0" y1="4052" x2="0" y2="4074"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 3743Q79 3740 82 3740H90Q93 3740 93 3743V4074Q93 4074 93 4074H79Q79 4074 79 4074Z" fill="url(#tl-g-a28)"/>
 <text class="label" x="124" y="3752.3"><tspan class="name">習近平</tspan><tspan class="yrs" dx="6">2012–</tspan></text>
 </g>
-<text class="foot" x="380" y="4133.5" text-anchor="middle">出典：英語版 Wikipedia「List of emperors of the Qing dynasty」、日本語版 Wikipedia「西太后」、日本語版 Wikipedia「中華民国の元首」、英語版 Wikipedia「List of presidents of the Republic of China」、日本語版 Wikipedia「蔣介石」、日本語版 Wikipedia「中華人民共和国の最高指導者一覧」、英語版 Wikipedia「Paramount leader」　2026年10月30日時点</text>
+<text class="foot" x="380" y="4133.5" text-anchor="middle">出典：英語版 Wikipedia「List of emperors of the Qing dynasty」、日本語版 Wikipedia「西太后」、日本語版 Wikipedia「中華民国の元首」、英語版 Wikipedia「List of presidents of the Republic of China」、日本語版 Wikipedia「蔣介石」、日本語版 Wikipedia「中華人民共和国の最高指導者一覧」、英語版 Wikipedia「Paramount leader」　2026年10月31日時点</text>
 </svg>

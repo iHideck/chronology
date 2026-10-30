@@ -17,11 +17,11 @@
 | 政治と首脳 | [自由民主党総裁](https://ihideck.github.io/chronology/ldp-presidents/) | 1956年〜現在 | 29 | [ldp-presidents/](ldp-presidents/) |
 | 日本の歴史 | [元号と天皇](https://ihideck.github.io/chronology/eras/) | 645年〜現在 | 251 | [eras/](eras/) |
 | 日本の歴史 | [歴代天皇](https://ihideck.github.io/chronology/emperors/) | 642年〜現在 | 98 | [emperors/](emperors/) |
-| 日本の歴史 | [日本史と世界史の時代区分](https://ihideck.github.io/chronology/periods/) | 紀元前1300年〜現在 | 82 | [periods/](periods/) |
-| 日本の歴史 | [偉人の生没年](https://ihideck.github.io/chronology/lifespans/) | 574年〜1989年 | 63 | [lifespans/](lifespans/) |
+| 日本の歴史 | [日本史と世界史の時代区分](https://ihideck.github.io/chronology/periods/) | 紀元前3000年〜現在 | 82 | [periods/](periods/) |
+| 日本の歴史 | [偉人の生没年](https://ihideck.github.io/chronology/lifespans/) | 570年〜1989年 | 63 | [lifespans/](lifespans/) |
 | 日本の歴史 | [戦争・大きな出来事（1868年〜）](https://ihideck.github.io/chronology/events/) | 1868年〜現在 | 70 | [events/](events/) |
 | 日本の歴史 | [日本の景気循環](https://ihideck.github.io/chronology/business-cycles/) | 1951年〜現在 | 32 | [business-cycles/](business-cycles/) |
-| 文化 | [お札の肖像](https://ihideck.github.io/chronology/banknotes/) | 1958年〜現在 | 48 | [banknotes/](banknotes/) |
+| 文化 | [お札の肖像](https://ihideck.github.io/chronology/banknotes/) | 1885年〜現在 | 48 | [banknotes/](banknotes/) |
 | 文化 | [歴代横綱](https://ihideck.github.io/chronology/yokozuna/) | 1790年〜現在 | 72 | [yokozuna/](yokozuna/) |
 | 文化 | [将棋の名人と竜王](https://ihideck.github.io/chronology/shogi-titles/) | 1612年〜現在 | 58 | [shogi-titles/](shogi-titles/) |
 | テクノロジー | [ソフトウェアのサポート期間](https://ihideck.github.io/chronology/software-support/) | 1995年〜現在 | 75 | [software-support/](software-support/) |

@@ -76,8 +76,8 @@ Windows・Ubuntu LTS・macOS・Python・Node.js（LTS）の各バージョンが
 | macOS 13 Ventura | 2022年10月24日 | 2025年9月15日 | 約3年 |
 | macOS 14 Sonoma | 2023年9月26日 | 2026年9月14日 | 約3年 |
 | macOS 15 Sequoia | 2024年9月16日 | サポート中 | 約2年 |
-| macOS 26 Tahoe | 2025年9月15日 | サポート中 | 410日 |
-| macOS 27 Golden Gate | 2026年9月14日 | サポート中 | 46日 |
+| macOS 26 Tahoe | 2025年9月15日 | サポート中 | 411日 |
+| macOS 27 Golden Gate | 2026年9月14日 | サポート中 | 47日 |
 
 </details>
 <details>

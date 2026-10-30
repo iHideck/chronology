@@ -330,7 +330,7 @@
 <text class="era-name" x="380" y="8367" text-anchor="middle">令和時代</text>
 <text class="era-date" x="380" y="8381" text-anchor="middle">2019</text>
 <line class="asof-line" x1="293" x2="467" y1="8390.9" y2="8390.9"/>
-<text class="era-date" x="380" y="8404.9" text-anchor="middle">2026.10.30</text>
+<text class="era-date" x="380" y="8404.9" text-anchor="middle">2026.10.31</text>
 <text class="era-date" x="380" y="8417.9" text-anchor="middle">時点</text>
 <g class="term c-era" data-id="era0" data-person="era:大化">
 <title>元号 大化　645年7月17日 〜 650年3月22日（期間 約5年）</title>
@@ -1725,7 +1725,7 @@
 <text class="label" x="282" y="8177.4" text-anchor="end"><tspan class="yrs">1989–2019</tspan><tspan class="name" dx="6">平成</tspan></text>
 </g>
 <g class="term c-era" data-id="era250" data-person="era:令和">
-<title>元号 令和　2019年5月1日 〜 現在（期間 約7年）</title>
+<title>元号 令和　2019年5月1日 〜 現在（期間 約8年）</title>
 <linearGradient id="tl-g-era250" gradientUnits="userSpaceOnUse" x1="0" y1="8368.9" x2="0" y2="8390.9"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
 <path class="bar-open" d="M313 8349.9Q313 8346.9 316 8346.9H324Q327 8346.9 327 8349.9V8390.9Q327 8390.9 327 8390.9H313Q313 8390.9 313 8390.9Z" fill="url(#tl-g-era250)"/>
 <text class="label" x="282" y="8359.3" text-anchor="end"><tspan class="yrs">2019–</tspan><tspan class="name" dx="6">令和</tspan></text>
@@ -2223,10 +2223,10 @@
 <text class="label" x="478" y="8177.4"><tspan class="name">明仁</tspan><tspan class="yrs" dx="6">1989–2019</tspan></text>
 </g>
 <g class="term c-emp" data-id="emp97" data-person="emp:今上天皇（徳仁）">
-<title>天皇 今上天皇（徳仁）　2019年5月1日 〜 在位中（在位 2,739日（2026年10月30日時点））</title>
+<title>天皇 今上天皇（徳仁）　2019年5月1日 〜 在位中（在位 2,740日（2026年10月31日時点））</title>
 <linearGradient id="tl-g-emp97" gradientUnits="userSpaceOnUse" x1="0" y1="8368.9" x2="0" y2="8390.9"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
 <path class="bar-open" d="M433 8349.9Q433 8346.9 436 8346.9H444Q447 8346.9 447 8349.9V8390.9Q447 8390.9 447 8390.9H433Q433 8390.9 433 8390.9Z" fill="url(#tl-g-emp97)"/>
 <text class="label" x="478" y="8359.3"><tspan class="name">今上</tspan><tspan class="yrs" dx="6">2019–</tspan></text>
 </g>
-<text class="foot" x="380" y="8428.3" text-anchor="middle">出典：日本語版 Wikipedia「元号一覧 (日本)」、日本語版 Wikipedia の各元号の記事（各項目の url、Category:日本の元号）、日本語版 Wikipedia「改元」（改元理由の分類）、日本語版 Wikipedia「建武の新政」（建武の元号）、国立天文台 暦計算室「日本の暦日データベース」（改元日と西暦換算の照合）、国立天文台 暦計算室 暦Wiki「元号」（明治以降の改元の詔書・政令）、国立公文書館「日本のあゆみ」明治元年（1868）9月「一世一元の制となる」、国立公文書館「日本のあゆみ」明治45年（1912）7月「大正と改元」、国立公文書館ニュース「あの日の公文書」（平成への改元）、講談社『日本の元号がわかる事典』（コトバンク、改元理由の照合）、小学館『精選版 日本国語大辞典』（コトバンク、改元理由・典拠の照合）　2026年10月30日時点</text>
+<text class="foot" x="380" y="8428.3" text-anchor="middle">出典：日本語版 Wikipedia「元号一覧 (日本)」、日本語版 Wikipedia の各元号の記事（各項目の url、Category:日本の元号）、日本語版 Wikipedia「改元」（改元理由の分類）、日本語版 Wikipedia「建武の新政」（建武の元号）、国立天文台 暦計算室「日本の暦日データベース」（改元日と西暦換算の照合）、国立天文台 暦計算室 暦Wiki「元号」（明治以降の改元の詔書・政令）、国立公文書館「日本のあゆみ」明治元年（1868）9月「一世一元の制となる」、国立公文書館「日本のあゆみ」明治45年（1912）7月「大正と改元」、国立公文書館ニュース「あの日の公文書」（平成への改元）、講談社『日本の元号がわかる事典』（コトバンク、改元理由の照合）、小学館『精選版 日本国語大辞典』（コトバンク、改元理由・典拠の照合）　2026年10月31日時点</text>
 </svg>

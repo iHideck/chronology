@@ -177,6 +177,8 @@ export function makeItems(rows, spec, asOfT, base = '') {
       group: (C.group && r[C.group]) || '',
       lane: laneVal === '' ? null : spec.lanes?.[laneVal] ?? (Number.isFinite(Number(laneVal)) ? Number(laneVal) : null),
       photo: C.photo && r[C.photo] ? base + r[C.photo] : '',
+      photoCredit: (C.photoCredit && r[C.photoCredit]) || '',
+      photoUrl: (C.photoUrl && r[C.photoUrl]) || '',
       url: (C.url && r[C.url]) || '',
       details: Object.keys(r).filter((h) => !roles.has(h) && !hidden.has(h) && r[h] !== '').map((h) => [h, r[h]]),
     });
@@ -451,15 +453,15 @@ export function layout(model, opts = {}) {
     return w;
   };
   // ラベルに要る幅。狭い画面では、とくに長い名前（上位1割）は省略してよいことにして配分する
-  const need = (col, withYears) => {
+  const need = (col) => {
     if (col.mode !== 'side' || !col.labeled) return 0;
-    const ws = col.c.terms.map((t) => labelWidth(col, t, withYears)).sort((a, b) => a - b);
+    const ws = col.c.terms.map((t) => labelWidth(col, t, col.withYears)).sort((a, b) => a - b);
     const widest = narrow ? ws[Math.floor((ws.length - 1) * 0.9)] ?? 0 : Math.max(0, ...ws, col.c.lead ? textWidth(col.c.lead.name, g.nameSize) : 0);
     return g.labelGap + Math.min(widest, narrow ? 150 : 230) + 4;
   };
-  const sideNeed = (side, withYears) => cols
+  const sideNeed = (side) => cols
     .filter((x) => x.side === side)
-    .reduce((s, x) => s + x.barsW + need(x, withYears) + (x.mode === 'side' && x.labeled ? colGap : Math.max(4, (narrow ? 10 : 11) + 3 - x.barsW)), barGap);
+    .reduce((s, x) => s + x.barsW + need(x) + (x.mode === 'side' && x.labeled ? colGap : Math.max(4, (narrow ? 10 : 11) + 3 - x.barsW)), barGap);
 
   // 棒の中に名前を書く列が入りきらなければ、棒を細くして文字も小さくする
   const avail = width - g.spineW;
@@ -479,33 +481,38 @@ export function layout(model, opts = {}) {
     }
   }
 
-  // 入りきらなければ、年の表示をやめ、次に外側以外の列のラベルを省く
-  const fits = (withYears) => {
-    const L = sideNeed('left', withYears);
-    const R = sideNeed('right', withYears);
+  // 入りきらなければ、設定の後ろの列から順に年の表示をやめ（主な列の年はなるべく残す）、
+  // それでも入らなければ外側以外の列のラベルを省く
+  const fits = () => {
+    const L = sideNeed('left');
+    const R = sideNeed('right');
     return g.spinePos === 'left' ? R <= avail : L + R <= avail;
   };
-  for (const x of cols) x.labeled = x.mode === 'side';
-  g.showYears = true;
-  if (!fits(true)) {
-    g.showYears = false;
-    if (!fits(false)) {
-      for (const side of ['left', 'right']) {
-        const labeled = cols.filter((x) => x.side === side && x.labeled);
-        for (const x of labeled.slice(1).reverse()) {
-          if (fits(false)) break;
-          x.labeled = false;
-        }
+  for (const x of cols) {
+    x.labeled = x.mode === 'side';
+    x.withYears = true;
+  }
+  for (const x of [...cols].reverse()) {
+    if (fits()) break;
+    x.withYears = false;
+  }
+  if (!fits()) {
+    for (const side of ['left', 'right']) {
+      const labeled = cols.filter((x) => x.side === side && x.labeled);
+      for (const x of labeled.slice(1).reverse()) {
+        if (fits()) break;
+        x.labeled = false;
       }
     }
   }
+  g.showYears = cols.some((x) => x.labeled && x.withYears);
 
   // 帯の位置。両側が半分ずつに収まれば中央、そうでなければ広い側に寄せる
   if (g.spinePos === 'left') {
     g.spineX0 = 0;
   } else {
-    const L = sideNeed('left', g.showYears);
-    const R = sideNeed('right', g.showYears);
+    const L = sideNeed('left');
+    const R = sideNeed('right');
     const half = avail / 2;
     let left = half;
     if (L > half || R > half) left = L + R <= avail ? Math.max(L, Math.min(half, avail - R)) : (avail * L) / (L + R);
@@ -523,7 +530,7 @@ export function layout(model, opts = {}) {
     const lastLabeled = [...list].reverse().find((x) => x.labeled);
     let x = side === 'right' ? g.spineX1 + barGap : g.spineX0 - barGap;
     for (const col of list) {
-      const n = need(col, g.showYears);
+      const n = need(col);
       if (side === 'right') {
         col.barsX0 = x;
         col.barsX1 = x + col.barsW;
@@ -799,7 +806,7 @@ export function renderSVG(model, g, opts = {}) {
         let x0;
         let x1;
         if (col.labeled) {
-          const reach = Math.min(col.labelRoom, g.showYears ? 160 : 104);
+          const reach = Math.min(col.labelRoom, col.withYears ? 160 : 104);
           x0 = col.side === 'left' ? col.labelX - reach : b.x;
           x1 = col.side === 'left' ? b.x + col.barW : col.labelX + reach;
         } else {
@@ -890,7 +897,7 @@ export function renderSVG(model, g, opts = {}) {
           tx = col.side === 'left' ? px - 6 : px + g.photo + 6;
         }
         const room = Math.abs(tx - col.labelEdge);
-        const withYears = g.showYears && textWidth(t.short, g.nameSize) + 6 + textWidth(yearsText(t), g.yearSize) <= room;
+        const withYears = col.withYears && textWidth(t.short, g.nameSize) + 6 + textWidth(yearsText(t), g.yearSize) <= room;
         // 入りきらない名前は末尾を「…」にする（全文は吹き出しと読み取り欄に出る）
         const nm = esc(fitText(t.short, g.nameSize, room));
         if (col.side === 'left') {

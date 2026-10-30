@@ -732,7 +732,17 @@ function fillTip(t) {
     a.rel = 'noopener';
     m.append(a);
   }
-  if (t.photo && c.spec.photoCredit) line('credit', c.spec.photoCredit);
+  // 写真の出典。画像ごとの作者とライセンスがあればそれを、なければデータ全体の出典を出す
+  if (t.photo && (t.photoCredit || c.spec.photoCredit)) {
+    const p = line('credit', t.photoCredit ? `写真：${t.photoCredit}` : c.spec.photoCredit);
+    if (/^https?:\/\//i.test(t.photoUrl)) {
+      const a = el('a', '', '画像のページ');
+      a.href = t.photoUrl;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      p.append('（', a, '）');
+    }
+  }
 }
 
 function placeTip(x, y, side) {

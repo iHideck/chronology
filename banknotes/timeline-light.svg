@@ -88,7 +88,7 @@
 <rect class="spine-b" x="0" y="721.5" width="72" height="288.1"/>
 <rect class="spine-a" x="0" y="1009.6" width="72" height="1240.8"/>
 <rect class="spine-b" x="0" y="2250.4" width="72" height="606.2"/>
-<rect class="spine-a" x="0" y="2856.6" width="72" height="174.6"/>
+<rect class="spine-a" x="0" y="2856.6" width="72" height="174.7"/>
 <line class="grid" x1="0" x2="760" y1="270" y2="270"/>
 <line class="grid" x1="0" x2="760" y1="470" y2="470"/>
 <line class="grid" x1="0" x2="760" y1="670" y2="670"/>
@@ -289,7 +289,7 @@
 <text class="era-name" x="36" y="2879.6" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="2893.6" text-anchor="middle">2019.5.1</text>
 <line class="asof-line" x1="-4" x2="583" y1="3006.6" y2="3006.6"/>
-<text class="era-date" x="36" y="3020.6" text-anchor="middle">2026.10.30</text>
+<text class="era-date" x="36" y="3020.6" text-anchor="middle">2026.10.31</text>
 <text class="era-date" x="36" y="3033.6" text-anchor="middle">時点</text>
 <g class="term c-d0" data-id="d00" data-person="d0:聖徳太子">
 <title>聖徳太子　1958年12月1日 〜 1986年1月4日（発行 約27年）</title>
@@ -528,5 +528,5 @@
 <rect class="bar f-amber approx" x="566" y="1367.7" width="13" height="181.3" rx="3"/>
 <text class="inside" x="572.5" y="1372.7" writing-mode="vertical-rl">楠木正成</text>
 </g>
-<text class="foot" x="380" y="3061.2" text-anchor="middle">出典：日本銀行「現在有効な銀行券」（2024年7月現在、PDF）、日本銀行「現在発行されている銀行券・貨幣」、日本銀行「その他有効な銀行券・貨幣」、国立印刷局 お札と切手の博物館「お札の歴史を知る」、Wikipedia「日本銀行券」、Wikipedia「一円紙幣」「五円紙幣」「十円紙幣」「二十円紙幣」「百円紙幣」「二百円紙幣」「千円紙幣」「五銭紙幣」など額面別の記事、秋田魁新報（共同通信）「諭吉先生、さようなら 日銀、旧紙幣の発行を実質終了」2025年12月10日　2026年10月30日時点</text>
+<text class="foot" x="380" y="3061.3" text-anchor="middle">出典：日本銀行「現在有効な銀行券」（2024年7月現在、PDF）、日本銀行「現在発行されている銀行券・貨幣」、日本銀行「その他有効な銀行券・貨幣」、国立印刷局 お札と切手の博物館「お札の歴史を知る」、Wikipedia「日本銀行券」、Wikipedia「一円紙幣」「五円紙幣」「十円紙幣」「二十円紙幣」「百円紙幣」「二百円紙幣」「千円紙幣」「五銭紙幣」など額面別の記事、秋田魁新報（共同通信）「諭吉先生、さようなら 日銀、旧紙幣の発行を実質終了」2025年12月10日　2026年10月31日時点</text>
 </svg>
