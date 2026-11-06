@@ -17,6 +17,7 @@
 | 政治と首脳 | [イギリスの君主](https://ihideck.github.io/chronology/uk-monarchs/) | 1760年〜現在 | 10 | [uk-monarchs/](uk-monarchs/) |
 | 政治と首脳 | [フランスの首脳](https://ihideck.github.io/chronology/france-leaders/) | 1852年〜現在 | 34 | [france-leaders/](france-leaders/) |
 | 政治と首脳 | [ドイツの首脳](https://ihideck.github.io/chronology/germany-leaders/) | 1867年〜現在 | 40 | [germany-leaders/](germany-leaders/) |
+| 政治と首脳 | [イタリアの首相](https://ihideck.github.io/chronology/italy-prime-ministers/) | 1861年〜現在 | 88 | [italy-prime-ministers/](italy-prime-ministers/) |
 | 政治と首脳 | [自由民主党総裁](https://ihideck.github.io/chronology/ldp-presidents/) | 1956年〜現在 | 29 | [ldp-presidents/](ldp-presidents/) |
 | 政治と首脳 | [選挙制度の変更（1945年〜）](https://ihideck.github.io/chronology/electoral-reforms/) | 1945年〜2018年 | 15 | [electoral-reforms/](electoral-reforms/) |
 | 日本の歴史 | [元号と天皇](https://ihideck.github.io/chronology/eras/) | 645年〜現在 | 251 | [eras/](eras/) |

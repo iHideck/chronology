@@ -1,0 +1,123 @@
+{
+  "title": "イタリアの首相",
+  "short": "イタリア",
+  "description": "カヴールから現在の首相まで、イタリア王国とイタリア共和国の首相（閣僚評議会議長）の在任期間。",
+  "category": "政治と首脳",
+  "order": 48,
+  "color": "green",
+  "data": {
+    "file": "italy-prime-ministers.csv",
+    "columns": {
+      "name": "名前",
+      "short": "略称",
+      "start": "開始日",
+      "end": "終了日",
+      "group": "区分",
+      "url": "リンク",
+      "photo": "写真",
+      "photoCredit": "写真の出典",
+      "photoUrl": "写真のページ",
+      "photoLicense": "写真のライセンス"
+    },
+    "groups": {
+      "イタリア王国": {},
+      "イタリア共和国": {}
+    },
+    "hidden": [
+      "Wikidata"
+    ],
+    "role": "イタリアの首相",
+    "days": "exclusive",
+    "durationLabel": "在任",
+    "ongoing": "在任中",
+    "startLabel": "就任",
+    "endLabel": "退任",
+    "check": {
+      "sequential": true
+    }
+  },
+  "sources": [
+    {
+      "title": "イタリア政府（governo.it）「I Governi nelle Legislature」（1943年からの内閣の一覧と、各内閣のページ）",
+      "url": "https://www.governo.it/it/i-governi-dal-1943-ad-oggi/i-governi-nelle-legislature/192"
+    },
+    {
+      "title": "イタリア政府（governo.it）「Governo Meloni」",
+      "url": "https://www.governo.it/it/i-governi-dal-1943-ad-oggi/governo-meloni/20727"
+    },
+    {
+      "title": "イタリア下院「I Presidenti del Consiglio dall'Unità d'Italia al 1943」",
+      "url": "https://legislature.camera.it/organiparlamentarism/241/4405/5342/documentotesto.asp"
+    },
+    {
+      "title": "イタリア下院「I Presidenti del Consiglio della Transizione Costituzionale」",
+      "url": "https://legislature.camera.it/organiparlamentariSM/241/4405/5342/documentotesto.ASP?cost=2"
+    },
+    {
+      "title": "イタリア下院「I Presidenti del Consiglio della Repubblica」",
+      "url": "https://legislature.camera.it/organiparlamentariSM/241/4405/5342/documentotesto.ASP?cost=3"
+    },
+    {
+      "title": "イタリア下院の公開データ（dati.camera.it）の内閣の一覧（1848年から）",
+      "url": "https://dati.camera.it/sparql"
+    },
+    {
+      "title": "Normattiva「Legge 24 dicembre 1925, n. 2263」（政府首長・首相・国務大臣の職務と権限）",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1925-12-24;2263"
+    },
+    {
+      "title": "Normattiva「Regio decreto-legge 16 maggio 1944, n. 136」（職名を閣僚評議会議長に戻した）",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.regio:1944-05-16;136@originale"
+    },
+    {
+      "title": "Wikidata「Prime Minister of Italy」（Q796897）と「Prime Minister of the Kingdom of Italy」（Q25160174）の在任の記録",
+      "url": "https://www.wikidata.org/wiki/Q796897"
+    },
+    {
+      "title": "イタリア語版 Wikipedia「Capi di governo del Regno d'Italia」",
+      "url": "https://it.wikipedia.org/wiki/Capi_di_governo_del_Regno_d'Italia"
+    },
+    {
+      "title": "イタリア語版 Wikipedia「Presidenti del Consiglio dei ministri della Repubblica Italiana」",
+      "url": "https://it.wikipedia.org/wiki/Presidenti_del_Consiglio_dei_ministri_della_Repubblica_Italiana"
+    },
+    {
+      "title": "イタリア語版 Wikipedia「Capo del Governo, Primo Ministro Segretario di Stato del Regno d'Italia」",
+      "url": "https://it.wikipedia.org/wiki/Capo_del_Governo,_Primo_Ministro_Segretario_di_Stato_del_Regno_d'Italia"
+    },
+    {
+      "title": "イタリア語版 Wikipedia「Capo provvisorio dello Stato」",
+      "url": "https://it.wikipedia.org/wiki/Capo_provvisorio_dello_Stato"
+    },
+    {
+      "title": "英語版 Wikipedia「List of prime ministers of Italy」",
+      "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_Italy"
+    },
+    {
+      "title": "日本語版 Wikipedia「イタリアの首相」",
+      "url": "https://ja.wikipedia.org/wiki/イタリアの首相"
+    }
+  ],
+  "credits": [
+    {
+      "title": "肖像",
+      "photos": true,
+      "short": "写真：Wikimedia Commons",
+      "text": "Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています"
+    }
+  ],
+  "notes": [
+    "イタリア王国（1861〜1946年）とイタリア共和国の首相（政府の長）の在任期間を並べた。イタリア王国の最初の内閣（1861年3月23日の第4次カヴール内閣）から始めた。",
+    "就任日は内閣が発足した日、退任日は後任の内閣が発足した日にした。1943年からはイタリア政府（governo.it）の内閣一覧に、それより前は下院の一覧に合わせた。governo.it は発足の日を大統領の前で宣誓した日としているが、2000年までの日付は下院の一覧の任命の日と同じになっている。イタリア語版 Wikipedia は宣誓の日を就任日にしていて、1954〜2000年の21回の交代で、この年表より1日あとになっている（英語版は20回。例：プローディの就任は1996年5月18日）。",
+    "同じ人が続けて率いた内閣は1本にし（例：デ・ガスペリの第1〜8次内閣）、ほかの人をはさんで返り咲いたときは分けた（ジョリッティとファンファーニは5本）。内閣の番号は下院の一覧とイタリア語版 Wikipedia に合わせた。カヴール（第4次）とラ・マルモラ（第2・3次）はサルデーニャ王国の内閣から数え、ボノーミの1944〜1945年の内閣は第2・3次とした（governo.it は第1・2次としている）。",
+    "カヴールは1860年からサルデーニャ王国の首相で、1861年3月17日のイタリア王国の成立のあと、3月23日に王国の最初の内閣をつくった（Wikidata は就任を3月17日としている）。カヴールは6月6日に在任のまま死去し、6月12日にリカーソリが就任するまでは空白にした。デプレーティスは1887年7月29日に在任のまま死去し、同じ日にクリスピが首相に任命された。",
+    "王国期の日付は下院の一覧（任命の日）に合わせた。英語版・イタリア語版 Wikipedia は、ボセッリからオルランドへの交代を1917年10月30日としている（下院の一覧は29日）。イタリア語版は、ティットーニの就任を1905年3月16日（下院の一覧は12日）、ジョリッティの4回目の就任を1911年3月29日（同じく30日）、パッリの就任を1945年6月19日（下院と governo.it は21日）としている。",
+    "首相の正式な職名は閣僚評議会議長（Presidente del Consiglio dei ministri）。1925年12月24日の法律（1926年1月13日施行）で、ムッソリーニの職名は「政府首長・首相・国務大臣」（Capo del Governo, Primo Ministro Segretario di Stato）に変わり、1944年5月16日の国王の暫定措置令（6月3日施行）で閣僚評議会議長に戻った。",
+    "1943年7月25日、ファシズム大評議会でムッソリーニへの不信任が可決されたあと、国王ヴィットーリオ・エマヌエーレ3世がムッソリーニを解任し、バドリオを首相に任命した。9月8日に連合国との休戦が発表されると、国王と政府は南部のブリンディジに移った。1944年6月4日のローマ解放のあと、反ファシズムの政党がつくる国民解放委員会のボノーミが首相になり、パッリ、デ・ガスペリと続いた。この間も国の形は王国のままだったので、バドリオ・ボノーミ・パッリの区分はイタリア王国にした。",
+    "ムッソリーニは1943年9月から1945年4月まで、ドイツの占領下の北イタリアにできたイタリア社会共和国（サロ共和国）の首班だったが、これはイタリアの首相ではないので年表に入れていない。",
+    "1946年6月2日の国民投票で共和政が選ばれ、6月12日から13日にかけての夜、閣議の決定で首相のデ・ガスペリが暫定の国家元首の職務も担った。13日に国王ウンベルト2世が国外に去り、7月1日にデ・ニコラが暫定の国家元首に就いた。デ・ガスペリは王国の最後の首相と共和国の最初の首相を続けて務めたので1本にし、在任の大半が共和国の時期なので区分はイタリア共和国にした（Wikidata は、王国の首相としての在任を6月13日までとしている）。",
+    "名前は日本語版 Wikipedia の記事名に合わせた。記事のない17人は、日本語版 Wikipedia「イタリアの首相」の表の書き方に合わせ、リンクはイタリア語版 Wikipedia にした。ソンニーノは、日本語版のほかの記事に多い「シドニー・ソンニーノ」にした。ルディニ侯アントニオ・スタラッバは、イタリア語の名前に合わせて「アントニオ・スタラッバ・ディ・ルディニ」とし、略称をルディニにした。",
+    "政党は、イタリア語版 Wikipedia の一覧の分け方に合わせ、名前は日本語版 Wikipedia に合わせた。歴史的右派・歴史的左派と、1911〜1921年の自由主義派（Liberali）は、議会の会派で、政党ではない。",
+    "2026年11月6日の時点で、メローニが在任中。"
+  ]
+}

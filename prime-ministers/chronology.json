@@ -1,7 +1,7 @@
 {
   "title": "歴代内閣総理大臣",
   "short": "総理",
-  "description": "日本の内閣総理大臣の在任期間（第1〜105代）を、顔写真つきで、アメリカ・中国・韓国・ソ連／ロシア・イギリス・フランス・ドイツの首脳や自民党総裁、景気、大きな出来事と並べた年表。",
+  "description": "日本の内閣総理大臣の在任期間（第1〜105代）を、顔写真つきで、アメリカ・中国・韓国・ソ連／ロシア・イギリス・フランス・ドイツ・イタリアの首脳や自民党総裁、景気、大きな出来事と並べた年表。",
   "category": "政治と首脳",
   "order": 10,
   "color": "red",
@@ -39,7 +39,7 @@
   "page": {
     "title": "歴代総理大臣と世界の首脳",
     "description": "1868年から今日まで、日本の内閣総理大臣の在任期間を、顔写真つきで、各国の首脳や自民党総裁、景気、大きな出来事と同じ時間軸に並べた年表",
-    "lede": "1868年（明治元年）から今日までの、日本の内閣総理大臣の在任期間を、アメリカ・中国・韓国・ソ連／ロシア・イギリス・フランス・ドイツの首脳や、自民党総裁、景気の波、大きな出来事と同じ時間軸に並べた年表です。中央の帯が西暦と和暦、棒の長さが在任期間です。",
+    "lede": "1868年（明治元年）から今日までの、日本の内閣総理大臣の在任期間を、アメリカ・中国・韓国・ソ連／ロシア・イギリス・フランス・ドイツ・イタリアの首脳や、自民党総裁、景気の波、大きな出来事と同じ時間軸に並べた年表です。中央の帯が西暦と和暦、棒の長さが在任期間です。",
     "how": "棒や名前にカーソルを合わせる（スマホではタップする）と、肖像と在任期間、同じ時期の各国の首脳が表示されます。上の欄には、横線の位置の総理や各国の首脳が出ます。表示する列はボタンで切り替えられます。",
     "notes": [
       "在任中の棒と在任日数は、ページを開いた日まで伸ばして表示しています。",
@@ -59,7 +59,7 @@
     "columns": [
       {
         "id": "jp", "data": "prime-ministers", "side": "left", "title": "日本の内閣総理大臣", "short": "総理", "counterLabel": "総理",
-        "color": "red", "photos": true, "fixed": true, "counter": ["us", "cn", "kr", "ru", "uk", "fr", "de", "ldp"],
+        "color": "red", "photos": true, "fixed": true, "counter": ["us", "cn", "kr", "ru", "uk", "fr", "de", "it", "ldp"],
         "gapText": "臨時兼任・代理の期間",
         "lead": { "name": "内閣制度発足前", "until": "1885-12-22", "text": "1885年12月22日に内閣制度が発足し、伊藤博文が初代の内閣総理大臣に就任しました。それまでは太政官制のもとで政治が行われていました。" }
       },
@@ -72,6 +72,7 @@
       { "id": "uk", "data": "uk-monarchs", "side": "right", "title": "イギリスの君主", "short": "英国", "mark": "英", "counterLabel": "英国の君主", "color": "green", "narrowHidden": true, "counter": ["jp"] },
       { "id": "fr", "data": "france-leaders", "side": "right", "title": "フランスの首脳", "short": "フランス", "mark": "仏", "counterLabel": "フランスの首脳", "color": "green", "narrowHidden": true, "counter": ["jp"] },
       { "id": "de", "data": "germany-leaders", "side": "right", "title": "ドイツの首脳", "short": "ドイツ", "mark": "独", "counterLabel": "ドイツの首脳", "color": "green", "narrowHidden": true, "counter": ["jp"], "gapText": "連合国の占領期" },
+      { "id": "it", "data": "italy-prime-ministers", "side": "right", "title": "イタリアの首相", "short": "イタリア", "mark": "伊", "counterLabel": "イタリアの首相", "color": "green", "narrowHidden": true, "counter": ["jp"] },
       { "id": "ev", "data": "events", "side": "right", "title": "戦争・大きな出来事", "short": "出来事", "mark": "事", "narrowHidden": true, "hideBelow": 1500, "colorBy": "group", "bar": 6, "counter": ["jp"] }
     ],
     "preview": { "width": 1100, "hidden": ["ev"] }
