@@ -15,7 +15,7 @@ Windows・Ubuntu LTS・macOS・Python・Node.js（LTS）の各バージョンが
 ## 一覧
 
 <details>
-<summary>一覧（11件）</summary>
+<summary>Windowsの一覧（11件）</summary>
 
 | バージョン | 公開 | サポート終了 | サポート | 備考 |
 |---|---|---|---|---|
@@ -33,7 +33,7 @@ Windows・Ubuntu LTS・macOS・Python・Node.js（LTS）の各バージョンが
 
 </details>
 <details>
-<summary>一覧（11件）</summary>
+<summary>Ubuntu LTSの一覧（11件）</summary>
 
 | バージョン | 公開 | サポート終了 | サポート | 備考 |
 |---|---|---|---|---|
@@ -51,7 +51,7 @@ Windows・Ubuntu LTS・macOS・Python・Node.js（LTS）の各バージョンが
 
 </details>
 <details>
-<summary>一覧（23件）</summary>
+<summary>macOSの一覧（23件）</summary>
 
 | バージョン | 公開 | サポート終了 | サポート |
 |---|---|---|---|
@@ -81,7 +81,7 @@ Windows・Ubuntu LTS・macOS・Python・Node.js（LTS）の各バージョンが
 
 </details>
 <details>
-<summary>一覧（18件）</summary>
+<summary>Pythonの一覧（18件）</summary>
 
 | バージョン | 公開 | サポート終了 | サポート |
 |---|---|---|---|
@@ -106,7 +106,7 @@ Windows・Ubuntu LTS・macOS・Python・Node.js（LTS）の各バージョンが
 
 </details>
 <details>
-<summary>一覧（12件）</summary>
+<summary>Node.js（LTS）の一覧（12件）</summary>
 
 | バージョン | 公開 | サポート終了 | サポート | 備考 |
 |---|---|---|---|---|

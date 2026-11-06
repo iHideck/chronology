@@ -302,9 +302,9 @@ for (const s of Object.values(sets)) {
         return `- ${r[C.name]}：${mdText(r[C.photoCredit])}${links.length ? `（${links.join('・')}）` : ''}`;
       });
   })();
-  const tables = model.columns
-    .filter((c) => c.data === dir)
-    .map((c) => ['<details>', `<summary>一覧（${c.terms.length}件）</summary>`, '', markdownTable(model, c), '', '</details>'].join('\n'));
+  const ownColumns = model.columns.filter((c) => c.data === dir);
+  const tables = ownColumns
+    .map((c) => ['<details>', `<summary>${ownColumns.length > 1 ? `${c.title}の` : ''}一覧（${c.terms.length}件）</summary>`, '', markdownTable(model, c), '', '</details>'].join('\n'));
   const generated = [
     BEGIN,
     `<a href="${SITE_URL}${dir}/">`,

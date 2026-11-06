@@ -15,7 +15,7 @@
 ## 一覧
 
 <details>
-<summary>一覧（18件）</summary>
+<summary>日本の一覧（18件）</summary>
 
 | 時代 | 始まり | 終わり | 期間 | 区切り |
 |---|---|---|---|---|
@@ -40,7 +40,7 @@
 
 </details>
 <details>
-<summary>一覧（17件）</summary>
+<summary>朝鮮半島の一覧（17件）</summary>
 
 | 時代 | 始まり | 終わり | 期間 | 区切り |
 |---|---|---|---|---|
@@ -64,7 +64,7 @@
 
 </details>
 <details>
-<summary>一覧（29件）</summary>
+<summary>中国の一覧（29件）</summary>
 
 | 時代 | 始まり | 終わり | 期間 | 区切り |
 |---|---|---|---|---|
@@ -100,7 +100,7 @@
 
 </details>
 <details>
-<summary>一覧（18件）</summary>
+<summary>ヨーロッパの一覧（18件）</summary>
 
 | 時代 | 始まり | 終わり | 期間 | 区切り |
 |---|---|---|---|---|

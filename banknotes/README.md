@@ -15,7 +15,7 @@
 ## 一覧
 
 <details>
-<summary>一覧（4件）</summary>
+<summary>一万円券の一覧（4件）</summary>
 
 | 肖像 | 発行開始 | 発行停止 | 発行 | 券種 | 備考 |
 |---|---|---|---|---|---|
@@ -26,7 +26,7 @@
 
 </details>
 <details>
-<summary>一覧（4件）</summary>
+<summary>五千円券の一覧（4件）</summary>
 
 | 肖像 | 発行開始 | 発行停止 | 発行 | 券種 | 備考 |
 |---|---|---|---|---|---|
@@ -37,7 +37,7 @@
 
 </details>
 <details>
-<summary>一覧（6件）</summary>
+<summary>千円券の一覧（6件）</summary>
 
 | 肖像 | 発行開始 | 発行停止 | 発行 | 券種 | 備考 |
 |---|---|---|---|---|---|
@@ -50,7 +50,7 @@
 
 </details>
 <details>
-<summary>一覧（2件）</summary>
+<summary>五百円券の一覧（2件）</summary>
 
 | 肖像 | 発行開始 | 発行停止 | 発行 | 券種 | 備考 |
 |---|---|---|---|---|---|
@@ -59,7 +59,7 @@
 
 </details>
 <details>
-<summary>一覧（2件）</summary>
+<summary>二百円券の一覧（2件）</summary>
 
 | 肖像 | 発行開始 | 発行停止 | 発行 | 券種 | 備考 |
 |---|---|---|---|---|---|
@@ -68,7 +68,7 @@
 
 </details>
 <details>
-<summary>一覧（8件）</summary>
+<summary>百円券の一覧（8件）</summary>
 
 | 肖像 | 発行開始 | 発行停止 | 発行 | 券種 | 備考 |
 |---|---|---|---|---|---|
@@ -83,7 +83,7 @@
 
 </details>
 <details>
-<summary>一覧（1件）</summary>
+<summary>五十円券の一覧（1件）</summary>
 
 | 肖像 | 発行開始 | 発行停止 | 発行 | 券種 | 備考 |
 |---|---|---|---|---|---|
@@ -91,7 +91,7 @@
 
 </details>
 <details>
-<summary>一覧（2件）</summary>
+<summary>二十円券の一覧（2件）</summary>
 
 | 肖像 | 発行開始 | 発行停止 | 発行 | 券種 | 備考 |
 |---|---|---|---|---|---|
@@ -100,7 +100,7 @@
 
 </details>
 <details>
-<summary>一覧（7件）</summary>
+<summary>十円券の一覧（7件）</summary>
 
 | 肖像 | 発行開始 | 発行停止 | 発行 | 券種 | 備考 |
 |---|---|---|---|---|---|
@@ -114,7 +114,7 @@
 
 </details>
 <details>
-<summary>一覧（7件）</summary>
+<summary>五円券の一覧（7件）</summary>
 
 | 肖像 | 発行開始 | 発行停止 | 発行 | 券種 | 備考 |
 |---|---|---|---|---|---|
@@ -128,7 +128,7 @@
 
 </details>
 <details>
-<summary>一覧（4件）</summary>
+<summary>一円券の一覧（4件）</summary>
 
 | 肖像 | 発行開始 | 発行停止 | 発行 | 券種 | 備考 |
 |---|---|---|---|---|---|
@@ -139,7 +139,7 @@
 
 </details>
 <details>
-<summary>一覧（1件）</summary>
+<summary>五銭券の一覧（1件）</summary>
 
 | 肖像 | 発行開始 | 発行停止 | 発行 | 券種 | 備考 |
 |---|---|---|---|---|---|
