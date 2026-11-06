@@ -560,7 +560,7 @@ function render() {
   clearActive();
   g = layout(model, { width: w, hidden });
   svgStyle.textContent = svgRules(g);
-  chart.innerHTML = renderSVG(model, g, { interactive: true });
+  chart.innerHTML = renderSVG(model, g, { interactive: true, dpr: window.devicePixelRatio || 1 });
   svg = chart.querySelector('svg');
   xhairs = [...svg.querySelectorAll('.xhair')];
   update();

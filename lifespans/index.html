@@ -504,6 +504,10 @@ const ONGOING = new Set(['継続中', '在任中', '現在']);
 // CSV の列の役割。chronology.json の data.columns で列名を変えられる。
 export const DEFAULT_COLUMNS = { name: '名前', start: '開始日', end: '終了日' };
 
+// 写真の小さい版（48px）の場所。どの写真にもあることを build.mjs が確かめる。埋め込んだ画像（data:）はそのまま返す
+const SMALL_PHOTO_PX = 48;
+export const smallPhoto = (path) => (path.startsWith('data:') ? path : path.replace(/([^/]+)$/, 'small/$1'));
+
 // CSV の行を年表の項目にする。spec は chronology.json の data、base は写真のパスの前に付けるディレクトリ。
 // 同じ人が続けて務めた行（例：吉田茂の第48〜51代）は、spec.merge があれば1本にまとめる。
 // 年・月までの終了日はふつうその期間の終わりまでとするが、spec.endAt が "start" なら初めで区切る
@@ -1176,7 +1180,7 @@ function insideFits(text, w, h, size) {
 }
 
 export function renderSVG(model, g, opts = {}) {
-  const { interactive = false, style = '', background = false, footer = null, titleTag = null, photoData = null } = opts;
+  const { interactive = false, style = '', background = false, footer = null, titleTag = null, photoData = null, dpr = 1 } = opts;
   const W = g.width;
   const H = g.height;
   const title = titleTag || model.page.title;
@@ -1467,7 +1471,8 @@ export function renderSVG(model, g, opts = {}) {
           const py = b.labelY - size / 2;
           o.push(`<circle class="photo-ring" cx="${r1(px + size / 2)}" cy="${r1(b.labelY)}" r="${r1(size / 2 + 1)}"/>`);
           if (photo) {
-            const href = photoData?.[t.photo] ?? t.photo;
+            // 画面の画素が小さい版で足りる顔は、小さい版を読む（dpr は画面の画素の倍率）
+            const href = photoData?.[t.photo] ?? (size * dpr <= SMALL_PHOTO_PX ? smallPhoto(t.photo) : t.photo);
             o.push(`<image href="${esc(href)}" x="${r1(px)}" y="${r1(py)}" width="${size}" height="${size}" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>`);
           }
           tx = col.side === 'left' ? px - 6 : px + size + 6;
@@ -1825,7 +1830,7 @@ function render() {
   clearActive();
   g = layout(model, { width: w, hidden });
   svgStyle.textContent = svgRules(g);
-  chart.innerHTML = renderSVG(model, g, { interactive: true });
+  chart.innerHTML = renderSVG(model, g, { interactive: true, dpr: window.devicePixelRatio || 1 });
   svg = chart.querySelector('svg');
   xhairs = [...svg.querySelectorAll('.xhair')];
   update();

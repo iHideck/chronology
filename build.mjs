@@ -245,8 +245,9 @@ for (const s of Object.values(sets)) {
   for (const c of model.columns) {
     for (const t of c.terms) {
       if (!t.photo || photoData[t.photo]) continue;
-      const small = join(root, dir, t.photo.replace(/([^/]+)$/, 'small/$1'));
-      if (existsSync(small)) photoData[t.photo] = `data:image/jpeg;base64,${(await readFile(small)).toString('base64')}`;
+      const small = join(root, dir, TL.smallPhoto(t.photo));
+      if (!existsSync(small)) throw new Error(`写真の小さい版（48px）がありません: ${relative(root, small)}`);
+      photoData[t.photo] = `data:image/jpeg;base64,${(await readFile(small)).toString('base64')}`;
     }
   }
   const footer = [
