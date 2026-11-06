@@ -795,7 +795,7 @@ function placeTip(x, y, side) {
 }
 
 function placeTipAt(e) {
-  const target = e.querySelector('.label') || e;
+  const target = e.querySelector('.label') || e.querySelector('.photo-ring') || e;
   const r = target.getBoundingClientRect();
   const col = g.cols.find((x) => x.c.id === model.byId.get(e.dataset.id)?.col);
   const side = col?.side ?? 'right';

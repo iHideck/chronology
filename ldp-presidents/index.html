@@ -896,6 +896,7 @@ export function layout(model, opts = {}) {
   g.yearSize = narrow ? 10.5 : 11;
   g.labelH = narrow ? 15.5 : 17;
   g.photo = narrow ? 24 : 30;
+  g.photoSmall = narrow ? 18 : 20;
   g.labelGap = narrow ? 11 : 15;
   g.insideSize = narrow ? 11 : 12;
   const barGap = narrow ? 5 : 7;
@@ -915,7 +916,6 @@ export function layout(model, opts = {}) {
       barW, laneGap,
       barsW: c.nLanes * barW + (c.nLanes - 1) * laneGap,
       mode: c.chart ? 'chart' : c.labels ?? 'side',
-      photo: !!c.photos,
     };
   });
   // ラベル付きの列が多いページは、列のあいだを少し詰める
@@ -928,15 +928,18 @@ export function layout(model, opts = {}) {
     const first = cols.find((x) => x.side === side && x.mode === 'side');
     if (first) first.primary = true;
   }
+  // 顔の直径（0 は顔なし）。主な列のほかは小さくして、列の多いページでも名前が入るようにする
+  for (const x of cols) x.photo = !x.c.photos ? 0 : x.primary ? g.photo : g.photoSmall;
   const labelWidth = (col, t, withYears) => {
     let w = textWidth(t.short, g.nameSize);
     if (withYears) w += 6 + textWidth(yearsText(t), g.yearSize);
-    if (col.photo && t.photo) w += g.photo + 6;
+    if (col.photo && t.photo) w += col.photo + 6;
     return w;
   };
   // ラベルに要る幅。狭い画面では、とくに長い名前（上位1割）は省略してよいことにして配分する
   const need = (col) => {
     if (col.mode !== 'side' || !col.labeled) return 0;
+    if (col.faceOnly) return g.labelGap + col.photo + 4;
     const ws = col.c.terms.map((t) => labelWidth(col, t, col.withYears)).sort((a, b) => a - b);
     const widest = narrow || !col.primary ? ws[Math.floor((ws.length - 1) * 0.9)] ?? 0 : Math.max(0, ...ws, col.c.lead ? textWidth(col.c.lead.name, g.nameSize) : 0);
     return g.labelGap + Math.min(widest, narrow ? 150 : 230) + 4;
@@ -964,7 +967,8 @@ export function layout(model, opts = {}) {
   }
 
   // 入りきらなければ、設定の後ろの列から順に年の表示をやめ（主な列の年はなるべく残す）、
-  // それでも入らなければ外側以外の列のラベルを省く
+  // 次に顔のある列は外側から名前を省いて顔だけにし（入るかぎり顔は残す）、
+  // それでも入らなければ主な列のほかのラベルを外側から省く。省いて空いた幅には、内側の列から名前を戻す
   const fits = () => {
     const L = sideNeed('left');
     const R = sideNeed('right');
@@ -973,10 +977,17 @@ export function layout(model, opts = {}) {
   for (const x of cols) {
     x.labeled = x.mode === 'side';
     x.withYears = true;
+    x.faceOnly = false;
   }
   for (const x of [...cols].reverse()) {
     if (fits()) break;
     x.withYears = false;
+  }
+  for (const side of ['left', 'right']) {
+    for (const x of cols.filter((y) => y.side === side && y.labeled && y.photo && !y.primary).reverse()) {
+      if (fits()) break;
+      x.faceOnly = true;
+    }
   }
   if (!fits()) {
     for (const side of ['left', 'right']) {
@@ -984,6 +995,13 @@ export function layout(model, opts = {}) {
       for (const x of labeled.slice(1).reverse()) {
         if (fits()) break;
         x.labeled = false;
+      }
+    }
+    for (const x of cols.filter((y) => y.labeled && y.faceOnly)) {
+      x.faceOnly = false;
+      if (!fits()) {
+        x.faceOnly = true;
+        break;
       }
     }
   }
@@ -1056,7 +1074,7 @@ export function layout(model, opts = {}) {
       const clipped = t.start < g.t0;
       const y0 = Math.max(g.top, g.yOf(t.start));
       const y1 = Math.min(g.plotBottom, g.yOf(t.end));
-      const h = col.labeled && col.photo && t.photo ? Math.max(g.labelH, g.photo + 4) : g.labelH;
+      const h = col.labeled && col.photo && (t.photo || col.faceOnly) ? Math.max(g.labelH, col.photo + 4) : g.labelH;
       const anchor = t.point ? y0 : y0 + Math.min((y1 - y0) / 2, g.labelH / 2);
       return { term: t, y0, y1, h, target: anchor, anchor, clipped, x: col.laneX(t.laneIdx) };
     });
@@ -1182,7 +1200,8 @@ export function renderSVG(model, g, opts = {}) {
     const c = col.c;
     const fill = c.colorBy === 'group' ? 'gray' : c.color ?? 'gray';
     const x = col.side === 'right' ? col.barsX0 : col.barsX1 - col.barW;
-    const text = g.narrow || (col.labeled && textWidth(c.title, 14.5) > col.headRoom) ? c.short ?? c.title : c.title;
+    let text = g.narrow || (col.labeled && textWidth(c.title, 14.5) > col.headRoom) ? c.short ?? c.title : c.title;
+    if (col.faceOnly && textWidth(text, 14.5) > col.headRoom) text = c.mark ?? text;
     if (col.labeled) {
       o.push(`<rect class="f-${fill}" x="${r1(x)}" y="${hy - 11}" width="${col.barW}" height="14" rx="3"/>`);
       const tx = col.labelX;
@@ -1319,7 +1338,7 @@ export function renderSVG(model, g, opts = {}) {
     const hx0 = col.side === 'left' ? p.x - reach : p.x;
     o.push(`<rect class="hit" x="${r1(hx0)}" y="${r1(p.y0)}" width="${r1(col.barW + reach)}" height="${h}"/>`);
     o.push(`<rect class="bar-lead" x="${r1(p.x)}" y="${r1(p.y0)}" width="${col.barW}" height="${h}" rx="3"/>`);
-    if (col.labeled) {
+    if (col.labeled && !col.faceOnly) {
       const name = fitText(p.term.name, g.nameSize, Math.abs(col.labelX - col.labelEdge));
       o.push(`<text class="label" x="${r1(col.labelX)}" y="${r1(p.labelY + g.nameSize * 0.36)}"${col.side === 'left' ? ' text-anchor="end"' : ''}><tspan class="name lead-name">${esc(name)}</tspan></text>`);
     }
@@ -1442,24 +1461,30 @@ export function renderSVG(model, g, opts = {}) {
         const ty = r1(b.labelY + g.nameSize * 0.36);
         const yrs = esc(yearsText(t));
         let tx = col.labelX;
-        if (photo) {
-          const px = col.side === 'left' ? col.labelX - g.photo : col.labelX;
-          const py = b.labelY - g.photo / 2;
-          const href = photoData?.[t.photo] ?? t.photo;
-          o.push(`<circle class="photo-ring" cx="${r1(px + g.photo / 2)}" cy="${r1(b.labelY)}" r="${r1(g.photo / 2 + 1)}"/>`);
-          o.push(`<image href="${esc(href)}" x="${r1(px)}" y="${r1(py)}" width="${g.photo}" height="${g.photo}" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>`);
-          tx = col.side === 'left' ? px - 6 : px + g.photo + 6;
+        // 顔だけの列では名前を書かず、顔の無い期間は顔の大きさの丸だけを置く
+        if (photo || col.faceOnly) {
+          const size = col.photo;
+          const px = col.side === 'left' ? col.labelX - size : col.labelX;
+          const py = b.labelY - size / 2;
+          o.push(`<circle class="photo-ring" cx="${r1(px + size / 2)}" cy="${r1(b.labelY)}" r="${r1(size / 2 + 1)}"/>`);
+          if (photo) {
+            const href = photoData?.[t.photo] ?? t.photo;
+            o.push(`<image href="${esc(href)}" x="${r1(px)}" y="${r1(py)}" width="${size}" height="${size}" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>`);
+          }
+          tx = col.side === 'left' ? px - 6 : px + size + 6;
         }
-        const room = Math.abs(tx - col.labelEdge);
-        const withYears = col.withYears && textWidth(t.short, g.nameSize) + 6 + textWidth(yearsText(t), g.yearSize) <= room;
-        // 入りきらない名前は末尾を「…」にする（全文は吹き出しと読み取り欄に出る）
-        const nm = esc(fitText(t.short, g.nameSize, room));
-        if (col.side === 'left') {
-          const inner = withYears ? `<tspan class="yrs">${yrs}</tspan><tspan class="name" dx="6">${nm}</tspan>` : `<tspan class="name">${nm}</tspan>`;
-          o.push(`<text class="label" x="${r1(tx)}" y="${ty}" text-anchor="end">${inner}</text>`);
-        } else {
-          const inner = withYears ? `<tspan class="name">${nm}</tspan><tspan class="yrs" dx="6">${yrs}</tspan>` : `<tspan class="name">${nm}</tspan>`;
-          o.push(`<text class="label" x="${r1(tx)}" y="${ty}">${inner}</text>`);
+        if (!col.faceOnly) {
+          const room = Math.abs(tx - col.labelEdge);
+          const withYears = col.withYears && textWidth(t.short, g.nameSize) + 6 + textWidth(yearsText(t), g.yearSize) <= room;
+          // 入りきらない名前は末尾を「…」にする（全文は吹き出しと読み取り欄に出る）
+          const nm = esc(fitText(t.short, g.nameSize, room));
+          if (col.side === 'left') {
+            const inner = withYears ? `<tspan class="yrs">${yrs}</tspan><tspan class="name" dx="6">${nm}</tspan>` : `<tspan class="name">${nm}</tspan>`;
+            o.push(`<text class="label" x="${r1(tx)}" y="${ty}" text-anchor="end">${inner}</text>`);
+          } else {
+            const inner = withYears ? `<tspan class="name">${nm}</tspan><tspan class="yrs" dx="6">${yrs}</tspan>` : `<tspan class="name">${nm}</tspan>`;
+            o.push(`<text class="label" x="${r1(tx)}" y="${ty}">${inner}</text>`);
+          }
         }
       }
       o.push('</g>');
@@ -2036,7 +2061,7 @@ function placeTip(x, y, side) {
 }
 
 function placeTipAt(e) {
-  const target = e.querySelector('.label') || e;
+  const target = e.querySelector('.label') || e.querySelector('.photo-ring') || e;
   const r = target.getBoundingClientRect();
   const col = g.cols.find((x) => x.c.id === model.byId.get(e.dataset.id)?.col);
   const side = col?.side ?? 'right';

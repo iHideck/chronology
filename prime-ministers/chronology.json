@@ -47,7 +47,7 @@
     ],
     "range": { "start": "1868-01-01" },
     "ppy": [28, 22],
-    "maxWidth": 1600,
+    "maxWidth": 1920,
     "spine": {
       "bands": { "data": "eras", "after": "1868-10-23" },
       "wareki": { "data": "eras", "after": "1868-10-23" },
@@ -70,16 +70,16 @@
       { "id": "san", "data": "elections", "group": "参議院", "side": "left", "title": "参議院の与党の議席", "short": "参の与党", "mark": "参", "counterLabel": "通常選挙", "color": "red", "labels": "none", "bar": 16, "hidden": true, "narrowHidden": true, "counter": ["jp"],
         "share": { "value": "与党の議席", "total": "定数", "breakdown": "与党の内訳", "labels": ["首相の党", "ほかの与党", "与党以外"], "lines": [{ "at": 0.5, "label": "½", "name": "過半数" }] } },
       { "id": "us", "data": "us-presidents", "side": "right", "title": "アメリカ合衆国大統領", "short": "米国", "mark": "米", "counterLabel": "米大統領", "color": "blue", "photos": true, "counter": ["jp"] },
-      { "id": "cn", "data": "china-leaders", "side": "right", "title": "中国の最高指導者", "short": "中国", "mark": "中", "counterLabel": "中国の指導者", "color": "amber", "narrowHidden": true, "counter": ["jp"] },
-      { "id": "kr", "data": "korea-leaders", "side": "right", "title": "韓国の首脳", "short": "韓国", "mark": "韓", "counterLabel": "韓国の首脳", "color": "amber", "narrowHidden": true, "counter": ["jp"], "gapText": "日本統治・米軍政の時期" },
-      { "id": "ru", "data": "russia-leaders", "side": "right", "title": "ロシア・ソ連の最高指導者", "short": "ソ連・ロシア", "mark": "露", "counterLabel": "ソ連・ロシアの指導者", "color": "violet", "narrowHidden": true, "counter": ["jp"] },
-      { "id": "ukpm", "data": "uk-prime-ministers", "side": "right", "title": "イギリスの首相", "short": "英国首相", "mark": "英", "counterLabel": "英国首相", "color": "green", "narrowHidden": true, "counter": ["jp"] },
-      { "id": "uk", "data": "uk-monarchs", "side": "right", "title": "イギリスの君主", "short": "英国君主", "mark": "王", "counterLabel": "英国の君主", "color": "green", "hidden": true, "narrowHidden": true, "counter": ["jp"] },
-      { "id": "fr", "data": "france-leaders", "side": "right", "title": "フランスの首脳", "short": "フランス", "mark": "仏", "counterLabel": "フランスの首脳", "color": "green", "narrowHidden": true, "counter": ["jp"] },
-      { "id": "de", "data": "germany-leaders", "side": "right", "title": "ドイツの首脳", "short": "ドイツ", "mark": "独", "counterLabel": "ドイツの首脳", "color": "green", "narrowHidden": true, "counter": ["jp"], "gapText": "連合国の占領期" },
-      { "id": "it", "data": "italy-prime-ministers", "side": "right", "title": "イタリアの首相", "short": "イタリア", "mark": "伊", "counterLabel": "イタリアの首相", "color": "green", "narrowHidden": true, "counter": ["jp"] },
-      { "id": "ev", "data": "events", "side": "right", "title": "戦争・大きな出来事", "short": "出来事", "mark": "事", "narrowHidden": true, "hideBelow": 1500, "colorBy": "group", "bar": 6, "counter": ["jp"] }
+      { "id": "cn", "data": "china-leaders", "side": "right", "title": "中国の最高指導者", "short": "中国", "mark": "中", "counterLabel": "中国の指導者", "color": "amber", "photos": true, "narrowHidden": true, "counter": ["jp"] },
+      { "id": "kr", "data": "korea-leaders", "side": "right", "title": "韓国の首脳", "short": "韓国", "mark": "韓", "counterLabel": "韓国の首脳", "color": "amber", "photos": true, "narrowHidden": true, "counter": ["jp"], "gapText": "日本統治・米軍政の時期" },
+      { "id": "ru", "data": "russia-leaders", "side": "right", "title": "ロシア・ソ連の最高指導者", "short": "ソ連・ロシア", "mark": "露", "counterLabel": "ソ連・ロシアの指導者", "color": "violet", "photos": true, "narrowHidden": true, "counter": ["jp"] },
+      { "id": "ukpm", "data": "uk-prime-ministers", "side": "right", "title": "イギリスの首相", "short": "英国首相", "mark": "英", "counterLabel": "英国首相", "color": "green", "photos": true, "narrowHidden": true, "counter": ["jp"] },
+      { "id": "uk", "data": "uk-monarchs", "side": "right", "title": "イギリスの君主", "short": "英国君主", "mark": "王", "counterLabel": "英国の君主", "color": "green", "photos": true, "hidden": true, "narrowHidden": true, "counter": ["jp"] },
+      { "id": "fr", "data": "france-leaders", "side": "right", "title": "フランスの首脳", "short": "フランス", "mark": "仏", "counterLabel": "フランスの首脳", "color": "green", "photos": true, "narrowHidden": true, "counter": ["jp"] },
+      { "id": "de", "data": "germany-leaders", "side": "right", "title": "ドイツの首脳", "short": "ドイツ", "mark": "独", "counterLabel": "ドイツの首脳", "color": "green", "photos": true, "narrowHidden": true, "counter": ["jp"], "gapText": "連合国の占領期" },
+      { "id": "it", "data": "italy-prime-ministers", "side": "right", "title": "イタリアの首相", "short": "イタリア", "mark": "伊", "counterLabel": "イタリアの首相", "color": "green", "photos": true, "narrowHidden": true, "counter": ["jp"] },
+      { "id": "ev", "data": "events", "side": "right", "title": "戦争・大きな出来事", "short": "出来事", "mark": "事", "narrowHidden": true, "hideBelow": 1800, "colorBy": "group", "bar": 6, "counter": ["jp"] }
     ],
-    "preview": { "width": 1100, "hidden": ["ev", "shu", "san"] }
+    "preview": { "width": 1100, "hidden": ["uk", "ev", "shu", "san"] }
   }
 }
