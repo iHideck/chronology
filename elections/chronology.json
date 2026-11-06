@@ -64,8 +64,8 @@
   "page": {
     "title": "国政選挙と投票率",
     "description": "1946年からの衆議院議員総選挙と参議院議員通常選挙を、投票率と、総理大臣や選挙制度の変更と同じ時間軸に並べた年表",
-    "lede": "1946年からの衆議院議員総選挙と参議院議員通常選挙を、総理大臣や選挙制度の変更と同じ時間軸に並べた年表です。棒は選挙で決まった議席が続いた期間で、衆議院は解散まで、参議院は次の通常選挙までです。折れ線は投票率です。",
-    "how": "棒や点にカーソルを合わせる（スマホではタップする）と、投票日と投票率、同じ時期の総理が表示されます。上の欄には、横線の位置の総理と、その時点の衆議院・参議院の選挙と投票率が出ます。表示する列はボタンで切り替えられます。",
+    "lede": "1946年からの衆議院議員総選挙と参議院議員通常選挙を、総理大臣や選挙制度の変更と同じ時間軸に並べた年表です。棒は選挙で決まった議席が続いた期間で、衆議院は解散まで、参議院は次の通常選挙までです。棒の色の部分は与党の議席の割合で、縦の線は過半数と3分の2です。折れ線は投票率です。",
+    "how": "棒や点にカーソルを合わせる（スマホではタップする）と、投票日・投票率・与党の議席と、同じ時期の総理が表示されます。上の欄には、横線の位置の総理と、その時点の衆議院・参議院の与党の議席と投票率が出ます。表示する列はボタンで切り替えられます。",
     "range": { "start": "1945-01-01" },
     "maxWidth": 1200,
     "spine": {
@@ -76,9 +76,11 @@
     "jump": "bands",
     "facts": ["shu", "san"],
     "columns": [
-      { "id": "shu", "data": "elections", "group": "衆議院", "side": "left", "title": "衆議院議員総選挙", "short": "衆議院", "counterLabel": "総選挙", "color": "blue", "unit": "回", "fixed": true, "counter": ["pm"], "gapText": "解散から総選挙まで" },
+      { "id": "shu", "data": "elections", "group": "衆議院", "side": "left", "title": "衆議院議員総選挙", "short": "衆議院", "counterLabel": "総選挙", "color": "blue", "unit": "回", "fixed": true, "counter": ["pm"], "gapText": "解散から総選挙まで",
+        "share": { "value": "与党の議席", "total": "定数", "breakdown": "与党の内訳", "labels": ["首相の党", "ほかの与党", "与党以外"], "lines": [{ "at": 0.5, "label": "½", "name": "過半数" }, { "at": 0.6667, "label": "⅔", "name": "3分の2", "dash": true }] } },
       { "id": "pm", "data": "prime-ministers", "side": "left", "title": "内閣総理大臣", "short": "総理", "counterLabel": "総理", "mark": "総理", "color": "gray", "narrowHidden": true },
-      { "id": "san", "data": "elections", "group": "参議院", "side": "right", "title": "参議院議員通常選挙", "short": "参議院", "counterLabel": "通常選挙", "color": "red", "unit": "回", "fixed": true, "counter": ["pm"] },
+      { "id": "san", "data": "elections", "group": "参議院", "side": "right", "title": "参議院議員通常選挙", "short": "参議院", "counterLabel": "通常選挙", "color": "red", "unit": "回", "fixed": true, "counter": ["pm"],
+        "share": { "value": "与党の議席", "total": "定数", "breakdown": "与党の内訳", "labels": ["首相の党", "ほかの与党", "与党以外"], "lines": [{ "at": 0.5, "label": "½", "name": "過半数" }, { "at": 0.6667, "label": "⅔", "name": "3分の2", "dash": true }] } },
       { "id": "rate", "data": "elections", "side": "right", "title": "投票率", "short": "投票率", "colorBy": "group", "chart": { "type": "line", "value": "投票率（%）", "min": 40, "max": 80, "ticks": [50, 60, 70], "unit": "%" } },
       { "id": "reform", "data": "electoral-reforms", "side": "right", "title": "選挙制度の変更", "short": "制度の変更", "mark": "制", "colorBy": "group", "narrowHidden": true, "dock": false }
     ],

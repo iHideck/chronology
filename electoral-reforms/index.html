@@ -663,6 +663,7 @@ export function buildModel({ page, datasets, asOf }) {
     }
     if (c.chart) placeOnChart(col);
     else assignLanes(col);
+    if (c.share) for (const t of col.terms) t.share = shareOf(c.share, t);
     for (const t of col.terms) byId.set(t.id, t);
     return col;
   });
@@ -693,6 +694,16 @@ export function buildModel({ page, datasets, asOf }) {
 // 「党名 議席・党名 議席」の形の内訳。会派名に「・」が入ることがあるので、数字で区切る
 export function parseBreakdown(text) {
   return [...String(text ?? '').matchAll(/(.+?)\s+(\d+)(?:・|$)/g)].map((m) => ({ name: m[1].trim(), seats: Number(m[2]) }));
+}
+
+// 割合の帯（share）の数。内訳の最初の党（首相の党）を lead とする
+function shareOf(share, t) {
+  const d = new Map(t.details);
+  const value = Number(d.get(share.value));
+  const total = Number(d.get(share.total));
+  if (!(value >= 0) || !(total > 0)) return null;
+  const lead = share.breakdown ? parseBreakdown(d.get(share.breakdown))[0]?.seats : undefined;
+  return { value, total, lead: Number.isFinite(lead) ? Math.min(lead, value) : value };
 }
 
 // 数値の列（chart）。値の列が数でない項目は描かない。
@@ -741,6 +752,38 @@ function valueLabelIds(col) {
     ids.add(pick((x, y) => x > y).term.id).add(pick((x, y) => x < y).term.id).add(bs[bs.length - 1].term.id);
   }
   return ids;
+}
+
+// 割合の帯。帯（西暦）の側から外へ、首相の党・ほかの与党・与党以外の順に塗り、境目に 2px の隙間を空ける
+function shareBarSVG(col, b, s, fill) {
+  const W = col.barW;
+  const y = b.y0 + 1;
+  const h = Math.max(3, b.y1 - b.y0 - (b.term.ongoing ? 1 : 2));
+  const parts = [
+    [s.lead / s.total, `bar f-${fill}`],
+    [(s.value - s.lead) / s.total, `bar f-${fill} share-sub`],
+    [1 - s.value / s.total, 'bar share-rest'],
+  ];
+  const out = [];
+  let acc = 0;
+  for (const [f, cls] of parts) {
+    if (f <= 0) continue;
+    const a = acc * W;
+    const z = Math.min(W, (acc + f) * W);
+    acc += f;
+    const ga = a > 0.01 ? 1 : 0;
+    const gz = z < W - 0.01 ? 1 : 0;
+    const w = z - a - ga - gz;
+    if (w <= 0.5) continue;
+    const x = col.side === 'left' ? col.barsX1 - z + gz : col.barsX0 + a + ga;
+    out.push(`<rect class="${cls}" x="${r1(x)}" y="${r1(y)}" width="${r1(w)}" height="${r1(h)}" rx="${r1(Math.min(1.5, h / 2))}"/>`);
+  }
+  return out.join('');
+}
+
+// 割合の帯の目盛り（過半数・3分の2など）の横の位置
+function shareLineX(col, f) {
+  return col.side === 'left' ? col.barsX1 - f * col.barW : col.barsX0 + f * col.barW;
 }
 
 function markerSVG(shape, x, y, r, cls) {
@@ -862,7 +905,7 @@ export function layout(model, opts = {}) {
   // ---- 列
   const hidden = opts.hidden ?? new Set();
   const cols = model.columns.filter((c) => !hidden.has(c.id)).map((c) => {
-    const barW = c.chart ? (narrow ? 96 : 150) : c.bar ?? (c.labels === 'inside' ? (narrow ? 18 : 22) : (narrow ? 10 : 14));
+    const barW = c.chart ? (narrow ? 96 : 150) : c.share ? (narrow ? 40 : 64) : c.bar ?? (c.labels === 'inside' ? (narrow ? 18 : 22) : (narrow ? 10 : 14));
     const laneGap = 2;
     return {
       c, side: g.spinePos === 'left' ? 'right' : c.side ?? 'right',
@@ -1087,8 +1130,13 @@ export function fillOf(col, t) {
   return name;
 }
 
+export function shareText(t) {
+  return t.share ? `与党 ${t.share.value}/${t.share.total}（${Math.round((t.share.value / t.share.total) * 1000) / 10}%）` : '';
+}
+
 export function termSummary(t, col, model) {
   if (col.chart) return `${t.name}　${fmtStr(t.startStr)}　${col.title} ${chartValueText(col, t)}`;
+  if (col.share && t.share) return `${t.name}　${rangeText(t, col.spec)}　${shareText(t)}`;
   const head = [ordText(t), col.role].filter(Boolean).join('');
   const dur = durationText(t, col.spec, model.asOf);
   return `${head ? `${head} ` : ''}${t.name}　${rangeText(t, col.spec)}${dur ? `（${dur}）` : ''}`;
@@ -1175,6 +1223,14 @@ export function renderSVG(model, g, opts = {}) {
         o.push(`<text class="lane-v" x="${r1(cx)}" y="${r1(hy - 24)}" writing-mode="vertical-rl">${esc(c.mark ?? c.short ?? c.title)}</text>`);
       }
       o.push(`<rect class="f-${fill}" x="${r1(col.barsX0)}" y="${hy + 2}" width="${r1(col.barsW)}" height="6" rx="2"/>`);
+    }
+    // 線の見出し（½・⅔）。近すぎるものは、前にあるものだけを出す
+    let lastX = null;
+    for (const line of c.share?.lines ?? []) {
+      const lx = shareLineX(col, line.at);
+      if (lastX != null && Math.abs(lx - lastX) < 10) continue;
+      o.push(`<text class="scale" x="${r1(lx)}" y="${r1(g.top - 4)}" text-anchor="middle">${esc(line.label)}</text>`);
+      lastX = lx;
     }
   }
   const sp = model.page.spine ?? {};
@@ -1330,6 +1386,8 @@ export function renderSVG(model, g, opts = {}) {
           const right = b.cx < col.barsX0 + col.barsW * 0.6;
           o.push(`<text class="val" x="${r1(b.cx + (right ? 7 : -7))}" y="${r1(b.y0 + g.yearSize * 0.36)}"${right ? '' : ' text-anchor="end"'}>${esc(chartValueText(c, t))}</text>`);
         }
+      } else if (t.share) {
+        o.push(shareBarSVG(col, b, t.share, fill));
       } else if (t.point) {
         const cy = r1(b.y0);
         o.push(`<circle class="dot f-${fill}" cx="${r1(x + col.barW / 2)}" cy="${cy}" r="${g.narrow ? 3.5 : 4}"/>`);
@@ -1405,6 +1463,14 @@ export function renderSVG(model, g, opts = {}) {
     }
   }
 
+  // 割合の帯の目盛り（過半数・3分の2など）の縦線。帯の上に重ねる
+  for (const col of g.cols) {
+    for (const line of col.c.share?.lines ?? []) {
+      const x = r1(shareLineX(col, line.at));
+      o.push(`<line class="share-line${line.dash ? ' dash' : ''}" x1="${x}" x2="${x}" y1="${r1(g.top)}" y2="${r1(g.plotBottom)}"/>`);
+    }
+  }
+
   // 横線が棒と交わる点（棒の上に重ねる）。段が1つの列だけ。
   if (interactive) {
     o.push(`<g class="xhair xhair-dots" transform="translate(0 ${g.top})" aria-hidden="true">`);
@@ -1460,6 +1526,14 @@ export function svgRules(g) {
 .tl .val{font-size:${g.yearSize}px;fill:var(--ink2);font-variant-numeric:tabular-nums}
 .tl .scale{font-size:${g.narrow ? 9.5 : 10}px;fill:var(--muted);font-variant-numeric:tabular-nums}
 .tl .key{font-size:${g.narrow ? 10.5 : 11}px;fill:var(--ink2)}` : '';
+  const share = g.cols.some((col) => col.c.share);
+  const shareRules = share ? `
+.tl .share-sub{opacity:0.45}
+.tl .share-rest{fill:var(--rule2)}
+.tl .share-line{stroke:var(--ink);stroke-width:1;opacity:0.55;pointer-events:none}
+.tl .share-line.dash{stroke-dasharray:3 2}` : '';
+  const scaleRule = share && !chart ? `
+.tl .scale{font-size:${g.narrow ? 9.5 : 10}px;fill:var(--muted);font-variant-numeric:tabular-nums}` : '';
   return `
 .tl .bg{fill:var(--paper)}
 .tl .spine-a{fill:var(--spine-a)}
@@ -1486,7 +1560,7 @@ ${fills}
 .tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
 .tl .hatch-bg{fill:var(--spine-a)}
 .tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
-.tl .dot{stroke:var(--paper);stroke-width:2}${chartRules}
+.tl .dot{stroke:var(--paper);stroke-width:2}${chartRules}${shareRules}${scaleRule}
 .tl .photo-ring{fill:var(--spine-b)}
 .tl .label{font-size:${g.nameSize}px}
 .tl .name{fill:var(--ink)}
@@ -1626,6 +1700,21 @@ function buildLegend() {
       item.append(swatch('gray'), '分類なし');
       row.append(item);
     }
+    box.append(row);
+  }
+  // 割合の帯の塗り分け
+  for (const c of visible()) {
+    if (!c.share?.labels) continue;
+    const row = el('p', 'legend-row');
+    row.append(el('span', 'k', c.title));
+    c.share.labels.forEach((label, i) => {
+      const item = el('span');
+      const sw = swatch(i === 2 ? 'rule2' : c.color ?? 'gray');
+      if (i === 1) sw.style.opacity = '0.45';
+      item.append(sw, label);
+      row.append(item);
+    });
+    if (c.share.lines?.length) row.append(el('span', '', `縦の線：${c.share.lines.map((l) => `${l.label}（${l.name}）`).join('・')}`));
     box.append(row);
   }
   // 推定の日付を薄く描いている列があれば、その説明も出す
@@ -1774,7 +1863,7 @@ function update() {
       const parts = [...list].sort((a, b) => order.indexOf(a.group) - order.indexOf(b.group)).map((x) => `${c.spec.groups?.[x.group]?.short ?? x.group} ${chartValueText(c, x)}`);
       setWho(b, parts.join('・') || '—', !list.length);
     } else if (list.length) {
-      const names = list.map((x) => (c.spec.days === 'age' ? `${x.short}（${ageAt(t, x)}）` : x.short));
+      const names = list.map((x) => (c.share && x.share ? `${x.short} 与党 ${x.share.value}/${x.share.total}` : c.spec.days === 'age' ? `${x.short}（${ageAt(t, x)}）` : x.short));
       setWho(b, names.length > 4 ? `${names.slice(0, 4).join('・')}ほか${names.length - 4}人` : names.join('・'), false);
     } else if (c.lead && t < c.lead.end) {
       setWho(b, c.lead.name, true);
@@ -1877,6 +1966,7 @@ function fillTip(t) {
     line('dates', `${rangeText(t, c.spec)}${!t.ongoing && !t.point && t.end > model.asOf ? '（予定）' : ''}${t.approx ? '（推定・諸説あり）' : ''}`);
     const dur = durationText(t, c.spec, model.asOf);
     if (dur) line('days', dur);
+    if (c.share && t.share) line('days', shareText(t));
   }
   const p = c.persons.get(t.name);
   if (p.terms.length > 1 && (c.spec.days === 'inclusive' || c.spec.days === 'exclusive')) line('days', `通算 ${fmtNum(p.days)}日（${p.terms.length}回）`);
@@ -1886,6 +1976,7 @@ function fillTip(t) {
   }
   for (const [key, value] of t.details) {
     if (c.chart && key === c.chart.value) continue;
+    if (c.share && t.share && (key === c.share.value || key === c.share.total)) continue;
     const d = line('detail', value);
     d.prepend(el('span', '', key));
   }

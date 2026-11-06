@@ -464,6 +464,21 @@ function buildLegend() {
     }
     box.append(row);
   }
+  // 割合の帯の塗り分け
+  for (const c of visible()) {
+    if (!c.share?.labels) continue;
+    const row = el('p', 'legend-row');
+    row.append(el('span', 'k', c.title));
+    c.share.labels.forEach((label, i) => {
+      const item = el('span');
+      const sw = swatch(i === 2 ? 'rule2' : c.color ?? 'gray');
+      if (i === 1) sw.style.opacity = '0.45';
+      item.append(sw, label);
+      row.append(item);
+    });
+    if (c.share.lines?.length) row.append(el('span', '', `縦の線：${c.share.lines.map((l) => `${l.label}（${l.name}）`).join('・')}`));
+    box.append(row);
+  }
   // 推定の日付を薄く描いている列があれば、その説明も出す
   for (const c of visible()) {
     if (!c.fadeApprox || !c.terms.some((t) => t.approx)) continue;
@@ -610,7 +625,7 @@ function update() {
       const parts = [...list].sort((a, b) => order.indexOf(a.group) - order.indexOf(b.group)).map((x) => `${c.spec.groups?.[x.group]?.short ?? x.group} ${chartValueText(c, x)}`);
       setWho(b, parts.join('・') || '—', !list.length);
     } else if (list.length) {
-      const names = list.map((x) => (c.spec.days === 'age' ? `${x.short}（${ageAt(t, x)}）` : x.short));
+      const names = list.map((x) => (c.share && x.share ? `${x.short} 与党 ${x.share.value}/${x.share.total}` : c.spec.days === 'age' ? `${x.short}（${ageAt(t, x)}）` : x.short));
       setWho(b, names.length > 4 ? `${names.slice(0, 4).join('・')}ほか${names.length - 4}人` : names.join('・'), false);
     } else if (c.lead && t < c.lead.end) {
       setWho(b, c.lead.name, true);
@@ -713,6 +728,7 @@ function fillTip(t) {
     line('dates', `${rangeText(t, c.spec)}${!t.ongoing && !t.point && t.end > model.asOf ? '（予定）' : ''}${t.approx ? '（推定・諸説あり）' : ''}`);
     const dur = durationText(t, c.spec, model.asOf);
     if (dur) line('days', dur);
+    if (c.share && t.share) line('days', shareText(t));
   }
   const p = c.persons.get(t.name);
   if (p.terms.length > 1 && (c.spec.days === 'inclusive' || c.spec.days === 'exclusive')) line('days', `通算 ${fmtNum(p.days)}日（${p.terms.length}回）`);
@@ -722,6 +738,7 @@ function fillTip(t) {
   }
   for (const [key, value] of t.details) {
     if (c.chart && key === c.chart.value) continue;
+    if (c.share && t.share && (key === c.share.value || key === c.share.total)) continue;
     const d = line('detail', value);
     d.prepend(el('span', '', key));
   }
