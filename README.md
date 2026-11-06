@@ -18,6 +18,7 @@
 | 政治と首脳 | [フランスの首脳](https://ihideck.github.io/chronology/france-leaders/) | 1852年〜現在 | 34 | [france-leaders/](france-leaders/) |
 | 政治と首脳 | [ドイツの首脳](https://ihideck.github.io/chronology/germany-leaders/) | 1867年〜現在 | 40 | [germany-leaders/](germany-leaders/) |
 | 政治と首脳 | [自由民主党総裁](https://ihideck.github.io/chronology/ldp-presidents/) | 1956年〜現在 | 29 | [ldp-presidents/](ldp-presidents/) |
+| 政治と首脳 | [選挙制度の変更（1945年〜）](https://ihideck.github.io/chronology/electoral-reforms/) | 1945年〜2018年 | 15 | [electoral-reforms/](electoral-reforms/) |
 | 日本の歴史 | [元号と天皇](https://ihideck.github.io/chronology/eras/) | 645年〜現在 | 251 | [eras/](eras/) |
 | 日本の歴史 | [歴代天皇](https://ihideck.github.io/chronology/emperors/) | 642年〜現在 | 98 | [emperors/](emperors/) |
 | 日本の歴史 | [日本史と世界史の時代区分](https://ihideck.github.io/chronology/periods/) | 紀元前3000年〜現在 | 82 | [periods/](periods/) |

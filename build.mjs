@@ -40,7 +40,10 @@ for (const s of Object.values(sets)) {
   const C = { ...TL.DEFAULT_COLUMNS, ...spec.columns };
   const file = `${dir}/${spec.file}`;
   const head = Object.keys(rows[0] ?? {});
-  for (const [role, col] of Object.entries(C)) if (!head.includes(col)) problems.push(`${file}: 列「${col}」（${role}）がありません`);
+  for (const [role, col] of Object.entries(C)) {
+    if (role === 'end' && spec.points && !head.includes(col)) continue;
+    if (!head.includes(col)) problems.push(`${file}: 列「${col}」（${role}）がありません`);
+  }
   rows.forEach((r, i) => {
     const where = `${file} ${i + 2}行目（${r[C.name]}）`;
     const st = r[C.start];

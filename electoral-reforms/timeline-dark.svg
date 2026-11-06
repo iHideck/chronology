@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 2062" width="760" height="2062" role="img" aria-labelledby="tl-title">
+<title id="tl-title">選挙制度の変更（1945年〜）</title>
+<style>
+.tl{--paper:#14171f;--ink:#e6e8ee;--ink2:#b2b8c4;--muted:#8d94a3;--rule:#232833;--rule2:#3d4452;--spine-a:#1b1f29;--spine-b:#222733;--red:#e5604a;--blue:#678bd2;--amber:#c98500;--violet:#9085e9;--green:#199e70;--teal:#1f9fa1;--gray:#6b7280;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="760" height="2062" rx="14"/>
+<rect class="f-gray" x="79" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="108" y="44">選挙制度の変更（1945年〜）</text>
+<text class="spine-h" x="36" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="36" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="0" y="70" width="72" height="1176.5"/>
+<rect class="spine-b" x="0" y="1246.5" width="72" height="727.4"/>
+<rect class="spine-a" x="0" y="1973.9" width="72" height="17.2"/>
+<line class="grid" x1="0" x2="760" y1="310" y2="310"/>
+<line class="grid" x1="0" x2="760" y1="550" y2="550"/>
+<line class="grid" x1="0" x2="760" y1="790" y2="790"/>
+<line class="grid" x1="0" x2="760" y1="1030" y2="1030"/>
+<line class="grid" x1="0" x2="760" y1="1510" y2="1510"/>
+<line class="grid" x1="0" x2="760" y1="1750.1" y2="1750.1"/>
+<line class="grid" x1="0" x2="760" y1="1990" y2="1990"/>
+<line class="era-line" x1="0" x2="760" y1="1246.5" y2="1246.5"/>
+<line class="era-line" x1="0" x2="760" y1="1973.9" y2="1973.9"/>
+<path class="tick" d="M0 70h9M72 70h-9"/>
+<path class="tick" d="M0 94h3M72 94h-3"/>
+<path class="tick" d="M0 118h3M72 118h-3"/>
+<path class="tick" d="M0 142h3M72 142h-3"/>
+<path class="tick" d="M0 166h3M72 166h-3"/>
+<path class="tick" d="M0 190.1h6M72 190.1h-6"/>
+<path class="tick" d="M0 214h3M72 214h-3"/>
+<path class="tick" d="M0 238h3M72 238h-3"/>
+<path class="tick" d="M0 262h3M72 262h-3"/>
+<path class="tick" d="M0 286.1h3M72 286.1h-3"/>
+<path class="tick" d="M0 310h9M72 310h-9"/>
+<path class="tick" d="M0 334h3M72 334h-3"/>
+<path class="tick" d="M0 358h3M72 358h-3"/>
+<path class="tick" d="M0 382.1h3M72 382.1h-3"/>
+<path class="tick" d="M0 406h3M72 406h-3"/>
+<path class="tick" d="M0 430h6M72 430h-6"/>
+<path class="tick" d="M0 454h3M72 454h-3"/>
+<path class="tick" d="M0 478.1h3M72 478.1h-3"/>
+<path class="tick" d="M0 502h3M72 502h-3"/>
+<path class="tick" d="M0 526h3M72 526h-3"/>
+<path class="tick" d="M0 550h9M72 550h-9"/>
+<path class="tick" d="M0 574.1h3M72 574.1h-3"/>
+<path class="tick" d="M0 598h3M72 598h-3"/>
+<path class="tick" d="M0 622h3M72 622h-3"/>
+<path class="tick" d="M0 646h3M72 646h-3"/>
+<path class="tick" d="M0 670.1h6M72 670.1h-6"/>
+<path class="tick" d="M0 694h3M72 694h-3"/>
+<path class="tick" d="M0 718h3M72 718h-3"/>
+<path class="tick" d="M0 742h3M72 742h-3"/>
+<path class="tick" d="M0 766.1h3M72 766.1h-3"/>
+<path class="tick" d="M0 790h9M72 790h-9"/>
+<path class="tick" d="M0 814h3M72 814h-3"/>
+<path class="tick" d="M0 838h3M72 838h-3"/>
+<path class="tick" d="M0 862.1h3M72 862.1h-3"/>
+<path class="tick" d="M0 886h3M72 886h-3"/>
+<path class="tick" d="M0 910h6M72 910h-6"/>
+<path class="tick" d="M0 934h3M72 934h-3"/>
+<path class="tick" d="M0 958.1h3M72 958.1h-3"/>
+<path class="tick" d="M0 982.1h3M72 982.1h-3"/>
+<path class="tick" d="M0 1006h3M72 1006h-3"/>
+<path class="tick" d="M0 1030h9M72 1030h-9"/>
+<path class="tick" d="M0 1054.1h3M72 1054.1h-3"/>
+<path class="tick" d="M0 1078.1h3M72 1078.1h-3"/>
+<path class="tick" d="M0 1102h3M72 1102h-3"/>
+<path class="tick" d="M0 1126h3M72 1126h-3"/>
+<path class="tick" d="M0 1150.1h6M72 1150.1h-6"/>
+<path class="tick" d="M0 1174.1h3M72 1174.1h-3"/>
+<path class="tick" d="M0 1198h3M72 1198h-3"/>
+<path class="tick" d="M0 1222h3M72 1222h-3"/>
+<path class="tick" d="M0 1246.1h3M72 1246.1h-3"/>
+<path class="tick" d="M0 1270.1h9M72 1270.1h-9"/>
+<path class="tick" d="M0 1294h3M72 1294h-3"/>
+<path class="tick" d="M0 1318h3M72 1318h-3"/>
+<path class="tick" d="M0 1342.1h3M72 1342.1h-3"/>
+<path class="tick" d="M0 1366.1h3M72 1366.1h-3"/>
+<path class="tick" d="M0 1390h6M72 1390h-6"/>
+<path class="tick" d="M0 1414h3M72 1414h-3"/>
+<path class="tick" d="M0 1438.1h3M72 1438.1h-3"/>
+<path class="tick" d="M0 1462.1h3M72 1462.1h-3"/>
+<path class="tick" d="M0 1486h3M72 1486h-3"/>
+<path class="tick" d="M0 1510h9M72 1510h-9"/>
+<path class="tick" d="M0 1534.1h3M72 1534.1h-3"/>
+<path class="tick" d="M0 1558.1h3M72 1558.1h-3"/>
+<path class="tick" d="M0 1582h3M72 1582h-3"/>
+<path class="tick" d="M0 1606h3M72 1606h-3"/>
+<path class="tick" d="M0 1630.1h6M72 1630.1h-6"/>
+<path class="tick" d="M0 1654.1h3M72 1654.1h-3"/>
+<path class="tick" d="M0 1678h3M72 1678h-3"/>
+<path class="tick" d="M0 1702h3M72 1702h-3"/>
+<path class="tick" d="M0 1726.1h3M72 1726.1h-3"/>
+<path class="tick" d="M0 1750.1h9M72 1750.1h-9"/>
+<path class="tick" d="M0 1774.1h3M72 1774.1h-3"/>
+<path class="tick" d="M0 1798h3M72 1798h-3"/>
+<path class="tick" d="M0 1822.1h3M72 1822.1h-3"/>
+<path class="tick" d="M0 1846.1h3M72 1846.1h-3"/>
+<path class="tick" d="M0 1870.1h6M72 1870.1h-6"/>
+<path class="tick" d="M0 1894h3M72 1894h-3"/>
+<path class="tick" d="M0 1918.1h3M72 1918.1h-3"/>
+<path class="tick" d="M0 1942.1h3M72 1942.1h-3"/>
+<path class="tick" d="M0 1966.1h3M72 1966.1h-3"/>
+<path class="tick" d="M0 1990h9M72 1990h-9"/>
+<text class="dec-y" x="36" y="314.5" text-anchor="middle">1950</text>
+<text class="dec-w" x="36" y="328" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="36" y="554.5" text-anchor="middle">1960</text>
+<text class="dec-w" x="36" y="568" text-anchor="middle">昭和35年</text>
+<text class="dec-y" x="36" y="794.5" text-anchor="middle">1970</text>
+<text class="dec-w" x="36" y="808" text-anchor="middle">昭和45年</text>
+<text class="dec-y" x="36" y="1034.5" text-anchor="middle">1980</text>
+<text class="dec-w" x="36" y="1048" text-anchor="middle">昭和55年</text>
+<text class="dec-y" x="36" y="1514.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="36" y="1528" text-anchor="middle">平成12年</text>
+<text class="dec-y" x="36" y="1754.6" text-anchor="middle">2010</text>
+<text class="dec-w" x="36" y="1768.1" text-anchor="middle">平成22年</text>
+<text class="dec-y" x="36" y="1994.5" text-anchor="middle">2020</text>
+<text class="dec-w" x="36" y="2008" text-anchor="middle">令和2年</text>
+<text class="era-name" x="36" y="93" text-anchor="middle">昭和</text>
+<text class="era-date" x="36" y="107" text-anchor="middle">1926.12.25</text>
+<text class="era-name" x="36" y="1269.5" text-anchor="middle">平成</text>
+<text class="era-date" x="36" y="1283.5" text-anchor="middle">1989.1.8</text>
+<line class="axis" x1="86" x2="86" y1="70" y2="1991.2"/>
+<g class="term c-a" data-id="a0" data-person="a:女性の参政権と、選挙権年齢を20歳以上に">
+<title>女性の参政権と、選挙権年齢を20歳以上に　1945年12月17日</title>
+<circle class="dot f-blue" cx="86" cy="213.1" r="4"/>
+<text class="label" x="108" y="217.9"><tspan class="name">女性参政権</tspan><tspan class="yrs" dx="6">1945</tspan></text>
+</g>
+<g class="term c-a" data-id="a1" data-person="a:公職選挙法の施行">
+<title>公職選挙法の施行　1950年5月1日</title>
+<circle class="dot f-amber" cx="86" cy="317.9" r="4"/>
+<text class="label" x="108" y="322.8"><tspan class="name">公職選挙法</tspan><tspan class="yrs" dx="6">1950</tspan></text>
+</g>
+<g class="term c-a" data-id="a2" data-person="a:投票時間を午後8時まで延長（第30回総選挙だけ）">
+<title>投票時間を午後8時まで延長（第30回総選挙だけ）　1963年10月24日</title>
+<circle class="dot f-blue" cx="86" cy="641.5" r="4"/>
+<text class="label" x="108" y="646.3"><tspan class="name">投票時間の延長（衆）</tspan><tspan class="yrs" dx="6">1963</tspan></text>
+</g>
+<g class="term c-a" data-id="a3" data-person="a:投票時間を午後7時まで延長（第10回通常選挙だけ）">
+<title>投票時間を午後7時まで延長（第10回通常選挙だけ）　1974年7月7日</title>
+<circle class="dot f-red" cx="86" cy="898.3" r="4"/>
+<text class="label" x="108" y="903.2"><tspan class="name">投票時間の延長（参）</tspan><tspan class="yrs" dx="6">1974</tspan></text>
+</g>
+<g class="term c-a" data-id="a4" data-person="a:拘束名簿式比例代表制">
+<title>拘束名簿式比例代表制　1982年8月24日</title>
+<circle class="dot f-red" cx="86" cy="1093.5" r="4"/>
+<text class="label" x="108" y="1098.4"><tspan class="name">拘束名簿式</tspan><tspan class="yrs" dx="6">1982</tspan></text>
+</g>
+<g class="term c-a" data-id="a5" data-person="a:小選挙区比例代表並立制">
+<title>小選挙区比例代表並立制　1994年2月4日</title>
+<circle class="dot f-blue" cx="86" cy="1368.3" r="4"/>
+<text class="label" x="108" y="1373.2"><tspan class="name">小選挙区比例代表並立制</tspan><tspan class="yrs" dx="6">1994</tspan></text>
+</g>
+<g class="term c-a" data-id="a6" data-person="a:投票時間を午後8時までに延長">
+<title>投票時間を午後8時までに延長　1998年6月1日</title>
+<circle class="dot f-amber" cx="86" cy="1472" r="4"/>
+<text class="label" x="108" y="1476.8"><tspan class="name">投票時間の延長</tspan><tspan class="yrs" dx="6">1998</tspan></text>
+</g>
+<g class="term c-a" data-id="a7" data-person="a:在外選挙（比例代表）">
+<title>在外選挙（比例代表）　2000年5月1日</title>
+<circle class="dot f-amber" cx="86" cy="1518" r="4"/>
+<path class="leader" d="M94.5 1518h4L104 1516.2h2"/>
+<text class="label" x="108" y="1521"><tspan class="name">在外選挙</tspan><tspan class="yrs" dx="6">2000</tspan></text>
+</g>
+<g class="term c-a" data-id="a8" data-person="a:比例代表を非拘束名簿式に">
+<title>比例代表を非拘束名簿式に　2000年11月21日</title>
+<circle class="dot f-red" cx="86" cy="1531.4" r="4"/>
+<path class="leader" d="M94.5 1531.4h4L104 1533.2h2"/>
+<text class="label" x="108" y="1538"><tspan class="name">非拘束名簿式</tspan><tspan class="yrs" dx="6">2000</tspan></text>
+</g>
+<g class="term c-a" data-id="a9" data-person="a:期日前投票">
+<title>期日前投票　2003年12月1日</title>
+<circle class="dot f-amber" cx="86" cy="1604" r="4"/>
+<text class="label" x="108" y="1608.9"><tspan class="name">期日前投票</tspan><tspan class="yrs" dx="6">2003</tspan></text>
+</g>
+<g class="term c-a" data-id="a10" data-person="a:在外選挙を選挙区にも">
+<title>在外選挙を選挙区にも　2007年6月1日</title>
+<circle class="dot f-amber" cx="86" cy="1688" r="4"/>
+<text class="label" x="108" y="1692.8"><tspan class="name">在外選挙の拡大</tspan><tspan class="yrs" dx="6">2007</tspan></text>
+</g>
+<g class="term c-a" data-id="a11" data-person="a:インターネットを使う選挙運動の解禁">
+<title>インターネットを使う選挙運動の解禁　2013年5月26日</title>
+<circle class="dot f-amber" cx="86" cy="1831.6" r="4"/>
+<text class="label" x="108" y="1836.5"><tspan class="name">ネット選挙</tspan><tspan class="yrs" dx="6">2013</tspan></text>
+</g>
+<g class="term c-a" data-id="a12" data-person="a:参議院の合区">
+<title>参議院の合区　2015年11月5日</title>
+<circle class="dot f-red" cx="86" cy="1890.3" r="4"/>
+<text class="label" x="108" y="1894.1"><tspan class="name">合区</tspan><tspan class="yrs" dx="6">2015</tspan></text>
+</g>
+<g class="term c-a" data-id="a13" data-person="a:選挙権年齢を18歳以上に">
+<title>選挙権年齢を18歳以上に　2016年6月19日</title>
+<circle class="dot f-amber" cx="86" cy="1905.2" r="4"/>
+<text class="label" x="108" y="1911.1"><tspan class="name">18歳選挙権</tspan><tspan class="yrs" dx="6">2016</tspan></text>
+</g>
+<g class="term c-a" data-id="a14" data-person="a:参議院の比例代表の特定枠">
+<title>参議院の比例代表の特定枠　2018年10月25日</title>
+<circle class="dot f-red" cx="86" cy="1961.6" r="4"/>
+<text class="label" x="108" y="1966.4"><tspan class="name">特定枠</tspan><tspan class="yrs" dx="6">2018</tspan></text>
+</g>
+<text class="foot" x="380" y="2021.2" text-anchor="middle">出典：総務省「国政選挙における投票率の推移」（グラフの注記）、衆議院「制定法律」（各法律の本文と附則。各行のリンク先）、衆議院「国会議員定数の変遷」、総務省「期日前投票制度の創設について」、総務省「在外選挙制度について」、国立国会図書館「日本法令索引」（衆議院議員選挙法中改正法律、昭和20年法律第42号）、国立公文書館「日本のあゆみ」（衆議院議員選挙法が改正され、婦人参政権が認められる）　2026年10月31日時点</text>
+</svg>

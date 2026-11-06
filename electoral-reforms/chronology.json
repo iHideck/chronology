@@ -1,0 +1,42 @@
+{
+  "title": "選挙制度の変更（1945年〜）",
+  "short": "制度の変更",
+  "description": "戦後の衆議院・参議院の選挙制度と投票のしかたの主な変更（女性参政権、比例代表制、小選挙区比例代表並立制、投票時間の延長、期日前投票、18歳選挙権など）を、法令の施行日で並べた年表。",
+  "category": "政治と首脳",
+  "order": 56,
+  "color": "amber",
+  "colorBy": "group",
+  "data": {
+    "file": "electoral-reforms.csv",
+    "columns": {
+      "name": "名前",
+      "short": "略称",
+      "start": "日付",
+      "group": "区分",
+      "url": "リンク"
+    },
+    "groups": {
+      "衆議院": { "color": "blue" },
+      "参議院": { "color": "red" },
+      "両院": { "color": "amber" }
+    },
+    "points": true,
+    "nameLabel": "変更",
+    "startLabel": "日付"
+  },
+  "sources": [
+    { "title": "総務省「国政選挙における投票率の推移」（グラフの注記）", "url": "https://www.soumu.go.jp/main_content/000255919.pdf" },
+    { "title": "衆議院「制定法律」（各法律の本文と附則。各行のリンク先）" },
+    { "title": "衆議院「国会議員定数の変遷」", "url": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/ugoki/h14ugoki/h14tokei/h14tou01.htm" },
+    { "title": "総務省「期日前投票制度の創設について」", "url": "https://www.soumu.go.jp/senkyo/senkyo_s/news/touhyou/kijitsumae/index.html" },
+    { "title": "総務省「在外選挙制度について」", "url": "https://www.soumu.go.jp/senkyo/hoho.html" },
+    { "title": "国立国会図書館「日本法令索引」（衆議院議員選挙法中改正法律、昭和20年法律第42号）", "url": "https://hourei.ndl.go.jp/simple/detail?lawId=0000037435&current=-1" },
+    { "title": "国立公文書館「日本のあゆみ」（衆議院議員選挙法が改正され、婦人参政権が認められる）", "url": "https://www.archives.go.jp/ayumi/kobetsu/s20_1945_06.html" }
+  ],
+  "notes": [
+    "点の位置は法令の施行日。施行日を確かめられなかった1945年の衆議院議員選挙法の改正と1994年の小選挙区比例代表並立制は公布日に、根拠の法令を確かめられなかった1974年の投票時間の延長は投票日に置いた。",
+    "施行日のうち、附則に「公布の日から起算して…を経過した日から施行する」とあるものは、その定めから数えた日付。",
+    "両院にかかわる変更は、院ごとに初めて適用した選挙が違う。初めて適用した選挙は、総務省の投票率の資料の注記、各法律の附則、選挙の日付から確かめた。",
+    "1963年と1974年の投票時間の延長は、その選挙だけのもの。1974年の延長（1時間延長、午後7時まで）は、総務省の投票率の資料の注記による。"
+  ]
+}
