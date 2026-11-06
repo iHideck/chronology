@@ -59,12 +59,16 @@
     "columns": [
       {
         "id": "jp", "data": "prime-ministers", "side": "left", "title": "日本の内閣総理大臣", "short": "総理", "counterLabel": "総理",
-        "color": "red", "photos": true, "fixed": true, "counter": ["us", "cn", "kr", "ru", "ukpm", "uk", "fr", "de", "it", "ldp"],
+        "color": "red", "photos": true, "fixed": true, "counter": ["us", "cn", "kr", "ru", "ukpm", "uk", "fr", "de", "it", "ldp", "shu", "san"],
         "gapText": "臨時兼任・代理の期間",
         "lead": { "name": "内閣制度発足前", "until": "1885-12-22", "text": "1885年12月22日に内閣制度が発足し、伊藤博文が初代の内閣総理大臣に就任しました。それまでは太政官制のもとで政治が行われていました。" }
       },
       { "id": "ldp", "data": "ldp-presidents", "side": "left", "title": "自由民主党総裁", "short": "自民党総裁", "counterLabel": "自民党総裁", "mark": "総裁", "narrowHidden": true, "colorBy": "group", "labels": "none", "bar": 6, "counter": ["jp"] },
       { "id": "econ", "data": "business-cycles", "side": "left", "title": "景気の波（内閣府「景気基準日付」）", "short": "景気", "mark": "景気", "narrowHidden": true, "colorBy": "group", "labels": "none", "bar": 6 },
+      { "id": "shu", "data": "elections", "group": "衆議院", "side": "left", "title": "衆議院の与党の議席", "short": "衆の与党", "mark": "衆", "counterLabel": "総選挙", "color": "blue", "labels": "none", "bar": 16, "hidden": true, "narrowHidden": true, "counter": ["jp"], "gapText": "解散から総選挙まで",
+        "share": { "value": "与党の議席", "total": "定数", "breakdown": "与党の内訳", "labels": ["首相の党", "ほかの与党", "与党以外"], "lines": [{ "at": 0.5, "label": "½", "name": "過半数" }] } },
+      { "id": "san", "data": "elections", "group": "参議院", "side": "left", "title": "参議院の与党の議席", "short": "参の与党", "mark": "参", "counterLabel": "通常選挙", "color": "red", "labels": "none", "bar": 16, "hidden": true, "narrowHidden": true, "counter": ["jp"],
+        "share": { "value": "与党の議席", "total": "定数", "breakdown": "与党の内訳", "labels": ["首相の党", "ほかの与党", "与党以外"], "lines": [{ "at": 0.5, "label": "½", "name": "過半数" }] } },
       { "id": "us", "data": "us-presidents", "side": "right", "title": "アメリカ合衆国大統領", "short": "米国", "mark": "米", "counterLabel": "米大統領", "color": "blue", "photos": true, "counter": ["jp"] },
       { "id": "cn", "data": "china-leaders", "side": "right", "title": "中国の最高指導者", "short": "中国", "mark": "中", "counterLabel": "中国の指導者", "color": "amber", "narrowHidden": true, "counter": ["jp"] },
       { "id": "kr", "data": "korea-leaders", "side": "right", "title": "韓国の首脳", "short": "韓国", "mark": "韓", "counterLabel": "韓国の首脳", "color": "amber", "narrowHidden": true, "counter": ["jp"], "gapText": "日本統治・米軍政の時期" },
@@ -76,6 +80,6 @@
       { "id": "it", "data": "italy-prime-ministers", "side": "right", "title": "イタリアの首相", "short": "イタリア", "mark": "伊", "counterLabel": "イタリアの首相", "color": "green", "narrowHidden": true, "counter": ["jp"] },
       { "id": "ev", "data": "events", "side": "right", "title": "戦争・大きな出来事", "short": "出来事", "mark": "事", "narrowHidden": true, "hideBelow": 1500, "colorBy": "group", "bar": 6, "counter": ["jp"] }
     ],
-    "preview": { "width": 1100, "hidden": ["ev"] }
+    "preview": { "width": 1100, "hidden": ["ev", "shu", "san"] }
   }
 }

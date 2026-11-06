@@ -543,7 +543,7 @@ export function layout(model, opts = {}) {
   // ---- 列
   const hidden = opts.hidden ?? new Set();
   const cols = model.columns.filter((c) => !hidden.has(c.id)).map((c) => {
-    const barW = c.chart ? (narrow ? 96 : 150) : c.share ? (narrow ? 40 : 64) : c.bar ?? (c.labels === 'inside' ? (narrow ? 18 : 22) : (narrow ? 10 : 14));
+    const barW = c.chart ? (narrow ? 96 : 150) : c.share ? c.bar ?? (narrow ? 40 : 64) : c.bar ?? (c.labels === 'inside' ? (narrow ? 18 : 22) : (narrow ? 10 : 14));
     const laneGap = 2;
     return {
       c, side: g.spinePos === 'left' ? 'right' : c.side ?? 'right',

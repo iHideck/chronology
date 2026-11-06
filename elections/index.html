@@ -911,7 +911,7 @@ export function layout(model, opts = {}) {
   // ---- 列
   const hidden = opts.hidden ?? new Set();
   const cols = model.columns.filter((c) => !hidden.has(c.id)).map((c) => {
-    const barW = c.chart ? (narrow ? 96 : 150) : c.share ? (narrow ? 40 : 64) : c.bar ?? (c.labels === 'inside' ? (narrow ? 18 : 22) : (narrow ? 10 : 14));
+    const barW = c.chart ? (narrow ? 96 : 150) : c.share ? c.bar ?? (narrow ? 40 : 64) : c.bar ?? (c.labels === 'inside' ? (narrow ? 18 : 22) : (narrow ? 10 : 14));
     const laneGap = 2;
     return {
       c, side: g.spinePos === 'left' ? 'right' : c.side ?? 'right',
@@ -1994,7 +1994,8 @@ function fillTip(t) {
     for (const id of t.counter) {
       const x = model.byId.get(id);
       if (x.col !== oid) continue;
-      if (!names.includes(x.short)) names.push(x.short);
+      const label = o.share && x.share ? `${x.short}（与党 ${x.share.value}/${x.share.total}）` : x.short;
+      if (!names.includes(label)) names.push(label);
     }
     const w = line('with', names.join('、') || '—');
     w.prepend(el('span', '', `同じ時期の${o.counterLabel ?? o.short ?? o.title}`));
