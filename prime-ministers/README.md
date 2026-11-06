@@ -2,7 +2,7 @@
 
 1868年（明治元年）から今日までの、日本の内閣総理大臣の在任期間を、顔写真つきで、アメリカ・中国・韓国・ソ連／ロシア・イギリス・フランス・ドイツの首脳や、自民党総裁、景気の波、大きな出来事と同じ時間軸に並べた年表です。
 
-**動く版：[ihideck.github.io/chronology/prime-ministers](https://ihideck.github.io/chronology/prime-ministers/)**　名前にカーソルを合わせると、在任日数や同じ時期の各国の首脳が出ます。
+**動く版：[ihideck.github.io/chronology/prime-ministers](https://ihideck.github.io/chronology/prime-ministers/)**　名前にカーソルを合わせると、肖像や在任日数、同じ時期の各国の首脳が出ます。
 
 ## 見かた
 
@@ -126,4 +126,5 @@
 
 - 総理大臣の顔写真：「歴代内閣」（首相官邸ホームページ）（https://www.kantei.go.jp/jp/rekidainaikaku/index.html）を加工して作成（円形に切り抜き・縮小）（[公共データ利用規約（第1.0版）](https://www.digital.go.jp/resources/open_data/public_data_license_v1.0)）
 - 大統領の肖像：Wikimedia Commons の画像を円形に切り抜き・縮小して使用。フランクリン・ルーズベルトの肖像（Leon Perskie）だけが CC BY 2.0 で、ほかはパブリックドメイン。画像ごとの作者とページは、吹き出しと README の「写真の出典」に載せています（[CC BY 2.0（フランクリン・ルーズベルトの肖像）](https://creativecommons.org/licenses/by/2.0/deed.ja)）
+- 肖像（中国、韓国、ソ連・ロシア、英国、フランス、ドイツ）：Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています
 <!-- ここまで -->

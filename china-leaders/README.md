@@ -77,4 +77,36 @@
 - [日本語版 Wikipedia「蔣介石」](https://ja.wikipedia.org/wiki/蔣介石)
 - [日本語版 Wikipedia「中華人民共和国の最高指導者一覧」](https://ja.wikipedia.org/wiki/中華人民共和国の最高指導者一覧)
 - [英語版 Wikipedia「Paramount leader」](https://en.wikipedia.org/wiki/Paramount_leader)
+
+- 肖像：Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています
+
+### 写真の出典
+
+- 同治帝：清の宮廷画家（作者不明）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E7%A9%86%E5%AE%97%E5%90%8C%E6%B2%BB%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg)）
+- 光緒帝：清の宮廷画家（作者不明）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:The_Imperial_Portrait_of_Emperor_Guangxu2.jpg)）
+- 宣統帝（溥儀）：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:%E6%BA%A5%E4%BB%AA.jpg)）
+- 孫文：上海波尔照相馆・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg)）
+- 袁世凱：Rio V. De Sieux・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:YuanShikaiPresidente1915.jpg)）
+- 黎元洪：B. L. Putnam Weale『The Fight for the Republic in China』（1917年）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:RetartoDeLiYuanhongLibroDePutnamWeale_%289to12%29.jpg)）
+- 馮国璋：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Feng_Kuo-chang.jpg)）
+- 徐世昌：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:%E5%BE%90%E4%B8%96%E6%98%8C.jpg)）
+- 周自斉：东京长谷川写真馆・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:%E5%91%A8%E8%87%AA%E9%BD%90.png)）
+- 高凌霨：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:%E9%AB%98%E5%87%8C%E9%9C%A8.jpg)）
+- 曹錕：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Cao_Kun.jpg)）
+- 黄郛：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Huang_Fu_03_%28cropped%29.JPG)）
+- 段祺瑞：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:DuanQirui.jpg)）
+- 胡惟徳：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Hu_Weide.jpg)）
+- 顔恵慶：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Dr.W.W.Yan.jpg)）
+- 杜錫珪：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Du_Xigui.jpg)）
+- 顧維鈞：Nationaal Archief / Anefo・CC BY-SA 3.0 NL（[画像のページ](https://commons.wikimedia.org/wiki/File:Wellington_Koo_1945.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/nl/deed.ja)）
+- 張作霖：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Zhang_Zuolin3.jpg)）
+- 譚延闓：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Tan_Yankai.jpg)）
+- 蒋介石：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Chiang_Kai-shek_portrait_%28February,_1951%29.jpg)）
+- 李宗仁：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Li_Zongren4.jpg)）
+- 毛沢東：Chen Zhengqing (1917–1966)・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Mao_Tse_Tung.jpg)）
+- 華国鋒：Bibliothèque de l'Hôtel de Ville（パリ）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Hua_Guofeng.jpg)）
+- 鄧小平：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Deng_Xiaoping_at_the_arrival_ceremony_for_the_Vice_Premier_of_China_%28cropped%29.jpg)）
+- 江沢民：Kremlin.ru / Roman Kubanskiy・CC BY 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Jiang_Zemin_2002.jpg)・[ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)）
+- 胡錦濤：Pete Souza・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Hu_Jintao_at_White_House_2011.jpg)）
+- 習近平：Presidencia de la República del Ecuador・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Xi_Jinping_on_August_18,_2026_%28cropped%29.jpg)）
 <!-- ここまで -->

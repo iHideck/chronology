@@ -109,4 +109,47 @@
 - [日本語版 Wikipedia「ドイツ社会主義統一党」](https://ja.wikipedia.org/wiki/ドイツ社会主義統一党)
 - [ドイツ語版 Wikipedia「Egon Krenz」](https://de.wikipedia.org/wiki/Egon_Krenz)
 - [英語版 Wikipedia「List of presidents of Germany」](https://en.wikipedia.org/wiki/List_of_presidents_of_Germany)
+
+- 肖像：Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています
+
+### 写真の出典
+
+- オットー・フォン・ビスマルク：Jacques Pilartz・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-2005-0057,_Otto_von_Bismarck.jpg)）
+- レオ・フォン・カプリヴィ：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Graf_Leopold_von_Caprivi_cropped2.jpg)）
+- クロートヴィヒ・ツー・ホーエンローエ＝シリングスフュルスト：Philip de László・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Hohenlohe-Schillingsf%C3%BCrst,_Chlodwig_F%C3%BCrst_zu_1899.jpg)）
+- ベルンハルト・フォン・ビューロー：Gebrüder Hirsch, Karlsruhe・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Bernhard_von_B%C3%BClow_%28Hirsch%29.png)）
+- テオバルト・フォン・ベートマン・ホルヴェーク：Nicola Perscheid・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1970-023-03,_Theobald_von_Bethmann-Hollweg.jpg)）
+- ゲオルク・ミヒャエリス：Bundesarchiv, Bild 183-2004-0720-500・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-2004-0720-500,_Georg_Michaelis.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- ゲオルク・フォン・ヘルトリング：Bruckmann, F.・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Georg_von_Hertling_%28cropped%29.jpeg)）
+- マクシミリアン・フォン・バーデン：T. H. Voigt・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Prince_Max_of_Baden,_1902.jpg)）
+- フリードリヒ・エーベルト：Hermann Noack・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Friedrich_Ebert_LCCN2014711530_Trim.jpg)）
+- フィリップ・シャイデマン：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1979-122-29A,_Philipp_Scheidemann.jpg)）
+- グスタフ・バウアー：Bundesarchiv, Bild 183-J0113-0500-001・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-J0113-0500-001,_Gustav_Bauer.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- ヘルマン・ミュラー：Bundesarchiv, Bild 146-1979-122-28A・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1979-122-28A,_Hermann_M%C3%BCller%28cropped%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- コンスタンティン・フェーレンバッハ：Bundesarchiv, Bild 183-R18733・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R18733,_Constantin_Fehrenbach.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- ヨーゼフ・ヴィルト：Bundesarchiv, Bild 146III-105・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146III-105,_Joseph_Wirth.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- ヴィルヘルム・クーノ：Bundesarchiv, Bild 183-2002-0625-505・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-2002-0625-505,_Dr._Wilhelm_Cuno_%28cropped%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- グスタフ・シュトレーゼマン：Bundesarchiv, Bild 146-1989-040-27・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1989-040-27,_Gustav_Stresemann.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- ヴィルヘルム・マルクス：Bain News Service・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Reichskanzler_Wilhelm_Marx_%28cropped%29.jpg)）
+- ハンス・ルター：Bundesarchiv, Bild 146-1969-008A-07・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1969-008A-07,_Hans_Luther.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- ハインリヒ・ブリューニング：Bundesarchiv, Bild 183-1989-0630-504・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1989-0630-504,_Heinrich_Br%C3%BCning.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- フランツ・フォン・パーペン：Bundesarchiv, Bild 183-1988-0113-500・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1988-0113-500,_Franz_v._Papen_%28cropped%29%282%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- クルト・フォン・シュライヒャー：Bundesarchiv, Bild 183-B0527-0001-020・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B0527-0001-020,_Kurt_von_Schleicher.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- アドルフ・ヒトラー：Bundesarchiv, Bild 183-S33882・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Adolf_Hitler_cropped_restored_3x4.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- カール・デーニッツ：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Karl_D%C3%B6nitz.jpg)）
+- コンラート・アデナウアー：CDU, Fotograf: Peter Bouserath・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Konrad_Adenauer_-_14._CDU-Bundesparteitag-kasf0095.JPG)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- ヴァルター・ウルブリヒト：Bundesarchiv, Bild 183-J1231-1002-002 / Spremberg, Joachim・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-J1231-1002-002_Walter_Ulbricht,_Neujahrsansprache.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- ルートヴィヒ・エアハルト：Bundesarchiv, B 145 Bild-F004204-0003 / Adrian, Doris・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F004204-0003,_Ludwig_Erhard_mit_seinem_Buch.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- クルト・ゲオルク・キージンガー：Bundesarchiv, B 145 Bild-F029561-0008 / Schaack, Lothar・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F029561-0008,_Essen,_CDU-Bundestagswahlkongress_%28cropped%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- ヴィリー・ブラント：Bundesarchiv, B 145 Bild-F057884-0009 / Engelbert Reineke・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F057884-0009,_Willy_Brandt.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- エーリッヒ・ホーネッカー：Bundesarchiv, Bild 183-R1220-401・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R1220-401,_Erich_Honecker.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- ヘルムート・シュミット：Fotograf Hans Schafgans, 1977・CC BY-SA 2.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundeskanzler_Helmut_Schmidt.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/2.0/deed.ja)）
+- ヘルムート・コール：© European Communities, 1996・CC BY 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Helmut_Kohl_%281996%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)）
+- エゴン・クレンツ：Bundesarchiv, Bild 183-1989-1018-037・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1989-1018-037,_Egon_Krenz.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- ハンス・モドロウ：Blömke/Kosinsky/Tschöpe・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:DIE_LINKE_Bundesparteitag_Mai_2014_Modrow,_Hans.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- ロタール・デメジエール：Henryk Plötz・CC BY-SA 3.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Lothar_de_Maizi%C3%A8re_2011.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/deed.ja)）
+- ゲアハルト・シュレーダー：Primeminister.kz・CC BY 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:%D0%93%D0%B5%D1%80%D1%85%D0%B0%D1%80%D0%B4_%D0%A8%D1%80%D0%B5%D0%B4%D0%B5%D1%80_%2805-12-2019%29_%28cropped%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)）
+- アンゲラ・メルケル：EU2017EE Estonian Presidency・CC BY 2.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Angela_Merkel._Tallinn_Digital_Summit.jpg)・[ライセンス](https://creativecommons.org/licenses/by/2.0/deed.ja)）
+- オラフ・ショルツ：Steffen Prößdorf・CC BY-SA 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Olaf_Scholz_2025.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)）
+- フリードリヒ・メルツ：Sandro Halank, Wikimedia Commons・CC BY-SA 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93070.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)）
 <!-- ここまで -->

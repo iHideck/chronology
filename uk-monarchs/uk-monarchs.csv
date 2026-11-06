@@ -1,11 +1,11 @@
-名前,略称,開始日,終了日,王朝,リンク
-ジョージ3世,ジョージ3世,1760-10-25,1820-01-29,ハノーヴァー朝,https://ja.wikipedia.org/wiki/ジョージ3世_(イギリス王)
-ジョージ4世,ジョージ4世,1820-01-29,1830-06-26,ハノーヴァー朝,https://ja.wikipedia.org/wiki/ジョージ4世_(イギリス王)
-ウィリアム4世,ウィリアム4世,1830-06-26,1837-06-20,ハノーヴァー朝,https://ja.wikipedia.org/wiki/ウィリアム4世_(イギリス王)
-ヴィクトリア女王,ヴィクトリア,1837-06-20,1901-01-22,ハノーヴァー朝,https://ja.wikipedia.org/wiki/ヴィクトリア_(イギリス女王)
-エドワード7世,エドワード7世,1901-01-22,1910-05-06,サクス＝コバーグ＝ゴータ朝,https://ja.wikipedia.org/wiki/エドワード7世
-ジョージ5世,ジョージ5世,1910-05-06,1936-01-20,サクス＝コバーグ＝ゴータ朝（1917年にウィンザー朝と改称）,https://ja.wikipedia.org/wiki/ジョージ5世_(イギリス王)
-エドワード8世,エドワード8世,1936-01-20,1936-12-11,ウィンザー朝,https://ja.wikipedia.org/wiki/エドワード8世
-ジョージ6世,ジョージ6世,1936-12-11,1952-02-06,ウィンザー朝,https://ja.wikipedia.org/wiki/ジョージ6世
-エリザベス2世,エリザベス2世,1952-02-06,2022-09-08,ウィンザー朝,https://ja.wikipedia.org/wiki/エリザベス2世
-チャールズ3世,チャールズ3世,2022-09-08,,ウィンザー朝,https://ja.wikipedia.org/wiki/チャールズ3世_(イギリス王)
+名前,略称,開始日,終了日,王朝,リンク,Wikidata,写真,写真の出典,写真のページ,写真のライセンス
+ジョージ3世,ジョージ3世,1760-10-25,1820-01-29,ハノーヴァー朝,https://ja.wikipedia.org/wiki/ジョージ3世_(イギリス王),Q127318,photos/Q127318.jpg,Allan Ramsay・パブリックドメイン,https://commons.wikimedia.org/wiki/File:Allan_Ramsay_(1713-84)_-_George_III_(1738-1820)_-_RCIN_405307_-_Royal_Collection.jpg,
+ジョージ4世,ジョージ4世,1820-01-29,1830-06-26,ハノーヴァー朝,https://ja.wikipedia.org/wiki/ジョージ4世_(イギリス王),Q130586,photos/Q130586.jpg,Thomas Lawrence・パブリックドメイン,https://commons.wikimedia.org/wiki/File:George_IVcoronation.jpg,
+ウィリアム4世,ウィリアム4世,1830-06-26,1837-06-20,ハノーヴァー朝,https://ja.wikipedia.org/wiki/ウィリアム4世_(イギリス王),Q130822,photos/Q130822.jpg,Martin Archer Shee・パブリックドメイン,https://commons.wikimedia.org/wiki/File:William_IV_in_1833_by_Shee_cropped.jpg,
+ヴィクトリア女王,ヴィクトリア,1837-06-20,1901-01-22,ハノーヴァー朝,https://ja.wikipedia.org/wiki/ヴィクトリア_(イギリス女王),Q9439,photos/Q9439.jpg,Alexander Bassano・パブリックドメイン,https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg,
+エドワード7世,エドワード7世,1901-01-22,1910-05-06,サクス＝コバーグ＝ゴータ朝,https://ja.wikipedia.org/wiki/エドワード7世,Q20875,photos/Q20875.jpg,W. & D. Downey・パブリックドメイン,https://commons.wikimedia.org/wiki/File:King-Edward-VII_(cropped).jpg,
+ジョージ5世,ジョージ5世,1910-05-06,1936-01-20,サクス＝コバーグ＝ゴータ朝（1917年にウィンザー朝と改称）,https://ja.wikipedia.org/wiki/ジョージ5世_(イギリス王),Q269412,photos/Q269412.jpg,Bassano Ltd・パブリックドメイン,https://commons.wikimedia.org/wiki/File:King_George_1923_LCCN2014715558_(cropped).jpg,
+エドワード8世,エドワード8世,1936-01-20,1936-12-11,ウィンザー朝,https://ja.wikipedia.org/wiki/エドワード8世,Q590227,photos/Q590227.jpg,Angelo Laviosa（推定）・パブリックドメイン,https://commons.wikimedia.org/wiki/File:Duke_and_Duchess_of_Windsor_-_Google_Art_Project_(Duke_cropped).jpg,
+ジョージ6世,ジョージ6世,1936-12-11,1952-02-06,ウィンザー朝,https://ja.wikipedia.org/wiki/ジョージ6世,Q280856,photos/Q280856.jpg,Matson Photo Service・パブリックドメイン,https://commons.wikimedia.org/wiki/File:King_George_VI_LOC_matpc.14736_A_(cropped).jpg,
+エリザベス2世,エリザベス2世,1952-02-06,2022-09-08,ウィンザー朝,https://ja.wikipedia.org/wiki/エリザベス2世,Q9682,photos/Q9682.jpg,Donald McKague・パブリックドメイン,https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg,
+チャールズ3世,チャールズ3世,2022-09-08,,ウィンザー朝,https://ja.wikipedia.org/wiki/チャールズ3世_(イギリス王),Q43274,photos/Q43274.jpg,White House・パブリックドメイン,https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg,

@@ -72,4 +72,25 @@
 - [日本語版 Wikipedia「国家再建最高会議」](https://ja.wikipedia.org/wiki/国家再建最高会議)
 - [国家記録院（국가기록원）「연표와 기록」1962年](https://theme.archives.go.kr/next/chronology/searchArchive.do?page=167)
 - [英語版 Wikipedia「United States Army Military Government in Korea」](https://en.wikipedia.org/wiki/United_States_Army_Military_Government_in_Korea)
+
+- 肖像：Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています
+
+### 写真の出典
+
+- 高宗：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Gojong_of_the_Korean_Empire_02.jpg)）
+- 純宗：岩田鼎・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Sunjong_of_the_Korean_Empire.jpg)）
+- 李承晩：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Rhee_Syng-Man_in_1948.jpg)）
+- 尹潽善：공보처 홍보국 사진담당관・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:%EC%9C%A4%EB%B3%B4%EC%84%A0_%EB%8C%80%ED%86%B5%EB%A0%B9_%EC%A1%B4%EC%98%812_%28cropped%29.jpg)）
+- 朴正煕：Korea.net / Korean Culture and Information Service・CC BY-SA 2.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Park_Chung_Hee_%28%EB%B0%95%EC%A0%95%ED%9D%AC%29_Presidential_Portrait.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/2.0/deed.ja)）
+- 崔圭夏：Korea.net / Korean Culture and Information Service・CC BY-SA 2.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Presidents_of_the_Republic_Of_Korea_%284261836786%29_Choi.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/2.0/deed.ja)）
+- 全斗煥：Korea.net / Korean Culture and Information Service・CC BY-SA 2.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Chun_Doo-hwan_%28%EC%A0%84%EB%91%90%ED%99%98%29_Presidential_Portrait.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/2.0/deed.ja)）
+- 盧泰愚：CHERIE A. THURLBY・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Roh_Tae-woo_-_cropped,_1989-Mar-13.jpg)）
+- 金泳三：대한민국 국가기록원・KOGL Type 1（[画像のページ](https://commons.wikimedia.org/wiki/File:Kim_Young-sam_presidential_portrait.jpg)・[ライセンス](http://www.kogl.or.kr/info/licenseType1.do)）
+- 金大中：대한민국 국가기록원・KOGL Type 1（[画像のページ](https://commons.wikimedia.org/wiki/File:Kim_Dae-jung_presidential_portrait.jpg)・[ライセンス](http://www.kogl.or.kr/info/licenseType1.do)）
+- 盧武鉉：대한민국 국가기록원・KOGL Type 1（[画像のページ](https://commons.wikimedia.org/wiki/File:Roh_Moo-hyun_presidential_portrait.jpg)・[ライセンス](http://www.kogl.or.kr/info/licenseType1.do)）
+- 李明博：대한민국 국가기록원・KOGL Type 1（[画像のページ](https://commons.wikimedia.org/wiki/File:Lee_Myung-bak_presidential_portrait.jpg)・[ライセンス](http://www.kogl.or.kr/info/licenseType1.do)）
+- 朴槿恵：대한민국 국가기록원・KOGL Type 1（[画像のページ](https://commons.wikimedia.org/wiki/File:Park_Geun-hye_presidential_portrait.png)・[ライセンス](http://www.kogl.or.kr/info/licenseType1.do)）
+- 文在寅：Government of the Republic of Korea・KOGL Type 1（[画像のページ](https://commons.wikimedia.org/wiki/File:President_Moon_Jae_In.jpg)・[ライセンス](http://www.kogl.or.kr/info/licenseType1.do)）
+- 尹錫悦：Office of the President of South Korea・CC BY-SA 3.0（[画像のページ](https://commons.wikimedia.org/wiki/File:South_Korea_President_Yoon_Suk_Yeol_portrait.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/deed.ja)）
+- 李在明：Korea.net / Korean Culture and Information Service・CC BY-SA 2.0（[画像のページ](https://commons.wikimedia.org/wiki/File:President_Lee_Jae-myung_2025_%28cropped%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/2.0/deed.ja)）
 <!-- ここまで -->

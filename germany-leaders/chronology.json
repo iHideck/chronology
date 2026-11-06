@@ -15,7 +15,11 @@
       "group": "区分",
       "lane": "段",
       "approx": "推定",
-      "url": "リンク"
+      "url": "リンク",
+      "photo": "写真",
+      "photoCredit": "写真の出典",
+      "photoUrl": "写真のページ",
+      "photoLicense": "写真のライセンス"
     },
     "groups": {
       "ドイツ帝国": {},
@@ -109,6 +113,14 @@
     {
       "title": "英語版 Wikipedia「List of presidents of Germany」",
       "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Germany"
+    }
+  ],
+  "credits": [
+    {
+      "title": "肖像",
+      "photos": true,
+      "short": "写真：Wikimedia Commons",
+      "text": "Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています"
     }
   ],
   "notes": [

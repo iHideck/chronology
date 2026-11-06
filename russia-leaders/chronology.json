@@ -14,7 +14,11 @@
       "short": "略称",
       "group": "区分",
       "approx": "推定",
-      "url": "リンク"
+      "url": "リンク",
+      "photo": "写真",
+      "photoCredit": "写真の出典",
+      "photoUrl": "写真のページ",
+      "photoLicense": "写真のライセンス"
     },
     "groups": {
       "ロシア帝国": {},
@@ -67,6 +71,14 @@
     {
       "title": "ロシア語版 Wikipedia「Временное правительство России」",
       "url": "https://ru.wikipedia.org/wiki/Временное_правительство_России"
+    }
+  ],
+  "credits": [
+    {
+      "title": "肖像",
+      "photos": true,
+      "short": "写真：Wikimedia Commons",
+      "text": "Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています"
     }
   ],
   "notes": [

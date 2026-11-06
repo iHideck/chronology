@@ -90,4 +90,40 @@
 - [フランス語版 Wikipedia「Gouvernement provisoire de la République française」](https://fr.wikipedia.org/wiki/Gouvernement_provisoire_de_la_République_française)
 - [フランス語版 Wikipedia「Intérim du président de la République française」](https://fr.wikipedia.org/wiki/Intérim_du_président_de_la_République_française)
 - [Wikidata（各人物の「役職（P39）」の開始日・終了日）](https://www.wikidata.org/wiki/Property:P39)
+
+- 肖像：Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています
+
+### 写真の出典
+
+- ナポレオン3世：Mayer & Peirson, France・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Napoleon_III_by_Mayer_%26_Pierson_c1860_%28cropped%29.png)）
+- ルイ・ジュール・トロシュ：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Crimean_War,_General_Louis_Trochu_%281854-56_Q71484%29.jpg)）
+- アドルフ・ティエール：Nadar・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Adolphe_Thiers_par_Nadar.jpg)）
+- パトリス・ド・マクマオン：Mayer et Pierson・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Le_mar%C3%A9chal_de_Mac_Mahon,_duc_de_Magenta_%E2%80%93_unframed.jpg)）
+- ジュール・グレヴィ：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Portrait_Jules_Gr%C3%A9vy.jpg)）
+- サディ・カルノー：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Portrait_officiel_de_Sadi_Carnot.jpg)）
+- ジャン・カジミール＝ペリエ：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Jean_Casimir-Perrier.jpg)）
+- フェリックス・フォール：Attributed to Nadar・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:President_F%C3%A9lix_Faure_%28cropped%29.jpg)）
+- エミール・ルーベ：Eugène Pirou・Licence Ouverte（[画像のページ](https://commons.wikimedia.org/wiki/File:%C3%89mile_Loubet.jpg)・[ライセンス](https://www.etalab.gouv.fr/licence-ouverte-open-licence)）
+- アルマン・ファリエール：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Armand_Falli%C3%A8res_Paris.jpg)）
+- レイモン・ポアンカレ：Harris & Ewing・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Raymond_Poincar%C3%A9_1914.jpg)）
+- ポール・デシャネル：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Portrait_officiel_P._Deschanel.jpg)）
+- アレクサンドル・ミルラン：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Alexandre_Millerand_%28cropped%29.jpg)）
+- ガストン・ドゥメルグ：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Gaston_Doumergue.jpg)）
+- ポール・ドゥメール：Agence de presse Meurisse・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Paul_Doumer_in_1931_%28cropped%29.jpg)）
+- アルベール・ルブラン：Agence de presse Meurisse・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Albert_Lebrun_1932_%282%29.jpg)）
+- シャルル・ド・ゴール：Bundesarchiv, B 145 Bild-F015892-0010 / Ludwig Wegmann・CC BY-SA 3.0 DE（[画像のページ](https://commons.wikimedia.org/wiki/File:Charles_de_Gaulle-1963.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/de/deed.ja)）
+- フィリップ・ペタン：Imprimerie Draeger・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:P%C3%A9tain_-_portrait_photographique.jpg)）
+- フェリックス・グーアン：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:F%C3%A9lix_Gouin_d%C3%A9put%C3%A9_SFIO_1936.jpg)）
+- ジョルジュ・ビドー：Nationaal Archief / Anefo・CC BY-SA 3.0 NL（[画像のページ](https://commons.wikimedia.org/wiki/File:Georges_Bidault.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/3.0/nl/deed.ja)）
+- レオン・ブルム：Agence de presse Meurisse・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:L%C3%A9on_Blum_Meurisse_b_1927.jpg)）
+- ヴァンサン・オリオール：Abbie Rowe・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:VincentAuriol_%28cropped%29.png)）
+- ルネ・コティ：SyntaxTerror・CC0（[画像のページ](https://commons.wikimedia.org/wiki/File:Ren%C3%A9_Coty_-_1954.jpg)・[ライセンス](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)）
+- アラン・ポエール：André Cros・CC BY-SA 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Alain_Poher_1969.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)）
+- ジョルジュ・ポンピドゥー：Farabola・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Georges_Pompidou_1969_%28cropped%29.jpg)）
+- ヴァレリー・ジスカール・デスタン：© European Communities, 1975・CC BY 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Val%C3%A9ry_Giscard_d%27Estaing_%281975%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)）
+- フランソワ・ミッテラン：Comet Photo AG (Zürich)・CC BY-SA 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:President_Fran%C3%A7ois_Mitterrand_in_1983.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)）
+- ジャック・シラク：© European Communities, 1997・CC BY 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Jacques_Chirac_%281997%29_%28cropped%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)）
+- ニコラ・サルコジ：European People's Party・CC BY 2.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Nicolas_Sarkozy_in_2010.jpg)・[ライセンス](https://creativecommons.org/licenses/by/2.0/deed.ja)）
+- フランソワ・オランド：João Pedro Correia・CC BY 2.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Hollande_-_2017_%2827869823159%29_%28cropped_2%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by/2.0/deed.ja)）
+- エマニュエル・マクロン：Nebojša Tejić・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Emmanuel_Macron_2025_%28cropped%29.jpg)）
 <!-- ここまで -->

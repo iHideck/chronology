@@ -40,4 +40,19 @@
 
 - [The Royal Family「Kings and Queens of the United Kingdom」](https://www.royal.uk/kings-and-queens-of-the-united-kingdom)
 - [List of British monarchs（Wikipedia）](https://en.wikipedia.org/wiki/List_of_British_monarchs)
+
+- 肖像：Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています
+
+### 写真の出典
+
+- ジョージ3世：Allan Ramsay・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Allan_Ramsay_%281713-84%29_-_George_III_%281738-1820%29_-_RCIN_405307_-_Royal_Collection.jpg)）
+- ジョージ4世：Thomas Lawrence・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:George_IVcoronation.jpg)）
+- ウィリアム4世：Martin Archer Shee・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:William_IV_in_1833_by_Shee_cropped.jpg)）
+- ヴィクトリア女王：Alexander Bassano・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg)）
+- エドワード7世：W. & D. Downey・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:King-Edward-VII_%28cropped%29.jpg)）
+- ジョージ5世：Bassano Ltd・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:King_George_1923_LCCN2014715558_%28cropped%29.jpg)）
+- エドワード8世：Angelo Laviosa（推定）・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Duke_and_Duchess_of_Windsor_-_Google_Art_Project_%28Duke_cropped%29.jpg)）
+- ジョージ6世：Matson Photo Service・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg)）
+- エリザベス2世：Donald McKague・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_%28retouched%29_%28cropped%29_%283-to-4_aspect_ratio%29.jpg)）
+- チャールズ3世：White House・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:King_Charles_III_%28July_2023%29.jpg)）
 <!-- ここまで -->

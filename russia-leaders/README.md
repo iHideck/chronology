@@ -64,4 +64,25 @@
 - [英語版 Wikipedia「List of heads of state of Russia」](https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Russia)
 - [英語版 Wikipedia「List of heads of government of Russia」](https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Russia)
 - [ロシア語版 Wikipedia「Временное правительство России」](https://ru.wikipedia.org/wiki/Временное_правительство_России)
+
+- 肖像：Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています
+
+### 写真の出典
+
+- アレクサンドル2世：Attributed to W. & D. Downey・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Zar_Alexander_II_%28cropped%29.jpg)）
+- アレクサンドル3世：Sergey Lvovich Levitsky・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Tsar_Alexander_III_c._1885.jpg)）
+- ニコライ2世：Boissonnas & Eggler・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Nicolas_II_de_russie.jpg)）
+- ゲオルギー・リヴォフ：Harris & Ewing・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Georgy_Lvov,_1919_LOC.jpg)）
+- アレクサンドル・ケレンスキー：Wide World Photos・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Alexandre_Fiodorovitch_Kerenski,_1881-1970_%28cropped%29.jpg)）
+- ウラジーミル・レーニン：Pavel Zhukov・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Vlad%C3%ADmir_Lenin_%28fotograf%C3%ADa_coloreada%29.jpg)）
+- ヨシフ・スターリン：Franklin D. Roosevelt Library・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:StalinCropped1943.jpg)）
+- ゲオルギー・マレンコフ：G. Weil for TASS・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:G.M._Malenkov_TASS_Portrait_Trim_Edit.jpg)）
+- ニキータ・フルシチョフ：TASS / distributed by Associated Press・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Nikita_Khrushchev_official_portrait.jpg)）
+- レオニード・ブレジネフ：Vladimir Musaelyan・CC0（[画像のページ](https://commons.wikimedia.org/wiki/File:Leonid_Brezjnev,_leider_van_de_Sovjet-Unie,_Bestanddeelnr_925-6564.jpg)・[ライセンス](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)）
+- ユーリ・アンドロポフ：TASS・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Yuri_Andropov.jpg)）
+- コンスタンティン・チェルネンコ：Associated Press・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A7%D0%B5%D1%80%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE.jpg)）
+- ミハイル・ゴルバチョフ：Leo Medvedev・CC BY-SA 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:GorbachevMS.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)）
+- ボリス・エリツィン：Kremlin.ru・CC BY 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87_%D0%95%D0%BB%D1%8C%D1%86%D0%B8%D0%BD-1_%28cropped%29_%28cropped%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)）
+- ウラジーミル・プーチン：Kremlin.ru・CC BY 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Putin_V_2026_08_10.png)・[ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)）
+- ドミートリー・メドヴェージェフ：government.ru・CC BY 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Dmitry_Medvedev_and_Li_Keqiang_20191101_%28cropped-2%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)）
 <!-- ここまで -->
