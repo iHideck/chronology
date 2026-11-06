@@ -223,6 +223,8 @@ body::before {
 .legend-row { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
 .legend-row .k { color: var(--muted); }
 .legend-row i { display: inline-block; width: 11px; height: 11px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.legend-row i.shape-circle { border-radius: 50%; }
+.legend-row i.shape-diamond { border-radius: 1px; transform: rotate(45deg) scale(0.8); }
 
 /* 年表 */
 .how { margin: 14px 0 6px; font-size: 13px; color: var(--muted); }
@@ -234,7 +236,8 @@ body::before {
 .tl.has-focus .term.is-focus, .tl.has-focus .term.is-counter { opacity: 1; }
 .tl .term.is-focus .name, .tl .term.is-now .name { font-weight: 700; }
 .tl .term:focus { outline: none; }
-.tl .term:focus-visible .bar, .tl .term:focus-visible .bar-open, .tl .term:focus-visible .bar-lead, .tl .term:focus-visible .dot, .tl .term:focus-visible .bar-hatch { stroke: var(--ink); stroke-width: 2; }
+.tl .term:focus-visible .bar, .tl .term:focus-visible .bar-open, .tl .term:focus-visible .bar-lead, .tl .term:focus-visible .dot, .tl .term:focus-visible .bar-hatch, .tl .term:focus-visible .mark { stroke: var(--ink); stroke-width: 2; }
+.tl .term.is-now .mark { stroke: var(--ink); }
 .tl .xhair { pointer-events: none; }
 .tl .xhair-line { stroke: var(--ink); stroke-width: 1; opacity: 0.45; }
 .tl .xhair-dot { stroke: var(--paper); stroke-width: 2; }
@@ -449,7 +452,9 @@ function buildLegend() {
     row.append(el('span', 'k', c.title));
     for (const [k, v] of groups) {
       const item = el('span');
-      item.append(swatch(v.color ?? 'gray'), k);
+      const sw = swatch(v.color ?? 'gray');
+      if (c.chart) sw.className = `shape-${shapeOf(c, { group: k })}`;
+      item.append(sw, k);
       row.append(item);
     }
     if (c.terms.some((t) => !t.group && !t.point)) {
@@ -600,7 +605,11 @@ function update() {
     }
     const list = termsAt(c, t);
     for (const x of list) now.add(x.id);
-    if (list.length) {
+    if (c.chart) {
+      const order = Object.keys(c.spec.groups ?? {});
+      const parts = [...list].sort((a, b) => order.indexOf(a.group) - order.indexOf(b.group)).map((x) => `${c.spec.groups?.[x.group]?.short ?? x.group} ${chartValueText(c, x)}`);
+      setWho(b, parts.join('・') || '—', !list.length);
+    } else if (list.length) {
       const names = list.map((x) => (c.spec.days === 'age' ? `${x.short}（${ageAt(t, x)}）` : x.short));
       setWho(b, names.length > 4 ? `${names.slice(0, 4).join('・')}ほか${names.length - 4}人` : names.join('・'), false);
     } else if (c.lead && t < c.lead.end) {
@@ -697,9 +706,14 @@ function fillTip(t) {
   if (t.reading) nm.append(' ', el('span', 'reading', t.reading));
   head.append(box);
   tip.append(head);
-  line('dates', `${rangeText(t, c.spec)}${!t.ongoing && !t.point && t.end > model.asOf ? '（予定）' : ''}${t.approx ? '（推定・諸説あり）' : ''}`);
-  const dur = durationText(t, c.spec, model.asOf);
-  if (dur) line('days', dur);
+  if (c.chart) {
+    line('dates', fmtStr(t.startStr));
+    line('days', `${c.title} ${chartValueText(c, t)}`);
+  } else {
+    line('dates', `${rangeText(t, c.spec)}${!t.ongoing && !t.point && t.end > model.asOf ? '（予定）' : ''}${t.approx ? '（推定・諸説あり）' : ''}`);
+    const dur = durationText(t, c.spec, model.asOf);
+    if (dur) line('days', dur);
+  }
   const p = c.persons.get(t.name);
   if (p.terms.length > 1 && (c.spec.days === 'inclusive' || c.spec.days === 'exclusive')) line('days', `通算 ${fmtNum(p.days)}日（${p.terms.length}回）`);
   if (c.colorBy === 'group' && t.group) {
@@ -707,6 +721,7 @@ function fillTip(t) {
     d.prepend(el('span', '', '区分'));
   }
   for (const [key, value] of t.details) {
+    if (c.chart && key === c.chart.value) continue;
     const d = line('detail', value);
     d.prepend(el('span', '', key));
   }
@@ -876,5 +891,5 @@ function buildTable(c) {
   sec.append(h, box);
   return sec;
 }
-$('#tables').append(...model.columns.map(buildTable));
+$('#tables').append(...model.columns.filter((c) => !c.chart).map(buildTable));
 </script>
