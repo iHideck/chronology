@@ -328,6 +328,11 @@ export function buildModel({ page, datasets, asOf }) {
   };
 }
 
+// 「党名 議席・党名 議席」の形の内訳。会派名に「・」が入ることがあるので、数字で区切る
+export function parseBreakdown(text) {
+  return [...String(text ?? '').matchAll(/(.+?)\s+(\d+)(?:・|$)/g)].map((m) => ({ name: m[1].trim(), seats: Number(m[2]) }));
+}
+
 // 数値の列（chart）。値の列が数でない項目は描かない。
 function placeOnChart(col) {
   for (const t of col.terms) {

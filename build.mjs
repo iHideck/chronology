@@ -74,6 +74,18 @@ for (const s of Object.values(sets)) {
       const v = r[col] ?? '';
       if (v !== '' && !(Number(v) >= lo && Number(v) <= hi)) problems.push(`${where}: ${col}「${v}」が${lo}〜${hi}の数ではありません`);
     }
+    for (const [col, limit] of Object.entries(spec.check?.atMost ?? {})) {
+      const v = r[col] ?? '';
+      const lim = r[limit] ?? '';
+      if (v !== '' && lim !== '' && !(Number(v) <= Number(lim))) problems.push(`${where}: ${col}「${v}」が${limit}「${lim}」を超えています`);
+    }
+    const bd = spec.check?.breakdown;
+    if (bd && (r[bd.column] ?? '') !== '') {
+      const parts = TL.parseBreakdown(r[bd.column]);
+      const sum = parts.reduce((s, p) => s + p.seats, 0);
+      if (!parts.length) problems.push(`${where}: ${bd.column}「${r[bd.column]}」を「名前 数・名前 数」の形で読めません`);
+      else if (String(sum) !== (r[bd.sum] ?? '')) problems.push(`${where}: ${bd.column}の合計（${sum}）が${bd.sum}「${r[bd.sum] ?? ''}」と合いません`);
+    }
     if (C.photo && r[C.photo] && !existsSync(join(root, dir, r[C.photo]))) problems.push(`${where}: 写真 ${r[C.photo]} がありません`);
     for (const col of [C.url, C.photoUrl, C.photoLicense]) {
       if (col && r[col] && !isWebUrl(r[col])) problems.push(`${where}: ${col}「${r[col]}」が http:// か https:// で始まっていません`);
