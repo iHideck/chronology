@@ -104,7 +104,7 @@
 <rect class="spine-b" x="0" y="3095.7" width="72" height="144"/>
 <rect class="spine-a" x="0" y="3239.8" width="72" height="620.4"/>
 <rect class="spine-b" x="0" y="3860.2" width="72" height="303.1"/>
-<rect class="spine-a" x="0" y="4163.3" width="72" height="87.3"/>
+<rect class="spine-a" x="0" y="4163.3" width="72" height="87.5"/>
 <line class="grid" x1="0" x2="760" y1="970" y2="970"/>
 <line class="grid" x1="0" x2="760" y1="2970" y2="2970"/>
 <line class="grid" x1="0" x2="760" y1="3470" y2="3470"/>
@@ -261,9 +261,9 @@
 <text class="era-date" x="36" y="3897.2" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="36" y="4186.3" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="4200.3" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="-4" x2="294.9" y1="4238.3" y2="4238.3"/>
-<text class="era-date" x="36" y="4252.3" text-anchor="middle">2026.10.31</text>
-<text class="era-date" x="36" y="4265.3" text-anchor="middle">時点</text>
+<line class="asof-line" x1="-4" x2="294.9" y1="4238.5" y2="4238.5"/>
+<text class="era-date" x="36" y="4252.5" text-anchor="middle">2026.11.6</text>
+<text class="era-date" x="36" y="4265.5" text-anchor="middle">時点</text>
 <g class="term c-mj" data-id="mj0" data-person="mj:初代 大橋宗桂">
 <title>初代 大橋宗桂　1612年 〜 1634年4月6日（保持 約22年）</title>
 <rect class="bar f-gray" x="79" y="91" width="14" height="220.6" rx="3"/>
@@ -470,8 +470,8 @@
 </g>
 <g class="term c-mj" data-id="mj39" data-person="mj:藤井聡太">
 <title>藤井聡太　2023年6月1日 〜 保持中（保持 約3年）</title>
-<linearGradient id="tl-g-mj39" gradientUnits="userSpaceOnUse" x1="0" y1="4216.3" x2="0" y2="4238.3"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M79 4208.1Q79 4205.1 82 4205.1H90Q93 4205.1 93 4208.1V4238.3Q93 4238.3 93 4238.3H79Q79 4238.3 79 4238.3Z" fill="url(#tl-g-mj39)"/>
+<linearGradient id="tl-g-mj39" gradientUnits="userSpaceOnUse" x1="0" y1="4216.5" x2="0" y2="4238.5"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 4208.1Q79 4205.1 82 4205.1H90Q93 4205.1 93 4208.1V4238.5Q93 4238.5 93 4238.5H79Q79 4238.5 79 4238.5Z" fill="url(#tl-g-mj39)"/>
 <text class="label" x="124" y="4217.5"><tspan class="name">藤井聡太</tspan><tspan class="yrs" dx="6">2023–</tspan></text>
 </g>
 <g class="term c-ry" data-id="ry0" data-person="ry:島朗">
@@ -576,10 +576,10 @@
 </g>
 <g class="term c-ry" data-id="ry17" data-person="ry:藤井聡太">
 <title>藤井聡太　2021年11月13日 〜 保持中（保持 約5年）</title>
-<linearGradient id="tl-g-ry17" gradientUnits="userSpaceOnUse" x1="0" y1="4216.3" x2="0" y2="4238.3"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M276.9 4192.7Q276.9 4189.7 279.9 4189.7H287.9Q290.9 4189.7 290.9 4192.7V4238.3Q290.9 4238.3 290.9 4238.3H276.9Q276.9 4238.3 276.9 4238.3Z" fill="url(#tl-g-ry17)"/>
+<linearGradient id="tl-g-ry17" gradientUnits="userSpaceOnUse" x1="0" y1="4216.5" x2="0" y2="4238.5"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M276.9 4192.7Q276.9 4189.7 279.9 4189.7H287.9Q290.9 4189.7 290.9 4192.7V4238.5Q290.9 4238.5 290.9 4238.5H276.9Q276.9 4238.5 276.9 4238.5Z" fill="url(#tl-g-ry17)"/>
 <path class="leader" d="M292.4 4197.2h4L301.9 4203.9h2"/>
 <text class="label" x="305.9" y="4208.7"><tspan class="name">藤井聡太</tspan><tspan class="yrs" dx="6">2021–</tspan></text>
 </g>
-<text class="foot" x="380" y="4280.6" text-anchor="middle">出典：日本将棋連盟「竜王戦」（第39期の七番勝負と過去の結果）、日本将棋連盟「竜王戦」各期の七番勝負（第21期〜第38期）、日本将棋連盟「名人戦・順位戦」、日本将棋連盟「第84期名人戦七番勝負」、日本将棋連盟「将棋の歴史」、Wikipedia「名人戦 (将棋)」、Wikipedia「竜王戦」、Wikipedia「名人 (将棋)」、Wikipedia「第1期名人戦 (将棋)」「第N期順位戦」「第N期竜王戦」など各期の記事　2026年10月31日時点</text>
+<text class="foot" x="380" y="4280.8" text-anchor="middle">出典：日本将棋連盟「竜王戦」（第39期の七番勝負と過去の結果）、日本将棋連盟「竜王戦」各期の七番勝負（第21期〜第38期）、日本将棋連盟「名人戦・順位戦」、日本将棋連盟「第84期名人戦七番勝負」、日本将棋連盟「将棋の歴史」、Wikipedia「名人戦 (将棋)」、Wikipedia「竜王戦」、Wikipedia「名人 (将棋)」、Wikipedia「第1期名人戦 (将棋)」「第N期順位戦」「第N期竜王戦」など各期の記事　2026年11月6日時点</text>
 </svg>

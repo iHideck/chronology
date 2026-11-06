@@ -735,13 +735,15 @@ function fillTip(t) {
   // 写真の出典。画像ごとの作者とライセンスがあればそれを、なければデータ全体の出典を出す
   if (t.photo && (t.photoCredit || c.spec.photoCredit)) {
     const p = line('credit', t.photoCredit ? `写真：${t.photoCredit}` : c.spec.photoCredit);
-    if (/^https?:\/\//i.test(t.photoUrl)) {
-      const a = el('a', '', '画像のページ');
-      a.href = t.photoUrl;
+    const links = [['画像のページ', t.photoUrl], ['ライセンス', t.photoLicense]].filter(([, url]) => /^https?:\/\//i.test(url));
+    links.forEach(([text, url], i) => {
+      const a = el('a', '', text);
+      a.href = url;
       a.target = '_blank';
       a.rel = 'noopener';
-      p.append('（', a, '）');
-    }
+      p.append(i ? '・' : '（', a);
+    });
+    if (links.length) p.append('）');
   }
 }
 

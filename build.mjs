@@ -35,6 +35,9 @@ const ONGOING = new Set(['継続中', '在任中', '現在']);
 const isDate = (s) => TL.parseDate(s) != null;
 // リンクにしてよいのは http(s) の URL だけ（javascript: などをページに書き出さない）
 const isWebUrl = (u) => /^https?:\/\//i.test(u ?? '');
+// 写真の出典は Commons から取った文と URL なので、README の Markdown のリンクや書式にならないようにする
+const mdUrl = (u) => u.replace(/[\s()<>\\]/g, (c) => ({ '(': '%28', ')': '%29' })[c] ?? encodeURIComponent(c));
+const mdText = (s) => String(s ?? '').replace(/[\\[\]<>*_`~]/g, '\\$&');
 for (const s of Object.values(sets)) {
   const { spec, rows, dir } = s;
   const C = { ...TL.DEFAULT_COLUMNS, ...spec.columns };
@@ -59,7 +62,7 @@ for (const s of Object.values(sets)) {
     }
     if (spec.check?.consecutive && prev && Number(r[C.ordinal]) !== Number(prev[C.ordinal]) + 1) problems.push(`${where}: ${C.ordinal}が前の行から連番になっていません`);
     if (C.photo && r[C.photo] && !existsSync(join(root, dir, r[C.photo]))) problems.push(`${where}: 写真 ${r[C.photo]} がありません`);
-    for (const col of [C.url, C.photoUrl]) {
+    for (const col of [C.url, C.photoUrl, C.photoLicense]) {
       if (col && r[col] && !isWebUrl(r[col])) problems.push(`${where}: ${col}「${r[col]}」が http:// か https:// で始まっていません`);
     }
     if (spec.groups && C.group && r[C.group] && !(r[C.group] in spec.groups)) problems.push(`${where}: 区分「${r[C.group]}」が chronology.json の groups にありません`);
@@ -198,7 +201,16 @@ for (const s of Object.values(sets)) {
   const own = used.includes(dir) ? [dir] : used;
   const others = used.filter((id) => !own.includes(id)).map((id) => ({ title: sets[id].conf.page?.title ?? sets[id].conf.title, url: `../${id}/` }));
   const sources = [...new Map(own.flatMap((id) => sets[id].conf.sources ?? []).map((x) => [x.url ?? x.title, x])).values()];
-  const credits = used.flatMap((id) => sets[id].conf.credits ?? []);
+  // 同じ文の出典（各国の肖像など）は1つにまとめ、どの列の分かを括弧に書く
+  const merged = new Map();
+  for (const id of used) {
+    for (const c of sets[id].conf.credits ?? []) {
+      const key = JSON.stringify([c.title, c.text, c.license, c.licenseUrl]);
+      if (!merged.has(key)) merged.set(key, { credit: c, from: [] });
+      merged.get(key).from.push(page.columns.find((col) => col.data === id)?.short ?? sets[id].conf.short);
+    }
+  }
+  const credits = [...merged.values()].map(({ credit, from }) => (from.length > 1 ? { ...credit, title: `${credit.title}（${from.join('、')}）` } : credit));
   const notes = [...new Set([...(page.notes ?? []), ...own.flatMap((id) => sets[id].conf.notes ?? [])])];
 
   // ---- README 用の SVG（ライト／ダーク）。写真は小さい版を埋め込む（画像として表示される SVG は外部の画像を読めないため）
@@ -272,7 +284,10 @@ for (const s of Object.values(sets)) {
     const seen = new Set();
     return sets[dir].rows
       .filter((r) => r[C.photo] && !seen.has(r[C.photo]) && seen.add(r[C.photo]))
-      .map((r) => `- ${r[C.name]}：${r[C.photoCredit]}${isWebUrl(r[C.photoUrl]) ? `（[画像のページ](${r[C.photoUrl]})）` : ''}`);
+      .map((r) => {
+        const links = [['画像のページ', r[C.photoUrl]], ['ライセンス', r[C.photoLicense]]].filter(([, u]) => isWebUrl(u)).map(([text, u]) => `[${text}](${mdUrl(u)})`);
+        return `- ${r[C.name]}：${mdText(r[C.photoCredit])}${links.length ? `（${links.join('・')}）` : ''}`;
+      });
   })();
   const tables = model.columns
     .filter((c) => c.data === dir)

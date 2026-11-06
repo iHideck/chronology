@@ -43,6 +43,7 @@
 | `src/timeline.mjs` | データの整形・レイアウト・SVG の描画（ビルドとブラウザで共用） |
 | `src/page.html`・`src/home.html` | 年表ページとトップページの雛形 |
 | `build.mjs` | すべての年表を作り直す |
+| `photos.mjs`・`src/faces.swift` | 肖像を Wikimedia Commons から取り込み、顔の位置で切り抜く（Mac のみ） |
 
 ページには、ほかのディレクトリのデータも列として重ねられます。たとえば総理大臣の年表は、`us-presidents/` や `events/` のデータを読み込んで並べています。
 
@@ -58,4 +59,5 @@
 1. ディレクトリを作り、CSV を置きます。1行目は列名です。日付は `YYYY-MM-DD` で、月日が分からなければ `YYYY-MM` か `YYYY` と書きます。紀元前は負の年（紀元前221年なら `-0221`）です。1582年10月15日より前の日付はユリウス暦として扱います。
 2. `chronology.json` に、名前・CSV のどの列が名前／開始日／終了日か（`data.columns`）・出典を書きます。既存のディレクトリが見本です。`page` を書かなければ、そのデータだけを1列に並べたページになります。
 3. 別の年表と重ねたいときは、`page.columns` に列を足します（`data` にディレクトリ名を書く）。
-4. `node build.mjs` を実行します。
+4. 肖像をつけるときは、CSV に `Wikidata` 列（人物の QID）を、`chronology.json` の `data.columns` と `credits` に写真の項目を足して（見本は `germany-leaders/`）、`node photos.mjs <ディレクトリ>` を実行します。Wikidata の画像を Commons から取り、顔の位置で切り抜いて、作者とライセンスを CSV に書きます。写真のファイルがある人は取り直しません。別の画像にしたいときは、その人の写真のファイル（`photos/<ID>.jpg`）を消し、その人の最初の行の「写真のページ」に Commons のファイルのページを書いてから実行します（Mac のみ。ImageMagick が要ります）。
+5. `node build.mjs` を実行します。

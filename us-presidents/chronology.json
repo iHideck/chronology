@@ -7,7 +7,7 @@
   "color": "blue",
   "data": {
     "file": "us-presidents.csv",
-    "columns": { "ordinal": "代", "name": "氏名", "short": "表示名", "start": "就任日", "end": "退任日", "photo": "写真", "photoCredit": "写真の出典", "photoUrl": "写真のページ" },
+    "columns": { "ordinal": "代", "name": "氏名", "short": "表示名", "start": "就任日", "end": "退任日", "photo": "写真", "photoCredit": "写真の出典", "photoUrl": "写真のページ", "photoLicense": "写真のライセンス" },
     "merge": true,
     "days": "exclusive",
     "durationLabel": "在任",

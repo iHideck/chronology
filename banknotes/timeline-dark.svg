@@ -88,7 +88,7 @@
 <rect class="spine-b" x="0" y="721.5" width="72" height="288.1"/>
 <rect class="spine-a" x="0" y="1009.6" width="72" height="1240.8"/>
 <rect class="spine-b" x="0" y="2250.4" width="72" height="606.2"/>
-<rect class="spine-a" x="0" y="2856.6" width="72" height="174.7"/>
+<rect class="spine-a" x="0" y="2856.6" width="72" height="175"/>
 <line class="grid" x1="0" x2="760" y1="270" y2="270"/>
 <line class="grid" x1="0" x2="760" y1="470" y2="470"/>
 <line class="grid" x1="0" x2="760" y1="670" y2="670"/>
@@ -288,9 +288,9 @@
 <text class="era-date" x="36" y="2287.4" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="36" y="2879.6" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="2893.6" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="-4" x2="583" y1="3006.6" y2="3006.6"/>
-<text class="era-date" x="36" y="3020.6" text-anchor="middle">2026.10.31</text>
-<text class="era-date" x="36" y="3033.6" text-anchor="middle">時点</text>
+<line class="asof-line" x1="-4" x2="583" y1="3007" y2="3007"/>
+<text class="era-date" x="36" y="3021" text-anchor="middle">2026.11.6</text>
+<text class="era-date" x="36" y="3034" text-anchor="middle">時点</text>
 <g class="term c-d0" data-id="d00" data-person="d0:聖徳太子">
 <title>聖徳太子　1958年12月1日 〜 1986年1月4日（発行 約27年）</title>
 <rect class="bar f-amber" x="79" y="1649.3" width="13" height="539.9" rx="3"/>
@@ -303,14 +303,14 @@
 </g>
 <g class="term c-d0" data-id="d02" data-person="d0:福沢諭吉">
 <title>福沢諭吉　2004年11月1日 〜 発行中（発行 約22年）</title>
-<linearGradient id="tl-g-d02" gradientUnits="userSpaceOnUse" x1="0" y1="2984.6" x2="0" y2="3006.6"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M79 2570.7Q79 2567.7 82 2567.7H89Q92 2567.7 92 2570.7V3006.6Q92 3006.6 92 3006.6H79Q79 3006.6 79 3006.6Z" fill="url(#tl-g-d02)"/>
+<linearGradient id="tl-g-d02" gradientUnits="userSpaceOnUse" x1="0" y1="2985" x2="0" y2="3007"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 2570.7Q79 2567.7 82 2567.7H89Q92 2567.7 92 2570.7V3007Q92 3007 92 3007H79Q79 3007 79 3007Z" fill="url(#tl-g-d02)"/>
 <text class="inside" x="85.5" y="2572.7" writing-mode="vertical-rl">福沢諭吉</text>
 </g>
 <g class="term c-d0" data-id="d03" data-person="d0:渋沢栄一">
 <title>渋沢栄一　2024年7月3日 〜 発行中（発行 約2年）</title>
-<linearGradient id="tl-g-d03" gradientUnits="userSpaceOnUse" x1="0" y1="2984.6" x2="0" y2="3006.6"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M94 2964.1Q94 2961.1 97 2961.1H104Q107 2961.1 107 2964.1V3006.6Q107 3006.6 107 3006.6H94Q94 3006.6 94 3006.6Z" fill="url(#tl-g-d03)"/>
+<linearGradient id="tl-g-d03" gradientUnits="userSpaceOnUse" x1="0" y1="2985" x2="0" y2="3007"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M94 2964.1Q94 2961.1 97 2961.1H104Q107 2961.1 107 2964.1V3007Q107 3007 107 3007H94Q94 3007 94 3007Z" fill="url(#tl-g-d03)"/>
 <text class="inside" x="100.5" y="2966.1" writing-mode="vertical-rl">渋沢栄一</text>
 </g>
 <g class="term c-d1" data-id="d10" data-person="d1:聖徳太子">
@@ -325,14 +325,14 @@
 </g>
 <g class="term c-d1" data-id="d12" data-person="d1:樋口一葉">
 <title>樋口一葉　2004年11月1日 〜 発行中（発行 約22年）</title>
-<linearGradient id="tl-g-d12" gradientUnits="userSpaceOnUse" x1="0" y1="2984.6" x2="0" y2="3006.6"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M111 2570.7Q111 2567.7 114 2567.7H121Q124 2567.7 124 2570.7V3006.6Q124 3006.6 124 3006.6H111Q111 3006.6 111 3006.6Z" fill="url(#tl-g-d12)"/>
+<linearGradient id="tl-g-d12" gradientUnits="userSpaceOnUse" x1="0" y1="2985" x2="0" y2="3007"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M111 2570.7Q111 2567.7 114 2567.7H121Q124 2567.7 124 2570.7V3007Q124 3007 124 3007H111Q111 3007 111 3007Z" fill="url(#tl-g-d12)"/>
 <text class="inside" x="117.5" y="2572.7" writing-mode="vertical-rl">樋口一葉</text>
 </g>
 <g class="term c-d1" data-id="d13" data-person="d1:津田梅子">
 <title>津田梅子　2024年7月3日 〜 発行中（発行 約2年）</title>
-<linearGradient id="tl-g-d13" gradientUnits="userSpaceOnUse" x1="0" y1="2984.6" x2="0" y2="3006.6"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M126 2964.1Q126 2961.1 129 2961.1H136Q139 2961.1 139 2964.1V3006.6Q139 3006.6 139 3006.6H126Q126 3006.6 126 3006.6Z" fill="url(#tl-g-d13)"/>
+<linearGradient id="tl-g-d13" gradientUnits="userSpaceOnUse" x1="0" y1="2985" x2="0" y2="3007"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M126 2964.1Q126 2961.1 129 2961.1H136Q139 2961.1 139 2964.1V3007Q139 3007 139 3007H126Q126 3007 126 3007Z" fill="url(#tl-g-d13)"/>
 <text class="inside" x="132.5" y="2966.1" writing-mode="vertical-rl">津田梅子</text>
 </g>
 <g class="term c-d2" data-id="d20" data-person="d2:日本武尊">
@@ -356,14 +356,14 @@
 </g>
 <g class="term c-d2" data-id="d24" data-person="d2:野口英世">
 <title>野口英世　2004年11月1日 〜 発行中（発行 約22年）</title>
-<linearGradient id="tl-g-d24" gradientUnits="userSpaceOnUse" x1="0" y1="2984.6" x2="0" y2="3006.6"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M158 2570.7Q158 2567.7 161 2567.7H168Q171 2567.7 171 2570.7V3006.6Q171 3006.6 171 3006.6H158Q158 3006.6 158 3006.6Z" fill="url(#tl-g-d24)"/>
+<linearGradient id="tl-g-d24" gradientUnits="userSpaceOnUse" x1="0" y1="2985" x2="0" y2="3007"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M158 2570.7Q158 2567.7 161 2567.7H168Q171 2567.7 171 2570.7V3007Q171 3007 171 3007H158Q158 3007 158 3007Z" fill="url(#tl-g-d24)"/>
 <text class="inside" x="164.5" y="2572.7" writing-mode="vertical-rl">野口英世</text>
 </g>
 <g class="term c-d2" data-id="d25" data-person="d2:北里柴三郎">
 <title>北里柴三郎　2024年7月3日 〜 発行中（発行 約2年）</title>
-<linearGradient id="tl-g-d25" gradientUnits="userSpaceOnUse" x1="0" y1="2984.6" x2="0" y2="3006.6"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M143 2964.1Q143 2961.1 146 2961.1H153Q156 2961.1 156 2964.1V3006.6Q156 3006.6 156 3006.6H143Q143 3006.6 143 3006.6Z" fill="url(#tl-g-d25)"/>
+<linearGradient id="tl-g-d25" gradientUnits="userSpaceOnUse" x1="0" y1="2985" x2="0" y2="3007"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M143 2964.1Q143 2961.1 146 2961.1H153Q156 2961.1 156 2964.1V3007Q156 3007 156 3007H143Q143 3007 143 3007Z" fill="url(#tl-g-d25)"/>
 </g>
 <g class="term c-d3" data-id="d30" data-person="d3:岩倉具視">
 <title>岩倉具視　1951年4月2日 〜 1971年1月4日（発行 約20年）</title>
@@ -528,5 +528,5 @@
 <rect class="bar f-amber approx" x="566" y="1367.7" width="13" height="181.3" rx="3"/>
 <text class="inside" x="572.5" y="1372.7" writing-mode="vertical-rl">楠木正成</text>
 </g>
-<text class="foot" x="380" y="3061.3" text-anchor="middle">出典：日本銀行「現在有効な銀行券」（2024年7月現在、PDF）、日本銀行「現在発行されている銀行券・貨幣」、日本銀行「その他有効な銀行券・貨幣」、国立印刷局 お札と切手の博物館「お札の歴史を知る」、Wikipedia「日本銀行券」、Wikipedia「一円紙幣」「五円紙幣」「十円紙幣」「二十円紙幣」「百円紙幣」「二百円紙幣」「千円紙幣」「五銭紙幣」など額面別の記事、秋田魁新報（共同通信）「諭吉先生、さようなら 日銀、旧紙幣の発行を実質終了」2025年12月10日　2026年10月31日時点</text>
+<text class="foot" x="380" y="3061.6" text-anchor="middle">出典：日本銀行「現在有効な銀行券」（2024年7月現在、PDF）、日本銀行「現在発行されている銀行券・貨幣」、日本銀行「その他有効な銀行券・貨幣」、国立印刷局 お札と切手の博物館「お札の歴史を知る」、Wikipedia「日本銀行券」、Wikipedia「一円紙幣」「五円紙幣」「十円紙幣」「二十円紙幣」「百円紙幣」「二百円紙幣」「千円紙幣」「五銭紙幣」など額面別の記事、秋田魁新報（共同通信）「諭吉先生、さようなら 日銀、旧紙幣の発行を実質終了」2025年12月10日　2026年11月6日時点</text>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 1100 4622" width="1100" height="4622" role="img" aria-labelledby="tl-title">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 1100 4623" width="1100" height="4623" role="img" aria-labelledby="tl-title">
 <title id="tl-title">歴代総理大臣と世界の首脳</title>
 <style>
 .tl{--paper:#fcfcfd;--ink:#1c2029;--ink2:#4b5260;--muted:#687080;--rule:#e8eaef;--rule2:#c3c8d2;--spine-a:#f0f1f5;--spine-b:#e6e8ef;--red:#d4452c;--blue:#2c5aa0;--amber:#b8730f;--violet:#7a4fc4;--green:#138a60;--teal:#00897b;--gray:#9aa0ab;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
@@ -57,7 +57,7 @@
 <pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
 <clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
 </defs>
-<rect class="bg" x="0" y="0" width="1100" height="4622" rx="14"/>
+<rect class="bg" x="0" y="0" width="1100" height="4623" rx="14"/>
 <rect class="f-red" x="240" y="33" width="14" height="14" rx="3"/>
 <text class="lane-h" x="229" y="44" text-anchor="end">日本の内閣総理大臣</text>
 <text class="lane-v" x="279" y="20" writing-mode="vertical-rl">総裁</text>
@@ -84,7 +84,7 @@
 <rect class="spine-b" x="289" y="1318.1" width="92" height="403.3"/>
 <rect class="spine-a" x="289" y="1721.4" width="92" height="1737.1"/>
 <rect class="spine-b" x="289" y="3458.6" width="92" height="848.6"/>
-<rect class="spine-a" x="289" y="4307.2" width="92" height="244.5"/>
+<rect class="spine-a" x="289" y="4307.2" width="92" height="245"/>
 <line class="grid" x1="0" x2="1100" y1="406" y2="406"/>
 <line class="grid" x1="0" x2="1100" y1="686.1" y2="686.1"/>
 <line class="grid" x1="0" x2="1100" y1="966" y2="966"/>
@@ -300,9 +300,9 @@
 <text class="era-date" x="335" y="3495.6" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="335" y="4330.2" text-anchor="middle">令和</text>
 <text class="era-date" x="335" y="4344.2" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="236" x2="989.6" y1="4517.3" y2="4517.3"/>
-<text class="era-date" x="335" y="4531.3" text-anchor="middle">2026.10.31</text>
-<text class="era-date" x="335" y="4544.3" text-anchor="middle">時点</text>
+<line class="asof-line" x1="236" x2="989.6" y1="4517.7" y2="4517.7"/>
+<text class="era-date" x="335" y="4531.7" text-anchor="middle">2026.11.6</text>
+<text class="era-date" x="335" y="4544.7" text-anchor="middle">時点</text>
 <g class="term lead" data-id="jp-lead">
 <title>1885年12月22日に内閣制度が発足し、伊藤博文が初代の内閣総理大臣に就任しました。それまでは太政官制のもとで政治が行われていました。</title>
 <rect class="hit" x="120" y="70" width="134" height="502.3"/>
@@ -922,9 +922,9 @@
 <text class="label" x="193" y="4470.1" text-anchor="end"><tspan class="name">石破茂</tspan></text>
 </g>
 <g class="term c-jp" data-id="jp79" data-person="jp:高市早苗">
-<title>第104〜105代内閣総理大臣 高市早苗　2025年10月21日 〜 在任中（在任 376日（2026年10月31日時点））</title>
-<linearGradient id="tl-g-jp79" gradientUnits="userSpaceOnUse" x1="0" y1="4495.3" x2="0" y2="4517.3"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M240 4492.5Q240 4489.5 243 4489.5H251Q254 4489.5 254 4492.5V4517.3Q254 4517.3 254 4517.3H240Q240 4517.3 240 4517.3Z" fill="url(#tl-g-jp79)"/>
+<title>第104〜105代内閣総理大臣 高市早苗　2025年10月21日 〜 在任中（在任 382日（2026年11月6日時点））</title>
+<linearGradient id="tl-g-jp79" gradientUnits="userSpaceOnUse" x1="0" y1="4495.7" x2="0" y2="4517.7"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M240 4492.5Q240 4489.5 243 4489.5H251Q254 4489.5 254 4492.5V4517.7Q254 4517.7 254 4517.7H240Q240 4517.7 240 4517.7Z" fill="url(#tl-g-jp79)"/>
 <path class="leader" d="M238.5 4497h-4L233 4499.3h-2"/>
 <circle class="photo-ring" cx="214" cy="4499.3" r="16"/>
 <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAwYEBQcAAQL/xAAvEAACAQMCBAIKAwEAAAAAAAABAgMABBEFEgYhMUETgQcUIiQyUWFxkaEVscEz/8QAGgEAAgMBAQAAAAAAAAAAAAAABQYCAwQAB//EACcRAAIBAwMCBgMAAAAAAAAAAAECAAMEEQUhURITFDFBYXGhseHw/9oADAMBAAIRAxEAPwDXLq3hDQYwuGOT5VAuBBbPO0rqI1TczE4AHfNCluj47FySiyAik/0r6i4httNsHAkv5Bnn1HLA+2f6qoywTtX460xbtlsbd5nRvammYoqLj6Ak5qPZcU6XckxPMsU0rAL7WVz8s9vOlHVNJv4JJLWSZiiKdoCAZ6UuXkYsJjFcKQ6kEgjqO9SwrDadhl85qWuSuZkic/8ANT+6pJD7uT9aFpWq/wArZJIzFpIl8NmPVsDkfxj8UVz7ofvQC5BFVsx507HhUxxNQ1IhAy4Gd/akTijRZ9R4m0S7Vh4MJKPnPxc2FOVxPaysMXMfJdxywySah3l1aiwAjljaWR93IjK46UcJiQo3EHpuky20kvrLwymRSfYjI/IJNLnFXDC3+k3ct2InlRGa3kQNvDdgSScg9MYq4W4nEwchjGyja6SMN3zBA6V8aveSWlmjyRqrTSqipuLBSx+I/YZNQB4mlhtvFTReFL3QuHBeXZBaaVt6qc7AAAP3n9Vzt7n51pM1i2q8JxwRSKrPGGDHocHNJF5w7q0FsFNm7gnk0ZBFYL2ixqdSjOYf0i8p9jtuwBB+pEudY02ElY1adh12rgfk1SanrcsqbLOBInbkGzkiqhZC0ZbJ5Pg0Sy2SX0KzMAniLuLNgAZGcntT4ulWlFC3Tkj1P9iedm+uKr4zge00vh23ubHTrW13BTHGFbcM5PfzoHHyNHw+JWz4guYyrdwcn/M0z201rcx74ni3E5IVxyPfHzFKXpUuR6rp9qhOGlaQgHrgYH90t2Kdy5QHn9w7dt0UWI4nvDvpGjgs4LG/09tsUYTxoHHP67T/AIadIOIdIvtPX1bUIMg80dtjDyOKwRJQjgg9Rkc6Lfy4tH588DB7imKrpttVQtTOPjcQEl5XpuFcZ/M//9k=" x="199" y="4484.3" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
@@ -1043,9 +1043,9 @@
 <rect class="bar f-teal" x="276" y="4460" width="6" height="26.2" rx="3"/>
 </g>
 <g class="term c-ldp" data-id="ldp28" data-person="ldp:高市早苗">
-<title>第29代自由民主党総裁 高市早苗　2025年10月4日 〜 在任中（在任 392日（2026年10月31日時点））</title>
-<linearGradient id="tl-g-ldp28" gradientUnits="userSpaceOnUse" x1="0" y1="4495.3" x2="0" y2="4517.3"><stop offset="0" class="s-teal" stop-opacity="1"/><stop offset="1" class="s-teal" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M276 4491.2Q276 4488.2 279 4488.2H279Q282 4488.2 282 4491.2V4517.3Q282 4517.3 282 4517.3H276Q276 4517.3 276 4517.3Z" fill="url(#tl-g-ldp28)"/>
+<title>第29代自由民主党総裁 高市早苗　2025年10月4日 〜 在任中（在任 398日（2026年11月6日時点））</title>
+<linearGradient id="tl-g-ldp28" gradientUnits="userSpaceOnUse" x1="0" y1="4495.7" x2="0" y2="4517.7"><stop offset="0" class="s-teal" stop-opacity="1"/><stop offset="1" class="s-teal" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M276 4491.2Q276 4488.2 279 4488.2H279Q282 4488.2 282 4491.2V4517.7Q282 4517.7 282 4517.7H276Q276 4517.7 276 4517.7Z" fill="url(#tl-g-ldp28)"/>
 </g>
 <g class="term c-econ" data-id="econ0" data-person="econ:後退期">
 <title>後退期　1951年6月 〜 1951年10月（期間 4か月）</title>
@@ -1172,9 +1172,9 @@
 <rect class="bar-hatch" x="262" y="4292" width="6" height="44.7" rx="3"/>
 </g>
 <g class="term c-econ" data-id="econ31" data-person="econ:拡張期">
-<title>拡張期　2020年5月 〜 現在（期間 約6年）</title>
-<linearGradient id="tl-g-econ31" gradientUnits="userSpaceOnUse" x1="0" y1="4495.3" x2="0" y2="4517.3"><stop offset="0" class="s-teal" stop-opacity="1"/><stop offset="1" class="s-teal" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M262 4339.3Q262 4336.3 265 4336.3H265Q268 4336.3 268 4339.3V4517.3Q268 4517.3 268 4517.3H262Q262 4517.3 262 4517.3Z" fill="url(#tl-g-econ31)"/>
+<title>拡張期　2020年5月 〜 現在（期間 約7年）</title>
+<linearGradient id="tl-g-econ31" gradientUnits="userSpaceOnUse" x1="0" y1="4495.7" x2="0" y2="4517.7"><stop offset="0" class="s-teal" stop-opacity="1"/><stop offset="1" class="s-teal" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M262 4339.3Q262 4336.3 265 4336.3H265Q268 4336.3 268 4339.3V4517.7Q268 4517.7 268 4517.7H262Q262 4517.7 262 4517.7Z" fill="url(#tl-g-econ31)"/>
 </g>
 <g class="term c-us" data-id="us0" data-person="us:アンドリュー・ジョンソン">
 <title>第17代アメリカ合衆国大統領 アンドリュー・ジョンソン　1865年4月15日 〜 1869年3月4日（在任 1,419日）</title>
@@ -1392,9 +1392,9 @@
 <text class="label" x="517" y="4368.9"><tspan class="name">バイデン</tspan></text>
 </g>
 <g class="term c-us" data-id="us30" data-person="us:ドナルド・トランプ">
-<title>第47代アメリカ合衆国大統領 ドナルド・トランプ　2025年1月20日 〜 在任中（在任 649日（2026年10月31日時点））</title>
-<linearGradient id="tl-g-us30" gradientUnits="userSpaceOnUse" x1="0" y1="4495.3" x2="0" y2="4517.3"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M456 4471.5Q456 4468.5 459 4468.5H467Q470 4468.5 470 4471.5V4517.3Q470 4517.3 470 4517.3H456Q456 4517.3 456 4517.3Z" fill="url(#tl-g-us30)"/>
+<title>第47代アメリカ合衆国大統領 ドナルド・トランプ　2025年1月20日 〜 在任中（在任 655日（2026年11月6日時点））</title>
+<linearGradient id="tl-g-us30" gradientUnits="userSpaceOnUse" x1="0" y1="4495.7" x2="0" y2="4517.7"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M456 4471.5Q456 4468.5 459 4468.5H467Q470 4468.5 470 4471.5V4517.7Q470 4517.7 470 4517.7H456Q456 4517.7 456 4517.7Z" fill="url(#tl-g-us30)"/>
 <circle class="photo-ring" cx="496" cy="4476" r="16"/>
 <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAABgQHAQIFAwD/xAAxEAACAQMDAQUHAwUAAAAAAAABAgMABBEFEiExBhMiQVEHMkJhcYGxFDNyU5GhwfD/xAAWAQEBAQAAAAAAAAAAAAAAAAADBAX/xAAeEQADAAICAwEAAAAAAAAAAAAAAQIDERMhEjFBUf/aAAwDAQACEQMRAD8ApW35njGceIc/enmnSLBqD95t5ctyfXy/vQCGTu5kc9FYE0qjke7neVWAUEFsfCPKjpCQWZp2qPLBtj3ZUY4NSopC4Zp1YHHBB6/aj2m6hYadBn9asq48UYhZiD/IV131ZYnSGPS7ud5FV1ACquD5kk0D2ypTIH7a7hO5Zs5bIyelCY/fP1pt2+3O6OYni45VhyvPy+tBouWNNj9E+RaojAUg0W7TY0e7Dd024Ho2BxXGkT0rfTQDfwqxwGbafvTVAU0WPp9zaNoUkqB1nQcJuOM/SlcN/Yy2dsIwl5FFEqyNjPdH4SfxVX2k00LvaLxIMhhn3l8sU30qGS30zvJpkgtwu4kSjB/l4ajpaLp0+0He39xIWWNlwrnI+QHT80HTwPTDtHdrqeqsx4SNdgH061wJbNSSF5q3HgfGn9IcuZcjIbKGz8q8oFxeQ4/qL+akD9xh6ivNRidD6MD/AJp6XQEsS6/HhFCRlpEIzKOiHOMZrsezrZPPLLqTSO9sjSxLLzGdozkD1GPOs9o49kgtIkAjIRm46c5xTZotPHs4m1COCJZDaYyFxhxkcf8AedRrVZPEtqajAr/SqtPtLvVr7ureN57mcswRRkseSf8AdYmiaGUxuhRkO1lIwVI4xWtpNJbTpNbyPFLGQyOjEFSPMGvp5WkZpZGLO7FmY9SSeTWmlozGz//Z" x="481" y="4461" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
 <text class="label" x="517" y="4480.9"><tspan class="name">トランプ</tspan></text>
@@ -1557,9 +1557,9 @@
 <text class="label" x="674.6" y="3859.8"><tspan class="name">胡錦濤</tspan></text>
 </g>
 <g class="term c-cn" data-id="cn28" data-person="cn:習近平">
-<title>最高指導者 習近平　2012年11月15日 〜 在任中（在任 5,098日（2026年10月31日時点））</title>
-<linearGradient id="tl-g-cn28" gradientUnits="userSpaceOnUse" x1="0" y1="4495.3" x2="0" y2="4517.3"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M633.6 4130.5Q633.6 4127.5 636.6 4127.5H644.6Q647.6 4127.5 647.6 4130.5V4517.3Q647.6 4517.3 647.6 4517.3H633.6Q633.6 4517.3 633.6 4517.3Z" fill="url(#tl-g-cn28)"/>
+<title>最高指導者 習近平　2012年11月15日 〜 在任中（在任 5,104日（2026年11月6日時点））</title>
+<linearGradient id="tl-g-cn28" gradientUnits="userSpaceOnUse" x1="0" y1="4495.7" x2="0" y2="4517.7"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M633.6 4130.5Q633.6 4127.5 636.6 4127.5H644.6Q647.6 4127.5 647.6 4130.5V4517.7Q647.6 4517.7 647.6 4517.7H633.6Q633.6 4517.7 633.6 4517.7Z" fill="url(#tl-g-cn28)"/>
 <text class="label" x="674.6" y="4139.8"><tspan class="name">習近平</tspan></text>
 </g>
 <g class="term c-kr" data-id="kr0" data-person="kr:高宗">
@@ -1644,9 +1644,9 @@
 <text class="label" x="770.1" y="4405.3"><tspan class="name">尹錫悦</tspan></text>
 </g>
 <g class="term c-kr" data-id="kr16" data-person="kr:李在明">
-<title>李在明　2025年6月4日 〜 在任中（在任 515日（2026年10月31日時点））</title>
-<linearGradient id="tl-g-kr16" gradientUnits="userSpaceOnUse" x1="0" y1="4495.3" x2="0" y2="4517.3"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M729.1 4481.9Q729.1 4478.9 732.1 4478.9H740.1Q743.1 4478.9 743.1 4481.9V4517.3Q743.1 4517.3 743.1 4517.3H729.1Q729.1 4517.3 729.1 4517.3Z" fill="url(#tl-g-kr16)"/>
+<title>李在明　2025年6月4日 〜 在任中（在任 521日（2026年11月6日時点））</title>
+<linearGradient id="tl-g-kr16" gradientUnits="userSpaceOnUse" x1="0" y1="4495.7" x2="0" y2="4517.7"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M729.1 4481.9Q729.1 4478.9 732.1 4478.9H740.1Q743.1 4478.9 743.1 4481.9V4517.7Q743.1 4517.7 743.1 4517.7H729.1Q729.1 4517.7 729.1 4517.7Z" fill="url(#tl-g-kr16)"/>
 <text class="label" x="770.1" y="4491.2"><tspan class="name">李在明</tspan></text>
 </g>
 <g class="term c-ru" data-id="ru0" data-person="ru:アレクサンドル2世">
@@ -1733,9 +1733,9 @@
 <text class="label" x="849.6" y="4013.1"><tspan class="name">メドヴェージェフ</tspan></text>
 </g>
 <g class="term c-ru" data-id="ru16" data-person="ru:ウラジーミル・プーチン">
-<title>最高指導者 ウラジーミル・プーチン　2012年5月7日 〜 在任中（在任 5,290日（2026年10月31日時点））</title>
-<linearGradient id="tl-g-ru16" gradientUnits="userSpaceOnUse" x1="0" y1="4495.3" x2="0" y2="4517.3"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M824.6 4115.7Q824.6 4112.7 827.6 4112.7H835.6Q838.6 4112.7 838.6 4115.7V4517.3Q838.6 4517.3 838.6 4517.3H824.6Q824.6 4517.3 824.6 4517.3Z" fill="url(#tl-g-ru16)"/>
+<title>最高指導者 ウラジーミル・プーチン　2012年5月7日 〜 在任中（在任 5,296日（2026年11月6日時点））</title>
+<linearGradient id="tl-g-ru16" gradientUnits="userSpaceOnUse" x1="0" y1="4495.7" x2="0" y2="4517.7"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M824.6 4115.7Q824.6 4112.7 827.6 4112.7H835.6Q838.6 4112.7 838.6 4115.7V4517.7Q838.6 4517.7 838.6 4517.7H824.6Q824.6 4517.7 824.6 4517.7Z" fill="url(#tl-g-ru16)"/>
 <text class="label" x="849.6" y="4125.1"><tspan class="name">プーチン</tspan></text>
 </g>
 <g class="term c-uk" data-id="uk0" data-person="uk:ヴィクトリア女王">
@@ -1770,9 +1770,9 @@
 <text class="label" x="996.6" y="2438.1"><tspan class="name">エリザベス2世</tspan></text>
 </g>
 <g class="term c-uk" data-id="uk6" data-person="uk:チャールズ3世">
-<title>イギリスの君主 チャールズ3世　2022年9月8日 〜 在位中（在位 1,514日（2026年10月31日時点））</title>
-<linearGradient id="tl-g-uk6" gradientUnits="userSpaceOnUse" x1="0" y1="4495.3" x2="0" y2="4517.3"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M971.6 4405.2Q971.6 4402.2 974.6 4402.2H982.6Q985.6 4402.2 985.6 4405.2V4517.3Q985.6 4517.3 985.6 4517.3H971.6Q971.6 4517.3 971.6 4517.3Z" fill="url(#tl-g-uk6)"/>
+<title>イギリスの君主 チャールズ3世　2022年9月8日 〜 在位中（在位 1,520日（2026年11月6日時点））</title>
+<linearGradient id="tl-g-uk6" gradientUnits="userSpaceOnUse" x1="0" y1="4495.7" x2="0" y2="4517.7"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M971.6 4405.2Q971.6 4402.2 974.6 4402.2H982.6Q985.6 4402.2 985.6 4405.2V4517.7Q985.6 4517.7 985.6 4517.7H971.6Q971.6 4517.7 971.6 4517.7Z" fill="url(#tl-g-uk6)"/>
 <text class="label" x="996.6" y="4414.6"><tspan class="name">チャールズ3世</tspan></text>
 </g>
 <g class="term c-fr" data-id="fr0" data-person="fr:ナポレオン3世">
@@ -1909,9 +1909,9 @@
 <rect class="bar f-green" x="388" y="4113.4" width="14" height="137.9" rx="3"/>
 </g>
 <g class="term c-fr" data-id="fr33" data-person="fr:エマニュエル・マクロン">
-<title>エマニュエル・マクロン　2017年5月14日 〜 在任中（在任 3,457日（2026年10月31日時点））</title>
-<linearGradient id="tl-g-fr33" gradientUnits="userSpaceOnUse" x1="0" y1="4495.3" x2="0" y2="4517.3"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M388 4256.3Q388 4253.3 391 4253.3H399Q402 4253.3 402 4256.3V4517.3Q402 4517.3 402 4517.3H388Q388 4517.3 388 4517.3Z" fill="url(#tl-g-fr33)"/>
+<title>エマニュエル・マクロン　2017年5月14日 〜 在任中（在任 3,463日（2026年11月6日時点））</title>
+<linearGradient id="tl-g-fr33" gradientUnits="userSpaceOnUse" x1="0" y1="4495.7" x2="0" y2="4517.7"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M388 4256.3Q388 4253.3 391 4253.3H399Q402 4253.3 402 4256.3V4517.7Q402 4517.7 402 4517.7H388Q388 4517.7 388 4517.7Z" fill="url(#tl-g-fr33)"/>
 </g>
 <g class="term c-de" data-id="de0" data-person="de:オットー・フォン・ビスマルク">
 <title>オットー・フォン・ビスマルク　1867年7月14日 〜 1890年3月20日（在任 8,285日）</title>
@@ -2071,9 +2071,9 @@
 <rect class="bar f-green" x="422" y="4381.2" width="14" height="93.4" rx="3"/>
 </g>
 <g class="term c-de" data-id="de39" data-person="de:フリードリヒ・メルツ">
-<title>フリードリヒ・メルツ　2025年5月6日 〜 在任中（在任 543日（2026年10月31日時点））</title>
-<linearGradient id="tl-g-de39" gradientUnits="userSpaceOnUse" x1="0" y1="4495.3" x2="0" y2="4517.3"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M422 4479.7Q422 4476.7 425 4476.7H433Q436 4476.7 436 4479.7V4517.3Q436 4517.3 436 4517.3H422Q422 4517.3 422 4517.3Z" fill="url(#tl-g-de39)"/>
+<title>フリードリヒ・メルツ　2025年5月6日 〜 在任中（在任 549日（2026年11月6日時点））</title>
+<linearGradient id="tl-g-de39" gradientUnits="userSpaceOnUse" x1="0" y1="4495.7" x2="0" y2="4517.7"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M422 4479.7Q422 4476.7 425 4476.7H433Q436 4476.7 436 4479.7V4517.7Q436 4517.7 436 4517.7H422Q422 4517.7 422 4517.7Z" fill="url(#tl-g-de39)"/>
 </g>
-<text class="foot" x="550" y="4581.8" text-anchor="middle">出典：首相官邸「歴代内閣」　2026年10月31日時点</text>
+<text class="foot" x="550" y="4582.2" text-anchor="middle">出典：首相官邸「歴代内閣」　2026年11月6日時点</text>
 </svg>

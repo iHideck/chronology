@@ -179,6 +179,7 @@ export function makeItems(rows, spec, asOfT, base = '') {
       photo: C.photo && r[C.photo] ? base + r[C.photo] : '',
       photoCredit: (C.photoCredit && r[C.photoCredit]) || '',
       photoUrl: (C.photoUrl && r[C.photoUrl]) || '',
+      photoLicense: (C.photoLicense && r[C.photoLicense]) || '',
       url: (C.url && r[C.url]) || '',
       details: Object.keys(r).filter((h) => !roles.has(h) && !hidden.has(h) && r[h] !== '').map((h) => [h, r[h]]),
     });

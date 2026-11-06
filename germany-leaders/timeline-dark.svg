@@ -71,7 +71,7 @@
 <rect class="spine-a" x="0" y="1331.8" width="72" height="345.7"/>
 <rect class="spine-b" x="0" y="1677.5" width="72" height="1489"/>
 <rect class="spine-a" x="0" y="3166.5" width="72" height="727.4"/>
-<rect class="spine-b" x="0" y="3893.9" width="72" height="209.6"/>
+<rect class="spine-b" x="0" y="3893.9" width="72" height="210"/>
 <line class="grid" x1="0" x2="760" y1="70" y2="70"/>
 <line class="grid" x1="0" x2="760" y1="550" y2="550"/>
 <line class="grid" x1="0" x2="760" y1="790" y2="790"/>
@@ -307,9 +307,9 @@
 <text class="era-date" x="36" y="3203.5" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="36" y="3916.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="3930.9" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="-4" x2="113" y1="4074" y2="4074"/>
-<text class="era-date" x="36" y="4088" text-anchor="middle">2026.10.31</text>
-<text class="era-date" x="36" y="4101" text-anchor="middle">時点</text>
+<line class="asof-line" x1="-4" x2="113" y1="4074.4" y2="4074.4"/>
+<text class="era-date" x="36" y="4088.4" text-anchor="middle">2026.11.6</text>
+<text class="era-date" x="36" y="4101.4" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:オットー・フォン・ビスマルク">
 <title>オットー・フォン・ビスマルク　1867年7月14日 〜 1890年3月20日（在任 8,285日）</title>
 <rect class="bar f-green" x="79" y="251.8" width="14" height="542.4" rx="3"/>
@@ -526,10 +526,10 @@
 <text class="label" x="124" y="3969.8"><tspan class="name">ショルツ</tspan><tspan class="yrs" dx="6">2021–2025</tspan></text>
 </g>
 <g class="term c-a" data-id="a39" data-person="a:フリードリヒ・メルツ">
-<title>フリードリヒ・メルツ　2025年5月6日 〜 在任中（在任 543日（2026年10月31日時点））</title>
-<linearGradient id="tl-g-a39" gradientUnits="userSpaceOnUse" x1="0" y1="4052" x2="0" y2="4074"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M79 4042.3Q79 4039.3 82 4039.3H90Q93 4039.3 93 4042.3V4074Q93 4074 93 4074H79Q79 4074 79 4074Z" fill="url(#tl-g-a39)"/>
+<title>フリードリヒ・メルツ　2025年5月6日 〜 在任中（在任 549日（2026年11月6日時点））</title>
+<linearGradient id="tl-g-a39" gradientUnits="userSpaceOnUse" x1="0" y1="4052.4" x2="0" y2="4074.4"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 4042.3Q79 4039.3 82 4039.3H90Q93 4039.3 93 4042.3V4074.4Q93 4074.4 93 4074.4H79Q79 4074.4 79 4074.4Z" fill="url(#tl-g-a39)"/>
 <text class="label" x="124" y="4051.6"><tspan class="name">メルツ</tspan><tspan class="yrs" dx="6">2025–</tspan></text>
 </g>
-<text class="foot" x="380" y="4133.5" text-anchor="middle">出典：英語版 Wikipedia「List of chancellors of Germany」、ドイツ語版 Wikipedia「Liste der Regierungschefs von Deutschland」、日本語版 Wikipedia「ドイツの首相」、ドイツ語版 Wikipedia「Bundeskanzler (Norddeutscher Bund)」、ドイツ歴史博物館 LeMO「Otto von Bismarck」、ドイツ連邦公文書館「Akten der Reichskanzlei. Weimarer Republik」（内閣の一覧）、コンラート・アデナウアー財団「Die Zusammensetzung der Reichskabinette 1919 bis 1933」（E. R. Huber『Dokumente zur deutschen Verfassungsgeschichte』第4巻などによる）、Archontology.org（ドイツ国の首相の一覧 1919〜1945年）、『Badische Presse』1920年6月22日（フェーレンバッハの首相任命の記事。バーデン州立図書館のデジタル版）、ドイツ語版 Wikipedia「Rat der Volksbeauftragten」、ドイツ連邦議会 Datenhandbuch「6.1 Wahl und Amtszeit der Bundeskanzler」、ドイツ連邦議会 本会議議事録 第4期第86回（1963年10月15日）、ドイツ連邦議会 本会議議事録 第4期第87・88回（1963年10月16日）、ドイツ連邦議会 本会議議事録 第5期第77回（1966年12月1日）、ドイツ語版 Wikipedia「Kabinett Merz」、英語版 Wikipedia「List of political office-holders in East Germany」、日本語版 Wikipedia「ドイツ社会主義統一党」、ドイツ語版 Wikipedia「Egon Krenz」、英語版 Wikipedia「List of presidents of Germany」　2026年10月31日時点</text>
+<text class="foot" x="380" y="4133.9" text-anchor="middle">出典：英語版 Wikipedia「List of chancellors of Germany」、ドイツ語版 Wikipedia「Liste der Regierungschefs von Deutschland」、日本語版 Wikipedia「ドイツの首相」、ドイツ語版 Wikipedia「Bundeskanzler (Norddeutscher Bund)」、ドイツ歴史博物館 LeMO「Otto von Bismarck」、ドイツ連邦公文書館「Akten der Reichskanzlei. Weimarer Republik」（内閣の一覧）、コンラート・アデナウアー財団「Die Zusammensetzung der Reichskabinette 1919 bis 1933」（E. R. Huber『Dokumente zur deutschen Verfassungsgeschichte』第4巻などによる）、Archontology.org（ドイツ国の首相の一覧 1919〜1945年）、『Badische Presse』1920年6月22日（フェーレンバッハの首相任命の記事。バーデン州立図書館のデジタル版）、ドイツ語版 Wikipedia「Rat der Volksbeauftragten」、ドイツ連邦議会 Datenhandbuch「6.1 Wahl und Amtszeit der Bundeskanzler」、ドイツ連邦議会 本会議議事録 第4期第86回（1963年10月15日）、ドイツ連邦議会 本会議議事録 第4期第87・88回（1963年10月16日）、ドイツ連邦議会 本会議議事録 第5期第77回（1966年12月1日）、ドイツ語版 Wikipedia「Kabinett Merz」、英語版 Wikipedia「List of political office-holders in East Germany」、日本語版 Wikipedia「ドイツ社会主義統一党」、ドイツ語版 Wikipedia「Egon Krenz」、英語版 Wikipedia「List of presidents of Germany」　2026年11月6日時点</text>
 </svg>

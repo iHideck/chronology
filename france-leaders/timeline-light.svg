@@ -72,7 +72,7 @@
 <rect class="spine-b" x="0" y="1571.8" width="72" height="345.7"/>
 <rect class="spine-a" x="0" y="1917.5" width="72" height="1489"/>
 <rect class="spine-b" x="0" y="3406.5" width="72" height="727.4"/>
-<rect class="spine-a" x="0" y="4133.9" width="72" height="209.6"/>
+<rect class="spine-a" x="0" y="4133.9" width="72" height="210"/>
 <line class="grid" x1="0" x2="760" y1="310" y2="310"/>
 <line class="grid" x1="0" x2="760" y1="790" y2="790"/>
 <line class="grid" x1="0" x2="760" y1="1030" y2="1030"/>
@@ -323,9 +323,9 @@
 <text class="era-date" x="36" y="3443.5" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="36" y="4156.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="4170.9" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="-4" x2="113" y1="4313.9" y2="4313.9"/>
-<text class="era-date" x="36" y="4327.9" text-anchor="middle">2026.10.31</text>
-<text class="era-date" x="36" y="4340.9" text-anchor="middle">時点</text>
+<line class="asof-line" x1="-4" x2="113" y1="4314.3" y2="4314.3"/>
+<text class="era-date" x="36" y="4328.3" text-anchor="middle">2026.11.6</text>
+<text class="era-date" x="36" y="4341.3" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:ナポレオン3世">
 <title>ナポレオン3世　1852年12月2日 〜 1870年9月4日（在任 6,485日）</title>
 <rect class="bar f-green" x="79" y="141" width="14" height="424.1" rx="3"/>
@@ -502,10 +502,10 @@
 <text class="label" x="124" y="3980.2"><tspan class="name">オランド</tspan><tspan class="yrs" dx="6">2012–2017</tspan></text>
 </g>
 <g class="term c-a" data-id="a33" data-person="a:エマニュエル・マクロン">
-<title>エマニュエル・マクロン　2017年5月14日 〜 在任中（在任 3,457日（2026年10月31日時点））</title>
-<linearGradient id="tl-g-a33" gradientUnits="userSpaceOnUse" x1="0" y1="4291.9" x2="0" y2="4313.9"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M79 4090.8Q79 4087.8 82 4087.8H90Q93 4087.8 93 4090.8V4313.9Q93 4313.9 93 4313.9H79Q79 4313.9 79 4313.9Z" fill="url(#tl-g-a33)"/>
+<title>エマニュエル・マクロン　2017年5月14日 〜 在任中（在任 3,463日（2026年11月6日時点））</title>
+<linearGradient id="tl-g-a33" gradientUnits="userSpaceOnUse" x1="0" y1="4292.3" x2="0" y2="4314.3"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 4090.8Q79 4087.8 82 4087.8H90Q93 4087.8 93 4090.8V4314.3Q93 4314.3 93 4314.3H79Q79 4314.3 79 4314.3Z" fill="url(#tl-g-a33)"/>
 <text class="label" x="124" y="4100.1"><tspan class="name">マクロン</tspan><tspan class="yrs" dx="6">2017–</tspan></text>
 </g>
-<text class="foot" x="380" y="4373.5" text-anchor="middle">出典：エリゼ宮（フランス大統領府）「Les présidents de la République」、エリゼ宮「Albert Lebrun」、エリゼ宮「Vincent Auriol」、日本語版 Wikipedia「フランスの大統領」、日本語版 Wikipedia「フランス共和国臨時政府」、英語版 Wikipedia「List of presidents of France」、英語版 Wikipedia「List of French monarchs」、英語版 Wikipedia「Government of National Defense」、フランス語版 Wikipedia「Liste des chefs d'État français」、フランス語版 Wikipedia「Liste des présidents de la République française」、フランス語版 Wikipedia「Gouvernement provisoire de la République française」、フランス語版 Wikipedia「Intérim du président de la République française」、Wikidata（各人物の「役職（P39）」の開始日・終了日）　2026年10月31日時点</text>
+<text class="foot" x="380" y="4373.9" text-anchor="middle">出典：エリゼ宮（フランス大統領府）「Les présidents de la République」、エリゼ宮「Albert Lebrun」、エリゼ宮「Vincent Auriol」、日本語版 Wikipedia「フランスの大統領」、日本語版 Wikipedia「フランス共和国臨時政府」、英語版 Wikipedia「List of presidents of France」、英語版 Wikipedia「List of French monarchs」、英語版 Wikipedia「Government of National Defense」、フランス語版 Wikipedia「Liste des chefs d'État français」、フランス語版 Wikipedia「Liste des présidents de la République française」、フランス語版 Wikipedia「Gouvernement provisoire de la République française」、フランス語版 Wikipedia「Intérim du président de la République française」、Wikidata（各人物の「役職（P39）」の開始日・終了日）　2026年11月6日時点</text>
 </svg>
