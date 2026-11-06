@@ -14,6 +14,7 @@
 | 政治と首脳 | [中国の最高指導者](https://ihideck.github.io/chronology/china-leaders/) | 1861年〜現在 | 29 | [china-leaders/](china-leaders/) |
 | 政治と首脳 | [韓国の首脳](https://ihideck.github.io/chronology/korea-leaders/) | 1864年〜現在 | 17 | [korea-leaders/](korea-leaders/) |
 | 政治と首脳 | [ロシア・ソ連の最高指導者](https://ihideck.github.io/chronology/russia-leaders/) | 1855年〜現在 | 17 | [russia-leaders/](russia-leaders/) |
+| 政治と首脳 | [イギリスの首相](https://ihideck.github.io/chronology/uk-prime-ministers/) | 1721年〜現在 | 81 | [uk-prime-ministers/](uk-prime-ministers/) |
 | 政治と首脳 | [イギリスの君主](https://ihideck.github.io/chronology/uk-monarchs/) | 1760年〜現在 | 10 | [uk-monarchs/](uk-monarchs/) |
 | 政治と首脳 | [フランスの首脳](https://ihideck.github.io/chronology/france-leaders/) | 1852年〜現在 | 34 | [france-leaders/](france-leaders/) |
 | 政治と首脳 | [ドイツの首脳](https://ihideck.github.io/chronology/germany-leaders/) | 1867年〜現在 | 40 | [germany-leaders/](germany-leaders/) |

@@ -59,7 +59,7 @@
     "columns": [
       {
         "id": "jp", "data": "prime-ministers", "side": "left", "title": "日本の内閣総理大臣", "short": "総理", "counterLabel": "総理",
-        "color": "red", "photos": true, "fixed": true, "counter": ["us", "cn", "kr", "ru", "uk", "fr", "de", "it", "ldp"],
+        "color": "red", "photos": true, "fixed": true, "counter": ["us", "cn", "kr", "ru", "ukpm", "uk", "fr", "de", "it", "ldp"],
         "gapText": "臨時兼任・代理の期間",
         "lead": { "name": "内閣制度発足前", "until": "1885-12-22", "text": "1885年12月22日に内閣制度が発足し、伊藤博文が初代の内閣総理大臣に就任しました。それまでは太政官制のもとで政治が行われていました。" }
       },
@@ -69,7 +69,8 @@
       { "id": "cn", "data": "china-leaders", "side": "right", "title": "中国の最高指導者", "short": "中国", "mark": "中", "counterLabel": "中国の指導者", "color": "amber", "narrowHidden": true, "counter": ["jp"] },
       { "id": "kr", "data": "korea-leaders", "side": "right", "title": "韓国の首脳", "short": "韓国", "mark": "韓", "counterLabel": "韓国の首脳", "color": "amber", "narrowHidden": true, "counter": ["jp"], "gapText": "日本統治・米軍政の時期" },
       { "id": "ru", "data": "russia-leaders", "side": "right", "title": "ロシア・ソ連の最高指導者", "short": "ソ連・ロシア", "mark": "露", "counterLabel": "ソ連・ロシアの指導者", "color": "violet", "narrowHidden": true, "counter": ["jp"] },
-      { "id": "uk", "data": "uk-monarchs", "side": "right", "title": "イギリスの君主", "short": "英国", "mark": "英", "counterLabel": "英国の君主", "color": "green", "narrowHidden": true, "counter": ["jp"] },
+      { "id": "ukpm", "data": "uk-prime-ministers", "side": "right", "title": "イギリスの首相", "short": "英国首相", "mark": "英", "counterLabel": "英国首相", "color": "green", "narrowHidden": true, "counter": ["jp"] },
+      { "id": "uk", "data": "uk-monarchs", "side": "right", "title": "イギリスの君主", "short": "英国君主", "mark": "王", "counterLabel": "英国の君主", "color": "green", "hidden": true, "narrowHidden": true, "counter": ["jp"] },
       { "id": "fr", "data": "france-leaders", "side": "right", "title": "フランスの首脳", "short": "フランス", "mark": "仏", "counterLabel": "フランスの首脳", "color": "green", "narrowHidden": true, "counter": ["jp"] },
       { "id": "de", "data": "germany-leaders", "side": "right", "title": "ドイツの首脳", "short": "ドイツ", "mark": "独", "counterLabel": "ドイツの首脳", "color": "green", "narrowHidden": true, "counter": ["jp"], "gapText": "連合国の占領期" },
       { "id": "it", "data": "italy-prime-ministers", "side": "right", "title": "イタリアの首相", "short": "イタリア", "mark": "伊", "counterLabel": "イタリアの首相", "color": "green", "narrowHidden": true, "counter": ["jp"] },

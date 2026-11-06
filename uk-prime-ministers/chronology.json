@@ -1,0 +1,108 @@
+{
+  "title": "イギリスの首相",
+  "short": "英国首相",
+  "description": "ウォルポールから現在の首相まで、イギリス（グレートブリテン王国・連合王国）の首相の在任期間（1721年〜）。",
+  "category": "政治と首脳",
+  "order": 44,
+  "color": "green",
+  "data": {
+    "file": "uk-prime-ministers.csv",
+    "columns": {
+      "name": "名前",
+      "short": "略称",
+      "start": "開始日",
+      "end": "終了日",
+      "url": "リンク",
+      "photo": "写真",
+      "photoCredit": "写真の出典",
+      "photoUrl": "写真のページ",
+      "photoLicense": "写真のライセンス"
+    },
+    "hidden": [
+      "Wikidata"
+    ],
+    "role": "イギリスの首相",
+    "days": "exclusive",
+    "durationLabel": "在任",
+    "ongoing": "在任中",
+    "startLabel": "就任",
+    "endLabel": "退任",
+    "check": {
+      "sequential": true
+    }
+  },
+  "sources": [
+    {
+      "title": "gov.uk「Past Prime Ministers」",
+      "url": "https://www.gov.uk/government/history/past-prime-ministers"
+    },
+    {
+      "title": "gov.uk「Prime Minister」（歴代の任命の記録）",
+      "url": "https://www.gov.uk/government/ministers/prime-minister"
+    },
+    {
+      "title": "gov.uk「The Rt Hon Andy Burnham MP」",
+      "url": "https://www.gov.uk/government/people/andy-burnham"
+    },
+    {
+      "title": "UK Parliament「Andy Burnham: Parliamentary career」",
+      "url": "https://members.parliament.uk/member/1427/career"
+    },
+    {
+      "title": "英国下院図書館「Prime Ministers」（Research Briefing SN04256、2026年7月21日）",
+      "url": "https://researchbriefings.files.parliament.uk/documents/SN04256/SN04256.pdf"
+    },
+    {
+      "title": "J. C. Sainty 編『Office-Holders in Modern Britain: Volume 1, Treasury Officials 1660-1870』「Treasurers and Commissioners of the Treasury」（British History Online）",
+      "url": "https://www.british-history.ac.uk/office-holders/vol1/pp16-25"
+    },
+    {
+      "title": "Archontology.org「United Kingdom: Principal Ministers: 1730-1905」（各首相のページは Englefield ほか『Facts About the British Prime Ministers』による）",
+      "url": "https://www.archontology.org/nations/uk/bpm/00_1730_prmin.php"
+    },
+    {
+      "title": "Archontology.org「United Kingdom: Prime Ministers: 1905-2026」（各首相のページに The Times の宮廷日報を引用）",
+      "url": "https://www.archontology.org/nations/uk/bpm/"
+    },
+    {
+      "title": "AP 通信「Starmer says he'll resign as UK prime minister, roiling British politics yet again」（2026年6月22日。Anchorage Daily News の転載）",
+      "url": "https://www.adn.com/nation-world/2026/06/22/keir-starmer-announces-resignation-as-uk-prime-minister-will-stay-on-until-successor-is-chosen/"
+    },
+    {
+      "title": "英語版 Wikipedia「List of prime ministers of the United Kingdom」",
+      "url": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_the_United_Kingdom"
+    },
+    {
+      "title": "日本語版 Wikipedia「イギリスの首相の一覧」",
+      "url": "https://ja.wikipedia.org/wiki/イギリスの首相の一覧"
+    },
+    {
+      "title": "Wikidata「Prime Minister of the United Kingdom」（Q14211。各首相の項目の役職の記録と照合した）",
+      "url": "https://www.wikidata.org/wiki/Q14211"
+    }
+  ],
+  "credits": [
+    {
+      "title": "英国首相の肖像",
+      "photos": true,
+      "short": "写真：Wikimedia Commons",
+      "text": "Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています。英国政府の画像（OGL 3）は、Contains public sector information licensed under the Open Government Licence v3.0."
+    }
+  ],
+  "notes": [
+    "グレートブリテン王国（1707〜1800年）と連合王国（1801年〜）の首相の在任期間を並べた。首相の職は法で作られたものではなく少しずつ形になったもので、1721年に大蔵第一卿（First Lord of the Treasury）として政府を率いたウォルポールを初代とするのがふつう。",
+    "就任日は、国王（女王）から首相に任命された日（首相の職を引き受けた日）にした。大蔵委員会の特許状の日付は、任命から数日〜数週間遅れることが多いので使っていない（Sainty の一覧）。",
+    "退任日は後任の首相が任命された日にした（辞任を申し出ても、後任が決まるまでは職にとどまるため）。辞任を申し出た日や辞表が受理された日を退任日にする一覧（英語版 Wikipedia・Wikidata など）もある。在任中に死去した7人（ウィルミントン伯・ペラム・ロッキンガム侯・小ピット・パーシヴァル・カニング・パーマストン）は死去の日、国王に罷免されたグレンヴィル（1765年7月10日）・ポートランド公（1783年12月18日）・メルバーン子爵（1834年11月14日）は罷免の日を退任日にした。",
+    "同じ人が続けて務めた期間は1本にした。マクドナルドは1931年8月24日に労働党の内閣を総辞職し、同じ日に挙国一致内閣の首相に任命された。チャーチルも1945年5月23日に戦時の連立内閣を辞め、同じ日に総選挙までの内閣の首相に任命された。",
+    "ペラムは1746年2月に辞任し、数日後に再び任命された。その間にバース伯（ウィリアム・パルトニー）が組閣を試みて果たせなかった。1757年6月のウォルドグレイヴ伯の組閣の試みも同じで、その間もデヴォンシャー公が大蔵第一卿を続けた。2人とも首相には数えないのがふつうなので年表に入れず、ペラムの在任も1本にした。",
+    "日付はすべてグレゴリオ暦で書いた。イギリスでは1752年9月2日（翌日が9月14日）までユリウス暦が使われていたので、それより前の日付には11日を足し、もとのユリウス暦の日付を表の列に書いた。当時のイングランドでは3月25日に年が改まったが、出典の一覧はどれも年を1月1日から数えていて、この年表も同じにした（例：ウィルミントン伯の就任は、当時の数え方では1741年2月16日）。",
+    "18世紀の就任日は出典によって数日ずれる。ウォルポールは、大蔵委員会の特許状（Sainty の一覧）・英語版 Wikipedia・archontology.org に合わせてユリウス暦1721年4月3日にした（gov.uk・日本語版 Wikipedia・Wikidata は4月4日）。ペラムは gov.uk・英語版と日本語版 Wikipedia・Wikidata に合わせてユリウス暦1743年8月27日にした（archontology.org は特許状と同じ25日）。ニューカッスル公の2度目は、archontology.org・英語版 Wikipedia に合わせて1757年6月29日にした（gov.uk・日本語版 Wikipedia・Wikidata は、特許状の日付と同じ7月2日）。ビュート伯は1762年5月26日（gov.uk は27日）、グレンヴィルは1763年4月16日（gov.uk は10日）にした。",
+    "アディントンは gov.uk・英語版 Wikipedia・archontology.org に合わせて1801年3月17日にした（Wikidata は小ピットが職を退いた14日）。カニングは国王の手に口づけして就任した1827年4月12日にした（archontology.org・英語版 Wikipedia。gov.uk・日本語版 Wikipedia・Wikidata は組閣を頼まれた10日）。ウェリントン公の2度目は、ピールがイタリアから帰国するまでの暫定の首相で、メルバーン子爵が罷免された3日後の1834年11月17日に就任した（英語版 Wikipedia・archontology.org・Wikidata。gov.uk・日本語版 Wikipedia は14日）。",
+    "バルフォアは、国王エドワード7世から組閣を任された1902年7月12日にした（archontology.org・英語版 Wikipedia。gov.uk・日本語版 Wikipedia・Wikidata・英国下院図書館の資料は、ソールズベリー侯が辞任した11日）。",
+    "1905年からは、archontology.org が引く宮廷日報（The Times の Court Circular）で首相の職を引き受けた日にした。アスキスは、国王の滞在先のビアリッツで任命された1908年4月8日にした（英語版・日本語版 Wikipedia は7日、gov.uk は5日）。ロイド・ジョージは1916年12月7日にした（英語版 Wikipedia・Wikidata は、組閣を試みると引き受けた6日）。ボールドウィンの1度目は、国王の申し出を受けた1923年5月22日にした（手に口づけする儀式は25日の枢密院。gov.uk・日本語版 Wikipedia・Wikidata は23日）。",
+    "gov.uk の任命の記録には、archontology.org や英語版 Wikipedia と合わない日付がある。ボールドウィンの2度目を1924年11月14日、イーデンを1955年4月7日、ダグラス＝ヒュームを組閣を頼まれた1963年10月18日、キャメロンを2010年5月12日としているが、この年表ではそれぞれ11月4日、4月6日、10月19日、5月11日にした。",
+    "名前は日本語版 Wikipedia の記事名から括弧の中を除いたもの。2人のウィリアム・ピットは「（大ピット）」「（小ピット）」を付けて分けた。爵位で呼ばれることの多い首相は、略称を爵位にした（例：ロバート・ジェンキンソンの略称はリヴァプール伯）。",
+    "政党は英語版・日本語版 Wikipedia の一覧に合わせた。18世紀から19世紀前半のホイッグ党・トーリー党は、いまの政党のようなまとまった組織ではない。マクドナルドは1931年に挙国一致内閣を作ったあと労働党を除名され、国民労働党を率いた。",
+    "スターマーは2026年6月22日に辞任を表明し、7月20日にバーナムが就任した。2026年11月6日の時点で、バーナムが在任中。"
+  ]
+}
