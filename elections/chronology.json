@@ -1,0 +1,68 @@
+{
+  "title": "国政選挙（衆議院・参議院）",
+  "short": "国政選挙",
+  "description": "戦後の衆議院議員総選挙（第22〜51回）と参議院議員通常選挙（第1〜27回）の投票日と投票率を、総理大臣や選挙制度の変更と同じ時間軸に並べた年表。",
+  "category": "政治と首脳",
+  "order": 55,
+  "color": "blue",
+  "colorBy": "group",
+  "data": {
+    "file": "elections.csv",
+    "columns": {
+      "name": "名前",
+      "short": "略称",
+      "start": "投票日",
+      "end": "終了日",
+      "group": "院",
+      "url": "リンク"
+    },
+    "groups": {
+      "衆議院": { "color": "blue" },
+      "参議院": { "color": "red" }
+    },
+    "nameLabel": "選挙",
+    "startLabel": "投票日",
+    "endLabel": "終わり",
+    "durationLabel": "期間",
+    "ongoing": "現在",
+    "check": {
+      "consecutiveWithin": { "group": "院", "number": "回" },
+      "range": { "投票率（%）": [0, 100] }
+    }
+  },
+  "sources": [
+    { "title": "総務省「国政選挙における投票率の推移」", "url": "https://www.soumu.go.jp/senkyo/senkyo_s/news/sonota/ritu/index.html" },
+    { "title": "衆議院「衆議院議員総選挙一覧表」", "url": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/senkyolist.htm" },
+    { "title": "衆議院「国会議員定数の変遷」（第22回総選挙の期日）", "url": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/ugoki/h14ugoki/h14tokei/h14tou01.htm" },
+    { "title": "参議院「参議院議員通常選挙関係一覧」", "url": "https://www.sangiin.go.jp/jpn/shiryo/s_gaiyo/212/2128020.pdf" },
+    { "title": "総務省「令和7年7月20日執行 参議院議員通常選挙 速報結果」", "url": "https://www.soumu.go.jp/senkyo/senkyo_s/data/sangiin27/index.html" },
+    { "title": "日本語版 Wikipedia（各回の記事。各行のリンク先）", "url": "https://ja.wikipedia.org/" }
+  ],
+  "notes": [
+    "投票率は総務省の資料の値。衆議院は大選挙区・中選挙区・小選挙区、参議院は地方区・選挙区の投票率で、比例代表や全国区の投票率ではない。",
+    "棒は、その選挙で決まった議席が続いた期間。衆議院は解散の日まで（任期満了だった第33回は次の総選挙の投票日まで）、参議院は次の通常選挙の投票日まで。解散から総選挙までは、衆議院の棒が途切れる。",
+    "衆参同日選挙（1980年と1986年）は、総務省の資料の注記による。"
+  ],
+  "page": {
+    "title": "国政選挙と投票率",
+    "description": "1946年からの衆議院議員総選挙と参議院議員通常選挙を、投票率と、総理大臣や選挙制度の変更と同じ時間軸に並べた年表",
+    "lede": "1946年からの衆議院議員総選挙と参議院議員通常選挙を、総理大臣や選挙制度の変更と同じ時間軸に並べた年表です。棒は選挙で決まった議席が続いた期間で、衆議院は解散まで、参議院は次の通常選挙までです。",
+    "how": "棒や名前にカーソルを合わせる（スマホではタップする）と、投票日と投票率、同じ時期の総理が表示されます。上の欄には、横線の位置の総理と、その時点の衆議院・参議院の選挙が出ます。表示する列はボタンで切り替えられます。",
+    "range": { "start": "1945-01-01" },
+    "maxWidth": 1200,
+    "spine": {
+      "bands": { "data": "eras", "lane": 0, "after": "1926-12-25" },
+      "wareki": { "data": "eras", "lane": 0 },
+      "headline": "和暦"
+    },
+    "jump": "bands",
+    "facts": ["shu", "san"],
+    "columns": [
+      { "id": "shu", "data": "elections", "group": "衆議院", "side": "left", "title": "衆議院議員総選挙", "short": "衆議院", "counterLabel": "総選挙", "color": "blue", "unit": "回", "fixed": true, "counter": ["pm"], "gapText": "解散から総選挙まで" },
+      { "id": "pm", "data": "prime-ministers", "side": "left", "title": "内閣総理大臣", "short": "総理", "counterLabel": "総理", "mark": "総理", "color": "gray", "narrowHidden": true },
+      { "id": "san", "data": "elections", "group": "参議院", "side": "right", "title": "参議院議員通常選挙", "short": "参議院", "counterLabel": "通常選挙", "color": "red", "unit": "回", "fixed": true, "counter": ["pm"] },
+      { "id": "reform", "data": "electoral-reforms", "side": "right", "title": "選挙制度の変更", "short": "制度の変更", "mark": "制", "colorBy": "group", "narrowHidden": true, "dock": false }
+    ],
+    "preview": { "width": 1000 }
+  }
+}

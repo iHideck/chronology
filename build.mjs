@@ -47,6 +47,8 @@ for (const s of Object.values(sets)) {
     if (role === 'end' && spec.points && !head.includes(col)) continue;
     if (!head.includes(col)) problems.push(`${file}: 列「${col}」（${role}）がありません`);
   }
+  const within = spec.check?.consecutiveWithin;
+  const lastNumber = new Map();
   rows.forEach((r, i) => {
     const where = `${file} ${i + 2}行目（${r[C.name]}）`;
     const st = r[C.start];
@@ -61,6 +63,17 @@ for (const s of Object.values(sets)) {
       if (prev && isDate(prev[C.end]) && isDate(st) && TL.toTime(st) < TL.toTime(prev[C.end])) problems.push(`${where}: 前の行の終了日より前に始まっています`);
     }
     if (spec.check?.consecutive && prev && Number(r[C.ordinal]) !== Number(prev[C.ordinal]) + 1) problems.push(`${where}: ${C.ordinal}が前の行から連番になっていません`);
+    if (within) {
+      const n = Number(r[within.number]);
+      const before = lastNumber.get(r[within.group]);
+      if (!Number.isInteger(n)) problems.push(`${where}: ${within.number}「${r[within.number]}」が整数ではありません`);
+      else if (before != null && n !== before + 1) problems.push(`${where}: ${r[within.group]}の${within.number}が前の行（${before}）から連番になっていません`);
+      lastNumber.set(r[within.group], n);
+    }
+    for (const [col, [lo, hi]] of Object.entries(spec.check?.range ?? {})) {
+      const v = r[col] ?? '';
+      if (v !== '' && !(Number(v) >= lo && Number(v) <= hi)) problems.push(`${where}: ${col}「${v}」が${lo}〜${hi}の数ではありません`);
+    }
     if (C.photo && r[C.photo] && !existsSync(join(root, dir, r[C.photo]))) problems.push(`${where}: 写真 ${r[C.photo]} がありません`);
     for (const col of [C.url, C.photoUrl, C.photoLicense]) {
       if (col && r[col] && !isWebUrl(r[col])) problems.push(`${where}: ${col}「${r[col]}」が http:// か https:// で始まっていません`);
