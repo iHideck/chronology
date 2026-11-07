@@ -100,18 +100,18 @@
 <text class="spine-h2" x="455" y="54" text-anchor="middle">和暦</text>
 <rect class="spine-a" x="409" y="70" width="92" height="1056.5"/>
 <rect class="spine-b" x="409" y="1126.5" width="92" height="727.4"/>
-<rect class="spine-a" x="409" y="1853.9" width="92" height="210"/>
+<rect class="spine-a" x="409" y="1853.9" width="92" height="210.1"/>
 <line class="grid" x1="0" x2="1000" y1="190" y2="190"/>
 <line class="grid" x1="0" x2="1000" y1="430" y2="430"/>
 <line class="grid" x1="0" x2="1000" y1="670" y2="670"/>
 <line class="grid" x1="0" x2="1000" y1="910" y2="910"/>
 <line class="grid" x1="0" x2="1000" y1="1390" y2="1390"/>
 <line class="grid" x1="0" x2="1000" y1="1630" y2="1630"/>
-<line class="grid" x1="650.2" x2="650.2" y1="70" y2="2063.9"/>
-<line class="grid" x1="687.7" x2="687.7" y1="70" y2="2063.9"/>
-<line class="grid" x1="725.2" x2="725.2" y1="70" y2="2063.9"/>
-<line class="grid" x1="762.7" x2="762.7" y1="70" y2="2063.9"/>
-<line class="grid" x1="800.2" x2="800.2" y1="70" y2="2063.9"/>
+<line class="grid" x1="650.2" x2="650.2" y1="70" y2="2064"/>
+<line class="grid" x1="687.7" x2="687.7" y1="70" y2="2064"/>
+<line class="grid" x1="725.2" x2="725.2" y1="70" y2="2064"/>
+<line class="grid" x1="762.7" x2="762.7" y1="70" y2="2064"/>
+<line class="grid" x1="800.2" x2="800.2" y1="70" y2="2064"/>
 <line class="era-line" x1="0" x2="1000" y1="1126.5" y2="1126.5"/>
 <line class="era-line" x1="0" x2="1000" y1="1853.9" y2="1853.9"/>
 <path class="tick" d="M409 70h6M501 70h-6"/>
@@ -216,9 +216,9 @@
 <text class="era-date" x="455" y="1163.5" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="455" y="1876.9" text-anchor="middle">令和</text>
 <text class="era-date" x="455" y="1890.9" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="176.4" x2="834.2" y1="2034.3" y2="2034.3"/>
-<text class="era-date" x="455" y="2048.3" text-anchor="middle">2026.11.6</text>
-<text class="era-date" x="455" y="2061.3" text-anchor="middle">時点</text>
+<line class="asof-line" x1="176.4" x2="834.2" y1="2034.4" y2="2034.4"/>
+<text class="era-date" x="455" y="2048.4" text-anchor="middle">2026.11.7</text>
+<text class="era-date" x="455" y="2061.4" text-anchor="middle">時点</text>
 <polyline class="series k-blue" points="770.5,100.5 755,125.5 777.9,167.4 786.8,256 778.5,269.1 784.6,313.7 788.9,391.3 775.9,451.2 767,523.3 777.7,599.8 757.1,669.7 769.3,740.6 775.6,836.2 755.2,904.3 779.8,921.3 755,1005.1 768,1066.2 775.1,1153.2 752.4,1235 723.9,1313.2 734.5,1401.5 724.7,1482.5 753.4,1526.7 760,1621.9 722.7,1701 697.7,1748.8 701.5,1817.4 709.9,1913.9 702.1,1985.7 711.2,2016.5"/>
 <polyline class="series k-red" points="729.4,125.1 770.9,200.1 737.1,269.4 733.1,346.4 720.5,416 756,489.9 751.5,562.1 758.7,634.3 722.4,705.6 774.7,778.3 757,850.5 779.7,921.3 714,993.6 767.8,1066.2 744,1139.4 690.4,1211.6 667.2,1283.3 720.9,1354.6 711.9,1427.8 712.3,1498.6 720.1,1571.7 717.4,1642.6 697.5,1715.2 705.3,1786.5 683.2,1859.2 695.4,1930.5 719.6,2003.2"/>
 <g class="term c-shu" data-id="shu0" data-person="shu:第22回衆議院議員総選挙">
@@ -368,7 +368,7 @@
 </g>
 <g class="term c-shu" data-id="shu29" data-person="shu:第51回衆議院議員総選挙">
 <title>第51回衆議院議員総選挙　2026年2月8日 〜 現在　与党 315/465（67.7%）</title>
-<rect class="bar f-blue" x="359.6" y="2017.5" width="42.4" height="16.8" rx="1.5"/><rect class="bar share-rest" x="338" y="2017.5" width="19.6" height="16.8" rx="1.5"/>
+<rect class="bar f-blue" x="359.6" y="2017.5" width="42.4" height="16.9" rx="1.5"/><rect class="bar share-rest" x="338" y="2017.5" width="19.6" height="16.9" rx="1.5"/>
 <text class="label" x="323" y="2029.9" text-anchor="end"><tspan class="yrs">2026–</tspan><tspan class="name" dx="6">第51回</tspan></text>
 </g>
 <g class="term c-pm" data-id="pm0" data-person="pm:小磯國昭">
@@ -587,9 +587,9 @@
 <text class="label" x="165.4" y="1997.4" text-anchor="end"><tspan class="yrs">2024–2025</tspan><tspan class="name" dx="6">石破茂</tspan></text>
 </g>
 <g class="term c-pm" data-id="pm40" data-person="pm:高市早苗">
-<title>第104〜105代内閣総理大臣 高市早苗　2025年10月21日 〜 在任中（在任 382日（2026年11月6日時点））</title>
-<linearGradient id="tl-g-pm40" gradientUnits="userSpaceOnUse" x1="0" y1="2012.3" x2="0" y2="2034.3"><stop offset="0" class="s-gray" stop-opacity="1"/><stop offset="1" class="s-gray" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M180.4 2013.3Q180.4 2010.3 183.4 2010.3H191.4Q194.4 2010.3 194.4 2013.3V2034.3Q194.4 2034.3 194.4 2034.3H180.4Q180.4 2034.3 180.4 2034.3Z" fill="url(#tl-g-pm40)"/>
+<title>第104〜105代内閣総理大臣 高市早苗　2025年10月21日 〜 在任中（在任 383日（2026年11月7日時点））</title>
+<linearGradient id="tl-g-pm40" gradientUnits="userSpaceOnUse" x1="0" y1="2012.4" x2="0" y2="2034.4"><stop offset="0" class="s-gray" stop-opacity="1"/><stop offset="1" class="s-gray" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M180.4 2013.3Q180.4 2010.3 183.4 2010.3H191.4Q194.4 2010.3 194.4 2013.3V2034.4Q194.4 2034.4 194.4 2034.4H180.4Q180.4 2034.4 180.4 2034.4Z" fill="url(#tl-g-pm40)"/>
 <text class="label" x="165.4" y="2022.7" text-anchor="end"><tspan class="yrs">2025–</tspan><tspan class="name" dx="6">高市早苗</tspan></text>
 </g>
 <g class="term c-san" data-id="san0" data-person="san:第1回参議院議員通常選挙">
@@ -724,7 +724,7 @@
 </g>
 <g class="term c-san" data-id="san26" data-person="san:第27回参議院議員通常選挙">
 <title>第27回参議院議員通常選挙　2025年7月20日 〜 現在　与党 121/248（48.8%）</title>
-<rect class="bar f-red" x="508" y="2004.2" width="24.8" height="30.1" rx="1.5"/><rect class="bar f-red share-sub" x="534.8" y="2004.2" width="3.4" height="30.1" rx="1.5"/><rect class="bar share-rest" x="540.2" y="2004.2" width="31.8" height="30.1" rx="1.5"/>
+<rect class="bar f-red" x="508" y="2004.2" width="24.8" height="30.2" rx="1.5"/><rect class="bar f-red share-sub" x="534.8" y="2004.2" width="3.4" height="30.2" rx="1.5"/><rect class="bar share-rest" x="540.2" y="2004.2" width="31.8" height="30.2" rx="1.5"/>
 <text class="label" x="587" y="2016.5"><tspan class="name">第27回</tspan></text>
 </g>
 <g class="term c-rate" data-id="rate0" data-person="rate:第22回衆議院議員総選挙">
@@ -961,7 +961,7 @@
 <circle class="mark f-blue" cx="711.2" cy="2016.5" r="4"/>
 <text class="val" x="718.2" y="2020.5">56.26%</text>
 </g>
-<line class="axis" x1="823.2" x2="823.2" y1="70" y2="2063.9"/>
+<line class="axis" x1="823.2" x2="823.2" y1="70" y2="2064"/>
 <g class="term c-reform" data-id="reform0" data-person="reform:女性の参政権と、選挙権年齢を20歳以上に">
 <title>女性の参政権と、選挙権年齢を20歳以上に　1945年12月17日</title>
 <circle class="dot f-blue" cx="823.2" cy="93" r="4"/>
@@ -1039,9 +1039,9 @@
 <circle class="dot f-red" cx="823.2" cy="1841.5" r="4"/>
 <text class="label" x="845.2" y="1846.4"><tspan class="name">特定枠</tspan></text>
 </g>
-<line class="share-line" x1="370" x2="370" y1="70" y2="2063.9"/>
-<line class="share-line dash" x1="359.3" x2="359.3" y1="70" y2="2063.9"/>
-<line class="share-line" x1="540" x2="540" y1="70" y2="2063.9"/>
-<line class="share-line dash" x1="550.7" x2="550.7" y1="70" y2="2063.9"/>
-<text class="foot" x="500" y="2093.9" text-anchor="middle">出典：総務省「国政選挙における投票率の推移」、衆議院「衆議院議員総選挙一覧表」、衆議院「国会議員定数の変遷」（第22回総選挙の期日）、参議院「参議院議員通常選挙関係一覧」、総務省「令和7年7月20日執行 参議院議員通常選挙 速報結果」、総務省「選挙関連資料」（各回の党派別当選人数）、e-Stat に収録された総務省の選挙結果調（党派別当選人数の推移）、衆議院「衆議院の動き」（各年版。党派別当選者数と閣僚の党派）、国立国会図書館デジタルコレクション（衆議院事務局『衆議院議員総選挙一覧』、内務省『総選挙結果調』）、国立国会図書館インターネット資料収集保存事業（統計局『日本の長期統計系列』の保存版）、参議院「審議概要」「国会概観」と会派の資料（選挙後最初の国会の会派別所属議員数）、首相官邸「歴代内閣」（閣僚名簿）、国立国会図書館「国会会議録検索システム」（閣僚の会派、総選挙結果の報告）、Internet Archive の保存版（参議院・統計局の旧ページ）、日本語版 Wikipedia（各回の記事。各行のリンク先。閣僚の党派など一部の確認）　2026年11月6日時点</text>
+<line class="share-line" x1="370" x2="370" y1="70" y2="2064"/>
+<line class="share-line dash" x1="359.3" x2="359.3" y1="70" y2="2064"/>
+<line class="share-line" x1="540" x2="540" y1="70" y2="2064"/>
+<line class="share-line dash" x1="550.7" x2="550.7" y1="70" y2="2064"/>
+<text class="foot" x="500" y="2094" text-anchor="middle">出典：総務省「国政選挙における投票率の推移」、衆議院「衆議院議員総選挙一覧表」、衆議院「国会議員定数の変遷」（第22回総選挙の期日）、参議院「参議院議員通常選挙関係一覧」、総務省「令和7年7月20日執行 参議院議員通常選挙 速報結果」、総務省「選挙関連資料」（各回の党派別当選人数）、e-Stat に収録された総務省の選挙結果調（党派別当選人数の推移）、衆議院「衆議院の動き」（各年版。党派別当選者数と閣僚の党派）、国立国会図書館デジタルコレクション（衆議院事務局『衆議院議員総選挙一覧』、内務省『総選挙結果調』）、国立国会図書館インターネット資料収集保存事業（統計局『日本の長期統計系列』の保存版）、参議院「審議概要」「国会概観」と会派の資料（選挙後最初の国会の会派別所属議員数）、首相官邸「歴代内閣」（閣僚名簿）、国立国会図書館「国会会議録検索システム」（閣僚の会派、総選挙結果の報告）、Internet Archive の保存版（参議院・統計局の旧ページ）、日本語版 Wikipedia（各回の記事。各行のリンク先。閣僚の党派など一部の確認）　2026年11月7日時点</text>
 </svg>

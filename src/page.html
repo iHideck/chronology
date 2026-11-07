@@ -238,6 +238,7 @@ body::before {
 .tl .term:focus { outline: none; }
 .tl .term:focus-visible .bar, .tl .term:focus-visible .bar-open, .tl .term:focus-visible .bar-lead, .tl .term:focus-visible .dot, .tl .term:focus-visible .bar-hatch, .tl .term:focus-visible .mark { stroke: var(--ink); stroke-width: 2; }
 .tl .term.is-now .mark { stroke: var(--ink); }
+.tl .term.is-now .mark.quiet, .tl .term.is-focus .mark.quiet { opacity: 1; }
 .tl .xhair { pointer-events: none; }
 .tl .xhair-line { stroke: var(--ink); stroke-width: 1; opacity: 0.45; }
 .tl .xhair-dot { stroke: var(--paper); stroke-width: 2; }
@@ -425,6 +426,12 @@ const visible = () => model.columns.filter((c) => !hidden.has(c.id));
     if (typeof id === 'object') { items.push([id.label, id.text]); continue; }
     const c = model.colById.get(id);
     if (!c) continue;
+    // 観測値の線は、最新の値とその時点
+    if (c.chart && c.spec.series) {
+      const last = c.terms[c.terms.length - 1];
+      if (last) items.push([c.short ?? c.title, `${chartValueText(c, last)}（${fmtStr(last.startStr)}）`]);
+      continue;
+    }
     const ords = c.terms.flatMap((t) => [t.ordFrom, t.ordTo]).filter((n) => n != null);
     const people = c.persons.size;
     const text = ords.length
@@ -622,7 +629,10 @@ function update() {
     for (const x of list) now.add(x.id);
     if (c.chart) {
       const order = Object.keys(c.spec.groups ?? {});
-      const parts = [...list].sort((a, b) => order.indexOf(a.group) - order.indexOf(b.group)).map((x) => `${c.spec.groups?.[x.group]?.short ?? x.group} ${chartValueText(c, x)}`);
+      // 観測値の線は、いつの値かを書き添える
+      const when = (x) => (c.spec.series ? `（${fmtStr(x.startStr)}）` : '');
+      const parts = [...list].sort((a, b) => order.indexOf(a.group) - order.indexOf(b.group))
+        .map((x) => `${[c.spec.groups?.[x.group]?.short ?? x.group, chartValueText(c, x)].filter(Boolean).join(' ')}${when(x)}`);
       setWho(b, parts.join('・') || '—', !list.length);
     } else if (list.length) {
       const names = list.map((x) => (c.share && x.share ? `${x.short} 与党 ${x.share.value}/${x.share.total}` : c.spec.days === 'age' ? `${x.short}（${ageAt(t, x)}）` : x.short));
@@ -722,7 +732,8 @@ function fillTip(t) {
   head.append(box);
   tip.append(head);
   if (c.chart) {
-    line('dates', fmtStr(t.startStr));
+    // 観測値は名前の行が日付なので、日付の行を重ねない
+    if (!c.spec.series) line('dates', fmtStr(t.startStr));
     line('days', `${c.title} ${chartValueText(c, t)}`);
   } else {
     line('dates', `${rangeText(t, c.spec)}${!t.ongoing && !t.point && t.end > model.asOf ? '（予定）' : ''}${t.approx ? '（推定・諸説あり）' : ''}`);
@@ -739,7 +750,7 @@ function fillTip(t) {
   for (const [key, value] of t.details) {
     if (c.chart && key === c.chart.value) continue;
     if (c.share && t.share && (key === c.share.value || key === c.share.total)) continue;
-    const d = line('detail', value);
+    const d = line('detail', c.spec.series && /^-?\d{5,}(\.\d+)?$/.test(value) ? fmtNum(value) : value);
     d.prepend(el('span', '', key));
   }
   for (const oid of c.counter ?? []) {
@@ -909,5 +920,40 @@ function buildTable(c) {
   sec.append(h, box);
   return sec;
 }
-$('#tables').append(...model.columns.filter((c) => !c.chart).map(buildTable));
+// 観測値のデータは、CSV の行をそのまま表にする（数の列は右に寄せ、桁を区切る）
+function buildRowsTable(c) {
+  const d = DATA.datasets[c.data];
+  const skip = new Set(d.spec.hidden ?? []);
+  const heads = Object.keys(d.rows[0] ?? {}).filter((h) => !skip.has(h));
+  const isNum = (v) => /^-?\d+(\.\d+)?$/.test(v);
+  const date = { ...DEFAULT_COLUMNS, ...d.spec.columns }.start;
+  const numeric = new Set(heads.filter((h) => h !== date && d.rows.some((r) => isNum(r[h])) && d.rows.every((r) => r[h] === '' || isNum(r[h]))));
+  const sec = el('section');
+  const h = el('h2');
+  h.append(swatch(colColor(c)), d.spec.title ?? c.title);
+  const box = el('div', 'scroll');
+  const table = el('table');
+  const thead = table.createTHead().insertRow();
+  for (const k of heads) {
+    const th = el('th', numeric.has(k) ? 'num' : '', k);
+    th.scope = 'col';
+    thead.append(th);
+  }
+  const tbody = table.createTBody();
+  for (const r of d.rows) {
+    const tr = tbody.insertRow();
+    for (const k of heads) {
+      const td = tr.insertCell();
+      const v = r[k] ?? '';
+      if (numeric.has(k)) td.className = 'num';
+      else if (v.length > 24) td.className = 'wrap-cell';
+      td.textContent = numeric.has(k) ? fmtNum(v) : v;
+    }
+  }
+  box.append(table);
+  sec.append(h, box);
+  return sec;
+}
+const seriesCols = model.columns.filter((c, i, all) => c.chart && c.spec.series && all.findIndex((x) => x.data === c.data) === i);
+$('#tables').append(...model.columns.filter((c) => !c.chart).map(buildTable), ...seriesCols.map(buildRowsTable));
 </script>

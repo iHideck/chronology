@@ -293,7 +293,7 @@
 <rect class="spine-a" x="0" y="30611.6" width="72" height="345.7"/>
 <rect class="spine-b" x="0" y="30957.3" width="72" height="1489"/>
 <rect class="spine-a" x="0" y="32446.3" width="72" height="727.4"/>
-<rect class="spine-b" x="0" y="33173.7" width="72" height="210"/>
+<rect class="spine-b" x="0" y="33173.7" width="72" height="210.1"/>
 <line class="grid" x1="0" x2="760" y1="70" y2="70"/>
 <line class="grid" x1="0" x2="760" y1="550" y2="550"/>
 <line class="grid" x1="0" x2="760" y1="790" y2="790"/>
@@ -2550,7 +2550,7 @@
 <text class="era-name" x="36" y="33196.7" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="33210.7" text-anchor="middle">2019.5.1</text>
 <line class="asof-line" x1="-4" x2="113" y1="33354.2" y2="33354.2"/>
-<text class="era-date" x="36" y="33368.2" text-anchor="middle">2026.11.6</text>
+<text class="era-date" x="36" y="33368.2" text-anchor="middle">2026.11.7</text>
 <text class="era-date" x="36" y="33381.2" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:皇極天皇">
 <title>天皇 皇極天皇　642年2月19日 〜 645年7月12日（在位 1,239日）</title>
@@ -3043,10 +3043,10 @@
 <text class="label" x="124" y="32459.6"><tspan class="name">明仁</tspan><tspan class="yrs" dx="6">1989–2019</tspan></text>
 </g>
 <g class="term c-a" data-id="a97" data-person="a:今上天皇（徳仁）">
-<title>天皇 今上天皇（徳仁）　2019年5月1日 〜 在位中（在位 2,746日（2026年11月6日時点））</title>
+<title>天皇 今上天皇（徳仁）　2019年5月1日 〜 在位中（在位 2,747日（2026年11月7日時点））</title>
 <linearGradient id="tl-g-a97" gradientUnits="userSpaceOnUse" x1="0" y1="33332.2" x2="0" y2="33354.2"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
 <path class="bar-open" d="M79 33177.7Q79 33174.7 82 33174.7H90Q93 33174.7 93 33177.7V33354.2Q93 33354.2 93 33354.2H79Q79 33354.2 79 33354.2Z" fill="url(#tl-g-a97)"/>
 <text class="label" x="124" y="33187.1"><tspan class="name">今上</tspan><tspan class="yrs" dx="6">2019–</tspan></text>
 </g>
-<text class="foot" x="380" y="33413.7" text-anchor="middle">出典：日本語版 Wikipedia「天皇の一覧」と各天皇の記事（2026年10月30日に取得）、宮内庁「天皇系図」、国立天文台 暦計算室「日本の暦日データベース」（和暦と西暦の対応の確認）　2026年11月6日時点</text>
+<text class="foot" x="380" y="33413.8" text-anchor="middle">出典：日本語版 Wikipedia「天皇の一覧」と各天皇の記事（2026年10月30日に取得）、宮内庁「天皇系図」、国立天文台 暦計算室「日本の暦日データベース」（和暦と西暦の対応の確認）　2026年11月7日時点</text>
 </svg>

@@ -64,7 +64,7 @@
 <text class="spine-h2" x="36" y="54" text-anchor="middle">和暦</text>
 <rect class="spine-a" x="0" y="70" width="72" height="936.5"/>
 <rect class="spine-b" x="0" y="1006.5" width="72" height="727.4"/>
-<rect class="spine-a" x="0" y="1733.9" width="72" height="210"/>
+<rect class="spine-a" x="0" y="1733.9" width="72" height="210.1"/>
 <line class="grid" x1="0" x2="760" y1="310" y2="310"/>
 <line class="grid" x1="0" x2="760" y1="550" y2="550"/>
 <line class="grid" x1="0" x2="760" y1="790" y2="790"/>
@@ -167,9 +167,9 @@
 <text class="era-date" x="36" y="1043.5" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="36" y="1756.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="1770.9" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="-4" x2="97" y1="1914.3" y2="1914.3"/>
-<text class="era-date" x="36" y="1928.3" text-anchor="middle">2026.11.6</text>
-<text class="era-date" x="36" y="1941.3" text-anchor="middle">時点</text>
+<line class="asof-line" x1="-4" x2="97" y1="1914.4" y2="1914.4"/>
+<text class="era-date" x="36" y="1928.4" text-anchor="middle">2026.11.7</text>
+<text class="era-date" x="36" y="1941.4" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:後退期">
 <title>後退期　1951年6月 〜 1951年10月（期間 4か月）</title>
 <rect class="bar-hatch" x="79" y="104.9" width="14" height="8.1" rx="3"/>
@@ -329,9 +329,9 @@
 </g>
 <g class="term c-a" data-id="a31" data-person="a:拡張期">
 <title>拡張期　2020年5月 〜 現在（期間 約7年）</title>
-<linearGradient id="tl-g-a31" gradientUnits="userSpaceOnUse" x1="0" y1="1892.3" x2="0" y2="1914.3"><stop offset="0" class="s-teal" stop-opacity="1"/><stop offset="1" class="s-teal" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M79 1762Q79 1759 82 1759H90Q93 1759 93 1762V1914.3Q93 1914.3 93 1914.3H79Q79 1914.3 79 1914.3Z" fill="url(#tl-g-a31)"/>
+<linearGradient id="tl-g-a31" gradientUnits="userSpaceOnUse" x1="0" y1="1892.4" x2="0" y2="1914.4"><stop offset="0" class="s-teal" stop-opacity="1"/><stop offset="1" class="s-teal" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 1762Q79 1759 82 1759H90Q93 1759 93 1762V1914.4Q93 1914.4 93 1914.4H79Q79 1914.4 79 1914.4Z" fill="url(#tl-g-a31)"/>
 <text class="label" x="108" y="1771.3"><tspan class="name">拡張期</tspan><tspan class="yrs" dx="6">2020–</tspan></text>
 </g>
-<text class="foot" x="380" y="1973.9" text-anchor="middle">出典：内閣府経済社会総合研究所「景気基準日付」、内閣府経済社会総合研究所「第22回景気動向指数研究会 議事要旨」（2026年7月23日）、内閣府経済社会総合研究所「第21回景気動向指数研究会について（概要）」（2022年7月19日、第16循環の山・谷の確定）、新潟県「景気動向 景気循環」（景気基準日付（全国）と景気の通称の表）、神奈川県統計センター「令和元（2019）年度 神奈川県景気動向指数年度報」（国の景気基準日付と景気の通称の表）、大和証券 岩下真理「コロナ禍で注目度が増すサービス動向」（内閣府 ESRI政策フォーラム第60回 資料、2022年9月26日）、日本語版 Wikipedia「景気循環」、日本語版 Wikipedia「平成不況」　2026年11月6日時点</text>
+<text class="foot" x="380" y="1974" text-anchor="middle">出典：内閣府経済社会総合研究所「景気基準日付」、内閣府経済社会総合研究所「第22回景気動向指数研究会 議事要旨」（2026年7月23日）、内閣府経済社会総合研究所「第21回景気動向指数研究会について（概要）」（2022年7月19日、第16循環の山・谷の確定）、新潟県「景気動向 景気循環」（景気基準日付（全国）と景気の通称の表）、神奈川県統計センター「令和元（2019）年度 神奈川県景気動向指数年度報」（国の景気基準日付と景気の通称の表）、大和証券 岩下真理「コロナ禍で注目度が増すサービス動向」（内閣府 ESRI政策フォーラム第60回 資料、2022年9月26日）、日本語版 Wikipedia「景気循環」、日本語版 Wikipedia「平成不況」　2026年11月7日時点</text>
 </svg>

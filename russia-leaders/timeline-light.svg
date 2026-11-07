@@ -72,7 +72,7 @@
 <rect class="spine-b" x="0" y="1571.8" width="72" height="345.7"/>
 <rect class="spine-a" x="0" y="1917.5" width="72" height="1489"/>
 <rect class="spine-b" x="0" y="3406.5" width="72" height="727.4"/>
-<rect class="spine-a" x="0" y="4133.9" width="72" height="210"/>
+<rect class="spine-a" x="0" y="4133.9" width="72" height="210.1"/>
 <line class="grid" x1="0" x2="760" y1="310" y2="310"/>
 <line class="grid" x1="0" x2="760" y1="790" y2="790"/>
 <line class="grid" x1="0" x2="760" y1="1030" y2="1030"/>
@@ -323,9 +323,9 @@
 <text class="era-date" x="36" y="3443.5" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="36" y="4156.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="4170.9" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="-4" x2="97" y1="4314.3" y2="4314.3"/>
-<text class="era-date" x="36" y="4328.3" text-anchor="middle">2026.11.6</text>
-<text class="era-date" x="36" y="4341.3" text-anchor="middle">時点</text>
+<line class="asof-line" x1="-4" x2="97" y1="4314.4" y2="4314.4"/>
+<text class="era-date" x="36" y="4328.4" text-anchor="middle">2026.11.7</text>
+<text class="era-date" x="36" y="4341.4" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:アレクサンドル2世">
 <title>最高指導者 アレクサンドル2世　1855年3月2日 〜 1881年3月13日（在任 9,508日）</title>
 <rect class="bar f-violet" x="79" y="194.9" width="14" height="622.8" rx="3"/>
@@ -445,12 +445,12 @@
 <text class="label" x="144" y="3883.7"><tspan class="name">メドヴェージェフ</tspan><tspan class="yrs" dx="6">2008–2012</tspan></text>
 </g>
 <g class="term c-a" data-id="a16" data-person="a:ウラジーミル・プーチン">
-<title>最高指導者 ウラジーミル・プーチン　2012年5月7日 〜 在任中（在任 5,296日（2026年11月6日時点））</title>
-<linearGradient id="tl-g-a16" gradientUnits="userSpaceOnUse" x1="0" y1="4292.3" x2="0" y2="4314.3"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M79 3970.3Q79 3967.3 82 3967.3H90Q93 3967.3 93 3970.3V4314.3Q93 4314.3 93 4314.3H79Q79 4314.3 79 4314.3Z" fill="url(#tl-g-a16)"/>
+<title>最高指導者 ウラジーミル・プーチン　2012年5月7日 〜 在任中（在任 5,297日（2026年11月7日時点））</title>
+<linearGradient id="tl-g-a16" gradientUnits="userSpaceOnUse" x1="0" y1="4292.4" x2="0" y2="4314.4"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 3970.3Q79 3967.3 82 3967.3H90Q93 3967.3 93 3970.3V4314.4Q93 4314.4 93 4314.4H79Q79 4314.4 79 4314.4Z" fill="url(#tl-g-a16)"/>
 <circle class="photo-ring" cx="123" cy="3974.8" r="16"/>
 <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQIAdgB2AAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABQYCAwQHAf/EABoBAAICAwAAAAAAAAAAAAAAAAUGAQMAAgT/2gAMAwEAAhADEAAAAUs8BaWGlttGVKxSCWzh7CIQ2AYmVYbIYKVY16HzT5mRObFQuZRukCmkbG/Gr78UZ//EACAQAAICAgICAwAAAAAAAAAAAAECAAMEBRESBhMhIiP/2gAIAQEAAQUCmpT7rwB8TPrDJenBmtH42e/rXbkKj5JdCORNUx70sePcDNlaOBGdRNAi5LvYQzv1DXJa6mLPF367byXIrqXVMuTgxLbUgmnbptN8Ur1fjVq2YObX68yf/8QAHxEAAgIBBAMAAAAAAAAAAAAAAQIABAMQERIhInGB/9oACAEDAQE/AayB2irMNMW67ofnuYPFwYNj3KKhMQGnI8dojsnanaf/xAAfEQABBAICAwAAAAAAAAAAAAABAAIDBBAxESEFQZH/2gAIAQIBAT8B8nIY4OvaKr2nVZQ76r72GEt57xJvHA2i0Ha//8QAKRAAAQMDAgQGAwAAAAAAAAAAAQACEQMQEgRBIjFRoRMUIUJDUmFjgf/aAAgBAQAGPwJFx93CFAtO4WQ5Wa7oVNFO8QZkd0cmYqLOZPpEwohYukPnlCDBbmq7QYe0AtRp6gYEbqfMyPwpY4H+3aPu0hMYKM1HfJsFqKZoFtXAgP2NuF5tpnfsCrZNBkQJ6o6femexVan9ahHe3//EACQQAAICAQMEAgMAAAAAAAAAAAABESExQVFhEIGhwXHRkbHw/9oACAEBAAE/IUZLSSTvYqiFCGmRViypm/DohzlZNap/RNMVre/Ji3MQosTe13FPbD6WnlByErM7McRSFnElMuWNJl17E/8AWv5c+jkf1XgknThSx0VNNXQyL/j7P0PZJ01cfL4K6UfL4wtmR2ZjH3kValuxC/zXsxULpNsMabU+RP8AZ/XEwj//2gAMAwEAAgADAAAAEECY/wDLC4MX/8QAHREBAAMAAgMBAAAAAAAAAAAAAQARITFhQVGRsf/aAAgBAwEBPxBSLwWSrCczQivVPxy+o1XiVNQCed+xgOmRSwump//EAB0RAQADAAIDAQAAAAAAAAAAAAEAESExQVFxwdH/2gAIAQIBAT8QWU5A+tfk1sMPDg8n6dSv5XB3dykxiV3DJc4mALn/xAAhEAEBAAICAQUBAQAAAAAAAAABEQAhMUFRYXGBkaGxwf/aAAgBAQABPxDTICiYuRFHrCfOCHFoCZyGe+PVsxm5GntmhPKHTiYRiAHk6G/FfuFE9GQJ6KEwCJwlSTomtTA5SjSWOt0Jf8cEOhHHWFQFyddVPWYuWhOqmR9L4nexKSd4wWvL7gMuANYFz/Gz+YiQn2n7EsYnx0hW+ajBnRulA3tayeucbzwFHlxhmMoVvQ4x8PdEJ/rH2a2Ie6ct5aDfpl/n6lGKQBpTs47MHqkD5MWE86YfTiNjY5tqUE6FWHIsuaKbOzbfTICi2HKn0GPjNdELnEIfkzwmf//Z" x="108" y="3959.8" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
 <text class="label" x="144" y="3979.7"><tspan class="name">プーチン</tspan><tspan class="yrs" dx="6">2012–</tspan></text>
 </g>
-<text class="foot" x="380" y="4373.9" text-anchor="middle">出典：日本語版 Wikipedia「ロシア皇帝」、日本語版 Wikipedia「ロシア臨時政府」、日本語版 Wikipedia「ソビエト連邦の指導者の一覧」、日本語版 Wikipedia「ロシア連邦大統領」、英語版 Wikipedia「List of leaders of the Soviet Union」、英語版 Wikipedia「List of heads of state of Russia」、英語版 Wikipedia「List of heads of government of Russia」、ロシア語版 Wikipedia「Временное правительство России」　2026年11月6日時点</text>
+<text class="foot" x="380" y="4374" text-anchor="middle">出典：日本語版 Wikipedia「ロシア皇帝」、日本語版 Wikipedia「ロシア臨時政府」、日本語版 Wikipedia「ソビエト連邦の指導者の一覧」、日本語版 Wikipedia「ロシア連邦大統領」、英語版 Wikipedia「List of leaders of the Soviet Union」、英語版 Wikipedia「List of heads of state of Russia」、英語版 Wikipedia「List of heads of government of Russia」、ロシア語版 Wikipedia「Временное правительство России」　2026年11月7日時点</text>
 </svg>

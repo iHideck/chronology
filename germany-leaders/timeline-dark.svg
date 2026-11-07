@@ -71,7 +71,7 @@
 <rect class="spine-a" x="0" y="1331.8" width="72" height="345.7"/>
 <rect class="spine-b" x="0" y="1677.5" width="72" height="1489"/>
 <rect class="spine-a" x="0" y="3166.5" width="72" height="727.4"/>
-<rect class="spine-b" x="0" y="3893.9" width="72" height="210"/>
+<rect class="spine-b" x="0" y="3893.9" width="72" height="210.1"/>
 <line class="grid" x1="0" x2="760" y1="70" y2="70"/>
 <line class="grid" x1="0" x2="760" y1="550" y2="550"/>
 <line class="grid" x1="0" x2="760" y1="790" y2="790"/>
@@ -308,7 +308,7 @@
 <text class="era-name" x="36" y="3916.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="3930.9" text-anchor="middle">2019.5.1</text>
 <line class="asof-line" x1="-4" x2="113" y1="4074.4" y2="4074.4"/>
-<text class="era-date" x="36" y="4088.4" text-anchor="middle">2026.11.6</text>
+<text class="era-date" x="36" y="4088.4" text-anchor="middle">2026.11.7</text>
 <text class="era-date" x="36" y="4101.4" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:オットー・フォン・ビスマルク">
 <title>オットー・フォン・ビスマルク　1867年7月14日 〜 1890年3月20日（在任 8,285日）</title>
@@ -612,12 +612,12 @@
 <text class="label" x="160" y="3969.8"><tspan class="name">ショルツ</tspan><tspan class="yrs" dx="6">2021–2025</tspan></text>
 </g>
 <g class="term c-a" data-id="a39" data-person="a:フリードリヒ・メルツ">
-<title>フリードリヒ・メルツ　2025年5月6日 〜 在任中（在任 549日（2026年11月6日時点））</title>
+<title>フリードリヒ・メルツ　2025年5月6日 〜 在任中（在任 550日（2026年11月7日時点））</title>
 <linearGradient id="tl-g-a39" gradientUnits="userSpaceOnUse" x1="0" y1="4052.4" x2="0" y2="4074.4"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
 <path class="bar-open" d="M79 4042.3Q79 4039.3 82 4039.3H90Q93 4039.3 93 4042.3V4074.4Q93 4074.4 93 4074.4H79Q79 4074.4 79 4074.4Z" fill="url(#tl-g-a39)"/>
 <circle class="photo-ring" cx="139" cy="4046.8" r="16"/>
 <image href="data:image/jpeg;base64,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" x="124" y="4031.8" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
 <text class="label" x="160" y="4051.6"><tspan class="name">メルツ</tspan><tspan class="yrs" dx="6">2025–</tspan></text>
 </g>
-<text class="foot" x="380" y="4133.9" text-anchor="middle">出典：英語版 Wikipedia「List of chancellors of Germany」、ドイツ語版 Wikipedia「Liste der Regierungschefs von Deutschland」、日本語版 Wikipedia「ドイツの首相」、ドイツ語版 Wikipedia「Bundeskanzler (Norddeutscher Bund)」、ドイツ歴史博物館 LeMO「Otto von Bismarck」、ドイツ連邦公文書館「Akten der Reichskanzlei. Weimarer Republik」（内閣の一覧）、コンラート・アデナウアー財団「Die Zusammensetzung der Reichskabinette 1919 bis 1933」（E. R. Huber『Dokumente zur deutschen Verfassungsgeschichte』第4巻などによる）、Archontology.org（ドイツ国の首相の一覧 1919〜1945年）、『Badische Presse』1920年6月22日（フェーレンバッハの首相任命の記事。バーデン州立図書館のデジタル版）、ドイツ語版 Wikipedia「Rat der Volksbeauftragten」、ドイツ連邦議会 Datenhandbuch「6.1 Wahl und Amtszeit der Bundeskanzler」、ドイツ連邦議会 本会議議事録 第4期第86回（1963年10月15日）、ドイツ連邦議会 本会議議事録 第4期第87・88回（1963年10月16日）、ドイツ連邦議会 本会議議事録 第5期第77回（1966年12月1日）、ドイツ語版 Wikipedia「Kabinett Merz」、英語版 Wikipedia「List of political office-holders in East Germany」、日本語版 Wikipedia「ドイツ社会主義統一党」、ドイツ語版 Wikipedia「Egon Krenz」、英語版 Wikipedia「List of presidents of Germany」　2026年11月6日時点</text>
+<text class="foot" x="380" y="4134" text-anchor="middle">出典：英語版 Wikipedia「List of chancellors of Germany」、ドイツ語版 Wikipedia「Liste der Regierungschefs von Deutschland」、日本語版 Wikipedia「ドイツの首相」、ドイツ語版 Wikipedia「Bundeskanzler (Norddeutscher Bund)」、ドイツ歴史博物館 LeMO「Otto von Bismarck」、ドイツ連邦公文書館「Akten der Reichskanzlei. Weimarer Republik」（内閣の一覧）、コンラート・アデナウアー財団「Die Zusammensetzung der Reichskabinette 1919 bis 1933」（E. R. Huber『Dokumente zur deutschen Verfassungsgeschichte』第4巻などによる）、Archontology.org（ドイツ国の首相の一覧 1919〜1945年）、『Badische Presse』1920年6月22日（フェーレンバッハの首相任命の記事。バーデン州立図書館のデジタル版）、ドイツ語版 Wikipedia「Rat der Volksbeauftragten」、ドイツ連邦議会 Datenhandbuch「6.1 Wahl und Amtszeit der Bundeskanzler」、ドイツ連邦議会 本会議議事録 第4期第86回（1963年10月15日）、ドイツ連邦議会 本会議議事録 第4期第87・88回（1963年10月16日）、ドイツ連邦議会 本会議議事録 第5期第77回（1966年12月1日）、ドイツ語版 Wikipedia「Kabinett Merz」、英語版 Wikipedia「List of political office-holders in East Germany」、日本語版 Wikipedia「ドイツ社会主義統一党」、ドイツ語版 Wikipedia「Egon Krenz」、英語版 Wikipedia「List of presidents of Germany」　2026年11月7日時点</text>
 </svg>

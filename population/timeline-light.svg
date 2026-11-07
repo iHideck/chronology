@@ -1,0 +1,1641 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 900 3982" width="900" height="3982" role="img" aria-labelledby="tl-title">
+<title id="tl-title">日本の人口と出生数</title>
+<style>
+.tl{--paper:#fcfcfd;--ink:#1c2029;--ink2:#4b5260;--muted:#687080;--rule:#e8eaef;--rule2:#c3c8d2;--spine-a:#f0f1f5;--spine-b:#e6e8ef;--red:#d4452c;--blue:#2c5aa0;--amber:#b8730f;--violet:#7a4fc4;--green:#138a60;--teal:#00897b;--gray:#9aa0ab;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .k-red{stroke:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .k-blue{stroke:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .k-amber{stroke:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .k-violet{stroke:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .k-green{stroke:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .k-teal{stroke:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .k-gray{stroke:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .series{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.tl .mark{stroke:var(--paper);stroke-width:1.5}
+.tl .val{font-size:11px;fill:var(--ink2);font-variant-numeric:tabular-nums}
+.tl .scale{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .key{font-size:11px;fill:var(--ink2)}
+.tl .mark.quiet{opacity:0}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="900" height="3982" rx="14"/>
+<text class="lane-s" x="92" y="40">出生数</text>
+<text class="scale" x="92" y="66" text-anchor="start">0</text>
+<text class="scale" x="165.3" y="66" text-anchor="middle">100</text>
+<text class="scale" x="238.7" y="66" text-anchor="middle">200</text>
+<text class="scale" x="312" y="66" text-anchor="end">300万人</text>
+<text class="lane-s" x="418" y="40">総人口</text>
+<text class="scale" x="418" y="66" text-anchor="start">0</text>
+<text class="scale" x="480.9" y="66" text-anchor="middle">4,000</text>
+<text class="scale" x="543.7" y="66" text-anchor="middle">8,000</text>
+<text class="scale" x="638" y="66" text-anchor="end">14,000万人</text>
+<rect class="f-gray" x="654" y="33" width="6" height="14" rx="3"/>
+<text class="lane-h" x="707" y="44">戦争・大きな出来事</text>
+<text class="spine-h" x="365" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="365" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="319" y="70" width="92" height="1069.8"/>
+<rect class="spine-b" x="319" y="1139.8" width="92" height="345.7"/>
+<rect class="spine-a" x="319" y="1485.5" width="92" height="1489"/>
+<rect class="spine-b" x="319" y="2974.5" width="92" height="727.4"/>
+<rect class="spine-a" x="319" y="3701.9" width="92" height="210.1"/>
+<line class="grid" x1="0" x2="900" y1="358" y2="358"/>
+<line class="grid" x1="0" x2="900" y1="598" y2="598"/>
+<line class="grid" x1="0" x2="900" y1="838" y2="838"/>
+<line class="grid" x1="0" x2="900" y1="1078" y2="1078"/>
+<line class="grid" x1="0" x2="900" y1="1318" y2="1318"/>
+<line class="grid" x1="0" x2="900" y1="1558" y2="1558"/>
+<line class="grid" x1="0" x2="900" y1="1798" y2="1798"/>
+<line class="grid" x1="0" x2="900" y1="2038" y2="2038"/>
+<line class="grid" x1="0" x2="900" y1="2278" y2="2278"/>
+<line class="grid" x1="0" x2="900" y1="2518" y2="2518"/>
+<line class="grid" x1="0" x2="900" y1="2758" y2="2758"/>
+<line class="grid" x1="0" x2="900" y1="3238" y2="3238"/>
+<line class="grid" x1="0" x2="900" y1="3478" y2="3478"/>
+<line class="grid" x1="92" x2="92" y1="70" y2="3912"/>
+<line class="grid" x1="165.3" x2="165.3" y1="70" y2="3912"/>
+<line class="grid" x1="238.7" x2="238.7" y1="70" y2="3912"/>
+<line class="grid" x1="312" x2="312" y1="70" y2="3912"/>
+<line class="grid" x1="418" x2="418" y1="70" y2="3912"/>
+<line class="grid" x1="480.9" x2="480.9" y1="70" y2="3912"/>
+<line class="grid" x1="543.7" x2="543.7" y1="70" y2="3912"/>
+<line class="grid" x1="606.6" x2="606.6" y1="70" y2="3912"/>
+<line class="grid" x1="638" x2="638" y1="70" y2="3912"/>
+<line class="era-line" x1="0" x2="900" y1="89.5" y2="89.5"/>
+<line class="era-line" x1="0" x2="900" y1="1139.8" y2="1139.8"/>
+<line class="era-line" x1="0" x2="900" y1="1485.5" y2="1485.5"/>
+<line class="era-line" x1="0" x2="900" y1="2974.5" y2="2974.5"/>
+<line class="era-line" x1="0" x2="900" y1="3701.9" y2="3701.9"/>
+<path class="tick" d="M319 70h3M411 70h-3"/>
+<path class="tick" d="M319 94h3M411 94h-3"/>
+<path class="tick" d="M319 118h9M411 118h-9"/>
+<path class="tick" d="M319 142h3M411 142h-3"/>
+<path class="tick" d="M319 166h3M411 166h-3"/>
+<path class="tick" d="M319 190.1h3M411 190.1h-3"/>
+<path class="tick" d="M319 214h3M411 214h-3"/>
+<path class="tick" d="M319 238h6M411 238h-6"/>
+<path class="tick" d="M319 262h3M411 262h-3"/>
+<path class="tick" d="M319 286.1h3M411 286.1h-3"/>
+<path class="tick" d="M319 310h3M411 310h-3"/>
+<path class="tick" d="M319 334h3M411 334h-3"/>
+<path class="tick" d="M319 358h9M411 358h-9"/>
+<path class="tick" d="M319 382.1h3M411 382.1h-3"/>
+<path class="tick" d="M319 406h3M411 406h-3"/>
+<path class="tick" d="M319 430h3M411 430h-3"/>
+<path class="tick" d="M319 454h3M411 454h-3"/>
+<path class="tick" d="M319 478.1h6M411 478.1h-6"/>
+<path class="tick" d="M319 502h3M411 502h-3"/>
+<path class="tick" d="M319 526h3M411 526h-3"/>
+<path class="tick" d="M319 550h3M411 550h-3"/>
+<path class="tick" d="M319 574.1h3M411 574.1h-3"/>
+<path class="tick" d="M319 598h9M411 598h-9"/>
+<path class="tick" d="M319 622h3M411 622h-3"/>
+<path class="tick" d="M319 646h3M411 646h-3"/>
+<path class="tick" d="M319 670.1h3M411 670.1h-3"/>
+<path class="tick" d="M319 694h3M411 694h-3"/>
+<path class="tick" d="M319 718h6M411 718h-6"/>
+<path class="tick" d="M319 742h3M411 742h-3"/>
+<path class="tick" d="M319 766.1h3M411 766.1h-3"/>
+<path class="tick" d="M319 790h3M411 790h-3"/>
+<path class="tick" d="M319 814h3M411 814h-3"/>
+<path class="tick" d="M319 838h9M411 838h-9"/>
+<path class="tick" d="M319 862h3M411 862h-3"/>
+<path class="tick" d="M319 886h3M411 886h-3"/>
+<path class="tick" d="M319 910h3M411 910h-3"/>
+<path class="tick" d="M319 934h3M411 934h-3"/>
+<path class="tick" d="M319 958h6M411 958h-6"/>
+<path class="tick" d="M319 982h3M411 982h-3"/>
+<path class="tick" d="M319 1006h3M411 1006h-3"/>
+<path class="tick" d="M319 1030h3M411 1030h-3"/>
+<path class="tick" d="M319 1054h3M411 1054h-3"/>
+<path class="tick" d="M319 1078h9M411 1078h-9"/>
+<path class="tick" d="M319 1102h3M411 1102h-3"/>
+<path class="tick" d="M319 1126h3M411 1126h-3"/>
+<path class="tick" d="M319 1150h3M411 1150h-3"/>
+<path class="tick" d="M319 1174h3M411 1174h-3"/>
+<path class="tick" d="M319 1198h6M411 1198h-6"/>
+<path class="tick" d="M319 1222h3M411 1222h-3"/>
+<path class="tick" d="M319 1246h3M411 1246h-3"/>
+<path class="tick" d="M319 1270h3M411 1270h-3"/>
+<path class="tick" d="M319 1294h3M411 1294h-3"/>
+<path class="tick" d="M319 1318h9M411 1318h-9"/>
+<path class="tick" d="M319 1342h3M411 1342h-3"/>
+<path class="tick" d="M319 1366h3M411 1366h-3"/>
+<path class="tick" d="M319 1390h3M411 1390h-3"/>
+<path class="tick" d="M319 1414h3M411 1414h-3"/>
+<path class="tick" d="M319 1438h6M411 1438h-6"/>
+<path class="tick" d="M319 1462h3M411 1462h-3"/>
+<path class="tick" d="M319 1486h3M411 1486h-3"/>
+<path class="tick" d="M319 1510h3M411 1510h-3"/>
+<path class="tick" d="M319 1534h3M411 1534h-3"/>
+<path class="tick" d="M319 1558h9M411 1558h-9"/>
+<path class="tick" d="M319 1582h3M411 1582h-3"/>
+<path class="tick" d="M319 1606h3M411 1606h-3"/>
+<path class="tick" d="M319 1630h3M411 1630h-3"/>
+<path class="tick" d="M319 1654h3M411 1654h-3"/>
+<path class="tick" d="M319 1678h6M411 1678h-6"/>
+<path class="tick" d="M319 1702h3M411 1702h-3"/>
+<path class="tick" d="M319 1726h3M411 1726h-3"/>
+<path class="tick" d="M319 1750h3M411 1750h-3"/>
+<path class="tick" d="M319 1774h3M411 1774h-3"/>
+<path class="tick" d="M319 1798h9M411 1798h-9"/>
+<path class="tick" d="M319 1822h3M411 1822h-3"/>
+<path class="tick" d="M319 1846h3M411 1846h-3"/>
+<path class="tick" d="M319 1870h3M411 1870h-3"/>
+<path class="tick" d="M319 1894h3M411 1894h-3"/>
+<path class="tick" d="M319 1918h6M411 1918h-6"/>
+<path class="tick" d="M319 1942h3M411 1942h-3"/>
+<path class="tick" d="M319 1966h3M411 1966h-3"/>
+<path class="tick" d="M319 1990h3M411 1990h-3"/>
+<path class="tick" d="M319 2014h3M411 2014h-3"/>
+<path class="tick" d="M319 2038h9M411 2038h-9"/>
+<path class="tick" d="M319 2062h3M411 2062h-3"/>
+<path class="tick" d="M319 2086h3M411 2086h-3"/>
+<path class="tick" d="M319 2110h3M411 2110h-3"/>
+<path class="tick" d="M319 2134h3M411 2134h-3"/>
+<path class="tick" d="M319 2158h6M411 2158h-6"/>
+<path class="tick" d="M319 2182h3M411 2182h-3"/>
+<path class="tick" d="M319 2206h3M411 2206h-3"/>
+<path class="tick" d="M319 2230h3M411 2230h-3"/>
+<path class="tick" d="M319 2254h3M411 2254h-3"/>
+<path class="tick" d="M319 2278h9M411 2278h-9"/>
+<path class="tick" d="M319 2302h3M411 2302h-3"/>
+<path class="tick" d="M319 2326h3M411 2326h-3"/>
+<path class="tick" d="M319 2350h3M411 2350h-3"/>
+<path class="tick" d="M319 2374h3M411 2374h-3"/>
+<path class="tick" d="M319 2398h6M411 2398h-6"/>
+<path class="tick" d="M319 2422h3M411 2422h-3"/>
+<path class="tick" d="M319 2446h3M411 2446h-3"/>
+<path class="tick" d="M319 2470h3M411 2470h-3"/>
+<path class="tick" d="M319 2494h3M411 2494h-3"/>
+<path class="tick" d="M319 2518h9M411 2518h-9"/>
+<path class="tick" d="M319 2542h3M411 2542h-3"/>
+<path class="tick" d="M319 2566h3M411 2566h-3"/>
+<path class="tick" d="M319 2590h3M411 2590h-3"/>
+<path class="tick" d="M319 2614h3M411 2614h-3"/>
+<path class="tick" d="M319 2638h6M411 2638h-6"/>
+<path class="tick" d="M319 2662h3M411 2662h-3"/>
+<path class="tick" d="M319 2686h3M411 2686h-3"/>
+<path class="tick" d="M319 2710h3M411 2710h-3"/>
+<path class="tick" d="M319 2734h3M411 2734h-3"/>
+<path class="tick" d="M319 2758h9M411 2758h-9"/>
+<path class="tick" d="M319 2782h3M411 2782h-3"/>
+<path class="tick" d="M319 2806h3M411 2806h-3"/>
+<path class="tick" d="M319 2830h3M411 2830h-3"/>
+<path class="tick" d="M319 2854h3M411 2854h-3"/>
+<path class="tick" d="M319 2878h6M411 2878h-6"/>
+<path class="tick" d="M319 2902h3M411 2902h-3"/>
+<path class="tick" d="M319 2926h3M411 2926h-3"/>
+<path class="tick" d="M319 2950h3M411 2950h-3"/>
+<path class="tick" d="M319 2974h3M411 2974h-3"/>
+<path class="tick" d="M319 2998h9M411 2998h-9"/>
+<path class="tick" d="M319 3022h3M411 3022h-3"/>
+<path class="tick" d="M319 3046h3M411 3046h-3"/>
+<path class="tick" d="M319 3070h3M411 3070h-3"/>
+<path class="tick" d="M319 3094h3M411 3094h-3"/>
+<path class="tick" d="M319 3118h6M411 3118h-6"/>
+<path class="tick" d="M319 3142h3M411 3142h-3"/>
+<path class="tick" d="M319 3166h3M411 3166h-3"/>
+<path class="tick" d="M319 3190h3M411 3190h-3"/>
+<path class="tick" d="M319 3214h3M411 3214h-3"/>
+<path class="tick" d="M319 3238h9M411 3238h-9"/>
+<path class="tick" d="M319 3262h3M411 3262h-3"/>
+<path class="tick" d="M319 3286h3M411 3286h-3"/>
+<path class="tick" d="M319 3310h3M411 3310h-3"/>
+<path class="tick" d="M319 3334h3M411 3334h-3"/>
+<path class="tick" d="M319 3358.1h6M411 3358.1h-6"/>
+<path class="tick" d="M319 3382h3M411 3382h-3"/>
+<path class="tick" d="M319 3406h3M411 3406h-3"/>
+<path class="tick" d="M319 3430h3M411 3430h-3"/>
+<path class="tick" d="M319 3454.1h3M411 3454.1h-3"/>
+<path class="tick" d="M319 3478h9M411 3478h-9"/>
+<path class="tick" d="M319 3502h3M411 3502h-3"/>
+<path class="tick" d="M319 3526h3M411 3526h-3"/>
+<path class="tick" d="M319 3550.1h3M411 3550.1h-3"/>
+<path class="tick" d="M319 3574h3M411 3574h-3"/>
+<path class="tick" d="M319 3598h6M411 3598h-6"/>
+<path class="tick" d="M319 3622h3M411 3622h-3"/>
+<path class="tick" d="M319 3646.1h3M411 3646.1h-3"/>
+<path class="tick" d="M319 3670h3M411 3670h-3"/>
+<path class="tick" d="M319 3694h3M411 3694h-3"/>
+<path class="tick" d="M319 3718h9M411 3718h-9"/>
+<path class="tick" d="M319 3742.1h3M411 3742.1h-3"/>
+<path class="tick" d="M319 3766h3M411 3766h-3"/>
+<path class="tick" d="M319 3790h3M411 3790h-3"/>
+<path class="tick" d="M319 3814h3M411 3814h-3"/>
+<path class="tick" d="M319 3838.1h6M411 3838.1h-6"/>
+<path class="tick" d="M319 3862h3M411 3862h-3"/>
+<path class="tick" d="M319 3886h3M411 3886h-3"/>
+<path class="tick" d="M319 3910h3M411 3910h-3"/>
+<text class="dec-y" x="365" y="362.5" text-anchor="middle">1880</text>
+<text class="dec-w" x="365" y="376" text-anchor="middle">明治13年</text>
+<text class="dec-y" x="365" y="602.5" text-anchor="middle">1890</text>
+<text class="dec-w" x="365" y="616" text-anchor="middle">明治23年</text>
+<text class="dec-y" x="365" y="842.5" text-anchor="middle">1900</text>
+<text class="dec-w" x="365" y="856" text-anchor="middle">明治33年</text>
+<text class="dec-y" x="365" y="1082.5" text-anchor="middle">1910</text>
+<text class="dec-w" x="365" y="1096" text-anchor="middle">明治43年</text>
+<text class="dec-y" x="365" y="1322.5" text-anchor="middle">1920</text>
+<text class="dec-w" x="365" y="1336" text-anchor="middle">大正9年</text>
+<text class="dec-y" x="365" y="1562.5" text-anchor="middle">1930</text>
+<text class="dec-w" x="365" y="1576" text-anchor="middle">昭和5年</text>
+<text class="dec-y" x="365" y="1802.5" text-anchor="middle">1940</text>
+<text class="dec-w" x="365" y="1816" text-anchor="middle">昭和15年</text>
+<text class="dec-y" x="365" y="2042.5" text-anchor="middle">1950</text>
+<text class="dec-w" x="365" y="2056" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="365" y="2282.5" text-anchor="middle">1960</text>
+<text class="dec-w" x="365" y="2296" text-anchor="middle">昭和35年</text>
+<text class="dec-y" x="365" y="2522.5" text-anchor="middle">1970</text>
+<text class="dec-w" x="365" y="2536" text-anchor="middle">昭和45年</text>
+<text class="dec-y" x="365" y="2762.5" text-anchor="middle">1980</text>
+<text class="dec-w" x="365" y="2776" text-anchor="middle">昭和55年</text>
+<text class="dec-y" x="365" y="3242.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="365" y="3256" text-anchor="middle">平成12年</text>
+<text class="dec-y" x="365" y="3482.5" text-anchor="middle">2010</text>
+<text class="dec-w" x="365" y="3496" text-anchor="middle">平成22年</text>
+<text class="era-name" x="365" y="112.5" text-anchor="middle">明治</text>
+<text class="era-date" x="365" y="126.5" text-anchor="middle">1868.10.23</text>
+<text class="era-name" x="365" y="1162.8" text-anchor="middle">大正</text>
+<text class="era-date" x="365" y="1176.8" text-anchor="middle">1912.7.30</text>
+<text class="era-name" x="365" y="1508.5" text-anchor="middle">昭和</text>
+<text class="era-date" x="365" y="1522.5" text-anchor="middle">1926.12.25</text>
+<text class="era-name" x="365" y="2997.5" text-anchor="middle">平成</text>
+<text class="era-date" x="365" y="3011.5" text-anchor="middle">1989.1.8</text>
+<text class="era-name" x="365" y="3724.9" text-anchor="middle">令和</text>
+<text class="era-date" x="365" y="3738.9" text-anchor="middle">2019.5.1</text>
+<line class="asof-line" x1="88" x2="696" y1="3882.4" y2="3882.4"/>
+<text class="era-date" x="365" y="3896.4" text-anchor="middle">2026.11.7</text>
+<text class="era-date" x="365" y="3909.4" text-anchor="middle">時点</text>
+<polyline class="series k-red" points="133.7,178 151.4,202 153.3,226 155.7,250 158.2,274 157.3,298 156.2,322 156.3,346 156.8,370 161,394 159.7,418 165.7,442 163.5,466 167.1,490 169,514 169.6,538 178,562 180.7,586.1 176,610 171.7,634 180.5,658 178.4,682.1 180.7,706 183.4,730 186,754 189.8,778.1 192.4,802 193.7,826 196.2,850 202.1,874 202.8,898 201.3,922 197.6,946 198.5,970 194.2,994 210.4,1018 213.9,1042 216.2,1066 217.6,1090 220.2,1114 219.4,1138 220.9,1162 224.6,1186 224,1210 224.4,1234 224.9,1258 223.4,1282 222.4,1306 240.5,1330 238,1354 236.4,1378 241.8,1402 238.6,1426 245,1450 246.3,1474 243.1,1498 248.6,1522 244.3,1546 244.9,1570 246.2,1594 252.1,1618 247.6,1642 241.9,1666 252.7,1690 246.1,1714 251.9,1738 233.4,1762 231.4,1786 247.2,1810 259,1834 255.8,1858 257.3,1882"/>
+<polyline class="series k-red" points="288.4,1978 288.7,2002 289.8,2026 263.4,2050 248.8,2074 239,2098 229,2122 221.8,2146 218.9,2170 214.1,2194 206.9,2218 213.3,2242 211.2,2266 209.8,2290 208.6,2314 210.7,2338 213.7,2362 217.9,2386 225.7,2410 191.8,2434 233.9,2458 229.3,2482 230.6,2506 233.8,2530 238.7,2554 241.5,2578 245.4,2602 240.9,2626 231.4,2650 226.4,2674 220.7,2698 217.3,2722 212.5,2746 207.6,2770 204.2,2794 203.1,2818 202.6,2842 201.3,2866 197,2890 193.4,2914 190.8,2938 188.4,2962 183.4,2986 181.6,3010 181.7,3034 180.7,3058 179.1,3082 182.8,3106 179.1,3130 180.5,3154 179.4,3178 180.2,3202 178.4,3226 179.3,3250 177.8,3274 176.6,3298 174.4,3322 173.5,3346 169.9,3370 172.1,3394 171.9,3418 172,3442 170.5,3466 170.6,3490 169.1,3514 168.1,3538 167.5,3562 165.6,3586 165.8,3610 163.7,3634 161.4,3658 159.3,3682 155.5,3706 153.7,3730 151.5,3754.1 148.5,3778 145.3,3802 142.3,3826 141.2,3850.1"/>
+<polyline class="series k-blue" points="472.7,178 473,202 473.2,226 473.5,250 473.9,274 474.4,298 474.8,322 475.3,346 475.6,370 476.1,394 476.5,418 477,442 477.7,466 478.2,490 478.6,514 478.8,538 479.3,562 480,586.1 480.7,610 481.3,634 481.7,658 482.2,682.1 482.7,706 483.3,730 484,754 484.6,778.1 485.4,802 486.2,826 486.9,850 487.7,874 488.7,898 489.6,922 490.5,946 491.3,970 491.9,994 492.5,1018 493.4,1042 494.3,1066 495.3,1090 496.3,1114 497.5,1138 498.6,1162 499.8,1186 500.9,1210 502.1,1234 503.1,1258 504,1282 504.5,1306 505.9,1330 507,1354 508.2,1378 509.3,1402 510.5,1426 511.9,1450 513.5,1474 514.9,1498 516.4,1522 517.7,1546 519.3,1570 520.9,1594 522.4,1618 524,1642 525.3,1666 526.8,1690 528.2,1714 529,1738 529.6,1762 530.2,1786 531,1810 531.5,1834 532.5,1858 534.1,1882 535,1906 531.4,1930 537,1954 540.7,1978 543.7,2002 546.5,2026 548.7,2050 550.9,2074 552.8,2098 554.7,2122 556.7,2146 558.3,2170 559.7,2194 560.9,2218 562.2,2242 563.6,2266 564.8,2290 566.2,2314 567.6,2338 569.1,2362 570.7,2386 572.4,2410 573.6,2434 575.5,2458 577.2,2482 579.1,2506 582.5,2530 584.7,2554 587.1,2578 589.4,2602 591.8,2626 593.9,2650 595.7,2674 597.4,2698 599,2722 600.5,2746 602,2770 603.3,2794 604.6,2818 605.8,2842 607.1,2866 608.2,2890 609.2,2914 610.1,2938 610.9,2962 611.6,2986 612.2,3010 613,3034 613.7,3058 614.3,3082 614.8,3106 615.3,3130 615.8,3154 616.2,3178 616.7,3202 617,3226 617.5,3250 618.1,3274 618.3,3298 618.7,3322 618.8,3346 618.8,3370 619,3394 619.2,3418 619.3,3442 619.2,3466 619.2,3490 618.9,3514 618.5,3538 618.2,3562 617.9,3586 617.7,3610 617.6,3634 617.4,3658 617.2,3682 616.9,3706 616.2,3730 615.2,3754.1 614.3,3778 613.4,3802 612.5,3826 611.2,3850.1"/>
+<g class="term c-births" data-id="births0" data-person="births:1872年">
+<title>1872年　出生数 56.9万人</title>
+<circle class="mark f-red" cx="133.7" cy="178" r="4"/>
+<text class="val" x="140.7" y="182">56.9万人</text>
+</g>
+<g class="term c-births" data-id="births1" data-person="births:1873年">
+<title>1873年　出生数 80.9万人</title>
+</g>
+<g class="term c-births" data-id="births2" data-person="births:1874年">
+<title>1874年　出生数 83.6万人</title>
+</g>
+<g class="term c-births" data-id="births3" data-person="births:1875年">
+<title>1875年　出生数 86.9万人</title>
+</g>
+<g class="term c-births" data-id="births4" data-person="births:1876年">
+<title>1876年　出生数 90.3万人</title>
+</g>
+<g class="term c-births" data-id="births5" data-person="births:1877年">
+<title>1877年　出生数 89.1万人</title>
+</g>
+<g class="term c-births" data-id="births6" data-person="births:1878年">
+<title>1878年　出生数 87.5万人</title>
+</g>
+<g class="term c-births" data-id="births7" data-person="births:1879年">
+<title>1879年　出生数 87.7万人</title>
+</g>
+<g class="term c-births" data-id="births8" data-person="births:1880年">
+<title>1880年　出生数 88.4万人</title>
+</g>
+<g class="term c-births" data-id="births9" data-person="births:1881年">
+<title>1881年　出生数 94.1万人</title>
+</g>
+<g class="term c-births" data-id="births10" data-person="births:1882年">
+<title>1882年　出生数 92.3万人</title>
+</g>
+<g class="term c-births" data-id="births11" data-person="births:1883年">
+<title>1883年　出生数 100.5万人</title>
+</g>
+<g class="term c-births" data-id="births12" data-person="births:1884年">
+<title>1884年　出生数 97.5万人</title>
+</g>
+<g class="term c-births" data-id="births13" data-person="births:1885年">
+<title>1885年　出生数 102.5万人</title>
+</g>
+<g class="term c-births" data-id="births14" data-person="births:1886年">
+<title>1886年　出生数 105.1万人</title>
+</g>
+<g class="term c-births" data-id="births15" data-person="births:1887年">
+<title>1887年　出生数 105.8万人</title>
+</g>
+<g class="term c-births" data-id="births16" data-person="births:1888年">
+<title>1888年　出生数 117.3万人</title>
+</g>
+<g class="term c-births" data-id="births17" data-person="births:1889年">
+<title>1889年　出生数 121.0万人</title>
+</g>
+<g class="term c-births" data-id="births18" data-person="births:1890年">
+<title>1890年　出生数 114.5万人</title>
+</g>
+<g class="term c-births" data-id="births19" data-person="births:1891年">
+<title>1891年　出生数 108.7万人</title>
+</g>
+<g class="term c-births" data-id="births20" data-person="births:1892年">
+<title>1892年　出生数 120.7万人</title>
+</g>
+<g class="term c-births" data-id="births21" data-person="births:1893年">
+<title>1893年　出生数 117.8万人</title>
+</g>
+<g class="term c-births" data-id="births22" data-person="births:1894年">
+<title>1894年　出生数 120.9万人</title>
+</g>
+<g class="term c-births" data-id="births23" data-person="births:1895年">
+<title>1895年　出生数 124.6万人</title>
+</g>
+<g class="term c-births" data-id="births24" data-person="births:1896年">
+<title>1896年　出生数 128.2万人</title>
+</g>
+<g class="term c-births" data-id="births25" data-person="births:1897年">
+<title>1897年　出生数 133.4万人</title>
+</g>
+<g class="term c-births" data-id="births26" data-person="births:1898年">
+<title>1898年　出生数 137.0万人</title>
+</g>
+<g class="term c-births" data-id="births27" data-person="births:1899年">
+<title>1899年　出生数 138.7万人</title>
+</g>
+<g class="term c-births" data-id="births28" data-person="births:1900年">
+<title>1900年　出生数 142.1万人</title>
+</g>
+<g class="term c-births" data-id="births29" data-person="births:1901年">
+<title>1901年　出生数 150.2万人</title>
+</g>
+<g class="term c-births" data-id="births30" data-person="births:1902年">
+<title>1902年　出生数 151.1万人</title>
+</g>
+<g class="term c-births" data-id="births31" data-person="births:1903年">
+<title>1903年　出生数 149.0万人</title>
+</g>
+<g class="term c-births" data-id="births32" data-person="births:1904年">
+<title>1904年　出生数 144.0万人</title>
+</g>
+<g class="term c-births" data-id="births33" data-person="births:1905年">
+<title>1905年　出生数 145.3万人</title>
+</g>
+<g class="term c-births" data-id="births34" data-person="births:1906年">
+<title>1906年　出生数 139.4万人</title>
+</g>
+<g class="term c-births" data-id="births35" data-person="births:1907年">
+<title>1907年　出生数 161.4万人</title>
+</g>
+<g class="term c-births" data-id="births36" data-person="births:1908年">
+<title>1908年　出生数 166.3万人</title>
+</g>
+<g class="term c-births" data-id="births37" data-person="births:1909年">
+<title>1909年　出生数 169.4万人</title>
+</g>
+<g class="term c-births" data-id="births38" data-person="births:1910年">
+<title>1910年　出生数 171.3万人</title>
+</g>
+<g class="term c-births" data-id="births39" data-person="births:1911年">
+<title>1911年　出生数 174.8万人</title>
+</g>
+<g class="term c-births" data-id="births40" data-person="births:1912年">
+<title>1912年　出生数 173.8万人</title>
+</g>
+<g class="term c-births" data-id="births41" data-person="births:1913年">
+<title>1913年　出生数 175.7万人</title>
+</g>
+<g class="term c-births" data-id="births42" data-person="births:1914年">
+<title>1914年　出生数 180.8万人</title>
+</g>
+<g class="term c-births" data-id="births43" data-person="births:1915年">
+<title>1915年　出生数 179.9万人</title>
+</g>
+<g class="term c-births" data-id="births44" data-person="births:1916年">
+<title>1916年　出生数 180.5万人</title>
+</g>
+<g class="term c-births" data-id="births45" data-person="births:1917年">
+<title>1917年　出生数 181.2万人</title>
+</g>
+<g class="term c-births" data-id="births46" data-person="births:1918年">
+<title>1918年　出生数 179.2万人</title>
+</g>
+<g class="term c-births" data-id="births47" data-person="births:1919年">
+<title>1919年　出生数 177.9万人</title>
+</g>
+<g class="term c-births" data-id="births48" data-person="births:1920年">
+<title>1920年　出生数 202.6万人</title>
+</g>
+<g class="term c-births" data-id="births49" data-person="births:1921年">
+<title>1921年　出生数 199.1万人</title>
+</g>
+<g class="term c-births" data-id="births50" data-person="births:1922年">
+<title>1922年　出生数 196.9万人</title>
+</g>
+<g class="term c-births" data-id="births51" data-person="births:1923年">
+<title>1923年　出生数 204.3万人</title>
+</g>
+<g class="term c-births" data-id="births52" data-person="births:1924年">
+<title>1924年　出生数 199.9万人</title>
+</g>
+<g class="term c-births" data-id="births53" data-person="births:1925年">
+<title>1925年　出生数 208.6万人</title>
+</g>
+<g class="term c-births" data-id="births54" data-person="births:1926年">
+<title>1926年　出生数 210.4万人</title>
+</g>
+<g class="term c-births" data-id="births55" data-person="births:1927年">
+<title>1927年　出生数 206.1万人</title>
+</g>
+<g class="term c-births" data-id="births56" data-person="births:1928年">
+<title>1928年　出生数 213.6万人</title>
+</g>
+<g class="term c-births" data-id="births57" data-person="births:1929年">
+<title>1929年　出生数 207.7万人</title>
+</g>
+<g class="term c-births" data-id="births58" data-person="births:1930年">
+<title>1930年　出生数 208.5万人</title>
+</g>
+<g class="term c-births" data-id="births59" data-person="births:1931年">
+<title>1931年　出生数 210.3万人</title>
+</g>
+<g class="term c-births" data-id="births60" data-person="births:1932年">
+<title>1932年　出生数 218.3万人</title>
+</g>
+<g class="term c-births" data-id="births61" data-person="births:1933年">
+<title>1933年　出生数 212.1万人</title>
+</g>
+<g class="term c-births" data-id="births62" data-person="births:1934年">
+<title>1934年　出生数 204.4万人</title>
+</g>
+<g class="term c-births" data-id="births63" data-person="births:1935年">
+<title>1935年　出生数 219.1万人</title>
+</g>
+<g class="term c-births" data-id="births64" data-person="births:1936年">
+<title>1936年　出生数 210.2万人</title>
+</g>
+<g class="term c-births" data-id="births65" data-person="births:1937年">
+<title>1937年　出生数 218.1万人</title>
+</g>
+<g class="term c-births" data-id="births66" data-person="births:1938年">
+<title>1938年　出生数 192.8万人</title>
+</g>
+<g class="term c-births" data-id="births67" data-person="births:1939年">
+<title>1939年　出生数 190.2万人</title>
+</g>
+<g class="term c-births" data-id="births68" data-person="births:1940年">
+<title>1940年　出生数 211.6万人</title>
+</g>
+<g class="term c-births" data-id="births69" data-person="births:1941年">
+<title>1941年　出生数 227.7万人</title>
+</g>
+<g class="term c-births" data-id="births70" data-person="births:1942年">
+<title>1942年　出生数 223.4万人</title>
+</g>
+<g class="term c-births" data-id="births71" data-person="births:1943年">
+<title>1943年　出生数 225.4万人</title>
+</g>
+<g class="term c-births" data-id="births75" data-person="births:1947年">
+<title>1947年　出生数 267.9万人</title>
+</g>
+<g class="term c-births" data-id="births76" data-person="births:1948年">
+<title>1948年　出生数 268.2万人</title>
+</g>
+<g class="term c-births" data-id="births77" data-person="births:1949年">
+<title>1949年　出生数 269.7万人</title>
+<circle class="mark f-red" cx="289.8" cy="2026" r="4"/>
+<text class="val" x="282.8" y="2030" text-anchor="end">269.7万人</text>
+</g>
+<g class="term c-births" data-id="births78" data-person="births:1950年">
+<title>1950年　出生数 233.8万人</title>
+</g>
+<g class="term c-births" data-id="births79" data-person="births:1951年">
+<title>1951年　出生数 213.8万人</title>
+</g>
+<g class="term c-births" data-id="births80" data-person="births:1952年">
+<title>1952年　出生数 200.5万人</title>
+</g>
+<g class="term c-births" data-id="births81" data-person="births:1953年">
+<title>1953年　出生数 186.8万人</title>
+</g>
+<g class="term c-births" data-id="births82" data-person="births:1954年">
+<title>1954年　出生数 177.0万人</title>
+</g>
+<g class="term c-births" data-id="births83" data-person="births:1955年">
+<title>1955年　出生数 173.1万人</title>
+</g>
+<g class="term c-births" data-id="births84" data-person="births:1956年">
+<title>1956年　出生数 166.5万人</title>
+</g>
+<g class="term c-births" data-id="births85" data-person="births:1957年">
+<title>1957年　出生数 156.7万人</title>
+</g>
+<g class="term c-births" data-id="births86" data-person="births:1958年">
+<title>1958年　出生数 165.3万人</title>
+</g>
+<g class="term c-births" data-id="births87" data-person="births:1959年">
+<title>1959年　出生数 162.6万人</title>
+</g>
+<g class="term c-births" data-id="births88" data-person="births:1960年">
+<title>1960年　出生数 160.6万人</title>
+</g>
+<g class="term c-births" data-id="births89" data-person="births:1961年">
+<title>1961年　出生数 158.9万人</title>
+</g>
+<g class="term c-births" data-id="births90" data-person="births:1962年">
+<title>1962年　出生数 161.9万人</title>
+</g>
+<g class="term c-births" data-id="births91" data-person="births:1963年">
+<title>1963年　出生数 166.0万人</title>
+</g>
+<g class="term c-births" data-id="births92" data-person="births:1964年">
+<title>1964年　出生数 171.7万人</title>
+</g>
+<g class="term c-births" data-id="births93" data-person="births:1965年">
+<title>1965年　出生数 182.4万人</title>
+</g>
+<g class="term c-births" data-id="births94" data-person="births:1966年">
+<title>1966年　出生数 136.1万人</title>
+</g>
+<g class="term c-births" data-id="births95" data-person="births:1967年">
+<title>1967年　出生数 193.6万人</title>
+</g>
+<g class="term c-births" data-id="births96" data-person="births:1968年">
+<title>1968年　出生数 187.2万人</title>
+</g>
+<g class="term c-births" data-id="births97" data-person="births:1969年">
+<title>1969年　出生数 189.0万人</title>
+</g>
+<g class="term c-births" data-id="births98" data-person="births:1970年">
+<title>1970年　出生数 193.4万人</title>
+</g>
+<g class="term c-births" data-id="births99" data-person="births:1971年">
+<title>1971年　出生数 200.1万人</title>
+</g>
+<g class="term c-births" data-id="births100" data-person="births:1972年">
+<title>1972年　出生数 203.9万人</title>
+</g>
+<g class="term c-births" data-id="births101" data-person="births:1973年">
+<title>1973年　出生数 209.2万人</title>
+</g>
+<g class="term c-births" data-id="births102" data-person="births:1974年">
+<title>1974年　出生数 203.0万人</title>
+</g>
+<g class="term c-births" data-id="births103" data-person="births:1975年">
+<title>1975年　出生数 190.1万人</title>
+</g>
+<g class="term c-births" data-id="births104" data-person="births:1976年">
+<title>1976年　出生数 183.3万人</title>
+</g>
+<g class="term c-births" data-id="births105" data-person="births:1977年">
+<title>1977年　出生数 175.5万人</title>
+</g>
+<g class="term c-births" data-id="births106" data-person="births:1978年">
+<title>1978年　出生数 170.9万人</title>
+</g>
+<g class="term c-births" data-id="births107" data-person="births:1979年">
+<title>1979年　出生数 164.3万人</title>
+</g>
+<g class="term c-births" data-id="births108" data-person="births:1980年">
+<title>1980年　出生数 157.7万人</title>
+</g>
+<g class="term c-births" data-id="births109" data-person="births:1981年">
+<title>1981年　出生数 152.9万人</title>
+</g>
+<g class="term c-births" data-id="births110" data-person="births:1982年">
+<title>1982年　出生数 151.5万人</title>
+</g>
+<g class="term c-births" data-id="births111" data-person="births:1983年">
+<title>1983年　出生数 150.9万人</title>
+</g>
+<g class="term c-births" data-id="births112" data-person="births:1984年">
+<title>1984年　出生数 149.0万人</title>
+</g>
+<g class="term c-births" data-id="births113" data-person="births:1985年">
+<title>1985年　出生数 143.2万人</title>
+</g>
+<g class="term c-births" data-id="births114" data-person="births:1986年">
+<title>1986年　出生数 138.3万人</title>
+</g>
+<g class="term c-births" data-id="births115" data-person="births:1987年">
+<title>1987年　出生数 134.7万人</title>
+</g>
+<g class="term c-births" data-id="births116" data-person="births:1988年">
+<title>1988年　出生数 131.4万人</title>
+</g>
+<g class="term c-births" data-id="births117" data-person="births:1989年">
+<title>1989年　出生数 124.7万人</title>
+</g>
+<g class="term c-births" data-id="births118" data-person="births:1990年">
+<title>1990年　出生数 122.2万人</title>
+</g>
+<g class="term c-births" data-id="births119" data-person="births:1991年">
+<title>1991年　出生数 122.3万人</title>
+</g>
+<g class="term c-births" data-id="births120" data-person="births:1992年">
+<title>1992年　出生数 120.9万人</title>
+</g>
+<g class="term c-births" data-id="births121" data-person="births:1993年">
+<title>1993年　出生数 118.8万人</title>
+</g>
+<g class="term c-births" data-id="births122" data-person="births:1994年">
+<title>1994年　出生数 123.8万人</title>
+</g>
+<g class="term c-births" data-id="births123" data-person="births:1995年">
+<title>1995年　出生数 118.7万人</title>
+</g>
+<g class="term c-births" data-id="births124" data-person="births:1996年">
+<title>1996年　出生数 120.7万人</title>
+</g>
+<g class="term c-births" data-id="births125" data-person="births:1997年">
+<title>1997年　出生数 119.2万人</title>
+</g>
+<g class="term c-births" data-id="births126" data-person="births:1998年">
+<title>1998年　出生数 120.3万人</title>
+</g>
+<g class="term c-births" data-id="births127" data-person="births:1999年">
+<title>1999年　出生数 117.8万人</title>
+</g>
+<g class="term c-births" data-id="births128" data-person="births:2000年">
+<title>2000年　出生数 119.1万人</title>
+</g>
+<g class="term c-births" data-id="births129" data-person="births:2001年">
+<title>2001年　出生数 117.1万人</title>
+</g>
+<g class="term c-births" data-id="births130" data-person="births:2002年">
+<title>2002年　出生数 115.4万人</title>
+</g>
+<g class="term c-births" data-id="births131" data-person="births:2003年">
+<title>2003年　出生数 112.4万人</title>
+</g>
+<g class="term c-births" data-id="births132" data-person="births:2004年">
+<title>2004年　出生数 111.1万人</title>
+</g>
+<g class="term c-births" data-id="births133" data-person="births:2005年">
+<title>2005年　出生数 106.3万人</title>
+</g>
+<g class="term c-births" data-id="births134" data-person="births:2006年">
+<title>2006年　出生数 109.3万人</title>
+</g>
+<g class="term c-births" data-id="births135" data-person="births:2007年">
+<title>2007年　出生数 109.0万人</title>
+</g>
+<g class="term c-births" data-id="births136" data-person="births:2008年">
+<title>2008年　出生数 109.1万人</title>
+</g>
+<g class="term c-births" data-id="births137" data-person="births:2009年">
+<title>2009年　出生数 107.0万人</title>
+</g>
+<g class="term c-births" data-id="births138" data-person="births:2010年">
+<title>2010年　出生数 107.1万人</title>
+</g>
+<g class="term c-births" data-id="births139" data-person="births:2011年">
+<title>2011年　出生数 105.1万人</title>
+</g>
+<g class="term c-births" data-id="births140" data-person="births:2012年">
+<title>2012年　出生数 103.7万人</title>
+</g>
+<g class="term c-births" data-id="births141" data-person="births:2013年">
+<title>2013年　出生数 103.0万人</title>
+</g>
+<g class="term c-births" data-id="births142" data-person="births:2014年">
+<title>2014年　出生数 100.4万人</title>
+</g>
+<g class="term c-births" data-id="births143" data-person="births:2015年">
+<title>2015年　出生数 100.6万人</title>
+</g>
+<g class="term c-births" data-id="births144" data-person="births:2016年">
+<title>2016年　出生数 97.7万人</title>
+</g>
+<g class="term c-births" data-id="births145" data-person="births:2017年">
+<title>2017年　出生数 94.6万人</title>
+</g>
+<g class="term c-births" data-id="births146" data-person="births:2018年">
+<title>2018年　出生数 91.8万人</title>
+</g>
+<g class="term c-births" data-id="births147" data-person="births:2019年">
+<title>2019年　出生数 86.5万人</title>
+</g>
+<g class="term c-births" data-id="births148" data-person="births:2020年">
+<title>2020年　出生数 84.1万人</title>
+</g>
+<g class="term c-births" data-id="births149" data-person="births:2021年">
+<title>2021年　出生数 81.2万人</title>
+</g>
+<g class="term c-births" data-id="births150" data-person="births:2022年">
+<title>2022年　出生数 77.1万人</title>
+</g>
+<g class="term c-births" data-id="births151" data-person="births:2023年">
+<title>2023年　出生数 72.7万人</title>
+</g>
+<g class="term c-births" data-id="births152" data-person="births:2024年">
+<title>2024年　出生数 68.6万人</title>
+</g>
+<g class="term c-births" data-id="births153" data-person="births:2025年">
+<title>2025年　出生数 67.1万人</title>
+<circle class="mark f-red" cx="141.2" cy="3850.1" r="4"/>
+<text class="val" x="148.2" y="3854">67.1万人</text>
+</g>
+<g class="term c-pop" data-id="pop0" data-person="pop:1872年">
+<title>1872年　総人口 3,481万人</title>
+<circle class="mark f-blue" cx="472.7" cy="178" r="4"/>
+<text class="val" x="479.7" y="182">3,481万人</text>
+</g>
+<g class="term c-pop" data-id="pop1" data-person="pop:1873年">
+<title>1873年　総人口 3,499万人</title>
+</g>
+<g class="term c-pop" data-id="pop2" data-person="pop:1874年">
+<title>1874年　総人口 3,515万人</title>
+</g>
+<g class="term c-pop" data-id="pop3" data-person="pop:1875年">
+<title>1875年　総人口 3,532万人</title>
+</g>
+<g class="term c-pop" data-id="pop4" data-person="pop:1876年">
+<title>1876年　総人口 3,556万人</title>
+</g>
+<g class="term c-pop" data-id="pop5" data-person="pop:1877年">
+<title>1877年　総人口 3,587万人</title>
+</g>
+<g class="term c-pop" data-id="pop6" data-person="pop:1878年">
+<title>1878年　総人口 3,617万人</title>
+</g>
+<g class="term c-pop" data-id="pop7" data-person="pop:1879年">
+<title>1879年　総人口 3,646万人</title>
+</g>
+<g class="term c-pop" data-id="pop8" data-person="pop:1880年">
+<title>1880年　総人口 3,665万人</title>
+</g>
+<g class="term c-pop" data-id="pop9" data-person="pop:1881年">
+<title>1881年　総人口 3,697万人</title>
+</g>
+<g class="term c-pop" data-id="pop10" data-person="pop:1882年">
+<title>1882年　総人口 3,726万人</title>
+</g>
+<g class="term c-pop" data-id="pop11" data-person="pop:1883年">
+<title>1883年　総人口 3,757万人</title>
+</g>
+<g class="term c-pop" data-id="pop12" data-person="pop:1884年">
+<title>1884年　総人口 3,796万人</title>
+</g>
+<g class="term c-pop" data-id="pop13" data-person="pop:1885年">
+<title>1885年　総人口 3,831万人</title>
+</g>
+<g class="term c-pop" data-id="pop14" data-person="pop:1886年">
+<title>1886年　総人口 3,854万人</title>
+</g>
+<g class="term c-pop" data-id="pop15" data-person="pop:1887年">
+<title>1887年　総人口 3,870万人</title>
+</g>
+<g class="term c-pop" data-id="pop16" data-person="pop:1888年">
+<title>1888年　総人口 3,903万人</title>
+</g>
+<g class="term c-pop" data-id="pop17" data-person="pop:1889年">
+<title>1889年　総人口 3,947万人</title>
+</g>
+<g class="term c-pop" data-id="pop18" data-person="pop:1890年">
+<title>1890年　総人口 3,990万人</title>
+</g>
+<g class="term c-pop" data-id="pop19" data-person="pop:1891年">
+<title>1891年　総人口 4,025万人</title>
+</g>
+<g class="term c-pop" data-id="pop20" data-person="pop:1892年">
+<title>1892年　総人口 4,051万人</title>
+</g>
+<g class="term c-pop" data-id="pop21" data-person="pop:1893年">
+<title>1893年　総人口 4,086万人</title>
+</g>
+<g class="term c-pop" data-id="pop22" data-person="pop:1894年">
+<title>1894年　総人口 4,114万人</title>
+</g>
+<g class="term c-pop" data-id="pop23" data-person="pop:1895年">
+<title>1895年　総人口 4,156万人</title>
+</g>
+<g class="term c-pop" data-id="pop24" data-person="pop:1896年">
+<title>1896年　総人口 4,199万人</title>
+</g>
+<g class="term c-pop" data-id="pop25" data-person="pop:1897年">
+<title>1897年　総人口 4,240万人</title>
+</g>
+<g class="term c-pop" data-id="pop26" data-person="pop:1898年">
+<title>1898年　総人口 4,289万人</title>
+</g>
+<g class="term c-pop" data-id="pop27" data-person="pop:1899年">
+<title>1899年　総人口 4,340万人</title>
+</g>
+<g class="term c-pop" data-id="pop28" data-person="pop:1900年">
+<title>1900年　総人口 4,385万人</title>
+</g>
+<g class="term c-pop" data-id="pop29" data-person="pop:1901年">
+<title>1901年　総人口 4,436万人</title>
+</g>
+<g class="term c-pop" data-id="pop30" data-person="pop:1902年">
+<title>1902年　総人口 4,496万人</title>
+</g>
+<g class="term c-pop" data-id="pop31" data-person="pop:1903年">
+<title>1903年　総人口 4,555万人</title>
+</g>
+<g class="term c-pop" data-id="pop32" data-person="pop:1904年">
+<title>1904年　総人口 4,614万人</title>
+</g>
+<g class="term c-pop" data-id="pop33" data-person="pop:1905年">
+<title>1905年　総人口 4,662万人</title>
+</g>
+<g class="term c-pop" data-id="pop34" data-person="pop:1906年">
+<title>1906年　総人口 4,704万人</title>
+</g>
+<g class="term c-pop" data-id="pop35" data-person="pop:1907年">
+<title>1907年　総人口 4,742万人</title>
+</g>
+<g class="term c-pop" data-id="pop36" data-person="pop:1908年">
+<title>1908年　総人口 4,797万人</title>
+</g>
+<g class="term c-pop" data-id="pop37" data-person="pop:1909年">
+<title>1909年　総人口 4,855万人</title>
+</g>
+<g class="term c-pop" data-id="pop38" data-person="pop:1910年">
+<title>1910年　総人口 4,918万人</title>
+</g>
+<g class="term c-pop" data-id="pop39" data-person="pop:1911年">
+<title>1911年　総人口 4,985万人</title>
+</g>
+<g class="term c-pop" data-id="pop40" data-person="pop:1912年">
+<title>1912年　総人口 5,058万人</title>
+</g>
+<g class="term c-pop" data-id="pop41" data-person="pop:1913年">
+<title>1913年　総人口 5,131万人</title>
+</g>
+<g class="term c-pop" data-id="pop42" data-person="pop:1914年">
+<title>1914年　総人口 5,204万人</title>
+</g>
+<g class="term c-pop" data-id="pop43" data-person="pop:1915年">
+<title>1915年　総人口 5,275万人</title>
+</g>
+<g class="term c-pop" data-id="pop44" data-person="pop:1916年">
+<title>1916年　総人口 5,350万人</title>
+</g>
+<g class="term c-pop" data-id="pop45" data-person="pop:1917年">
+<title>1917年　総人口 5,413万人</title>
+</g>
+<g class="term c-pop" data-id="pop46" data-person="pop:1918年">
+<title>1918年　総人口 5,474万人</title>
+</g>
+<g class="term c-pop" data-id="pop47" data-person="pop:1919年">
+<title>1919年　総人口 5,503万人</title>
+</g>
+<g class="term c-pop" data-id="pop48" data-person="pop:1920年">
+<title>1920年　総人口 5,596万人</title>
+</g>
+<g class="term c-pop" data-id="pop49" data-person="pop:1921年">
+<title>1921年　総人口 5,667万人</title>
+</g>
+<g class="term c-pop" data-id="pop50" data-person="pop:1922年">
+<title>1922年　総人口 5,739万人</title>
+</g>
+<g class="term c-pop" data-id="pop51" data-person="pop:1923年">
+<title>1923年　総人口 5,812万人</title>
+</g>
+<g class="term c-pop" data-id="pop52" data-person="pop:1924年">
+<title>1924年　総人口 5,888万人</title>
+</g>
+<g class="term c-pop" data-id="pop53" data-person="pop:1925年">
+<title>1925年　総人口 5,974万人</title>
+</g>
+<g class="term c-pop" data-id="pop54" data-person="pop:1926年">
+<title>1926年　総人口 6,074万人</title>
+</g>
+<g class="term c-pop" data-id="pop55" data-person="pop:1927年">
+<title>1927年　総人口 6,166万人</title>
+</g>
+<g class="term c-pop" data-id="pop56" data-person="pop:1928年">
+<title>1928年　総人口 6,260万人</title>
+</g>
+<g class="term c-pop" data-id="pop57" data-person="pop:1929年">
+<title>1929年　総人口 6,346万人</title>
+</g>
+<g class="term c-pop" data-id="pop58" data-person="pop:1930年">
+<title>1930年　総人口 6,445万人</title>
+</g>
+<g class="term c-pop" data-id="pop59" data-person="pop:1931年">
+<title>1931年　総人口 6,546万人</title>
+</g>
+<g class="term c-pop" data-id="pop60" data-person="pop:1932年">
+<title>1932年　総人口 6,643万人</title>
+</g>
+<g class="term c-pop" data-id="pop61" data-person="pop:1933年">
+<title>1933年　総人口 6,743万人</title>
+</g>
+<g class="term c-pop" data-id="pop62" data-person="pop:1934年">
+<title>1934年　総人口 6,831万人</title>
+</g>
+<g class="term c-pop" data-id="pop63" data-person="pop:1935年">
+<title>1935年　総人口 6,925万人</title>
+</g>
+<g class="term c-pop" data-id="pop64" data-person="pop:1936年">
+<title>1936年　総人口 7,011万人</title>
+</g>
+<g class="term c-pop" data-id="pop65" data-person="pop:1937年">
+<title>1937年　総人口 7,063万人</title>
+</g>
+<g class="term c-pop" data-id="pop66" data-person="pop:1938年">
+<title>1938年　総人口 7,101万人</title>
+</g>
+<g class="term c-pop" data-id="pop67" data-person="pop:1939年">
+<title>1939年　総人口 7,138万人</title>
+</g>
+<g class="term c-pop" data-id="pop68" data-person="pop:1940年">
+<title>1940年　総人口 7,193万人</title>
+</g>
+<g class="term c-pop" data-id="pop69" data-person="pop:1941年">
+<title>1941年　総人口 7,222万人</title>
+</g>
+<g class="term c-pop" data-id="pop70" data-person="pop:1942年">
+<title>1942年　総人口 7,288万人</title>
+</g>
+<g class="term c-pop" data-id="pop71" data-person="pop:1943年">
+<title>1943年　総人口 7,390万人</title>
+</g>
+<g class="term c-pop" data-id="pop72" data-person="pop:1944年">
+<title>1944年　総人口 7,443万人</title>
+</g>
+<g class="term c-pop" data-id="pop73" data-person="pop:1945年">
+<title>1945年　総人口 7,215万人</title>
+</g>
+<g class="term c-pop" data-id="pop74" data-person="pop:1946年">
+<title>1946年　総人口 7,575万人</title>
+</g>
+<g class="term c-pop" data-id="pop75" data-person="pop:1947年">
+<title>1947年　総人口 7,810万人</title>
+</g>
+<g class="term c-pop" data-id="pop76" data-person="pop:1948年">
+<title>1948年　総人口 8,000万人</title>
+</g>
+<g class="term c-pop" data-id="pop77" data-person="pop:1949年">
+<title>1949年　総人口 8,177万人</title>
+</g>
+<g class="term c-pop" data-id="pop78" data-person="pop:1950年">
+<title>1950年　総人口 8,320万人</title>
+</g>
+<g class="term c-pop" data-id="pop79" data-person="pop:1951年">
+<title>1951年　総人口 8,454万人</title>
+</g>
+<g class="term c-pop" data-id="pop80" data-person="pop:1952年">
+<title>1952年　総人口 8,581万人</title>
+</g>
+<g class="term c-pop" data-id="pop81" data-person="pop:1953年">
+<title>1953年　総人口 8,698万人</title>
+</g>
+<g class="term c-pop" data-id="pop82" data-person="pop:1954年">
+<title>1954年　総人口 8,824万人</title>
+</g>
+<g class="term c-pop" data-id="pop83" data-person="pop:1955年">
+<title>1955年　総人口 8,928万人</title>
+</g>
+<g class="term c-pop" data-id="pop84" data-person="pop:1956年">
+<title>1956年　総人口 9,017万人</title>
+</g>
+<g class="term c-pop" data-id="pop85" data-person="pop:1957年">
+<title>1957年　総人口 9,093万人</title>
+</g>
+<g class="term c-pop" data-id="pop86" data-person="pop:1958年">
+<title>1958年　総人口 9,177万人</title>
+</g>
+<g class="term c-pop" data-id="pop87" data-person="pop:1959年">
+<title>1959年　総人口 9,264万人</title>
+</g>
+<g class="term c-pop" data-id="pop88" data-person="pop:1960年">
+<title>1960年　総人口 9,342万人</title>
+</g>
+<g class="term c-pop" data-id="pop89" data-person="pop:1961年">
+<title>1961年　総人口 9,429万人</title>
+</g>
+<g class="term c-pop" data-id="pop90" data-person="pop:1962年">
+<title>1962年　総人口 9,518万人</title>
+</g>
+<g class="term c-pop" data-id="pop91" data-person="pop:1963年">
+<title>1963年　総人口 9,616万人</title>
+</g>
+<g class="term c-pop" data-id="pop92" data-person="pop:1964年">
+<title>1964年　総人口 9,718万人</title>
+</g>
+<g class="term c-pop" data-id="pop93" data-person="pop:1965年">
+<title>1965年　総人口 9,828万人</title>
+</g>
+<g class="term c-pop" data-id="pop94" data-person="pop:1966年">
+<title>1966年　総人口 9,904万人</title>
+</g>
+<g class="term c-pop" data-id="pop95" data-person="pop:1967年">
+<title>1967年　総人口 10,020万人</title>
+</g>
+<g class="term c-pop" data-id="pop96" data-person="pop:1968年">
+<title>1968年　総人口 10,133万人</title>
+</g>
+<g class="term c-pop" data-id="pop97" data-person="pop:1969年">
+<title>1969年　総人口 10,254万人</title>
+</g>
+<g class="term c-pop" data-id="pop98" data-person="pop:1970年">
+<title>1970年　総人口 10,467万人</title>
+</g>
+<g class="term c-pop" data-id="pop99" data-person="pop:1971年">
+<title>1971年　総人口 10,610万人</title>
+</g>
+<g class="term c-pop" data-id="pop100" data-person="pop:1972年">
+<title>1972年　総人口 10,760万人</title>
+</g>
+<g class="term c-pop" data-id="pop101" data-person="pop:1973年">
+<title>1973年　総人口 10,910万人</title>
+</g>
+<g class="term c-pop" data-id="pop102" data-person="pop:1974年">
+<title>1974年　総人口 11,057万人</title>
+</g>
+<g class="term c-pop" data-id="pop103" data-person="pop:1975年">
+<title>1975年　総人口 11,194万人</title>
+</g>
+<g class="term c-pop" data-id="pop104" data-person="pop:1976年">
+<title>1976年　総人口 11,309万人</title>
+</g>
+<g class="term c-pop" data-id="pop105" data-person="pop:1977年">
+<title>1977年　総人口 11,417万人</title>
+</g>
+<g class="term c-pop" data-id="pop106" data-person="pop:1978年">
+<title>1978年　総人口 11,519万人</title>
+</g>
+<g class="term c-pop" data-id="pop107" data-person="pop:1979年">
+<title>1979年　総人口 11,616万人</title>
+</g>
+<g class="term c-pop" data-id="pop108" data-person="pop:1980年">
+<title>1980年　総人口 11,706万人</title>
+</g>
+<g class="term c-pop" data-id="pop109" data-person="pop:1981年">
+<title>1981年　総人口 11,790万人</title>
+</g>
+<g class="term c-pop" data-id="pop110" data-person="pop:1982年">
+<title>1982年　総人口 11,873万人</title>
+</g>
+<g class="term c-pop" data-id="pop111" data-person="pop:1983年">
+<title>1983年　総人口 11,954万人</title>
+</g>
+<g class="term c-pop" data-id="pop112" data-person="pop:1984年">
+<title>1984年　総人口 12,031万人</title>
+</g>
+<g class="term c-pop" data-id="pop113" data-person="pop:1985年">
+<title>1985年　総人口 12,105万人</title>
+</g>
+<g class="term c-pop" data-id="pop114" data-person="pop:1986年">
+<title>1986年　総人口 12,166万人</title>
+</g>
+<g class="term c-pop" data-id="pop115" data-person="pop:1987年">
+<title>1987年　総人口 12,224万人</title>
+</g>
+<g class="term c-pop" data-id="pop116" data-person="pop:1988年">
+<title>1988年　総人口 12,275万人</title>
+</g>
+<g class="term c-pop" data-id="pop117" data-person="pop:1989年">
+<title>1989年　総人口 12,321万人</title>
+</g>
+<g class="term c-pop" data-id="pop118" data-person="pop:1990年">
+<title>1990年　総人口 12,361万人</title>
+</g>
+<g class="term c-pop" data-id="pop119" data-person="pop:1991年">
+<title>1991年　総人口 12,410万人</title>
+</g>
+<g class="term c-pop" data-id="pop120" data-person="pop:1992年">
+<title>1992年　総人口 12,457万人</title>
+</g>
+<g class="term c-pop" data-id="pop121" data-person="pop:1993年">
+<title>1993年　総人口 12,494万人</title>
+</g>
+<g class="term c-pop" data-id="pop122" data-person="pop:1994年">
+<title>1994年　総人口 12,527万人</title>
+</g>
+<g class="term c-pop" data-id="pop123" data-person="pop:1995年">
+<title>1995年　総人口 12,557万人</title>
+</g>
+<g class="term c-pop" data-id="pop124" data-person="pop:1996年">
+<title>1996年　総人口 12,586万人</title>
+</g>
+<g class="term c-pop" data-id="pop125" data-person="pop:1997年">
+<title>1997年　総人口 12,616万人</title>
+</g>
+<g class="term c-pop" data-id="pop126" data-person="pop:1998年">
+<title>1998年　総人口 12,647万人</title>
+</g>
+<g class="term c-pop" data-id="pop127" data-person="pop:1999年">
+<title>1999年　総人口 12,667万人</title>
+</g>
+<g class="term c-pop" data-id="pop128" data-person="pop:2000年">
+<title>2000年　総人口 12,693万人</title>
+</g>
+<g class="term c-pop" data-id="pop129" data-person="pop:2001年">
+<title>2001年　総人口 12,732万人</title>
+</g>
+<g class="term c-pop" data-id="pop130" data-person="pop:2002年">
+<title>2002年　総人口 12,749万人</title>
+</g>
+<g class="term c-pop" data-id="pop131" data-person="pop:2003年">
+<title>2003年　総人口 12,769万人</title>
+</g>
+<g class="term c-pop" data-id="pop132" data-person="pop:2004年">
+<title>2004年　総人口 12,779万人</title>
+</g>
+<g class="term c-pop" data-id="pop133" data-person="pop:2005年">
+<title>2005年　総人口 12,777万人</title>
+</g>
+<g class="term c-pop" data-id="pop134" data-person="pop:2006年">
+<title>2006年　総人口 12,790万人</title>
+</g>
+<g class="term c-pop" data-id="pop135" data-person="pop:2007年">
+<title>2007年　総人口 12,803万人</title>
+</g>
+<g class="term c-pop" data-id="pop136" data-person="pop:2008年">
+<title>2008年　総人口 12,808万人</title>
+<circle class="mark f-blue" cx="619.3" cy="3442" r="4"/>
+<text class="val" x="612.3" y="3446" text-anchor="end">12,808万人</text>
+</g>
+<g class="term c-pop" data-id="pop137" data-person="pop:2009年">
+<title>2009年　総人口 12,803万人</title>
+</g>
+<g class="term c-pop" data-id="pop138" data-person="pop:2010年">
+<title>2010年　総人口 12,806万人</title>
+</g>
+<g class="term c-pop" data-id="pop139" data-person="pop:2011年">
+<title>2011年　総人口 12,783万人</title>
+</g>
+<g class="term c-pop" data-id="pop140" data-person="pop:2012年">
+<title>2012年　総人口 12,759万人</title>
+</g>
+<g class="term c-pop" data-id="pop141" data-person="pop:2013年">
+<title>2013年　総人口 12,741万人</title>
+</g>
+<g class="term c-pop" data-id="pop142" data-person="pop:2014年">
+<title>2014年　総人口 12,724万人</title>
+</g>
+<g class="term c-pop" data-id="pop143" data-person="pop:2015年">
+<title>2015年　総人口 12,710万人</title>
+</g>
+<g class="term c-pop" data-id="pop144" data-person="pop:2016年">
+<title>2016年　総人口 12,704万人</title>
+</g>
+<g class="term c-pop" data-id="pop145" data-person="pop:2017年">
+<title>2017年　総人口 12,692万人</title>
+</g>
+<g class="term c-pop" data-id="pop146" data-person="pop:2018年">
+<title>2018年　総人口 12,675万人</title>
+</g>
+<g class="term c-pop" data-id="pop147" data-person="pop:2019年">
+<title>2019年　総人口 12,656万人</title>
+</g>
+<g class="term c-pop" data-id="pop148" data-person="pop:2020年">
+<title>2020年　総人口 12,615万人</title>
+</g>
+<g class="term c-pop" data-id="pop149" data-person="pop:2021年">
+<title>2021年　総人口 12,550万人</title>
+</g>
+<g class="term c-pop" data-id="pop150" data-person="pop:2022年">
+<title>2022年　総人口 12,495万人</title>
+</g>
+<g class="term c-pop" data-id="pop151" data-person="pop:2023年">
+<title>2023年　総人口 12,435万人</title>
+</g>
+<g class="term c-pop" data-id="pop152" data-person="pop:2024年">
+<title>2024年　総人口 12,380万人</title>
+</g>
+<g class="term c-pop" data-id="pop153" data-person="pop:2025年">
+<title>2025年　総人口 12,297万人</title>
+<circle class="mark f-blue" cx="611.2" cy="3850.1" r="4"/>
+<text class="val" x="604.2" y="3854" text-anchor="end">12,297万人</text>
+</g>
+<line class="axis" x1="657" x2="657" y1="70" y2="3912"/>
+<g class="term c-ev" data-id="ev0" data-person="ev:戊辰戦争">
+<title>戊辰戦争　1868年1月27日 〜 1869年6月27日（期間 517日）</title>
+<rect class="bar f-red" x="662" y="72.7" width="6" height="32" rx="3"/>
+<text class="label" x="707" y="85.1"><tspan class="name">戊辰戦争</tspan><tspan class="yrs" dx="6">1868–1869</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev1" data-person="ev:廃藩置県">
+<title>廃藩置県　1871年8月29日</title>
+<circle class="dot f-blue" cx="657" cy="157.8" r="4"/>
+<text class="label" x="707" y="162.6"><tspan class="name">廃藩置県</tspan><tspan class="yrs" dx="6">1871</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev2" data-person="ev:鉄道開業（新橋〜横浜）">
+<title>鉄道開業（新橋〜横浜）　1872年10月14日</title>
+<circle class="dot f-green" cx="657" cy="184.9" r="4"/>
+<text class="label" x="707" y="189.7"><tspan class="name">鉄道開業</tspan><tspan class="yrs" dx="6">1872</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev3" data-person="ev:西南戦争">
+<title>西南戦争　1877年1月29日 〜 1877年9月24日（期間 238日）</title>
+<rect class="bar f-red" x="662" y="288.9" width="6" height="13.6" rx="3"/>
+<text class="label" x="707" y="300.6"><tspan class="name">西南戦争</tspan><tspan class="yrs" dx="6">1877</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev4" data-person="ev:大日本帝国憲法の発布">
+<title>大日本帝国憲法の発布　1889年2月11日</title>
+<circle class="dot f-blue" cx="657" cy="576.8" r="4"/>
+<text class="label" x="707" y="581.6"><tspan class="name">帝国憲法発布</tspan><tspan class="yrs" dx="6">1889</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev5" data-person="ev:日清戦争">
+<title>日清戦争　1894年7月25日 〜 1895年4月17日（期間 266日）</title>
+<rect class="bar f-red" x="662" y="708.5" width="6" height="15.5" rx="3"/>
+<text class="label" x="707" y="720.9"><tspan class="name">日清戦争</tspan><tspan class="yrs" dx="6">1894–1895</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev6" data-person="ev:第1回近代オリンピック（アテネ）開会">
+<title>第1回近代オリンピック（アテネ）開会　1896年4月6日</title>
+<circle class="dot f-violet" cx="657" cy="748.3" r="4"/>
+<path class="leader" d="M661.5 748.3h4L703 742.1h2"/>
+<text class="label" x="707" y="747"><tspan class="name">アテネ五輪</tspan><tspan class="yrs" dx="6">1896</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev7" data-person="ev:明治三陸地震">
+<title>明治三陸地震　1896年6月15日</title>
+<circle class="dot f-amber" cx="657" cy="752.9" r="4"/>
+<path class="leader" d="M661.5 752.9h4L703 759.1h2"/>
+<text class="label" x="707" y="764"><tspan class="name">明治三陸地震</tspan><tspan class="yrs" dx="6">1896</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev8" data-person="ev:ライト兄弟の初飛行">
+<title>ライト兄弟の初飛行　1903年12月17日</title>
+<circle class="dot f-violet" cx="657" cy="933" r="4"/>
+<path class="leader" d="M661.5 933h4L703 930.5h2"/>
+<text class="label" x="707" y="935.3"><tspan class="name">ライト兄弟初飛行</tspan><tspan class="yrs" dx="6">1903</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev9" data-person="ev:日露戦争">
+<title>日露戦争　1904年2月8日 〜 1905年9月5日（期間 575日）</title>
+<rect class="bar f-red" x="662" y="937.4" width="6" height="35.8" rx="3"/>
+<path class="leader" d="M669.5 944.9h4L703 947.5h2"/>
+<text class="label" x="707" y="952.3"><tspan class="name">日露戦争</tspan><tspan class="yrs" dx="6">1904–1905</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev10" data-person="ev:韓国併合">
+<title>韓国併合　1910年8月29日</title>
+<circle class="dot f-blue" cx="657" cy="1093.8" r="4"/>
+<text class="label" x="707" y="1098.6"><tspan class="name">韓国併合</tspan><tspan class="yrs" dx="6">1910</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev11" data-person="ev:第一次世界大戦">
+<title>第一次世界大戦　1914年7月28日 〜 1918年11月11日（期間 約4年）</title>
+<rect class="bar f-red" x="662" y="1188.7" width="6" height="101" rx="3"/>
+<text class="label" x="707" y="1201"><tspan class="name">第一次世界大戦</tspan><tspan class="yrs" dx="6">1914–1918</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev12" data-person="ev:ロシア革命（十月革命）">
+<title>ロシア革命（十月革命）　1917年11月7日</title>
+<circle class="dot f-blue" cx="657" cy="1266.4" r="4"/>
+<path class="leader" d="M661.5 1266.4h4L703 1265h2"/>
+<text class="label" x="707" y="1269.8"><tspan class="name">ロシア革命</tspan><tspan class="yrs" dx="6">1917</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev13" data-person="ev:スペインかぜの流行">
+<title>スペインかぜの流行　1918年2月 〜 1920年4月（期間 約2年）</title>
+<rect class="bar f-amber" x="670" y="1273" width="6" height="51.9" rx="3"/>
+<text class="label" x="707" y="1286.8"><tspan class="name">スペインかぜ</tspan><tspan class="yrs" dx="6">1918–1920</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev14" data-person="ev:関東大震災">
+<title>関東大震災　1923年9月1日</title>
+<circle class="dot f-amber" cx="657" cy="1405.9" r="4"/>
+<text class="label" x="707" y="1410.8"><tspan class="name">関東大震災</tspan><tspan class="yrs" dx="6">1923</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev15" data-person="ev:ラジオ放送の開始">
+<title>ラジオ放送の開始　1925年3月22日</title>
+<circle class="dot f-violet" cx="657" cy="1443.3" r="4"/>
+<path class="leader" d="M661.5 1443.3h4L703 1436.2h2"/>
+<text class="label" x="707" y="1441.1"><tspan class="name">ラジオ放送開始</tspan><tspan class="yrs" dx="6">1925</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev16" data-person="ev:普通選挙法の公布">
+<title>普通選挙法の公布　1925年5月5日</title>
+<circle class="dot f-blue" cx="657" cy="1446.2" r="4"/>
+<path class="leader" d="M661.5 1446.2h4L703 1453.2h2"/>
+<text class="label" x="707" y="1458.1"><tspan class="name">普通選挙法</tspan><tspan class="yrs" dx="6">1925</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev17" data-person="ev:昭和金融恐慌">
+<title>昭和金融恐慌　1927年3月14日</title>
+<circle class="dot f-green" cx="657" cy="1490.7" r="4"/>
+<text class="label" x="707" y="1495.6"><tspan class="name">金融恐慌</tspan><tspan class="yrs" dx="6">1927</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev18" data-person="ev:世界恐慌">
+<title>世界恐慌　1929年10月24日</title>
+<circle class="dot f-green" cx="657" cy="1553.5" r="4"/>
+<text class="label" x="707" y="1558.3"><tspan class="name">世界恐慌</tspan><tspan class="yrs" dx="6">1929</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev19" data-person="ev:満州事変">
+<title>満州事変　1931年9月18日 〜 1933年5月31日（期間 621日）</title>
+<rect class="bar f-red" x="662" y="1600.1" width="6" height="38.8" rx="3"/>
+<path class="leader" d="M669.5 1607.6h4L703 1602.7h2"/>
+<text class="label" x="707" y="1607.6"><tspan class="name">満州事変</tspan><tspan class="yrs" dx="6">1931–1933</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev20" data-person="ev:五・一五事件">
+<title>五・一五事件　1932年5月15日</title>
+<circle class="dot f-blue" cx="657" cy="1614.8" r="4"/>
+<path class="leader" d="M661.5 1614.8h4L703 1619.7h2"/>
+<text class="label" x="707" y="1624.6"><tspan class="name">五・一五事件</tspan><tspan class="yrs" dx="6">1932</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev21" data-person="ev:二・二六事件">
+<title>二・二六事件　1936年2月26日 〜 1936年2月29日（期間 3日）</title>
+<rect class="bar f-blue" x="662" y="1704.2" width="6" height="3" rx="1.5"/>
+<text class="label" x="707" y="1710.6"><tspan class="name">二・二六事件</tspan><tspan class="yrs" dx="6">1936</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev22" data-person="ev:日中戦争">
+<title>日中戦争　1937年7月7日 〜 1945年9月2日（期間 約8年）</title>
+<rect class="bar f-red" x="662" y="1739.3" width="6" height="193.7" rx="3"/>
+<text class="label" x="707" y="1751.7"><tspan class="name">日中戦争</tspan><tspan class="yrs" dx="6">1937–1945</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev23" data-person="ev:第二次世界大戦">
+<title>第二次世界大戦　1939年9月1日 〜 1945年9月2日（期間 約6年）</title>
+<rect class="bar f-red" x="670" y="1791" width="6" height="142.1" rx="3"/>
+<text class="label" x="707" y="1803.3"><tspan class="name">第二次世界大戦</tspan><tspan class="yrs" dx="6">1939–1945</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev24" data-person="ev:太平洋戦争">
+<title>太平洋戦争　1941年12月8日 〜 1945年9月2日（期間 約4年）</title>
+<rect class="bar f-red" x="678" y="1845.4" width="6" height="87.6" rx="3"/>
+<text class="label" x="707" y="1857.8"><tspan class="name">太平洋戦争</tspan><tspan class="yrs" dx="6">1941–1945</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev25" data-person="ev:広島・長崎への原爆投下">
+<title>広島・長崎への原爆投下　1945年8月6日 〜 1945年8月9日（期間 3日）</title>
+<rect class="bar f-red" x="686" y="1930.9" width="6" height="3" rx="1.5"/>
+<path class="leader" d="M693.5 1932.4h4L703 1929h2"/>
+<text class="label" x="707" y="1933.8"><tspan class="name">原爆投下</tspan><tspan class="yrs" dx="6">1945</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev26" data-person="ev:連合国軍による占領">
+<title>連合国軍による占領　1945年9月2日 〜 1952年4月28日（期間 約7年）</title>
+<rect class="bar f-blue" x="662" y="1935.1" width="6" height="157.7" rx="3"/>
+<path class="leader" d="M669.5 1942.6h4L703 1946h2"/>
+<text class="label" x="707" y="1950.8"><tspan class="name">連合国軍占領</tspan><tspan class="yrs" dx="6">1945–1952</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev27" data-person="ev:日本国憲法の施行">
+<title>日本国憲法の施行　1947年5月3日</title>
+<circle class="dot f-blue" cx="657" cy="1974" r="4"/>
+<path class="leader" d="M661.5 1974h4L703 1974h2"/>
+<text class="label" x="707" y="1978.9"><tspan class="name">日本国憲法施行</tspan><tspan class="yrs" dx="6">1947</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev28" data-person="ev:中華人民共和国の成立">
+<title>中華人民共和国の成立　1949年10月1日</title>
+<circle class="dot f-blue" cx="657" cy="2032" r="4"/>
+<path class="leader" d="M661.5 2032h4L703 2032h2"/>
+<text class="label" x="707" y="2036.8"><tspan class="name">中華人民共和国</tspan><tspan class="yrs" dx="6">1949</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev29" data-person="ev:朝鮮戦争">
+<title>朝鮮戦争　1950年6月25日 〜 1953年7月27日（期間 約3年）</title>
+<rect class="bar f-red" x="670" y="2050.5" width="6" height="72.1" rx="3"/>
+<text class="label" x="707" y="2062.9"><tspan class="name">朝鮮戦争</tspan><tspan class="yrs" dx="6">1950–1953</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev30" data-person="ev:サンフランシスコ平和条約の調印">
+<title>サンフランシスコ平和条約の調印　1951年9月8日</title>
+<circle class="dot f-blue" cx="657" cy="2078.4" r="4"/>
+<path class="leader" d="M661.5 2078.4h4L703 2078.4h2"/>
+<text class="label" x="707" y="2083.3"><tspan class="name">講和条約調印</tspan><tspan class="yrs" dx="6">1951</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev31" data-person="ev:テレビ本放送の開始">
+<title>テレビ本放送の開始　1953年2月1日</title>
+<circle class="dot f-violet" cx="657" cy="2112.1" r="4"/>
+<path class="leader" d="M661.5 2112.1h4L703 2112.1h2"/>
+<text class="label" x="707" y="2116.9"><tspan class="name">テレビ放送開始</tspan><tspan class="yrs" dx="6">1953</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev32" data-person="ev:ベトナム戦争">
+<title>ベトナム戦争　1955年11月1日 〜 1975年4月30日（期間 約19年）</title>
+<rect class="bar f-red" x="662" y="2179" width="6" height="465.9" rx="3"/>
+<text class="label" x="707" y="2191.3"><tspan class="name">ベトナム戦争</tspan><tspan class="yrs" dx="6">1955–1975</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev33" data-person="ev:伊勢湾台風">
+<title>伊勢湾台風　1959年9月26日</title>
+<circle class="dot f-amber" cx="657" cy="2271.6" r="4"/>
+<path class="leader" d="M661.5 2271.6h4L703 2266.9h2"/>
+<text class="label" x="707" y="2271.7"><tspan class="name">伊勢湾台風</tspan><tspan class="yrs" dx="6">1959</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev34" data-person="ev:日米新安保条約の調印">
+<title>日米新安保条約の調印　1960年1月19日</title>
+<circle class="dot f-blue" cx="657" cy="2279.2" r="4"/>
+<path class="leader" d="M661.5 2279.2h4L703 2283.9h2"/>
+<text class="label" x="707" y="2288.7"><tspan class="name">新安保条約調印</tspan><tspan class="yrs" dx="6">1960</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev35" data-person="ev:キューバ危機">
+<title>キューバ危機　1962年10月16日 〜 1962年10月28日（期間 12日）</title>
+<rect class="bar f-blue" x="670" y="2343.8" width="6" height="3" rx="1.5"/>
+<text class="label" x="707" y="2350.2"><tspan class="name">キューバ危機</tspan><tspan class="yrs" dx="6">1962</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev36" data-person="ev:東海道新幹線の開業">
+<title>東海道新幹線の開業　1964年10月1日</title>
+<circle class="dot f-green" cx="657" cy="2392" r="4"/>
+<path class="leader" d="M661.5 2392h4L703 2383.8h2"/>
+<text class="label" x="707" y="2388.6"><tspan class="name">新幹線開業</tspan><tspan class="yrs" dx="6">1964</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev37" data-person="ev:東京オリンピック（1964年）開会">
+<title>東京オリンピック（1964年）開会　1964年10月10日</title>
+<circle class="dot f-violet" cx="657" cy="2392.6" r="4"/>
+<path class="leader" d="M661.5 2392.6h4L703 2400.8h2"/>
+<text class="label" x="707" y="2405.6"><tspan class="name">東京五輪1964</tspan><tspan class="yrs" dx="6">1964</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev38" data-person="ev:アポロ11号の月面着陸">
+<title>アポロ11号の月面着陸　1969年7月20日</title>
+<circle class="dot f-violet" cx="657" cy="2507.2" r="4"/>
+<path class="leader" d="M661.5 2507.2h4L703 2507.2h2"/>
+<text class="label" x="707" y="2512"><tspan class="name">月面着陸</tspan><tspan class="yrs" dx="6">1969</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev39" data-person="ev:日本万国博覧会（大阪万博）">
+<title>日本万国博覧会（大阪万博）　1970年3月15日 〜 1970年9月13日（期間 182日）</title>
+<rect class="bar f-violet" x="670" y="2523.8" width="6" height="10" rx="3"/>
+<text class="label" x="707" y="2533.7"><tspan class="name">大阪万博</tspan><tspan class="yrs" dx="6">1970</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev40" data-person="ev:ニクソン・ショック">
+<title>ニクソン・ショック　1971年8月15日</title>
+<circle class="dot f-green" cx="657" cy="2556.9" r="4"/>
+<path class="leader" d="M661.5 2556.9h4L703 2554.9h2"/>
+<text class="label" x="707" y="2559.7"><tspan class="name">ニクソン・ショック</tspan><tspan class="yrs" dx="6">1971</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev41" data-person="ev:沖縄返還">
+<title>沖縄返還　1972年5月15日</title>
+<circle class="dot f-blue" cx="657" cy="2574.9" r="4"/>
+<path class="leader" d="M661.5 2574.9h4L703 2571.9h2"/>
+<text class="label" x="707" y="2576.7"><tspan class="name">沖縄返還</tspan><tspan class="yrs" dx="6">1972</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev42" data-person="ev:日中国交正常化">
+<title>日中国交正常化　1972年9月29日</title>
+<circle class="dot f-blue" cx="657" cy="2583.9" r="4"/>
+<path class="leader" d="M661.5 2583.9h4L703 2588.9h2"/>
+<text class="label" x="707" y="2593.7"><tspan class="name">日中国交正常化</tspan><tspan class="yrs" dx="6">1972</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev43" data-person="ev:第1次石油危機">
+<title>第1次石油危機　1973年10月16日</title>
+<circle class="dot f-green" cx="657" cy="2609" r="4"/>
+<path class="leader" d="M661.5 2609h4L703 2609h2"/>
+<text class="label" x="707" y="2613.8"><tspan class="name">石油危機</tspan><tspan class="yrs" dx="6">1973</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev44" data-person="ev:ロッキード事件（田中前首相の逮捕）">
+<title>ロッキード事件（田中前首相の逮捕）　1976年7月27日</title>
+<circle class="dot f-blue" cx="657" cy="2675.7" r="4"/>
+<text class="label" x="707" y="2680.5"><tspan class="name">ロッキード事件</tspan><tspan class="yrs" dx="6">1976</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev45" data-person="ev:ソ連のアフガニスタン侵攻">
+<title>ソ連のアフガニスタン侵攻　1979年12月24日 〜 1989年2月15日（期間 約9年）</title>
+<rect class="bar f-red" x="662" y="2758.5" width="6" height="217.5" rx="3"/>
+<text class="label" x="707" y="2770.8"><tspan class="name">ソ連アフガン侵攻</tspan><tspan class="yrs" dx="6">1979–1989</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev46" data-person="ev:日本航空123便墜落事故">
+<title>日本航空123便墜落事故　1985年8月12日</title>
+<circle class="dot f-amber" cx="657" cy="2892.7" r="4"/>
+<path class="leader" d="M661.5 2892.7h4L703 2882.2h2"/>
+<text class="label" x="707" y="2887.1"><tspan class="name">日航機墜落</tspan><tspan class="yrs" dx="6">1985</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev47" data-person="ev:プラザ合意">
+<title>プラザ合意　1985年9月22日</title>
+<circle class="dot f-green" cx="657" cy="2895.4" r="4"/>
+<path class="leader" d="M661.5 2895.4h4L703 2899.2h2"/>
+<text class="label" x="707" y="2904.1"><tspan class="name">プラザ合意</tspan><tspan class="yrs" dx="6">1985</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev48" data-person="ev:チェルノブイリ原子力発電所事故">
+<title>チェルノブイリ原子力発電所事故　1986年4月26日</title>
+<circle class="dot f-amber" cx="657" cy="2909.6" r="4"/>
+<path class="leader" d="M661.5 2909.6h4L703 2916.2h2"/>
+<text class="label" x="707" y="2921.1"><tspan class="name">チェルノブイリ</tspan><tspan class="yrs" dx="6">1986</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev49" data-person="ev:消費税の導入">
+<title>消費税の導入　1989年4月1日</title>
+<circle class="dot f-green" cx="657" cy="2980" r="4"/>
+<path class="leader" d="M661.5 2980h4L703 2973.7h2"/>
+<text class="label" x="707" y="2978.6"><tspan class="name">消費税導入</tspan><tspan class="yrs" dx="6">1989</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev50" data-person="ev:ベルリンの壁崩壊">
+<title>ベルリンの壁崩壊　1989年11月9日</title>
+<circle class="dot f-blue" cx="657" cy="2994.5" r="4"/>
+<path class="leader" d="M661.5 2994.5h4L703 2990.7h2"/>
+<text class="label" x="707" y="2995.6"><tspan class="name">ベルリンの壁崩壊</tspan><tspan class="yrs" dx="6">1989</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev51" data-person="ev:日経平均株価がバブル期の最高値">
+<title>日経平均株価がバブル期の最高値　1989年12月29日</title>
+<circle class="dot f-green" cx="657" cy="2997.8" r="4"/>
+<path class="leader" d="M661.5 2997.8h4L703 3007.7h2"/>
+<text class="label" x="707" y="3012.6"><tspan class="name">日経平均最高値</tspan><tspan class="yrs" dx="6">1989</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev52" data-person="ev:湾岸戦争">
+<title>湾岸戦争　1991年1月17日 〜 1991年2月28日（期間 42日）</title>
+<rect class="bar f-red" x="662" y="3022.9" width="6" height="3" rx="1.5"/>
+<text class="label" x="707" y="3029.6"><tspan class="name">湾岸戦争</tspan><tspan class="yrs" dx="6">1991</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev53" data-person="ev:ソビエト連邦の崩壊">
+<title>ソビエト連邦の崩壊　1991年12月26日</title>
+<circle class="dot f-blue" cx="657" cy="3045.6" r="4"/>
+<text class="label" x="707" y="3050.5"><tspan class="name">ソ連崩壊</tspan><tspan class="yrs" dx="6">1991</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev54" data-person="ev:阪神・淡路大震災">
+<title>阪神・淡路大震災　1995年1月17日</title>
+<circle class="dot f-amber" cx="657" cy="3119.1" r="4"/>
+<text class="label" x="707" y="3123.9"><tspan class="name">阪神・淡路大震災</tspan><tspan class="yrs" dx="6">1995</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev55" data-person="ev:山一證券の自主廃業">
+<title>山一證券の自主廃業　1997年11月24日</title>
+<circle class="dot f-green" cx="657" cy="3187.5" r="4"/>
+<path class="leader" d="M661.5 3187.5h4L703 3181.5h2"/>
+<text class="label" x="707" y="3186.4"><tspan class="name">山一證券廃業</tspan><tspan class="yrs" dx="6">1997</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev56" data-person="ev:長野オリンピック開会">
+<title>長野オリンピック開会　1998年2月7日</title>
+<circle class="dot f-violet" cx="657" cy="3192.5" r="4"/>
+<path class="leader" d="M661.5 3192.5h4L703 3198.5h2"/>
+<text class="label" x="707" y="3203.4"><tspan class="name">長野五輪</tspan><tspan class="yrs" dx="6">1998</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev57" data-person="ev:アメリカ同時多発テロ事件">
+<title>アメリカ同時多発テロ事件　2001年9月11日</title>
+<circle class="dot f-red" cx="657" cy="3278.7" r="4"/>
+<text class="label" x="707" y="3283.5"><tspan class="name">同時多発テロ</tspan><tspan class="yrs" dx="6">2001</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev58" data-person="ev:2002 FIFAワールドカップ（日韓大会）開幕">
+<title>2002 FIFAワールドカップ（日韓大会）開幕　2002年5月31日</title>
+<circle class="dot f-violet" cx="657" cy="3295.9" r="4"/>
+<text class="label" x="707" y="3300.7"><tspan class="name">日韓W杯</tspan><tspan class="yrs" dx="6">2002</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev59" data-person="ev:イラク戦争">
+<title>イラク戦争　2003年3月20日 〜 2011年12月18日（期間 約9年）</title>
+<rect class="bar f-red" x="662" y="3316.1" width="6" height="207.9" rx="3"/>
+<text class="label" x="707" y="3328.5"><tspan class="name">イラク戦争</tspan><tspan class="yrs" dx="6">2003–2011</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev60" data-person="ev:スマトラ島沖地震（インド洋大津波）">
+<title>スマトラ島沖地震（インド洋大津波）　2004年12月26日</title>
+<circle class="dot f-amber" cx="657" cy="3357.7" r="4"/>
+<path class="leader" d="M661.5 3357.7h4L703 3357.7h2"/>
+<text class="label" x="707" y="3362.5"><tspan class="name">スマトラ沖地震</tspan><tspan class="yrs" dx="6">2004</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev61" data-person="ev:リーマン・ショック">
+<title>リーマン・ショック　2008年9月15日</title>
+<circle class="dot f-green" cx="657" cy="3447" r="4"/>
+<path class="leader" d="M661.5 3447h4L703 3447h2"/>
+<text class="label" x="707" y="3451.8"><tspan class="name">リーマン・ショック</tspan><tspan class="yrs" dx="6">2008</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev62" data-person="ev:東日本大震災">
+<title>東日本大震災　2011年3月11日</title>
+<circle class="dot f-amber" cx="657" cy="3506.6" r="4"/>
+<path class="leader" d="M661.5 3506.6h4L703 3506.6h2"/>
+<text class="label" x="707" y="3511.4"><tspan class="name">東日本大震災</tspan><tspan class="yrs" dx="6">2011</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev63" data-person="ev:ロシアによるクリミア併合">
+<title>ロシアによるクリミア併合　2014年3月18日</title>
+<circle class="dot f-blue" cx="657" cy="3579" r="4"/>
+<text class="label" x="707" y="3583.9"><tspan class="name">クリミア併合</tspan><tspan class="yrs" dx="6">2014</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev64" data-person="ev:熊本地震">
+<title>熊本地震　2016年4月14日</title>
+<circle class="dot f-amber" cx="657" cy="3628.8" r="4"/>
+<text class="label" x="707" y="3633.7"><tspan class="name">熊本地震</tspan><tspan class="yrs" dx="6">2016</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev65" data-person="ev:新型コロナウイルス感染症の世界的流行">
+<title>新型コロナウイルス感染症の世界的流行　2020年1月30日 〜 2023年5月5日（期間 約3年）</title>
+<rect class="bar f-amber" x="662" y="3720.9" width="6" height="76.3" rx="3"/>
+<text class="label" x="707" y="3733.3"><tspan class="name">新型コロナ</tspan><tspan class="yrs" dx="6">2020–2023</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev66" data-person="ev:東京オリンピック（2020年大会）開会">
+<title>東京オリンピック（2020年大会）開会　2021年7月23日</title>
+<circle class="dot f-violet" cx="657" cy="3755.4" r="4"/>
+<path class="leader" d="M661.5 3755.4h4L703 3755.4h2"/>
+<text class="label" x="707" y="3760.3"><tspan class="name">東京五輪2020</tspan><tspan class="yrs" dx="6">2021</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev67" data-person="ev:ロシアのウクライナ侵攻">
+<title>ロシアのウクライナ侵攻　2022年2月24日 〜 継続中（期間 約5年）</title>
+<linearGradient id="tl-g-ev67" gradientUnits="userSpaceOnUse" x1="0" y1="3860.4" x2="0" y2="3882.4"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M670 3773.6Q670 3770.6 673 3770.6H673Q676 3770.6 676 3773.6V3882.4Q676 3882.4 676 3882.4H670Q670 3882.4 670 3882.4Z" fill="url(#tl-g-ev67)"/>
+<text class="label" x="707" y="3783"><tspan class="name">ウクライナ侵攻</tspan><tspan class="yrs" dx="6">2022–</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev68" data-person="ev:能登半島地震">
+<title>能登半島地震　2024年1月1日</title>
+<circle class="dot f-amber" cx="657" cy="3814" r="4"/>
+<path class="leader" d="M661.5 3814h4L703 3814h2"/>
+<text class="label" x="707" y="3818.9"><tspan class="name">能登半島地震</tspan><tspan class="yrs" dx="6">2024</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev69" data-person="ev:日本国際博覧会（大阪・関西万博）">
+<title>日本国際博覧会（大阪・関西万博）　2025年4月13日 〜 2025年10月13日（期間 183日）</title>
+<rect class="bar f-violet" x="662" y="3845.8" width="6" height="10" rx="3"/>
+<path class="leader" d="M669.5 3850.8h4L703 3850.8h2"/>
+<text class="label" x="707" y="3855.6"><tspan class="name">大阪・関西万博</tspan><tspan class="yrs" dx="6">2025</tspan></text>
+</g>
+<text class="foot" x="450" y="3942" text-anchor="middle">出典：総務省統計局「日本統計年鑑」第75回 表2-1 人口の推移（1872〜1919年と1970・1971年の総人口、補正人口などの脚注）、総務省統計局「日本の長期統計系列」表2-23-a 人口動態総括表-実数（1872〜1898年の出生数。統計局のサイトからは削除されたため、Internet Archive の保存版）、総務省統計局「日本の長期統計系列」第2章 解説（総人口の推計方法、国勢調査の範囲。Internet Archive の保存版）、総務省統計局「人口推計資料No.76 我が国の推計人口（大正9年〜平成12年）」第1表 男女別人口（1920〜1999年の総人口）、総務省統計局「人口推計 長期時系列データ（平成12年〜令和2年）」第1表 男女別人口（2000〜2020年の総人口）、総務省統計局「人口推計（2026年10月報）」（参考表）全国人口の推移（2021〜2024年の総人口）、総務省統計局「令和7年国勢調査 人口等基本集計 結果の要約」（2025年の総人口）、厚生労働省「令和7（2025）年人口動態統計（確定数）の概況」統計表 第2表 人口動態総覧の年次推移（1899〜2025年の出生数）、厚生労働省「令和7（2025）年人口動態統計月報年計（概数）の概況」統計表 第2表 人口動態総覧（率）の年次推移（合計特殊出生率）と、概況の図（ベビーブーム・丙午）　2026年11月7日時点</text>
+</svg>

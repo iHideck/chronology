@@ -80,7 +80,7 @@
 <rect class="spine-b" x="0" y="3251.8" width="72" height="345.7"/>
 <rect class="spine-a" x="0" y="3597.5" width="72" height="1489"/>
 <rect class="spine-b" x="0" y="5086.5" width="72" height="727.4"/>
-<rect class="spine-a" x="0" y="5813.9" width="72" height="210"/>
+<rect class="spine-a" x="0" y="5813.9" width="72" height="210.1"/>
 <line class="grid" x1="0" x2="760" y1="550" y2="550"/>
 <line class="grid" x1="0" x2="760" y1="790" y2="790"/>
 <line class="grid" x1="0" x2="760" y1="1270" y2="1270"/>
@@ -436,9 +436,9 @@
 <text class="era-date" x="36" y="5123.5" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="36" y="5836.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="5850.9" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="-4" x2="97" y1="5994.3" y2="5994.3"/>
-<text class="era-date" x="36" y="6008.3" text-anchor="middle">2026.11.6</text>
-<text class="era-date" x="36" y="6021.3" text-anchor="middle">時点</text>
+<line class="asof-line" x1="-4" x2="97" y1="5994.4" y2="5994.4"/>
+<text class="era-date" x="36" y="6008.4" text-anchor="middle">2026.11.7</text>
+<text class="era-date" x="36" y="6021.4" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:ジョージ・ワシントン">
 <title>第1代アメリカ合衆国大統領 ジョージ・ワシントン　1789年4月30日 〜 1797年3月4日（在任 2,865日）</title>
 <rect class="bar f-blue" x="79" y="294.9" width="14" height="186.3" rx="3"/>
@@ -766,12 +766,12 @@
 <text class="label" x="144" y="5868.6"><tspan class="name">バイデン</tspan><tspan class="yrs" dx="6">2021–2025</tspan></text>
 </g>
 <g class="term c-a" data-id="a46" data-person="a:ドナルド・トランプ">
-<title>第47代アメリカ合衆国大統領 ドナルド・トランプ　2025年1月20日 〜 在任中（在任 655日（2026年11月6日時点））</title>
-<linearGradient id="tl-g-a46" gradientUnits="userSpaceOnUse" x1="0" y1="5972.3" x2="0" y2="5994.3"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M79 5955.3Q79 5952.3 82 5952.3H90Q93 5952.3 93 5955.3V5994.3Q93 5994.3 93 5994.3H79Q79 5994.3 79 5994.3Z" fill="url(#tl-g-a46)"/>
+<title>第47代アメリカ合衆国大統領 ドナルド・トランプ　2025年1月20日 〜 在任中（在任 656日（2026年11月7日時点））</title>
+<linearGradient id="tl-g-a46" gradientUnits="userSpaceOnUse" x1="0" y1="5972.4" x2="0" y2="5994.4"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 5955.3Q79 5952.3 82 5952.3H90Q93 5952.3 93 5955.3V5994.4Q93 5994.4 93 5994.4H79Q79 5994.4 79 5994.4Z" fill="url(#tl-g-a46)"/>
 <circle class="photo-ring" cx="123" cy="5959.8" r="16"/>
 <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAABgQHAQIFAwD/xAAxEAACAQMDAQUHAwUAAAAAAAABAgMABBEFEiExBhMiQVEHMkJhcYGxFDNyU5GhwfD/xAAWAQEBAQAAAAAAAAAAAAAAAAADBAX/xAAeEQADAAICAwEAAAAAAAAAAAAAAQIDERMhEjFBUf/aAAwDAQACEQMRAD8ApW35njGceIc/enmnSLBqD95t5ctyfXy/vQCGTu5kc9FYE0qjke7neVWAUEFsfCPKjpCQWZp2qPLBtj3ZUY4NSopC4Zp1YHHBB6/aj2m6hYadBn9asq48UYhZiD/IV131ZYnSGPS7ud5FV1ACquD5kk0D2ypTIH7a7hO5Zs5bIyelCY/fP1pt2+3O6OYni45VhyvPy+tBouWNNj9E+RaojAUg0W7TY0e7Dd024Ho2BxXGkT0rfTQDfwqxwGbafvTVAU0WPp9zaNoUkqB1nQcJuOM/SlcN/Yy2dsIwl5FFEqyNjPdH4SfxVX2k00LvaLxIMhhn3l8sU30qGS30zvJpkgtwu4kSjB/l4ajpaLp0+0He39xIWWNlwrnI+QHT80HTwPTDtHdrqeqsx4SNdgH061wJbNSSF5q3HgfGn9IcuZcjIbKGz8q8oFxeQ4/qL+akD9xh6ivNRidD6MD/AJp6XQEsS6/HhFCRlpEIzKOiHOMZrsezrZPPLLqTSO9sjSxLLzGdozkD1GPOs9o49kgtIkAjIRm46c5xTZotPHs4m1COCJZDaYyFxhxkcf8AedRrVZPEtqajAr/SqtPtLvVr7ureN57mcswRRkseSf8AdYmiaGUxuhRkO1lIwVI4xWtpNJbTpNbyPFLGQyOjEFSPMGvp5WkZpZGLO7FmY9SSeTWmlozGz//Z" x="108" y="5944.8" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
 <text class="label" x="144" y="5964.6"><tspan class="name">トランプ</tspan><tspan class="yrs" dx="6">2025–</tspan></text>
 </g>
-<text class="foot" x="380" y="6053.9" text-anchor="middle">出典：List of presidents of the United States by time in office　2026年11月6日時点</text>
+<text class="foot" x="380" y="6054" text-anchor="middle">出典：List of presidents of the United States by time in office　2026年11月7日時点</text>
 </svg>

@@ -80,8 +80,10 @@ export function fmtStr(s) {
   return p.prec === 'y' ? y : p.prec === 'm' ? `${y}${p.m}月` : `${y}${p.m}月${p.d}日`;
 }
 
+// 整数の部分を3桁ずつ区切る（小数の部分は区切らない）
 export function fmtNum(n) {
-  return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  const [int, frac] = String(n).split('.');
+  return `${int.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}${frac == null ? '' : `.${frac}`}`;
 }
 
 // 西暦の日付を和暦（元号＋年）に。eras は開始順の元号。
@@ -148,13 +150,14 @@ export const smallPhoto = (path) => (path.startsWith('data:') ? path : path.repl
 // 同じ人が続けて務めた行（例：吉田茂の第48〜51代）は、spec.merge があれば1本にまとめる。
 // 年・月までの終了日はふつうその期間の終わりまでとするが、spec.endAt が "start" なら初めで区切る
 // （時代区分の「奈良 〜794年」「平安 794年〜」のように、終わりの年が次の始まりの年と同じ書き方のデータ向け）。
+// 観測値のデータ（spec.series）は、1行を「その日（年・月）の値」とし、名前の列と終了日の列を持たない。
 export function makeItems(rows, spec, asOfT, base = '') {
   const C = { ...DEFAULT_COLUMNS, ...spec.columns };
   const roles = new Set(Object.values(C));
   const hidden = new Set(spec.hidden ?? []);
   const items = [];
   for (const r of rows) {
-    const name = r[C.name];
+    const name = spec.series ? fmtStr(r[C.start]) : r[C.name];
     const endStr = r[C.end] ?? '';
     const point = endStr === '' && !!spec.points;
     const ongoing = !point && (endStr === '' || ONGOING.has(endStr));
@@ -187,6 +190,18 @@ export function makeItems(rows, spec, asOfT, base = '') {
       url: (C.url && r[C.url]) || '',
       details: Object.keys(r).filter((h) => !roles.has(h) && !hidden.has(h) && r[h] !== '').map((h) => [h, r[h]]),
     });
+  }
+  // 観測値は、同じ区分の次の行の日まで続くものとする。区分の最後の行は時点まで続く
+  if (spec.series) {
+    const next = new Map();
+    for (let i = items.length - 1; i >= 0; i -= 1) {
+      const t = items[i];
+      const n = next.get(t.group);
+      Object.assign(t, n
+        ? { end: n.start, endStr: n.startStr, endPrec: n.startPrec, ongoing: false }
+        : { end: Math.max(asOfT, t.start), endStr: '', ongoing: true });
+      next.set(t.group, t);
+    }
   }
   return items;
 }
@@ -348,19 +363,38 @@ function shareOf(share, t) {
   return { value, total, lead: Number.isFinite(lead) ? Math.min(lead, value) : value };
 }
 
-// 数値の列（chart）。値の列が数でない項目は描かない。
+// 点を置く時刻。年・月までの日付は、その期間の真ん中（where が "end" なら終わりの日）に置く
+function pointTime(t, where) {
+  if (where === 'start' || t.startPrec === 'd') return t.start;
+  const end = toTime(t.startStr, true);
+  return where === 'end' ? end - DAY : (t.start + end) / 2;
+}
+
+// 数値の列（chart）。値の列が空か数でない項目は描かず、線はそこで切る。
+// chart.scale は値に掛ける数（千人 → 万人なら 0.1）で、目盛り（min・max・ticks）は掛けたあとの値で書く。
 function placeOnChart(col) {
+  const { value, scale = 1 } = col.chart;
+  const where = col.chart.at ?? 'middle';
+  const lastOk = new Map();
   for (const t of col.terms) {
+    const raw = new Map(t.details).get(value) ?? '';
     t.laneIdx = 0;
-    t.value = Number(new Map(t.details).get(col.chart.value) ?? NaN);
+    t.value = raw === '' ? NaN : Number(raw) * scale;
+    t.at = pointTime(t, where);
+    const ok = Number.isFinite(t.value);
+    if (ok && lastOk.get(t.group) === false) t.breakBefore = true;
+    lastOk.set(t.group, ok);
   }
   col.terms = col.terms.filter((t) => Number.isFinite(t.value));
   col.nLanes = 1;
   col.hasPoints = false;
 }
 
+// 値の表記。chart.digits か chart.scale があれば、掛けた値をその桁（なければ整数）に丸める
 export function chartValueText(col, t) {
-  return `${new Map(t.details).get(col.chart.value)}${col.chart.unit ?? ''}`;
+  const { unit = '', digits, scale } = col.chart;
+  const text = digits == null && scale == null ? new Map(t.details).get(col.chart.value) : t.value.toFixed(digits ?? 0);
+  return `${fmtNum(text)}${unit}`;
 }
 
 const SHAPES = ['circle', 'diamond', 'square'];
@@ -384,6 +418,33 @@ function seriesOf(col) {
     series.get(b.term.group).push(b);
   }
   return [...series.values()];
+}
+
+// 線でつなぐ点の並び。区分ごとに分け、値の欠けたところで切る
+function segmentsOf(col) {
+  return seriesOf(col).flatMap((bs) => {
+    const out = [];
+    for (const b of bs) {
+      if (!out.length || b.term.breakBefore) out.push([]);
+      out[out.length - 1].push(b);
+    }
+    return out;
+  });
+}
+
+// 観測値の線の当たり判定。区分が1つの列では、点と点の中間で区切った横長の帯にする（点の印がなく、間隔の狭い線でも選べる）
+function bandHits(col) {
+  const out = new Map();
+  if (!col.c.spec.series || seriesOf(col).length !== 1) return out;
+  for (const bs of segmentsOf(col)) {
+    bs.forEach((b, i) => {
+      const prev = bs[i - 1];
+      const next = bs[i + 1];
+      const half = Math.max(4, Math.min(prev ? b.cy - prev.cy : Infinity, next ? next.cy - b.cy : Infinity, 40) / 2);
+      out.set(b, [prev ? (prev.cy + b.cy) / 2 : b.cy - half, next ? (b.cy + next.cy) / 2 : b.cy + half]);
+    });
+  }
+  return out;
 }
 
 // 区分ごとの最高・最低・最新の点にだけ、数値を書く
@@ -548,7 +609,7 @@ export function layout(model, opts = {}) {
   // ---- 列
   const hidden = opts.hidden ?? new Set();
   const cols = model.columns.filter((c) => !hidden.has(c.id)).map((c) => {
-    const barW = c.chart ? (narrow ? 96 : 150) : c.share ? c.bar ?? (narrow ? 40 : 64) : c.bar ?? (c.labels === 'inside' ? (narrow ? 18 : 22) : (narrow ? 10 : 14));
+    const barW = c.chart ? (narrow ? 96 : c.chart.width ?? 150) : c.share ? c.bar ?? (narrow ? 40 : 64) : c.bar ?? (c.labels === 'inside' ? (narrow ? 18 : 22) : (narrow ? 10 : 14));
     const laneGap = 2;
     return {
       c, side: g.spinePos === 'left' ? 'right' : c.side ?? 'right',
@@ -717,7 +778,14 @@ export function layout(model, opts = {}) {
       const anchor = t.point ? y0 : y0 + Math.min((y1 - y0) / 2, g.labelH / 2);
       return { term: t, y0, y1, h, target: anchor, anchor, clipped, x: col.laneX(t.laneIdx) };
     });
-    if (col.mode === 'chart') for (const b of col.bars) b.cx = chartX(col, b.term.value);
+    if (col.mode === 'chart') {
+      // 期間の初めより前の点は描かない
+      col.bars = col.bars.filter((b) => b.term.at >= g.t0);
+      for (const b of col.bars) {
+        b.cx = chartX(col, b.term.value);
+        b.cy = Math.max(g.top, g.yOf(b.term.at));
+      }
+    }
     if (c.lead) {
       const y0 = g.yOf(c.lead.start);
       col.lead = { term: c.lead, y0: Math.max(g.top, y0), y1: g.yOf(c.lead.end), h: g.labelH, x: col.laneX(0) };
@@ -795,7 +863,9 @@ export function shareText(t) {
 }
 
 export function termSummary(t, col, model) {
-  if (col.chart) return `${t.name}　${fmtStr(t.startStr)}　${col.title} ${chartValueText(col, t)}`;
+  if (col.chart) {
+    return `${col.spec.series ? '' : `${t.name}　`}${fmtStr(t.startStr)}　${col.title} ${chartValueText(col, t)}`;
+  }
   if (col.share && t.share) return `${t.name}　${rangeText(t, col.spec)}　${shareText(t)}`;
   const head = [ordText(t), col.role].filter(Boolean).join('');
   const dur = durationText(t, col.spec, model.asOf);
@@ -859,7 +929,7 @@ export function renderSVG(model, g, opts = {}) {
       }
       // 目盛りの数字。重なるものは、両端を残して間を省く
       const ticks = chartTicks(c.chart).map((v) => {
-        const text = `${v}${v === c.chart.max ? c.chart.unit ?? '' : ''}`;
+        const text = `${fmtNum(v)}${v === c.chart.max ? c.chart.unit ?? '' : ''}`;
         const x = chartX(col, v);
         const w = textWidth(text, g.narrow ? 9.5 : 10);
         const anchor = v === c.chart.min ? 'start' : v === c.chart.max ? 'end' : 'middle';
@@ -868,7 +938,7 @@ export function renderSVG(model, g, opts = {}) {
       });
       const last = ticks[ticks.length - 1];
       const shown = [ticks[0]];
-      for (const t of ticks.slice(1, -1)) if (t.x0 >= shown[shown.length - 1].x1 + 3 && t.x1 + 3 <= last.x0) shown.push(t);
+      for (const t of ticks.slice(1, -1)) if (t.x0 >= shown[shown.length - 1].x1 + 6 && t.x1 + 6 <= last.x0) shown.push(t);
       shown.push(last);
       for (const t of shown) o.push(`<text class="scale" x="${r1(t.x)}" y="${r1(g.top - 4)}" text-anchor="${t.anchor}">${esc(t.text)}</text>`);
     } else {
@@ -993,9 +1063,15 @@ export function renderSVG(model, g, opts = {}) {
   if (interactive) {
     o.push('<g class="hits">');
     for (const col of g.cols) {
+      const bands = col.mode === 'chart' ? bandHits(col) : null;
       for (const b of col.bars) {
         if (col.mode === 'chart') {
-          o.push(`<rect class="hit" data-id="${b.term.id}" x="${r1(b.cx - 7)}" y="${r1(b.y0 - 7)}" width="14" height="14"/>`);
+          const band = bands.get(b);
+          if (band) {
+            o.push(`<rect class="hit" data-id="${b.term.id}" x="${r1(col.barsX0 - 4)}" y="${r1(band[0])}" width="${r1(col.barsW + 8)}" height="${r1(band[1] - band[0])}"/>`);
+          } else {
+            o.push(`<rect class="hit" data-id="${b.term.id}" x="${r1(b.cx - 7)}" y="${r1(b.cy - 7)}" width="14" height="14"/>`);
+          }
           continue;
         }
         let x0;
@@ -1020,8 +1096,8 @@ export function renderSVG(model, g, opts = {}) {
   // 数値の列の折れ線
   for (const col of g.cols) {
     if (col.mode !== 'chart') continue;
-    for (const bs of seriesOf(col)) {
-      o.push(`<polyline class="series k-${fillOf(col.c, bs[0].term)}" points="${bs.map((b) => `${r1(b.cx)},${r1(b.y0)}`).join(' ')}"/>`);
+    for (const bs of segmentsOf(col)) {
+      o.push(`<polyline class="series k-${fillOf(col.c, bs[0].term)}" points="${bs.map((b) => `${r1(b.cx)},${r1(b.cy)}`).join(' ')}"/>`);
     }
   }
 
@@ -1042,10 +1118,12 @@ export function renderSVG(model, g, opts = {}) {
       if (!interactive) o.push(`<title>${esc(termSummary(t, c, model))}</title>`);
       const x = b.x;
       if (col.mode === 'chart') {
-        o.push(markerSVG(shapeOf(c, t), b.cx, b.y0, g.narrow ? 3.5 : 4, `mark f-${fill}`));
+        // 観測値の線は、数値を書く点のほかは印を描かない。ブラウザ版では、選んだ点と横線の位置の点にだけ印を出す
+        const quiet = c.spec.series && !valueLabels.has(t.id);
+        if (!quiet || interactive) o.push(markerSVG(shapeOf(c, t), b.cx, b.cy, g.narrow ? 3.5 : 4, `mark f-${fill}${quiet ? ' quiet' : ''}`));
         if (valueLabels.has(t.id)) {
           const right = b.cx < col.barsX0 + col.barsW * 0.6;
-          o.push(`<text class="val" x="${r1(b.cx + (right ? 7 : -7))}" y="${r1(b.y0 + g.yearSize * 0.36)}"${right ? '' : ' text-anchor="end"'}>${esc(chartValueText(c, t))}</text>`);
+          o.push(`<text class="val" x="${r1(b.cx + (right ? 7 : -7))}" y="${r1(b.cy + g.yearSize * 0.36)}"${right ? '' : ' text-anchor="end"'}>${esc(chartValueText(c, t))}</text>`);
         }
       } else if (t.share) {
         o.push(shareBarSVG(col, b, t.share, fill));
@@ -1193,7 +1271,7 @@ export function svgRules(g) {
 .tl .mark{stroke:var(--paper);stroke-width:1.5}
 .tl .val{font-size:${g.yearSize}px;fill:var(--ink2);font-variant-numeric:tabular-nums}
 .tl .scale{font-size:${g.narrow ? 9.5 : 10}px;fill:var(--muted);font-variant-numeric:tabular-nums}
-.tl .key{font-size:${g.narrow ? 10.5 : 11}px;fill:var(--ink2)}` : '';
+.tl .key{font-size:${g.narrow ? 10.5 : 11}px;fill:var(--ink2)}${g.cols.some((col) => col.mode === 'chart' && col.c.spec.series) ? '\n.tl .mark.quiet{opacity:0}' : ''}` : '';
   const share = g.cols.some((col) => col.c.share);
   const shareRules = share ? `
 .tl .share-sub{opacity:0.45}

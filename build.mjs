@@ -45,12 +45,16 @@ for (const s of Object.values(sets)) {
   const head = Object.keys(rows[0] ?? {});
   for (const [role, col] of Object.entries(C)) {
     if (role === 'end' && spec.points && !head.includes(col)) continue;
+    // 観測値のデータは、名前（日付から作る）と終了日（次の行の日）の列を持たない
+    if (spec.series && (role === 'name' || role === 'end') && !head.includes(col)) continue;
     if (!head.includes(col)) problems.push(`${file}: 列「${col}」（${role}）がありません`);
   }
+  if (spec.series && !s.conf.page) problems.push(`${dir}/chronology.json: 観測値のデータ（series）には、折れ線の目盛りなどを書いた page が要ります`);
   const within = spec.check?.consecutiveWithin;
   const lastNumber = new Map();
+  const lastInGroup = new Map();
   rows.forEach((r, i) => {
-    const where = `${file} ${i + 2}行目（${r[C.name]}）`;
+    const where = `${file} ${i + 2}行目（${spec.series ? r[C.start] : r[C.name]}）`;
     const st = r[C.start];
     const en = r[C.end] ?? '';
     if (!isDate(st)) problems.push(`${where}: 開始日「${st}」の書式が YYYY-MM-DD・YYYY-MM・YYYY のどれでもありません`);
@@ -58,6 +62,11 @@ for (const s of Object.values(sets)) {
     if (isDate(st) && isDate(en) && TL.toTime(en, true) < TL.toTime(st)) problems.push(`${where}: 終了日が開始日より前です`);
     const prev = rows[i - 1];
     if (prev && isDate(st) && isDate(prev[C.start]) && TL.toTime(st) < TL.toTime(prev[C.start])) problems.push(`${where}: 開始日の順に並んでいません`);
+    if (spec.series && isDate(st)) {
+      const key = C.group ? r[C.group] : '';
+      if (lastInGroup.has(key) && TL.toTime(st) <= lastInGroup.get(key)) problems.push(`${where}: 同じ${key ? `区分（${key}）` : 'データ'}の前の行と同じ日付です`);
+      lastInGroup.set(key, TL.toTime(st));
+    }
     if (spec.check?.sequential) {
       if (!en && i !== rows.length - 1) problems.push(`${where}: 終了日が空なのは最後の行（続いているもの）だけにしてください`);
       if (prev && isDate(prev[C.end]) && isDate(st) && TL.toTime(st) < TL.toTime(prev[C.end])) problems.push(`${where}: 前の行の終了日より前に始まっています`);
@@ -177,6 +186,21 @@ function htmlDoc({ title, description, url, head, body }) {
     '</body>',
     '</html>',
     '',
+  ].join('\n');
+}
+
+// 観測値のデータの一覧表（Markdown）。CSV の行をそのまま並べ、数の列は右に寄せる
+function rowsMarkdownTable(s) {
+  const skip = new Set(s.spec.hidden ?? []);
+  const heads = Object.keys(s.rows[0] ?? {}).filter((h) => !skip.has(h));
+  const isNum = (v) => /^-?\d+(\.\d+)?$/.test(v);
+  const date = { ...TL.DEFAULT_COLUMNS, ...s.spec.columns }.start;
+  const numeric = new Set(heads.filter((h) => h !== date && s.rows.some((r) => isNum(r[h])) && s.rows.every((r) => r[h] === '' || isNum(r[h]))));
+  const cell = (v) => String(v ?? '').replace(/\|/g, '\\|').replace(/\n/g, ' ');
+  return [
+    `| ${heads.join(' | ')} |`,
+    `|${heads.map((h) => (numeric.has(h) ? '---:' : '---')).join('|')}|`,
+    ...s.rows.map((r) => `| ${heads.map((h) => cell(numeric.has(h) ? TL.fmtNum(r[h]) : r[h])).join(' | ')} |`),
   ].join('\n');
 }
 
@@ -318,6 +342,7 @@ for (const s of Object.values(sets)) {
   const ownColumns = model.columns.filter((c) => c.data === dir && !c.chart);
   const tables = ownColumns
     .map((c) => ['<details>', `<summary>${ownColumns.length > 1 ? `${c.title}の` : ''}一覧（${c.terms.length}件）</summary>`, '', markdownTable(model, c), '', '</details>'].join('\n'));
+  if (s.spec.series) tables.push(['<details>', `<summary>一覧（${s.rows.length}件）</summary>`, '', rowsMarkdownTable(s), '', '</details>'].join('\n'));
   const generated = [
     BEGIN,
     `<a href="${SITE_URL}${dir}/">`,
@@ -361,10 +386,14 @@ for (const s of Object.values(sets)) {
 
   const ownTerms = model.columns.filter((c) => c.data === dir).flatMap((c) => c.terms);
   const yearOf = (str) => TL.parseDate(str).y;
+  // 観測値のデータの期間は、最初の行の年から最後の行の年まで（最後の値が時点まで続くことは「現在」としない）
+  const startCol = { ...TL.DEFAULT_COLUMNS, ...s.spec.columns }.start;
   pages.push({
     dir, conf: s.conf, page, model,
     count: s.rows.length,
-    span: ownTerms.length ? [Math.min(...ownTerms.map((t) => yearOf(t.startStr))), ownTerms.some((t) => t.ongoing) ? null : Math.max(...ownTerms.map((t) => yearOf(t.endStr || t.startStr)))] : null,
+    span: s.spec.series
+      ? [yearOf(s.rows[0][startCol]), yearOf(s.rows[s.rows.length - 1][startCol])]
+      : ownTerms.length ? [Math.min(...ownTerms.map((t) => yearOf(t.startStr))), ownTerms.some((t) => t.ongoing) ? null : Math.max(...ownTerms.map((t) => yearOf(t.endStr || t.startStr)))] : null,
   });
 }
 

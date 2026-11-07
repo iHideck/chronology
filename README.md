@@ -28,6 +28,7 @@
 | 日本の歴史 | [偉人の生没年](https://ihideck.github.io/chronology/lifespans/) | 570年〜1989年 | 63 | [lifespans/](lifespans/) |
 | 日本の歴史 | [戦争・大きな出来事（1868年〜）](https://ihideck.github.io/chronology/events/) | 1868年〜現在 | 70 | [events/](events/) |
 | 日本の歴史 | [日本の景気循環](https://ihideck.github.io/chronology/business-cycles/) | 1951年〜現在 | 32 | [business-cycles/](business-cycles/) |
+| 日本の歴史 | [日本の人口と出生数](https://ihideck.github.io/chronology/population/) | 1872年〜2025年 | 154 | [population/](population/) |
 | 文化 | [お札の肖像](https://ihideck.github.io/chronology/banknotes/) | 1885年〜現在 | 48 | [banknotes/](banknotes/) |
 | 文化 | [歴代横綱](https://ihideck.github.io/chronology/yokozuna/) | 1790年〜現在 | 72 | [yokozuna/](yokozuna/) |
 | 文化 | [将棋の名人と竜王](https://ihideck.github.io/chronology/shogi-titles/) | 1612年〜現在 | 58 | [shogi-titles/](shogi-titles/) |
@@ -62,5 +63,6 @@
 1. ディレクトリを作り、CSV を置きます。1行目は列名です。日付は `YYYY-MM-DD` で、月日が分からなければ `YYYY-MM` か `YYYY` と書きます。紀元前は負の年（紀元前221年なら `-0221`）です。1582年10月15日より前の日付はユリウス暦として扱います。
 2. `chronology.json` に、名前・CSV のどの列が名前／開始日／終了日か（`data.columns`）・出典を書きます。既存のディレクトリが見本です。`page` を書かなければ、そのデータだけを1列に並べたページになります。
 3. 別の年表と重ねたいときは、`page.columns` に列を足します（`data` にディレクトリ名を書く）。
-4. 肖像をつけるときは、CSV に `Wikidata` 列（人物の QID）を、`chronology.json` の `data.columns` と `credits` に写真の項目を足して（見本は `germany-leaders/`）、`node photos.mjs <ディレクトリ>` を実行します。Wikidata の画像を Commons から取り、顔の位置で切り抜いて、作者とライセンスを CSV に書きます。写真のファイルがある人は取り直しません。別の画像にしたいときは、その人の写真のファイル（`photos/<ID>.jpg`）を消し、その人の最初の行の「写真のページ」に Commons のファイルのページを書いてから実行します（Mac のみ。ImageMagick が要ります）。
-5. `node build.mjs` を実行します。
+4. 人口のような数の移り変わりは、1行に1つの時点（年・月・日）とその値を書いた CSV にし、`data.series` を `true` にして、`page.columns` の `chart` で折れ線にします（見本は `population/`）。各行の値は次の行の時点まで続くものとして読み、値の空いた行で線を切ります。
+5. 肖像をつけるときは、CSV に `Wikidata` 列（人物の QID）を、`chronology.json` の `data.columns` と `credits` に写真の項目を足して（見本は `germany-leaders/`）、`node photos.mjs <ディレクトリ>` を実行します。Wikidata の画像を Commons から取り、顔の位置で切り抜いて、作者とライセンスを CSV に書きます。写真のファイルがある人は取り直しません。別の画像にしたいときは、その人の写真のファイル（`photos/<ID>.jpg`）を消し、その人の最初の行の「写真のページ」に Commons のファイルのページを書いてから実行します（Mac のみ。ImageMagick が要ります）。
+6. `node build.mjs` を実行します。

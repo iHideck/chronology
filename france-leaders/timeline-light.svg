@@ -72,7 +72,7 @@
 <rect class="spine-b" x="0" y="1571.8" width="72" height="345.7"/>
 <rect class="spine-a" x="0" y="1917.5" width="72" height="1489"/>
 <rect class="spine-b" x="0" y="3406.5" width="72" height="727.4"/>
-<rect class="spine-a" x="0" y="4133.9" width="72" height="210"/>
+<rect class="spine-a" x="0" y="4133.9" width="72" height="210.1"/>
 <line class="grid" x1="0" x2="760" y1="310" y2="310"/>
 <line class="grid" x1="0" x2="760" y1="790" y2="790"/>
 <line class="grid" x1="0" x2="760" y1="1030" y2="1030"/>
@@ -323,9 +323,9 @@
 <text class="era-date" x="36" y="3443.5" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="36" y="4156.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="4170.9" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="-4" x2="113" y1="4314.3" y2="4314.3"/>
-<text class="era-date" x="36" y="4328.3" text-anchor="middle">2026.11.6</text>
-<text class="era-date" x="36" y="4341.3" text-anchor="middle">時点</text>
+<line class="asof-line" x1="-4" x2="113" y1="4314.4" y2="4314.4"/>
+<text class="era-date" x="36" y="4328.4" text-anchor="middle">2026.11.7</text>
+<text class="era-date" x="36" y="4341.4" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:ナポレオン3世">
 <title>ナポレオン3世　1852年12月2日 〜 1870年9月4日（在任 6,485日）</title>
 <rect class="bar f-green" x="79" y="141" width="14" height="424.1" rx="3"/>
@@ -577,12 +577,12 @@
 <text class="label" x="160" y="3980.2"><tspan class="name">オランド</tspan><tspan class="yrs" dx="6">2012–2017</tspan></text>
 </g>
 <g class="term c-a" data-id="a33" data-person="a:エマニュエル・マクロン">
-<title>エマニュエル・マクロン　2017年5月14日 〜 在任中（在任 3,463日（2026年11月6日時点））</title>
-<linearGradient id="tl-g-a33" gradientUnits="userSpaceOnUse" x1="0" y1="4292.3" x2="0" y2="4314.3"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M79 4090.8Q79 4087.8 82 4087.8H90Q93 4087.8 93 4090.8V4314.3Q93 4314.3 93 4314.3H79Q79 4314.3 79 4314.3Z" fill="url(#tl-g-a33)"/>
+<title>エマニュエル・マクロン　2017年5月14日 〜 在任中（在任 3,464日（2026年11月7日時点））</title>
+<linearGradient id="tl-g-a33" gradientUnits="userSpaceOnUse" x1="0" y1="4292.4" x2="0" y2="4314.4"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 4090.8Q79 4087.8 82 4087.8H90Q93 4087.8 93 4090.8V4314.4Q93 4314.4 93 4314.4H79Q79 4314.4 79 4314.4Z" fill="url(#tl-g-a33)"/>
 <circle class="photo-ring" cx="139" cy="4095.3" r="16"/>
 <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAABAUGBwIB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAgMEBf/aAAwDAQACEAMQAAABsU75MBpk9guj0Z3R8w1eiPocv1qUXYqyLT8uJWtph4HzSQejVo6pSCRp0aA4P//EACEQAAICAgICAwEAAAAAAAAAAAIEAwUAAQYTEBESFCQx/9oACAEBAAEFAvWW5SirBRY9XswDUNyrMhrPWWYYlYdhyPzTE0BE4OvDI63C1P1xLT/kViJh0fHrB3D3PtLRBxs+2AfDDEK4H9Swq67SRtXrJJWCvIg3pq+blyeQ5S45AuxQ8e+AX1hPpixD+f/EABsRAAMBAQEBAQAAAAAAAAAAAAABEQISAxMy/9oACAEDAQE/AcfpUWVT2zyzLjp0mj3304U+mkoU/8QAHBEAAgICAwAAAAAAAAAAAAAAAAECERIxAxMh/9oACAECAQE/AZaMnRB2hq0enHGkYnWtigj/xAAqEAACAQIEBAUFAAAAAAAAAAABAgMAEQQSITEQE0FhFCJRcaEgI0JSgf/aAAgBAQAGPwKskBtLIcq0CuJPe4qwyv3FLhpr8t/g8YJv0fX+00SwOLC+Ztqt4KQKdjSXNiGGpo8CW/HWs0WHMtxbQ0GlQK/pvUjMtwDv6fQ8E7qsidbbiikFmJ3IqZzuX45p5VjHc02PmkGHyuwV+3ShHi5pOWTp5d/c9BWHTB5U5SbW016fFfewzDuhq0OWBe2pou7sx9SabxesKO2h223qMLcxnMgzVNMAMpPl9ulXPWv/xAAkEAEAAgEDAwQDAAAAAAAAAAABABEhMUFRgZGhEGFxwbHh8P/aAAgBAQABPyEilglr0vV7T2/3lW8yrVDdv1CcD0DvaM1YRU0KNhwKhmS5DMDmYC5l36RJuh1J5kCFBYjtguCRGTTjiYG4zaxK7GV1IdYRCI6MNoyUMums29jx5Zar9OHL6eTS3wbw3+BODgm6wfDQVXmfxiHwbtchvHFQUbDk+GXocj8l+p7pJpYsPJUoWO6WdBotBGl7S81oNg48CNVvLPif/9oADAMBAAIAAwAAABBT77yGmpGj/8QAGxEBAAICAwAAAAAAAAAAAAAAAQARITEQUcH/2gAIAQMBAT8QIhpF5GIC1qUUFrH6R7wKgxW7n//EABkRAQEAAwEAAAAAAAAAAAAAAAEAESFBMf/aAAgBAgEBPxBo0kNHcwL7ZgkGuw5usPtnXCYAl//EACEQAQACAQQDAQEBAAAAAAAAAAERIQAxQWFxUYGhEJHw/9oACAEBAAE/EOHF65LBsg5AvGAAqQUGO+GLaSGHcrfBtuhb9HC0nvPFv8DUI0Eo1Mdh/ciqHHkGihTJwToFhmEFbTDt2ZCgGCAIsvT9y/d+OHCDU2p033yImbYzARSurTFGLYSE0lg2NceqvcYlcnarjdiMPSYMBuQhPI4nZCOthCL/AMY6sMxqB0AJ6yMi7Dqgb6l9VlSeMKx4bEiQ/QuAwBwCromWCKLnrIxF45toF8hjtF4jImNWKGsB82IzgbEkhPdL9yat8uclB6HeJuLKzuLeEqVMSSpNho6jMa442XQqDmRB7fGSz3YdloSKH3iYOgO2g+E+8//Z" x="124" y="4080.3" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
 <text class="label" x="160" y="4100.1"><tspan class="name">マクロン</tspan><tspan class="yrs" dx="6">2017–</tspan></text>
 </g>
-<text class="foot" x="380" y="4373.9" text-anchor="middle">出典：エリゼ宮（フランス大統領府）「Les présidents de la République」、エリゼ宮「Albert Lebrun」、エリゼ宮「Vincent Auriol」、日本語版 Wikipedia「フランスの大統領」、日本語版 Wikipedia「フランス共和国臨時政府」、英語版 Wikipedia「List of presidents of France」、英語版 Wikipedia「List of French monarchs」、英語版 Wikipedia「Government of National Defense」、フランス語版 Wikipedia「Liste des chefs d'État français」、フランス語版 Wikipedia「Liste des présidents de la République française」、フランス語版 Wikipedia「Gouvernement provisoire de la République française」、フランス語版 Wikipedia「Intérim du président de la République française」、Wikidata（各人物の「役職（P39）」の開始日・終了日）　2026年11月6日時点</text>
+<text class="foot" x="380" y="4374" text-anchor="middle">出典：エリゼ宮（フランス大統領府）「Les présidents de la République」、エリゼ宮「Albert Lebrun」、エリゼ宮「Vincent Auriol」、日本語版 Wikipedia「フランスの大統領」、日本語版 Wikipedia「フランス共和国臨時政府」、英語版 Wikipedia「List of presidents of France」、英語版 Wikipedia「List of French monarchs」、英語版 Wikipedia「Government of National Defense」、フランス語版 Wikipedia「Liste des chefs d'État français」、フランス語版 Wikipedia「Liste des présidents de la République française」、フランス語版 Wikipedia「Gouvernement provisoire de la République française」、フランス語版 Wikipedia「Intérim du président de la République française」、Wikidata（各人物の「役職（P39）」の開始日・終了日）　2026年11月7日時点</text>
 </svg>

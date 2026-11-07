@@ -71,7 +71,7 @@
 <rect class="spine-a" x="0" y="1331.8" width="72" height="345.7"/>
 <rect class="spine-b" x="0" y="1677.5" width="72" height="1489"/>
 <rect class="spine-a" x="0" y="3166.5" width="72" height="727.4"/>
-<rect class="spine-b" x="0" y="3893.9" width="72" height="210"/>
+<rect class="spine-b" x="0" y="3893.9" width="72" height="210.1"/>
 <line class="grid" x1="0" x2="760" y1="70" y2="70"/>
 <line class="grid" x1="0" x2="760" y1="550" y2="550"/>
 <line class="grid" x1="0" x2="760" y1="790" y2="790"/>
@@ -308,7 +308,7 @@
 <text class="era-name" x="36" y="3916.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="3930.9" text-anchor="middle">2019.5.1</text>
 <line class="asof-line" x1="-4" x2="113" y1="4074.4" y2="4074.4"/>
-<text class="era-date" x="36" y="4088.4" text-anchor="middle">2026.11.6</text>
+<text class="era-date" x="36" y="4088.4" text-anchor="middle">2026.11.7</text>
 <text class="era-date" x="36" y="4101.4" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:高宗">
 <title>高宗　1864年1月21日 〜 1907年7月20日（在任 15,886日）</title>
@@ -427,12 +427,12 @@
 <text class="label" x="160" y="3979.9"><tspan class="name">尹錫悦</tspan><tspan class="yrs" dx="6">2022–2025</tspan></text>
 </g>
 <g class="term c-a" data-id="a16" data-person="a:李在明">
-<title>李在明　2025年6月4日 〜 在任中（在任 521日（2026年11月6日時点））</title>
+<title>李在明　2025年6月4日 〜 在任中（在任 522日（2026年11月7日時点））</title>
 <linearGradient id="tl-g-a16" gradientUnits="userSpaceOnUse" x1="0" y1="4052.4" x2="0" y2="4074.4"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
 <path class="bar-open" d="M79 4044.2Q79 4041.2 82 4041.2H90Q93 4041.2 93 4044.2V4074.4Q93 4074.4 93 4074.4H79Q79 4074.4 79 4074.4Z" fill="url(#tl-g-a16)"/>
 <circle class="photo-ring" cx="139" cy="4048.7" r="16"/>
 <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAABQIDBAYHAQD/xAAYAQADAQEAAAAAAAAAAAAAAAADBAUCAf/aAAwDAQACEAMQAAABzdSTvdT4mjDFHctQ8w0ivSs1KZJqokpXEaVWAyGKEviYnHgb0GEQQHpTsPxAf//EACIQAAICAgEFAAMAAAAAAAAAAAECAwQABRAGERITFBYiI//aAAgBAQABBQLF8vJNFZdbGsmqByrNxo4i2ytWAje4SNPEYbPHTpDVLI/sGPu3RBt8audoLrCFskNZcnkMs2d8WYpJsXrPS13zfCrfr3wnipZK9NxMv49x/8QAGxEAAwADAQEAAAAAAAAAAAAAAAECERITIQP/2gAIAQMBAT8BhZZynA/GfG9KPC62pszk3vmJn//EABsRAAIDAQEBAAAAAAAAAAAAAAACARESAyEx/9oACAECAQE/AW8g21i+wdU0pYkZiiFVfhHBN6olFY//xAAoEAACAQIFAwMFAAAAAAAAAAABAhEAAwQQEiExQUJhEyAjM0NRcYH/2gAIAQEABj8CoBBLTtWq7dgnpRu/UUc1KcZ2T0maA1JB6daI1LHGmN6uoR3bZ22H2yR/aBW2bkbxTM1vQCfzXmJOdpgTGqCP3TG6YMdaPp7t4FNcPcc1deVINDHaltqwDb8GaxGPW4l1kVth2+1cRq+SzKL4rFYgLouvKsQIDTn/AP/EACAQAAICAgIDAQEAAAAAAAAAAAERACEQMUFRYYGRcfH/2gAIAQEAAT8hj3PAD5i6gripuiA4hJUdrrJNjcBI63HoNEiYWmR2dwwAAFYKsqNZceXPyCpAYSAIGfPAFs/kqKb6P5lrRBijpCCUREVApI5jZNizMFAzNK7fRc+p5SOOZdSbtI7fJiwcAkUYU4GQiFqxZAL2IyU63qHGleu8Pqf/2gAMAwEAAgADAAAAEOTbnwEKcz//xAAaEQEBAAMBAQAAAAAAAAAAAAABABEhMWHx/9oACAEDAQE/EMOS+hHIR5HjqdIgJXUvjnXPfkpf/8QAGxEBAAMBAQEBAAAAAAAAAAAAAQARITFRYZH/2gAIAQIBAT8QdqQDqKhiVHTZZ0lKpvi31g6td+fnsMtxn//EAB8QAQACAgIDAQEAAAAAAAAAAAEAESExQVEQYaGRgf/aAAgBAQABPxDmEFVy3a1iFr0NqPVygIjkE7Uw46NOzkjrw5EDBpppjLRxFURsBuXurv5DU0RajFniHc+s22Gn0ng3A6qz3i+nxzc0x/wBot7c56Y4HVk91NWZ7lwGRTlVHweavQkqMrWrL+TSPHB3bQ0sagtz+jPOCb0RQ4NB+BEhstE/bKtIfSHWoG2EAoKZcCd9xlINZamKAehqq1eY4M0C5egSZJVhhxMSOhq3DCIze6Oph3y0xADQZAoslXL9QY2qn//Z" x="124" y="4033.7" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
 <text class="label" x="160" y="4053.5"><tspan class="name">李在明</tspan><tspan class="yrs" dx="6">2025–</tspan></text>
 </g>
-<text class="foot" x="380" y="4133.9" text-anchor="middle">出典：大統領記録館（대통령기록관）「대통령이야기」各大統領の略歴・就任式、日本語版 Wikipedia「大統領 (大韓民国)」、英語版 Wikipedia「List of presidents of South Korea」、韓国語版 Wikipedia「대한민국 대통령 목록」、日本語版 Wikipedia「高宗 (朝鮮)」、韓国語版 Wikipedia「고종 (대한제국)」、韓国民族文化大百科事典「고종」、韓国民族文化大百科事典「대한제국」、日本語版 Wikipedia「国家再建最高会議」、国家記録院（국가기록원）「연표와 기록」1962年、英語版 Wikipedia「United States Army Military Government in Korea」　2026年11月6日時点</text>
+<text class="foot" x="380" y="4134" text-anchor="middle">出典：大統領記録館（대통령기록관）「대통령이야기」各大統領の略歴・就任式、日本語版 Wikipedia「大統領 (大韓民国)」、英語版 Wikipedia「List of presidents of South Korea」、韓国語版 Wikipedia「대한민국 대통령 목록」、日本語版 Wikipedia「高宗 (朝鮮)」、韓国語版 Wikipedia「고종 (대한제국)」、韓国民族文化大百科事典「고종」、韓国民族文化大百科事典「대한제국」、日本語版 Wikipedia「国家再建最高会議」、国家記録院（국가기록원）「연표와 기록」1962年、英語版 Wikipedia「United States Army Military Government in Korea」　2026年11月7日時点</text>
 </svg>

@@ -87,7 +87,7 @@
 <rect class="spine-a" x="0" y="4691.8" width="72" height="345.7"/>
 <rect class="spine-b" x="0" y="5037.5" width="72" height="1489"/>
 <rect class="spine-a" x="0" y="6526.5" width="72" height="727.4"/>
-<rect class="spine-b" x="0" y="7253.9" width="72" height="210"/>
+<rect class="spine-b" x="0" y="7253.9" width="72" height="210.1"/>
 <line class="grid" x1="0" x2="760" y1="310" y2="310"/>
 <line class="grid" x1="0" x2="760" y1="550" y2="550"/>
 <line class="grid" x1="0" x2="760" y1="1030" y2="1030"/>
@@ -541,7 +541,7 @@
 <text class="era-name" x="36" y="7276.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="7290.9" text-anchor="middle">2019.5.1</text>
 <line class="asof-line" x1="-4" x2="97" y1="7434.4" y2="7434.4"/>
-<text class="era-date" x="36" y="7448.4" text-anchor="middle">2026.11.6</text>
+<text class="era-date" x="36" y="7448.4" text-anchor="middle">2026.11.7</text>
 <text class="era-date" x="36" y="7461.4" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:ロバート・ウォルポール">
 <title>イギリスの首相 ロバート・ウォルポール　1721年4月14日 〜 1742年2月27日（在任 7,624日）</title>
@@ -1141,12 +1141,12 @@
 <text class="label" x="144" y="7395.1"><tspan class="name">スターマー</tspan><tspan class="yrs" dx="6">2024–2026</tspan></text>
 </g>
 <g class="term c-a" data-id="a80" data-person="a:アンディ・バーナム">
-<title>イギリスの首相 アンディ・バーナム　2026年7月20日 〜 在任中（在任 109日（2026年11月6日時点））</title>
+<title>イギリスの首相 アンディ・バーナム　2026年7月20日 〜 在任中（在任 110日（2026年11月7日時点））</title>
 <linearGradient id="tl-g-a80" gradientUnits="userSpaceOnUse" x1="0" y1="7412.4" x2="0" y2="7434.4"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
 <path class="bar-open" d="M79 7431.2Q79 7428.2 82 7428.2H90Q93 7428.2 93 7431.2V7434.4Q93 7434.4 93 7434.4H79Q79 7434.4 79 7434.4Z" fill="url(#tl-g-a80)"/>
 <circle class="photo-ring" cx="123" cy="7430.8" r="16"/>
 <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABQYDBAcBAP/EABcBAAMBAAAAAAAAAAAAAAAAAAIDBAX/2gAMAwEAAhADEAAAAclPr7wljSLY6c2jmJTgluaP0kXIJ6DUlHT6o5SYVg8dgmTPVjptibrHpCzJA+b/xAAfEAACAgMBAAMBAAAAAAAAAAACAwEEAAUTBhARITH/2gAIAQEAAQUC+81SHvZHnEkux57nDRYs5BYqGP3zRmhy9oUTN+zl5bmNkpnP5nlmDNJxniyPjaHogqfNnGrCNdr7FWVuQYPsLiHv42H2J60tmpBN2osygrrpqlOWs9O2CtQeT8VSZU8/pbbDqWWzYs5//8QAHREAAgICAwEAAAAAAAAAAAAAAAECEQQSAyIxQf/aAAgBAwEBPwHhSc1Zpxk1qzHlpKxtemTNynRFtKhZXWvp6f/EAB0RAAIBBQEBAAAAAAAAAAAAAAACAQMREiExBBT/2gAIAQIBAT8BqzZdGTnSo0Oh2BcuC+WLbPlXMZYY/8QAKhAAAQMCAgoCAwAAAAAAAAAAAQACEQMSBCEQExQiMTJBQlFhgcEkcaH/2gAIAQEABj8CVmHyccrvC3q9W/yiaOJdf7CseIcDBCuJz0OqWEs+0/WYdwaBkWglG7DD1EqrWNJzA3yVmdBZlcyrPwQpDWP3YjgrXxDenHL9p7JF1RQ4yodTl59La+g6ekH3AEhFtPu4putbzt3CjCOupXOTrwbejQqdYsyM/Ga3RDBxKZhqfJSH9UEaaTcPzWy9x4Nn7VXaGfjUu8dfKqVj3unR/8QAIBABAAICAgIDAQAAAAAAAAAAAQARITFBUWFxscHhgf/aAAgBAQABPyHaopAXm0drCjjeZv1MAsYopiH+uhABMdXLKS4jWWYKHcuCA3rRfUZymQ7V71HHGXVeZsFJWd7lrLdHwJZctHRnfuCbgKBSgtPYa+4hkEbGDxAHEW/PpHCAN1sjQl8BlhvoFOxNnxKglzMXxgol3DTyow5i+o6lq5Y8fseAysdvz5lhWXvmPK8vM4gfivdY73lVTlYaxNMhPuGfSlevEN1P/9oADAMBAAIAAwAAABC4nrtt8uMj/8QAHBEBAQACAgMAAAAAAAAAAAAAAQAhMRFBUWGx/9oACAEDAQE/EDLSdqfbnRLh9zuCTxMYsoYkMfoz2b//xAAbEQEAAgMBAQAAAAAAAAAAAAABABEhMUFhcf/aAAgBAgEBPxBEdpi3HEpig0wv1lbUoSDAtR+TpMMmOT//xAAgEAEBAAICAwEBAQEAAAAAAAABEQAhMUFRYXGBscGR/9oACAEBAAE/EIjpgMpIeHB7kxufkaD2dP8AcQpIn4pmFbVC0hjPXeKDQQbZBxABA2DdVo0i/msiYfK3HTU3ZMoXgexDhDZ4uIxutjlwO3lhwc50QoDwYJjQZB+xIqIr2NJetZDtNJMgTVUyckL5zUfz7BIgF8WWf9xyhUdgUWPQT9wjFfma/YTSvkzbHFKPZ+j/ADBxwIVDXJiQlBDAdFPLhAlg4TLdJdPZjyAp+YO0WlXXBespi4hH6XjJRLq5E7eJN4gt9cJ6nn+O/fZ5Ev6+YFwhgXJ/rL8xq9lyRPM5wFpzStEAjwBQtejJ9jFpuQ5sPD43nAiz6QK6Hwh+Yohxyuf/2Q==" x="108" y="7415.8" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
-<text class="label" x="144" y="7435.6"><tspan class="name">バーナム</tspan><tspan class="yrs" dx="6">2026–</tspan></text>
+<text class="label" x="144" y="7435.7"><tspan class="name">バーナム</tspan><tspan class="yrs" dx="6">2026–</tspan></text>
 </g>
-<text class="foot" x="380" y="7493.9" text-anchor="middle">出典：gov.uk「Past Prime Ministers」、gov.uk「Prime Minister」（歴代の任命の記録）、gov.uk「The Rt Hon Andy Burnham MP」、UK Parliament「Andy Burnham: Parliamentary career」、英国下院図書館「Prime Ministers」（Research Briefing SN04256、2026年7月21日）、J. C. Sainty 編『Office-Holders in Modern Britain: Volume 1, Treasury Officials 1660-1870』「Treasurers and Commissioners of the Treasury」（British History Online）、Archontology.org「United Kingdom: Principal Ministers: 1730-1905」（各首相のページは Englefield ほか『Facts About the British Prime Ministers』による）、Archontology.org「United Kingdom: Prime Ministers: 1905-2026」（各首相のページに The Times の宮廷日報を引用）、AP 通信「Starmer says he'll resign as UK prime minister, roiling British politics yet again」（2026年6月22日。Anchorage Daily News の転載）、英語版 Wikipedia「List of prime ministers of the United Kingdom」、日本語版 Wikipedia「イギリスの首相の一覧」、Wikidata「Prime Minister of the United Kingdom」（Q14211。各首相の項目の役職の記録と照合した）　2026年11月6日時点</text>
+<text class="foot" x="380" y="7494" text-anchor="middle">出典：gov.uk「Past Prime Ministers」、gov.uk「Prime Minister」（歴代の任命の記録）、gov.uk「The Rt Hon Andy Burnham MP」、UK Parliament「Andy Burnham: Parliamentary career」、英国下院図書館「Prime Ministers」（Research Briefing SN04256、2026年7月21日）、J. C. Sainty 編『Office-Holders in Modern Britain: Volume 1, Treasury Officials 1660-1870』「Treasurers and Commissioners of the Treasury」（British History Online）、Archontology.org「United Kingdom: Principal Ministers: 1730-1905」（各首相のページは Englefield ほか『Facts About the British Prime Ministers』による）、Archontology.org「United Kingdom: Prime Ministers: 1905-2026」（各首相のページに The Times の宮廷日報を引用）、AP 通信「Starmer says he'll resign as UK prime minister, roiling British politics yet again」（2026年6月22日。Anchorage Daily News の転載）、英語版 Wikipedia「List of prime ministers of the United Kingdom」、日本語版 Wikipedia「イギリスの首相の一覧」、Wikidata「Prime Minister of the United Kingdom」（Q14211。各首相の項目の役職の記録と照合した）　2026年11月7日時点</text>
 </svg>

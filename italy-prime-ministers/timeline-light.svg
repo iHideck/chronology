@@ -71,7 +71,7 @@
 <rect class="spine-a" x="0" y="1331.8" width="72" height="345.7"/>
 <rect class="spine-b" x="0" y="1677.5" width="72" height="1489"/>
 <rect class="spine-a" x="0" y="3166.5" width="72" height="727.4"/>
-<rect class="spine-b" x="0" y="3893.9" width="72" height="210"/>
+<rect class="spine-b" x="0" y="3893.9" width="72" height="210.1"/>
 <line class="grid" x1="0" x2="760" y1="70" y2="70"/>
 <line class="grid" x1="0" x2="760" y1="550" y2="550"/>
 <line class="grid" x1="0" x2="760" y1="790" y2="790"/>
@@ -308,7 +308,7 @@
 <text class="era-name" x="36" y="3916.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="3930.9" text-anchor="middle">2019.5.1</text>
 <line class="asof-line" x1="-4" x2="97" y1="4074.4" y2="4074.4"/>
-<text class="era-date" x="36" y="4088.4" text-anchor="middle">2026.11.6</text>
+<text class="era-date" x="36" y="4088.4" text-anchor="middle">2026.11.7</text>
 <text class="era-date" x="36" y="4101.4" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:カミッロ・カヴール">
 <title>イタリアの首相 カミッロ・カヴール　1861年3月23日 〜 1861年6月6日（在任 75日）</title>
@@ -989,12 +989,12 @@
 <text class="label" x="144" y="3950.2"><tspan class="name">ドラギ</tspan><tspan class="yrs" dx="6">2021–2022</tspan></text>
 </g>
 <g class="term c-a" data-id="a87" data-person="a:ジョルジャ・メローニ">
-<title>イタリアの首相 ジョルジャ・メローニ　2022年10月22日 〜 在任中（在任 1,476日（2026年11月6日時点））</title>
+<title>イタリアの首相 ジョルジャ・メローニ　2022年10月22日 〜 在任中（在任 1,477日（2026年11月7日時点））</title>
 <linearGradient id="tl-g-a87" gradientUnits="userSpaceOnUse" x1="0" y1="4052.4" x2="0" y2="4074.4"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
 <path class="bar-open" d="M79 3981.4Q79 3978.4 82 3978.4H90Q93 3978.4 93 3981.4V4074.4Q93 4074.4 93 4074.4H79Q79 4074.4 79 4074.4Z" fill="url(#tl-g-a87)"/>
 <circle class="photo-ring" cx="123" cy="3985.9" r="16"/>
 <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwABAAMBAAMAAAAAAAAAAAAABgQFBwMAAQL/xAAXAQADAQAAAAAAAAAAAAAAAAABAgME/9oADAMBAAIQAxAAAAHNUh11lrd8FkdNOZnHgAyQIKmei6Vyh+jpLh1VQZLYN3EVlv1xsqzzny1lo3//xAAgEAACAgMBAAIDAAAAAAAAAAACBAEDAAUSERMUISIj/9oACAEBAAEFArhgM1HoDOqJ+NnpAx2ryDnrGxKWEa+LkG4sx9oozYx+WZ5JcQ+4uNtN/wCshV5FDvEo7hfiymuZzae8riDCdsAvUiH26tjSVFk0yC8VeYgMgo5Sd9XxQk/tlyayQ7qUpMjTmQKTnloSK2iv+v8A/8QAHBEAAgICAwAAAAAAAAAAAAAAAAECIQQQAxES/9oACAEDAQE/Acd+lqVGLXGiiS7QqHN6/8QAGhEAAgMBAQAAAAAAAAAAAAAAAAECESEQMv/aAAgBAgEBPwGfkrCGj18jKmUKCK0//8QAKRAAAgIBAwEHBQEAAAAAAAAAAQIAERIDITFREyIyQWGRsQQQFHGB0f/aAAgBAQAGPwKxyYWbpFbWGCDhYmppDFl2maCiBuPsEG98RECg4VftKrbrRE7qkg7Ckv3hPl8GY9IHfgT8nU2Vzf8AIsZTuRdT6nPYh4rqckcbTtMSd62iAv4tPZL46zS7UZAqDcYaCV6xtB25Y971uOj+XzDR3+Jp6fIBiBBYxmIQrfNmMi+DEX/sOBGdcmMsFkNG0b43H6nPEGooHrATzU//xAAiEAEAAgIBBAIDAAAAAAAAAAABABEhMVFBYXGBkaGxwdH/2gAIAQEAAT8h26JzNmr2rNdPmbHSDb5hKcBhpDU+/icrOKYDKlgdWVEJ86f3UUvkMfsNyyFrJH2vHqZ3hZv5D3EtbWIDuRy9iGlGa8JAlBGERZs8cDeLxc7YA+KiEwyjpyMGCAGDKyroAKxXNq6x9r09YSoJasW/uFQdns5PIkDcro2RlJ0GtZb2A73cqe4qmpZkbAKPuJOtgTdn5ToAChsjc2cypsM98dppe+W/j+YVWqFxAB1bEpUsIeEn/9oADAMBAAIAAwAAABBWbuSfIm2L/8QAGREAAwEBAQAAAAAAAAAAAAAAAAERIWEx/9oACAEDAQE/EID4jL4PWiGsdLAySIRY3mn/xAAaEQEBAQADAQAAAAAAAAAAAAABEQAQMUFh/9oACAECAQE/EGwe4RBh0zYYk+8W25JdLRv/xAAjEAEBAAICAgMAAgMAAAAAAAABEQAhMUFRYXGBkaGxwfDx/9oACAEBAAE/EFtiKi03esT2MrsDYD3/AJZorRie+OP7+MJVfxooE8dYI1My67U8s3735yAW3SZIfIVUZDOfYi2TX6Q+3zhAm1zfwB09j9YfVSIDW4O3Rnl3gpNqg6J/AVPvE4S9eTNM5BHA9nVkXxfOG5pcSsvHT/zE6iRUGXocMuRGgaQK7LhHdxdulSTov8OL8iW1PgNwoHQojgPzHeSwoBaFHUIcTngzUNQlRjmbxWSAI+zay7eJXKmev4GXw/tEICfJcAZyIgRKgTrEYI0o0sV81XBkz81Qkjq684tdIfBAj/DDRlO2ofo/dxYLThGmn5Z+jg+Uqah+vefWezo30nrWVa4KxV3P9IMYyIT0hioqunyfLz8Y8LdSr4HwiUnvzn//2Q==" x="108" y="3970.9" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
 <text class="label" x="144" y="3990.7"><tspan class="name">メローニ</tspan><tspan class="yrs" dx="6">2022–</tspan></text>
 </g>
-<text class="foot" x="380" y="4133.9" text-anchor="middle">出典：イタリア政府（governo.it）「I Governi nelle Legislature」（1943年からの内閣の一覧と、各内閣のページ）、イタリア政府（governo.it）「Governo Meloni」、イタリア下院「I Presidenti del Consiglio dall'Unità d'Italia al 1943」、イタリア下院「I Presidenti del Consiglio della Transizione Costituzionale」、イタリア下院「I Presidenti del Consiglio della Repubblica」、イタリア下院の公開データ（dati.camera.it）の内閣の一覧（1848年から）、Normattiva「Legge 24 dicembre 1925, n. 2263」（政府首長・首相・国務大臣の職務と権限）、Normattiva「Regio decreto-legge 16 maggio 1944, n. 136」（職名を閣僚評議会議長に戻した）、Wikidata「Prime Minister of Italy」（Q796897）と「Prime Minister of the Kingdom of Italy」（Q25160174）の在任の記録、イタリア語版 Wikipedia「Capi di governo del Regno d'Italia」、イタリア語版 Wikipedia「Presidenti del Consiglio dei ministri della Repubblica Italiana」、イタリア語版 Wikipedia「Capo del Governo, Primo Ministro Segretario di Stato del Regno d'Italia」、イタリア語版 Wikipedia「Capo provvisorio dello Stato」、英語版 Wikipedia「List of prime ministers of Italy」、日本語版 Wikipedia「イタリアの首相」　2026年11月6日時点</text>
+<text class="foot" x="380" y="4134" text-anchor="middle">出典：イタリア政府（governo.it）「I Governi nelle Legislature」（1943年からの内閣の一覧と、各内閣のページ）、イタリア政府（governo.it）「Governo Meloni」、イタリア下院「I Presidenti del Consiglio dall'Unità d'Italia al 1943」、イタリア下院「I Presidenti del Consiglio della Transizione Costituzionale」、イタリア下院「I Presidenti del Consiglio della Repubblica」、イタリア下院の公開データ（dati.camera.it）の内閣の一覧（1848年から）、Normattiva「Legge 24 dicembre 1925, n. 2263」（政府首長・首相・国務大臣の職務と権限）、Normattiva「Regio decreto-legge 16 maggio 1944, n. 136」（職名を閣僚評議会議長に戻した）、Wikidata「Prime Minister of Italy」（Q796897）と「Prime Minister of the Kingdom of Italy」（Q25160174）の在任の記録、イタリア語版 Wikipedia「Capi di governo del Regno d'Italia」、イタリア語版 Wikipedia「Presidenti del Consiglio dei ministri della Repubblica Italiana」、イタリア語版 Wikipedia「Capo del Governo, Primo Ministro Segretario di Stato del Regno d'Italia」、イタリア語版 Wikipedia「Capo provvisorio dello Stato」、英語版 Wikipedia「List of prime ministers of Italy」、日本語版 Wikipedia「イタリアの首相」　2026年11月7日時点</text>
 </svg>

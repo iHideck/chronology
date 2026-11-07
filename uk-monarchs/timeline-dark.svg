@@ -82,7 +82,7 @@
 <rect class="spine-b" x="0" y="3731.8" width="72" height="345.7"/>
 <rect class="spine-a" x="0" y="4077.5" width="72" height="1489"/>
 <rect class="spine-b" x="0" y="5566.5" width="72" height="727.4"/>
-<rect class="spine-a" x="0" y="6293.9" width="72" height="210"/>
+<rect class="spine-a" x="0" y="6293.9" width="72" height="210.1"/>
 <line class="grid" x1="0" x2="760" y1="310" y2="310"/>
 <line class="grid" x1="0" x2="760" y1="550" y2="550"/>
 <line class="grid" x1="0" x2="760" y1="1030" y2="1030"/>
@@ -471,9 +471,9 @@
 <text class="era-date" x="36" y="5603.5" text-anchor="middle">1989.1.8</text>
 <text class="era-name" x="36" y="6316.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="6330.9" text-anchor="middle">2019.5.1</text>
-<line class="asof-line" x1="-4" x2="97" y1="6474.3" y2="6474.3"/>
-<text class="era-date" x="36" y="6488.3" text-anchor="middle">2026.11.6</text>
-<text class="era-date" x="36" y="6501.3" text-anchor="middle">時点</text>
+<line class="asof-line" x1="-4" x2="97" y1="6474.4" y2="6474.4"/>
+<text class="era-date" x="36" y="6488.4" text-anchor="middle">2026.11.7</text>
+<text class="era-date" x="36" y="6501.4" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:ジョージ3世">
 <title>イギリスの君主 ジョージ3世　1760年10月25日 〜 1820年1月29日（在位 21,644日）</title>
 <rect class="bar f-green" x="79" y="90.6" width="14" height="1420.2" rx="3"/>
@@ -540,12 +540,12 @@
 <text class="label" x="144" y="4693.7"><tspan class="name">エリザベス2世</tspan><tspan class="yrs" dx="6">1952–2022</tspan></text>
 </g>
 <g class="term c-a" data-id="a9" data-person="a:チャールズ3世">
-<title>イギリスの君主 チャールズ3世　2022年9月8日 〜 在位中（在位 1,520日（2026年11月6日時点））</title>
-<linearGradient id="tl-g-a9" gradientUnits="userSpaceOnUse" x1="0" y1="6452.3" x2="0" y2="6474.3"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
-<path class="bar-open" d="M79 6378.5Q79 6375.5 82 6375.5H90Q93 6375.5 93 6378.5V6474.3Q93 6474.3 93 6474.3H79Q79 6474.3 79 6474.3Z" fill="url(#tl-g-a9)"/>
+<title>イギリスの君主 チャールズ3世　2022年9月8日 〜 在位中（在位 1,521日（2026年11月7日時点））</title>
+<linearGradient id="tl-g-a9" gradientUnits="userSpaceOnUse" x1="0" y1="6452.4" x2="0" y2="6474.4"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 6378.5Q79 6375.5 82 6375.5H90Q93 6375.5 93 6378.5V6474.4Q93 6474.4 93 6474.4H79Q79 6474.4 79 6474.4Z" fill="url(#tl-g-a9)"/>
 <circle class="photo-ring" cx="123" cy="6383" r="16"/>
 <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAwACAwAAAAAAAAAAAAAABAUGAgMAAQf/xAAZAQEAAwEBAAAAAAAAAAAAAAAEAgMFAQb/2gAMAwEAAhADEAAAAYX1ERiRFDhLd9QcheBwPtGfSqqDOJMadFlkeNEQ64kX0GeUvrFWetXVSmm8/wD/xAAhEAACAgIBBQEBAAAAAAAAAAACAwEEAAUTERIUISMGFf/aAAgBAQABBQI56s1yBF6WD0c0Jy2uJW6v7/m0JIy6qK6Yy272OS35PcInp7PmqvF9gv4VlTcRFh0DSYcUEriq2K/f83pESVnjzCpBwRbssPFHwWNzUWI6tIuTrtk5YwQMFhepjCqjd0/56lHNxrXMHxn/AP/EAB4RAAIBAwUAAAAAAAAAAAAAAAABAgMRIRASEyJh/9oACAEDAQE/AX2eCyLLJQltkejrQbEzntjT/8QAHREBAAICAgMAAAAAAAAAAAAAAQADAhEQFCExUf/aAAgBAgEBPwE9zbqZqPiZ1rw1WRxNanWUX5GkZ//EACYQAAIBAwMDBAMAAAAAAAAAAAECAAMREiEiMQQTQTJRUnEQQmH/2gAIAQEABj8CBj9S37CwmolonmZLxLmmZgmhBsIEp0KmV7XMejXpsuBtkBpDlMVhf0gG2sWpTqLbg4mGpUo7F0LD1Q1u0dTscxjkFRfPuZmrCBGwQn1LH6XoUFqW+/yMzGAq8NraLuyYmypneClmbCYrWNvqbjgh+PESovAOv1Gr9xaVub8NHqhsnxIC+0Wl1O9baN5mSEMJ/PP4FYbmUYuCfadl3IblSIwrZWXTbL06lx4I8z//xAAhEAACAgICAgMBAAAAAAAAAAABEQAhQVExgWFxsdHw8f/aAAgBAQABPyEhTmolklboAXAUZUc2DiHaN+o2+dDBafu4gsmq1CfCuICSVCl0LdNK9UEB2ag0gnMCg5FWdshQVxBgCWgU/wCYvEFRzoj4hxFDcV4I8GMuLpSicqxETksDoy8oUEjgMTh2GcxmHGogprFfqgLsYn3CHZUYCLy1NHcHJDnZI2YIUqDB+56lxDATt0jXLzn/AAnCjQTEnLFWPFRUnbAyFTWY8CZphP/aAAwDAQACAAMAAAAQy0OGpjlZD//EABkRAQEBAQEBAAAAAAAAAAAAAAERADEhUf/aAAgBAwEBPxBC1a4Bush+4aQi4gZTRzDceTe5Xu//xAAbEQEAAwADAQAAAAAAAAAAAAABABEhEDFBYf/aAAgBAgEBPxDYaSjgFn0Sp7witS7iRCpkAE+pjjTP/8QAIxABAAICAgICAgMAAAAAAAAAAREhAEExUWFxgZGhscHw8f/aAAgBAQABPxBoi6fvIiFt8m9r+DKkgGsAAERGSao1M2db+MCScXzYeQCaMFKFqUJ19kPziASNOgHL3YVhA+qIlyoUIiOEwCZtzBTzeOK2Y6Iyb1l1EHnI4MzEMbL3zxkFxGJPG4Re7I3kfs1OY3Ysuz0mriYvw7RZ5i+KJ7yYnqJR+cm8RoE83vFEzTyRB+yS9saMCcrU/wCkhvg5HL3yGHVM4InGHtAihmVPariSK4mHFAaLeDoK/useASgP8S4qxSRsQIJnqBnL23qI0yb1UhPM4RLwGRihdfd+XB6ztceE5H3gAJSEcjgfU/vDKb/v84Z8zQyyJ8Flccl42KDiSGstZLkxPo2AnpSaXQz1ik5snpJ4enP/2Q==" x="108" y="6368" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
 <text class="label" x="144" y="6387.8"><tspan class="name">チャールズ3世</tspan><tspan class="yrs" dx="6">2022–</tspan></text>
 </g>
-<text class="foot" x="380" y="6533.9" text-anchor="middle">出典：The Royal Family「Kings and Queens of the United Kingdom」、List of British monarchs（Wikipedia）　2026年11月6日時点</text>
+<text class="foot" x="380" y="6534" text-anchor="middle">出典：The Royal Family「Kings and Queens of the United Kingdom」、List of British monarchs（Wikipedia）　2026年11月7日時点</text>
 </svg>

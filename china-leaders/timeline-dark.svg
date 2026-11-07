@@ -71,7 +71,7 @@
 <rect class="spine-a" x="0" y="1331.8" width="72" height="345.7"/>
 <rect class="spine-b" x="0" y="1677.5" width="72" height="1489"/>
 <rect class="spine-a" x="0" y="3166.5" width="72" height="727.4"/>
-<rect class="spine-b" x="0" y="3893.9" width="72" height="210"/>
+<rect class="spine-b" x="0" y="3893.9" width="72" height="210.1"/>
 <line class="grid" x1="0" x2="760" y1="70" y2="70"/>
 <line class="grid" x1="0" x2="760" y1="550" y2="550"/>
 <line class="grid" x1="0" x2="760" y1="790" y2="790"/>
@@ -308,7 +308,7 @@
 <text class="era-name" x="36" y="3916.9" text-anchor="middle">令和</text>
 <text class="era-date" x="36" y="3930.9" text-anchor="middle">2019.5.1</text>
 <line class="asof-line" x1="-4" x2="113" y1="4074.4" y2="4074.4"/>
-<text class="era-date" x="36" y="4088.4" text-anchor="middle">2026.11.6</text>
+<text class="era-date" x="36" y="4088.4" text-anchor="middle">2026.11.7</text>
 <text class="era-date" x="36" y="4101.4" text-anchor="middle">時点</text>
 <g class="term c-a" data-id="a0" data-person="a:同治帝">
 <title>最高指導者 同治帝　1861年11月11日 〜 1875年1月12日（在任 4,810日）</title>
@@ -529,12 +529,12 @@
 <text class="label" x="160" y="3512.3"><tspan class="name">胡錦濤</tspan><tspan class="yrs" dx="6">2002–2012</tspan></text>
 </g>
 <g class="term c-a" data-id="a28" data-person="a:習近平">
-<title>最高指導者 習近平　2012年11月15日 〜 在任中（在任 5,104日（2026年11月6日時点））</title>
+<title>最高指導者 習近平　2012年11月15日 〜 在任中（在任 5,105日（2026年11月7日時点））</title>
 <linearGradient id="tl-g-a28" gradientUnits="userSpaceOnUse" x1="0" y1="4052.4" x2="0" y2="4074.4"><stop offset="0" class="s-amber" stop-opacity="1"/><stop offset="1" class="s-amber" stop-opacity="0"/></linearGradient>
 <path class="bar-open" d="M79 3743Q79 3740 82 3740H90Q93 3740 93 3743V4074.4Q93 4074.4 93 4074.4H79Q79 4074.4 79 4074.4Z" fill="url(#tl-g-a28)"/>
 <circle class="photo-ring" cx="139" cy="3747.5" r="16"/>
 <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAwQFBgIH/8QAGQEAAgMBAAAAAAAAAAAAAAAAAQUCAwQG/9oADAMBAAIQAxAAAAF1F0KLqJ6OrWligNTWq2V8w17C0krMGPofQ4ONFNxutZ8y4UeioHkNXOt6o//EACAQAAICAgICAwAAAAAAAAAAAAIDAQQABRETBhIhJDP/2gAIAQEAAQUCHNg/go07mTb1bhGuwgVQn7K8FXvsWvZDW2S7LXJWK8+tpWScAa7IgybK2n8G2Z4JWXOYHrg0lHVlf8zxllNcadmdjsHoJZq1ZlgWzF4WRZhTM54cEFsr1i43YbqxK9KI4Of/xAAeEQABBQACAwAAAAAAAAAAAAABAAIDBBETIQUUMv/aAAgBAwEBPwGxvFgQiaqjDwvap261ABVW4xS+QkkODoL2iR0q9+aD5PS//8QAHhEAAwABBAMAAAAAAAAAAAAAAAECAwQRIjETFCH/2gAIAQIBAT8BwcZR5LM/KRI2RR68xO7KwOWvvZeni+z/xAApEAABAwMCBQMFAAAAAAAAAAABAAIDERIhECITMUFRYQQycSNCUoGh/9oACAEBAAY/Ah8IQty4hXvmp+lVrgnQTH4VO404pHsGE2NhluPOrMJ0bnRi38sVTKYBTD50yuIISWeMkp10bg3yFcByVdLx05q+Nzq9dyIc8uJ7ou7nT6j89uqZ6ZosYQ4/xWnaQuJKbWczXmpHM9r3VtWdpWTlSSH7IyULQONdsjp08qaR+2QtsoO51//EACMQAQACAgEDBAMAAAAAAAAAAAEAESExQVFhgXGRobEQ0eH/2gAIAQEAAT8h3khcsK+oQQ+0GL8+ZZKcZ9ZX3iZ+0K2aR1ZaCFCvwYu5xKyeiWXIW+J4yzWHHDGa5i8kxeQ6t8ekf1CujN/MVIA0rUqBsbmkQsmnomAPiKHtKvFwtSiSv0fjcCOByvEGrlByoqvzFTKqc1LB1NmwlOdywxV4+IVj9EUVFbVn9ScCGSQKQhw7sbgTmXFhix23Pahon//aAAwDAQACAAMAAAAQqe4FpqXDS//EACARAAICAQMFAAAAAAAAAAAAAAABESFBUYHRMXGR4fH/2gAIAQMBAT8QRFzRyNK1RpBjx8KRYJ0ie7ZzJN2Nykhrr6KaTQ7XK2Z//8QAGhEBAAMBAQEAAAAAAAAAAAAAAQARIVFBYf/aAAgBAgEBPxAFrk2u4RH1IVBGivZxBLRlgB+IFjek/8QAIRABAAMAAQQDAQEAAAAAAAAAAQARITFBUWGBcZGxwaH/2gAIAQEAAT8Q0HYQNqixVVqle4QXmmYduZ2UstFXzfriZSUAX4I+q9zxQ3s2Ow9gf5BHHubosGv5FVRLTtrWAzyWUjt61luFixtOQe5uNFF8Of2HPwQJ0oGLTefWxRBVIB1RWA4OTKQqGgXYl4TdCnJaIoBoHBkRtQh8jBRgT9E7rr9/sSEZ1SfbIggbVk8oUCiADdGKez4i1mVCv6IH60RbjxsdssDDR2lepjsJ+wjTQMetDwV1a9xfwHtXLHZwZDIr9Fte5sm20V73LOKv+pbn6Wb60iMrsY5J63VVCQ+sdHu6gUPiE1Y9koaKn//Z" x="124" y="3732.5" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
 <text class="label" x="160" y="3752.3"><tspan class="name">習近平</tspan><tspan class="yrs" dx="6">2012–</tspan></text>
 </g>
-<text class="foot" x="380" y="4133.9" text-anchor="middle">出典：英語版 Wikipedia「List of emperors of the Qing dynasty」、日本語版 Wikipedia「西太后」、日本語版 Wikipedia「中華民国の元首」、英語版 Wikipedia「List of presidents of the Republic of China」、日本語版 Wikipedia「蔣介石」、日本語版 Wikipedia「中華人民共和国の最高指導者一覧」、英語版 Wikipedia「Paramount leader」　2026年11月6日時点</text>
+<text class="foot" x="380" y="4134" text-anchor="middle">出典：英語版 Wikipedia「List of emperors of the Qing dynasty」、日本語版 Wikipedia「西太后」、日本語版 Wikipedia「中華民国の元首」、英語版 Wikipedia「List of presidents of the Republic of China」、日本語版 Wikipedia「蔣介石」、日本語版 Wikipedia「中華人民共和国の最高指導者一覧」、英語版 Wikipedia「Paramount leader」　2026年11月7日時点</text>
 </svg>
