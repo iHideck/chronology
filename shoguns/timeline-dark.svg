@@ -1,0 +1,1161 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 900 7569" width="900" height="7569" role="img" aria-labelledby="tl-title">
+<title id="tl-title">征夷大将軍と執権</title>
+<style>
+.tl{--paper:#14171f;--ink:#e6e8ee;--ink2:#b2b8c4;--muted:#8d94a3;--rule:#232833;--rule2:#3d4452;--spine-a:#1b1f29;--spine-b:#222733;--red:#e5604a;--blue:#678bd2;--amber:#c98500;--violet:#9085e9;--green:#199e70;--teal:#1f9fa1;--gray:#6b7280;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="900" height="7569" rx="14"/>
+<rect class="f-gray" x="383" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="368" y="44" text-anchor="end">征夷大将軍</text>
+<rect class="f-gray" x="503" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="532" y="44">鎌倉幕府の執権</text>
+<rect class="f-violet" x="707.4" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="752.4" y="44">天皇</text>
+<text class="spine-h" x="450" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="450" y="54" text-anchor="middle">時代</text>
+<rect class="spine-a" x="404" y="70" width="92" height="24"/>
+<rect class="spine-b" x="404" y="94" width="92" height="2346.1"/>
+<rect class="spine-a" x="404" y="2440.1" width="92" height="888"/>
+<rect class="spine-b" x="404" y="3328.1" width="92" height="18"/>
+<rect class="spine-a" x="404" y="3346.1" width="92" height="1422"/>
+<rect class="spine-b" x="404" y="4768.1" width="92" height="179.8"/>
+<rect class="spine-a" x="404" y="4947.9" width="92" height="1590"/>
+<rect class="spine-b" x="404" y="6537.9" width="92" height="264"/>
+<rect class="spine-a" x="404" y="6801.9" width="92" height="84"/>
+<rect class="spine-b" x="404" y="6885.9" width="92" height="378"/>
+<rect class="spine-a" x="404" y="7263.9" width="92" height="180"/>
+<rect class="spine-b" x="404" y="7443.9" width="92" height="54.5"/>
+<line class="grid" x1="0" x2="900" y1="430" y2="430"/>
+<line class="grid" x1="0" x2="900" y1="730" y2="730"/>
+<line class="grid" x1="0" x2="900" y1="1030" y2="1030"/>
+<line class="grid" x1="0" x2="900" y1="1330" y2="1330"/>
+<line class="grid" x1="0" x2="900" y1="1630" y2="1630"/>
+<line class="grid" x1="0" x2="900" y1="1930" y2="1930"/>
+<line class="grid" x1="0" x2="900" y1="2230" y2="2230"/>
+<line class="grid" x1="0" x2="900" y1="2530" y2="2530"/>
+<line class="grid" x1="0" x2="900" y1="2830.1" y2="2830.1"/>
+<line class="grid" x1="0" x2="900" y1="3130.1" y2="3130.1"/>
+<line class="grid" x1="0" x2="900" y1="3430.1" y2="3430.1"/>
+<line class="grid" x1="0" x2="900" y1="3730.1" y2="3730.1"/>
+<line class="grid" x1="0" x2="900" y1="4030.1" y2="4030.1"/>
+<line class="grid" x1="0" x2="900" y1="4330.1" y2="4330.1"/>
+<line class="grid" x1="0" x2="900" y1="4630.1" y2="4630.1"/>
+<line class="grid" x1="0" x2="900" y1="5229.9" y2="5229.9"/>
+<line class="grid" x1="0" x2="900" y1="5529.9" y2="5529.9"/>
+<line class="grid" x1="0" x2="900" y1="5829.9" y2="5829.9"/>
+<line class="grid" x1="0" x2="900" y1="6129.9" y2="6129.9"/>
+<line class="grid" x1="0" x2="900" y1="6429.9" y2="6429.9"/>
+<line class="grid" x1="0" x2="900" y1="6729.9" y2="6729.9"/>
+<line class="grid" x1="0" x2="900" y1="7029.9" y2="7029.9"/>
+<line class="grid" x1="0" x2="900" y1="7329.9" y2="7329.9"/>
+<line class="era-line" x1="0" x2="900" y1="94" y2="94"/>
+<line class="era-line" x1="0" x2="900" y1="2440.1" y2="2440.1"/>
+<line class="era-line" x1="0" x2="900" y1="3328.1" y2="3328.1"/>
+<line class="era-line" x1="0" x2="900" y1="3346.1" y2="3346.1"/>
+<line class="era-line" x1="0" x2="900" y1="4768.1" y2="4768.1"/>
+<line class="era-line" x1="0" x2="900" y1="4947.9" y2="4947.9"/>
+<line class="era-line" x1="0" x2="900" y1="6537.9" y2="6537.9"/>
+<line class="era-line" x1="0" x2="900" y1="6801.9" y2="6801.9"/>
+<line class="era-line" x1="0" x2="900" y1="6885.9" y2="6885.9"/>
+<line class="era-line" x1="0" x2="900" y1="7263.9" y2="7263.9"/>
+<line class="era-line" x1="0" x2="900" y1="7443.9" y2="7443.9"/>
+<path class="tick" d="M404 70h3M496 70h-3"/>
+<path class="tick" d="M404 130h9M496 130h-9"/>
+<path class="tick" d="M404 190h3M496 190h-3"/>
+<path class="tick" d="M404 250h3M496 250h-3"/>
+<path class="tick" d="M404 310h3M496 310h-3"/>
+<path class="tick" d="M404 370h3M496 370h-3"/>
+<path class="tick" d="M404 430h9M496 430h-9"/>
+<path class="tick" d="M404 490h3M496 490h-3"/>
+<path class="tick" d="M404 550h3M496 550h-3"/>
+<path class="tick" d="M404 610h3M496 610h-3"/>
+<path class="tick" d="M404 670h3M496 670h-3"/>
+<path class="tick" d="M404 730h9M496 730h-9"/>
+<path class="tick" d="M404 790h3M496 790h-3"/>
+<path class="tick" d="M404 850h3M496 850h-3"/>
+<path class="tick" d="M404 910h3M496 910h-3"/>
+<path class="tick" d="M404 970h3M496 970h-3"/>
+<path class="tick" d="M404 1030h9M496 1030h-9"/>
+<path class="tick" d="M404 1090h3M496 1090h-3"/>
+<path class="tick" d="M404 1150h3M496 1150h-3"/>
+<path class="tick" d="M404 1210h3M496 1210h-3"/>
+<path class="tick" d="M404 1270h3M496 1270h-3"/>
+<path class="tick" d="M404 1330h9M496 1330h-9"/>
+<path class="tick" d="M404 1390h3M496 1390h-3"/>
+<path class="tick" d="M404 1450h3M496 1450h-3"/>
+<path class="tick" d="M404 1510h3M496 1510h-3"/>
+<path class="tick" d="M404 1570h3M496 1570h-3"/>
+<path class="tick" d="M404 1630h9M496 1630h-9"/>
+<path class="tick" d="M404 1690h3M496 1690h-3"/>
+<path class="tick" d="M404 1750h3M496 1750h-3"/>
+<path class="tick" d="M404 1810h3M496 1810h-3"/>
+<path class="tick" d="M404 1870h3M496 1870h-3"/>
+<path class="tick" d="M404 1930h9M496 1930h-9"/>
+<path class="tick" d="M404 1990h3M496 1990h-3"/>
+<path class="tick" d="M404 2050h3M496 2050h-3"/>
+<path class="tick" d="M404 2110h3M496 2110h-3"/>
+<path class="tick" d="M404 2170h3M496 2170h-3"/>
+<path class="tick" d="M404 2230h9M496 2230h-9"/>
+<path class="tick" d="M404 2290h3M496 2290h-3"/>
+<path class="tick" d="M404 2350h3M496 2350h-3"/>
+<path class="tick" d="M404 2410h3M496 2410h-3"/>
+<path class="tick" d="M404 2470h3M496 2470h-3"/>
+<path class="tick" d="M404 2530h9M496 2530h-9"/>
+<path class="tick" d="M404 2590.1h3M496 2590.1h-3"/>
+<path class="tick" d="M404 2650h3M496 2650h-3"/>
+<path class="tick" d="M404 2710.1h3M496 2710.1h-3"/>
+<path class="tick" d="M404 2770h3M496 2770h-3"/>
+<path class="tick" d="M404 2830.1h9M496 2830.1h-9"/>
+<path class="tick" d="M404 2890h3M496 2890h-3"/>
+<path class="tick" d="M404 2950.1h3M496 2950.1h-3"/>
+<path class="tick" d="M404 3010.1h3M496 3010.1h-3"/>
+<path class="tick" d="M404 3070.1h3M496 3070.1h-3"/>
+<path class="tick" d="M404 3130.1h9M496 3130.1h-9"/>
+<path class="tick" d="M404 3190.1h3M496 3190.1h-3"/>
+<path class="tick" d="M404 3250.1h3M496 3250.1h-3"/>
+<path class="tick" d="M404 3310.1h3M496 3310.1h-3"/>
+<path class="tick" d="M404 3370.1h3M496 3370.1h-3"/>
+<path class="tick" d="M404 3430.1h9M496 3430.1h-9"/>
+<path class="tick" d="M404 3490.1h3M496 3490.1h-3"/>
+<path class="tick" d="M404 3550.1h3M496 3550.1h-3"/>
+<path class="tick" d="M404 3610.1h3M496 3610.1h-3"/>
+<path class="tick" d="M404 3670.1h3M496 3670.1h-3"/>
+<path class="tick" d="M404 3730.1h9M496 3730.1h-9"/>
+<path class="tick" d="M404 3790.1h3M496 3790.1h-3"/>
+<path class="tick" d="M404 3850.1h3M496 3850.1h-3"/>
+<path class="tick" d="M404 3910.1h3M496 3910.1h-3"/>
+<path class="tick" d="M404 3970.1h3M496 3970.1h-3"/>
+<path class="tick" d="M404 4030.1h9M496 4030.1h-9"/>
+<path class="tick" d="M404 4090.1h3M496 4090.1h-3"/>
+<path class="tick" d="M404 4150.1h3M496 4150.1h-3"/>
+<path class="tick" d="M404 4210.1h3M496 4210.1h-3"/>
+<path class="tick" d="M404 4270.1h3M496 4270.1h-3"/>
+<path class="tick" d="M404 4330.1h9M496 4330.1h-9"/>
+<path class="tick" d="M404 4390.1h3M496 4390.1h-3"/>
+<path class="tick" d="M404 4450.1h3M496 4450.1h-3"/>
+<path class="tick" d="M404 4510.1h3M496 4510.1h-3"/>
+<path class="tick" d="M404 4570.1h3M496 4570.1h-3"/>
+<path class="tick" d="M404 4630.1h9M496 4630.1h-9"/>
+<path class="tick" d="M404 4690.1h3M496 4690.1h-3"/>
+<path class="tick" d="M404 4750.1h3M496 4750.1h-3"/>
+<path class="tick" d="M404 4810.1h3M496 4810.1h-3"/>
+<path class="tick" d="M404 4869.9h3M496 4869.9h-3"/>
+<path class="tick" d="M404 4929.9h9M496 4929.9h-9"/>
+<path class="tick" d="M404 4989.9h3M496 4989.9h-3"/>
+<path class="tick" d="M404 5049.9h3M496 5049.9h-3"/>
+<path class="tick" d="M404 5109.9h3M496 5109.9h-3"/>
+<path class="tick" d="M404 5169.9h3M496 5169.9h-3"/>
+<path class="tick" d="M404 5229.9h9M496 5229.9h-9"/>
+<path class="tick" d="M404 5289.9h3M496 5289.9h-3"/>
+<path class="tick" d="M404 5349.9h3M496 5349.9h-3"/>
+<path class="tick" d="M404 5409.9h3M496 5409.9h-3"/>
+<path class="tick" d="M404 5469.9h3M496 5469.9h-3"/>
+<path class="tick" d="M404 5529.9h9M496 5529.9h-9"/>
+<path class="tick" d="M404 5589.9h3M496 5589.9h-3"/>
+<path class="tick" d="M404 5649.9h3M496 5649.9h-3"/>
+<path class="tick" d="M404 5709.9h3M496 5709.9h-3"/>
+<path class="tick" d="M404 5769.9h3M496 5769.9h-3"/>
+<path class="tick" d="M404 5829.9h9M496 5829.9h-9"/>
+<path class="tick" d="M404 5889.9h3M496 5889.9h-3"/>
+<path class="tick" d="M404 5949.9h3M496 5949.9h-3"/>
+<path class="tick" d="M404 6009.9h3M496 6009.9h-3"/>
+<path class="tick" d="M404 6069.9h3M496 6069.9h-3"/>
+<path class="tick" d="M404 6129.9h9M496 6129.9h-9"/>
+<path class="tick" d="M404 6189.9h3M496 6189.9h-3"/>
+<path class="tick" d="M404 6249.9h3M496 6249.9h-3"/>
+<path class="tick" d="M404 6309.9h3M496 6309.9h-3"/>
+<path class="tick" d="M404 6369.9h3M496 6369.9h-3"/>
+<path class="tick" d="M404 6429.9h9M496 6429.9h-9"/>
+<path class="tick" d="M404 6489.9h3M496 6489.9h-3"/>
+<path class="tick" d="M404 6549.9h3M496 6549.9h-3"/>
+<path class="tick" d="M404 6609.9h3M496 6609.9h-3"/>
+<path class="tick" d="M404 6669.9h3M496 6669.9h-3"/>
+<path class="tick" d="M404 6729.9h9M496 6729.9h-9"/>
+<path class="tick" d="M404 6789.9h3M496 6789.9h-3"/>
+<path class="tick" d="M404 6849.9h3M496 6849.9h-3"/>
+<path class="tick" d="M404 6909.9h3M496 6909.9h-3"/>
+<path class="tick" d="M404 6969.9h3M496 6969.9h-3"/>
+<path class="tick" d="M404 7029.9h9M496 7029.9h-9"/>
+<path class="tick" d="M404 7089.9h3M496 7089.9h-3"/>
+<path class="tick" d="M404 7149.9h3M496 7149.9h-3"/>
+<path class="tick" d="M404 7209.9h3M496 7209.9h-3"/>
+<path class="tick" d="M404 7269.9h3M496 7269.9h-3"/>
+<path class="tick" d="M404 7329.9h9M496 7329.9h-9"/>
+<path class="tick" d="M404 7389.9h3M496 7389.9h-3"/>
+<path class="tick" d="M404 7449.9h3M496 7449.9h-3"/>
+<text class="dec-y" x="450" y="434.5" text-anchor="middle">850</text>
+<text class="dec-w" x="450" y="448" text-anchor="middle">嘉祥3年</text>
+<text class="dec-y" x="450" y="734.5" text-anchor="middle">900</text>
+<text class="dec-w" x="450" y="748" text-anchor="middle">昌泰3年</text>
+<text class="dec-y" x="450" y="1034.5" text-anchor="middle">950</text>
+<text class="dec-w" x="450" y="1048" text-anchor="middle">天暦4年</text>
+<text class="dec-y" x="450" y="1334.5" text-anchor="middle">1000</text>
+<text class="dec-w" x="450" y="1348" text-anchor="middle">長保2年</text>
+<text class="dec-y" x="450" y="1634.5" text-anchor="middle">1050</text>
+<text class="dec-w" x="450" y="1648" text-anchor="middle">永承5年</text>
+<text class="dec-y" x="450" y="1934.5" text-anchor="middle">1100</text>
+<text class="dec-w" x="450" y="1948" text-anchor="middle">康和2年</text>
+<text class="dec-y" x="450" y="2234.5" text-anchor="middle">1150</text>
+<text class="dec-w" x="450" y="2248" text-anchor="middle">久安6年</text>
+<text class="dec-y" x="450" y="2534.5" text-anchor="middle">1200</text>
+<text class="dec-w" x="450" y="2548" text-anchor="middle">正治2年</text>
+<text class="dec-y" x="450" y="2834.6" text-anchor="middle">1250</text>
+<text class="dec-w" x="450" y="2848.1" text-anchor="middle">建長2年</text>
+<text class="dec-y" x="450" y="3134.6" text-anchor="middle">1300</text>
+<text class="dec-w" x="450" y="3148.1" text-anchor="middle">正安2年</text>
+<text class="dec-y" x="450" y="3434.6" text-anchor="middle">1350</text>
+<text class="dec-w" x="450" y="3448.1" text-anchor="middle">正平4年</text>
+<text class="dec-y" x="450" y="3734.6" text-anchor="middle">1400</text>
+<text class="dec-w" x="450" y="3748.1" text-anchor="middle">応永7年</text>
+<text class="dec-y" x="450" y="4034.6" text-anchor="middle">1450</text>
+<text class="dec-w" x="450" y="4048.1" text-anchor="middle">宝徳2年</text>
+<text class="dec-y" x="450" y="4334.6" text-anchor="middle">1500</text>
+<text class="dec-w" x="450" y="4348.1" text-anchor="middle">明応9年</text>
+<text class="dec-y" x="450" y="4634.6" text-anchor="middle">1550</text>
+<text class="dec-w" x="450" y="4648.1" text-anchor="middle">天文19年</text>
+<text class="dec-y" x="450" y="5234.4" text-anchor="middle">1650</text>
+<text class="dec-w" x="450" y="5247.9" text-anchor="middle">慶安3年</text>
+<text class="dec-y" x="450" y="5534.4" text-anchor="middle">1700</text>
+<text class="dec-w" x="450" y="5547.9" text-anchor="middle">元禄13年</text>
+<text class="dec-y" x="450" y="5834.4" text-anchor="middle">1750</text>
+<text class="dec-w" x="450" y="5847.9" text-anchor="middle">寛延3年</text>
+<text class="dec-y" x="450" y="6134.4" text-anchor="middle">1800</text>
+<text class="dec-w" x="450" y="6147.9" text-anchor="middle">寛政12年</text>
+<text class="dec-y" x="450" y="6434.4" text-anchor="middle">1850</text>
+<text class="dec-w" x="450" y="6447.9" text-anchor="middle">嘉永3年</text>
+<text class="dec-y" x="450" y="6734.4" text-anchor="middle">1900</text>
+<text class="dec-w" x="450" y="6747.9" text-anchor="middle">明治33年</text>
+<text class="dec-y" x="450" y="7034.4" text-anchor="middle">1950</text>
+<text class="dec-w" x="450" y="7047.9" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="450" y="7334.4" text-anchor="middle">2000</text>
+<text class="dec-w" x="450" y="7347.9" text-anchor="middle">平成12年</text>
+<text class="era-name" x="450" y="117" text-anchor="middle">平安時代</text>
+<text class="era-date" x="450" y="131" text-anchor="middle">794</text>
+<text class="era-name" x="450" y="2463.1" text-anchor="middle">鎌倉時代</text>
+<text class="era-date" x="450" y="2477.1" text-anchor="middle">1185</text>
+<text class="era-name" x="450" y="3369.1" text-anchor="middle">室町時代</text>
+<text class="era-date" x="450" y="3383.1" text-anchor="middle">1336</text>
+<text class="era-name" x="450" y="4791.1" text-anchor="middle">安土桃山</text>
+<text class="era-date" x="450" y="4805.1" text-anchor="middle">1573</text>
+<text class="era-name" x="450" y="4970.9" text-anchor="middle">江戸時代</text>
+<text class="era-date" x="450" y="4984.9" text-anchor="middle">1603</text>
+<text class="era-name" x="450" y="6560.9" text-anchor="middle">明治時代</text>
+<text class="era-date" x="450" y="6574.9" text-anchor="middle">1868</text>
+<text class="era-name" x="450" y="6824.9" text-anchor="middle">大正時代</text>
+<text class="era-date" x="450" y="6838.9" text-anchor="middle">1912</text>
+<text class="era-name" x="450" y="6908.9" text-anchor="middle">昭和時代</text>
+<text class="era-date" x="450" y="6922.9" text-anchor="middle">1926</text>
+<text class="era-name" x="450" y="7286.9" text-anchor="middle">平成時代</text>
+<text class="era-date" x="450" y="7300.9" text-anchor="middle">1989</text>
+<text class="era-name" x="450" y="7466.9" text-anchor="middle">令和時代</text>
+<text class="era-date" x="450" y="7480.9" text-anchor="middle">2019</text>
+<line class="asof-line" x1="379" x2="741.4" y1="7491" y2="7491"/>
+<text class="era-date" x="450" y="7505" text-anchor="middle">2026.11.7</text>
+<text class="era-date" x="450" y="7518" text-anchor="middle">時点</text>
+<g class="term c-shogun" data-id="shogun0" data-person="shogun:大伴弟麻呂">
+<title>大伴弟麻呂　794年2月5日 〜 795年2月23日（在職 383日）</title>
+<rect class="bar f-gray" x="383" y="95.6" width="14" height="4.3" rx="2.1"/>
+<text class="label" x="368" y="102.6" text-anchor="end"><tspan class="yrs">794–795</tspan><tspan class="name" dx="6">大伴弟麻呂</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun1" data-person="shogun:坂上田村麻呂">
+<title>坂上田村麻呂　797年11月27日 〜 801年12月7日（在職 1,471日）</title>
+<rect class="bar f-gray" x="383" y="118.4" width="14" height="22.2" rx="3"/>
+<text class="label" x="368" y="130.8" text-anchor="end"><tspan class="yrs">797–801</tspan><tspan class="name" dx="6">坂上田村麻呂</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun2" data-person="shogun:坂上田村麻呂">
+<title>坂上田村麻呂　804年3月13日 〜 810年10月11日（在職 2,403日）</title>
+<rect class="bar f-gray" x="383" y="156.2" width="14" height="37.5" rx="3"/>
+<text class="label" x="368" y="168.5" text-anchor="end"><tspan class="yrs">804–810</tspan><tspan class="name" dx="6">坂上田村麻呂</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun3" data-person="shogun:文室綿麻呂">
+<title>文室綿麻呂　811年5月12日 〜 812年1月28日（在職 261日）</title>
+<rect class="bar f-gray" x="383" y="198.8" width="14" height="3" rx="1.5"/>
+<text class="label" x="368" y="205.2" text-anchor="end"><tspan class="yrs">811–812</tspan><tspan class="name" dx="6">文室綿麻呂</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun4" data-person="shogun:文室綿麻呂">
+<title>文室綿麻呂　813年7月1日 〜 816年（在職 1,280日）</title>
+<rect class="bar f-gray" x="383" y="212" width="14" height="19" rx="3"/>
+<text class="label" x="368" y="224.3" text-anchor="end"><tspan class="yrs">813–816</tspan><tspan class="name" dx="6">文室綿麻呂</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun5" data-person="shogun:源頼朝">
+<title>第1代 源頼朝　1192年8月21日 〜 1199年2月9日（在職 2,363日）</title>
+<rect class="bar f-teal" x="383" y="2486.9" width="14" height="36.8" rx="3"/>
+<circle class="photo-ring" cx="353" cy="2494.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAgYEBQEDBwD/xAAXAQEBAQEAAAAAAAAAAAAAAAACAwEE/9oADAMBAAIQAxAAAAGjpru2jevjPmgUTcbMDJThz7oerEfZVHV0THQmuiaHfPpyOEiKhRQ9Y//EACEQAAEEAgIDAQEAAAAAAAAAAAIAAQMEBREQEhMxQRUz/9oACAEBAAEFAjPrDGBSn+KTjJiJ421paXheVsXUeCwT6Vkm8PEHZpdM3Fj+PxUbcb5JkYu6yBMMT8enx2b6BZydR68t2YjK1M6IpCXz2qVWSyVygcAPx//EABkRAQADAQEAAAAAAAAAAAAAAAEAEBECEv/aAAgBAwEBPwHFnkrmxyapNn//xAAaEQEBAQEAAwAAAAAAAAAAAAACAQAQERMx/9oACAECAQE/ASoZvYuKWdQi+6EG+NDJv//EACYQAAEDAgUEAwEAAAAAAAAAAAEAAhEQEgMEITFBIkJxgRMgMnL/2gAIAQEABj8ClWiZJUszMTw5qL3YzC0bxKigw2buWJfBI2K7vSdM7GuHaNblNH/yai+Ym1hoOqByrW6E6fQMzTS6O8bpxw8wL+NETeXeQv3HgLqc4+6alENI03XyXgjmv//EACEQAAIDAAEEAwEAAAAAAAAAAAABESExQVFhcYGRsfCh/9oACAEBAAE/IfBLGFLSHA01A/FFlJ0ugSJBUqLdinSclLxC6iqgxpkhOPQJR24kqzkWEkzya7c/wTEN6j0hYqX0GFbptJ6QuBKgiUpMa+wxSPQ8c+jJByWNSjRfaXPkRjQo2mfgtYPx2JXFdAWTTctY5tlmo1YuhWjdFLe0kVMRcQLk/9oADAMBAAIAAwAAABB2/wDaR3G3r//EABkRAAIDAQAAAAAAAAAAAAAAAAERABAhMf/aAAgBAwEBPxAkZYiw2fiFwo0//8QAGhEBAQADAQEAAAAAAAAAAAAAAQARITEQQf/aAAgBAgEBPxBq/bV2JzCeBqIma3LcIv/EACIQAQACAgMBAAEFAAAAAAAAAAEAESExQVFhcYGRobHB8P/aAAgBAQABPxAnOW1E2riOkFRza5YdxCqhHktf1CZYLB2zVlfvC9IKBwES6R6ezAaZ2Fq/iD6hDaDZetJ9Ie4ELR3y+dxEwg2llnoSu2fscsEbeSNnen8kcgWK9F2f72WwohGtBs9StialCxhCBWIUsSq24FVv2KWC1iMiHbSPHg7mogrgfhujWeXyFAGJkdHyKE6jkxr48QN2B11NX1h0b7HcP9im83T0vEsLWA4a8PqUa9Esi+3GyItVRXqostVlStMBFy2a/TPsED4qU3x+IuJQehWjd3mHVqzTzLAgW8bq+6n/2Q==" x="338" y="2479.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="2499.2" text-anchor="end"><tspan class="yrs">1192–1199</tspan><tspan class="name" dx="6">源頼朝</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun6" data-person="shogun:源頼家">
+<title>第2代 源頼家　1202年8月12日 〜 1203年10月13日（在職 427日）</title>
+<rect class="bar f-teal" x="383" y="2546.7" width="14" height="5" rx="2.5"/>
+<path class="leader" d="M381.5 2549.2h-4L372 2538.2h-2"/>
+<circle class="photo-ring" cx="353" cy="2538.2" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAABAYCAwAFBwH/xAAZAQACAwEAAAAAAAAAAAAAAAACBAEDBQb/2gAMAwEAAhADEAAAAdvk4YT4wuyFC8NG6bo2aWCCxTIN9YxKTso4GQ8q8NF6LFbW3lhKbTyiAU3D/8QAIRAAAgICAQQDAAAAAAAAAAAAAQIDBAAFEQYSIUEQEzH/2gAIAQEAAQUC+LFWCULrqSnZVhNQ0Llb+OQArA53Rluc11OKAYcJHLfoHhgFDbmth3MPCslmADxxloRLC2Bc6dI57ctXIa4v3JLLGCb6fcZdGe5bYHPf/8QAHhEAAQMEAwAAAAAAAAAAAAAAAQACAwQRElEQITH/2gAIAQMBAT8BWDdKWEl4IQkZtC3qebDiKowbZS1Bf0F//8QAIBEAAgEDBAMAAAAAAAAAAAAAAgMAARESBBATFCExUf/aAAgBAgEBPwGUNnq8Q/FZCU67Pkr4iwzK2ztLyFeKQIT/xAAqEAABAwIEBQMFAAAAAAAAAAABAAIRAxIQEyFRBDFBcZEyM2EgUnKxwf/aAAgBAQAGPwLACtTY/v0Ujhaf7T6QaNBLfgoM6PBH9w5wN1IJd8qMwk/kt050S9zibthP0bYE+V7dU+F7FTym1qbzaVznvg+pVeWi22Q6Ma1OTcYIC3XqBKl3pHILOyn5f326YXMda4dQodxFSO611Wq//8QAIhABAAICAgEFAQEAAAAAAAAAAQARITFBUWFxgZGhwbHR/9oACAEBAAE/IazqVRaTyI85jO97f9S1RrzgyVD9th6FP5EM1cQrzkYogQUc5QfADTlh9sTorBIOEltoAeIDyvxNLOKhktW8R7AeyXhsz4gH2F0NhmoTB8N+y8LL8YIkN4fp8kxd1bWYjQnmXZbSl7dvUzbMRMdRWgYPBvEpVW9Yzuv0fhz9Eta99FgcVsz9dQumcQW7QSklvp4qUreTlubHCf/aAAwDAQACAAMAAAAQfmqExR23w//EAB0RAQACAgIDAAAAAAAAAAAAAAEAESFxEIExocH/2gAIAQMBAT8QMxWlF9TsXgoNAZhsnHgMAoo9u34Ubn//xAAcEQADAAIDAQAAAAAAAAAAAAAAAREhMVFh8IH/2gAIAQIBAT8QyKJo06ojKLr6VKXHscihPBBVzkyq97s//8QAJBABAAICAQIHAQEAAAAAAAAAAREhADFRQXFhgZGhscHR4fH/2gAIAQEAAT8QXIPXOMwERMhNcYhuNSbNDs7HGV97oSeMNPbASmCBBYBRNnZyTwlttRPJ9zkBOkXE/wC/3GDAikgZWeldciZyElR5q/nB0jQvNRLg1GDLIsquT2KztT5AWNrdEYAaFQUwA0FSZamTeLaGAi3HieeITNyWnjG00oZQ3+YUoiJKqQdZwaldE+1kVRDSf7gvxTjSS7KSRP3BVVAm4qPrEA+xMNG6743yv2CUwYFpQpKNMZdCTDR8+uIvs32x+BJQSjI0nRMOwwXkMViSJVJAOqtHN4UTIF3kEI8XzMgLVdFvcVPaA6YTHLVQYitp98MBp6zvFCVLfIRLMWgySVnClxXOJGUbZPrzhCBSZr6z/9k=" x="338" y="2523.2" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="2543.1" text-anchor="end"><tspan class="yrs">1202–1203</tspan><tspan class="name" dx="6">源頼家</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun7" data-person="shogun:源実朝">
+<title>第3代 源実朝　1203年10月13日 〜 1219年2月13日（在職 5,602日）</title>
+<rect class="bar f-teal" x="383" y="2553.7" width="14" height="90" rx="3"/>
+<path class="leader" d="M381.5 2561.2h-4L372 2572.2h-2"/>
+<circle class="photo-ring" cx="353" cy="2572.2" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAABAYFBwACAwH/xAAYAQEBAQEBAAAAAAAAAAAAAAADBAEAAv/aAAwDAQACEAMQAAABYqQtFHmVox3KnWOY42SzK+lhWPeG7aazUkSYBrBTVi135SduCouB76RfNooP/8QAHhAAAgICAwEBAAAAAAAAAAAAAgMBBAAFBhESExX/2gAIAQEAAQUCJwrxtizbu1NZcbXLW3oLQ1iQjN9Mhx/X69w2WsYuVS3xWl31zlATHH3p9m3spQM/Cl0MY9obbFgIL6nv6gDKvRRgOYrKVsXrjqciuqJsbKx9mvYzCH1CzMZXsrMZ+k33MxM8erCRf//EABoRAAIDAQEAAAAAAAAAAAAAAAABAhESMRD/2gAIAQMBAT8BfTC8iiVUMTo2jp//xAAbEQADAQADAQAAAAAAAAAAAAAAAQIRAxMhEP/aAAgBAgEBPwHjxLTtob30qsWE6/lQqOqjyUf/xAAuEAACAQIDBgMJAQAAAAAAAAABAgMAERIhMQQQEyIycSNBUTNSYWJygaGxwdH/2gAIAQEABj8Cl2uUZRqZP8p9pdzxGOo/VCQul/Q5V7EN2YU7SLaRzmPS27aDc+I6p+a2fipYSjEvaljghDnzubACryqgb5TT4+HbLTcieZlX+1ss65qv9FdRHasGNibWudaYXY35uY33LBErJFG2IsaCLoBbcI8dm1OWlcRdDu8IlDpkaBHWOpauKdiAxdsRJqRIZsEeI2wgVeSV2+pt178w+xr3viRnRLg4bZirr0+VSbQyDLlXvX//xAAkEAEAAgEDAwQDAAAAAAAAAAABESEAMUFRYXGxEIGRwaHR8P/aAAgBAQABPyEi28eHjHAZymhw6GTm+EFSdycKe8j+TKWkyaKH2+hJZk+ln7zST4W2mvGs5Cecvvk49BWgiY0CmK7I3z6CEvIDdlkvy5XAw/gymA/LBUtdyus4Qc9aVdJ2r0Y3gAMCFba4aUQnbFljWtICQOuKeSMzEa3kwS0c5DNf0MfvK8A6/c5xnIJyY78HhO1YBCEUFTsxgcYGbEcKFU4eHGgu6jA5Din8KSMsNUgWK3txbrmZO3tiEprCep+POf/aAAwDAQACAAMAAAAQqbBj7u2bE//EABkRAQEBAQEBAAAAAAAAAAAAAAEAESExQf/aAAgBAwEBPxAqCGgzlu7Zc+2Ncnd9NtVf/8QAGhEAAwEAAwAAAAAAAAAAAAAAAAERIUFhof/aAAgBAgEBPxCmGrcLA9XLfS6Cs0U9iUx6If/EACIQAQEAAgICAgIDAAAAAAAAAAERACExQVFhcYGRobHB8P/aAAgBAQABPxBmnX51T0sB84qA0wdQdBAPBiCow5lNAvyGD2xoWivNT9Yim7AtYMUqvwJhv1l0Ry8/q1PplDpNImkcvQDuI44F94sDCqogHhc2PgWRO1PP6zUjIWDZBuwOuDnI9MzaDDRaespFaoIEC+KPpygfkWBfbx9ZuBAnREEArxuY4gOwLoLwHQ6rhZ8esLqF+FBGw7Ct41knSaKxxXvAiLPJrEZtFFBl0C8B7PTmviaDZqIPWsa5hytB944LRBmOD0De8LwjCniJ3S7nyO5lqFwlyGEoV2Bt4gAzuxmzwOx44cfwJP5UZ/nIhlHlepPHBjNgpSEcj31vX84kkO0Qtdqn5cqcEOFXETfkMJJFiC0/Tn+s2FkjCokPZBcf/9k=" x="338" y="2557.2" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="2577.1" text-anchor="end"><tspan class="yrs">1203–1219</tspan><tspan class="name" dx="6">源実朝</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun8" data-person="shogun:藤原頼経">
+<title>第4代 藤原頼経　1226年2月25日 〜 1244年6月5日（在職 6,675日）</title>
+<rect class="bar f-teal" x="383" y="2688" width="14" height="107.7" rx="3"/>
+<circle class="photo-ring" cx="353" cy="2695.5" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGgAAAgMBAQAAAAAAAAAAAAAAAwQCBQcGCP/aAAgBAQAAAAHZVcPEn6AbVHDFdX6RQsadi4AtYCpOgEpYC5dqIjgR/8QAIRAAAwACAQQDAQAAAAAAAAAAAgMEAAEFERITIhAUFSP/2gAIAQEAAQUCysiGVfF8gzHQ0SHPYUtkbwqlx/fsWfa63yjUnkZDXfwAFNBm2gt3f6IJp6bJr9SZe/NnX+62b+Gh3jC1iTxmscnzFhMAdE1Tq6KmaY9tihI6EGVfoWm0AqQCz//EAC8QAAIBAgMGBQIHAAAAAAAAAAECEQADEiExBBATMkFRIiNCYXEU8ENSgYKhwdH/2gAIAQEABj8Cq6yc+A4fmgg2C9+6R/lBtp2YKPiaS/aLM9s6HL9Kt7Rb5Li4hubhhS6jwhtJqzwxZifNmdPasDU2zqOI/pjU1a2S5BZQdDPWY/ndhYwX0osFJ9hU3LXD9sU0l6OZWzjQ0MX4ax9/fXdHdaW2qeIc89N0TB6HtX0+1tjuux8waHcGGq0ty3ea33w9dzEtAXU0Lt11RInPtmP7rBiKv+XLL2+aBZoz9QGdIy3PBcAMMOtDE2Z0WYonCVtry5QKdcEFtO5r/8QAJBAAAgIBAwQDAQEAAAAAAAAAAREAITFBUYEQcZHwYaHhscH/2gAIAQEAAT8hgkSQQGSlDzAatbcGS89kHT5RCgSiRd+uG2yLEO5AaEe1D3sDk6AXMw7Rpw8tM+ifd7xvgCMMMH4PxLzugEuSH+iEWMjWD+gnfpi3Bqb0mmmSBkKKiSua5VRXEg00Y188uDuYCt2RQ8M/jpTuA4P6IGDNACibvpQjHYtUu0GiykDtSXbpgTI+41ELSMiWvr89AwgWbAguMMgYBVDO7IjnaLYwqGw4wL8NE4X7qFG1CtVDZysRNlHdnH7DtI2hnOP7FB6SFU7o59uAiCGFBtVskUB8YGJ//9oACAEBAAAAEM/a/bX/AP/EAB8QAQEBAAICAgMAAAAAAAAAAAERIQAxQVEQYXGBkf/aAAgBAQABPxDiWBfOeXtYA9pwiwtGSpVDZpr/ADksNWTKrRIBLuMd4kyZC25G0d9Ux7Lqp3sBY/Y4/Z8VL3KO1I2eKdV4EHAu7uYN8HpP0yYC4kkQxrHERBHOVDBTnIDNqaeCqbNSPbBE2GiCUAo/Epn6C5RQhIdzvhcqOBq4qGy6mcrbJjB/UI/S8HlTFWK+giw9lyZNMFO4PlEkygM1ylYw18a3k1+pJPSjQ7oeS6PxpDfNjYzp76cSjw0AWj1BgXYxERRJ8OrCgA1Cfw38hzKexqrQrZPYTWXgQC86R8A+ler9d6ezgSe6okh0hFvbwWGbAdOzOhEagXoKwQjABqgjIWdqAd3luW7D1pEdPBIhnA0xwNh7yDqeXrGaWBQF0ILt6/MXgsxqS0dgRbQAKzn/2Q==" x="338" y="2680.5" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="2700.3" text-anchor="end"><tspan class="yrs">1226–1244</tspan><tspan class="name" dx="6">藤原頼経</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun9" data-person="shogun:藤原頼嗣">
+<title>第5代 藤原頼嗣　1244年6月5日 〜 1252年3月31日（在職 2,856日）</title>
+<rect class="bar f-teal" x="383" y="2797.6" width="14" height="44.9" rx="3"/>
+<text class="label" x="368" y="2810" text-anchor="end"><tspan class="yrs">1244–1252</tspan><tspan class="name" dx="6">藤原頼嗣</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun10" data-person="shogun:宗尊親王">
+<title>第6代 宗尊親王　1252年5月10日 〜 1266年8月21日（在職 5,216日）</title>
+<rect class="bar f-teal" x="383" y="2845.2" width="14" height="83.7" rx="3"/>
+<text class="label" x="368" y="2857.5" text-anchor="end"><tspan class="yrs">1252–1266</tspan><tspan class="name" dx="6">宗尊親王</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun11" data-person="shogun:惟康親王">
+<title>第7代 惟康親王　1266年8月25日 〜 1289年9月29日（在職 8,436日）</title>
+<rect class="bar f-teal" x="383" y="2930.9" width="14" height="136.6" rx="3"/>
+<text class="label" x="368" y="2943.3" text-anchor="end"><tspan class="yrs">1266–1289</tspan><tspan class="name" dx="6">惟康親王</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun12" data-person="shogun:久明親王">
+<title>第8代 久明親王　1289年10月24日 〜 1308年8月20日（在職 6,875日）</title>
+<rect class="bar f-teal" x="383" y="3069.9" width="14" height="110.9" rx="3"/>
+<text class="label" x="368" y="3082.3" text-anchor="end"><tspan class="yrs">1289–1308</tspan><tspan class="name" dx="6">久明親王</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun13" data-person="shogun:守邦親王">
+<title>第9代 守邦親王　1308年8月26日 〜 1333年7月4日（在職 9,078日）</title>
+<rect class="bar f-teal" x="383" y="3183" width="14" height="147.1" rx="3"/>
+<text class="label" x="368" y="3195.3" text-anchor="end"><tspan class="yrs">1308–1333</tspan><tspan class="name" dx="6">守邦親王</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun14" data-person="shogun:護良親王">
+<title>護良親王　1333年7月25日 〜 1333年11月（在職 129日）</title>
+<rect class="bar-hatch" x="383" y="3331" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M381.5 3332.5h-4L372 3324.3h-2"/>
+<circle class="photo-ring" cx="353" cy="3324.3" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAABAECAwUGBwD/xAAYAQADAQEAAAAAAAAAAAAAAAAAAwQBAv/aAAwDAQACEAMQAAABw1nWdEgCPahRnPXosF0G9w2qomvYhqTvQ2whpbpUiEMswGOwuQWVTk//xAAgEAADAAEFAQADAAAAAAAAAAABAgMEAAUREhMhBiIj/9oACAEBAAEFAv1WGz4JyK22zbYUzNr2+OnPWoJ0ne1fxsfz9Rzek5ruHo24cOdYU4S3NURT8C1PwZAdmoerd7phXFpCuOwyfNkWPQVbl8QRlN5zo6yTXUaM1U5coclMovQZM2X0KwZls+TVR4zvf//EABsRAAICAwEAAAAAAAAAAAAAAAABAhEDEiEx/9oACAEDAQE/AUjWjG7RrfSMbFJeCofFwjB7H//EABsRAAICAwEAAAAAAAAAAAAAAAABAhEDIUEx/9oACAECAQE/AWz0yRp6FLg5UNdN0LY5qj//xAAoEAACAgEEAAUEAwAAAAAAAAABAgARAxIhMUEQIiMycQQTUWFSkbH/2gAIAQEABj8CbAe64/yAstYgd4PQ+oYP/EmomX1MZXgrvGx9qfALjTUx6EJoVq2uBdLg3XG09RlA/cysg8uw4nExHGQKO1ng/iWtAnw1EVQh2DfEPlI74mom2uw3cH3FGvvaGghF1xDhxLpB95U1ABl36VVof33Gx06t3vAm3lWhYhKuoHW8AIW/200jtjVRMWVbStkvj5/M91VZGkxfs0K9wfeUURviEtjKKO+oMijVXFQtpt62hyvltiPbvtP/xAAhEAACAgICAwEBAQAAAAAAAAABEQAhMUFRcWGBsaHB8P/aAAgBAQABPyF18oFNgv0myUTYfyavAjgOOYJulfUgL6m1RgQyoJhGU5nmOAxgAWBLfVJD/iPCl0Mb6eQGBCIhrzKainrr9nBEeYIVzQBHtCBDi4VbVy3o3sRBaQkEE9yAsfwSTEuxoDhyfcEwhYAImrUYZwI5wCzROoiuMbaeL6hXE03nepk9DB9gtf0Rh88QGLiSA7USAGDTs23CiAAEeR6/3EGWfJRbqP2hlgf7DzLC6RRMIBAb5UpoeZjrzUortIBDsKf/2gAMAwEAAgADAAAAEFQRAGQLAfv/xAAZEQEBAQEBAQAAAAAAAAAAAAABABEhMYH/2gAIAQMBAT8Q1YHiQFlDJl9E5zAODLRXZvV//8QAGBEBAQEBAQAAAAAAAAAAAAAAAQARITH/2gAIAQIBAT8QTO2uoFJmqYz3ycI+icjrEi8l/8QAIxABAQADAAICAQUBAAAAAAAAAREAITFBUWFxgZGhscHx8P/aAAgBAQABPxCENYwR9B0pbe3wkwVdsCJrzfIl1m7YFRPTam/kyRxtZL5L7TW+42eh1BdJ+EyKKo6njCPGQCXRdpL+mDyyqSbW7Ktniv1lCQajQXugJxXcmNAlXX8n3gUhdYGR6kP5ME7f2eO24/8AqCT59wKLYz1mjwHvNvt/Fy84bLAM1/uKSC2CAY1/3McVxMDYunWvOa/qgiDq8l/uY3lsAA4vAGtv8AzK4OiNjeH7HWWogDKdBSPfGMyrarvtHq6s+vchttNikKj8pZtBw/EivE1aEIoP1w4Cl2IFR0przH9m8I5wskRHXnowNiSxKXaKQfGS+U2dNUnl3Pu5H01fVl6QXRhOcp2/ZFKsB8HwCPWP1HEQ84+3Tz6zmCKQq3aFu96uao0xaWRt2Uf9xqX03pUZtB15JjAq22CS0FhBsPesoA0uw2qUr3xecM//2Q==" x="338" y="3309.3" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="3329.2" text-anchor="end"><tspan class="yrs">1333</tspan><tspan class="name" dx="6">護良親王</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun15" data-person="shogun:成良親王">
+<title>成良親王　1335年8月19日 〜 1336年4月（在職 256日）</title>
+<rect class="bar-hatch" x="383" y="3344.4" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M381.5 3345.9h-4L372 3349.8h-2"/>
+<text class="label" x="368" y="3354.7" text-anchor="end"><tspan class="yrs">1335–1336</tspan><tspan class="name" dx="6">成良親王</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun16" data-person="shogun:足利尊氏">
+<title>第1代 足利尊氏　1338年9月24日 〜 1352年3月22日（在職 4,928日）</title>
+<rect class="bar f-amber" x="383" y="3363.4" width="14" height="79" rx="3"/>
+<path class="leader" d="M381.5 3370.9h-4L372 3375.3h-2"/>
+<circle class="photo-ring" cx="353" cy="3375.3" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABQYCBAcAA//EABgBAAMBAQAAAAAAAAAAAAAAAAMEBQIB/9oADAMBAAIQAxAAAAEUXCv0S0uD3SPFslMzgwexo2ZOi+jfrX9sLrKkfVTGSmVY6rN20dkvLFI0YTbH/8QAIRAAAgIDAAICAwAAAAAAAAAAAgMBBAAFEQYTEiAhIjL/2gAIAQEAAQUC7+w6VF1Y+OUInaaKqinq2EQLLmROUzGV/LrL6pKkjWFTER6Y/wBp5kSWFHsDbEMR8o9i5mcW1pID2cDnPJTFNdLBZEfjNXtW1cqbio2vd3dRI3bbbTYmfv8A/8QAHhEAAgICAgMAAAAAAAAAAAAAAAECEQMSEDETIUH/2gAIAQMBAT8By9UaRMN6+zIrXCfwjJx6POxycnbP/8QAGxEAAgMBAQEAAAAAAAAAAAAAAQIAAxEhEhT/2gAIAQIBAT8BLFeiLdZoOy0qSfMYd7CMlSnxsdFcYZ8Sb2BQowT/xAAlEAABBAEEAQQDAAAAAAAAAAABAAIDETESEyFBYRAiMFEygYL/2gAIAQEABj8CTJZ3vaa40npZmP8AafNBq1DzaljNu0i2qx6ANL/rlaPcDmwpWAuulvvfZe2nNrCIC8Eo31hdqjhMZxZN/pWFwQgWyU3we0N2jx0vyTZQ9olvixkJsoGVwSEWOuVp+zhAySxxu8vR2pd53Qai+X4P/8QAIxAAAgICAQQCAwAAAAAAAAAAAREAITFBUWFxgbEQ8JGhwf/aAAgBAQABPyHRiMw0gx6QlBT2U9CLw3o4IcNH2HYiBKQHmEsxiQAECoAIRN2K1DEW3tO7SAzYtxAlUrp1kC4z9LmIAAlSogjcyAAeyv6IAXbrpANx8FxU6Wj6eoZsUiTWGBGwGoFUaXcv7UIg3I46e4ZNkeQVF7shkObvJAK8QSeKH5h9mTgcQAVXn4xtGZoL4p24Fnc//9oADAMBAAIAAwAAABAR+bILs7U3/8QAGhEBAQEAAwEAAAAAAAAAAAAAAQARITFBgf/aAAgBAwEBPxAjteGFkIhYyxmfU7qgOiaJzf/EABoRAAMBAAMAAAAAAAAAAAAAAAABESFRYZH/2gAIAQIBAT8QdpsLY87Gs2GMMaJjHmRDS9M5wShEf//EACIQAQEAAgICAgMBAQAAAAAAAAERACExQVFxYYGRobHw4f/aAAgBAQABPxAJc6EDdxgDAEE2NVXn1gQXV9p0evvCdX05F4pde8PH1XJoC9Xjxvzm5Catze5fWaAbm36xatSwTCyhovX7wDLrN8ofHOpH5xC5Qxb8D/c4Mr48kxHJqjojOTAhiS7g+jxhvaBbsF3gg7xW3b0h3Z8byGNVODtH/GGtTvWxo79YqWPI6HT1fsuckdS9rynbTIUvYR/cwSkUKNA28vLw93GhZAkKMB/5gRW+z+J/MdUcBuqUOnQ+cQfWGCvez8aYc4gVIfrDGS5STpeR8PfDhOc8w8qkSw44wIQqV7vbMl+/HOJnTR4HQfH8/NY36iMjyJd95youBmaMRPrCiBwdXGK/ZzkQDV29Z//Z" x="338" y="3360.3" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="3380.2" text-anchor="end"><tspan class="yrs">1338–1352</tspan><tspan class="name" dx="6">足利尊氏</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun17" data-person="shogun:足利尊氏">
+<title>第1代 足利尊氏　1352年8月7日 〜 1358年6月7日（在職 2,130日）</title>
+<rect class="bar f-amber" x="383" y="3446.7" width="14" height="33" rx="3"/>
+<circle class="photo-ring" cx="353" cy="3454.2" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABQYCBAcAA//EABgBAAMBAQAAAAAAAAAAAAAAAAMEBQIB/9oADAMBAAIQAxAAAAEUXCv0S0uD3SPFslMzgwexo2ZOi+jfrX9sLrKkfVTGSmVY6rN20dkvLFI0YTbH/8QAIRAAAgIDAAICAwAAAAAAAAAAAgMBBAAFEQYTEiAhIjL/2gAIAQEAAQUC7+w6VF1Y+OUInaaKqinq2EQLLmROUzGV/LrL6pKkjWFTER6Y/wBp5kSWFHsDbEMR8o9i5mcW1pID2cDnPJTFNdLBZEfjNXtW1cqbio2vd3dRI3bbbTYmfv8A/8QAHhEAAgICAgMAAAAAAAAAAAAAAAECEQMSEDETIUH/2gAIAQMBAT8By9UaRMN6+zIrXCfwjJx6POxycnbP/8QAGxEAAgMBAQEAAAAAAAAAAAAAAQIAAxEhEhT/2gAIAQIBAT8BLFeiLdZoOy0qSfMYd7CMlSnxsdFcYZ8Sb2BQowT/xAAlEAABBAEEAQQDAAAAAAAAAAABAAIDETESEyFBYRAiMFEygYL/2gAIAQEABj8CTJZ3vaa40npZmP8AafNBq1DzaljNu0i2qx6ANL/rlaPcDmwpWAuulvvfZe2nNrCIC8Eo31hdqjhMZxZN/pWFwQgWyU3we0N2jx0vyTZQ9olvixkJsoGVwSEWOuVp+zhAySxxu8vR2pd53Qai+X4P/8QAIxAAAgICAQQCAwAAAAAAAAAAAREAITFBUWFxgbEQ8JGhwf/aAAgBAQABPyHRiMw0gx6QlBT2U9CLw3o4IcNH2HYiBKQHmEsxiQAECoAIRN2K1DEW3tO7SAzYtxAlUrp1kC4z9LmIAAlSogjcyAAeyv6IAXbrpANx8FxU6Wj6eoZsUiTWGBGwGoFUaXcv7UIg3I46e4ZNkeQVF7shkObvJAK8QSeKH5h9mTgcQAVXn4xtGZoL4p24Fnc//9oADAMBAAIAAwAAABAR+bILs7U3/8QAGhEBAQEAAwEAAAAAAAAAAAAAAQARITFBgf/aAAgBAwEBPxAjteGFkIhYyxmfU7qgOiaJzf/EABoRAAMBAAMAAAAAAAAAAAAAAAABESFRYZH/2gAIAQIBAT8QdpsLY87Gs2GMMaJjHmRDS9M5wShEf//EACIQAQEAAgICAgMBAQAAAAAAAAERACExQVFxYYGRobHw4f/aAAgBAQABPxAJc6EDdxgDAEE2NVXn1gQXV9p0evvCdX05F4pde8PH1XJoC9Xjxvzm5Catze5fWaAbm36xatSwTCyhovX7wDLrN8ofHOpH5xC5Qxb8D/c4Mr48kxHJqjojOTAhiS7g+jxhvaBbsF3gg7xW3b0h3Z8byGNVODtH/GGtTvWxo79YqWPI6HT1fsuckdS9rynbTIUvYR/cwSkUKNA28vLw93GhZAkKMB/5gRW+z+J/MdUcBuqUOnQ+cQfWGCvez8aYc4gVIfrDGS5STpeR8PfDhOc8w8qkSw44wIQqV7vbMl+/HOJnTR4HQfH8/NY36iMjyJd95youBmaMRPrCiBwdXGK/ZzkQDV29Z//Z" x="338" y="3439.2" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="3459" text-anchor="end"><tspan class="yrs">1352–1358</tspan><tspan class="name" dx="6">足利尊氏</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun18" data-person="shogun:足利義詮">
+<title>第2代 足利義詮　1359年1月7日 〜 1367年12月28日（在職 3,277日）</title>
+<rect class="bar f-amber" x="383" y="3485.2" width="14" height="51.8" rx="3"/>
+<circle class="photo-ring" cx="353" cy="3492.7" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAwEBAAMAAAAAAAAAAAAABAUGAwABAgf/xAAXAQADAQAAAAAAAAAAAAAAAAACAwQB/9oADAMBAAIQAxAAAAGHxdVUt0171fTVSZDPDQYHpqEGcLstWQPgYN6Ju0gR7o/qqOK0A36LbRqf/8QAHhAAAgICAwEBAAAAAAAAAAAAAQMCBAAFERITIiP/2gAIAQEAAQUCvn9VVpNaNNDovSwzyCMhwcu0Whmuj8MjDBGMct1oHF1ScT1fSrx6LHJOXjD3qO8ma9qvCMccWAdncWmS94uScr2rCJ0tsnzZsq8YP2kMa9cJA8FkTHAJccTwAjO/dcysp//EABsRAAIDAQEBAAAAAAAAAAAAAAABAgMRURIh/9oACAEDAQE/AVV7n9FVVwTSFmaKXCUlpC2UB3yY3p//xAAdEQADAAICAwAAAAAAAAAAAAAAAQIDERMhBBJR/9oACAECAQE/AeVRHRzZPo+zJvehQTL9S8atE+PKEtH/xAApEAABAwMCBQMFAAAAAAAAAAABAAIRAxIhE0EiIzFRYXGBkRAyQnLB/9oACAEBAAY/AgzZPDWz13RurH2CnWf8I0z+O66YWs6NMESUX71D2VrqrpOAsuEDdE064JMYlYew/wB9Fa03NdiUG9gip+VmTLFSddc0jiCDaYiOoIUiFy23E7SiTN364UwNtl9zRHcLluHuJVtR2m7yidVp8Ap+k1xeRGTgJ4dQceCcvPVXNkE+UYn1W6E/Swgk3YJKy0iOEZX/xAAhEAEAAgIBBAMBAAAAAAAAAAABABEhMVFBYXGBkaGx8f/aAAgBAQABPyFOpH7H4E24cwFDd1hiMjOxmuOGtnMrB3LXExq7gUMZqCYqlvDH8hMElJq/UsQybXmLE0ux5XUV6KVm8vtG8ZKfSZJz9niFvFhxOLBS+RG3IYKreYJlAH0+fmYQNGob9wLwbOImQ8YxzL84aw9d3GWUUOsutfsORxGkOIXXt5Cw4uMVJarSAAjrJfUKqiR9rDglSiyPOSA7pahzqOErap3qF1j2GHF45qYjOMpRwfMo9tE6mss//9oADAMBAAIAAwAAABC4IzGTBJzn/8QAGxEBAAMBAAMAAAAAAAAAAAAAAQARMSFRYYH/2gAIAQMBAT8QZjg35KT4e4qhkYNjIzdLjXbEKOkzAIkf/8QAHBEBAAMAAgMAAAAAAAAAAAAAAQARITFhgdHh/9oACAECAQE/EEN17j53XyBG8wt0y46WtTGC5TGcyrCj/8QAIBABAAIDAAMBAQEBAAAAAAAAAREhADFBUWGRgXGhwf/aAAgBAQABPxDVghqN6q7Yj7knDAUEGPZ8x3FqRQlA5tld4nOAQrEu28EU7iaG8R5Rv3rxgCWMK4iInWNHmmNhIsoSjF995K6O4WKwkUAMChBkSzTBjrbgsMG4iLYCZ/3eG09RLI3oQhvk4bsUiFZ5aHK/ciwhGwBVLsRb/wC4cSY2k8vLf+ZEioFvO5+eeYqBAYm91fY/DEGwkFaN6iJjBI9ZQogaY0fR7xxciSSmVBUs/keMuOq2tbIrWIdJQMALV8I6sZIKOII0CyJQXszqI1nMLHsAk4o/Lx9aFMgWyivfHMj3l3p0sE2ThI1WSjcolVZMnMQLEysj7X894e7aFkSSSg0Y7fShAMwGRSI8LRoBMFQeEWwpK85jEQGQVTm/2zxhUiG1SOfzEpP6efxxCogohdvzJDTkQMgk4yrWS0IRIlTHCQff3P/Z" x="338" y="3477.7" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="3497.5" text-anchor="end"><tspan class="yrs">1359–1367</tspan><tspan class="name" dx="6">足利義詮</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun19" data-person="shogun:足利義満">
+<title>第3代 足利義満　1369年2月7日 〜 1395年1月8日（在職 9,466日）</title>
+<rect class="bar f-amber" x="383" y="3545.7" width="14" height="153.5" rx="3"/>
+<circle class="photo-ring" cx="353" cy="3553.2" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAwUCBgcEAf/EABgBAAMBAQAAAAAAAAAAAAAAAAIDBAAF/9oADAMBAAIQAxAAAAHLTDtim3xqGfLpS5HumWUhV7umetDRfIygfDPW3ATbMI/iRU851VO6CDiDP//EAB8QAAICAwADAQEAAAAAAAAAAAEDAgQABRIGERMiIf/aAAgBAQABBQLELm52t1damswBy9rUtx0CtmeL/ONtU+oJZCeWASN2ohueJ+vv0PQgOpH87KIcxOusOzWqlrdhFQkWSC43rE7MueTxGLLCYtVVsBLtjb+5XMEslgm4YTyi3xE+4Sl/Bn49/wD/xAAaEQADAQEBAQAAAAAAAAAAAAAAARECIQMQ/9oACAEDAQE/AUiQ3mqmctdKeeU135nzJeH/xAAbEQACAwEBAQAAAAAAAAAAAAABAgARIRIDBP/aAAgBAgEBPwF25W4WLGzPnfanqyspWBTNUwGjk7vRDQ2f/8QAKRAAAQMEAQIEBwAAAAAAAAAAAQACEQMSITEQIkFCUWFxEzJSkbGy0f/aAAgBAQAGPwJMpUxLnmAh0CpU8Tz58TYLoRYeKtaoYsp4Uhxj1RAeHRuFhOMDB4rzu0fni4RPssnRynHwuQIaWNjJcEL+plRtpMIFtXHkjcYjaApGyl+yjauHy9xn7ow0y0yCEA8OI1EZlFpNrfpR69I7R+IAgHDM9JjshWGQ7BPr2Ulqm32/qyv/xAAjEAACAgEEAgIDAAAAAAAAAAABEQAhMUFRYXGBkaGx0eHw/9oACAEBAAE/IUfUPnCA5gbqabJ4bCYgABbQOT05U+48AEQVrEi5c6E/pwgK5kFB5PNMsdxRMuKWF+dDNl8x26YEJyyZTAA7ylijUDCjhgkQr1KwXaZ6Fw7Hpg11wcxrYrQCH4CGROBPDtS+2w2hNnAaQ2MqYGO1ocGaGedDx1LMDTR7eIY5gVL9wbOAIAYxBhdFEgWOO53dIvzDAoCmRvX5i1oD+514lgFg1A8atv8AaLIIALfM/9oADAMBAAIAAwAAABDQa/oz5/zv/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARIUEx/9oACAEDAQE/ENnIAwtL0TRjkg+MoYmmPsWqw+Dwv//EABwRAQACAgMBAAAAAAAAAAAAAAEAESExEFHR8f/aAAgBAgEBPxCwpGkFLXEMLnzgWJN9RrNiYwPsWhln/8QAIRABAQACAwACAwEBAAAAAAAAAREhMQBBUWFxgZGxodH/2gAIAQEAAT8QQzXDBwOHX0r3wNr4PMdHofcS6upn28kX6FIp5xHsJRtIzDcf5wWXMD18fjXIwaZnPXMlnZLXFAqoND3mwyqoN1udZvFc2AVBkGxHDdfnhQ2wsuM/r74bglIHAOf3yxQdWLl4CN6YK4fMfvkhbIoBqxJ9HBPSkO24zvv3gLMlMJHYxnpPvhHYEDoEXz/14gShwHVwO3sONwRSoSN+mdoN4WEFNa3O8+3mtBRCGVejHLsETIT29k1W9vxIJAAaN84GJojxpMI7It1POBAGtA4e9GGtN65bXCkE9QBkUPt5NdQMU2rbXzGM74ycPJ011if28POIMAEPwRH4Gd4W2pZhbtLndb09cWXsUfYOxCjMnrwp+EVZwguKFfIe+YkCoG7orbyZymHRGQ8Iw7fi89yqlztXOVX/AHn/2Q==" x="338" y="3538.2" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="3558" text-anchor="end"><tspan class="yrs">1369–1395</tspan><tspan class="name" dx="6">足利義満</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun20" data-person="shogun:足利義持">
+<title>第4代 足利義持　1395年1月8日 〜 1423年4月28日（在職 10,337日）</title>
+<rect class="bar f-amber" x="383" y="3701.2" width="14" height="167.8" rx="3"/>
+<circle class="photo-ring" cx="353" cy="3708.7" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAgUGBAP/xAAYAQADAQEAAAAAAAAAAAAAAAABAwQCBf/aAAwDAQACEAMQAAABwp3LnldNZprgTmf6ctCapytEaEOhwggrxxtmmgy7AdNIsHpkz1Fz6HP/xAAjEAACAgICAgEFAAAAAAAAAAACAwEEABEFEhQhExYiJDEy/9oACAEBAAEFArn7BXn3/pv2nhorYvcxPfH/AHP42h4t3ttjTHS5mB3j5/IQxblaiME1HO9EJBGDxyoNq5RUqkD1mdZGUlnZiKDZjXoRkkJQ2vZVWKR49HxOn+O0FkejNcFgajNRBFHeP//EABoRAAIDAQEAAAAAAAAAAAAAAAERAAIDEBL/2gAIAQMBAT8B1HqygzqC+em44NK8Z5//xAAgEQABBAEEAwAAAAAAAAAAAAABAAIDESEEEBITQVFx/9oACAECAQE/AY3iNt+U7USHF7FlgLrrFIxOGEPS5oG/q//EACoQAAIBAwIEBAcAAAAAAAAAAAECABESIQMxEEFxsRMyUeEENGFiosHw/9oACAEBAAY/AtPrCL7OW8+a/D3jaw+IZ2A2pjhiaK4/iIxYq9RVTKWt15Qr24rvgDvPEZWU3W5/UxKIQ3rG6zczxXdtTG1KS3kvkcbH3mTWarbnSzSXF1BrWk8yS0ylftaMq3BT6TUvuepwzS2EDB26TbPMT6P34WmbZE3o3Iz/xAAjEAEAAgIBBAIDAQAAAAAAAAABABEhMVFBYYGRscFx4fDx/9oACAEBAAE/IRgKz/fmPsV5MfiFFbZDrayrT3CVbVgvqSqHdBdPnvZLZZfigaK3jmTIbhyCa8+xkoCWK29fwgc+0sMjoYgFahCnzMZ68xA7neXWWQ6Zw8fKCsfqQJKMdm+kUWA2E2j7X+ohfwxd1rJ0118lPmOI5pjjyQSOzuivmAlk4m42tuYqOQT9nclEzVR9fevUSusvWZgUO+zzCxMimDgrf4vaf//aAAwDAQACAAMAAAAQiTVzUxybN//EABwRAAMBAAIDAAAAAAAAAAAAAAABESExUXGRsf/aAAgBAwEBPxB93F30TRavJXBI7XfpLVo0qx9iQomOzOD/xAAcEQEAAgIDAQAAAAAAAAAAAAABABEhYTFBUZH/2gAIAQIBAT8Qejpj7A7YuiBuHSLrDq5ZPNEfUxUd8Ru5KfYDbxH/xAAjEAEBAAIDAAICAgMAAAAAAAABEQAhMUFRYYGRoXGx0fDx/9oACAEBAAE/EDqNvTzRhiidIZJBKKznjbgKFXVZPxiHDY7KXVdGskAA0AnxiCAB2veNTrURL/RxgyCRJ3IdJr+RMguKPQfCv9G947I1ioTljZlnZ8fvwx6P7GAEx2jc/wCGPfuhDgW3YPMG+vFnr3C4BdB7l52W7wKkoO6cv+Md0LTZ7MDNWlAjGGw7jldwMLyHb7cgcjesKQCbNL472PmBoXRaRDl2s++5iDtGbC1upLmzMuuzCAqRGcjB2bvamj8FPk5GcXHZqvFJn4E/CNEIqDF5iZUZVXUHwfieb79wIt1K6u9+pw+bMpi8I1nEP7Ou5hONgB0Of0XE2IKCfMiUDFbB1H+95DwgfE7v3T0fnAMCPdC8fb85OSd//9k=" x="338" y="3693.7" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="3713.5" text-anchor="end"><tspan class="yrs">1395–1423</tspan><tspan class="name" dx="6">足利義持</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun21" data-person="shogun:足利義量">
+<title>第5代 足利義量　1423年4月28日 〜 1425年3月17日（在職 689日）</title>
+<rect class="bar f-amber" x="383" y="3871" width="14" height="9.3" rx="3"/>
+<text class="label" x="368" y="3880.5" text-anchor="end"><tspan class="yrs">1423–1425</tspan><tspan class="name" dx="6">足利義量</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun22" data-person="shogun:足利義教">
+<title>第6代 足利義教　1429年4月18日 〜 1441年7月12日（在職 4,468日）</title>
+<rect class="bar f-amber" x="383" y="3906.8" width="14" height="71.4" rx="3"/>
+<circle class="photo-ring" cx="353" cy="3914.3" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAABQYBAwQCAAf/xAAYAQEBAAMAAAAAAAAAAAAAAAADAgABBf/aAAwDAQACEAMQAAABMTdzzemHqYM9nZ6JhOLs7VkZ+9flBfHOiebFGn5q22RCQV+5PrhBJzf/xAAgEAACAgICAgMAAAAAAAAAAAACAwEEAAURExASFCEi/9oACAEBAAEFAuPvjNg1iamrvKuh4HCxKlMZNNFZ/iDxcEw/jgoBVBxbT0ERzgDM5SR1pdPCU/pdlMOTZTIFoa49fEDhByYDITAxm7VPRUsNQUbFHq3ZZWvgeNuVhG1ZNzf/xAAdEQACAgEFAAAAAAAAAAAAAAAAAgEREgMQITFB/9oACAEDAQE/ATnLZ2hS/TTe+x1mzCRVk//EABkRAAIDAQAAAAAAAAAAAAAAAAABAhAREv/aAAgBAgEBPwEWc1FbUkI0Z//EACgQAAEDAwMDAwUAAAAAAAAAAAEAAhEDEiEiMUEQUmETMqEgUXGB4f/aAAgBAQAGPwLo+rRtlmTdyESwWub7mnj6bKrA9hGx5VQ0WMYHxho26R0DG8rSNfcj6gleDt0gKT73I6g2OSmzj8otP6VvyE+sZmYCwrnbj4RjY74X9QqU3QQc5Wn1Czt4Qi4H7WFQyk8+SFDpbHcFN+fGVOqOBC//xAAhEAEAAgIBBQADAAAAAAAAAAABABEhMUFRYXGBocHR4f/aAAgBAQABPyECqu404v3C4ThaWZJhML9hzKBNeI6o1E3qFv8AkQMpZ2RcFBglCq/PuG8EYW7hc5+Jnb+o3mriB3rqvErQt3V+QXBFgm1muDI9u0vylZ4IsM36aa4uOBna6S1hbLAwzMo7S8czjC+0rWRscndHAXl0kG2KX0haij02MH4By7tMGMLyK+RwyrlHyZaXqC/cQr0GLNosWaCf/9oADAMBAAIAAwAAABDXeC3huL9L/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQARITH/2gAIAQMBAT8QZcQeRCc9tpqLn1I0WBrMdv/EABgRAAMBAQAAAAAAAAAAAAAAAAABIREx/9oACAECAQE/EExt9VGMamZEPS1cGlFqDSH/xAAhEAEAAgICAwEAAwAAAAAAAAABESEAQTFRYXGBkaHR8P/aAAgBAQABPxBAMDuMRitNjh8jBKGEhws0+MRFCT5TMIKDDDzVhkQvTQyalafziIQPnEYwjDXPTA8yadUm8mpOljEEcij7LG0iq5J1zl1oqcNY1IiCHJ8sVswNqnAYowflSsCGrjjBdVGxLpaAI9rjOCltjtVyZEQwXzMZDQggtXo85NQn5hNf28uTFgTTVpjaEIbULw7/ABWWrYPC1XvI15YxKjxuST7i4aKmBn6eRxSDp7IdOpXXWApEq7OXfqmAJgE1Nt6xF6QAI3LX+vGnWygfOMKfQhgTF9iH7gC6UzI36Z2Y6CkkrwqGneRgp4J6p13+ZNTWk+AhHnv3zgn4CWAxqC8nUEhD0O3ef//Z" x="338" y="3899.3" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="3919.2" text-anchor="end"><tspan class="yrs">1429–1441</tspan><tspan class="name" dx="6">足利義教</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun23" data-person="shogun:足利義勝">
+<title>第7代 足利義勝　1442年12月9日 〜 1443年8月16日（在職 250日）</title>
+<rect class="bar f-amber" x="383" y="3988.3" width="14" height="3" rx="1.5"/>
+<circle class="photo-ring" cx="353" cy="3989.8" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAHAAAAgIDAQEAAAAAAAAAAAAABAUGBwECCAAD/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAIDAQT/2gAMAwEAAhADEAAAAYv9QHqaVhh7nonvKn7eqnN7RSWEs0jpXPU63a3s+8+dGq4sF+XO7KezjROb/8QAIhAAAgIBBAEFAAAAAAAAAAAAAgMBBAAFERIiIQYTFDEy/9oACAEBAAEFAuWAqbGDp1ZclRq4moaX5vmkHsXurMn8VQEFJ5Czyh0CWDArcTVC6RbTYbav2GlrZZuLsDk2EJX6eofNCIgY261lgEOolMVKZDOnWGUmHqlw8j8LLoPnJjN/Ke7P/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECESAhMf/aAAgBAwEBPwGPSiSFplksP//EABoRAQACAwEAAAAAAAAAAAAAAAEAEQIDEBL/2gAIAQIBAT8ByaJ6ZrbjeRKmsSHf/8QALBAAAQQAAwYEBwAAAAAAAAAAAQACAxESIUEEEBMiMXEgMjNhQlFSkZKhwf/aAAgBAQAGPwJFl0NSqczF3K9M/kmS7LK4ODtd771oLhtdb+39XPJhWEG7OW7T7riX8WaMjGF7vpGqLnxPiOocsUfmbmO6jkkAD3Nt1bhsrHUX3V/Ok6Gd/DPTsuSbim07aJXYY7qh1KAGQG5srMccmHzArleL9yrkLR+050T7vSsl6uHtkgmi9PB7Bf/EACAQAQACAgICAwEAAAAAAAAAAAEAESExQVFhcRCx8aH/2gAIAQEAAT8hIzoHJHERrfcUXQdUoBhVG2+4/E+KX3QcpuUXW3EWKR1dLnHXuA7MhnuO55N6rcYDFNByJ+zkHwS/WbwiDucOnt8IVogaX4mMkphlcFEkz+NUptyTCTlaqGiBU/lz0QiwFAcEP4XNEbi+TL+TLf0lhju4YKzSsnsmGUHgkI27I6TQECpzQqMS/d9s/9oADAMBAAIAAwAAABBBGZzKZRFr/8QAGREBAQADAQAAAAAAAAAAAAAAAQARITFB/9oACAEDAQE/ENsJMBYlIdyHk3ubt//EABkRAQEBAQEBAAAAAAAAAAAAAAEAETEhQf/aAAgBAgEBPxDZSNeyh2SC2GZGe2nb5lwv/8QAIRABAQACAgEFAQEAAAAAAAAAAREAITFBUWFxgZHBoeH/2gAIAQEAAT8Q3vEw0Z+6SoAeVdYE5zYbTwQyK3OwJ7Yjl9kqCA59nSZooy3eGsvf7hbKovRX+GPs4+IHqJWp4JLgLRYgPoBnArOcOZsMFQEe9/JMqh3HIKbll18XFSySb8i+SfbKnIpBh8oecuCIA37Tv7BuckkNDQ3R07nPOEfyFD322DLPXHQWzhwnB05LB4qBfX0wpY6JNiHuIjjUUpIgTgBSYEOQwY24WSb5dyS4VcnHAQD4yeuill7Sh8GXkFLtHOJ086EL7LH7xT0YqvgNZon2YXT2J09ZvBH+ELkbHdmshA9jLC2eTO1PjCBUXYOVAeWv8H7n/9k=" x="338" y="3974.8" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="3994.6" text-anchor="end"><tspan class="yrs">1442–1443</tspan><tspan class="name" dx="6">足利義勝</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun24" data-person="shogun:足利義政">
+<title>第8代 足利義政　1449年5月21日 〜 1474年1月7日（在職 8,997日）</title>
+<rect class="bar f-amber" x="383" y="4027.4" width="14" height="145.8" rx="3"/>
+<circle class="photo-ring" cx="353" cy="4034.9" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAgUGBAMBB//EABgBAAMBAQAAAAAAAAAAAAAAAAECAwQA/9oADAMBAAIQAxAAAAEsWtvi0z2qmLunMLKSYUNZ8/pQz4CXzbFHO1dpKz4HqlSJM/qN05+ER//EACAQAAMAAQQDAQEAAAAAAAAAAAECAxEABAUhEBIjIjH/2gAIAQEAAQUC3BwlYtuajiLahxlZUf8AgvNmt3XYzKV9v0xAF1xVTlc5vPDKfG8P0knxa/qOJ3KvFuxVhFa7lNK8hAHSMyFOVus6VejZ6GfLHrS6Ov/EABoRAAMBAAMAAAAAAAAAAAAAAAABAhARITH/2gAIAQMBAT8B9FKLJfOV2IdN5//EABkRAAMBAQEAAAAAAAAAAAAAAAABAhEDEP/aAAgBAgEBPwGXg7pnJFS0vOeowUJef//EACQQAAEDAwQBBQAAAAAAAAAAAAEAAhESITEDEEFREyAiYnHh/9oACAEBAAY/AkNFliwXV3sVflbbgIhAnUDGtti6aFr1jmQoLs/FficnCJuvoqoc7ujgJziM4UtN1RJqHe1bn47R98yqaSDF9pa6CoLWuPaNbiVx6o2//8QAHxAAAgICAgMBAAAAAAAAAAAAAREAITFBUWFxkaHB/9oACAEBAAE/IUQTZhtckOJZH0wUYDZr6lcMqAMAC3LVb7m40F7ioASJOQYoAwkqAJR/vimM5G7wp2AXlQW8/jDcQtoNKAur9RgvJU4BL8rY++oAxZVP9gobC2bjoBIGyMxtoZXl+hAcAx1nEQWT5hkbMGTBbE4ycZIMugTzQjExhqEVVA4D1ArcF7VQswWrn//aAAwDAQACAAMAAAAQKT00yp6qa//EABkRAQEBAQEBAAAAAAAAAAAAAAEAETEQIf/aAAgBAwEBPxBOIH3JcgWFsyJHS6D5/8QAGREAAwEBAQAAAAAAAAAAAAAAAAERITFB/9oACAECAQE/EOj0wGylpUMlEQ8Gj6baRw//xAAhEAEBAAICAgIDAQAAAAAAAAABEQAhMUFRYXGRgaGx8P/aAAgBAQABPxCzyRS+Cz7x0QC93Q0zvAQN3R2nyZFdAhpSVdc7/GXEijxvu5RX2b5iENqPoniY9XAKdqn8P3myp0UApPpMr0R0CTV477co+pFRuhhgIHXK0buTNVNAg2LefWQbIXZr/JgOAWDc8fhucJWb0TLiFbURgl5MV2BXKvA5gEUuzpOWGNJCNiu/pfvAzmooa3nAFUZ0HrER9OgrwfOj95Le40VR9eXBgADS3a8dnGte95EIC9PHjNZS7T7zUNUDW+UOcfrEouN3DrGEQNi8YsjR1zzkVeQRS8424tO4KPvEmK9gQyYUK5r3cZhTTGB3gC1BVkc//9k=" x="338" y="4019.9" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="4039.7" text-anchor="end"><tspan class="yrs">1449–1474</tspan><tspan class="name" dx="6">足利義政</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun25" data-person="shogun:足利義尚">
+<title>第9代 足利義尚　1474年1月7日 〜 1489年4月26日（在職 5,588日）</title>
+<rect class="bar f-amber" x="383" y="4175.2" width="14" height="89.8" rx="3"/>
+<circle class="photo-ring" cx="353" cy="4182.7" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAHAAAAAcBAQAAAAAAAAAAAAAAAAIDBAUGBwEI/8QAFwEAAwEAAAAAAAAAAAAAAAAAAQIDBP/aAAwDAQACEAMQAAABqltg9izWriVtKFxMgKt57X/Ou4PKwIqwk1yJvFM6Uh3DMaM+i1aE6CYoDL//xAAjEAABBAEDBAMAAAAAAAAAAAAEAQIDBQAGERITFCEiIDFB/9oACAEBAAEFAo2tdldSxFKzTAOWNGHCB+ZUivOmrW9OvYTF3JEvuiePOaWKjFNHZxZt7IqdV+3PGvRkVEaJMFL9WZbK8F50KY6wdnJcgnkgkH1YeyOysSrCXbzt8//EABkRAQEAAwEAAAAAAAAAAAAAAAEAEBESIf/aAAgBAwEBPwFC1rCOvIuyFLpcf//EABsRAAEFAQEAAAAAAAAAAAAAAAEAAhARIRID/9oACAECAQE/AS/lD0vIoXqIF0uDAYBsf//EACoQAAIBAwIEBAcAAAAAAAAAAAECAwARIRITBBAiUTEyQWEwQlJicYKR/9oACAEBAAY/AmvjVbqGfepN9psAWZFArql4g/sKkfhwyyoNV2bxHbmYFNr5v2pExcYNq2Rr12v4VtCF3LqRcDC49eZ3bBJOm/Y0V7E8gO9MMeY8nY/VUUcEytoQLarin4iWQfZ6ZNYDPXTGo/NZJ/tB4XZGHqK0SrDN7m4NbnEy3t5V+Vfg/wD/xAAgEAACAgICAwEBAAAAAAAAAAABEQAhMUFRgWFxkcHw/9oACAEBAAE/Iada4DQWLUcHPcMZFcEH5MuoSqzAOpEN04E4QWB0H8IfHw8hFQMxAtSSXvGoIiYK3Zl5hEarUSah5YLwsSPpx4AYS4bhAZaiFIIDHENVghe5vUUSAjJNDAhkgSwLATUIh7uPuSxS2IfsI3HgKG/YJx4RYOjBgqMEguuCh9hGDVupCB4ELUIEZanU1BmC6UuDF/Z//9oADAMBAAIAAwAAABCxDdQIOabX/8QAGhEBAQEAAwEAAAAAAAAAAAAAAQARECExQf/aAAgBAwEBPxBBqQltszU8ayf2U0e59HH/xAAZEQEBAQEBAQAAAAAAAAAAAAABEQAhEEH/2gAIAQIBAT8QQQck15QI5uKPtw/zQSZKDvn/xAAhEAEBAAICAgIDAQAAAAAAAAABEQAhMUFRYYGhcZGx0f/aAAgBAQABPxAlIwBiRr+afB3lAY2XuEiQJ305IyMBE+PfEChsbxQYGqkBvnOBoHMxgNPs5yD/AOKSPM4PIs8OLASw2JE9K0xb62VtQ7VVpjrA4aQTrW4OBBrzMbYwRjwZoR1eHIwafZRLwgi+x6wiLBGCmE/eV6gvV5xCB1jkf6OCagA00IP5hJ4ak95BFEg1grLAa96wYFndCQTUUXzveDzgHSmC+kQ1aEVWNXgHJ4Ocwr5rv6wLhOEr6mLOxihH4cIoSI3+MQCS4oaor840S4aS5Ou9rV84TUFk4PvIQv77yKVVwu4OmYnka9uBcGmJVkbhGNta8M//2Q==" x="338" y="4167.7" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="4187.5" text-anchor="end"><tspan class="yrs">1474–1489</tspan><tspan class="name" dx="6">足利義尚</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun26" data-person="shogun:足利義稙">
+<title>第10代 足利義稙　1490年7月22日 〜 1493年5月7日（在職 1,020日）</title>
+<rect class="bar f-amber" x="383" y="4274.4" width="14" height="14.8" rx="3"/>
+<path class="leader" d="M381.5 4281.8h-4L372 4278.4h-2"/>
+<circle class="photo-ring" cx="353" cy="4278.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGwAAAgMBAQEAAAAAAAAAAAAABQcCBAYDAAH/2gAIAQEAAAABcq2zcCLf8kLNkS67CWnIU8vuHxNg00s0vMrAhuNSmzvAZx//xAAgEAADAAEEAgMAAAAAAAAAAAACAwQBAAUGERMUEBIV/9oACAEBAAEFAtcvq+xzTAYMSIY41UM25fG70fo7lCNKtOnpdpKykqmbh6Nbtj1t5LClTSELIEs7tnX4kA1Z65jGbJpltriFJRycPky1+sD4tWsZuUy12yYyLqiiWc5bdyFnr3dDACsr0o7PH3UIsX2Rd9//xAAvEAABAwIDBQcEAwAAAAAAAAABAAIDERIiQVEEEyExMhAzQmFxcoEFgpGhkrHh/9oACAEBAAY/AlHsNAR1uqPwu7j/AIhd3HT2BNYGhrNowGg8WXaXwtMJGGrjojfZKzVh6VZs7OGb3clG6SkpjfvMJ0TJgCLxWh5js2gWhzbq2nQqWaGMQ1Foq48fILdT3v3ZphkINPhNZA20DAwJkY8IosD2n5TdribV0XX7V4JmNOKGmL1TpI6Qtee7d1EKT6g4YBhj9cz2NNeDc1dFLM6R2QfwB0IRmbewN6vJXlzy0nNb50joQDwNeX+oiWLeEPIuL6cFPJpGSroZrCeQdw/ao6PeZVsBVrYWRfaG/wBq6ebeHRrq/tANFBo3Jf/EACQQAAICAQMEAwEBAAAAAAAAAAERACExQVGBYZGhsRBx0cHh/9oACAEBAAE/IYjBqvGbT2e0YdLH+UPEUt/wlNeVCDL2PkSNvrQi/uojhqr3AaQcXBNzsEwvBBDRoGAN4fFD1+HMqKJgdeYxIx7IjASvEpMHIPyw9QzAPmIjU48wBkwNt1DaK7CMK+KL6uD7M9WAG7PaCqAGB9QTdfsE2BSLL/kxyfgAhyCSyJvVed1pGMaRyfAEN0KMgRNwPFoQl2DXolbJHXAdFwtAbHCtQBklxgeYVWNSlxmFHhURIFeHdPpqHEr+r6nM/9oACAEBAAAAEN5bb9a//8QAIRABAQACAgIDAQEBAAAAAAAAAREAITFBUWFxgZEQocH/2gAIAQEAAT8QziffG6JPRE8r7YKeyNmd+2N1iE0Oe/b7wBvERpSOrUDz6/tgWArbwBArT4xQ8V0FQV5LZwTBYOJQPFIPl5mJgTR4MuBtA+XDpNilCoeDR9mdZZZawDSu4o/zrA4xC7mzhn4HZclwOAnRK2yaOxMb2UstoN7VU35xJlncwi/bv7xwBciX85yEYpMtt48ll8CdOTe7pASFnmUULEDu4NO6Zlj9Is5083fV3pfABjy+D+bjjvBE177ww0QlksJAbFBX5wEuRJPCnhTSeMS5sFJHrv8A5gl4DCGsEtJHqwqFijadaRRBpRevuEBgO0HV53DNz2lX6gFqcLO8HFcZZpwpn6cGq8QQPe3nffnWDmeVE8tR6r6wpoggUtuxb2tV85//2Q==" x="338" y="4263.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="4283.2" text-anchor="end"><tspan class="yrs">1490–1493</tspan><tspan class="name" dx="6">足利義稙</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun27" data-person="shogun:足利義澄">
+<title>第11代 足利義澄　1495年1月23日 〜 1508年7月28日（在職 4,935日）</title>
+<rect class="bar f-amber" x="383" y="4301.4" width="14" height="79.1" rx="3"/>
+<path class="leader" d="M381.5 4308.9h-4L372 4312.4h-2"/>
+<circle class="photo-ring" cx="353" cy="4312.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAgYDBAUHAf/EABgBAQADAQAAAAAAAAAAAAAAAAMBBAUC/9oADAMBAAIQAxAAAAHeiOnkaifmvsbQi2mJXUej1yiquNfyWFDwg655ZurwaWX1K5zljpX91TzcRh//xAAfEAACAwACAwEBAAAAAAAAAAABAwACBAUREhUhMjP/2gAIAQEAAQUClj0NfEXuz1GmO45mfPicG8fNFuj9nmDNv3LxmZ9K9zQCan8jy6ijUuB7jYWAUh/NK1q5T3JsvmdHiui2rjLAV2cl3H/2pU3snXZJ9xlC9u5+iE9z/8QAHREAAwACAgMAAAAAAAAAAAAAAAECAwQhMRESQf/aAAgBAwEBPwFLyPXhl4/SuCexFiul0TnlrkybPyT/xAAdEQACAgEFAAAAAAAAAAAAAAAAAgEDEBIhMUFR/9oACAECAQE/ASL3iBX1rvmCUWeRqW6K6PT/xAApEAABAwIEAwkAAAAAAAAAAAABAAIRAyEQEjFxI0FREyIyQlJik7HR/9oACAEBAAY/AsC6nUYZOjuS8FP5E6qXMtyb+pjIvSJGDbFSTZeZPEclWc+mWtygid8BBg9VC77gdhGGT26KQZQUkiOs4mqQScuWwXDqOad1FRraiD2k5HDSbYSiynf6T91AQyvd2YWlRz9lDuFT9I1K6Bf/xAAkEAEAAgICAQMFAQAAAAAAAAABABEhMUFRYXGBsRCRodHx8P/aAAgBAQABPyGZbCuoJ5RpR8LN+8Sx738y2N7F/dKUhr5HI/Mvx+ZQGneMzSxzxBNBpzr6aEeTUrr9GCuAmbxS4ryelyuqMRVN6gJctexqGaY7GNp9TAoh0Rp/sJt8zUElc1dy7BniB115KYwQd5gmqlYzqKma5mAMTOcfV5lMersxz7V0HbLrBBRKJwGQg1W//Dz8TSCjif/aAAwDAQACAAMAAAAQ2yfpflnr9//EABgRAQEBAQEAAAAAAAAAAAAAAAERACGh/9oACAEDAQE/ELJkLMRh5NDjLnczFrBRyT03/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERIUH/2gAIAQIBAT8QJAoN9pqISKago+kT0//EACMQAQACAgICAgIDAAAAAAAAAAEAESExQVFhgXGhkfCxweH/2gAIAQEAAT8QuzM1dCgtW+YLCzaxWl9C6KWROyl4sr8ZzEA+JAv9aBlY7raid74HqZmE46QLqLSaGjPXMK4AKWLT8RgdWxqnhmIJ8Xeajn7IFuSjexzwzSH1Eh1aDQ5KcN6lk8Lqi9d9lzdjuaG+reIjQuxYxuLWgpwprq3nueIoBPqZhqzzpr/IOCvmB+Rd3KWn5RUrbIqay3Nz1RIlOMuX6iJEhGCzs1MXFpUevJzDsbH2I6H8kK9DRuY8Gahr0cv7iAc/ijAdpZVmjEoTYb4Vf7hioooULKnAEoQ0dQ1YcXV57ggvCkBfCtB6gaNNlDzefavlCBxkW/a8v6T/2Q==" x="338" y="4297.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="4317.2" text-anchor="end"><tspan class="yrs">1495–1508</tspan><tspan class="name" dx="6">足利義澄</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun28" data-person="shogun:足利義稙">
+<title>第10代 足利義稙　1508年7月28日 〜 1522年1月22日（在職 4,926日）</title>
+<rect class="bar f-amber" x="383" y="4382.5" width="14" height="78.9" rx="3"/>
+<circle class="photo-ring" cx="353" cy="4390" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGwAAAgMBAQEAAAAAAAAAAAAABQcCBAYDAAH/2gAIAQEAAAABcq2zcCLf8kLNkS67CWnIU8vuHxNg00s0vMrAhuNSmzvAZx//xAAgEAADAAEEAgMAAAAAAAAAAAACAwQBAAUGERMUEBIV/9oACAEBAAEFAtcvq+xzTAYMSIY41UM25fG70fo7lCNKtOnpdpKykqmbh6Nbtj1t5LClTSELIEs7tnX4kA1Z65jGbJpltriFJRycPky1+sD4tWsZuUy12yYyLqiiWc5bdyFnr3dDACsr0o7PH3UIsX2Rd9//xAAvEAABAwIDBQcEAwAAAAAAAAABAAIDERIiQVEEEyExMhAzQmFxcoEFgpGhkrHh/9oACAEBAAY/AlHsNAR1uqPwu7j/AIhd3HT2BNYGhrNowGg8WXaXwtMJGGrjojfZKzVh6VZs7OGb3clG6SkpjfvMJ0TJgCLxWh5js2gWhzbq2nQqWaGMQ1Foq48fILdT3v3ZphkINPhNZA20DAwJkY8IosD2n5TdribV0XX7V4JmNOKGmL1TpI6Qtee7d1EKT6g4YBhj9cz2NNeDc1dFLM6R2QfwB0IRmbewN6vJXlzy0nNb50joQDwNeX+oiWLeEPIuL6cFPJpGSroZrCeQdw/ao6PeZVsBVrYWRfaG/wBq6ebeHRrq/tANFBo3Jf/EACQQAAICAQMEAwEBAAAAAAAAAAERACExQVGBYZGhsRBx0cHh/9oACAEBAAE/IYjBqvGbT2e0YdLH+UPEUt/wlNeVCDL2PkSNvrQi/uojhqr3AaQcXBNzsEwvBBDRoGAN4fFD1+HMqKJgdeYxIx7IjASvEpMHIPyw9QzAPmIjU48wBkwNt1DaK7CMK+KL6uD7M9WAG7PaCqAGB9QTdfsE2BSLL/kxyfgAhyCSyJvVed1pGMaRyfAEN0KMgRNwPFoQl2DXolbJHXAdFwtAbHCtQBklxgeYVWNSlxmFHhURIFeHdPpqHEr+r6nM/9oACAEBAAAAEN5bb9a//8QAIRABAQACAgIDAQEBAAAAAAAAAREAITFBUWFxgZEQocH/2gAIAQEAAT8QziffG6JPRE8r7YKeyNmd+2N1iE0Oe/b7wBvERpSOrUDz6/tgWArbwBArT4xQ8V0FQV5LZwTBYOJQPFIPl5mJgTR4MuBtA+XDpNilCoeDR9mdZZZawDSu4o/zrA4xC7mzhn4HZclwOAnRK2yaOxMb2UstoN7VU35xJlncwi/bv7xwBciX85yEYpMtt48ll8CdOTe7pASFnmUULEDu4NO6Zlj9Is5083fV3pfABjy+D+bjjvBE177ww0QlksJAbFBX5wEuRJPCnhTSeMS5sFJHrv8A5gl4DCGsEtJHqwqFijadaRRBpRevuEBgO0HV53DNz2lX6gFqcLO8HFcZZpwpn6cGq8QQPe3nffnWDmeVE8tR6r6wpoggUtuxb2tV85//2Q==" x="338" y="4375" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="4394.9" text-anchor="end"><tspan class="yrs">1508–1522</tspan><tspan class="name" dx="6">足利義稙</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun29" data-person="shogun:足利義晴">
+<title>第12代 足利義晴　1522年1月22日 〜 1547年1月11日（在職 9,120日）</title>
+<rect class="bar f-amber" x="383" y="4463.4" width="14" height="147.8" rx="3"/>
+<circle class="photo-ring" cx="353" cy="4470.9" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAwQFBgABBwL/xAAXAQEBAQEAAAAAAAAAAAAAAAAEAwIB/9oADAMBAAIQAxAAAAFGozDQ2QZb5k6NEXajqrTIvW9bGRHFZB5AXY0G58yYaXqQqnEQRP0tjSx//8QAHhAAAgICAwEBAAAAAAAAAAAAAgMBBAAFERITIRD/2gAIAQEAAQUCtlEvGDvMnVPxOstQSO3jl7tNXT121mczg/cRM/gR9HgRL7ARIjU4Gec2I+lUI4DPYO1X7ly6iqMXXetK0NoOw52WObHaMVhkRyqYxTTUxe2b1sWmPObDJzhbM//EABwRAAICAgMAAAAAAAAAAAAAAAABAhEDEgQUMf/aAAgBAwEBPwHXaVHXiVRj9GSaRjzuI+RGictmf//EABwRAAMAAgMBAAAAAAAAAAAAAAABAgMREBITQf/aAAgBAgEBPwFPpJ71xT2I02XhTFgf0iFKP//EAC0QAAEDAQcCAwkAAAAAAAAAAAEAAhESAxAhIjEyUUFhE5GhIzNCYnGSwdHh/9oACAEBAAY/AnvOgRwJPQTovdO+4KtgLCND4iZXujN9bnBolzoCLbRoxHRbR5rhO4uDsDmHqVEL9KKnO7lOiccbjZh9JkEeaE63Ehyqx0XtHY8BeNVNZJpP4UjcNwXdYlqdYWVmWO6kqXEkosdtPoVMua8fENf6szLN55mF3+Uoh5rHDgsuR3B0K//EACMQAQACAQQBBQEBAAAAAAAAAAEAESExQVFh0XGBkaHhwfH/2gAIAQEAAT8hruL79CEgY5KU4P8AJ4bMXksoK+CLMjXhpym+JYozDurABswqx95Telsw6uMHIxSENFU3NdoYoAHPNB/ZuA3zFzHqqplmO5lgEwb7cpwsIMWloRBklKVjC9zQxAgFnO/X7EaQ4vbGCfDWYlBfNPRR49ajqeI5hx2i0DXjLrFrTvhxy96rKfqX7JaGIi4ddJgNHB+8YRum2DI+/iUQI5uH5NM+2+B295//2gAMAwEAAgADAAAAEGueXBXq7VP/xAAZEQEBAQADAAAAAAAAAAAAAAABABEhMUH/2gAIAQMBAT8Q0XiBbwgmIEwrdlyXIHcu23//xAAYEQEBAQEBAAAAAAAAAAAAAAABEQAhQf/aAAgBAgEBPxAUfczy10l1JhsDGw462ZBBv//EACEQAQACAgIDAAMBAAAAAAAAAAERIQAxQYFRYXGRscHh/9oACAEBAAE/EHnTk9d/rHVMWQjsBPz2wJI0bFx+sXjw8V6mepyQpAW6Gnc4tofawREmbWZ3jziNh/Q8acZ2YvkvUVjQlVsHXGQY2VxNzPFxNTiBiUukrWROD6qJN8ldYI5k2YtwG/8AMpkWaZXbFYFNN3UoA+NYEdNTKdNrXFFGJFINEwYZgZSEAesqRTDtFL3/AHKS3yMM42RgitJ444TgAeSpRkRONYCQxnC3zDfAER7SYkqmJ7wr0aPCamNrzxlhpdH2ZWQYBmXjIdSo6o6SUkRDm09rlcpF5/V/L5H1glD8Odrj0P54wxNzYXvlfMDVNWSRrUPlseKFRSEETcCqTABKzffp2vVPef/Z" x="338" y="4455.9" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="4475.8" text-anchor="end"><tspan class="yrs">1522–1547</tspan><tspan class="name" dx="6">足利義晴</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun30" data-person="shogun:足利義輝">
+<title>第13代 足利義輝　1547年1月11日 〜 1565年6月17日（在職 6,732日）</title>
+<rect class="bar f-amber" x="383" y="4613.3" width="14" height="108.6" rx="3"/>
+<circle class="photo-ring" cx="353" cy="4620.8" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAABgECAwQFBwD/xAAZAQACAwEAAAAAAAAAAAAAAAADBAACBQH/2gAMAwEAAhADEAAAAZlWTA3Bav1RhFuPl5HlX7JK167BNDlWKDs4GzjEnmWmCfEC+bVbzr46TVSU/8QAIRAAAgICAgIDAQAAAAAAAAAAAQIDBAURABITMhQhIiP/2gAIAQEAAQUCfXIPe5iLstoYLIHj42xHYgjZYSp1WH9+v0vY8u1VldVKsGHWmAZx660J2Hjk3pRwOEMfYmWcIkcTz1wfpA+pE/HRxLVg/NcGOvSp/Kk7a5L60Yk3FGw5lG8WPwanxf/EABwRAAMBAAIDAAAAAAAAAAAAAAABAgMEMRFBUf/aAAgBAwEBPwEfGzZlko6GdEv0LNFKcqfki2sa0+s//8QAGxEAAwADAQEAAAAAAAAAAAAAAAECAwQREhD/2gAIAQIBAT8BFvZUith5V88MUcXT0yreRckcJVMH/8QAKBAAAgIBAwIEBwAAAAAAAAAAAQIAETEDIUEQIhMyYXEEElGBkrHR/9oACAEBAAY/Aj01dRUSmax3zGl+cGg50wzY3iaZ3KrUviDH3l/qdrLPEbzqQVlSjBY+uZxNgB7Qnk7Shv69PEbAMFfFHu5HEIv5m9Iq4bPTAAhtiZQDbnibiNrHCrY9pu7KFHB6reWNSqqvN/Iw5cgR3HJqf//EACQQAQACAQMDBAMAAAAAAAAAAAEAESExQWFRcYGRobHB4fDx/9oACAEBAAE/IclMTKm7pLXXogxNU834y8WxkTHiVCAJOCbrwh2Xjb0QTiHGq1mSt7N1FNlpjuayzN5eNisQZuKsDiMHdDQ4mgyFtKhblYHeWCyjqgUtPEd4PZSmNMyn9+YdChr8pUMSyui9ILz6MWjoG7CuTrSgIIMClOsRi3etuYxUcA09X45hpkeuS3aJFOkZjW8xqKvXj5qKKpHq+31Mz5jiu/sRVaOdXT+z/9oADAMBAAIAAwAAABDY3XRC+DzL/8QAHhEBAQABAwUAAAAAAAAAAAAAAQARIUGBMVFh4fH/2gAIAQMBAT8QWQXLr59S67oAMYhK9ln4SV301DltywBx9v/EAB0RAQACAgIDAAAAAAAAAAAAAAEAESExYaFRsdH/2gAIAQIBAT8QsBlQAxw/YRvZ7lLgl2BjeJnqF8PhxcImge5//8QAIhABAQACAQQDAAMAAAAAAAAAAREAITFBUWGRcYGhsfDx/9oACAEBAAE/EIJKGSW/GASgsee+MtfZp7KTXxm4KuhHXrDX3RRQsp1Az4x3C3WLBl+Mc3QizxhoiTXBD/XCUhCUHZHtghZo3WHfjBCIwAg7eEUwQkeLcQ6Qon5hMWgiJRJ2wEEUB0DxgHvYA2eXWWpVHnhP43jaWrDeLoEXxemb1Ksng/i5SakhAdw1IHHVhzOkNcTTzOMFcNzgMfanXeapY2hsezhZrLTDd6Q/XB7bQtg9Q25rbACUB7uXcOECjX995DIXXgunkPQxH4QYaQ8jS8Y9BEfbMQBCm1vfC1Ay9Cy+y+sIVP0qLX2IncC9rTNkjiWgOxCdMAwiFSgvqr1n/9k=" x="338" y="4605.8" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="4625.6" text-anchor="end"><tspan class="yrs">1547–1565</tspan><tspan class="name" dx="6">足利義輝</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun31" data-person="shogun:足利義栄">
+<title>第14代 足利義栄　1568年3月6日 〜 1568年10月（在職 240日）</title>
+<rect class="bar f-amber" x="383" y="4739.6" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M381.5 4741.1h-4L372 4729.4h-2"/>
+<circle class="photo-ring" cx="353" cy="4729.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABAYBAwUCAP/EABgBAAMBAQAAAAAAAAAAAAAAAAEDBAIF/9oADAMBAAIQAxAAAAGuyPczogW1iNWOwrTcRWIbUh2GCNNkhbQqP6XAc6CxjWKIJNsXTLl7I1//xAAhEAACAwABBAMBAAAAAAAAAAACAwABBAUREhMhFCIkMf/aAAgBAQABBQKdpFSeJ3lHcFNfH0geId5sVdY1tppm4rjNryjjIl8eSiTXWba/Mj4/wg7Ksy6zhx6ZamkLYj3PcRXlahYJXPIuprYu9X3KH7nG63qHYAZV6foH8sju6wZGvJlrS7//xAAfEQACAgEEAwAAAAAAAAAAAAAAAQIRAwQSEyIhMUH/2gAIAQMBAT8BVfSSwIxVv6jXgbNPG3ZLJXo5CDkux//EAB4RAAICAgIDAAAAAAAAAAAAAAABAhEDIRNBBBIi/9oACAECAQE/Ad9Eed9mW+PYnsSo8iXzRHHYoE1Fr1P/xAApEAACAgAFAgQHAAAAAAAAAAABAgARAxASITEiUQQTMmFBQlJxcsHR/9oACAEBAAY/AoVQ9RG038UmFfZj+pb+ODH8D/ZYxw2rb0wBvXhnQ2Wuid62nS7j2nKqOwGVYXCmiarV7ziGzUxFYr5zHpv2nGV/U2TqOanAm8TCutRqaEuhl1OI/k8ZUIVYa0+WzxApK+afj2+0Yg23cyxNzLCdMXB2d+X7Cf/EACEQAQACAQQDAQEBAAAAAAAAAAEAESExQVFxYYGhkbHw/9oACAEBAAE/IS7sxL+BgjmMW4MxkK3zbPrAvJW3X2IjfiNPn8g4QGdiLOZkBDcZf9zMV7ge1yxAK1WjEpuTDZX9wU5QnRCZgGchZVGWr77mazjFWdvX8oltAmrUw7MzxTuYGRNnBtxBBjStth5qWaC8XK1rfPC7p4lZHBNDMX+zC2Snx+Ihtq8mtDnGs10h7paCZJXMHEs2pu7wkNCwcPHa/O5//9oADAMBAAIAAwAAABCLicKUBkdL/8QAHBEBAQEAAQUAAAAAAAAAAAAAAREAMRAhUXGB/9oACAEDAQE/EB6Mvwv3VaITjUZjZ24yL49Eaq52Gb//xAAcEQEBAQABBQAAAAAAAAAAAAABABExIUFRYYH/2gAIAQIBAT8QVe0uUHyyA9d5si3XO8wnlbv2xALZDb//xAAgEAEAAgICAwEBAQAAAAAAAAABESEAMUFRYXGRgcGx/9oACAEBAAE/EAhBbWMOkeyQYRaLwQAAVMdMAfuSY0sg/RkelIUpJJtTeTGUJtYS3zp7WKtJODvIRpsJKSawUd+gbqpSajhZ6woZNJlHsJ5r0ZJr2jMDsy4AwCGqDym77x3EO8JrTBMzNYwmSHVpCQSwiRoGdjGQQCe/OMaNVBoydJH4QP4OSljd4L0yPmH0j9xNiU3sYQWQdYESTCYg7b6BcW+yh2llVbVxmkCN9YTU0Wk/DDQiFPpny788RjUIOOsZMV5Qn1Dn3rJk8CQwqN1hxqSTnI4ySskDLbgnlXFGVem5FRn8kwSgLf8Ap5Mh2Oqj97wtIQpxvW+MmShHglHsG5oAXI//2Q==" x="338" y="4714.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="4734.3" text-anchor="end"><tspan class="yrs">1568</tspan><tspan class="name" dx="6">足利義栄</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun32" data-person="shogun:足利義昭">
+<title>第15代 足利義昭　1568年11月7日 〜 1588年2月9日（在職 7,023日）</title>
+<rect class="bar f-amber" x="383" y="4744.2" width="14" height="113.4" rx="3"/>
+<path class="leader" d="M381.5 4751.7h-4L372 4763.4h-2"/>
+<circle class="photo-ring" cx="353" cy="4763.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAABAYCBQABBwP/xAAYAQEBAQEBAAAAAAAAAAAAAAADBAIAAf/aAAwDAQACEAMQAAABAWGMmC6qtbLBWw1D1zyrbKDdv2epDlogfnlTdH6NKwO49OpU8slHx6584//EACMQAAICAgEEAgMAAAAAAAAAAAECBAUAAxQREhMhECIxMkH/2gAIAQEAAQUCsdhjVFZD5QNKpythcJ/i31LJmVmnj6mdVOxgM1/pkjZrexX8f3rh26tSrZwS1dO9owbCOo16iDav5Zxw/Vq6wVF58UCZYOU8h7vq+MPQ9HvbISPIkTquBFh5/8QAHBEAAgICAwAAAAAAAAAAAAAAAQIAIQMxEBES/9oACAEDAQE/AfHpr1BiUXwnRscNn6NRMhTUOdmqMpXc/8QAHREAAgICAwEAAAAAAAAAAAAAAQIAIQQQAxMxEv/aAAgBAgEBPwHs+Er2drmjrlUijpcYEXHQOLgx1W4rBvJ//8QALRAAAQMCBAMGBwAAAAAAAAAAAQACEQMhEBIxQSIycRMUICNhkTRCUWKBoaP/2gAIAQEABj8CcfmqW90S6oWhWr/zTnCtmDhcRC1wo0XPIYKZdb6ysp/CEvidlcwEOmFAtfo1zXeDzKgaJ3WXvDU1lUD0OEIS+QNAqtQcsx7YfabhZK+mzwviWJzBDQRzBSLeitwn9Itmctx0Vlqm0ATxG/RPqu7SQLcW+H//xAAiEAEAAgEEAgMBAQAAAAAAAAABABEhMUFRYXHwEJHBsdH/2gAIAQEAAT8hBVDVv1tGNrwX/Z+piX6VgVHcYzqrGZGzfQR0Yq8r1NprNlED33hFhu8JUC8mA4zkhDDb4ZIg3pUVoRBaFgS8iH3MsPGa+8TSG9zsljZL3J1JcqnzvLAXjppsijKC8ULrKfE88RsdvFx5kNcPUdHiqwxX7KbE47y/yYfuHl+39xNiR6noCU+WbxufqcF1New+P//aAAwDAQACAAMAAAAQcHv9Dw2mI//EABoRAQEBAQADAAAAAAAAAAAAAAEAIREQMVH/2gAIAQMBAT8QN/okuDxxK4z8mQElqxEhyf/EABkRAQADAQEAAAAAAAAAAAAAAAEAESExEP/aAAgBAgEBPxB6GtiWzPEQOQqEFSnQpbYAsf/EACEQAQACAgEEAwEAAAAAAAAAAAEAESExQVFhcZGBobHw/9oACAEBAAE/EEEGFTDtjqFfMPmOabPgJGaMPM9iQRiQlA2bt1rwwIWJP2Nck1nMUNrJbBBbP7vFUrnKbssaa3FIaCgR7av2zIRUI25xWJc9VyXxUKWI1HLhxpAF62b8QIHHKuvMb5MLHSiA2Du/2Km0BFNhXzFIFQ/UFQ+TyXVt1zfd8dIdZFLDk0naagpLKSxLHrLV2XcQOFtfdcVJ56IHpdLKLD7jWxYjYOk7mT4gTXduXNDK+okaXyVH4LZk7PJVO+V0y8woQGnQj7XzcQxXgWV2Xn3s8QKEmn7x9WQ7mKVMDHn1ze6izlZMoZ8wPyHWaO6+MxTb9DKpRq/2f//Z" x="338" y="4748.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="4768.3" text-anchor="end"><tspan class="yrs">1568–1588</tspan><tspan class="name" dx="6">足利義昭</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun33" data-person="shogun:徳川家康">
+<title>第1代 徳川家康　1603年3月24日 〜 1605年6月2日（在職 801日）</title>
+<rect class="bar f-teal" x="383" y="4950.3" width="14" height="11.2" rx="3"/>
+<path class="leader" d="M381.5 4955.9h-4L372 4946.4h-2"/>
+<circle class="photo-ring" cx="353" cy="4946.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAQUBAAAAAAAAAAAAAAAABQIDBAYHAf/EABkBAAIDAQAAAAAAAAAAAAAAAAIDAAEFBP/aAAwDAQACEAMQAAAB0puPFyNAnxI/vTKCnYqz6vCCUva3wM1gks0tmOECxdmqjYfJ1BBrIQWnyr//xAAjEAACAgEDBAMBAAAAAAAAAAABBAIDAAUREhATISQGFiIx/9oACAEBAAEFAsl/Ib7duPJ4+ogDKjmcZ/Va8vXqFMy1xlWtVGHQDzG2PGEozjLyPl7F9VknnJ5pj8l3jcvfHvVAPvCinUG7HWdQQtRO++Kalcrn2JqIbaabkM19jvdNyByI6AeP/8QAHBEAAgICAwAAAAAAAAAAAAAAAAECEQMQEhNB/9oACAEDAQE/AeLWoNpnfZRJ+GVKM6QpVr//xAAeEQACAgICAwAAAAAAAAAAAAABAgARAxAEIRITMf/aAAgBAgEBPwFezUAFTNXrqDhle71iQk3MBZkBb7PAHX//xAAqEAABBAEDAQYHAAAAAAAAAAABAAIDETEQEiFCBBMiYXGBMjNBgpGxwf/aAAgBAQAGPwLOllhsr5Ud+nKksckUuel1aeIOcB0g5Vhrx5OyEe87I6PngkIb+GfUp226JvQXaIyRmigQQVSgbG58bdpJLXVfK8Xa5z95UUs8kj2c7rcSg5krm+QNLax9n8lGV4pv7Re9xIGLTO9LHb8bVz7La5jJG18LgqhhhjW/tErneuFXSMqG+m/5plZrQN9yv//EACIQAQACAQMFAAMAAAAAAAAAAAEAESExQVFhcYGRocHh8P/aAAgBAQABPyFhBbjOkosGpiOWY/CDCQoCNDge0duIVy80noniAbwQfQFTXjezMOUBnihhsp87V+oDWBlOOL4xvANbv9PxOzCJR3eZZf6a10eK+x6DW5bRhKq/cDV6Yz1AR2o5fZEbk0bWmunZsI+m2yOps+5hSo7tu0tlKvxN8x6DOhZqollqPYjHhk5MYCFqXiIBg69IOxBVzrFo4XO7cT//2gAMAwEAAgADAAAAELdYqNv7Nkv/xAAZEQEBAQEBAQAAAAAAAAAAAAABABExIVH/2gAIAQMBAT8QybK7bGR4yx2EPqecZOG1W//EABsRAQEBAQADAQAAAAAAAAAAAAEAETFBUWHw/9oACAECAQE/EEH7RsEPs2c6XjMtA5fvls9xABhf/8QAIxABAQACAgIBBAMAAAAAAAAAAREAITFBUXFhgZGx0aHB8f/aAAgBAQABPxDdkdc7zelA6cp1/GOXvJ2DmR4njCTGzZ7fMxTK3c1P9xEhWRfAZ88uAiyw7yJ1dbL2p3uXxhoiTYNDurx7m+s5UoLq4cxtGtjvLIQsoDUunlehmax2rSIB1xVHIjXrg5y9CTVRwxv8PHotrLNeH7x+k0qEd9TnrDoJRrnEChs0YcSxW/Lw4mUuNl+EyU1hgNaleFfRjDkKbG2x3vb6uc3pSkulfLWbvTdqQgLwTa8lIVMrUQay9UOjej12ubyRSjTaAnBpzlIkNQgfLwfiZv8AsVB8IbE0nJppikNJAnzFK+7hMSL2FjodHBXWBO2xfY/QdW4n+0rNbP0w2AAPv64TW+wGh0Ty8/bFinSgD9wx1Sp7X+8pYDQgJy9G/rn/2Q==" x="338" y="4931.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="4951.3" text-anchor="end"><tspan class="yrs">1603–1605</tspan><tspan class="name" dx="6">徳川家康</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun34" data-person="shogun:徳川秀忠">
+<title>第2代 徳川秀忠　1605年6月2日 〜 1623年8月23日（在職 6,656日）</title>
+<rect class="bar f-teal" x="383" y="4963.4" width="14" height="107.3" rx="3"/>
+<path class="leader" d="M381.5 4970.9h-4L372 4980.4h-2"/>
+<circle class="photo-ring" cx="353" cy="4980.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAABAcDBQYBAgj/xAAZAQEBAAMBAAAAAAAAAAAAAAADBAABBQL/2gAMAwEAAhADEAAAAdJjdfNBetoHL1yzBBcHOrLOp7pxHk881lZ5IFJVgx0yR1YvoAdYUYemTS4AVNf/xAAkEAABBAIBAgcAAAAAAAAAAAACAAEDBAURFAYSEBMVITIzQf/aAAgBAQABBQJ1ka80k3FnFnryKp3cYlIxEOPi0Xc62+rOvM/IPsZtNIJExbUrEPhWlA7aN2BCYkrPzV24XqWDyXMjdmJO0MIyZOojztUU5OygmkjkHqO8AWshbumDsx+6/8QAHxEAAgECBwAAAAAAAAAAAAAAAAECAyEQERITMUFR/9oACAEDAQE/AZ+GhC4JYZ2FVaszdHWfR//EAB4RAAIBBAMBAAAAAAAAAAAAAAABAgMUIjEEEBFB/9oACAECAQE/AaOORcse2R119JUU0W79I8WJ/8QAKhAAAgECBQIEBwAAAAAAAAAAAQIAAxEQEiEiMWFxBBNBUTIzQlKBkaH/2gAIAQEABj8CjGmvmK/7m+lUXuhlt57KZTz3vl9ecMi8mMzCzA2nwmX1l7Wx6nmWFQp2mkALFz7nB6WezoAcvvhmY2E2sp7TT0wbxVAkA2tGD/MTnrNdY1Q5UA5MJ84fibEqP/Ih6QVKLmm/SZXSix+4rrAfEVNg+kaLGsutjocP/8QAIxABAAMAAgEDBQEAAAAAAAAAAQARITFBcVFhwRCBkaGx8P/aAAgBAQABPyHitpnPpLebCgu3cVivzf8AEBk14V+pcPHjWvunDiVZXDPTuXGpUemPUB5+kENKd3uFNqgLKU1jLh7L8pd1WN1vmYBFZ+LyvmFUZKmsodh/kBqW0ARXkFyzodIW9Q99tbEzh9GYT4PmhmQe8LozXKm/etQXH09zoEINRzndLBR223Tv+4hQrKtC/DDQ9AUPiVwtbgOOpjan/9oADAMBAAIAAwAAABAEjPqS9odv/8QAGxEAAgIDAQAAAAAAAAAAAAAAAAERIRBBcTH/2gAIAQMBAT8QaVhPRwUZqdCpJ6xe84RShEcf/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQAhERD/2gAIAQIBAT8QZ1Md8Q5OLkGoXzEh9QXet//EACIQAQACAgICAgMBAAAAAAAAAAEAESExQXFRgWGhkbHB8P/aAAgBAQABPxA4TVGvtnEA+cgUBaim19JUV4YDaXpFiGNg2MW+QREm1DAcHTjnMsLI4W4oSZ5y17fB9suPAjTejXZ9IzJBi2oPq4Dcg8ZuXkIFQpXV76j4omrpHmKrRvdXUECgFXIA/hBoxsBVkbMiY6fMaYpunGIC7AZQVhoNGJVdbd3WY4HYVkMab0KUPPgmAUa/UA1EKwsUEWih80tTC1ALvbFs02epSenNoEwOBGkeuYmpVxLGap+Rf1dRDZdAs/EbFbDA7eggVty6gsPB/iZvVhfcKxa7bVwXvFbjdcB5uwcI1t9we9h8vEAX0RGF1uIEMNudqvUAEgFyKKomeS3jmCVrlZxif//Z" x="338" y="4965.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="4985.3" text-anchor="end"><tspan class="yrs">1605–1623</tspan><tspan class="name" dx="6">徳川秀忠</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun35" data-person="shogun:徳川家光">
+<title>第3代 徳川家光　1623年8月23日 〜 1651年6月8日（在職 10,151日）</title>
+<rect class="bar f-teal" x="383" y="5072.8" width="14" height="164.8" rx="3"/>
+<circle class="photo-ring" cx="353" cy="5080.3" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAHAAAAQQDAQAAAAAAAAAAAAAABQEDBgcAAgQI/8QAGgEAAgMBAQAAAAAAAAAAAAAAAQUCAwQABv/aAAwDAQACEAMQAAABlOYnn24QFaSvVlea2HFoyILTL+LR6AcAnGOTeGyWh4ES23rdWUl0AbBK8fN0Hv/EACAQAAICAgICAwAAAAAAAAAAAAIEAQMABRESBhAWISL/2gAIAQEAAQUCj1t9My6VfjDvN+pDVrsdRP0uUzhlza2sF4b6qBDB+5I4DBnsObm2ohsfbnKdu/XKr6jq9cDEbByhJfYPWuOWR+u0RKjN1NvybYdXGmG7eectsmwhyS4jB5579c//xAAdEQACAgEFAAAAAAAAAAAAAAAAAQIREhAUMUFh/9oACAEDAQE/ASTydsg+jcx0i6H4ZUcn/8QAHBEAAgICAwAAAAAAAAAAAAAAAAECEQQSECFR/9oACAECAQE/AUQjoqRNdpiwpcSjYl6a2VR//8QAKhAAAQMCBAUDBQAAAAAAAAAAAQIDEQASEBMhIgQUMUFRMkKRUmFxcsH/2gAIAQEABj8CwQ4282IT6F1ud4dPya5zNLzqOlw20y+0LMxAUPziUkrNukqRFZQU4DE6J/tIQ4LkJMkHvSCkAQcROlT5webvF6INtJVzDsx9VTnlX7a0h0W3aXJV7a2+mi++qEjoO5pXFrNuu0Dt9qjsNK2/JpK2VQ4PPuqOXaCvMGszinS4rxhJwgY7evmv/8QAJRABAAIDAAIBAgcAAAAAAAAAAQARITFBUXFhEOGBkaHB0fDx/9oACAEBAAE/IdNy77CYNFD+dkVhfX7EpbQgmWHHqYhwI5DjxiV4xLculFbGxMMZULMdB7dgIuT1Tv4wP2WAoLPtH1cFJ8xu0FYlaUTSvoa8m9BjP6y6d0ojrDoIZoEaSOzpTz+7gEx4CBT9wfB8xaRwZpwfuxL6CNdGIBZ34ppbw2B4R3HB0n+a54WTbXwcIp5PgDka0HgNEK6aOrBTW7esYKQtXUeu+/H1/M//2gAMAwEAAgADAAAAEBPFdFM4KGP/xAAbEQADAAIDAAAAAAAAAAAAAAAAASERgTFh8P/aAAgBAwEBPxAc1lJPYdVfbHjHZc2uRqEGXTP/xAAcEQEBAAICAwAAAAAAAAAAAAABABEhMYFhkeH/2gAIAQIBAT8Q2bE8RB6L39ho5IMni1weHNoj0QNC/8QAIxABAQACAgIBBQEBAAAAAAAAAREAITFBUWGRcYGhsfDB0f/aAAgBAQABPxDo2bkB0liZPVaGCqoBBSaTrCh0lVPoT+8aKoIDoN7FJVeeMTvdFQI98EQ1giMCuIQ+Q5wh6uiM8A75AxYg4S6OtNujA4B2FCHkaL5yVEucsQDQU6w6VXSzKuygrhs5YV3Tb+DB3myVE84iOzTreJBk8wlAE2RcXJNWxArKBo1ODGEyRxnSpZiV3aIiq0vCp0PvA4G3xJ6yikIPD0ff6csMLANCx5Bzr5HyGOU8PNAE9tujeS4h0L9jg/L9M4aigXF4yN8/ImOIJwofKP8AM6zJDD4DT9N4bZSFQHgP65CMvTpzPb28uWYEXgB7wQYEU1+PR6PvcVvExAaUAbXBKBP/AJf69Tl//9k=" x="338" y="5065.3" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="5085.1" text-anchor="end"><tspan class="yrs">1623–1651</tspan><tspan class="name" dx="6">徳川家光</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun36" data-person="shogun:徳川家綱">
+<title>第4代 徳川家綱　1651年10月2日 〜 1680年6月4日（在職 10,473日）</title>
+<rect class="bar f-teal" x="383" y="5241.4" width="14" height="170" rx="3"/>
+<circle class="photo-ring" cx="353" cy="5248.9" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAABgACAwQHBQH/xAAZAQACAwEAAAAAAAAAAAAAAAADBAECBQb/2gAMAwEAAhADEAAAAe7G9cJscdFkfYIgRtQuo3Z4MdVG5M2KzrQqN8JHAKx/m0iSaFjSATR85TiV/8QAIhAAAgICAAYDAAAAAAAAAAAAAgMAAQQFEBESEyEyBiIx/9oACAEBAAEFApcdorc0Pj6ptcVetasqIOCGUUMx7u4xLykiFKDlOXip+8G+690PNWyw2SrtigrxMzPZjbRldJzTbAsUzesa2G5x1AVkTC8iNdNDc7dz61F+/wD/xAAbEQACAgMBAAAAAAAAAAAAAAABAgADEBIxEf/aAAgBAwEBPwGaL2KPILlONgvcLYRGYtP/xAAeEQACAgICAwAAAAAAAAAAAAABAgADERIEIQUQMf/aAAgBAgEBPwECCxwNczm9gNH8dcnesBzLqXtXVfT0hjmJWE+T/8QAKhAAAQMDAgUCBwAAAAAAAAAAAQACAxESITFBBBBRcXITIhQgMjNCkaH/2gAIAQEABj8C5Ol+IDbzWlmi9/EvPi2i4eaAXCtTflBw0IrzNJbwDTI3QjdM4OOjW4UUYu+vLug3QjGgGPkry7KksB7tK+7b5YTXRFpBCzryMD7DFXbWiIOo5Nge4ek47/iqvmiA8kRw5E0n8CMshJc417oHphXHXYKjv2s296rHuPVXHbJX/8QAJBABAAICAQIHAQEAAAAAAAAAAQARITFBUWFxgZGhscHw0fH/2gAIAQEAAT8hgZtCS7Zd7hnygflcTiGQsp8Rn8IeCTmolmFJl0wsKDjFTPjbvA33ZaCx5HlSwWuXc0FfU3qNVnMXPATSsNZm04ATGF4n2YnVX0MbBGLs8oobnVWo0MGGsSu4vOdxOghg3N0h+N+T7nk67FKkxXrLz4TLjZdrrKc5k+v3aLQWv9mA26Dk6GVZROzUv3YMen9gvb53P5qf/9oADAMBAAIAAwAAABBskTTLi6+X/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERITH/2gAIAQMBAT8QuDa6RuS4ZiZMp2iC2dGmn//EAB4RAAEEAQUAAAAAAAAAAAAAAAEAESExURBBcZGx/9oACAECAQE/EJA6GgoGpONmRB42R9xFsT4sBGdt9aTwyFJ//8QAIRABAQACAgEFAQEAAAAAAAAAAREAITFBUWFxgZGhwfD/2gAIAQEAAT8QRTTjIjJzhXczNraaL9YKR+6L5WE7KCp7pIacQ04nBQ3mBPxyLIY95qVHsBn3rE7ooWkaAZE4+cASSUW4iDAS774ybCG0UGt7Ah6pjaPcwiCsK+UMVQG9ZQdDPrFonVi+vf0fuKh28a3zhH2pvBB8BPGr/cmL5sY/B/cK2XK/1x+4dzM3AUqNJT8wKTGhSvQcO1oNx4xZBSVLwLSXUhTfZgZguhp8embQOXctvaqEuBTR1u63hZdBsqe949sV3AZV/I6eHPkysxxd5teD/Gtj8BvXO/1T4YSntYpPF48HfPBsNRKBVu3tHvvs8Ixg9FUekq/BcOChxEPZc+/0yw6dhVQ6PmGf/9k=" x="338" y="5233.9" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="5253.8" text-anchor="end"><tspan class="yrs">1651–1680</tspan><tspan class="name" dx="6">徳川家綱</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun37" data-person="shogun:徳川綱吉">
+<title>第5代 徳川綱吉　1680年9月15日 〜 1709年2月19日（在職 10,383日）</title>
+<rect class="bar f-teal" x="383" y="5415.2" width="14" height="168.6" rx="3"/>
+<circle class="photo-ring" cx="353" cy="5422.7" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAHAAAAgICAwAAAAAAAAAAAAAAAgYDBQAHAQQI/8QAGQEAAwADAAAAAAAAAAAAAAAAAQQFAgMG/9oADAMBAAIQAxAAAAF3MZOGrxrTMhVNLpLnExgV5HpLKmwVpRGyvtZt897AkMowXI2VqUntMOPUyWEn/8QAIhAAAQUAAQQDAQAAAAAAAAAAAgABAwQFERITIUEGEBUx/9oACAEBAAEFAv4vTkLDQ02kkCR108vGvHL0oLsejR/OIRQkxPyXctbAvJk/KGBbu2ehYx94bJ9XRJr7E9x6ljsNz94GwjJyP06dcLh1ezbtQaNqeMtytWMrUPZMRJ0/hf/EAB4RAAICAgIDAAAAAAAAAAAAAAABAxECEiEiQVFx/9oACAEDAQE/ARyd6R8Mp7fBuyGbxkUvZRq1yf/EACERAAEDAwQDAAAAAAAAAAAAAAEAAgMEBREQEiEiMUFR/9oACAECAQE/AQoKNrod7vekFsIbuf5+JsLGjAVbbsd4lyBwgc6f/8QAKhAAAQMCBAQGAwAAAAAAAAAAAQACAwQREhMhURAiMXEUMkFhgbEgUqH/2gAIAQEABj8CP84Eu0sjBNpJmFrXAcp2RxLGteo4PjqGOezbFZVWEAQ5kb4htqsSsvZGmocM0wBJcfILfaeKyKwOrcsLkZhhbo1p9e68PVBkROjXDp2VmhOijvFB+vq7upHAcxjLB88dk2lqn+0ch+ii95u5xuVf8WyVdK6FrzYcwQhjcY43mzrNBKiEApqINb5ZTZ/ygM2GUEXBY5aa9lsv/8QAIhABAAIBBAICAwAAAAAAAAAAAQARITFBYXFRgZHwobHR/9oACAEBAAE/IRth2ljYPUp4CtvBDf2wfrl5mASxydnEpijuSrb7gSGjRWfUd7E9qSjE1ADoRxVEirarV1LnJooBbnd1iX1oEuvyIv5lhcyhndf8QrmEzblejENmGMzLzKo/RxPgsy0X8XHAq5XfLG+koUhx9J6Za8BPLG8TprxNmYGiiZJktPMLozSGQt184hxDAwvvfxMwat/5oPP73jF5CcJ70gtnHbVLpEY//9oADAMBAAIAAwAAABBT5XtwxjSD/8QAHBEBAAMAAgMAAAAAAAAAAAAAAQARITFRkdHw/9oACAEDAQE/EGrjHS58XF1YIDATVb1h33yx+eoosiCxjP/EACARAQABAgYDAAAAAAAAAAAAAAEAESEQMUFhwdFRgeH/2gAIAQIBAT8QisW6A2vSvzbB1d0aPcABQMjxCCWWZydRbDx3Bog1tP/EACAQAQACAwACAwEBAAAAAAAAAAERIQAxQVFhcYGR0eH/2gAIAQEAAT8QB89T4PWQWglpknyYg82VBFTLrLT6btO2ggY4xPcXBPIiTCBYPv4wQCJVRD/uVc7BOz1kFMZOR2sk7DXrWPt3RUwK9uNsiTk9nUjyW3BBLWvB4yKFiTOm3BcW2tFC4CIhLuXKquQE0U7A8jOrwVZE4xMggkIO4FsQIriRMrpadUxK7XaFr3HkS6A+rHXrR2cjho/VKXx+8YwaAnnmCskFPyeshi0DS7fYYloBenRNznGh843kgoJGVrVuNKgy1w5P9ycLswCbrU45ePlFnFWIDbM19YD2jlGSIE064fY7xqGESxqSgusL9pengEgSkd3JgA0CJ5xLgKkaQe4YEhLcfk3+DlaFFIz+Of/Z" x="338" y="5407.7" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="5427.5" text-anchor="end"><tspan class="yrs">1680–1709</tspan><tspan class="name" dx="6">徳川綱吉</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun38" data-person="shogun:徳川家宣">
+<title>第6代 徳川家宣　1709年6月8日 〜 1712年11月12日（在職 1,253日）</title>
+<rect class="bar f-teal" x="383" y="5587.5" width="14" height="18.6" rx="3"/>
+<path class="leader" d="M381.5 5595h-4L372 5583.4h-2"/>
+<circle class="photo-ring" cx="353" cy="5583.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAwUBBAYCAP/EABgBAQEBAQEAAAAAAAAAAAAAAAIAAwQF/9oADAMBAAIQAxAAAAHfeifH7suJ+RLGPug656byyjkmvVFgUFTdVOzvYQ9Js6BaExQTFf/EACEQAAICAgIBBQAAAAAAAAAAAAIDAQQABREiEhATIzEy/9oACAEBAAEFAvS5Shthet5yzxqthW67Ihgo46pmJw5mD2dVdrKUnN7C+l5+oZPtp0497VwV4G1DFvr2BSsVjsGwtFK3XqSczLEJ4QovnrWDWmy6WmtfMtnvJliYEVr8cKeZI/Af/8QAGhEAAgIDAAAAAAAAAAAAAAAAABEQIQECQf/aAAgBAwEBPwEoVw+m2KcOP//EABwRAAICAgMAAAAAAAAAAAAAAAABAhIRIQMQUf/aAAgBAgEBPwEtL0tmIosrrBxrXTSYj//EACsQAAEDAwIEBAcAAAAAAAAAAAEAAhEDEiEiYTEyQVEQE0KBYnGSocHw8f/aAAgBAQAGPwLwfVBZnu1Z8v6FRqRdSqaDtuqoj1Oz+/JQVAQZknuWwrQHDe3CpGo29tMyR3Trhxe8z4FN64gLiPZOdBdAmE50ziT7/wARbTh7/sFrpEH4TKNIOieEiFaMKMXP0gI0nP0xzQSSRCa24hkcoQMxOVjNvLIxum07aZLfVlXHW4YB6BZygUGNMfhZAtRdAz02UK0cSv/EACQQAQADAAICAQMFAAAAAAAAAAEAESExQVFxgWGhsRCRwdHw/9oACAEBAAE/IVC1aqczRG/ap09QEX9j+7FoyFcbPCvrWeIOBhVbG9SEA2TPAzImlTPAQTevEn2wy8bi36+O4ylWs8Z+lsuaY6X8p3HnsRRV3KVYxHKhB5X8Zf5gMY8d/ef4I5QhiiPvUTOuD3M8ypQPyxEbcqr/ABCZXxiI66qbERpQ6TMisz23U5ZtjRbafXJUwtCLVK9ULBXomm71qlURvOt34mx09nSV2gOEwCWtKcV10+e4FCsY9OX4eWf/2gAMAwEAAgADAAAAEF+pYReXNWv/xAAZEQADAQEBAAAAAAAAAAAAAAAAAREhMRD/2gAIAQMBAT8QOeaUm8iwZGfTExMlBn//xAAZEQEBAQEBAQAAAAAAAAAAAAABABEhMUH/2gAIAQIBAT8QGO54gbfc7LNLRpJsCBTkC6Qwwv/EACIQAQEAAgEEAgMBAAAAAAAAAAERACExQVFhcYGRoeHw8f/aAAgBAQABPxAEIDl6YwHbx1yKCbuWggmy1s65G8HdJ6cFlc0I+6YQUhtGIIzPICSeGvl+RAvyJz7yFZRD5jNO8iHlJNG50TyZKDKFj5HfrWCFuqiMDGw7A9JiAsCpWCT0v2ecClhfeaCIl9Mx1aNCBoHVew5BHRCQFP8ATDnZ4KBOdc983J+ACl8hXxMUREVC9YbX5O8xs8QQ/JfGHIXeuWDaRNg7MD7MXUWbZ3yc1KpKkVegGr675L66AAEAKHhS6q7mJF21cOSb4XQmEKE1BVYHp/GSmBUrMHtaM2VjTFsocleqUFDVu5nExCOVwNfVfOAj9qYpwBwYbdd1dn9MdwELb7gd3g++mFSYmoS1v91y/wArJZPIevl20dMFAnU4dQgpOpXwH9XP/9k=" x="338" y="5568.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="5588.3" text-anchor="end"><tspan class="yrs">1709–1712</tspan><tspan class="name" dx="6">徳川家宣</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun39" data-person="shogun:徳川家継">
+<title>第7代 徳川家継　1713年4月26日 〜 1716年6月19日（在職 1,150日）</title>
+<rect class="bar f-teal" x="383" y="5610.8" width="14" height="16.9" rx="3"/>
+<circle class="photo-ring" cx="353" cy="5617.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAABgIDBAUHCAD/xAAZAQADAQEBAAAAAAAAAAAAAAADBAUAAgH/2gAMAwEAAhADEAAAAS7ynI1Jiv0GNUn4ceSoqrEyTk8nzvdXKO6bUjAZbz+I1O2UjRxke1c3q2NQpCN1/8QAIhAAAQQCAgIDAQAAAAAAAAAABAECAwUAEQYhEjEQFBUk/9oACAEBAAEFAs8duL45XFPbxGtRbMZ1DdEojhesjcjJGekl3JyqrfZRTJ4ibwZf6E+CpGRwKYKQ53IDEfFySVHAHBWMW8tZRmjuljitH+07ylNaId+tXrHeWv2ZXL2AEPOB1redbVcTtf/EAB4RAQACAgEFAAAAAAAAAAAAAAECAwAREBIhMUFR/9oACAEDAQE/AV0cU+ExtimuIbhHq12yVbEF94z2BltzZr4Z/8QAHhEAAgEDBQAAAAAAAAAAAAAAAQIABBEhAxASQVH/2gAIAQIBAT8BUXNoMSp6MWncG+zoNTEVwxI8nCIgWf/EACoQAAEDAgMHBAMAAAAAAAAAAAEAAgMRIRMxQQQQEjJRUnIiYXGBgqHR/9oACAEBAAY/AkA3VYsuLiHmc1+avJtLvzH8Ubo7wuuPHUKZp7D923McXNaK5uV6V9kWtdGaZit1A2NzWOa4+p3Sie05iIj9bo/lHPc6SR1GtuTVPjZtEZkeDYFckNPFevZ2HxNE2WKQcXZWjmqyI2gNc3UEV+vlYsQ4I2ycQA0FVX2G5rn2YSLoFm2QDqePJHCyyaO0KnRYsgdxCo5uiA0VxULVZUVl/8QAIhABAAIBBAICAwAAAAAAAAAAAQARITFBUWFxsaHRgZHw/9oACAEBAAE/IQqWzpVBHYEzCWrWmyXwjij1C55VplTSPJEIEa3hHRglVlpEeNlS+ES4IApERpYk0LRjupYD0mktxKPHibwtZ+pppC0F0ioabE1q3g5iYKDgt9w81bYqvm5U4i1XHCSt7mFJ7g7vAdfTVlmYaF6yu4sFunxCrH56j5qR6/3qFsIKQvwN3iU14iJx9jux03wKxvGDRXFA2ReA58vMKY6D6jVmVdk2CjWbBmf/2gAMAwEAAgADAAAAEG97xBa22j//xAAeEQEAAgEEAwAAAAAAAAAAAAABABFBITFR0aHB8P/aAAgBAwEBPxB0SLasbwI8hI8yNX19xNiLURUMaeb9ymOgUBsHblzP/8QAGREBAAMBAQAAAAAAAAAAAAAAAQARMSFB/9oACAECAQE/EDNesSKIC/aBqZKcinXTsMOwi1PYK1rP/8QAIhABAAICAQQCAwAAAAAAAAAAAREhADFBUWGBsXGhkfDx/9oACAEBAAE/EK20wKkJ1isHvJfPBxgUgoKA1nfNv7EmCg33HNuQ0/D1x5IhsSqHt/MWB4Zwco0iziCwnMc4rIQplIWkm8dGzpoSSlDFwnnG3NoLNAqoh5yCFUKcqvWLQWI0ZJEguV1IntMiIyCYqhp11xdB4CsF2p0JFtZDdQ1MTk3/AE2g4HVxvN4mAkGz7Y0dIJEZOBsxpIKlMFCj5sTWCgRq7HnDHVgIbKJqYapwCcUEyGIF4FDzkyDyjul/WPAFEp0O+FEw5ZUZOYSfwxaC6AzY1rwjunCcIzEZdq8tfUeawSBAGijr6wKzJkctDbdzODAJAo3Ft+0eZmJmZJQj3cesMxTkILzfJg1GbXK/LgTsT1z/2Q==" x="338" y="5602.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="5622.3" text-anchor="end"><tspan class="yrs">1713–1716</tspan><tspan class="name" dx="6">徳川家継</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun40" data-person="shogun:徳川吉宗">
+<title>第8代 徳川吉宗　1716年9月28日 〜 1745年10月20日（在職 10,614日）</title>
+<rect class="bar f-teal" x="383" y="5631.4" width="14" height="172.4" rx="3"/>
+<path class="leader" d="M381.5 5638.9h-4L372 5651.4h-2"/>
+<circle class="photo-ring" cx="353" cy="5651.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABQYBAgcDBP/EABgBAAMBAQAAAAAAAAAAAAAAAAIDBAUB/9oADAMBAAIQAxAAAAHT4jyYtqWt6TQmKhYqILjpxxHsxOtSCPRWWWCuKu4vda12cv3uufSlpgbysY//xAAhEAACAgICAwADAAAAAAAAAAABBAIDAAUGERASISIjMv/aAAgBAQABBQLxyRFvZSX4xb7OIjUKztBexmREKfWYjIEu01tq7KP6stH4RIGAdjrNg2lKLfJ9lcU+Uv1ZrnKNkvGPWPsxWrfbLF+fBlDN1RV5FKqnY7Bh2cSM768R6wy7I+n+j//EAB4RAAIBAwUAAAAAAAAAAAAAAAECAAMRMRASEyJR/9oACAEDAQE/AQLziSFPIKogxcSr1TcTolVlxGcsbmf/xAAeEQACAwABBQAAAAAAAAAAAAABAgADEQQQEhQhMf/aAAgBAgEBPwHYt9gGCLZvozxXyMMOGcavubo9KP8ARFUKME//xAAsEAABBAAEAgoDAQAAAAAAAAABAAIDEQQQEiExUSMyQUJSYWJxgaEUIpHB/9oACAEBAAY/AsmCGdjYW9xxqzzXTYiNo9Isr8vAOcyRnWc43r91h5w2mvMcnte2VA1su98ik62yivgIxPvQePOk3RQOnSN+AG4yPkjXElcAD25MjhnjdODwIK6JzMO3kwf6VpnbHiG+Yo/SEkY0ub1mnuoIvJrkrZs1pu8t9zyRMUroj6TSqXDOkl8WtapnUPCFZG3YF+v9ys8FeXkPpf/EACEQAQACAgICAwEBAAAAAAAAAAEAESExUWFBcRChsYHR/9oACAEBAAE/Ifg/jbnY0Nyse+/3UTktqA46dRAtx3ikZ9/CBt9gtmSrWzLrsYNXvYWenzEAH9qBXIsjR2Hpr4Jd8LlJwvXXiFY+BcQwx5jiR1SZKc1zUW8Isv2Si0k/t/4jdU1kK479wNmQr3NZdQ5gmnQ9ZvfqGWiB9cP6xYVoHV4hsovwD7xcZGfUxFZHpXuIFf1y+B+FzGfA6NQ4JTiwW3Qn/9oADAMBAAIAAwAAABA+77Iwrk6L/8QAHBEBAAICAwEAAAAAAAAAAAAAAQARMVEQIUGR/9oACAEDAQE/EEVEVbSV2iioBiEJmA6c+G9/N8DosyzNs//EABsRAAMBAAMBAAAAAAAAAAAAAAABESEQMUFh/9oACAECAQE/EHCKek+CZZXuj0YMZ3ItRYvePZiMIj//xAAjEAEBAAIBBAICAwAAAAAAAAABEQAhMUFRYXGBkbHB0fDx/9oACAEBAAE/ECGKFWEykx5sS8A0gDwXu5vdAo2PEj7RzTAb1LWxFw0ANJsHJhTAiuB1o29y4PfFNLKUChAddXGKyt3SocovTRxgdIhTUWg/Ps6QyDnliwbQ7Ka8ZKKzsQs1uSeedZHwYfAqj9nzJgtxAVCjXvVZzvC4CsN1/d44iFGjI2ysQxKABCXvhYl0HPzQ/AYZyfLZ9T8rKOIZUsTwEBPwbhVwHk6D5b/uFLl0h5beDu9DGjdQQXUHSjRy4UAVdE5cRX4wD0fg+zBpgliF2jw27u81GbUps2UenFIFs6AdHr37i5Z0+f211Dr30arjyxqcD/A8deuCdsGTUMAxfa9Du/vGSX6EBwAesh0G+egdVPBgoEKOCnle79q5/9k=" x="338" y="5636.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="5656.3" text-anchor="end"><tspan class="yrs">1716–1745</tspan><tspan class="name" dx="6">徳川吉宗</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun41" data-person="shogun:徳川家重">
+<title>第9代 徳川家重　1745年11月24日 〜 1760年6月25日（在職 5,327日）</title>
+<rect class="bar f-teal" x="383" y="5806.3" width="14" height="85.5" rx="3"/>
+<circle class="photo-ring" cx="353" cy="5813.8" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAABQcCBgEDBAj/xAAYAQADAQEAAAAAAAAAAAAAAAADBAUBAv/aAAwDAQACEAMQAAABZWM6ob6NFvXoY4TZ5jVTNvXP5z4jD9MbApWa1Oi2tDM4IzGNedciy6gAtgBwmXj/xAAiEAABBAEEAgMAAAAAAAAAAAAEAQIDBQAGEBEhEhMWIjH/2gAIAQEAAQUC21HZyHGA1hpi2FZLWOsVfFa5J031wPfC5VwhqZqKDmHHPZidZGvkyTjme2bGaSeYTjXKjhpXFj+PdgRGNAeQpEyJirlHdOAg+TzI6xs5zZOVxV2X67/q/wD/xAAeEQACAgICAwAAAAAAAAAAAAAAAQIRAzEQExIhUf/aAAgBAwEBPwE6frPBLR2leidRx298LNJKhyctn//EAB4RAAICAgIDAAAAAAAAAAAAAAECABEDBCFhEBIU/9oACAECAQE/AZ9lLSiJmLkBoNPuHg8zWT3frw2tjY2RFUKKE//EACkQAAIBAgUDAwUBAAAAAAAAAAECAAMRBBASIVExQXETI2EUIjIzUpH/2gAIAQEABj8CyamGth6bWRefmezQbT/R2H+ygUcvV63Ud/ieuuzOqVR5tkZr9Nb97TdbDtsbxamm7r0PEp4kD9ZKt4yI1pfi8cgDiA8wXjYTGBDhKl1DAHUPM9/E1X8tAw6g3EoYmnYCoAWB3tLrtGrOfEaody/TxltGw5pFwWuv3WhP06Hga+k1VzcdkH4iFidznbv3z4An/8QAJBABAAICAQMEAwEAAAAAAAAAAQARITFBUWGhcYGR0RCxwfD/2gAIAQEAAT8h4lZqPqaK7GL93xBolcdfu/lxAowRg5Ab+5SI4haF8j+Haq3pdXN2QupSpRINokPmCSKKrvOJl533Nnn9zjUrrYxhuUYSsMV/twAzT4iAablK/IAnRz6xS+zrXxqakZ6hK0oI4MhXe4UK7Z7wBWCgsvswb8X/AK+Je24OWcGJHJMYwLs1Bi9oftFBS6X7I1WHP+4jxRxNxUp6nTtDcLUCUtVcp4J//9oADAMBAAIAAwAAABD50/QTb92f/8QAHREAAwABBQEAAAAAAAAAAAAAAAERMRAhQYHBof/aAAgBAwEBPxBEN0HucCeEQ6TL+Rj1+d6Sx/EPq1P/xAAdEQADAQABBQAAAAAAAAAAAAAAAREhMXGBscHw/9oACAECAQE/EBNk539HOFHoyaEcg92YX08iQ3bn1I5iP//EACMQAQACAgEEAgMBAAAAAAAAAAERIQAxQVFhcYGRocHR4fD/2gAIAQEAAT8QVKXrJIESoDOBHgCCFDNoMTpAcqpNCVC6oQ/J2yqLBwzsIm2+g1hgLY0GB2k3tzf8yH0QAQksRKwYlkAGUKxQvZNyYRoOZOB6q1jVwImAZQ6pU98jPja4evgr2zbMUHIaybWSFOekTPrBNchQE77Fo8xhNgBTYuT04boibcJpxHtHoCrMxngDKMVbSZ8UfAQejJb5w2jSPyZflJmaaSTqH1GaKcr0ORP84RJLABi48aV6GLXRQuwvZu/rEYAduh/eACynPL5/WS4UFCAkohSZ6r5xDHMM5uqhMutdsdDlN6OZuO4du3Jgqgtxy/HzkdEDQayVBAzoDeWPKo/o/L68tsfOCEJWDB8wSSoKPbwcrn//2Q==" x="338" y="5798.8" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="5818.7" text-anchor="end"><tspan class="yrs">1745–1760</tspan><tspan class="name" dx="6">徳川家重</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun42" data-person="shogun:徳川家治">
+<title>第10代 徳川家治　1760年10月10日 〜 1786年9月29日（在職 9,485日）</title>
+<rect class="bar f-teal" x="383" y="5895.6" width="14" height="153.8" rx="3"/>
+<circle class="photo-ring" cx="353" cy="5903.1" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAABQYBBAACAwf/xAAZAQADAQEBAAAAAAAAAAAAAAABAgMABAX/2gAMAwEAAhADEAAAAfTMiPO6VOk1VQ6C9BDbqciqNTFNhFidda4EZTXuW6wwICe7VSawwghpP//EACEQAAIDAAICAgMAAAAAAAAAAAMEAQIFABIGEBMUERUj/9oACAEBAAEFAvWrlBdKHx8HGPzg7RI7P+lL0mxC1JfyNSz61Jj7nql4jkW+QbHW1r/zbMYYqftFe5JCaoJECNd+Vx5+/wByXoRwl2Fxl21rGqkXZPSmMwTiIkUpZP8ATycNSzJdViTmAKEEmWrW580xH//EAB0RAAICAQUAAAAAAAAAAAAAAAABAhEhAxIxQlH/2gAIAQMBAT8BNqHFplEfTU4sc+qKzgpI/8QAHREAAwACAgMAAAAAAAAAAAAAAAECESEDEhMiUf/aAAgBAgEBPwE8lfRUrlMRa1g4eNpaFGV2ZnE7R7Uj/8QAMhAAAQMCAwQIBQUAAAAAAAAAAQACEQMSBCExEyJRcRAjMjNBQlJhJDRysfBzgYORsv/aAAgBAQAGPwLo2tTEVGGIAHBfMvdzaFQqEh+GqbumYCnhUZ9uk0xtcvWPsnNBxf8AGLQqDe7a18uJzyhH9Uf46c8jblKDh/SZROrtFVedGua/9vyUXvdACtuM/SUOsgxu+4UbW5XX2VHdmDmExmKZJi0VGtm7m1CrWqzGjG5Nb+cVsmQI1IVPGMrWENhrTqRx5o06FV5DNYtlXYrENpxrvXOXw29U8XuzKfXPeHdbzRxVY9S0+PmKdGfpCFPzdqofdTKnRf/EACQQAQACAQIGAwEBAAAAAAAAAAEAESExQVFhcYGhscHR8BDh/9oACAEBAAE/If4rbwCID95hxs3VSmRliNJbjFjmXCzhPQPxFmM3DBw1WLG6dphgcVadH/ZshsLGx1lDvgHdUYljFVYgr+dJpqHW2jKZOoa1TPoZcY+BgfHhBE6th7mXolLNMtp2NZSXMFv1GWUcIF/vHGKyLaC5S+L3xmJDt9QcXm8Rxe6lp+1mekHJYstsrWuFSgUhcBemXO0RuGLcOVACDat+u04JhXOf1llUC08Fl7G8NGhQDWvtj4Tad+HoadpaYePPlLHIZ6z/2gAMAwEAAgADAAAAEMGha4uIt2P/xAAcEQACAgMBAQAAAAAAAAAAAAAAARExIVFhQZH/2gAIAQMBAT8QFoyOciZqUi0LFcHqu/NdGz4EsGYnsn//xAAaEQEAAwEBAQAAAAAAAAAAAAABABEhMVHB/9oACAECAQE/EJThiCR3j8lmU3c9imkJVwiRAfBI5lyf/8QAHxABAQACAgMBAQEAAAAAAAAAAREAITFRQWGRcYHw/9oACAEBAAE/EGR24A625wlrA+BYlau+Vio25RfwtnzBepzBS6BABrgT3kcAIBpND9OLFxVD0kfzJdbWFaeSdg5fGSwBvavSKk2onjKFUymkeVUzzOV4yKOIN4NL5gVnid4wglEuRHVxjpXgdDtiClqFYCie+/xML3K7ouhZAEbnGt4FA45pDJ+U/rDeMXGFYGjldAbXjGpzqcKm3aZvLqEoxKDR5p07wG4OyEvqNdfMO+9qcBfyrWRdLI2IiIRUJX8bXaFGByN9Glrfg5PADPFSYBLXfQCnIq2s0oDWIRDYjQuyGDoSiFyjbTHY4ExA0bgetp6w2ISEPIMAegX3jFgLlqoPsHwwGUw04I96nsw7w++kU1ADsfrlN/0yGx2IH0nzlH6VS9a6zjMiEV5xn+9Z/9k=" x="338" y="5888.1" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="5907.9" text-anchor="end"><tspan class="yrs">1760–1786</tspan><tspan class="name" dx="6">徳川家治</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun43" data-person="shogun:徳川家斉">
+<title>第11代 徳川家斉　1787年5月31日 〜 1837年5月6日（在職 18,237日）</title>
+<rect class="bar f-teal" x="383" y="6055.4" width="14" height="297.6" rx="3"/>
+<circle class="photo-ring" cx="353" cy="6062.9" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAABQIDBAYHAQD/xAAXAQEBAQEAAAAAAAAAAAAAAAADAgQA/9oADAMBAAIQAxAAAAHWW3WcaDVKi49Gc36IW0GbRUvXJpyum8jc6LxR+0UcfyhIlXjOZrQ8GWpZ/8QAHxAAAgICAgMBAAAAAAAAAAAAAgMBBAAFERIGEzIi/9oACAEBAAEFAsZMwDEiULUteeZLXD3kR63HdvWp0MwZMz3dFVkXr41eF8wQBI/oLPJLbYrvQO0sTA7KwQrtV7AoIONpbiqixYMrUScHtrXpFLfWSN/I171pthsTmzlNXHGbnDHMzEDDPpPXv//EABsRAAIDAQEBAAAAAAAAAAAAAAACARESIUFC/9oACAEDAQE/AYLPqzElejplNSO/BXmqGeXnp//EABsRAAMAAwEBAAAAAAAAAAAAAAABAgMREgRh/9oACAECAQE/AWaFW40dI+M88um0YsfT2y8csmVMn//EACkQAAIBAwIEBQUAAAAAAAAAAAECAAMREiExECJhcQQTMkFRFCMzcpH/2gAIAQEABj8Chx3tLMobuJyIq9hEZV52Gs8LU0LMq7/rwONrw2ZW6rPz7HUBIWdCzeW2OuxlNLXxVOB7QjY2FoDHXW+PtK9KlUVnpjmT3EP2aXqI3MvhRHSxhenUp5rytCFa47xnLKHbbpPqKbupGzDeNoLTyqZ52H8EOtjMR4QZgWyDaRjVa/SH4lZiLhDt8xqjtzE6ywmPAFvSNTaf/8QAIhABAAICAQMFAQAAAAAAAAAAAQARITFRQWFxEIGhwfDR/9oACAEBAAE/IYlixh5h5fyTMYT2yGqEqCK8SPJt9emBflheN+BzmYRZ3vXZYOdEbBQ1rrdQMwirnAemde7S3/VGcfrl9feavEYCmlGS7l7JIOjOvbcdjEGs1Q4mrWRfzEYHLe3H1HAtptBhBRXTmLsMGVF9DfQwj6xun+7LgcZl7bEITylR0qXO8xg2Y/TBS20wfEa83qftRQK1agHY55i30AG5eD0RbOPef//aAAwDAQACAAMAAAAQts111ttU2//EAB4RAQACAQQDAAAAAAAAAAAAAAEAETEhQVFxYdHw/9oACAEDAQE/EMoJKWJQ5Qz1MKQhbW9Dnl6MdsoobzwSXVfep//EABoRAQEBAAMBAAAAAAAAAAAAAAEAESFBUWH/2gAIAQIBAT8Q4DJ3Y/hn2kRwutHt5ASPJrZoL//EACEQAQACAgICAwEBAAAAAAAAAAERIQAxQVFhgXGRobHB/9oACAEBAAE/EOawkqjPVKnxOaIPlL2qnObIqwBfRkbgyeptS3Fb1GcXzJ5wxOSgkSIqQMpXKSe8pDK7IEA8jSd+4TxBnXjMORJSPnCGqY7ZEoVBckDTNPEgLgEQWaN5Pf5jhbIA3pwPNYgUwdHN6TxiIkgQtDyHV4X03ZUih8ThB+wM0CVDFqV5xdWwICYdkUG/zGzNKUpSvXJ37fgJIyhUTYq9uEaLXQRd/OQxDYiDfsP65eKIFW5ThVU6YclzbKCSCzZLLpyVmaEEpIrQfR85aXFKh8McJ6rCxCohiO68Dkm5Z9JryH0YYQnAhQ+8Y+lYJmVp3twS8ZPunpi9B4FB0YHo4TuVrJIgCU+3vHvSFCyN/v8AmGOxLyQ7cSgnzn//2Q==" x="338" y="6047.9" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="6067.8" text-anchor="end"><tspan class="yrs">1787–1837</tspan><tspan class="name" dx="6">徳川家斉</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun44" data-person="shogun:徳川家慶">
+<title>第12代 徳川家慶　1837年10月1日 〜 1853年7月27日（在職 5,778日）</title>
+<rect class="bar f-teal" x="383" y="6357.4" width="14" height="92.9" rx="3"/>
+<circle class="photo-ring" cx="353" cy="6364.9" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABAYCBQcDAf/EABgBAAMBAQAAAAAAAAAAAAAAAAMEBQIB/9oADAMBAAIQAxAAAAHVADhJjKicbzSby9tmXSTeIZaN3OgQpLuW8JbU2XuCTo9PayFi55v0CVgW/Jkx/8QAJBAAAgIBAwIHAAAAAAAAAAAAAgQBAwAFBiERIhITFBUWJUH/2gAIAQEAAQUCxspisk1TNdJavN4qjU1p1k/C8aEirXursyq7zJ3Kj6ysaZp2jh9ZGvoJ8TD3dVqI/XObugGY3ieIsQ+sMcumKy/v71YfmKPNKCnuLwDrOq2v2YXGR2xhcRgR1n//xAAcEQADAAIDAQAAAAAAAAAAAAAAAQIDERASMVH/2gAIAQMBAT8Bn0dJlrVbOyF9M6SXbic1StIqnXp//8QAIBEAAgEDBAMAAAAAAAAAAAAAAQIAAxEhBBASURMiMf/aAAgBAgEBPwF78cQBu5ScGmBPE3UbHrNKpYbPQR/oiqFFhP/EACsQAAIBAgUBBwUBAAAAAAAAAAECEQADBBASITGREyIjQVFSYUJxgpOx8f/aAAgBAQAGPwKgFMajFS2ERz6lBXh4a0v4ClvIsBxvVsuxECJ+NeXcjUN9xRh1aPbR7O7b7p3EUnihNM+U1at7KRaUmfvORA5iizQIShp/ytCgl+OtXlA4TamXDYZbtocMzRNb4Bf21bxKbTMj0+K1dKa6W3/tXba3FuWm7qhxOZSxfdATJHlR7ay7sPaRFcaLY+mZyj0NaumWjrlvx51//8QAJBABAAICAQMEAwEAAAAAAAAAAQARITFBEFFxYbHR8IGhwfH/2gAIAQEAAT8harMcA7ibDbHL5CSvw8hcah3iBxRGwUJxBigtMmOYsc/t9G5njwHevS73NFdmcz8SxKfaChe/QpmSDzUtHR8VV/5LUAnGNpdgJD2Nb/A3KjQYTxWvaYuxqPva7S3+mviXPXZQrH0fbijoW6f1nP775s5NjHCqabuomD0p65LtLVypceZmfHHN5Ytq4h5bsLhQ5/V9HT2Z8ugWWrmk/9oADAMBAAIAAwAAABD8dUopZDQT/8QAHREBAAICAgMAAAAAAAAAAAAAAQARITFRkRBhsf/aAAgBAwEBPxBgbmoCKvKUO4RDnBN/VfesdnhsmIvauf/EABoRAQEBAAMBAAAAAAAAAAAAAAEAESExQXH/2gAIAQIBAT8QCXqKcrD7aM1G1IVK7J4B7bP7zWOcL//EACQQAQEAAgEEAQQDAAAAAAAAAAERACExQVFhcYEQkaHhscHR/9oACAEBAAE/EEK2y12xIEYThQl84++t0nyqV+cpgM4ifMp980nJhBPLjF9Nu4hzwa9YLsGDl2jHRBBGx1vpiTOPCXgisTCeNXyZy4fLv3xVoUFEQoaSdz07OT1PhVeTXF5Cww/wk9kg/OEOAKgBbIG/vcbe2BKkxB5/WKHcQqQ14+QnmGiT6ASh+MOPQS0cAGdl33woUxOD/Oed1Shuiwy3gGH1tERXQQSB748GEiYaIp0DxvfYB7YDLzyICgCOBpZJvALeVJ6n+4eMn0Ix+JGLNpPxiH8QLp3KRpyG7vZgkEsvl1Tg3sdIYzoFeAgZtwMZ1iF/GMSU63ZP6dPPrLzchhK9/wCpr3fo7iGnKdjy8HvP/9k=" x="338" y="6349.9" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="6369.8" text-anchor="end"><tspan class="yrs">1837–1853</tspan><tspan class="name" dx="6">徳川家慶</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun45" data-person="shogun:徳川家定">
+<title>第13代 徳川家定　1853年12月23日 〜 1858年8月14日（在職 1,695日）</title>
+<rect class="bar f-teal" x="383" y="6454.8" width="14" height="25.8" rx="3"/>
+<path class="leader" d="M381.5 6462.3h-4L372 6460.4h-2"/>
+<circle class="photo-ring" cx="353" cy="6460.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAZABkAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAwYBBAIFBwD/xAAYAQADAQEAAAAAAAAAAAAAAAABAwQFAP/aAAwDAQACEAMQAAABYvWoxtBBHuDVhEGzqNCO4QUeNSpX6sWmkh9DQ6U9J0a5eSzTmpZ2S2wZQe//xAAiEAABAwQCAwEBAAAAAAAAAAACAQMEAAUREhMhFDFBFSL/2gAIAQEAAQUC079rJtvkyvxQxOh+OcU+OUmNAHCtPOcwunvd2idWu8BnYiRuTtUs/wCPqLWU2uqNjceVkamKIRXWlAnLmwpT7jKFoH3UcZlG24Ul9xwtiW0dvXLoPqLSenOq/8QAGxEAAgMBAQEAAAAAAAAAAAAAAAECAxESIVH/2gAIAQMBAT8BOIfCyPMjBMuTfontTZrOpNYf/8QAGxEAAgIDAQAAAAAAAAAAAAAAAAECEQMSITH/2gAIAQIBAT8BsUpoxvaPTameow8RHDGM6KRR/8QAKBAAAgECBgECBwAAAAAAAAAAAQIAAyEQERITMUEiUXEjMmFygZHB/9oACAEBAAY/AoJVrb2QZrWl67fqKNerOUn9HBhGC0rHMkfLxGR3Nutv+ymEHqTnPrOMANtmKuw8Z5IVYSoWUnQuq2OfU0tVCaxr9oKYYH8wq9tzrvA06LbjDvqfDZVztxNzUS3ObXmtaa85wu12Pc84/wBkT3meBEtP/8QAIxABAAICAgEDBQAAAAAAAAAAAQARITFRcWFBsfCBocHR4f/aAAgBAQABPyGynKQX7iJemUZY1AHagiGBd1Uq3+1APKuMY+NQ+xbTMFre5SAXWepPHdIwCprpDUxu1xELWULfWveZ3vSnaQtQjTA+lzecAXVBNM7S+aAKbaR7q5mCVeLfOpZGjrufjuXNGm6zKVytp8sINnsmZ0zaxi2X6x3kMFNHiIhzJrrgisLfmX5X7ErZ9V7RjmvBfOpnRd9TALd5J//aAAwDAQACAAMAAAAQr10vrngMd//EABkRAAMBAQEAAAAAAAAAAAAAAAABIRExYf/aAAgBAwEBPxDTShEOC0hTdJdRCHPT2HsHD//EABkRAQEBAQEBAAAAAAAAAAAAAAEAESFhcf/aAAgBAgEBPxADwgMG9VC4WIuR4Q3O/bbmQDt//8QAIxABAQACAQQCAgMAAAAAAAAAAREAITFBUWFxgeGhwbHR8P/aAAgBAQABPxDZFGnp33h0ENAHu5DHOcBhq+MQnjgkn5yQQZanqTGXx1rHR/VxC0Ui7PV7ZCCCO7n7xdzSvICXQs6cYyQDRL4auAU1kAA1f1hub/lEfrCGlHYPHGBtGaAO9dMNXIm2hNQBn5cA1KbyiwYpzpxogkWpgXTi/Ew2TubZtcfqnCT/AGs0CgC3U3M3mlLIJFNRF84VZeQs51VSuAkn7m0EDoJK0cFcgX2rVB8YF0Y60GQdK301lVQUNi1FiTtgqJKKB5dr6cEPgCeyxuh88Ym5N0XSBtANBONZWkgvU++x6yS2pb5wIuzCevthiDLBTw4oW8HCwAGf7YXikOhrxn//2Q==" x="338" y="6445.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="6465.2" text-anchor="end"><tspan class="yrs">1853–1858</tspan><tspan class="name" dx="6">徳川家定</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun46" data-person="shogun:徳川家茂">
+<title>第14代 徳川家茂　1859年1月4日 〜 1866年8月29日（在職 2,794日）</title>
+<rect class="bar f-teal" x="383" y="6485" width="14" height="43.9" rx="3"/>
+<path class="leader" d="M381.5 6492.5h-4L372 6494.4h-2"/>
+<circle class="photo-ring" cx="353" cy="6494.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAwUBBAYCB//EABkBAAMAAwAAAAAAAAAAAAAAAAADBAECBf/aAAwDAQACEAMQAAABTJq/UvTZVrtwMfDhXTNZ4GRNGlc5K/NQXLv4eiE/pmAyrlYIlCnrPOj1P//EACEQAAICAgICAwEAAAAAAAAAAAIDAQQFEgAREyEQMUEl/9oACAEBAAEFAs5Y3t+Zhc2tWVFRuCH7+/fxjnGDAuWGsyKNbLQ0PvrnvmNYKq8HExamCbYLZ3c8H7DUp8goWiZOcljGpSjFWGqsKlLQupWmXBvTyKknYy9lxY6e6GYn+kPXBEdg9ckpAv/EAB0RAAICAQUAAAAAAAAAAAAAAAACASERAwQQEjH/2gAIAQMBAT8ByTpq9yMkrwj0bjzI80d5GeWuT//EABwRAAMAAgMBAAAAAAAAAAAAAAABAgMREBIhMf/aAAgBAgEBPwGYSWhW4+E0qXFx6YfHoxVummdEKEj/xAAlEAABAwQBBAIDAAAAAAAAAAABAAIRAxIhMRAUMkFhE3FCYsH/2gAIAQEABj8ChtW5oGI0gC9xA9r4acvgzkq59KB98TzDG3XeIRb2erJQhsXqONqbSTJ0FcRDkHOOAjboY4yrSbW7WKodOkXEZOguotkfmB4QqBzGh2RlOpP7m7Rp9OM+blIwEHGkXkayjaxtNvvKon9FW+/5xrgxBwv/xAAhEAEAAgICAgIDAAAAAAAAAAABABEhMUFRYXGB4ZHB8P/aAAgBAQABPyHXhgLD7ldIrCLehJmsjAYmWinwRsquTctwSr3MkdM5f0MCJe8HJ7WO3uDi+Yt9trcyXmXx2lprFubxCuCZ7lUCzjuXxOp6mTOo6IitsfmCOSFaLkAlmLBI0LHkeUFbFCrT8SjhwQpmrTvXvURS5KuasrD6y1dlBoll4sQ7b/ogDTc7DxUAMJPnGDmf/9oADAMBAAIAAwAAABCofYLvduUb/8QAGhEBAQEBAQEBAAAAAAAAAAAAAQARITFBkf/aAAgBAwEBPxDJACOsyj8jC5N8ugH39mCkY5shr2//xAAZEQEBAQEBAQAAAAAAAAAAAAABABExQSH/2gAIAQIBAT8QBTSCZ2MJ7ZfUnWZs8m8xY8LjF//EACEQAQEAAgICAgMBAAAAAAAAAAERACExUUFhcYGRobHh/9oACAEBAAE/ENe2iNm9d9n4xslApB7Dw48H7HbABXvcvjNNwD9gF/Wc+FgVBn1/cdEBo0Ji6kU5A8ZovIbKZRegs1BRp+R7xOsFpDpRL6MKXzUo/kbuWSCiJRxD8RrmbyqbhPjxjEdCBKARTUwr/kCQcWfWs1ryBrhLPWFMiOm0f7ijFeBk2RdkxkVAB7JNgkvzjPkQSegqhi11anvmfOcsZgWu7OJ4ZhuIpiOLEGUkmhsGWj1EyZfVI8SvLh6zmxtpZ9wxnAXj3t3xZK/sSu+VOzXWBtis54ygRCTh0GadrbHz1iL3pCmnvj5yQIXXgPow4TRSoz+s/9k=" x="338" y="6479.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="6499.2" text-anchor="end"><tspan class="yrs">1859–1866</tspan><tspan class="name" dx="6">徳川家茂</tspan></text>
+</g>
+<g class="term c-shogun" data-id="shogun47" data-person="shogun:徳川慶喜">
+<title>第15代 徳川慶喜　1867年1月10日 〜 1868年1月3日（在職 358日）</title>
+<rect class="bar f-teal" x="383" y="6533.1" width="14" height="3.9" rx="1.9"/>
+<circle class="photo-ring" cx="353" cy="6535" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGQAAAwEBAQAAAAAAAAAAAAAABAYHAwUI/9oACAEBAAAAAaljxJOvG+jAkNR4ZfokWZAqj/UsZuqcem0EZclWbbWU86bvmv8A/8QAIRAAAgICAgEFAAAAAAAAAAAAAgMBBAAFBhEyEhMhJDH/2gAIAQEAAQUCxkdjfEDXtECpx/mrYS9hlyJKudpoVb/ckyOs1YfexvhyAoDHyBIPz4pQ7PDjuN8wsIsPy4ndk0Y5wLy+hlxVoTByUm5ligVNPWWvlyrIxrDrsZV0eviurZ+36P/EACkQAAIBAgQEBgMAAAAAAAAAAAECEQADEBIhMSNBUWEEExQiMnFSYpH/2gAIAQEABj8CoimzLNQoOFl0OucYOAzKf13otmuTnCjONa4j3WPUrGFkxm4g064GKtW15EsaW4+rEYeteYX4feIQhTHKoY6Rh6S5Ht1t4DOYms9jKARsw1ooYMcxS27ayzUrI23Mb/eDG57wW/H5dj2q9elc6qZij4rdQQG6jvXn3BxHH8FQ+3Sv/8QAIhABAAICAgEEAwAAAAAAAAAAAQARITFBUXEQYZGxgcHw/9oACAEBAAE/IXMxZsghlYDuNQDpg66YzgNaeZmpVSm/qmG9QqyjzR7iLCuVYT7tR8wvhRx5gHvHSyBcduYb0jw6L+PSxDkllO7Gw+JbV4YESzgEywbOT9y3OOYP04uHmueNlpjL2a4HxHoMoCOLEmRLfSPSE6ERZo+IBm3cTSKHUSwD21EZr10nwlZOoP8AWY7lHlaf/9oACAEBAAAAEEpnjGaf/8QAIhABAAICAgICAwEAAAAAAAAAAREhADFBUWFxgaGx0eHw/9oACAEBAAE/EOS4nEg0RLxg1SAG+AGOsfVT1kCp+0/mT6nhDYE9Io+8ngv8ZpJ0wH5VONViGJYIilqcUEJ0KWdTaecXREaQTJHpHZUdsCu11GQtS7esO3NRs4j2xdd48corB/t4yEgVwIik8owfp5fGS9g5GZVDHKqmSWAeE9w9Y1RMB0/zGTVc4wmZEAzK/aMjmJ6y5MLczJhiIaoqQmF0Nc5cbYYSsgUGPvOSKGm5tvA4VM2+ejzgLNFiEqEtSseIx2zu5wBKKeAKkQQg0pxpdbxCIbBEMBCLEoFhdtYXhjvI7VCWujw0X4O8FD2oQV98fnrP/9k=" x="338" y="6520" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="332" y="6539.9" text-anchor="end"><tspan class="yrs">1867–1868</tspan><tspan class="name" dx="6">徳川慶喜</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken0" data-person="shikken:北条時政">
+<title>第1代 北条時政　1203年11月14日 〜 1205年9月5日（在職 661日）</title>
+<rect class="bar f-teal" x="503" y="2554.3" width="14" height="8.9" rx="3"/>
+<path class="leader" d="M518.5 2558.7h4L528 2552.9h2"/>
+<circle class="photo-ring" cx="547" cy="2552.9" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGQAAAwEBAQAAAAAAAAAAAAAABAUGAgMH/9oACAEBAAAAAfZRV5Xm1RYzXRS3GqVwzQAbrpK6UFUWo4d0W0Vnc97/AP/EAB0QAAICAwADAAAAAAAAAAAAAAMEAQIABRMREhT/2gAIAQEAAQUCxovEA0chNbzs0LJN60hCafH4ftiZTEyGwkxsf1ToBch436mSknMw5glHj8yWqYJCFI1IdaoKoRrDYSB8uOANbcGGY56VrSubeO9FK9VR+kTFSkjHyX8UEOgVKzRcxOdaXreP/8QANBAAAgECBAQCBQ0AAAAAAAAAAQIDABEEEiExEyJBYRBSIzJRcdEkMzRCYoGRoaKx0vDx/9oACAEBAAY/AqZ7Zjsq+Y9BV3xM9ybkK9lv2q7Rhza135j+dTcIPJHiAbC3qL1AqCcgl8OetgSv+Hwz/J4YY2vrzHf1ugFqus6zKE+c2B3r6Xi5HPlHDUa1C68yA666VioLHLxja/s8JlRlblKmpERCHNuHy6FbCrke+oI1XNJI3Lc2G1QrC+Z8liDse/70YsI2VNnm/j7TQCRkN58xzMe561PDi2MTsdCZNJUFrU6X9CAvD+FQ4lsxhU8ljtp7O9EWVJFOjjUW7/38KCqAANgPCTGZM6YO+T7R+t91RtLiU3zKXVgbHar8fMF2WNSTWRFOHi/Ufh4LhoWyzTaA+UdWoQqoCAWt2pY2Hqco93Sr5HfXZaujBh2r/8QAIxABAAICAgEFAQEBAAAAAAAAAREhADFBUWEQcYGRsdHB8P/aAAgBAQABPyHD6mhhWvkcU5nfJWwNGdtWb90sLwACFC9p53nhDxgi+P5em5kEyjO2guLypKkALoKHtceIynbhKEISVqatce9YCodScr/3nAVhKJWqqeK9GPxUGQ7MkGFApOTQSuCQTw3DkfiYb4bbDk+WgpSyp2b0xQBNGQ7P2aPLWAyEqZpt3p85f0o4NI8Sadc425KXIE/x95HIPtJV7jE5LkbmjUXk4B75YBd4BAHoJiAgcW3kBHuPWHKxUxQ9g14wloAAD5tZ7zsQD+f+m/bfpc2EJr/I15TI2ZfHwwdBCjkUvqMYw1BBPO/jeReRhVN9Z//aAAgBAQAAABDz7+dPH//EAB8QAQEBAAMBAAIDAAAAAAAAAAERIQAxQVEQYXGRof/aAAgBAQABPxDgtZysBA+KBfLfODIaG7EBDVcv7dVREJhCNuqO3rgWDuBaaTJBEgtXhhPodgwzDNZlPX4SMKrJO1Ctp73N6+oDIy2q0FO0WEdfhpMMJgwlnxvGVS+8OIiKlFnkbwZ7FF6X0XootT4cLTctgI0uhROIzXibp0gpKPzvnkalwHZ+y9PpHlL+21VDwMJr8nBa7fl9hMhrUoli7wnMNKqCkWL3o4b15wspjcVbSvWHIMN6MkkGhFUR28l4bAxC5dDpnxs4nbChys6LR2JPlRxoRwZYF6Og6wqIvpQIgAYAefgdJHY4bGpI9Z44oNngnGsaQgmJ9btnsa97WI0AwlC2LnXrK95Xats9xfg1BYMYsPqB/j3hTfHMRP5Z/d4uRTZEvYeyt/fDHH7QIFLAAqqdTvj5YCYB2k9PnP/Z" x="532" y="2537.9" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="568" y="2557.8"><tspan class="name">北条時政</tspan><tspan class="yrs" dx="6">1203–1205</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken1" data-person="shikken:北条義時">
+<title>第2代 北条義時　1205年9月5日 〜 1224年7月1日（在職 6,874日）</title>
+<rect class="bar f-teal" x="503" y="2565.1" width="14" height="110.9" rx="3"/>
+<path class="leader" d="M518.5 2572.6h4L528 2578.4h2"/>
+<text class="label" x="532" y="2583.3"><tspan class="name">北条義時</tspan><tspan class="yrs" dx="6">1205–1224</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken2" data-person="shikken:北条泰時">
+<title>第3代 北条泰時　1224年7月16日 〜 1242年7月14日（在職 6,572日）</title>
+<rect class="bar f-teal" x="503" y="2678.3" width="14" height="106" rx="3"/>
+<circle class="photo-ring" cx="547" cy="2685.8" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAQDBQECBgf/2gAIAQEAAAAB9lKlh4Cm2twKWDoMrK8/eT7t1L8eXBGSGwP/xAAjEAABAwIFBQAAAAAAAAAAAAADAQIEEBEAEhMgIQUUFSMk/9oACAEBAAEFAqcmfG1Wv2Gs08SUKTL2ZfYxBC6mnKYIZjHmeRELGN5GPGa0SoiYC3TXKl4/0SJL0EApLCjiyVDcZZI1NHUb+5p//8QALxAAAgAEBAIHCQAAAAAAAAAAAQIAAxESITFBcRATBCAiQlGh8DJDUmFikbHR8f/aAAgBAQAGPwLgxPSGlgNYFWnnEyVMe+2hVqY06s26tWtpavhE0Svdi1t/VergZd93ez/sNPLKC62tQa4RUcOXW6ZnYM47RtroNILCTJKgLMDkG+7cbRy1Uhfq3rFqE0GGfkIoR7WsE0FTnDTjWiGgB+KmP2/cPM8BAxxIxMFyoDNoNOM5SpCXXKd8/Xzhpau0u7vCEY9oD88f/8QAJRABAAIBAwMDBQAAAAAAAAAAAREhADFBYRBRkSCh8HGBsdHx/9oACAEBAAE/IeiyZ+YZORvsdsoSyACU6xUyN+lToG2kwv3OIDMMtJJivQbE0yFUaXY8YQCFKkbniHziAQRsToMsCFrO8bHLWAI2KX3O/wDcaS0G2p/AcJgFraXkvX44BEVL24NV9UGZd55rASlBKLYyIAES0gt7Pq4d8l8heMAUBAsODu6HOH9lcDt7W79SwAJNMKeScOtBFol5HKMSzEQSY+avX//aAAgBAQAAABD/ADnl/wC//8QAIBABAQACAgIDAQEAAAAAAAAAAREhMQBREEEgYXGBkf/aAAgBAQABPxDnriZnqEyVIrsEMHK3jSsjyOBAgKApMUV+AAlrAQgphSn4hxyOIeglZmMtY+ByjRKbOCkdiNArbRTCzIY4vADNSpYKCumbXh4WEKI6R8b6HUozZsxQr3zpL8r0M6rMAENuK2YO1WggMKSAmMAJWyEqjTMUoMMrFwmzcQO+BgkyyAJgqZjabwcP8WD71+l2MCAaldsrOrzdP4gAAMNKOkdPFvqq4bj/ABebdVBSF7JA7fTxRAK5IgB2wdg6CeHpiYK4EMiMqekXMByQJDCyIxBGIxYnIUqlxSKP2Tc/G+P/2Q==" x="532" y="2670.8" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="568" y="2690.6"><tspan class="name">北条泰時</tspan><tspan class="yrs" dx="6">1224–1242</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken3" data-person="shikken:北条経時">
+<title>第4代 北条経時　1242年7月15日 〜 1246年4月10日（在職 1,365日）</title>
+<rect class="bar f-teal" x="503" y="2786.3" width="14" height="20.4" rx="3"/>
+<path class="leader" d="M518.5 2793.8h4L528 2792.2h2"/>
+<text class="label" x="532" y="2797.1"><tspan class="name">北条経時</tspan><tspan class="yrs" dx="6">1242–1246</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken4" data-person="shikken:北条時頼">
+<title>第5代 北条時頼　1246年4月10日 〜 1256年12月10日（在職 3,897日）</title>
+<rect class="bar f-teal" x="503" y="2808.7" width="14" height="62" rx="3"/>
+<path class="leader" d="M518.5 2816.2h4L528 2817.7h2"/>
+<circle class="photo-ring" cx="547" cy="2817.7" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAABAUGAwECB//EABgBAAMBAQAAAAAAAAAAAAAAAAECAwUE/9oADAMBAAIQAxAAAAGiD8E4WkXt3sX1AcA0RM4Tn0RnujdIfKtojBXqNVWlxk2EPWKa2KrPn0qf/8QAIhAAAgIBBAIDAQAAAAAAAAAAAQIDBAAFERIiEyEGIzI0/9oACAEBAAEFAuWwWRi0Y5ZtthjHBU+zcmvFF0iRWxeJlYdVHc+qaehGeI6kMCUstIkMn880yQ5TtJPiBVDNyzVHMdKzPsHlLNI2aOvlpqu2ay/kt2JOcisDkv5+PzerU6168BaSz//EAB0RAAICAQUAAAAAAAAAAAAAAAABAgMREiEiMkH/2gAIAQMBAT8BrZqQ2RaE8k+rZKW5W+ZbLw//xAAdEQADAAICAwAAAAAAAAAAAAAAAQIDESExBBIj/9oACAECAQE/AbWjTJ6LTY512Ylu0iI4M0/M8eOfY//EACgQAAEDAwMDAwUAAAAAAAAAAAEAAhEDEiEQIjEyQWFRcZETQmNy8P/aAAgBAQAGPwKr+yA4wtyi5To8nquKHsERIMH4Vge0O9I0nwjPN5ULhSIlEeqdVYJsyfITx+RbuewHJTmVBYZ250xlVs5ftC+pb11ZAKLiZJ5Kb7q5zpNxGc99GUBw3n++UT2nGgPlVqU/dcE6q/hqvf1GXuX/xAAhEAEAAgICAQUBAAAAAAAAAAABABEhMUGBUWFxkaGx0f/aAAgBAQABPyFt75fhBTgDiHisbgqXNvEIluJiFWR2CXYq9yy+8F9QjmrW/QyyJ8g4esKztDUuoMMcips7lQFGCWrTbC36h5mpCKuBgWF4N9x0Gm8K8JcBt5aVwqcWx59+YTBtOVlBACUUCntxEYbAVVRWfi4stWTmXb9PZiEg1p4KchvqGJ0tfLgPj8QLoqqePP3HTPCx43BlGyp7Cf24stBfvGC/AHQda6n/2gAMAwEAAgADAAAAEL1zWoV9V5f/xAAZEQEBAQEBAQAAAAAAAAAAAAABACERUUH/2gAIAQMBAT8QC+jadidVzINFhHkrwTHHs3N3/8QAGxEBAAMBAQEBAAAAAAAAAAAAAQARMSHwUWH/2gAIAQIBAT8QANzYJ3RlIB22PzqN+hCLsBT8h2pme9s//8QAIxABAQACAgICAwADAAAAAAAAAREAITFRQYFhcZGhwbHh8P/aAAgBAQABPxA0Qc++gP8AGVUXHg6yw6TRZW68/wDTDiEQG8DtytfRd5ZQnXmUjf3g8LXENNp4sGZRlRkd8PzhrQBYp9ympz94JPWkSmcvMZsvgwL0yECVKb80us0a2hTetu+sYQAQ3owBEUyTadn1k5mARwfnBC8gTjz/AHCYdS6BqJIg09zWSPzEoaOXfnK/JPEDydHyw94Tt1AvDRpyLD1d48GoXL+/GSy0qlP95PxNvYvb0K+nK3nVLFwdiX3Oc0KhAqOug8HBigWcypxsyizw3Qm/iYg0akZA+IZe89bRf0Le8MUoO0pvHmlj0GR62g6rr+4V11L8NP6Y1wkZeRWen4YodXmqjiHl6PKhh2bg5FD0CYf/2Q==" x="532" y="2802.7" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="568" y="2822.6"><tspan class="name">北条時頼</tspan><tspan class="yrs" dx="6">1246–1256</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken5" data-person="shikken:北条長時">
+<title>第6代 北条長時　1256年12月10日 〜 1264年7月27日（在職 2,786日）</title>
+<rect class="bar f-teal" x="503" y="2872.7" width="14" height="43.8" rx="3"/>
+<text class="label" x="532" y="2885.1"><tspan class="name">北条長時</tspan><tspan class="yrs" dx="6">1256–1264</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken6" data-person="shikken:北条政村">
+<title>第7代 北条政村　1264年9月2日 〜 1268年4月18日（在職 1,324日）</title>
+<rect class="bar f-teal" x="503" y="2919.1" width="14" height="19.7" rx="3"/>
+<text class="label" x="532" y="2931.4"><tspan class="name">北条政村</tspan><tspan class="yrs" dx="6">1264–1268</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken7" data-person="shikken:北条時宗">
+<title>第8代 北条時宗　1268年4月18日 〜 1284年4月20日（在職 5,846日）</title>
+<rect class="bar f-teal" x="503" y="2940.8" width="14" height="94" rx="3"/>
+<text class="label" x="532" y="2953.2"><tspan class="name">北条時宗</tspan><tspan class="yrs" dx="6">1268–1284</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken8" data-person="shikken:北条貞時">
+<title>第9代 北条貞時　1284年8月19日 〜 1301年9月24日（在職 6,245日）</title>
+<rect class="bar f-teal" x="503" y="3038.8" width="14" height="100.6" rx="3"/>
+<circle class="photo-ring" cx="547" cy="3046.3" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGwABAAIDAQEAAAAAAAAAAAAABQQGAAEDAgf/2gAIAQEAAAAB+y4JKoltfLhnu12zagTpBkzCNuxFA/VNuHdUpU1Lj//EAB8QAAICAgIDAQAAAAAAAAAAAAMEAQIABRITBhAUI//aAAgBAQABBQL0EZ7Z85pzepsCv4+zdnV5saMkBq24Yn6rstuCoVPRVhfZtswCLMEpIb8AgIMsM8uk1JDEK06NcaTq7aoYOqRO9x8rYa1Cer8lXGFJtr/FosWOJ5zpNecW/ZvElvnvhSVHT//EADIQAAIBAgMGAwUJAAAAAAAAAAECAwARBBIxEBMhIkFRYYHBIzJCobEzQ1NicYKR0fH/2gAIAQEABj8C2SSxSiJJWzAFL1z4yX9oUelBxNJKjNwzEnL4VG0t94vK19hWCURC3Mctz5UVjxG+VDYsY8tSpFj5Ysh4Ww/L/J1rJiAHHC5tWMwyhgtgRfrYkcPlQAAaQ6Le3n4CubCynxSxrR1sAununx7UFZkkPwsNGo5Vz9x3FJiRljkzc5OljUiMzM0os79TQLfaLyOPzDgaWeWaREiQtIqde360XjG6sdCLbzxFZ2BUdAfWhnBMd+VfxD/Wx2jAYYjRL/ef59KlizZ5X4lu5rEt7W6kRsvCrMZnC/DlUXo3bcg65eLnz6bJcQdF9lH6/P6bJzdbSSZxYbMzeQ71/8QAIhABAAICAQQDAQEAAAAAAAAAAREhADFRQWFxgRCRobHB/9oACAEBAAE/IcUCXWbvZNlBO+sTHfKEmrBX+v3D+fkzcI3EMsz9mbkhEhYafqPhx8eznEqKnJD2SHoTsl7A1gejQN2SwXR1GTICBR9h0zhywyQRFbw0BTjptPQ5woHcgn7P5lJEl6QNw8h8Rm9FoCB1O51zcNiHclx3jJgLCSnor5i8lOSh3EVwHQNYI8IytL/hPvJ4ARqZBJq0kR4yHlhg6KI6jXO8mxl33nux0RBASh24fXreGEVtJQRPhN8eePiFlUzdODoGQFTz4EyjUvZHIQHqtPdW8FQQpKLxKvSfgEOVbOhv5aevxAyPCCJDfufi9G4C1cHfP//aAAgBAQAAABCqEq2G/wD/xAAfEAEBAAMBAAMBAQEAAAAAAAABEQAhMUEQUWGBceH/2gAIAQEAAT8QxigAqrAMfPjPvtpCTq19tmAYQhQPu0P5g2ZPtsHU6CIWgUdgkghhCsW3+3493EDwoIZhUdpJ3H0PwKRTR4vQEe4wrw+Q6CLsixjxTtjUOqCyvXF0LXHaetJAwAShy2awezjbECE/YZLDqGOh7He7qTOJYgf3glNh2JFIvMPLlORPOnABxjATAh6jjRTSHSFLl5pW0NiRAHaD+ZqHBdQ2HseDxurQ9dUsfwWH2BwRZsIwWIaSTXiOP8HSyJ2SxoDQJExGPSO0PZaEcPDu1DcNcCKk+wDXZioL8AuDoCSP0Qv9NuyWIrSKAXUeiEtatLw4CtKakdoEMkFGOyUZ8Gt69Rd4/kRpRdijfD+Efi4T0JBxlwCuefArYI1GgV2/RCT2/Fsqgmvw/V/1gLn/2Q==" x="532" y="3031.3" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="568" y="3051.2"><tspan class="name">北条貞時</tspan><tspan class="yrs" dx="6">1284–1301</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken9" data-person="shikken:北条師時">
+<title>第10代 北条師時　1301年9月24日 〜 1311年11月3日（在職 3,692日）</title>
+<rect class="bar f-teal" x="503" y="3141.4" width="14" height="58.7" rx="3"/>
+<text class="label" x="532" y="3153.8"><tspan class="name">北条師時</tspan><tspan class="yrs" dx="6">1301–1311</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken10" data-person="shikken:北条宗宣">
+<title>第11代 北条宗宣　1311年11月13日 〜 1312年7月4日（在職 234日）</title>
+<rect class="bar f-teal" x="503" y="3201.7" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M518.5 3203.2h4L528 3177.9h2"/>
+<text class="label" x="532" y="3182.7"><tspan class="name">北条宗宣</tspan><tspan class="yrs" dx="6">1311–1312</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken11" data-person="shikken:北条煕時">
+<title>第12代 北条煕時　1312年7月6日 〜 1315年8月12日（在職 1,132日）</title>
+<rect class="bar f-teal" x="503" y="3206.1" width="14" height="16.6" rx="3"/>
+<path class="leader" d="M518.5 3213.6h4L528 3203.4h2"/>
+<circle class="photo-ring" cx="547" cy="3203.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQIAJQAlAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGwAAAgMAAwAAAAAAAAAAAAAABQYDBAcBAgj/2gAIAQEAAAABHQsdJ/Z/PrG0SzteIPpwOeIJVvkSxHcQd+s7fJgZa4PKaN//xAAdEAACAwEBAQEBAAAAAAAAAAADBAECBQYAFBIT/9oACAEBAAEFArF/q7WLtTPPEgLvORIOWalvC9oKiVDyA12justovOaLUj5Nei2L7aVmubx8xONo5671dDPTKxnWkiPt+Rt+52jlEr7ILF02JAlguUdzvZlqkNnt3XiiqjfiUXBqjpUdPNHH9Cza5Rs/QO2z+Rr5fTEhZFxZwX//xAAvEAACAQIDBwIEBwAAAAAAAAABAgMAEQQSIRATIjFBUWFxgRQjJJEyM1JiodHw/9oACAEBAAY/AhLHh42ZU3eXKTuyOtuQv38UuCQLm0QMVspPkcu59aj+nytcFwmIOVe9hU2JiilQ7lm1Yat6VhpWN2y5W9RpsxGJikZt9c8UgHCT+i1ISCz4bWzm+U/ajbFDFBuL4ZlykDw391CkEEcZmjLMZH/KHtzqJUkWQMS2ZRs+pmVZoZhwtcqw15f7pSZXDgE63pRPm4DdWRspFYWHERB40ja2Ym+ltPNQOQBmQHTY2DhJmxCKTulcLz7mi2MKcRuiqb2HrW4jSYSMpyOU4PvV96mI3YIzq3FYi1z70ksaBFHDl7W2Yl5SqEgKZQb662Y273qHDnL8u6yRW4gL8x38imjTO0jX3rO97dvasJBM97q2VMgCr0A99aCooVRyAGwYeQTQSfiFmNww8W61BDPiY3kYXQg5PRSeh7MKSRnG41XjGUpJ+8jr5HOhiWFmTRyASX7HnpqD/FI+MyyrbXIpDqPPQ1vMNKsi1//EACIQAQACAgICAgMBAAAAAAAAAAERIQAxQVEQYXGBkaHhwf/aAAgBAQABPyEi5JLacYEiiX+cVD3Gt937HCMhBQAVrbGZgYnnEkZxMoQYc3qOMQSM55/g8PQ6EFLGSU17ucHJLa2+THwPGPh9Ry8VV9bd5NQYUyRKU/LFjo4Aq/zwBKQCDW7zqX0nWHwRQC9owVCv1haFkB2iThyzYxV6F0iZnrHrUNrCVH14P4gLghNxEsHWRfUEzBbDtsODFDwbtFTDiY/OWWRJJWuKJmvXWSWBIV4olCfGx5YtsOAYvEjrNNYQuF9Qj0WYrFs1laK2lGthGENIrFBADWiZvAj5EMH14rC1OESlBLEFXrJCREVH1TrQ1rFEEUjY4gQpLg2+Sw1W0Sxtp2WMSZyTHHIjVdJnaqIpPkbM/9oACAEBAAAAEJ4Z8W9P/8QAHBABAQEBAQEBAQEAAAAAAAAAAREhADFBEFGB/9oACAEBAAE/EIdiEUscaUEqaerX4KqtbAQi7ZhBH3chyyMAVKqiIciEHQAm0QXCGD699P2ySpX7QP8Av4EbanVYgFUWDAvHLyASoSgLQQE4O8vvqTySPVQPiSEvbafHiBCyWZBxZvIfwY8kB9gCmKZm/m479QGKBhUI2BwVA65rhlAA3w3zlb0oaIDjD0+51KJlUthVVMLYt4yEUIQMIQxkz8SHcELdIT6UvqHsh4xDcRiWBcA5hkGV8GyQy5RAgvDzfYkWKKRcFxxUyCbiNgCChKMX38woAHehsI5WnBhB7Bple6HgqIoSiyrIZNVAHHNZ+cW1drpjGxtwlrs41AH/AIAA/GY309/P9rMGApziiGSi82So/S+h4EP3gUZAgILeFPMFZhlmTIQwrOKh02ERQlQV7nM7xxHrWUIsI6b8vf/Z" x="532" y="3188.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="568" y="3208.2"><tspan class="name">北条煕時</tspan><tspan class="yrs" dx="6">1312–1315</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken12" data-person="shikken:北条基時">
+<title>第13代 北条基時　1315年8月12日 〜 1316年7月28日（在職 351日）</title>
+<rect class="bar f-teal" x="503" y="3224.7" width="14" height="3.8" rx="1.9"/>
+<path class="leader" d="M518.5 3226.6h4L528 3237.4h2"/>
+<circle class="photo-ring" cx="547" cy="3237.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABQYCAwQAAf/EABcBAQEBAQAAAAAAAAAAAAAAAAECAAP/2gAMAwEAAhADEAAAAVIvmb+dnr14zx6CT6jtoGMy8QwQ8XIOwZ6rLkibTyYnwojKktUed//EAB4QAAICAwEBAQEAAAAAAAAAAAIDAQQABRETEiIj/9oACAEBAAEFAu9zWoNrlRzLHZr6AvlbZ/VJMMjRhIoXaat4u6JWQq7C9diK+pSshrL8V2UpcLpWSrigCyQcXqjA8ujbZg23VS9jaJkRZBxKqH5b7fWNYr0vWkEqB/qARBTDYNjLFZQ2ZKUgTTWOGo0t/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERECD/2gAIAQMBAT8BSEXilz//xAAaEQACAgMAAAAAAAAAAAAAAAAAARARAiEx/9oACAECAQE/AcmNFbH0qGio/8QAKRAAAgIBBAECBQUAAAAAAAAAAQIAEQMSITFBEwQiJDJRYYFCUnGx0f/aAAgBAQAGPwKCh7Qd7n1/McIoLEULmXC/KNPtMljrk/pmVApDX3wYUzomq+EfmOfHk24BFXMmYo2nIo27uBsRu11X/U08alth+Z4gxYDi5WYWIFNhQwB6nqUx9adMCu33quYQd2bfefDZAB3Dj9Z77XZV/wBhyenWgh1HU9iM2SgcjBuYp+diWu+p4gVBPG3DTUm2S/cn1gDhQwF0/Ij4U37fSOZ4P3S0BYcUywE3Z3s71FUUA3Yj6tW/FzY6eyYaumXcmLan+AZ//8QAJBABAAICAgICAgMBAAAAAAAAAQARITFBUWFxgZGh4bHB0fD/2gAIAQEAAT8h7dsUR4VYnUc1w3enqFqf4PzFwK5npioRwcwNK9Go2b/EI2ckZtYZqF4BfwYButsToggtk6/kjIB8A4/LiZGLat4pT1hlDukFIdeZVQKaav8A2O8UBarVeoI2DRvKmD7YtCGthQlcMHkyfqa4d0aI0I8ANeYF236n3qNkWF7ZweP1KCe0LFNcRmJUUQhdL3emVQHvajZ44z6j6AAGCIQCzAekZazj4zWH86meMjsC8icdy2sgPuPDBeIKAvLvP9ywdguz7jQRVCtp8BccdR54i6nSf94n/9oADAMBAAIAAwAAABBhrn/He2Un/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQARIVH/2gAIAQMBAT8Q2lyRmRwhyMWOJ8QZ2//EABgRAAMBAQAAAAAAAAAAAAAAAAABESEx/9oACAECAQE/EILBto30LYYnI4ainpT/xAAiEAEBAQACAwEAAgMBAAAAAAABESEAMUFRYXGBkbHR4fD/2gAIAQEAAT8QGlAr5w+cnmweiaii56674WWgFqkYHwf84bbKXmT+HM7O06AJPicD+9LtPn9ckdD4RUz/AM33ykSbwOhhZ7JeNfyhU9dJ+aXgF6VSOLu7JrZvfGGTerMAUMdcvBp+egpC4Wt+C5wSTXwyngKTT+HfIMx4/gUngZf9ctzJrAaDHF8Pl+8lrTofgroHwjxVFYtCb/VT/BwkHZwPkxl37aHg4mVmZIfVVmjPR848WgOW/u3hwQMnpiXmngzvhDFb3FZqotPc8M4Jc96Cobh73x+OOXtqZSKpgoj2zZxiDAd0JGNB3s4umJDQgQnRFHXiKA8RF8eqPVO+ODDxQGSpF6V6h94wgVHUCtEKCHHc5H7yAaKWBrEYe8eKo+zUHZNhtyR774l1aoC9lat7qN5WGpXbmKrMMXu9DwedSBbpq30rkz85MbHaA9lVdAzdf1OvGuus7E1h3x//2Q==" x="532" y="3222.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="568" y="3242.2"><tspan class="name">北条基時</tspan><tspan class="yrs" dx="6">1315–1316</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken13" data-person="shikken:北条高時">
+<title>第14代 北条高時　1316年7月29日 〜 1326年4月16日（在職 3,548日）</title>
+<rect class="bar f-teal" x="503" y="3230.5" width="14" height="56.3" rx="3"/>
+<path class="leader" d="M518.5 3238h4L528 3262.9h2"/>
+<text class="label" x="532" y="3267.7"><tspan class="name">北条高時</tspan><tspan class="yrs" dx="6">1316–1326</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken14" data-person="shikken:北条貞顕">
+<title>第15代 北条貞顕　1326年4月19日 〜 1326年4月29日（在職 10日）</title>
+<rect class="bar f-teal" x="503" y="3286.4" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M518.5 3287.9h4L528 3283.9h2"/>
+<text class="label" x="532" y="3288.8"><tspan class="name">北条貞顕</tspan><tspan class="yrs" dx="6">1326</tspan></text>
+</g>
+<g class="term c-shikken" data-id="shikken15" data-person="shikken:北条守時">
+<title>第16代 北条守時　1326年5月26日 〜 1333年6月30日（在職 2,592日）</title>
+<rect class="bar f-teal" x="503" y="3289.4" width="14" height="40.6" rx="3"/>
+<path class="leader" d="M518.5 3296.9h4L528 3300.9h2"/>
+<text class="label" x="532" y="3305.8"><tspan class="name">北条守時</tspan><tspan class="yrs" dx="6">1326–1333</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp0" data-person="emp:桓武天皇">
+<title>天皇 桓武天皇　781年4月30日 〜 806年4月9日（在位 9,110日）</title>
+<linearGradient id="tl-g-emp0" gradientUnits="userSpaceOnUse" x1="0" y1="70" x2="0" y2="92"><stop offset="0" class="s-violet" stop-opacity="0"/><stop offset="1" class="s-violet" stop-opacity="1"/></linearGradient>
+<path class="bar-open" d="M707.4 70Q707.4 70 707.4 70H721.4Q721.4 70 721.4 70V163.6Q721.4 166.6 718.4 166.6H710.4Q707.4 166.6 707.4 163.6Z" fill="url(#tl-g-emp0)"/>
+<text class="label" x="752.4" y="83.4"><tspan class="name">桓武</tspan><tspan class="yrs" dx="6">781–806</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp1" data-person="emp:平城天皇">
+<title>天皇 平城天皇　806年4月9日 〜 809年5月18日（在位 1,135日）</title>
+<rect class="bar f-violet" x="707.4" y="168.6" width="14" height="16.6" rx="3"/>
+<text class="label" x="752.4" y="181"><tspan class="name">平城</tspan><tspan class="yrs" dx="6">806–809</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp2" data-person="emp:嵯峨天皇">
+<title>天皇 嵯峨天皇　809年5月18日 〜 823年5月29日（在位 5,124日）</title>
+<rect class="bar f-violet" x="707.4" y="187.3" width="14" height="82.2" rx="3"/>
+<text class="label" x="752.4" y="199.6"><tspan class="name">嵯峨</tspan><tspan class="yrs" dx="6">809–823</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp3" data-person="emp:淳和天皇">
+<title>天皇 淳和天皇　823年5月29日 〜 833年3月22日（在位 3,585日）</title>
+<rect class="bar f-violet" x="707.4" y="271.4" width="14" height="56.9" rx="3"/>
+<text class="label" x="752.4" y="283.8"><tspan class="name">淳和</tspan><tspan class="yrs" dx="6">823–833</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp4" data-person="emp:仁明天皇">
+<title>天皇 仁明天皇　833年3月22日 〜 850年5月4日（在位 6,252日）</title>
+<rect class="bar f-violet" x="707.4" y="330.3" width="14" height="100.7" rx="3"/>
+<text class="label" x="752.4" y="342.7"><tspan class="name">仁明</tspan><tspan class="yrs" dx="6">833–850</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp5" data-person="emp:文徳天皇">
+<title>天皇 文徳天皇　850年5月4日 〜 858年10月7日（在位 3,078日）</title>
+<rect class="bar f-violet" x="707.4" y="433" width="14" height="48.6" rx="3"/>
+<text class="label" x="752.4" y="445.4"><tspan class="name">文徳</tspan><tspan class="yrs" dx="6">850–858</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp6" data-person="emp:清和天皇">
+<title>天皇 清和天皇　858年10月7日 〜 876年12月18日（在位 6,647日）</title>
+<rect class="bar f-violet" x="707.4" y="483.6" width="14" height="107.2" rx="3"/>
+<text class="label" x="752.4" y="496"><tspan class="name">清和</tspan><tspan class="yrs" dx="6">858–876</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp7" data-person="emp:陽成天皇">
+<title>天皇 陽成天皇　876年12月18日 〜 884年3月4日（在位 2,633日）</title>
+<rect class="bar f-violet" x="707.4" y="592.8" width="14" height="41.3" rx="3"/>
+<text class="label" x="752.4" y="605.1"><tspan class="name">陽成</tspan><tspan class="yrs" dx="6">876–884</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp8" data-person="emp:光孝天皇">
+<title>天皇 光孝天皇　884年3月4日 〜 887年9月17日（在位 1,292日）</title>
+<rect class="bar f-violet" x="707.4" y="636" width="14" height="19.2" rx="3"/>
+<text class="label" x="752.4" y="648.4"><tspan class="name">光孝</tspan><tspan class="yrs" dx="6">884–887</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp9" data-person="emp:宇多天皇">
+<title>天皇 宇多天皇　887年9月17日 〜 897年8月4日（在位 3,609日）</title>
+<rect class="bar f-violet" x="707.4" y="657.3" width="14" height="57.3" rx="3"/>
+<text class="label" x="752.4" y="669.6"><tspan class="name">宇多</tspan><tspan class="yrs" dx="6">887–897</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp10" data-person="emp:醍醐天皇">
+<title>天皇 醍醐天皇　897年8月4日 〜 930年10月16日（在位 12,126日）</title>
+<rect class="bar f-violet" x="707.4" y="716.5" width="14" height="197.2" rx="3"/>
+<text class="label" x="752.4" y="728.9"><tspan class="name">醍醐</tspan><tspan class="yrs" dx="6">897–930</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp11" data-person="emp:朱雀天皇">
+<title>天皇 朱雀天皇　930年10月16日 〜 946年5月23日（在位 5,698日）</title>
+<rect class="bar f-violet" x="707.4" y="915.7" width="14" height="91.6" rx="3"/>
+<text class="label" x="752.4" y="928.1"><tspan class="name">朱雀</tspan><tspan class="yrs" dx="6">930–946</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp12" data-person="emp:村上天皇">
+<title>天皇 村上天皇　946年5月23日 〜 967年7月5日（在位 7,713日）</title>
+<rect class="bar f-violet" x="707.4" y="1009.4" width="14" height="124.7" rx="3"/>
+<text class="label" x="752.4" y="1021.7"><tspan class="name">村上</tspan><tspan class="yrs" dx="6">946–967</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp13" data-person="emp:冷泉天皇">
+<title>天皇 冷泉天皇　967年7月5日 〜 969年9月27日（在位 815日）</title>
+<rect class="bar f-violet" x="707.4" y="1136.1" width="14" height="11.4" rx="3"/>
+<text class="label" x="752.4" y="1145.7"><tspan class="name">冷泉</tspan><tspan class="yrs" dx="6">967–969</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp14" data-person="emp:円融天皇">
+<title>天皇 円融天皇　969年9月27日 〜 984年9月24日（在位 5,476日）</title>
+<rect class="bar f-violet" x="707.4" y="1149.4" width="14" height="88" rx="3"/>
+<text class="label" x="752.4" y="1162.7"><tspan class="name">円融</tspan><tspan class="yrs" dx="6">969–984</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp15" data-person="emp:花山天皇">
+<title>天皇 花山天皇　984年9月24日 〜 986年8月1日（在位 676日）</title>
+<rect class="bar f-violet" x="707.4" y="1239.4" width="14" height="9.1" rx="3"/>
+<text class="label" x="752.4" y="1247.3"><tspan class="name">花山</tspan><tspan class="yrs" dx="6">984–986</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp16" data-person="emp:一条天皇">
+<title>天皇 一条天皇　986年8月1日 〜 1011年7月16日（在位 9,115日）</title>
+<rect class="bar f-violet" x="707.4" y="1250.5" width="14" height="147.7" rx="3"/>
+<text class="label" x="752.4" y="1264.3"><tspan class="name">一条</tspan><tspan class="yrs" dx="6">986–1011</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp17" data-person="emp:三条天皇">
+<title>天皇 三条天皇　1011年7月16日 〜 1016年3月10日（在位 1,699日）</title>
+<rect class="bar f-violet" x="707.4" y="1400.2" width="14" height="25.9" rx="3"/>
+<text class="label" x="752.4" y="1412.6"><tspan class="name">三条</tspan><tspan class="yrs" dx="6">1011–1016</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp18" data-person="emp:後一条天皇">
+<title>天皇 後一条天皇　1016年3月10日 〜 1036年5月15日（在位 7,371日）</title>
+<rect class="bar f-violet" x="707.4" y="1428.2" width="14" height="119.1" rx="3"/>
+<text class="label" x="752.4" y="1440.5"><tspan class="name">後一条</tspan><tspan class="yrs" dx="6">1016–1036</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp19" data-person="emp:後朱雀天皇">
+<title>天皇 後朱雀天皇　1036年5月15日 〜 1045年2月5日（在位 3,188日）</title>
+<rect class="bar f-violet" x="707.4" y="1549.2" width="14" height="50.4" rx="3"/>
+<text class="label" x="752.4" y="1561.6"><tspan class="name">後朱雀</tspan><tspan class="yrs" dx="6">1036–1045</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp20" data-person="emp:後冷泉天皇">
+<title>天皇 後冷泉天皇　1045年2月5日 〜 1068年5月22日（在位 8,507日）</title>
+<rect class="bar f-violet" x="707.4" y="1601.6" width="14" height="137.7" rx="3"/>
+<text class="label" x="752.4" y="1614"><tspan class="name">後冷泉</tspan><tspan class="yrs" dx="6">1045–1068</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp21" data-person="emp:後三条天皇">
+<title>天皇 後三条天皇　1068年5月22日 〜 1073年1月18日（在位 1,702日）</title>
+<rect class="bar f-violet" x="707.4" y="1741.4" width="14" height="26" rx="3"/>
+<text class="label" x="752.4" y="1753.7"><tspan class="name">後三条</tspan><tspan class="yrs" dx="6">1068–1073</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp22" data-person="emp:白河天皇">
+<title>天皇 白河天皇　1073年1月18日 〜 1087年1月3日（在位 5,098日）</title>
+<rect class="bar f-violet" x="707.4" y="1769.3" width="14" height="81.7" rx="3"/>
+<text class="label" x="752.4" y="1781.7"><tspan class="name">白河</tspan><tspan class="yrs" dx="6">1073–1087</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp23" data-person="emp:堀河天皇">
+<title>天皇 堀河天皇　1087年1月3日 〜 1107年8月9日（在位 7,523日）</title>
+<rect class="bar f-violet" x="707.4" y="1853.1" width="14" height="121.6" rx="3"/>
+<text class="label" x="752.4" y="1865.4"><tspan class="name">堀河</tspan><tspan class="yrs" dx="6">1087–1107</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp24" data-person="emp:鳥羽天皇">
+<title>天皇 鳥羽天皇　1107年8月9日 〜 1123年2月25日（在位 5,679日）</title>
+<rect class="bar f-violet" x="707.4" y="1976.6" width="14" height="91.3" rx="3"/>
+<text class="label" x="752.4" y="1989"><tspan class="name">鳥羽</tspan><tspan class="yrs" dx="6">1107–1123</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp25" data-person="emp:崇徳天皇">
+<title>天皇 崇徳天皇　1123年2月25日 〜 1142年1月5日（在位 6,889日）</title>
+<rect class="bar f-violet" x="707.4" y="2069.9" width="14" height="111.2" rx="3"/>
+<text class="label" x="752.4" y="2082.3"><tspan class="name">崇徳</tspan><tspan class="yrs" dx="6">1123–1142</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp26" data-person="emp:近衛天皇">
+<title>天皇 近衛天皇　1142年1月5日 〜 1155年8月22日（在位 4,977日）</title>
+<rect class="bar f-violet" x="707.4" y="2183.1" width="14" height="79.8" rx="3"/>
+<text class="label" x="752.4" y="2195.5"><tspan class="name">近衛</tspan><tspan class="yrs" dx="6">1142–1155</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp27" data-person="emp:後白河天皇">
+<title>天皇 後白河天皇　1155年8月23日 〜 1158年9月5日（在位 1,109日）</title>
+<rect class="bar f-violet" x="707.4" y="2264.9" width="14" height="16.2" rx="3"/>
+<text class="label" x="752.4" y="2277.2"><tspan class="name">後白河</tspan><tspan class="yrs" dx="6">1155–1158</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp28" data-person="emp:二条天皇">
+<title>天皇 二条天皇　1158年9月5日 〜 1165年8月3日（在位 2,524日）</title>
+<rect class="bar f-violet" x="707.4" y="2283.1" width="14" height="39.5" rx="3"/>
+<text class="label" x="752.4" y="2295.5"><tspan class="name">二条</tspan><tspan class="yrs" dx="6">1158–1165</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp29" data-person="emp:六条天皇">
+<title>天皇 六条天皇　1165年8月3日 〜 1168年3月30日（在位 970日）</title>
+<rect class="bar f-violet" x="707.4" y="2324.6" width="14" height="13.9" rx="3"/>
+<text class="label" x="752.4" y="2336.1"><tspan class="name">六条</tspan><tspan class="yrs" dx="6">1165–1168</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp30" data-person="emp:高倉天皇">
+<title>天皇 高倉天皇　1168年3月30日 〜 1180年3月18日（在位 4,371日）</title>
+<rect class="bar f-violet" x="707.4" y="2340.5" width="14" height="69.8" rx="3"/>
+<text class="label" x="752.4" y="2353.1"><tspan class="name">高倉</tspan><tspan class="yrs" dx="6">1168–1180</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp31" data-person="emp:安徳天皇">
+<title>天皇 安徳天皇　1180年3月18日 〜 1185年4月25日（在位 1,864日）</title>
+<rect class="bar f-violet" x="707.4" y="2412.3" width="14" height="28.6" rx="3"/>
+<text class="label" x="752.4" y="2424.7"><tspan class="name">安徳</tspan><tspan class="yrs" dx="6">1180–1185</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp32" data-person="emp:後鳥羽天皇">
+<title>天皇 後鳥羽天皇　1183年9月8日 〜 1198年2月18日（在位 5,277日）</title>
+<rect class="bar f-violet" x="723.4" y="2433.2" width="14" height="84.7" rx="3"/>
+<text class="label" x="752.4" y="2445.5"><tspan class="name">後鳥羽</tspan><tspan class="yrs" dx="6">1183–1198</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp33" data-person="emp:土御門天皇">
+<title>天皇 土御門天皇　1198年2月18日 〜 1210年12月12日（在位 4,680日）</title>
+<rect class="bar f-violet" x="707.4" y="2519.8" width="14" height="74.9" rx="3"/>
+<text class="label" x="752.4" y="2532.2"><tspan class="name">土御門</tspan><tspan class="yrs" dx="6">1198–1210</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp34" data-person="emp:順徳天皇">
+<title>天皇 順徳天皇　1210年12月12日 〜 1221年5月13日（在位 3,805日）</title>
+<rect class="bar f-violet" x="707.4" y="2596.7" width="14" height="60.5" rx="3"/>
+<text class="label" x="752.4" y="2609.1"><tspan class="name">順徳</tspan><tspan class="yrs" dx="6">1210–1221</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp35" data-person="emp:仲恭天皇">
+<title>天皇 仲恭天皇　1221年5月13日 〜 1221年7月29日（在位 77日）</title>
+<rect class="bar f-violet" x="707.4" y="2657.4" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M722.9 2658.9h4L748.4 2654.9h2"/>
+<text class="label" x="752.4" y="2659.8"><tspan class="name">仲恭</tspan><tspan class="yrs" dx="6">1221</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp36" data-person="emp:後堀河天皇">
+<title>天皇 後堀河天皇　1221年7月29日 〜 1232年11月17日（在位 4,129日）</title>
+<rect class="bar f-violet" x="707.4" y="2660.5" width="14" height="65.8" rx="3"/>
+<path class="leader" d="M722.9 2668h4L748.4 2671.9h2"/>
+<text class="label" x="752.4" y="2676.8"><tspan class="name">後堀河</tspan><tspan class="yrs" dx="6">1221–1232</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp37" data-person="emp:四条天皇">
+<title>天皇 四条天皇　1232年11月17日 〜 1242年2月10日（在位 3,372日）</title>
+<rect class="bar f-violet" x="707.4" y="2728.3" width="14" height="53.4" rx="3"/>
+<text class="label" x="752.4" y="2740.7"><tspan class="name">四条</tspan><tspan class="yrs" dx="6">1232–1242</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp38" data-person="emp:後嵯峨天皇">
+<title>天皇 後嵯峨天皇　1242年2月21日 〜 1246年2月16日（在位 1,456日）</title>
+<rect class="bar f-violet" x="707.4" y="2783.9" width="14" height="21.9" rx="3"/>
+<text class="label" x="752.4" y="2796.3"><tspan class="name">後嵯峨</tspan><tspan class="yrs" dx="6">1242–1246</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp39" data-person="emp:後深草天皇">
+<title>天皇 後深草天皇　1246年2月16日 〜 1260年1月9日（在位 5,075日）</title>
+<rect class="bar f-violet" x="707.4" y="2807.8" width="14" height="81.4" rx="3"/>
+<text class="label" x="752.4" y="2820.2"><tspan class="name">後深草</tspan><tspan class="yrs" dx="6">1246–1260</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp40" data-person="emp:亀山天皇">
+<title>天皇 亀山天皇　1260年1月9日 〜 1274年3月6日（在位 5,170日）</title>
+<rect class="bar f-violet" x="707.4" y="2891.2" width="14" height="82.9" rx="3"/>
+<text class="label" x="752.4" y="2903.5"><tspan class="name">亀山</tspan><tspan class="yrs" dx="6">1260–1274</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp41" data-person="emp:後宇多天皇">
+<title>天皇 後宇多天皇　1274年3月6日 〜 1287年11月27日（在位 5,014日）</title>
+<rect class="bar f-violet" x="707.4" y="2976.1" width="14" height="80.4" rx="3"/>
+<text class="label" x="752.4" y="2988.5"><tspan class="name">後宇多</tspan><tspan class="yrs" dx="6">1274–1287</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp42" data-person="emp:伏見天皇">
+<title>天皇 伏見天皇　1287年11月27日 〜 1298年8月30日（在位 3,929日）</title>
+<rect class="bar f-violet" x="707.4" y="3058.5" width="14" height="62.5" rx="3"/>
+<text class="label" x="752.4" y="3070.8"><tspan class="name">伏見</tspan><tspan class="yrs" dx="6">1287–1298</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp43" data-person="emp:後伏見天皇">
+<title>天皇 後伏見天皇　1298年8月30日 〜 1301年3月2日（在位 915日）</title>
+<rect class="bar f-violet" x="707.4" y="3123" width="14" height="13" rx="3"/>
+<text class="label" x="752.4" y="3133.9"><tspan class="name">後伏見</tspan><tspan class="yrs" dx="6">1298–1301</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp44" data-person="emp:後二条天皇">
+<title>天皇 後二条天皇　1301年3月2日 〜 1308年9月10日（在位 2,749日）</title>
+<rect class="bar f-violet" x="707.4" y="3138.1" width="14" height="43.2" rx="3"/>
+<text class="label" x="752.4" y="3150.9"><tspan class="name">後二条</tspan><tspan class="yrs" dx="6">1301–1308</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp45" data-person="emp:花園天皇">
+<title>天皇 花園天皇　1308年9月11日 〜 1318年3月29日（在位 3,486日）</title>
+<rect class="bar f-violet" x="707.4" y="3183.2" width="14" height="55.3" rx="3"/>
+<text class="label" x="752.4" y="3195.6"><tspan class="name">花園</tspan><tspan class="yrs" dx="6">1308–1318</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp46" data-person="emp:後醍醐天皇">
+<title>天皇 後醍醐天皇　1318年3月29日 〜 1339年9月18日（在位 7,843日）</title>
+<rect class="bar f-violet" x="707.4" y="3240.5" width="14" height="126.8" rx="3"/>
+<text class="label" x="752.4" y="3252.9"><tspan class="name">後醍醐</tspan><tspan class="yrs" dx="6">1318–1339</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp47" data-person="emp:光厳天皇">
+<title>天皇 光厳天皇　1331年10月22日 〜 1333年7月7日（在位 624日）</title>
+<rect class="bar f-violet" x="723.4" y="3321.9" width="14" height="8.3" rx="3"/>
+<text class="label" x="752.4" y="3330.9"><tspan class="name">光厳</tspan><tspan class="yrs" dx="6">1331–1333</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp48" data-person="emp:光明天皇">
+<title>天皇 光明天皇　1336年9月20日 〜 1348年11月18日（在位 4,442日）</title>
+<rect class="bar f-violet" x="723.4" y="3351.4" width="14" height="71" rx="3"/>
+<text class="label" x="752.4" y="3363.7"><tspan class="name">光明</tspan><tspan class="yrs" dx="6">1336–1348</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp49" data-person="emp:後村上天皇">
+<title>天皇 後村上天皇　1339年9月18日 〜 1368年3月29日（在位 10,420日）</title>
+<rect class="bar f-violet" x="707.4" y="3369.3" width="14" height="169.2" rx="3"/>
+<path class="leader" d="M722.9 3376.8h4L748.4 3376.8h2"/>
+<text class="label" x="752.4" y="3381.7"><tspan class="name">後村上</tspan><tspan class="yrs" dx="6">1339–1368</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp50" data-person="emp:崇光天皇">
+<title>天皇 崇光天皇　1348年11月18日 〜 1351年11月26日（在位 1,103日）</title>
+<rect class="bar f-violet" x="723.4" y="3424.4" width="14" height="16.1" rx="3"/>
+<text class="label" x="752.4" y="3436.7"><tspan class="name">崇光</tspan><tspan class="yrs" dx="6">1348–1351</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp51" data-person="emp:後光厳天皇">
+<title>天皇 後光厳天皇　1352年9月25日 〜 1371年4月9日（在位 6,770日）</title>
+<rect class="bar f-violet" x="723.4" y="3447.5" width="14" height="109.2" rx="3"/>
+<text class="label" x="752.4" y="3459.8"><tspan class="name">後光厳</tspan><tspan class="yrs" dx="6">1352–1371</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp52" data-person="emp:長慶天皇">
+<title>天皇 長慶天皇　1368年3月 〜 1383年12月（在位 5,784日）</title>
+<rect class="bar f-violet" x="707.4" y="3540" width="14" height="93" rx="3"/>
+<path class="leader" d="M722.9 3547.5h4L748.4 3547.5h2"/>
+<text class="label" x="752.4" y="3552.4"><tspan class="name">長慶</tspan><tspan class="yrs" dx="6">1368–1383</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp53" data-person="emp:後円融天皇">
+<title>天皇 後円融天皇　1371年4月9日 〜 1382年5月24日（在位 4,063日）</title>
+<rect class="bar f-violet" x="723.4" y="3558.7" width="14" height="64.7" rx="3"/>
+<text class="label" x="752.4" y="3571"><tspan class="name">後円融</tspan><tspan class="yrs" dx="6">1371–1382</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp54" data-person="emp:後小松天皇">
+<title>天皇 後小松天皇　1382年5月24日 〜 1392年11月19日（在位 3,832日）</title>
+<rect class="bar f-violet" x="723.4" y="3625.4" width="14" height="60.9" rx="3"/>
+<path class="leader" d="M738.9 3632.9h4L748.4 3629h2"/>
+<text class="label" x="752.4" y="3633.8"><tspan class="name">後小松</tspan><tspan class="yrs" dx="6">1382–1392</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp55" data-person="emp:後亀山天皇">
+<title>天皇 後亀山天皇　1383年12月 〜 1392年11月19日（在位 3,276日）</title>
+<rect class="bar f-violet" x="707.4" y="3634.6" width="14" height="51.8" rx="3"/>
+<path class="leader" d="M722.9 3642.1h4L748.4 3646h2"/>
+<text class="label" x="752.4" y="3650.8"><tspan class="name">後亀山</tspan><tspan class="yrs" dx="6">1383–1392</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp56" data-person="emp:後小松天皇">
+<title>天皇 後小松天皇　1392年11月19日 〜 1412年10月5日（在位 7,260日）</title>
+<rect class="bar f-violet" x="707.4" y="3688.4" width="14" height="117.3" rx="3"/>
+<text class="label" x="752.4" y="3700.7"><tspan class="name">後小松</tspan><tspan class="yrs" dx="6">1392–1412</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp57" data-person="emp:称光天皇">
+<title>天皇 称光天皇　1412年10月5日 〜 1428年8月30日（在位 5,808日）</title>
+<rect class="bar f-violet" x="707.4" y="3807.6" width="14" height="93.4" rx="3"/>
+<text class="label" x="752.4" y="3820"><tspan class="name">称光</tspan><tspan class="yrs" dx="6">1412–1428</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp58" data-person="emp:後花園天皇">
+<title>天皇 後花園天皇　1428年9月7日 〜 1464年8月21日（在位 13,132日）</title>
+<rect class="bar f-violet" x="707.4" y="3903.2" width="14" height="213.7" rx="3"/>
+<text class="label" x="752.4" y="3915.5"><tspan class="name">後花園</tspan><tspan class="yrs" dx="6">1428–1464</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp59" data-person="emp:後土御門天皇">
+<title>天皇 後土御門天皇　1464年8月21日 〜 1500年10月21日（在位 13,210日）</title>
+<rect class="bar f-violet" x="707.4" y="4118.9" width="14" height="215" rx="3"/>
+<text class="label" x="752.4" y="4131.3"><tspan class="name">後土御門</tspan><tspan class="yrs" dx="6">1464–1500</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp60" data-person="emp:後柏原天皇">
+<title>天皇 後柏原天皇　1500年11月16日 〜 1526年5月18日（在位 9,314日）</title>
+<rect class="bar f-violet" x="707.4" y="4336.3" width="14" height="151" rx="3"/>
+<text class="label" x="752.4" y="4348.7"><tspan class="name">後柏原</tspan><tspan class="yrs" dx="6">1500–1526</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp61" data-person="emp:後奈良天皇">
+<title>天皇 後奈良天皇　1526年6月9日 〜 1557年9月27日（在位 11,433日）</title>
+<rect class="bar f-violet" x="707.4" y="4489.7" width="14" height="185.8" rx="3"/>
+<text class="label" x="752.4" y="4502.1"><tspan class="name">後奈良</tspan><tspan class="yrs" dx="6">1526–1557</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp62" data-person="emp:正親町天皇">
+<title>天皇 正親町天皇　1557年11月17日 〜 1586年12月17日（在位 10,612日）</title>
+<rect class="bar f-violet" x="707.4" y="4678.4" width="14" height="172.3" rx="3"/>
+<text class="label" x="752.4" y="4690.7"><tspan class="name">正親町</tspan><tspan class="yrs" dx="6">1557–1586</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp63" data-person="emp:後陽成天皇">
+<title>天皇 後陽成天皇　1586年12月17日 〜 1611年5月9日（在位 8,909日）</title>
+<rect class="bar f-violet" x="707.4" y="4852.7" width="14" height="144.4" rx="3"/>
+<text class="label" x="752.4" y="4865"><tspan class="name">後陽成</tspan><tspan class="yrs" dx="6">1586–1611</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp64" data-person="emp:後水尾天皇">
+<title>天皇 後水尾天皇　1611年5月9日 〜 1629年12月22日（在位 6,802日）</title>
+<rect class="bar f-violet" x="707.4" y="4999" width="14" height="109.7" rx="3"/>
+<text class="label" x="752.4" y="5011.4"><tspan class="name">後水尾</tspan><tspan class="yrs" dx="6">1611–1629</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp65" data-person="emp:明正天皇">
+<title>天皇 明正天皇　1629年12月22日 〜 1643年11月14日（在位 5,075日）</title>
+<rect class="bar f-violet" x="707.4" y="5110.8" width="14" height="81.4" rx="3"/>
+<text class="label" x="752.4" y="5123.1"><tspan class="name">明正</tspan><tspan class="yrs" dx="6">1629–1643</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp66" data-person="emp:後光明天皇">
+<title>天皇 後光明天皇　1643年11月14日 〜 1654年10月30日（在位 4,003日）</title>
+<rect class="bar f-violet" x="707.4" y="5194.1" width="14" height="63.8" rx="3"/>
+<text class="label" x="752.4" y="5206.5"><tspan class="name">後光明</tspan><tspan class="yrs" dx="6">1643–1654</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp67" data-person="emp:後西天皇">
+<title>天皇 後西天皇　1655年1月5日 〜 1663年3月5日（在位 2,981日）</title>
+<rect class="bar f-violet" x="707.4" y="5261" width="14" height="47" rx="3"/>
+<text class="label" x="752.4" y="5273.4"><tspan class="name">後西</tspan><tspan class="yrs" dx="6">1655–1663</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp68" data-person="emp:霊元天皇">
+<title>天皇 霊元天皇　1663年3月5日 〜 1687年5月2日（在位 8,824日）</title>
+<rect class="bar f-violet" x="707.4" y="5310" width="14" height="143" rx="3"/>
+<text class="label" x="752.4" y="5322.3"><tspan class="name">霊元</tspan><tspan class="yrs" dx="6">1663–1687</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp69" data-person="emp:東山天皇">
+<title>天皇 東山天皇　1687年5月2日 〜 1709年7月27日（在位 8,121日）</title>
+<rect class="bar f-violet" x="707.4" y="5454.9" width="14" height="131.4" rx="3"/>
+<text class="label" x="752.4" y="5467.3"><tspan class="name">東山</tspan><tspan class="yrs" dx="6">1687–1709</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp70" data-person="emp:中御門天皇">
+<title>天皇 中御門天皇　1709年7月27日 〜 1735年4月13日（在位 9,391日）</title>
+<rect class="bar f-violet" x="707.4" y="5588.3" width="14" height="152.3" rx="3"/>
+<text class="label" x="752.4" y="5600.7"><tspan class="name">中御門</tspan><tspan class="yrs" dx="6">1709–1735</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp71" data-person="emp:桜町天皇">
+<title>天皇 桜町天皇　1735年4月13日 〜 1747年6月9日（在位 4,440日）</title>
+<rect class="bar f-violet" x="707.4" y="5742.6" width="14" height="70.9" rx="3"/>
+<text class="label" x="752.4" y="5755"><tspan class="name">桜町</tspan><tspan class="yrs" dx="6">1735–1747</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp72" data-person="emp:桃園天皇">
+<title>天皇 桃園天皇　1747年6月9日 〜 1762年8月31日（在位 5,562日）</title>
+<rect class="bar f-violet" x="707.4" y="5815.5" width="14" height="89.4" rx="3"/>
+<text class="label" x="752.4" y="5827.9"><tspan class="name">桃園</tspan><tspan class="yrs" dx="6">1747–1762</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp73" data-person="emp:後桜町天皇">
+<title>天皇 後桜町天皇　1762年9月15日 〜 1771年1月9日（在位 3,038日）</title>
+<rect class="bar f-violet" x="707.4" y="5907.2" width="14" height="47.9" rx="3"/>
+<text class="label" x="752.4" y="5919.5"><tspan class="name">後桜町</tspan><tspan class="yrs" dx="6">1762–1771</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp74" data-person="emp:後桃園天皇">
+<title>天皇 後桃園天皇　1771年1月9日 〜 1779年12月16日（在位 3,263日）</title>
+<rect class="bar f-violet" x="707.4" y="5957.1" width="14" height="51.6" rx="3"/>
+<text class="label" x="752.4" y="5969.4"><tspan class="name">後桃園</tspan><tspan class="yrs" dx="6">1771–1779</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp75" data-person="emp:光格天皇">
+<title>天皇 光格天皇　1780年1月1日 〜 1817年5月7日（在位 13,640日）</title>
+<rect class="bar f-violet" x="707.4" y="6010.9" width="14" height="222.1" rx="3"/>
+<text class="label" x="752.4" y="6023.3"><tspan class="name">光格</tspan><tspan class="yrs" dx="6">1780–1817</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp76" data-person="emp:仁孝天皇">
+<title>天皇 仁孝天皇　1817年5月7日 〜 1846年2月21日（在位 10,517日）</title>
+<rect class="bar f-violet" x="707.4" y="6235" width="14" height="170.8" rx="3"/>
+<text class="label" x="752.4" y="6247.4"><tspan class="name">仁孝</tspan><tspan class="yrs" dx="6">1817–1846</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp77" data-person="emp:孝明天皇">
+<title>天皇 孝明天皇　1846年3月10日 〜 1867年1月30日（在位 7,631日）</title>
+<rect class="bar f-violet" x="707.4" y="6408.1" width="14" height="123.4" rx="3"/>
+<text class="label" x="752.4" y="6420.4"><tspan class="name">孝明</tspan><tspan class="yrs" dx="6">1846–1867</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp78" data-person="emp:明治天皇">
+<title>天皇 明治天皇　1867年2月13日 〜 1912年7月30日（在位 16,603日）</title>
+<rect class="bar f-violet" x="707.4" y="6533.6" width="14" height="270.7" rx="3"/>
+<text class="label" x="752.4" y="6546"><tspan class="name">明治</tspan><tspan class="yrs" dx="6">1867–1912</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp79" data-person="emp:大正天皇">
+<title>天皇 大正天皇　1912年7月30日 〜 1926年12月25日（在位 5,261日）</title>
+<rect class="bar f-violet" x="707.4" y="6806.4" width="14" height="84.4" rx="3"/>
+<text class="label" x="752.4" y="6818.7"><tspan class="name">大正</tspan><tspan class="yrs" dx="6">1912–1926</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp80" data-person="emp:昭和天皇">
+<title>天皇 昭和天皇　1926年12月25日 〜 1989年1月7日（在位 22,659日）</title>
+<rect class="bar f-violet" x="707.4" y="6892.8" width="14" height="370.2" rx="3"/>
+<text class="label" x="752.4" y="6905.2"><tspan class="name">昭和</tspan><tspan class="yrs" dx="6">1926–1989</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp81" data-person="emp:上皇（明仁）">
+<title>天皇 上皇（明仁）　1989年1月7日 〜 2019年4月30日（在位 11,070日）</title>
+<rect class="bar f-violet" x="707.4" y="7265" width="14" height="179.9" rx="3"/>
+<text class="label" x="752.4" y="7277.4"><tspan class="name">明仁</tspan><tspan class="yrs" dx="6">1989–2019</tspan></text>
+</g>
+<g class="term c-emp" data-id="emp82" data-person="emp:今上天皇（徳仁）">
+<title>天皇 今上天皇（徳仁）　2019年5月1日 〜 在位中（在位 2,747日（2026年11月7日時点））</title>
+<linearGradient id="tl-g-emp82" gradientUnits="userSpaceOnUse" x1="0" y1="7469" x2="0" y2="7491"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M707.4 7449.9Q707.4 7446.9 710.4 7446.9H718.4Q721.4 7446.9 721.4 7449.9V7491Q721.4 7491 721.4 7491H707.4Q707.4 7491 707.4 7491Z" fill="url(#tl-g-emp82)"/>
+<text class="label" x="752.4" y="7459.3"><tspan class="name">今上</tspan><tspan class="yrs" dx="6">2019–</tspan></text>
+</g>
+<text class="foot" x="450" y="7528.4" text-anchor="middle">出典：東京大学史料編纂所「大日本史料総合データベース」（『大日本史料』『史料綜覧』「史料綱文」の綱文。就任・退任の日付）、国立公文書館「日本のあゆみ」慶応3年（1867）12月「王政復古の大号令が発せられる」、日本語版 Wikipedia「征夷大将軍」（征夷大将軍の一覧）、日本語版 Wikipedia「鎌倉幕府の執権一覧」、日本語版 Wikipedia の各人物の記事（各項目のリンク。官歴・本文の日付と読み）、コトバンク「護良親王」（改訂新版 世界大百科事典。将軍職を解かれた月の照合）、コトバンク「徳川家定」（デジタル版 日本人名大辞典+Plus ほか。死去の日の照合）、国立天文台 暦計算室「日本の暦日データベース」（和暦と西暦の換算）　2026年11月7日時点</text>
+</svg>

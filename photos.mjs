@@ -33,6 +33,8 @@ const FACE_HEIGHT_RATIO = 0.5085;
 const FACE_CENTER_DY = -0.0834;
 
 const PHOTO_COLUMNS = { photo: '写真', photoCredit: '写真の出典', photoUrl: '写真のページ', photoLicense: '写真のライセンス' };
+// 写真のページにこう書いた人は、写真を取らない（Wikidata の画像が肖像に向かないときなど）
+export const NO_PHOTO = 'なし';
 const PHOTO_ROLES = Object.keys(PHOTO_COLUMNS);
 
 class UserError extends Error {}
@@ -353,6 +355,10 @@ async function processDataset(ds, session) {
 
   const groups = new Map();
   for (const e of entries) {
+    if (get(e.row, 'photoUrl') === NO_PHOTO) {
+      e.status = '写真なし';
+      continue;
+    }
     if (!/^Q\d+$/.test(e.qid)) {
       e.status = '除外';
       warn(e, e.qid ? `Wikidata の ID「${e.qid}」が QID（Q と数字）ではありません` : 'Wikidata の ID がありません');

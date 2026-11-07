@@ -179,7 +179,41 @@
         "short": "天皇",
         "color": "violet",
         "counter": [
-          "era"
+          "era",
+          "shogun"
+        ]
+      },
+      {
+        "id": "shogun",
+        "data": "shoguns",
+        "where": {
+          "職": "征夷大将軍"
+        },
+        "side": "right",
+        "title": "征夷大将軍",
+        "short": "将軍",
+        "counterLabel": "将軍",
+        "colorBy": "group",
+        "narrowHidden": true,
+        "counter": [
+          "emp"
+        ],
+        "gapText": "将軍のいない時期"
+      },
+      {
+        "id": "shikken",
+        "data": "shoguns",
+        "where": {
+          "職": "執権"
+        },
+        "side": "right",
+        "title": "鎌倉幕府の執権",
+        "short": "執権",
+        "counterLabel": "執権",
+        "colorBy": "group",
+        "narrowHidden": true,
+        "counter": [
+          "emp"
         ]
       }
     ],

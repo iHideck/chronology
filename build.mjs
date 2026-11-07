@@ -97,6 +97,7 @@ for (const s of Object.values(sets)) {
     }
     if (C.photo && r[C.photo] && !existsSync(join(root, dir, r[C.photo]))) problems.push(`${where}: 写真 ${r[C.photo]} がありません`);
     for (const col of [C.url, C.photoUrl, C.photoLicense]) {
+      if (col === C.photoUrl && r[col] === 'なし' && !r[C.photo]) continue;
       if (col && r[col] && !isWebUrl(r[col])) problems.push(`${where}: ${col}「${r[col]}」が http:// か https:// で始まっていません`);
     }
     if (spec.groups && C.group && r[C.group] && !(r[C.group] in spec.groups)) problems.push(`${where}: 区分「${r[C.group]}」が chronology.json の groups にありません`);

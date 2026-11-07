@@ -27,6 +27,7 @@
 | 政治と首脳 | [内閣支持率と総理大臣](https://ihideck.github.io/chronology/cabinet-approval/) | 2004年〜2026年 | 265 | [cabinet-approval/](cabinet-approval/) |
 | 日本の歴史 | [元号と天皇](https://ihideck.github.io/chronology/eras/) | 645年〜現在 | 251 | [eras/](eras/) |
 | 日本の歴史 | [歴代天皇](https://ihideck.github.io/chronology/emperors/) | 642年〜現在 | 98 | [emperors/](emperors/) |
+| 日本の歴史 | [征夷大将軍と執権](https://ihideck.github.io/chronology/shoguns/) | 794年〜1868年 | 64 | [shoguns/](shoguns/) |
 | 日本の歴史 | [日本史と世界史の時代区分](https://ihideck.github.io/chronology/periods/) | 紀元前3000年〜現在 | 82 | [periods/](periods/) |
 | 日本の歴史 | [偉人の生没年](https://ihideck.github.io/chronology/lifespans/) | 570年〜1989年 | 63 | [lifespans/](lifespans/) |
 | 日本の歴史 | [戦争・大きな出来事（1868年〜）](https://ihideck.github.io/chronology/events/) | 1868年〜現在 | 70 | [events/](events/) |
@@ -69,5 +70,5 @@
 2. `chronology.json` に、名前・CSV のどの列が名前／開始日／終了日か（`data.columns`）・出典を書きます。既存のディレクトリが見本です。`page` を書かなければ、そのデータだけを1列に並べたページになります。
 3. 別の年表と重ねたいときは、`page.columns` に列を足します（`data` にディレクトリ名を書く）。
 4. 人口のような数の移り変わりは、1行に1つの時点（年・月・日）とその値を書いた CSV にし、`data.series` を `true` にして、`page.columns` の `chart` で折れ線にします（見本は `population/`）。各行の値は次の行の時点まで続くものとして読み、値の空いた行で線を切ります。
-5. 肖像をつけるときは、CSV に `Wikidata` 列（人物の QID）を、`chronology.json` の `data.columns` と `credits` に写真の項目を足して（見本は `germany-leaders/`）、`node photos.mjs <ディレクトリ>` を実行します。Wikidata の画像を Commons から取り、顔の位置で切り抜いて、作者とライセンスを CSV に書きます。写真のファイルがある人は取り直しません。別の画像にしたいときは、その人の写真のファイル（`photos/<ID>.jpg`）を消し、その人の最初の行の「写真のページ」に Commons のファイルのページを書いてから実行します（Mac のみ。ImageMagick が要ります）。
+5. 肖像をつけるときは、CSV に `Wikidata` 列（人物の QID）を、`chronology.json` の `data.columns` と `credits` に写真の項目を足して（見本は `germany-leaders/`）、`node photos.mjs <ディレクトリ>` を実行します。Wikidata の画像を Commons から取り、顔の位置で切り抜いて、作者とライセンスを CSV に書きます。写真のファイルがある人は取り直しません。別の画像にしたいときは、その人の写真のファイル（`photos/<ID>.jpg`）を消し、その人の最初の行の「写真のページ」に Commons のファイルのページを書いてから実行します。写真を使わない人は「写真のページ」に「なし」と書くと、取り込みません（Mac のみ。ImageMagick が要ります）。
 6. `node build.mjs` を実行します。

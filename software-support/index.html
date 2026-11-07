@@ -648,6 +648,13 @@ export function buildModel({ page, datasets, asOf }) {
     let list = itemsOf(src.data);
     if (src.group) list = list.filter((x) => [].concat(src.group).includes(x.group));
     if (src.lane != null) list = list.filter((x) => (x.lane ?? 0) === src.lane);
+    // where は、役割のない列の値で絞る（{"職": "執権"} など。値は配列でもよい）
+    if (src.where) {
+      list = list.filter((x) => {
+        const d = new Map(x.details);
+        return Object.entries(src.where).every(([k, v]) => [].concat(v).includes(d.get(k)));
+      });
+    }
     if (src.after) list = list.filter((x) => x.start >= toTime(src.after));
     return list;
   };
