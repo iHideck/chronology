@@ -1,0 +1,1112 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 1200" width="760" height="1200" role="img" aria-labelledby="tl-title">
+<title id="tl-title">内閣支持率と総理大臣</title>
+<style>
+.tl{--paper:#14171f;--ink:#e6e8ee;--ink2:#b2b8c4;--muted:#8d94a3;--rule:#232833;--rule2:#3d4452;--spine-a:#1b1f29;--spine-b:#222733;--red:#e5604a;--blue:#678bd2;--amber:#c98500;--violet:#9085e9;--green:#199e70;--teal:#1f9fa1;--gray:#6b7280;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .k-red{stroke:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .k-blue{stroke:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .k-amber{stroke:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .k-violet{stroke:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .k-green{stroke:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .k-teal{stroke:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .k-gray{stroke:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .series{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.tl .mark{stroke:var(--paper);stroke-width:1.5}
+.tl .val{font-size:11px;fill:var(--ink2);font-variant-numeric:tabular-nums}
+.tl .scale{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .key{font-size:11px;fill:var(--ink2)}
+.tl .mark.quiet{opacity:0}
+.tl .share-sub{opacity:0.45}
+.tl .share-rest{fill:var(--rule2)}
+.tl .share-line{stroke:var(--ink);stroke-width:1;opacity:0.55;pointer-events:none}
+.tl .share-line.dash{stroke-dasharray:3 2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="760" height="1200" rx="14"/>
+<rect class="f-red" x="264" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="249" y="44" text-anchor="end">内閣総理大臣</text>
+<text class="lane-s" x="302" y="40">衆</text>
+<rect class="f-blue" x="302" y="46" width="16" height="6" rx="2"/>
+<text class="scale" x="310" y="66" text-anchor="middle">½</text>
+<text class="lane-s" x="282" y="40">参</text>
+<rect class="f-red" x="282" y="46" width="16" height="6" rx="2"/>
+<text class="scale" x="290" y="66" text-anchor="middle">½</text>
+<text class="lane-s" x="424" y="40">内閣支持率</text>
+<text class="scale" x="424" y="66" text-anchor="start">0</text>
+<text class="scale" x="504" y="66" text-anchor="middle">20</text>
+<text class="scale" x="584" y="66" text-anchor="middle">40</text>
+<text class="scale" x="664" y="66" text-anchor="middle">60</text>
+<text class="scale" x="744" y="66" text-anchor="end">80%</text>
+<text class="spine-h" x="371" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="371" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="325" y="70" width="92" height="674.5"/>
+<rect class="spine-b" x="325" y="744.5" width="92" height="385.1"/>
+<line class="grid" x1="0" x2="760" y1="334.1" y2="334.1"/>
+<line class="grid" x1="424" x2="424" y1="70" y2="1129.6"/>
+<line class="grid" x1="504" x2="504" y1="70" y2="1129.6"/>
+<line class="grid" x1="584" x2="584" y1="70" y2="1129.6"/>
+<line class="grid" x1="664" x2="664" y1="70" y2="1129.6"/>
+<line class="grid" x1="744" x2="744" y1="70" y2="1129.6"/>
+<line class="era-line" x1="0" x2="760" y1="744.5" y2="744.5"/>
+<path class="tick" d="M325 70h3M417 70h-3"/>
+<path class="tick" d="M325 114.1h6M417 114.1h-6"/>
+<path class="tick" d="M325 158.1h3M417 158.1h-3"/>
+<path class="tick" d="M325 202h3M417 202h-3"/>
+<path class="tick" d="M325 246h3M417 246h-3"/>
+<path class="tick" d="M325 290.1h3M417 290.1h-3"/>
+<path class="tick" d="M325 334.1h9M417 334.1h-9"/>
+<path class="tick" d="M325 378h3M417 378h-3"/>
+<path class="tick" d="M325 422h3M417 422h-3"/>
+<path class="tick" d="M325 466.1h3M417 466.1h-3"/>
+<path class="tick" d="M325 510.1h3M417 510.1h-3"/>
+<path class="tick" d="M325 554h6M417 554h-6"/>
+<path class="tick" d="M325 598h3M417 598h-3"/>
+<path class="tick" d="M325 642.1h3M417 642.1h-3"/>
+<path class="tick" d="M325 686.1h3M417 686.1h-3"/>
+<path class="tick" d="M325 730h3M417 730h-3"/>
+<path class="tick" d="M325 774h9M417 774h-9"/>
+<path class="tick" d="M325 818.1h3M417 818.1h-3"/>
+<path class="tick" d="M325 862.1h3M417 862.1h-3"/>
+<path class="tick" d="M325 906h3M417 906h-3"/>
+<path class="tick" d="M325 950h3M417 950h-3"/>
+<path class="tick" d="M325 994.1h6M417 994.1h-6"/>
+<path class="tick" d="M325 1038.1h3M417 1038.1h-3"/>
+<path class="tick" d="M325 1082.1h3M417 1082.1h-3"/>
+<path class="tick" d="M325 1126h3M417 1126h-3"/>
+<text class="dec-y" x="371" y="338.6" text-anchor="middle">2010</text>
+<text class="dec-w" x="371" y="352.1" text-anchor="middle">平成22年</text>
+<text class="era-name" x="371" y="93" text-anchor="middle">平成</text>
+<text class="era-date" x="371" y="107" text-anchor="middle">1989.1.8</text>
+<text class="era-name" x="371" y="767.5" text-anchor="middle">令和</text>
+<text class="era-date" x="371" y="781.5" text-anchor="middle">2019.5.1</text>
+<line class="asof-line" x1="260" x2="748" y1="1075.4" y2="1075.4"/>
+<text class="era-date" x="371" y="1089.4" text-anchor="middle">2026.11.7</text>
+<text class="era-date" x="371" y="1102.4" text-anchor="middle">時点</text>
+<polyline class="series k-violet" points="575.6,101.2 570,104.9 574,108.5 567.6,112.2 586.4,116 570,119.5 575.6,123.1 582.4,126.7 593.2,130.4 585.6,134.1 576,137.8 583.6,141.5 638,145.2 638,148.8 636.8,152.5 628.8,156.2 622.8,159.9 596.8,163.5 612.4,167 599.6,170.7 602,174.4 586.4,178.1 590.4,181.7 581.6,185.5 596.8,189.1"/>
+<polyline class="series k-violet" points="629.2,192.8 629.6,196.5 591.6,200.2 586.8,203.9 563.6,207.5 562.8,211 586.4,214.7 581.6,218.4 539.2,222 526.8,225.7 514.4,229.4 526,233.1"/>
+<polyline class="series k-violet" points="600.4,236.8 589.2,240.5 584.4,244.1 562,247.9 554,251.5 547.6,255.1 534.4,258.8 503.6,262.4 500.4,266.1 508.4,269.8 518.4,273.5 486.4,277.2"/>
+<polyline class="series k-violet" points="578.4,280.9 579.2,284.6 490.8,288.2 495.2,292 489.6,295.5 494.4,299.1 524.8,302.7 529.2,306.4 520.4,310.1 489.2,313.8 490.8,317.5 477.6,321.2"/>
+<polyline class="series k-violet" points="666.4,324.8 641.6,328.5 611.2,332.2 612.4,335.9 566.8,339.5 547.6,343 518.8,346.7 500.4,350.4"/>
+<polyline class="series k-violet" points="588.8,354.1 551.2,357.7 568,361.5 606.4,365.1 580.8,368.8 535.2,372.5 508,376.2 509.2,379.9 495.2,383.5 499.6,387 506,390.7 511.6,394.4 511.6,398 474,401.7 477.2,405.4"/>
+<polyline class="series k-violet" points="624.4,409.1 592.8,412.8 566,416.5 553.6,420.1 537.6,423.9 523.6,427.5 533.6,431.1 510.8,434.8 517.2,438.5 521.2,442.1 509.2,445.8 503.2,449.5 517.2,453.2 517.6,456.9 493.2,460.6 496.8,464.2"/>
+<polyline class="series k-violet" points="640,468 669.6,471.5 669.6,475.1 672.4,478.7 664.8,482.4 653.6,486.1 638.4,489.8 640.8,493.5 669.2,497.2 647.2,500.9 650.4,504.5 612.4,508.2 634.4,511.9 638.8,515.5 616.4,519 624.4,522.7 628.4,526.4 628,530.1 602.4,533.7 598,537.5 626.8,541.1 615.6,544.8 606,548.5 605.6,552.2 612.8,555.9 613.6,559.5 614.8,563 606.4,566.7 616,570.4 607.2,574 584.4,577.7 582.8,581.4 578,585.1 583.2,588.8 586,592.5 588.8,596.1 604.8,599.9 609.6,603.5 594.4,607.1 605.2,610.8 614.4,614.5 608.4,618.1 613.6,621.8 612.8,625.5 628,629.2 621.6,632.9 628,636.6 620.8,640.2 628.8,644 637.6,647.5 629.2,651.1 624,654.8 610.4,658.4 604.4,662.1 543.6,665.8 570.4,669.5 591.2,673.2 572.4,676.9 605.6,680.5 594.4,684.2 610.4,687.9 618.8,691.5 581.2,695 577.6,698.7 576.4,702.4 566,706.1 572,709.7 578,713.5 590.8,717.2 591.6,720.8 593.2,724.5 579.6,728.2 598,731.9 593.6,735.5 580,739 596,742.7 602.8,746.4 603.6,750 596.4,753.7 612,757.5 596.4,761.1 600.8,764.8 618,768.5 586.4,772.1 585.6,775.9 578.4,779.5 581.2,783.1 576.4,790.5 585.2,794.1 564.4,797.8 554.8,801.5 609.2,805.2"/>
+<polyline class="series k-violet" points="628.8,808.9 617.2,812.6 596.4,816.2 560.8,820 563.2,823.5 564,827.1 570.4,830.8 552.8,834.4 556.4,838.1 541.2,841.8 540,845.5 557.6,849.2"/>
+<polyline class="series k-violet" points="585.2,852.9 612.4,856.5 603.6,860.2 630.8,863.9 597.6,867.5 624.8,871.1 634.4,874.7 627.2,878.4 618.8,882.1 623.6,885.7 601.2,889.5 553.2,893.2 533.6,896.8 534.8,900.5 540.8,904.2 530,907.9 535.2,911.5 543.6,915 558,918.7 576.8,922.4 564.4,926 547.2,929.7 530.4,933.5 536,937.1 529.2,940.8 509.2,944.5 492.4,948.2 498.4,951.9 491.6,955.5 496,959.1 490.4,962.8 498.8,966.5 489.6,970.1 486,973.8 501.6,977.5 498.8,981.2"/>
+<polyline class="series k-violet" points="536,984.9 538.8,988.6 531.2,992.2 536.8,996 538,999.5 535.6,1003.1 516.4,1006.8 507.6,1010.4 532,1014.1 507.2,1017.8 533.2,1021.5 534.8,1025.2 524.4,1028.9"/>
+<polyline class="series k-violet" points="679.2,1032.5 663.6,1036.2 668,1039.9 679.2,1043.5 661.2,1047.1 660.4,1050.7 661.6,1054.4 641.2,1058.1 620,1061.8 617.6,1065.5 600.4,1069.2 593.6,1072.8"/>
+<g class="term c-pm" data-id="pm0" data-person="pm:小泉純一郎">
+<title>第87〜89代内閣総理大臣 小泉純一郎　2001年4月26日 〜 2006年9月26日（在任 1,980日）</title>
+<linearGradient id="tl-g-pm0" gradientUnits="userSpaceOnUse" x1="0" y1="70" x2="0" y2="92"><stop offset="0" class="s-red" stop-opacity="0"/><stop offset="1" class="s-red" stop-opacity="1"/></linearGradient>
+<path class="bar-open" d="M264 70Q264 70 264 70H278Q278 70 278 70V186.3Q278 189.3 275 189.3H267Q264 189.3 264 186.3Z" fill="url(#tl-g-pm0)"/>
+<path class="leader" d="M262.5 78.5h-4L253 87h-2"/>
+<circle class="photo-ring" cx="234" cy="87" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGgABAQACAwAAAAAAAAAAAAAABQYDBwECBP/EADAQAAIBAwMDAQcCBwAAAAAAAAECAwAEEQUSIQYxQYEHExQiUWFxMqEVFzSCkbHB/8QAFwEBAQEBAAAAAAAAAAAAAAAABAMFAv/EAB0RAAICAwEBAQAAAAAAAAAAAAECABEDBCESMkH/2gAMAwEAAhEDEQA/ALW+/o+e+2pPVeoLLTBslJeXwF7DtwaqtU+azlHP6D279jWutP0KbqbVfh0bbEsYaZ25xzjAquV/M4RS3BMn8w7oSqI7e3CpnaSG5/PNc3HVst7CxgkazlZ8nY3c/Y/Tino/Zrp1nLulmmmweFYgCu150/p8S4S3UZ+1FfZAiE1GP7PFoHUhvNPmg1KQG5aUbJCuPe+PHGaeS5QJCpySYwvrmtfvZfAXswU5UsCBknAH0qst5DLb28h4LKD+KSj+uwzL5NGPajI7WNwYwQwiOPqKO6MvUW6vI0QNKUR8eSM4x/mskdxJMjL2yuD+KI6KUL1deRT4KtbMAP7gansGxK4PoStt7+a9vZYHazLx7vlgm3kY8H70JfyT3TuwludofYI4Lfcq48s1Ve21s2aRniUsPoqKg9OKmffWxuWAdGGfm2nz4z6UFuGaSixJXrWEWbWd3GSVf5WwMc+Qf3pDR51urGBskAMw3EUj1Dp38R0lrdVG8SKynNF6VALSxjjGcmRs/Qntx9uKXhblTP2Epri8JxG5HOFHpXXT1jtb6K7kiG8gKX87W/3Xjt9Q+HtpTJIiIw2sWwOKKveqbSKIJbo8zhFXg4XIznn1qzKGFGRVvJBE2NdTK4MYtVuI2GW3YIAHbvUvO8k08gjhWJQPJJ/4KL6M6k1G+1Gaz2QuPctJEhyP09xn8ZPpSF/eak108cyRw48LyKz3QqaM08eRXWxONc1BbbRLkSRiRY4vnQtjI7Yz60DF1dpLwxKzywsp5VoycD8isHtBD2OnWdtI7Ce6cyyLnsi9s/fJ/aoKl4VKr2C2GDPyf//Z" x="219" y="72" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="213" y="91.9" text-anchor="end"><tspan class="yrs">2001–2006</tspan><tspan class="name" dx="6">小泉純一郎</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm1" data-person="pm:安倍晋三">
+<title>第90代内閣総理大臣 安倍晋三　2006年9月26日 〜 2007年9月26日（在任 366日）</title>
+<rect class="bar f-red" x="264" y="191.3" width="14" height="42" rx="3"/>
+<circle class="photo-ring" cx="234" cy="198.8" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGwAAAwEBAAMAAAAAAAAAAAAABQYHBAEAAgP/xAAxEAABAwMCAwcDAwUAAAAAAAABAgMRAAQFEiEGMWEHExRBUYGRIjJxFSOxM0KSofD/xAAYAQADAQEAAAAAAAAAAAAAAAACAwQAAf/EAB8RAAICAgMAAwAAAAAAAAAAAAABAhEDEiExQRMiMv/aAAwDAQACEQMRAD8Ap0UE4k4lsOH2h4kqcfWJQw39xHqfQUcJCRJ5Dc/iojaIXxTn7i7uVq/dWpR6JmEpHpAik8ejW30gplu0bI3Nw3+mo8E0kbhSUrKz1JHL8UQwvaQ6SEZa1S4nzctxCh1KTsfaKMW2BxaLMMG3bUnzCxJ+aF5fhLHPt6rNBYejbSTB9qHePofw5O0x7x99a5K1RdWTyXWV8lJ/g+h6Voipb2eZJ3F59WMfJ7q6Ogp8g4AYPvEfFVSK7QClaOjcgVHOHGHbZ7JhJ7txu4LepInSJMwPirHSdc49Nnnbx5CB3dwQsg+at5P8Vp8IPHG5I5jH3U6kOKuVGCJfSkE9QBWZNu94tS9NwlE7KL+of4miTjgRcpLbZWgAiAqDMV9mJVAeTBJJTBn/AI0p2Wax6EnJ2S2eMrN+2STrdbeVA2EKGon0G1Vk8z+aWWMaXcz4jUN0BtSY/tmTH+qZqZjbaJMkFF2vTysWSshdNak/1UD6evQ0GyvHOFx6lNtuqvHRsU24kA9VHb4mle+4/wAnfIWxYWzNr3g0IVJWsE7c9gPina7Ct1F2MCGhcLS4hxSTMaQqBW0oatkoWD9Z2MmSaxXWEuLF1CA8QlaQUuctRjees0UxWDcePeuuw0n7nFchFTtP8+layfW30e+HvLdd2/aFcXaUpcKFCJQdpHruN/Tai9SDiXOl7iY3+LcU03bQ3bKHMpTO59dRJJ/NMmG7RGXQlvL25aX5vMCU+6eY9pp8YOKokeRSk2f/2Q==" x="219" y="183.8" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="213" y="203.7" text-anchor="end"><tspan class="yrs">2006–2007</tspan><tspan class="name" dx="6">安倍晋三</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm2" data-person="pm:福田康夫">
+<title>第91代内閣総理大臣 福田康夫　2007年9月26日 〜 2008年9月24日（在任 365日）</title>
+<rect class="bar f-red" x="264" y="235.3" width="14" height="41.9" rx="3"/>
+<circle class="photo-ring" cx="234" cy="242.8" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAABAUGAQIDB//EAC4QAAIBAwMCBAUEAwAAAAAAAAECAwAEEQUSIQYxExRBUQdhcZGhFiIjsTKCwf/EABgBAAMBAQAAAAAAAAAAAAAAAAIDBAAB/8QAHBEAAwEBAQEBAQAAAAAAAAAAAAERAhIDIVGB/9oADAMBAAIRAxEAPwC+xQmpajaaXbme+mWJPTPJY+wHrRFxMltbyzynEcSF2PyAyahdD0e46vuZNY1mR1t2YrBCpwAo9Pp/dIHxtxBM/wARLBXxBYXcw98qv45pppPV2l6jEzPIbN0xuS5wv2PY0bD03pdrHsitUHzIyaXalo9iyMnhKM9xihekhi8Ny0oUZXQOjBlYZDA5BFZIqG6K1GSy1mbQ5XLQPuaDJ/wYckD5EfkVdGuik6Ca8GOh6gEGW8tJgf6mgujriH9PWZyqIq4yfTmnbKHUqwyrDBHuKmdFsbm0tJLLKjwpTsLKTtU+4B5rNjPNPqopDcwzMxiuI3UDllORSO8u7aW5McUodgcHANcxZ36W10GuQ5EecrEEDHPA9SB35od4nkCT+ZlwRzAyKEH2AodRlF1FCas1eH4hWfiDnxccD0KkZr02oyz0lDr1vP3cbOckkEc5z9OKtK6nSV45/ptQtwu2UkKDvGcH3FA3fU2l2xIEzTMPSFdw+/akF71m8zbbexCxq2d0j5b59uKLls2PXONWj+9jxEQNV8vkfuUBOT7880st5UH8SXImLcluPvxRV/4cG4StHbS4yxKA7sjOcnuKUR3BmdYLVnmlkO0HHel6/CrpL7Si0aMPJLNuU7cKMHkHHOR9MfmmtQXU2oTdOatZx2Mg8aO2HmB3WQlicEf1Rdl8QbKXC3dnPC3qY8OP+GmcPPwj16rWmf/Z" x="219" y="227.8" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="213" y="247.7" text-anchor="end"><tspan class="yrs">2007–2008</tspan><tspan class="name" dx="6">福田康夫</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm3" data-person="pm:麻生太郎">
+<title>第92代内閣総理大臣 麻生太郎　2008年9月24日 〜 2009年9月16日（在任 358日）</title>
+<rect class="bar f-red" x="264" y="279.2" width="14" height="41" rx="3"/>
+<circle class="photo-ring" cx="234" cy="286.7" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAABQYHAwIE/8QAMBAAAgEDAQcDAgUFAAAAAAAAAQIDAAQRBQYSEyExQXEiUaEHUhQkkbHRMmFiweH/xAAYAQADAQEAAAAAAAAAAAAAAAAAAgMEAf/EAB0RAAICAgMBAAAAAAAAAAAAAAABAhEDIRIxUUH/2gAMAwEAAhEDEQA/AKDSftZtfDapNYaWzy339O9GMhffn70e2lvW07QL66jOHSEhD/keQ/elXZHRYorNJ5VzPMN5mPUDsKhaSs0KLk6Ehm1lpOLxL1XPU8Rs/vRCz2u2i0914l1LLGvVLhd4EeevzVMayRMgkEe+KE6jZRS5RkVgexFDy+oZYF8YW2Z1+21+wE0OEnQATQ55of4PY0YqX6Qh2d2ttGQ4trtuCwJ6Bv4OMVUKHXaE2tMW/qE7JstcFc4MsQbH27w/5XNlNwrKFozEoCAl5DhQMdzRrWLJdR024tHzuyrgj355xQjSLNI7ZLW5IJh9IY9wOh/SueIpBds9lpfJcoWDQylQSWiPpNC76YSOj8S5BboqRZQeTiiIktIoyFPDjbOG3T6sf6rzw3EbgAqWVRjfK8vkUNj8RX2tt5Jra14QzLxQqke56fIqjW0ont4pVOQ6Bsmly/hWRYnXmysGXz2plgiWCGOJBhUUKKL+CSiuzqg+pwBJgckCUHB6c/ah19ttZQ5FlDLcn7j6F+eZ/SljUdqNUvyQ0ixQqd4RxLjmOmSeZqqwTkSWaMWO0P4mPIeX8vujcWEAEeSQfisGWR3JLMIgCSHIYt4IAx81kdQvNPAS6g4isiski8sqRkGsDqcl8QtvG28zbuAvqJpHdUXW9o3h1ewsr+GO8kWMSAhGYekNy6nt5pn7eelTT6gxx2Y061O6bjceWYjtkgAfBpcstf1m0eNLPULiONCCE395fGDyx/anWJ0vTPLKuT8P/9k=" x="219" y="271.7" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="213" y="291.5" text-anchor="end"><tspan class="yrs">2008–2009</tspan><tspan class="name" dx="6">麻生太郎</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm4" data-person="pm:鳩山由紀夫">
+<title>第93代内閣総理大臣 鳩山由紀夫　2009年9月16日 〜 2010年6月8日（在任 266日）</title>
+<rect class="bar f-red" x="264" y="322.2" width="14" height="29.9" rx="3"/>
+<circle class="photo-ring" cx="234" cy="328.6" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAwYEBQcIAAL/xAAtEAACAQMDAwIFBAMAAAAAAAABAgMABBEFBiESEzEUUQdCYZHRFTJBcSJSof/EABgBAQEBAQEAAAAAAAAAAAAAAAQDBQEC/8QAHhEAAgICAwEBAAAAAAAAAAAAAREAAgMEEiEiMRT/2gAMAwEAAhEDEQA/ANrr4uJY7aB5pj0ogyTRAKwvX92atuLVJrKKV4reWVkSFfkQcZJrhKnQCShGPXvihcQM/wCnW8Sp8ncHUxHuecCoGhfFbUFmzq9sk1vnDGJQrL9R+D96i22zrd1HfaSU8ck+1QdR2TJCWks3ZgRzG/g/iojPRxH5bpzYtv7j0vcMTtplx1tHjuRsOlkz4yKtTXMVtf6xtXV45rUvDLGclSeHHsceQa6N27qq65olpqSx9vvp1Mmc9J8EZqwLhyCCjA7vuLi02vqc9n1d9LdugqMkH3rFdh2gKzX0pzliiDGTn3rfbq3ju7Wa2mz25kaNuk4OCMHmsw0DQhYQPaRyHAkcq5XkDOBUc5VZfWq7uXunoJkBRukn+GUjNEu0MKEySKPoBk0KKK4tFXqu3mUtwrgcfavXBu7kuLa4EPOP2hsfehoNTQ7USN7WiXWmyXMSqzxHJz5FPHwfnnl2bFFMgCwSuiMD+4Zz/wAJxS/uXTribTZ4Qy95kwXA4IzT1snRjoe3ba0YqXI63K+Mnml658qB2h6cuwaVXtPR6nLEOV5dc+xJNNVVus2Zlj9TCcTQqTj/AHA5x/de81OVepPBfhbv5KKZhLcLk9TJyQfFDiYLcPjHUTnp8ih24hv0E4/xl5HWpII+nFDnaGwcyDLzSHl2PUxA/v8Aig9KabkuO1fUNRWLBVTgvg/KDz+KcOAMAYA8ClnZl9a3vrAsg9ZEwWSI8FUIBUj3Bz5pmpuGnGrmbsX5XQ+Cf//Z" x="219" y="313.6" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="213" y="333.5" text-anchor="end"><tspan class="yrs">2009–2010</tspan><tspan class="name" dx="6">鳩山由紀夫</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm5" data-person="pm:菅直人">
+<title>第94代内閣総理大臣 菅直人　2010年6月8日 〜 2011年9月2日（在任 452日）</title>
+<rect class="bar f-red" x="264" y="354.1" width="14" height="52.3" rx="3"/>
+<circle class="photo-ring" cx="234" cy="362.6" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAABQYHBAgB/8QALBAAAgEEAQIFAgcBAAAAAAAAAQIDAAQFEQYSIQcxQVFhIqETFEJxgZHRUv/EABcBAAMBAAAAAAAAAAAAAAAAAAIDBAX/xAAdEQADAAMAAwEAAAAAAAAAAAAAAQIDERIUMUFR/9oADAMBAAIRAxEAPwC26oFzTkA41gZsgsSyyKQqIx7dR96KZW8XHYy7vW0RbwvLonz0CdVFOM4a+5u9zmuQ3U88BkZYYOshdj2HoB5AUNVythTLp6QKuPFrlwuC8dzarHvYjFquv9+9H8H44SiVIs9jIyhOmmtGII+eg+f9itGQ4RiGTUVsUZR3+o0s5PiOPaN0jiMbgEqwPcGk+RI/xb1tF+xeRs8tYQ32OnSe2mXqSRfX/D8Vq1XPfg3yC7wvLEwkkpayvmKNGT2WTX0sPY9tH338V0LT0yYAeIEcsnC8ysAJk/KudAeg7n7bpZ4bd2+M4bYySJLqUFkSGIyMdnz0Koc0azRPFINo6lWHwRo0m4/DSWuETGuz6tVaEhH6OtQTo7HfWtGgyDcXsyy3UE0ck4VwCQunTpbv5Ck2+uLpb8xy2RjQ/q/FViP3ApgOPSz49ci3LsHmA31E6A+T3NBha2tyocxxrcIArELpj+/91E2vw0FL+MScTC+M8Qsa0h7C+idT7gsK6gqOYnBxz8sxF9r8QxSKvSV8tHfV/FWOrMVdSZ+aOKPaEZuFtbQlVk+liKL1nyDwR2U8l2wWCNC7sf0gDZNHc9LQEVy9iDKq3WOa0kjlsUh+npnkIE4/6Urv1380qwBvzLqERYEXQcMSWPt39Kf80kQs2juo2IHdTrt39aSpI5LmdLawgYu7aQa86itfDRx0mt7G/gNnHKZbmROowMBGd+RIO/tTvUe5Vl24PcYK3spBJkY+ue7G/peNtDoPwSNg+nTv1qg4HmWCzdvG9tkIY5mALW8zhJFPto+f8VXjnmdEGW+7bP/Z" x="219" y="347.6" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="213" y="367.5" text-anchor="end"><tspan class="yrs">2010–2011</tspan><tspan class="name" dx="6">菅直人</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm6" data-person="pm:野田佳彦">
+<title>第95代内閣総理大臣 野田佳彦　2011年9月2日 〜 2012年12月26日（在任 482日）</title>
+<rect class="bar f-red" x="264" y="408.4" width="14" height="55.9" rx="3"/>
+<circle class="photo-ring" cx="234" cy="415.9" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAABQYCAwcE/8QALxAAAgEDAgQEBQQDAAAAAAAAAQIDAAQRBSEGEjFBBxMiYVFxgZGhFBdCsSMy4f/EABYBAQEBAAAAAAAAAAAAAAAAAAIDAf/EAB0RAQADAQACAwAAAAAAAAAAAAEAAhEhAxITMWH/2gAMAwEAAhEDEQA/ANZpc4q4tsuH0MW096wysAPT3Y9h7daOX1zHY2VxdzECOCJpGyewGayDSOH7viVptU1SVlM0hcY6nO/27CpcOsr1cJY/iJrkkxm54khU58uOL8UyWPiZaPbRG7sp0m6SKCAB7jP9VKz4M0uHlLQlyB/Js5q/VeE9MvLVo/JCPy4Vh1FF8lYjxXjPpGr2WsWv6iwmEiA4YdCp+BHau6sg8PWuND44fTZ2zFcI0PwBYDmU/gj61r9JIR2LviNDLNwZqSw82VVXcL3QMC343+lBuGLh10PT4obZ5naEMQmAMdtzT3PClxBJDKA0ciFHB7gjBpMTQlhsIbCWRz5CeWRHIVDY2B2x2rLZnYqD7chdZmC4eBkdRkqTVUlzOTssBA6qr5YVG2t1RZY1LBVjC4LFiKq0/SbGN2njiTzAcs/U7e9D8lkfuKOs2N3+4miS2BHO8que2AD6s/StYPt0pfs7OOfW47o554UIXbsT/wApgNOrpI2MZIUs6y8kGoyqvR8SAY7Y3/qi+o61puloWvruKIgZ5M5c/JRvSPxDxtY3xiSytJiyPtPIQux6jl7j5mkmkytirCEV1Gs5K3V0Q+5jCHG/XG2a6Fm9ZaEShJBlucYzjvQ5ry0juOS5t281NmBB2I7V3QrNq8qQ2aFIl/2YjYCj14Eq2A3YW0GWNrmZSSJGX0Z/kAfVj5Ej70aNZnxhq50/XbK20uTkOlqQXHeRt2B+O2AfrTFw/wAbWWpBYb7ltLo7bn/G59j2+R+9U9PUkPkLM//Z" x="219" y="400.9" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="213" y="420.8" text-anchor="end"><tspan class="yrs">2011–2012</tspan><tspan class="name" dx="6">野田佳彦</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm7" data-person="pm:安倍晋三">
+<title>第96〜98代内閣総理大臣 安倍晋三　2012年12月26日 〜 2020年9月16日（在任 2,822日）</title>
+<rect class="bar f-red" x="264" y="466.4" width="14" height="337.8" rx="3"/>
+<circle class="photo-ring" cx="234" cy="473.9" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAABgcEBQACAwH/xAAvEAABAwMCBAUDBAMAAAAAAAABAgMEAAUREiEGEzFBB1FhgZEUI6EiUrHBYnHR/8QAFwEBAQEBAAAAAAAAAAAAAAAABAMCAP/EABsRAAMBAQEBAQAAAAAAAAAAAAABEQIDEiEx/9oADAMBAAIRAxEAPwBn4qPPnw7axz58htlvtqO6j5Adz/qpQpLcfSJNw43lshoqLCkRmEKV6A5A7Ak5rTcOSpd3fxQdKi1aorSNyA46rUeu23T2rLD4qIU99PfowQO0iOnO/wDkjP5B9qiRvD+MiAkzX1fVKOoFrbR6b9aHOIeGHYf6mHg8AOpThRNSXbNlKPlqWDzhTItwiolQJDciOvOlxs5Bx1rtilD4RXt2PeVWl5eGJQJDZHRwDYjyyBj4pvkVZOkjcUs7vaCnxU5yk/adZEtPqpKdP8imZVPeoXMlxpgCct5BPfBGMfx8VPq2sOFOaT0UceVIVP5D6nXNSCtB5GlsegJ3NDl4CpCW5SXJbiHN8lQ5aT5aeu1GOoplKKUBSEIysnbr2HwT8UOQctsT47iEhQUXG0hWSB3oVf6NiBrgmCY/iLEKshoLK847qSdI+adhoE4NtIevhuKtWllAOOxXgge4GaPDTeTbz9BdUlr4bYrxTYdSUKTqB7UEXnxKt8YKbtMdcxzs45lDY/s/igW78XX26qIfnuNNHbkx/tp/G59zVDAznEMF90qWlaU5SlWcjY9fLP8AyhiUpmG+79KlP3UkOKA6iiLhmGyOBrTLdW2jDGF61BIP6lYOfOu8OwRn20THVJdSo6m20K1A+WT/AFQ3y16iF56rzWV3CN7YizxYZrYjyJCBIjOFWzwO2k+ShjYdx60ZKBHWkDxvLNw4pkuJVlLKgy2Un9vl75qxsPHl9tOltyR9dHSccqSSogei+o/NLyooFbrp/9k=" x="219" y="458.9" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="213" y="478.7" text-anchor="end"><tspan class="yrs">2012–2020</tspan><tspan class="name" dx="6">安倍晋三</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm8" data-person="pm:菅義偉">
+<title>第99代内閣総理大臣 菅義偉　2020年9月16日 〜 2021年10月4日（在任 384日）</title>
+<rect class="bar f-red" x="264" y="806.2" width="14" height="44.1" rx="3"/>
+<circle class="photo-ring" cx="234" cy="813.7" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAwQGBQAB/8QALhAAAgEEAAUDAgUFAAAAAAAAAQIDAAQFEQYSITFBE2GBInEyUZGh0QcUQrHB/8QAGAEBAQEBAQAAAAAAAAAAAAAABAUDAAL/xAAfEQACAgIDAAMAAAAAAAAAAAABAgARAwQhMUESImH/2gAMAwEAAhEDEQA/ANAdqSyF/BaDUjbfvyjvXmZyMeKx0t3L/j0Ufmx7Co3B295xDeyyTMUjD/Ux8muyOEFmeMWM5DQmrccS3MD7toY9kdOYcxPx0rrfj6eCVY8vY8sTdBJEpBHwe9WeK4asLaMMI1dz1Lt1Jrs5h7K5tWgmgRkZdduo9waIdqua4jBqDq+YNJo54UlhYMjjYI8iuHaonB3s2CyzYi6fmhMnKpPjf4WH381bU1WDCxAupU0ZI/1GSRsDG0YYqk4L6HYaOifmveDJY7fFwBjoAFmOvPmtXOWj3NsrRuQYydrvo4I1o0hhsUotGs/XVJVZioI6b76NE2jf1MfprQ+QlZZZvH3CcttdF2XupQqR+opXIZ+xMy24aRpGOi2gFX+filMNhJFmja6ctuTQVYVQEfHtRJuHVW8JWaf0QfrjEg5T9x/qjGuvIvnv2RfEkMk/Edk8ZGxosx7BVO9n96voZVmiSVCSrgMNjXQ1nz4+3uckiWyunpR7DA/hG/NaCKEQKvRVGgKZqsSK8EBuIAb9MGOorHyKPb3aTjqsg03jqK1mkSKNnkdURepZjoCp9czFns5b4XFOH5w7vPr6dqpIVfz2QNmtcqB1/ZhgyMjiuoe+zUtmwmfIxWkjcoRZU5gQOuh5H3olnnYb/RTItc3iHRKRFYwD3AOuo9zQLV7aeMwXh9K4Q65pEDD96dMtva2jxrKLiVxpRoAAfYdqncVVSxftxiwTnlnnJ3sgfPn/AJToqR4sa64PyWKuoCW/vbTd1buejMrd/Y6YDftRbXjnFzACeO4gY99pzj9R/FUcICoBJGcl3Jn/2Q==" x="219" y="798.7" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="213" y="818.6" text-anchor="end"><tspan class="yrs">2020–2021</tspan><tspan class="name" dx="6">菅義偉</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm9" data-person="pm:岸田文雄">
+<title>第100〜101代内閣総理大臣 岸田文雄　2021年10月4日 〜 2024年10月1日（在任 1,094日）</title>
+<rect class="bar f-red" x="264" y="852.4" width="14" height="129.7" rx="3"/>
+<circle class="photo-ring" cx="234" cy="859.9" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGwAAAgMAAwAAAAAAAAAAAAAABAcDBQYBAgj/xAAtEAABAwMCBAYBBQEAAAAAAAABAgMEAAUREiEGEzFRByJBcYGRYRQjMkKhU//EABYBAQEBAAAAAAAAAAAAAAAAAAQDAv/EABwRAAICAwEBAAAAAAAAAAAAAAECABEDEiEEMv/aAAwDAQACEQMRAD8AcVAXu7RLLAXMnL0tpOB3Jo+lJxyZfE/HSrEHVNW+A2kuEeqiAT87gfdYJAFmaVSxoQq5eL0NLS0QIznOz5SsAp9+9B2jxdf/AFATdITS45VutglK0D2Ox/yrljgPh9mME8kqVjzKKs5rN8ReH8RttbttUps6SQknIJqQzLcsfO1cjggy48+I1LhupdYeSFIWk7EVPSi8C7s63IudikuK8oD7KD/Ug6VgfaTTeq1w85I2pSPIchcbcSS9TbqlykcsKc0pxpHU+mDsabmKx19tsWFd3ZRQkJnYUskZwsdfvao5vmX89bwGHfUuMKLzTSFoGcIc1oI7gioG7qJa1IcTH0g78t/UQfyMbUTAj2wpkhoshOnQQAEhWDk7dvTPvU0dERhKg0lIUk+QFIyPmi8jezKcGwDZ/EOZNIWYYZKc6dwXCANu2Qd6cJFZCx24SZqnVJ2DgU4d/Npxgfda+lYWJXsFnVVbk7VT8VRVybQ4W0FamTzNI6kDr/m/xRtyucC1sF+4y2YzY9XFYz7DqfisBe/FmK0otWKGqQr/ALyMoR7hI3PziqldhUiramxIW8peaccLCmiMsFLJKgOxPSrFxb7DXOlOIII8gCNOkdvzVRDkXYs252O0HWriyl9ttCMBKj/IJ7AH07VpHIiLdCdvHErqeVFRzOSnpt0B7knAA70QY2J1jzmULtLThB1pcKQ0HAZLb377R2U3kApyPyMHNXtecI3GV2i8Ryr7GdDciSsqcbI1IUknZBHqAAPqmlw74pWi4pS3dUKt752KjlbR+eo+R80wJqKEAzbGzP/Z" x="219" y="844.9" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="213" y="864.7" text-anchor="end"><tspan class="yrs">2021–2024</tspan><tspan class="name" dx="6">岸田文雄</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm10" data-person="pm:石破茂">
+<title>第102〜103代内閣総理大臣 石破茂　2024年10月1日 〜 2025年10月21日（在任 386日）</title>
+<rect class="bar f-red" x="264" y="984" width="14" height="44.4" rx="3"/>
+<circle class="photo-ring" cx="234" cy="991.5" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAABQYHAQMECP/EAC8QAAEDAwIDBwQCAwAAAAAAAAECAwQABRESIQYHMRMUQlFhcYEiMkGRI6HB0fD/xAAXAQEBAQEAAAAAAAAAAAAAAAAEAwIF/8QAIREAAgICAgEFAAAAAAAAAAAAAAECEQMSBCExEyIyQVH/2gAMAwEAAhEDEQA/ALbQy/3yDYIfeZ61AKOlttAytw+QFFKm/GVsd4i4xMJUosMxIaFpATnJUpWT/Q/VYbpWbjHZ0cFx5sSi6Rbra0hsDrJUSo/rAFEOHOakOY72F8jiCcEh9JKmz6EdR/dDE8AwgFKkTnnCd9KUBIoZe7LGjxXEx06FpGASKi8yTErj2izxZLEyO3IivNvMODUhxtQUlQ8wRW2pZyHkSVwbzFcWVRmZCFNA+FSgdWP0KqmKsEapmaS78HVXW4PxkrYdDbbBdSU6iB9WQDsPuxvTpQXiJoIQJCU5PRXr5VjLepbBW9MRWpF4ZiTlqS/httakqW8HTt6gDrnoPzS5cra64tmQygNNqGtbypJWVZznKce3/CmWZLcatU1AmxW35STqaWFHs09ABp/11NLyluSbD3ZpYdTGGl1zSUAegyN6Jf2dDUO8p57rHENzsyIzYYWkyVOjOoEaQB5YINVakzlpaBGt7t1cbAenhBSrO/ZpGB7b5P6pzpsPj2c3LW/Rmg/EFzs0WG61drgxHBT0Lg1j1CepPxUOvvHfEN01B24OMtHbso38acfG5+TS0ntHtkkqeeUEA9SSTj/NX9L9JKVO0VyXdWY1tLEtDxXj6FtkpSoHcK89wQcUnyJvekOhvtI9miguSnlndePCPU9Pmna+P2128W+3TG1CCFJhKdZUda3AAkEjH2g4GRvSpzhVAtrMTh+3jSdnn0g/anwJPvufgUVcVqXu8C3yrjUfJ0cvebjUVoW7iFlaY4We7yGhq7FBOyFDqQnoCPwOlWS2XODdYwk22WzJZPjaWFAe/kfevJDaUjZA6ddqIWy5z7TJEm2y3orw8bSsZ9D+CPQ0pwCWf//Z" x="219" y="976.5" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="213" y="996.4" text-anchor="end"><tspan class="yrs">2024–2025</tspan><tspan class="name" dx="6">石破茂</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm11" data-person="pm:高市早苗">
+<title>第104〜105代内閣総理大臣 高市早苗　2025年10月21日 〜 在任中（在任 383日（2026年11月7日時点））</title>
+<linearGradient id="tl-g-pm11" gradientUnits="userSpaceOnUse" x1="0" y1="1053.4" x2="0" y2="1075.4"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M264 1033.4Q264 1030.4 267 1030.4H275Q278 1030.4 278 1033.4V1075.4Q278 1075.4 278 1075.4H264Q264 1075.4 264 1075.4Z" fill="url(#tl-g-pm11)"/>
+<circle class="photo-ring" cx="234" cy="1037.9" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAwADADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAwYEBQcAAQL/xAAvEAACAQMCBAIKAwEAAAAAAAABAgMABBEFEgYhMUETgQcUIiQyUWFxkaEVscEz/8QAGgEAAgMBAQAAAAAAAAAAAAAABQYCAwQAB//EACcRAAIBAwMCBgMAAAAAAAAAAAECAAMEEQUhURITFDFBYXGhseHw/9oADAMBAAIRAxEAPwDXLq3hDQYwuGOT5VAuBBbPO0rqI1TczE4AHfNCluj47FySiyAik/0r6i4httNsHAkv5Bnn1HLA+2f6qoywTtX460xbtlsbd5nRvammYoqLj6Ak5qPZcU6XckxPMsU0rAL7WVz8s9vOlHVNJv4JJLWSZiiKdoCAZ6UuXkYsJjFcKQ6kEgjqO9SwrDadhl85qWuSuZkic/8ANT+6pJD7uT9aFpWq/wArZJIzFpIl8NmPVsDkfxj8UVz7ofvQC5BFVsx507HhUxxNQ1IhAy4Gd/akTijRZ9R4m0S7Vh4MJKPnPxc2FOVxPaysMXMfJdxywySah3l1aiwAjljaWR93IjK46UcJiQo3EHpuky20kvrLwymRSfYjI/IJNLnFXDC3+k3ct2InlRGa3kQNvDdgSScg9MYq4W4nEwchjGyja6SMN3zBA6V8aveSWlmjyRqrTSqipuLBSx+I/YZNQB4mlhtvFTReFL3QuHBeXZBaaVt6qc7AAAP3n9Vzt7n51pM1i2q8JxwRSKrPGGDHocHNJF5w7q0FsFNm7gnk0ZBFYL2ixqdSjOYf0i8p9jtuwBB+pEudY02ElY1adh12rgfk1SanrcsqbLOBInbkGzkiqhZC0ZbJ5Pg0Sy2SX0KzMAniLuLNgAZGcntT4ulWlFC3Tkj1P9iedm+uKr4zge00vh23ubHTrW13BTHGFbcM5PfzoHHyNHw+JWz4guYyrdwcn/M0z201rcx74ni3E5IVxyPfHzFKXpUuR6rp9qhOGlaQgHrgYH90t2Kdy5QHn9w7dt0UWI4nvDvpGjgs4LG/09tsUYTxoHHP67T/AIadIOIdIvtPX1bUIMg80dtjDyOKwRJQjgg9Rkc6Lfy4tH588DB7imKrpttVQtTOPjcQEl5XpuFcZ/M//9k=" x="219" y="1022.9" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="213" y="1042.8" text-anchor="end"><tspan class="yrs">2025–</tspan><tspan class="name" dx="6">高市早苗</tspan></text>
+</g>
+<g class="term c-shu" data-id="shu0" data-person="shu:第43回衆議院議員総選挙">
+<title>第43回衆議院議員総選挙　2003年11月9日 〜 2005年8月8日　与党 271/480（56.5%）</title>
+<rect class="bar f-blue" x="311.1" y="71" width="6.9" height="68.5" rx="1.5"/><rect class="bar share-rest" x="302" y="71" width="6" height="68.5" rx="1.5"/>
+</g>
+<g class="term c-shu" data-id="shu1" data-person="shu:第44回衆議院議員総選挙">
+<title>第44回衆議院議員総選挙　2005年9月11日 〜 2009年7月21日　与党 327/480（68.1%）</title>
+<rect class="bar f-blue" x="309.1" y="145.6" width="8.9" height="167.7" rx="1.5"/><rect class="bar share-rest" x="302" y="145.6" width="4.1" height="167.7" rx="1.5"/>
+</g>
+<g class="term c-shu" data-id="shu2" data-person="shu:第45回衆議院議員総選挙">
+<title>第45回衆議院議員総選挙　2009年8月30日 〜 2012年11月16日　与党 318/480（66.3%）</title>
+<rect class="bar f-blue" x="308.7" y="320.1" width="9.3" height="139.4" rx="1.5"/><rect class="bar share-rest" x="302" y="320.1" width="4.4" height="139.4" rx="1.5"/>
+</g>
+<g class="term c-shu" data-id="shu3" data-person="shu:第46回衆議院議員総選挙">
+<title>第46回衆議院議員総選挙　2012年12月16日 〜 2014年11月21日　与党 325/480（67.7%）</title>
+<rect class="bar f-blue" x="309.2" y="465.2" width="8.8" height="82.9" rx="1.5"/><rect class="bar share-rest" x="302" y="465.2" width="4.2" height="82.9" rx="1.5"/>
+</g>
+<g class="term c-shu" data-id="shu4" data-person="shu:第47回衆議院議員総選挙">
+<title>第47回衆議院議員総選挙　2014年12月14日 〜 2017年9月28日　与党 325/475（68.4%）</title>
+<rect class="bar f-blue" x="309.2" y="552.9" width="8.8" height="120.8" rx="1.5"/><rect class="bar share-rest" x="302" y="552.9" width="4.1" height="120.8" rx="1.5"/>
+</g>
+<g class="term c-shu" data-id="shu5" data-person="shu:第48回衆議院議員総選挙">
+<title>第48回衆議院議員総選挙　2017年10月22日 〜 2021年10月14日　与党 310/465（66.7%）</title>
+<rect class="bar f-blue" x="309.3" y="678.5" width="8.7" height="173" rx="1.5"/><rect class="bar share-rest" x="302" y="678.5" width="4.3" height="173" rx="1.5"/>
+</g>
+<g class="term c-shu" data-id="shu6" data-person="shu:第49回衆議院議員総選挙">
+<title>第49回衆議院議員総選挙　2021年10月31日 〜 2024年10月9日　与党 291/465（62.6%）</title>
+<rect class="bar f-blue" x="310.1" y="855.6" width="7.9" height="127.4" rx="1.5"/><rect class="bar share-rest" x="302" y="855.6" width="5" height="127.4" rx="1.5"/>
+</g>
+<g class="term c-shu" data-id="shu7" data-person="shu:第50回衆議院議員総選挙">
+<title>第50回衆議院議員総選挙　2024年10月27日 〜 2026年1月23日　与党 215/465（46.2%）</title>
+<rect class="bar f-blue" x="312.4" y="987.2" width="5.6" height="52.6" rx="1.5"/><rect class="bar share-rest" x="302" y="987.2" width="7.6" height="52.6" rx="1.5"/>
+</g>
+<g class="term c-shu" data-id="shu8" data-person="shu:第51回衆議院議員総選挙">
+<title>第51回衆議院議員総選挙　2026年2月8日 〜 現在　与党 315/465（67.7%）</title>
+<rect class="bar f-blue" x="308.2" y="1043.7" width="9.8" height="31.8" rx="1.5"/><rect class="bar share-rest" x="302" y="1043.7" width="4.2" height="31.8" rx="1.5"/>
+</g>
+<g class="term c-san" data-id="san0" data-person="san:第19回参議院議員通常選挙">
+<title>第19回参議院議員通常選挙　2001年7月29日 〜 2004年7月11日　与党 140/247（56.7%）</title>
+<rect class="bar f-red" x="291.5" y="71" width="6.5" height="21.1" rx="1.5"/><rect class="bar share-rest" x="282" y="71" width="5.9" height="21.1" rx="1.5"/>
+</g>
+<g class="term c-san" data-id="san1" data-person="san:第20回参議院議員通常選挙">
+<title>第20回参議院議員通常選挙　2004年7月11日 〜 2007年7月29日　与党 138/242（57%）</title>
+<rect class="bar f-red" x="291.5" y="94.1" width="6.5" height="132.1" rx="1.5"/><rect class="bar share-rest" x="282" y="94.1" width="5.9" height="132.1" rx="1.5"/>
+</g>
+<g class="term c-san" data-id="san2" data-person="san:第21回参議院議員通常選挙">
+<title>第21回参議院議員通常選挙　2007年7月29日 〜 2010年7月11日　与党 104/242（43%）</title>
+<rect class="bar f-red" x="293.4" y="228.2" width="4.6" height="127.9" rx="1.5"/><rect class="bar share-rest" x="282" y="228.2" width="8.1" height="127.9" rx="1.5"/>
+</g>
+<g class="term c-san" data-id="san3" data-person="san:第22回参議院議員通常選挙">
+<title>第22回参議院議員通常選挙　2010年7月11日 〜 2013年7月21日　与党 109/242（45%）</title>
+<rect class="bar f-red" x="292" y="358.1" width="6" height="131.2" rx="1.5"/><rect class="bar share-rest" x="282" y="358.1" width="7.8" height="131.2" rx="1.5"/>
+</g>
+<g class="term c-san" data-id="san4" data-person="san:第23回参議院議員通常選挙">
+<title>第23回参議院議員通常選挙　2013年7月21日 〜 2016年7月10日　与党 133/242（55%）</title>
+<rect class="bar f-red" x="291.5" y="491.3" width="6.5" height="128.7" rx="1.5"/><rect class="bar share-rest" x="282" y="491.3" width="6.2" height="128.7" rx="1.5"/>
+</g>
+<g class="term c-san" data-id="san5" data-person="san:第24回参議院議員通常選挙">
+<title>第24回参議院議員通常選挙　2016年7月10日 〜 2019年7月21日　与党 147/242（60.7%）</title>
+<rect class="bar f-red" x="290.9" y="622" width="7.1" height="131.2" rx="1.5"/><rect class="bar share-rest" x="282" y="622" width="5.3" height="131.2" rx="1.5"/>
+</g>
+<g class="term c-san" data-id="san6" data-person="san:第25回参議院議員通常選挙">
+<title>第25回参議院議員通常選挙　2019年7月21日 〜 2022年7月10日　与党 141/245（57.6%）</title>
+<rect class="bar f-red" x="291.6" y="755.3" width="6.4" height="128.7" rx="1.5"/><rect class="bar share-rest" x="282" y="755.3" width="5.8" height="128.7" rx="1.5"/>
+</g>
+<g class="term c-san" data-id="san7" data-person="san:第26回参議院議員通常選挙">
+<title>第26回参議院議員通常選挙　2022年7月10日 〜 2025年7月20日　与党 145/248（58.5%）</title>
+<rect class="bar f-red" x="291.4" y="886" width="6.6" height="131.2" rx="1.5"/><rect class="bar share-rest" x="282" y="886" width="5.6" height="131.2" rx="1.5"/>
+</g>
+<g class="term c-san" data-id="san8" data-person="san:第27回参議院議員通常選挙">
+<title>第27回参議院議員通常選挙　2025年7月20日 〜 現在　与党 121/248（48.8%）</title>
+<rect class="bar f-red" x="292.5" y="1019.2" width="5.5" height="56.2" rx="1.5"/><rect class="bar share-rest" x="282" y="1019.2" width="7.2" height="56.2" rx="1.5"/>
+</g>
+<g class="term c-ap" data-id="ap0" data-person="ap:2004年9月">
+<title>2004年9月　内閣支持率 37.9%</title>
+</g>
+<g class="term c-ap" data-id="ap1" data-person="ap:2004年10月">
+<title>2004年10月　内閣支持率 36.5%</title>
+</g>
+<g class="term c-ap" data-id="ap2" data-person="ap:2004年11月">
+<title>2004年11月　内閣支持率 37.5%</title>
+</g>
+<g class="term c-ap" data-id="ap3" data-person="ap:2004年12月">
+<title>2004年12月　内閣支持率 35.9%</title>
+</g>
+<g class="term c-ap" data-id="ap4" data-person="ap:2005年1月">
+<title>2005年1月　内閣支持率 40.6%</title>
+</g>
+<g class="term c-ap" data-id="ap5" data-person="ap:2005年2月">
+<title>2005年2月　内閣支持率 36.5%</title>
+</g>
+<g class="term c-ap" data-id="ap6" data-person="ap:2005年3月">
+<title>2005年3月　内閣支持率 37.9%</title>
+</g>
+<g class="term c-ap" data-id="ap7" data-person="ap:2005年4月">
+<title>2005年4月　内閣支持率 39.6%</title>
+</g>
+<g class="term c-ap" data-id="ap8" data-person="ap:2005年5月">
+<title>2005年5月　内閣支持率 42.3%</title>
+</g>
+<g class="term c-ap" data-id="ap9" data-person="ap:2005年6月">
+<title>2005年6月　内閣支持率 40.4%</title>
+</g>
+<g class="term c-ap" data-id="ap10" data-person="ap:2005年7月">
+<title>2005年7月　内閣支持率 38.0%</title>
+</g>
+<g class="term c-ap" data-id="ap11" data-person="ap:2005年8月">
+<title>2005年8月　内閣支持率 39.9%</title>
+</g>
+<g class="term c-ap" data-id="ap12" data-person="ap:2005年9月">
+<title>2005年9月　内閣支持率 53.5%</title>
+</g>
+<g class="term c-ap" data-id="ap13" data-person="ap:2005年10月">
+<title>2005年10月　内閣支持率 53.5%</title>
+</g>
+<g class="term c-ap" data-id="ap14" data-person="ap:2005年11月">
+<title>2005年11月　内閣支持率 53.2%</title>
+</g>
+<g class="term c-ap" data-id="ap15" data-person="ap:2005年12月">
+<title>2005年12月　内閣支持率 51.2%</title>
+</g>
+<g class="term c-ap" data-id="ap16" data-person="ap:2006年1月">
+<title>2006年1月　内閣支持率 49.7%</title>
+</g>
+<g class="term c-ap" data-id="ap17" data-person="ap:2006年2月">
+<title>2006年2月　内閣支持率 43.2%</title>
+</g>
+<g class="term c-ap" data-id="ap18" data-person="ap:2006年3月">
+<title>2006年3月　内閣支持率 47.1%</title>
+</g>
+<g class="term c-ap" data-id="ap19" data-person="ap:2006年4月">
+<title>2006年4月　内閣支持率 43.9%</title>
+</g>
+<g class="term c-ap" data-id="ap20" data-person="ap:2006年5月">
+<title>2006年5月　内閣支持率 44.5%</title>
+</g>
+<g class="term c-ap" data-id="ap21" data-person="ap:2006年6月">
+<title>2006年6月　内閣支持率 40.6%</title>
+</g>
+<g class="term c-ap" data-id="ap22" data-person="ap:2006年7月">
+<title>2006年7月　内閣支持率 41.6%</title>
+</g>
+<g class="term c-ap" data-id="ap23" data-person="ap:2006年8月">
+<title>2006年8月　内閣支持率 39.4%</title>
+</g>
+<g class="term c-ap" data-id="ap24" data-person="ap:2006年9月">
+<title>2006年9月　内閣支持率 43.2%</title>
+</g>
+<g class="term c-ap" data-id="ap25" data-person="ap:2006年10月">
+<title>2006年10月　内閣支持率 51.3%</title>
+</g>
+<g class="term c-ap" data-id="ap26" data-person="ap:2006年11月">
+<title>2006年11月　内閣支持率 51.4%</title>
+</g>
+<g class="term c-ap" data-id="ap27" data-person="ap:2006年12月">
+<title>2006年12月　内閣支持率 41.9%</title>
+</g>
+<g class="term c-ap" data-id="ap28" data-person="ap:2007年1月">
+<title>2007年1月　内閣支持率 40.7%</title>
+</g>
+<g class="term c-ap" data-id="ap29" data-person="ap:2007年2月">
+<title>2007年2月　内閣支持率 34.9%</title>
+</g>
+<g class="term c-ap" data-id="ap30" data-person="ap:2007年3月">
+<title>2007年3月　内閣支持率 34.7%</title>
+</g>
+<g class="term c-ap" data-id="ap31" data-person="ap:2007年4月">
+<title>2007年4月　内閣支持率 40.6%</title>
+</g>
+<g class="term c-ap" data-id="ap32" data-person="ap:2007年5月">
+<title>2007年5月　内閣支持率 39.4%</title>
+</g>
+<g class="term c-ap" data-id="ap33" data-person="ap:2007年6月">
+<title>2007年6月　内閣支持率 28.8%</title>
+</g>
+<g class="term c-ap" data-id="ap34" data-person="ap:2007年7月">
+<title>2007年7月　内閣支持率 25.7%</title>
+</g>
+<g class="term c-ap" data-id="ap35" data-person="ap:2007年8月">
+<title>2007年8月　内閣支持率 22.6%</title>
+</g>
+<g class="term c-ap" data-id="ap36" data-person="ap:2007年9月">
+<title>2007年9月　内閣支持率 25.5%</title>
+</g>
+<g class="term c-ap" data-id="ap37" data-person="ap:2007年10月">
+<title>2007年10月　内閣支持率 44.1%</title>
+</g>
+<g class="term c-ap" data-id="ap38" data-person="ap:2007年11月">
+<title>2007年11月　内閣支持率 41.3%</title>
+</g>
+<g class="term c-ap" data-id="ap39" data-person="ap:2007年12月">
+<title>2007年12月　内閣支持率 40.1%</title>
+</g>
+<g class="term c-ap" data-id="ap40" data-person="ap:2008年1月">
+<title>2008年1月　内閣支持率 34.5%</title>
+</g>
+<g class="term c-ap" data-id="ap41" data-person="ap:2008年2月">
+<title>2008年2月　内閣支持率 32.5%</title>
+</g>
+<g class="term c-ap" data-id="ap42" data-person="ap:2008年3月">
+<title>2008年3月　内閣支持率 30.9%</title>
+</g>
+<g class="term c-ap" data-id="ap43" data-person="ap:2008年4月">
+<title>2008年4月　内閣支持率 27.6%</title>
+</g>
+<g class="term c-ap" data-id="ap44" data-person="ap:2008年5月">
+<title>2008年5月　内閣支持率 19.9%</title>
+</g>
+<g class="term c-ap" data-id="ap45" data-person="ap:2008年6月">
+<title>2008年6月　内閣支持率 19.1%</title>
+</g>
+<g class="term c-ap" data-id="ap46" data-person="ap:2008年7月">
+<title>2008年7月　内閣支持率 21.1%</title>
+</g>
+<g class="term c-ap" data-id="ap47" data-person="ap:2008年8月">
+<title>2008年8月　内閣支持率 23.6%</title>
+</g>
+<g class="term c-ap" data-id="ap48" data-person="ap:2008年9月">
+<title>2008年9月　内閣支持率 15.6%</title>
+</g>
+<g class="term c-ap" data-id="ap49" data-person="ap:2008年10月">
+<title>2008年10月　内閣支持率 38.6%</title>
+</g>
+<g class="term c-ap" data-id="ap50" data-person="ap:2008年11月">
+<title>2008年11月　内閣支持率 38.8%</title>
+</g>
+<g class="term c-ap" data-id="ap51" data-person="ap:2008年12月">
+<title>2008年12月　内閣支持率 16.7%</title>
+</g>
+<g class="term c-ap" data-id="ap52" data-person="ap:2009年1月">
+<title>2009年1月　内閣支持率 17.8%</title>
+</g>
+<g class="term c-ap" data-id="ap53" data-person="ap:2009年2月">
+<title>2009年2月　内閣支持率 16.4%</title>
+</g>
+<g class="term c-ap" data-id="ap54" data-person="ap:2009年3月">
+<title>2009年3月　内閣支持率 17.6%</title>
+</g>
+<g class="term c-ap" data-id="ap55" data-person="ap:2009年4月">
+<title>2009年4月　内閣支持率 25.2%</title>
+</g>
+<g class="term c-ap" data-id="ap56" data-person="ap:2009年5月">
+<title>2009年5月　内閣支持率 26.3%</title>
+</g>
+<g class="term c-ap" data-id="ap57" data-person="ap:2009年6月">
+<title>2009年6月　内閣支持率 24.1%</title>
+</g>
+<g class="term c-ap" data-id="ap58" data-person="ap:2009年7月">
+<title>2009年7月　内閣支持率 16.3%</title>
+</g>
+<g class="term c-ap" data-id="ap59" data-person="ap:2009年8月">
+<title>2009年8月　内閣支持率 16.7%</title>
+</g>
+<g class="term c-ap" data-id="ap60" data-person="ap:2009年9月">
+<title>2009年9月　内閣支持率 13.4%</title>
+</g>
+<g class="term c-ap" data-id="ap61" data-person="ap:2009年10月">
+<title>2009年10月　内閣支持率 60.6%</title>
+</g>
+<g class="term c-ap" data-id="ap62" data-person="ap:2009年11月">
+<title>2009年11月　内閣支持率 54.4%</title>
+</g>
+<g class="term c-ap" data-id="ap63" data-person="ap:2009年12月">
+<title>2009年12月　内閣支持率 46.8%</title>
+</g>
+<g class="term c-ap" data-id="ap64" data-person="ap:2010年1月">
+<title>2010年1月　内閣支持率 47.1%</title>
+</g>
+<g class="term c-ap" data-id="ap65" data-person="ap:2010年2月">
+<title>2010年2月　内閣支持率 35.7%</title>
+</g>
+<g class="term c-ap" data-id="ap66" data-person="ap:2010年3月">
+<title>2010年3月　内閣支持率 30.9%</title>
+</g>
+<g class="term c-ap" data-id="ap67" data-person="ap:2010年4月">
+<title>2010年4月　内閣支持率 23.7%</title>
+</g>
+<g class="term c-ap" data-id="ap68" data-person="ap:2010年5月">
+<title>2010年5月　内閣支持率 19.1%</title>
+</g>
+<g class="term c-ap" data-id="ap69" data-person="ap:2010年6月">
+<title>2010年6月　内閣支持率 41.2%</title>
+</g>
+<g class="term c-ap" data-id="ap70" data-person="ap:2010年7月">
+<title>2010年7月　内閣支持率 31.8%</title>
+</g>
+<g class="term c-ap" data-id="ap71" data-person="ap:2010年8月">
+<title>2010年8月　内閣支持率 36.0%</title>
+</g>
+<g class="term c-ap" data-id="ap72" data-person="ap:2010年9月">
+<title>2010年9月　内閣支持率 45.6%</title>
+</g>
+<g class="term c-ap" data-id="ap73" data-person="ap:2010年10月">
+<title>2010年10月　内閣支持率 39.2%</title>
+</g>
+<g class="term c-ap" data-id="ap74" data-person="ap:2010年11月">
+<title>2010年11月　内閣支持率 27.8%</title>
+</g>
+<g class="term c-ap" data-id="ap75" data-person="ap:2010年12月">
+<title>2010年12月　内閣支持率 21.0%</title>
+</g>
+<g class="term c-ap" data-id="ap76" data-person="ap:2011年1月">
+<title>2011年1月　内閣支持率 21.3%</title>
+</g>
+<g class="term c-ap" data-id="ap77" data-person="ap:2011年2月">
+<title>2011年2月　内閣支持率 17.8%</title>
+</g>
+<g class="term c-ap" data-id="ap78" data-person="ap:2011年3月">
+<title>2011年3月　内閣支持率 18.9%</title>
+</g>
+<g class="term c-ap" data-id="ap79" data-person="ap:2011年4月">
+<title>2011年4月　内閣支持率 20.5%</title>
+</g>
+<g class="term c-ap" data-id="ap80" data-person="ap:2011年5月">
+<title>2011年5月　内閣支持率 21.9%</title>
+</g>
+<g class="term c-ap" data-id="ap81" data-person="ap:2011年6月">
+<title>2011年6月　内閣支持率 21.9%</title>
+</g>
+<g class="term c-ap" data-id="ap82" data-person="ap:2011年7月">
+<title>2011年7月　内閣支持率 12.5%</title>
+<circle class="mark f-violet" cx="474" cy="401.7" r="4"/>
+<text class="val" x="481" y="405.7">12.5%</text>
+</g>
+<g class="term c-ap" data-id="ap83" data-person="ap:2011年8月">
+<title>2011年8月　内閣支持率 13.3%</title>
+</g>
+<g class="term c-ap" data-id="ap84" data-person="ap:2011年9月">
+<title>2011年9月　内閣支持率 50.1%</title>
+</g>
+<g class="term c-ap" data-id="ap85" data-person="ap:2011年10月">
+<title>2011年10月　内閣支持率 42.2%</title>
+</g>
+<g class="term c-ap" data-id="ap86" data-person="ap:2011年11月">
+<title>2011年11月　内閣支持率 35.5%</title>
+</g>
+<g class="term c-ap" data-id="ap87" data-person="ap:2011年12月">
+<title>2011年12月　内閣支持率 32.4%</title>
+</g>
+<g class="term c-ap" data-id="ap88" data-person="ap:2012年1月">
+<title>2012年1月　内閣支持率 28.4%</title>
+</g>
+<g class="term c-ap" data-id="ap89" data-person="ap:2012年2月">
+<title>2012年2月　内閣支持率 24.9%</title>
+</g>
+<g class="term c-ap" data-id="ap90" data-person="ap:2012年3月">
+<title>2012年3月　内閣支持率 27.4%</title>
+</g>
+<g class="term c-ap" data-id="ap91" data-person="ap:2012年4月">
+<title>2012年4月　内閣支持率 21.7%</title>
+</g>
+<g class="term c-ap" data-id="ap92" data-person="ap:2012年5月">
+<title>2012年5月　内閣支持率 23.3%</title>
+</g>
+<g class="term c-ap" data-id="ap93" data-person="ap:2012年6月">
+<title>2012年6月　内閣支持率 24.3%</title>
+</g>
+<g class="term c-ap" data-id="ap94" data-person="ap:2012年7月">
+<title>2012年7月　内閣支持率 21.3%</title>
+</g>
+<g class="term c-ap" data-id="ap95" data-person="ap:2012年8月">
+<title>2012年8月　内閣支持率 19.8%</title>
+</g>
+<g class="term c-ap" data-id="ap96" data-person="ap:2012年9月">
+<title>2012年9月　内閣支持率 23.3%</title>
+</g>
+<g class="term c-ap" data-id="ap97" data-person="ap:2012年10月">
+<title>2012年10月　内閣支持率 23.4%</title>
+</g>
+<g class="term c-ap" data-id="ap98" data-person="ap:2012年11月">
+<title>2012年11月　内閣支持率 17.3%</title>
+</g>
+<g class="term c-ap" data-id="ap99" data-person="ap:2012年12月">
+<title>2012年12月　内閣支持率 18.2%</title>
+</g>
+<g class="term c-ap" data-id="ap100" data-person="ap:2013年1月">
+<title>2013年1月　内閣支持率 54.0%</title>
+</g>
+<g class="term c-ap" data-id="ap101" data-person="ap:2013年2月">
+<title>2013年2月　内閣支持率 61.4%</title>
+</g>
+<g class="term c-ap" data-id="ap102" data-person="ap:2013年3月">
+<title>2013年3月　内閣支持率 61.4%</title>
+</g>
+<g class="term c-ap" data-id="ap103" data-person="ap:2013年4月">
+<title>2013年4月　内閣支持率 62.1%</title>
+</g>
+<g class="term c-ap" data-id="ap104" data-person="ap:2013年5月">
+<title>2013年5月　内閣支持率 60.2%</title>
+</g>
+<g class="term c-ap" data-id="ap105" data-person="ap:2013年6月">
+<title>2013年6月　内閣支持率 57.4%</title>
+</g>
+<g class="term c-ap" data-id="ap106" data-person="ap:2013年7月">
+<title>2013年7月　内閣支持率 53.6%</title>
+</g>
+<g class="term c-ap" data-id="ap107" data-person="ap:2013年8月">
+<title>2013年8月　内閣支持率 54.2%</title>
+</g>
+<g class="term c-ap" data-id="ap108" data-person="ap:2013年9月">
+<title>2013年9月　内閣支持率 61.3%</title>
+</g>
+<g class="term c-ap" data-id="ap109" data-person="ap:2013年10月">
+<title>2013年10月　内閣支持率 55.8%</title>
+</g>
+<g class="term c-ap" data-id="ap110" data-person="ap:2013年11月">
+<title>2013年11月　内閣支持率 56.6%</title>
+</g>
+<g class="term c-ap" data-id="ap111" data-person="ap:2013年12月">
+<title>2013年12月　内閣支持率 47.1%</title>
+</g>
+<g class="term c-ap" data-id="ap112" data-person="ap:2014年1月">
+<title>2014年1月　内閣支持率 52.6%</title>
+</g>
+<g class="term c-ap" data-id="ap113" data-person="ap:2014年2月">
+<title>2014年2月　内閣支持率 53.7%</title>
+</g>
+<g class="term c-ap" data-id="ap114" data-person="ap:2014年3月">
+<title>2014年3月　内閣支持率 48.1%</title>
+</g>
+<g class="term c-ap" data-id="ap115" data-person="ap:2014年4月">
+<title>2014年4月　内閣支持率 50.1%</title>
+</g>
+<g class="term c-ap" data-id="ap116" data-person="ap:2014年5月">
+<title>2014年5月　内閣支持率 51.1%</title>
+</g>
+<g class="term c-ap" data-id="ap117" data-person="ap:2014年6月">
+<title>2014年6月　内閣支持率 51.0%</title>
+</g>
+<g class="term c-ap" data-id="ap118" data-person="ap:2014年7月">
+<title>2014年7月　内閣支持率 44.6%</title>
+</g>
+<g class="term c-ap" data-id="ap119" data-person="ap:2014年8月">
+<title>2014年8月　内閣支持率 43.5%</title>
+</g>
+<g class="term c-ap" data-id="ap120" data-person="ap:2014年9月">
+<title>2014年9月　内閣支持率 50.7%</title>
+</g>
+<g class="term c-ap" data-id="ap121" data-person="ap:2014年10月">
+<title>2014年10月　内閣支持率 47.9%</title>
+</g>
+<g class="term c-ap" data-id="ap122" data-person="ap:2014年11月">
+<title>2014年11月　内閣支持率 45.5%</title>
+</g>
+<g class="term c-ap" data-id="ap123" data-person="ap:2014年12月">
+<title>2014年12月　内閣支持率 45.4%</title>
+</g>
+<g class="term c-ap" data-id="ap124" data-person="ap:2015年1月">
+<title>2015年1月　内閣支持率 47.2%</title>
+</g>
+<g class="term c-ap" data-id="ap125" data-person="ap:2015年2月">
+<title>2015年2月　内閣支持率 47.4%</title>
+</g>
+<g class="term c-ap" data-id="ap126" data-person="ap:2015年3月">
+<title>2015年3月　内閣支持率 47.7%</title>
+</g>
+<g class="term c-ap" data-id="ap127" data-person="ap:2015年4月">
+<title>2015年4月　内閣支持率 45.6%</title>
+</g>
+<g class="term c-ap" data-id="ap128" data-person="ap:2015年5月">
+<title>2015年5月　内閣支持率 48.0%</title>
+</g>
+<g class="term c-ap" data-id="ap129" data-person="ap:2015年6月">
+<title>2015年6月　内閣支持率 45.8%</title>
+</g>
+<g class="term c-ap" data-id="ap130" data-person="ap:2015年7月">
+<title>2015年7月　内閣支持率 40.1%</title>
+</g>
+<g class="term c-ap" data-id="ap131" data-person="ap:2015年8月">
+<title>2015年8月　内閣支持率 39.7%</title>
+</g>
+<g class="term c-ap" data-id="ap132" data-person="ap:2015年9月">
+<title>2015年9月　内閣支持率 38.5%</title>
+</g>
+<g class="term c-ap" data-id="ap133" data-person="ap:2015年10月">
+<title>2015年10月　内閣支持率 39.8%</title>
+</g>
+<g class="term c-ap" data-id="ap134" data-person="ap:2015年11月">
+<title>2015年11月　内閣支持率 40.5%</title>
+</g>
+<g class="term c-ap" data-id="ap135" data-person="ap:2015年12月">
+<title>2015年12月　内閣支持率 41.2%</title>
+</g>
+<g class="term c-ap" data-id="ap136" data-person="ap:2016年1月">
+<title>2016年1月　内閣支持率 45.2%</title>
+</g>
+<g class="term c-ap" data-id="ap137" data-person="ap:2016年2月">
+<title>2016年2月　内閣支持率 46.4%</title>
+</g>
+<g class="term c-ap" data-id="ap138" data-person="ap:2016年3月">
+<title>2016年3月　内閣支持率 42.6%</title>
+</g>
+<g class="term c-ap" data-id="ap139" data-person="ap:2016年4月">
+<title>2016年4月　内閣支持率 45.3%</title>
+</g>
+<g class="term c-ap" data-id="ap140" data-person="ap:2016年5月">
+<title>2016年5月　内閣支持率 47.6%</title>
+</g>
+<g class="term c-ap" data-id="ap141" data-person="ap:2016年6月">
+<title>2016年6月　内閣支持率 46.1%</title>
+</g>
+<g class="term c-ap" data-id="ap142" data-person="ap:2016年7月">
+<title>2016年7月　内閣支持率 47.4%</title>
+</g>
+<g class="term c-ap" data-id="ap143" data-person="ap:2016年8月">
+<title>2016年8月　内閣支持率 47.2%</title>
+</g>
+<g class="term c-ap" data-id="ap144" data-person="ap:2016年9月">
+<title>2016年9月　内閣支持率 51.0%</title>
+</g>
+<g class="term c-ap" data-id="ap145" data-person="ap:2016年10月">
+<title>2016年10月　内閣支持率 49.4%</title>
+</g>
+<g class="term c-ap" data-id="ap146" data-person="ap:2016年11月">
+<title>2016年11月　内閣支持率 51.0%</title>
+</g>
+<g class="term c-ap" data-id="ap147" data-person="ap:2016年12月">
+<title>2016年12月　内閣支持率 49.2%</title>
+</g>
+<g class="term c-ap" data-id="ap148" data-person="ap:2017年1月">
+<title>2017年1月　内閣支持率 51.2%</title>
+</g>
+<g class="term c-ap" data-id="ap149" data-person="ap:2017年2月">
+<title>2017年2月　内閣支持率 53.4%</title>
+</g>
+<g class="term c-ap" data-id="ap150" data-person="ap:2017年3月">
+<title>2017年3月　内閣支持率 51.3%</title>
+</g>
+<g class="term c-ap" data-id="ap151" data-person="ap:2017年4月">
+<title>2017年4月　内閣支持率 50.0%</title>
+</g>
+<g class="term c-ap" data-id="ap152" data-person="ap:2017年5月">
+<title>2017年5月　内閣支持率 46.6%</title>
+</g>
+<g class="term c-ap" data-id="ap153" data-person="ap:2017年6月">
+<title>2017年6月　内閣支持率 45.1%</title>
+</g>
+<g class="term c-ap" data-id="ap154" data-person="ap:2017年7月">
+<title>2017年7月　内閣支持率 29.9%</title>
+</g>
+<g class="term c-ap" data-id="ap155" data-person="ap:2017年8月">
+<title>2017年8月　内閣支持率 36.6%</title>
+</g>
+<g class="term c-ap" data-id="ap156" data-person="ap:2017年9月">
+<title>2017年9月　内閣支持率 41.8%</title>
+</g>
+<g class="term c-ap" data-id="ap157" data-person="ap:2017年10月">
+<title>2017年10月　内閣支持率 37.1%</title>
+</g>
+<g class="term c-ap" data-id="ap158" data-person="ap:2017年11月">
+<title>2017年11月　内閣支持率 45.4%</title>
+</g>
+<g class="term c-ap" data-id="ap159" data-person="ap:2017年12月">
+<title>2017年12月　内閣支持率 42.6%</title>
+</g>
+<g class="term c-ap" data-id="ap160" data-person="ap:2018年1月">
+<title>2018年1月　内閣支持率 46.6%</title>
+</g>
+<g class="term c-ap" data-id="ap161" data-person="ap:2018年2月">
+<title>2018年2月　内閣支持率 48.7%</title>
+</g>
+<g class="term c-ap" data-id="ap162" data-person="ap:2018年3月">
+<title>2018年3月　内閣支持率 39.3%</title>
+</g>
+<g class="term c-ap" data-id="ap163" data-person="ap:2018年4月">
+<title>2018年4月　内閣支持率 38.4%</title>
+</g>
+<g class="term c-ap" data-id="ap164" data-person="ap:2018年5月">
+<title>2018年5月　内閣支持率 38.1%</title>
+</g>
+<g class="term c-ap" data-id="ap165" data-person="ap:2018年6月">
+<title>2018年6月　内閣支持率 35.5%</title>
+</g>
+<g class="term c-ap" data-id="ap166" data-person="ap:2018年7月">
+<title>2018年7月　内閣支持率 37.0%</title>
+</g>
+<g class="term c-ap" data-id="ap167" data-person="ap:2018年8月">
+<title>2018年8月　内閣支持率 38.5%</title>
+</g>
+<g class="term c-ap" data-id="ap168" data-person="ap:2018年9月">
+<title>2018年9月　内閣支持率 41.7%</title>
+</g>
+<g class="term c-ap" data-id="ap169" data-person="ap:2018年10月">
+<title>2018年10月　内閣支持率 41.9%</title>
+</g>
+<g class="term c-ap" data-id="ap170" data-person="ap:2018年11月">
+<title>2018年11月　内閣支持率 42.3%</title>
+</g>
+<g class="term c-ap" data-id="ap171" data-person="ap:2018年12月">
+<title>2018年12月　内閣支持率 38.9%</title>
+</g>
+<g class="term c-ap" data-id="ap172" data-person="ap:2019年1月">
+<title>2019年1月　内閣支持率 43.5%</title>
+</g>
+<g class="term c-ap" data-id="ap173" data-person="ap:2019年2月">
+<title>2019年2月　内閣支持率 42.4%</title>
+</g>
+<g class="term c-ap" data-id="ap174" data-person="ap:2019年3月">
+<title>2019年3月　内閣支持率 39.0%</title>
+</g>
+<g class="term c-ap" data-id="ap175" data-person="ap:2019年4月">
+<title>2019年4月　内閣支持率 43.0%</title>
+</g>
+<g class="term c-ap" data-id="ap176" data-person="ap:2019年5月">
+<title>2019年5月　内閣支持率 44.7%</title>
+</g>
+<g class="term c-ap" data-id="ap177" data-person="ap:2019年6月">
+<title>2019年6月　内閣支持率 44.9%</title>
+</g>
+<g class="term c-ap" data-id="ap178" data-person="ap:2019年7月">
+<title>2019年7月　内閣支持率 43.1%</title>
+</g>
+<g class="term c-ap" data-id="ap179" data-person="ap:2019年8月">
+<title>2019年8月　内閣支持率 47.0%</title>
+</g>
+<g class="term c-ap" data-id="ap180" data-person="ap:2019年9月">
+<title>2019年9月　内閣支持率 43.1%</title>
+</g>
+<g class="term c-ap" data-id="ap181" data-person="ap:2019年10月">
+<title>2019年10月　内閣支持率 44.2%</title>
+</g>
+<g class="term c-ap" data-id="ap182" data-person="ap:2019年11月">
+<title>2019年11月　内閣支持率 48.5%</title>
+</g>
+<g class="term c-ap" data-id="ap183" data-person="ap:2019年12月">
+<title>2019年12月　内閣支持率 40.6%</title>
+</g>
+<g class="term c-ap" data-id="ap184" data-person="ap:2020年1月">
+<title>2020年1月　内閣支持率 40.4%</title>
+</g>
+<g class="term c-ap" data-id="ap185" data-person="ap:2020年2月">
+<title>2020年2月　内閣支持率 38.6%</title>
+</g>
+<g class="term c-ap" data-id="ap186" data-person="ap:2020年3月">
+<title>2020年3月　内閣支持率 39.3%</title>
+</g>
+<g class="term c-ap" data-id="ap187" data-person="ap:2020年5月">
+<title>2020年5月　内閣支持率 38.1%</title>
+</g>
+<g class="term c-ap" data-id="ap188" data-person="ap:2020年6月">
+<title>2020年6月　内閣支持率 40.3%</title>
+</g>
+<g class="term c-ap" data-id="ap189" data-person="ap:2020年7月">
+<title>2020年7月　内閣支持率 35.1%</title>
+</g>
+<g class="term c-ap" data-id="ap190" data-person="ap:2020年8月">
+<title>2020年8月　内閣支持率 32.7%</title>
+</g>
+<g class="term c-ap" data-id="ap191" data-person="ap:2020年9月">
+<title>2020年9月　内閣支持率 46.3%</title>
+</g>
+<g class="term c-ap" data-id="ap192" data-person="ap:2020年10月">
+<title>2020年10月　内閣支持率 51.2%</title>
+</g>
+<g class="term c-ap" data-id="ap193" data-person="ap:2020年11月">
+<title>2020年11月　内閣支持率 48.3%</title>
+</g>
+<g class="term c-ap" data-id="ap194" data-person="ap:2020年12月">
+<title>2020年12月　内閣支持率 43.1%</title>
+</g>
+<g class="term c-ap" data-id="ap195" data-person="ap:2021年1月">
+<title>2021年1月　内閣支持率 34.2%</title>
+</g>
+<g class="term c-ap" data-id="ap196" data-person="ap:2021年2月">
+<title>2021年2月　内閣支持率 34.8%</title>
+</g>
+<g class="term c-ap" data-id="ap197" data-person="ap:2021年3月">
+<title>2021年3月　内閣支持率 35.0%</title>
+</g>
+<g class="term c-ap" data-id="ap198" data-person="ap:2021年4月">
+<title>2021年4月　内閣支持率 36.6%</title>
+</g>
+<g class="term c-ap" data-id="ap199" data-person="ap:2021年5月">
+<title>2021年5月　内閣支持率 32.2%</title>
+</g>
+<g class="term c-ap" data-id="ap200" data-person="ap:2021年6月">
+<title>2021年6月　内閣支持率 33.1%</title>
+</g>
+<g class="term c-ap" data-id="ap201" data-person="ap:2021年7月">
+<title>2021年7月　内閣支持率 29.3%</title>
+</g>
+<g class="term c-ap" data-id="ap202" data-person="ap:2021年8月">
+<title>2021年8月　内閣支持率 29.0%</title>
+</g>
+<g class="term c-ap" data-id="ap203" data-person="ap:2021年9月">
+<title>2021年9月　内閣支持率 33.4%</title>
+</g>
+<g class="term c-ap" data-id="ap204" data-person="ap:2021年10月">
+<title>2021年10月　内閣支持率 40.3%</title>
+</g>
+<g class="term c-ap" data-id="ap205" data-person="ap:2021年11月">
+<title>2021年11月　内閣支持率 47.1%</title>
+</g>
+<g class="term c-ap" data-id="ap206" data-person="ap:2021年12月">
+<title>2021年12月　内閣支持率 44.9%</title>
+</g>
+<g class="term c-ap" data-id="ap207" data-person="ap:2022年1月">
+<title>2022年1月　内閣支持率 51.7%</title>
+</g>
+<g class="term c-ap" data-id="ap208" data-person="ap:2022年2月">
+<title>2022年2月　内閣支持率 43.4%</title>
+</g>
+<g class="term c-ap" data-id="ap209" data-person="ap:2022年3月">
+<title>2022年3月　内閣支持率 50.2%</title>
+</g>
+<g class="term c-ap" data-id="ap210" data-person="ap:2022年4月">
+<title>2022年4月　内閣支持率 52.6%</title>
+</g>
+<g class="term c-ap" data-id="ap211" data-person="ap:2022年5月">
+<title>2022年5月　内閣支持率 50.8%</title>
+</g>
+<g class="term c-ap" data-id="ap212" data-person="ap:2022年6月">
+<title>2022年6月　内閣支持率 48.7%</title>
+</g>
+<g class="term c-ap" data-id="ap213" data-person="ap:2022年7月">
+<title>2022年7月　内閣支持率 49.9%</title>
+</g>
+<g class="term c-ap" data-id="ap214" data-person="ap:2022年8月">
+<title>2022年8月　内閣支持率 44.3%</title>
+</g>
+<g class="term c-ap" data-id="ap215" data-person="ap:2022年9月">
+<title>2022年9月　内閣支持率 32.3%</title>
+</g>
+<g class="term c-ap" data-id="ap216" data-person="ap:2022年10月">
+<title>2022年10月　内閣支持率 27.4%</title>
+</g>
+<g class="term c-ap" data-id="ap217" data-person="ap:2022年11月">
+<title>2022年11月　内閣支持率 27.7%</title>
+</g>
+<g class="term c-ap" data-id="ap218" data-person="ap:2022年12月">
+<title>2022年12月　内閣支持率 29.2%</title>
+</g>
+<g class="term c-ap" data-id="ap219" data-person="ap:2023年1月">
+<title>2023年1月　内閣支持率 26.5%</title>
+</g>
+<g class="term c-ap" data-id="ap220" data-person="ap:2023年2月">
+<title>2023年2月　内閣支持率 27.8%</title>
+</g>
+<g class="term c-ap" data-id="ap221" data-person="ap:2023年3月">
+<title>2023年3月　内閣支持率 29.9%</title>
+</g>
+<g class="term c-ap" data-id="ap222" data-person="ap:2023年4月">
+<title>2023年4月　内閣支持率 33.5%</title>
+</g>
+<g class="term c-ap" data-id="ap223" data-person="ap:2023年5月">
+<title>2023年5月　内閣支持率 38.2%</title>
+</g>
+<g class="term c-ap" data-id="ap224" data-person="ap:2023年6月">
+<title>2023年6月　内閣支持率 35.1%</title>
+</g>
+<g class="term c-ap" data-id="ap225" data-person="ap:2023年7月">
+<title>2023年7月　内閣支持率 30.8%</title>
+</g>
+<g class="term c-ap" data-id="ap226" data-person="ap:2023年8月">
+<title>2023年8月　内閣支持率 26.6%</title>
+</g>
+<g class="term c-ap" data-id="ap227" data-person="ap:2023年9月">
+<title>2023年9月　内閣支持率 28.0%</title>
+</g>
+<g class="term c-ap" data-id="ap228" data-person="ap:2023年10月">
+<title>2023年10月　内閣支持率 26.3%</title>
+</g>
+<g class="term c-ap" data-id="ap229" data-person="ap:2023年11月">
+<title>2023年11月　内閣支持率 21.3%</title>
+</g>
+<g class="term c-ap" data-id="ap230" data-person="ap:2023年12月">
+<title>2023年12月　内閣支持率 17.1%</title>
+</g>
+<g class="term c-ap" data-id="ap231" data-person="ap:2024年1月">
+<title>2024年1月　内閣支持率 18.6%</title>
+</g>
+<g class="term c-ap" data-id="ap232" data-person="ap:2024年2月">
+<title>2024年2月　内閣支持率 16.9%</title>
+</g>
+<g class="term c-ap" data-id="ap233" data-person="ap:2024年3月">
+<title>2024年3月　内閣支持率 18.0%</title>
+</g>
+<g class="term c-ap" data-id="ap234" data-person="ap:2024年4月">
+<title>2024年4月　内閣支持率 16.6%</title>
+</g>
+<g class="term c-ap" data-id="ap235" data-person="ap:2024年5月">
+<title>2024年5月　内閣支持率 18.7%</title>
+</g>
+<g class="term c-ap" data-id="ap236" data-person="ap:2024年6月">
+<title>2024年6月　内閣支持率 16.4%</title>
+</g>
+<g class="term c-ap" data-id="ap237" data-person="ap:2024年7月">
+<title>2024年7月　内閣支持率 15.5%</title>
+</g>
+<g class="term c-ap" data-id="ap238" data-person="ap:2024年8月">
+<title>2024年8月　内閣支持率 19.4%</title>
+</g>
+<g class="term c-ap" data-id="ap239" data-person="ap:2024年9月">
+<title>2024年9月　内閣支持率 18.7%</title>
+</g>
+<g class="term c-ap" data-id="ap240" data-person="ap:2024年10月">
+<title>2024年10月　内閣支持率 28.0%</title>
+</g>
+<g class="term c-ap" data-id="ap241" data-person="ap:2024年11月">
+<title>2024年11月　内閣支持率 28.7%</title>
+</g>
+<g class="term c-ap" data-id="ap242" data-person="ap:2024年12月">
+<title>2024年12月　内閣支持率 26.8%</title>
+</g>
+<g class="term c-ap" data-id="ap243" data-person="ap:2025年1月">
+<title>2025年1月　内閣支持率 28.2%</title>
+</g>
+<g class="term c-ap" data-id="ap244" data-person="ap:2025年2月">
+<title>2025年2月　内閣支持率 28.5%</title>
+</g>
+<g class="term c-ap" data-id="ap245" data-person="ap:2025年3月">
+<title>2025年3月　内閣支持率 27.9%</title>
+</g>
+<g class="term c-ap" data-id="ap246" data-person="ap:2025年4月">
+<title>2025年4月　内閣支持率 23.1%</title>
+</g>
+<g class="term c-ap" data-id="ap247" data-person="ap:2025年5月">
+<title>2025年5月　内閣支持率 20.9%</title>
+</g>
+<g class="term c-ap" data-id="ap248" data-person="ap:2025年6月">
+<title>2025年6月　内閣支持率 27.0%</title>
+</g>
+<g class="term c-ap" data-id="ap249" data-person="ap:2025年7月">
+<title>2025年7月　内閣支持率 20.8%</title>
+</g>
+<g class="term c-ap" data-id="ap250" data-person="ap:2025年8月">
+<title>2025年8月　内閣支持率 27.3%</title>
+</g>
+<g class="term c-ap" data-id="ap251" data-person="ap:2025年9月">
+<title>2025年9月　内閣支持率 27.7%</title>
+</g>
+<g class="term c-ap" data-id="ap252" data-person="ap:2025年10月">
+<title>2025年10月　内閣支持率 25.1%</title>
+</g>
+<g class="term c-ap" data-id="ap253" data-person="ap:2025年11月">
+<title>2025年11月　内閣支持率 63.8%</title>
+<circle class="mark f-violet" cx="679.2" cy="1032.5" r="4"/>
+<text class="val" x="672.2" y="1036.5" text-anchor="end">63.8%</text>
+</g>
+<g class="term c-ap" data-id="ap254" data-person="ap:2025年12月">
+<title>2025年12月　内閣支持率 59.9%</title>
+</g>
+<g class="term c-ap" data-id="ap255" data-person="ap:2026年1月">
+<title>2026年1月　内閣支持率 61.0%</title>
+</g>
+<g class="term c-ap" data-id="ap256" data-person="ap:2026年2月">
+<title>2026年2月　内閣支持率 63.8%</title>
+</g>
+<g class="term c-ap" data-id="ap257" data-person="ap:2026年3月">
+<title>2026年3月　内閣支持率 59.3%</title>
+</g>
+<g class="term c-ap" data-id="ap258" data-person="ap:2026年4月">
+<title>2026年4月　内閣支持率 59.1%</title>
+</g>
+<g class="term c-ap" data-id="ap259" data-person="ap:2026年5月">
+<title>2026年5月　内閣支持率 59.4%</title>
+</g>
+<g class="term c-ap" data-id="ap260" data-person="ap:2026年6月">
+<title>2026年6月　内閣支持率 54.3%</title>
+</g>
+<g class="term c-ap" data-id="ap261" data-person="ap:2026年7月">
+<title>2026年7月　内閣支持率 49.0%</title>
+</g>
+<g class="term c-ap" data-id="ap262" data-person="ap:2026年8月">
+<title>2026年8月　内閣支持率 48.4%</title>
+</g>
+<g class="term c-ap" data-id="ap263" data-person="ap:2026年9月">
+<title>2026年9月　内閣支持率 44.1%</title>
+</g>
+<g class="term c-ap" data-id="ap264" data-person="ap:2026年10月">
+<title>2026年10月　内閣支持率 42.4%</title>
+<circle class="mark f-violet" cx="593.6" cy="1072.8" r="4"/>
+<text class="val" x="600.6" y="1076.8">42.4%</text>
+</g>
+<line class="share-line" x1="310" x2="310" y1="70" y2="1129.6"/>
+<line class="share-line" x1="290" x2="290" y1="70" y2="1129.6"/>
+<text class="foot" x="380" y="1159.6" text-anchor="middle">出典：中央調査社「中央調査報」の「時事世論調査」（2010年5月〜2026年9月の各号の PDF）、中央調査社「中央調査報」過去の調査報の「時事世論調査」（2004年9月〜2010年4月）、時事ドットコム「内閣支持率４２％に下落　簗氏続投判断、８割問題視―時事世論調査」（2026年10月）、中央調査社「時事世論調査に見る内閣支持率の推移（1989-2004）」（質問文と「わからない」の数え方）、首相官邸「歴代内閣」（内閣の名前）　2026年11月7日時点</text>
+</svg>

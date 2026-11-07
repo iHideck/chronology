@@ -118,7 +118,7 @@
 - 同じ人が続けて務めた代（例：吉田茂の第48〜51代）は1本の棒にまとめています。
 - 総理の棒の切れ目は、臨時兼任・臨時代理の期間です。
 - 総理の在任日数は、首相官邸の数え方（就任日と退任日を両方含む）です。
-- ほかの列の定義・注記・出典は、それぞれの年表に載せています：[自由民主党総裁](../ldp-presidents/)、[日本の景気循環](../business-cycles/)、[国政選挙と投票率](../elections/)、[歴代アメリカ合衆国大統領](../us-presidents/)、[中国の最高指導者](../china-leaders/)、[韓国の首脳](../korea-leaders/)、[ロシア・ソ連の最高指導者](../russia-leaders/)、[イギリスの首相](../uk-prime-ministers/)、[イギリスの君主](../uk-monarchs/)、[フランスの首脳](../france-leaders/)、[ドイツの首脳](../germany-leaders/)、[イタリアの首相](../italy-prime-ministers/)、[戦争・大きな出来事（1868年〜）](../events/)
+- ほかの列の定義・注記・出典は、それぞれの年表に載せています：[自由民主党総裁](../ldp-presidents/)、[日本の景気循環](../business-cycles/)、[国政選挙と投票率](../elections/)、[歴代アメリカ合衆国大統領](../us-presidents/)、[中国の最高指導者](../china-leaders/)、[韓国の首脳](../korea-leaders/)、[ロシア・ソ連の最高指導者](../russia-leaders/)、[イギリスの首相](../uk-prime-ministers/)、[イギリスの君主](../uk-monarchs/)、[フランスの首脳](../france-leaders/)、[ドイツの首脳](../germany-leaders/)、[イタリアの首相](../italy-prime-ministers/)、[戦争・大きな出来事（1868年〜）](../events/)、[内閣支持率と総理大臣](../cabinet-approval/)
 
 ## 出典
 

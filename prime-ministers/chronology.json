@@ -78,8 +78,10 @@
       { "id": "fr", "data": "france-leaders", "side": "right", "title": "フランスの首脳", "short": "フランス", "mark": "仏", "counterLabel": "フランスの首脳", "color": "green", "photos": true, "narrowHidden": true, "counter": ["jp"] },
       { "id": "de", "data": "germany-leaders", "side": "right", "title": "ドイツの首脳", "short": "ドイツ", "mark": "独", "counterLabel": "ドイツの首脳", "color": "green", "photos": true, "narrowHidden": true, "counter": ["jp"], "gapText": "連合国の占領期" },
       { "id": "it", "data": "italy-prime-ministers", "side": "right", "title": "イタリアの首相", "short": "イタリア", "mark": "伊", "counterLabel": "イタリアの首相", "color": "green", "photos": true, "narrowHidden": true, "counter": ["jp"] },
-      { "id": "ev", "data": "events", "side": "right", "title": "戦争・大きな出来事", "short": "出来事", "mark": "事", "narrowHidden": true, "hideBelow": 1800, "colorBy": "group", "bar": 6, "counter": ["jp"] }
+      { "id": "ev", "data": "events", "side": "right", "title": "戦争・大きな出来事", "short": "出来事", "mark": "事", "narrowHidden": true, "hideBelow": 1800, "colorBy": "group", "bar": 6, "counter": ["jp"] },
+      { "id": "ap", "data": "cabinet-approval", "side": "right", "title": "内閣支持率（時事世論調査）", "short": "支持率", "color": "violet", "hidden": true, "narrowHidden": true,
+        "chart": { "type": "line", "value": "支持率（%）", "split": "首相", "min": 0, "max": 80, "ticks": [20, 40, 60], "unit": "%", "width": 200 } }
     ],
-    "preview": { "width": 1100, "hidden": ["uk", "ev", "shu", "san"] }
+    "preview": { "width": 1100, "hidden": ["uk", "ev", "shu", "san", "ap"] }
   }
 }

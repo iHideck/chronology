@@ -740,8 +740,9 @@ function pointTime(t, where) {
 
 // 数値の列（chart）。値の列が空か数でない項目は描かず、線はそこで切る。
 // chart.scale は値に掛ける数（千人 → 万人なら 0.1）で、目盛り（min・max・ticks）は掛けたあとの値で書く。
+// chart.split の列の値が変わるところでも線を切る（内閣ごとの支持率など）。
 function placeOnChart(col) {
-  const { value, scale = 1 } = col.chart;
+  const { value, scale = 1, split } = col.chart;
   const where = col.chart.at ?? 'middle';
   const lastOk = new Map();
   for (const t of col.terms) {
@@ -749,6 +750,7 @@ function placeOnChart(col) {
     t.laneIdx = 0;
     t.value = raw === '' ? NaN : Number(raw) * scale;
     t.at = pointTime(t, where);
+    if (split) t.split = new Map(t.details).get(split) ?? '';
     const ok = Number.isFinite(t.value);
     if (ok && lastOk.get(t.group) === false) t.breakBefore = true;
     lastOk.set(t.group, ok);
@@ -788,14 +790,14 @@ function seriesOf(col) {
   return [...series.values()];
 }
 
-// 線でつなぐ点の並び。区分ごとに分け、値の欠けたところで切る
+// 線でつなぐ点の並び。区分ごとに分け、値の欠けたところと、chart.split の列の値が変わるところで切る
 function segmentsOf(col) {
   return seriesOf(col).flatMap((bs) => {
     const out = [];
-    for (const b of bs) {
-      if (!out.length || b.term.breakBefore) out.push([]);
+    bs.forEach((b, i) => {
+      if (!i || b.term.breakBefore || b.term.split !== bs[i - 1].term.split) out.push([]);
       out[out.length - 1].push(b);
-    }
+    });
     return out;
   });
 }

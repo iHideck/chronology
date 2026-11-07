@@ -22,6 +22,7 @@
 | 政治と首脳 | [自由民主党総裁](https://ihideck.github.io/chronology/ldp-presidents/) | 1956年〜現在 | 29 | [ldp-presidents/](ldp-presidents/) |
 | 政治と首脳 | [国政選挙と投票率](https://ihideck.github.io/chronology/elections/) | 1946年〜現在 | 57 | [elections/](elections/) |
 | 政治と首脳 | [選挙制度の変更（1945年〜）](https://ihideck.github.io/chronology/electoral-reforms/) | 1945年〜2018年 | 15 | [electoral-reforms/](electoral-reforms/) |
+| 政治と首脳 | [内閣支持率と総理大臣](https://ihideck.github.io/chronology/cabinet-approval/) | 2004年〜2026年 | 265 | [cabinet-approval/](cabinet-approval/) |
 | 日本の歴史 | [元号と天皇](https://ihideck.github.io/chronology/eras/) | 645年〜現在 | 251 | [eras/](eras/) |
 | 日本の歴史 | [歴代天皇](https://ihideck.github.io/chronology/emperors/) | 642年〜現在 | 98 | [emperors/](emperors/) |
 | 日本の歴史 | [日本史と世界史の時代区分](https://ihideck.github.io/chronology/periods/) | 紀元前3000年〜現在 | 82 | [periods/](periods/) |
