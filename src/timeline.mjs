@@ -375,7 +375,7 @@ function pointTime(t, where) {
 // chart.split の列の値が変わるところでも線を切る（内閣ごとの支持率など）。
 function placeOnChart(col) {
   const { value, scale = 1, split } = col.chart;
-  const where = col.chart.at ?? 'middle';
+  const where = col.chart.at ?? (col.chart.type === 'step' ? 'start' : 'middle');
   const lastOk = new Map();
   for (const t of col.terms) {
     const raw = new Map(t.details).get(value) ?? '';
@@ -434,10 +434,15 @@ function segmentsOf(col) {
   });
 }
 
+// 階段の折れ線の頂点。値は変わった日から次に変わる日まで続く
+function stepPoints(bs, g) {
+  return bs.flatMap((b) => [[b.cx, b.cy], [b.cx, Math.min(g.plotBottom, g.yOf(b.term.end))]]);
+}
+
 // 観測値の線の当たり判定。区分が1つの列では、点と点の中間で区切った横長の帯にする（点の印がなく、間隔の狭い線でも選べる）
 function bandHits(col) {
   const out = new Map();
-  if (!col.c.spec.series || seriesOf(col).length !== 1) return out;
+  if (!col.c.spec.series || col.c.chart.type === 'step' || seriesOf(col).length !== 1) return out;
   for (const bs of segmentsOf(col)) {
     bs.forEach((b, i) => {
       const prev = bs[i - 1];
@@ -801,8 +806,8 @@ export function layout(model, opts = {}) {
       return { term: t, y0, y1, h, target: anchor, anchor, clipped, x: col.laneX(t.laneIdx) };
     });
     if (col.mode === 'chart') {
-      // 期間の初めより前の点は描かない
-      col.bars = col.bars.filter((b) => b.term.at >= g.t0);
+      // 期間の初めより前の点は描かない（階段の線は、初めより前から続く値を上端から描く）
+      if (!c.chart.type || c.chart.type === 'line') col.bars = col.bars.filter((b) => b.term.at >= g.t0);
       for (const b of col.bars) {
         b.cx = chartX(col, b.term.value);
         b.cy = Math.max(g.top, g.yOf(b.term.at));
@@ -886,7 +891,8 @@ export function shareText(t) {
 
 export function termSummary(t, col, model) {
   if (col.chart) {
-    return `${col.spec.series ? '' : `${t.name}　`}${fmtStr(t.startStr)}　${col.title} ${chartValueText(col, t)}`;
+    const when = col.chart.type === 'step' ? rangeText(t, col.spec) : fmtStr(t.startStr);
+    return `${col.spec.series ? '' : `${t.name}　`}${when}　${col.title} ${chartValueText(col, t)}`;
   }
   if (col.share && t.share) return `${t.name}　${rangeText(t, col.spec)}　${shareText(t)}`;
   const head = [ordText(t), col.role].filter(Boolean).join('');
@@ -1091,6 +1097,9 @@ export function renderSVG(model, g, opts = {}) {
           const band = bands.get(b);
           if (band) {
             o.push(`<rect class="hit" data-id="${b.term.id}" x="${r1(col.barsX0 - 4)}" y="${r1(band[0])}" width="${r1(col.barsW + 8)}" height="${r1(band[1] - band[0])}"/>`);
+          } else if (col.c.chart.type === 'step') {
+            const y1 = Math.min(g.plotBottom, g.yOf(b.term.end));
+            o.push(`<rect class="hit" data-id="${b.term.id}" x="${r1(b.cx - 7)}" y="${r1(b.cy - 3)}" width="14" height="${r1(Math.max(6, y1 - b.cy + 3))}"/>`);
           } else {
             o.push(`<rect class="hit" data-id="${b.term.id}" x="${r1(b.cx - 7)}" y="${r1(b.cy - 7)}" width="14" height="14"/>`);
           }
@@ -1119,7 +1128,8 @@ export function renderSVG(model, g, opts = {}) {
   for (const col of g.cols) {
     if (col.mode !== 'chart') continue;
     for (const bs of segmentsOf(col)) {
-      o.push(`<polyline class="series k-${fillOf(col.c, bs[0].term)}" points="${bs.map((b) => `${r1(b.cx)},${r1(b.cy)}`).join(' ')}"/>`);
+      const pts = col.c.chart.type === 'step' ? stepPoints(bs, g) : bs.map((b) => [b.cx, b.cy]);
+      o.push(`<polyline class="series k-${fillOf(col.c, bs[0].term)}" points="${pts.map(([x, y]) => `${r1(x)},${r1(y)}`).join(' ')}"/>`);
     }
   }
 
@@ -1127,6 +1137,7 @@ export function renderSVG(model, g, opts = {}) {
   for (const col of g.cols) {
     const c = col.c;
     const valueLabels = col.mode === 'chart' ? valueLabelIds(col) : new Set();
+    const placed = [];
     if (col.c.hasPoints) {
       // 点を並べる軸
       const x = r1(col.laneX(0) + col.barW / 2);
@@ -1144,8 +1155,15 @@ export function renderSVG(model, g, opts = {}) {
         const quiet = c.spec.series && !valueLabels.has(t.id);
         if (!quiet || interactive) o.push(markerSVG(shapeOf(c, t), b.cx, b.cy, g.narrow ? 3.5 : 4, `mark f-${fill}${quiet ? ' quiet' : ''}`));
         if (valueLabels.has(t.id)) {
+          // 階段の線は、角に横の線が来るので、数値を角の少し下（縦の線の横）に書く。先に書いた数値と重なるなら、下へずらす
           const right = b.cx < col.barsX0 + col.barsW * 0.6;
-          o.push(`<text class="val" x="${r1(b.cx + (right ? 7 : -7))}" y="${r1(b.cy + g.yearSize * 0.36)}"${right ? '' : ' text-anchor="end"'}>${esc(chartValueText(c, t))}</text>`);
+          const text = chartValueText(c, t);
+          const w = textWidth(text, g.yearSize);
+          const x0 = right ? b.cx + 7 : b.cx - 7 - w;
+          let ly = c.chart.type === 'step' ? b.cy + g.yearSize + 2 : b.cy + g.yearSize * 0.36;
+          while (placed.some((p) => p.x0 < x0 + w && x0 < p.x1 && Math.abs(p.y - ly) < g.yearSize + 1)) ly += g.yearSize + 1;
+          placed.push({ x0, x1: x0 + w, y: ly });
+          o.push(`<text class="val" x="${r1(b.cx + (right ? 7 : -7))}" y="${r1(ly)}"${right ? '' : ' text-anchor="end"'}>${esc(text)}</text>`);
         }
       } else if (t.share) {
         o.push(shareBarSVG(col, b, t.share, fill));

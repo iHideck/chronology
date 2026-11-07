@@ -426,10 +426,15 @@ const visible = () => model.columns.filter((c) => !hidden.has(c.id));
     if (typeof id === 'object') { items.push([id.label, id.text]); continue; }
     const c = model.colById.get(id);
     if (!c) continue;
-    // 観測値の線は、最新の値とその時点
+    // 観測値の線は、最新の値とその時点。区分のある線は、区分ごとの最新の値を並べる
     if (c.chart && c.spec.series) {
       const last = c.terms[c.terms.length - 1];
-      if (last) items.push([c.short ?? c.title, `${chartValueText(c, last)}（${fmtStr(last.startStr)}）`]);
+      if (!last) continue;
+      const groups = Object.keys(c.spec.groups ?? {}).filter((k) => c.terms.some((t) => t.group === k));
+      const value = groups.length > 1
+        ? groups.map((k) => `${c.spec.groups[k].short ?? k} ${chartValueText(c, c.terms.findLast((t) => t.group === k))}`).join('・')
+        : chartValueText(c, last);
+      items.push([c.short ?? c.title, `${value}（${fmtStr(last.startStr)}）`]);
       continue;
     }
     const ords = c.terms.flatMap((t) => [t.ordFrom, t.ordTo]).filter((n) => n != null);
@@ -629,8 +634,8 @@ function update() {
     for (const x of list) now.add(x.id);
     if (c.chart) {
       const order = Object.keys(c.spec.groups ?? {});
-      // 観測値の線は、いつの値かを書き添える
-      const when = (x) => (c.spec.series ? `（${fmtStr(x.startStr)}）` : '');
+      // 観測値の線は、いつの値かを書き添える（階段の線は、その日に効いている値なので書かない）
+      const when = (x) => (c.spec.series && c.chart.type !== 'step' ? `（${fmtStr(x.startStr)}）` : '');
       const parts = [...list].sort((a, b) => order.indexOf(a.group) - order.indexOf(b.group))
         .map((x) => `${[c.spec.groups?.[x.group]?.short ?? x.group, chartValueText(c, x)].filter(Boolean).join(' ')}${when(x)}`);
       setWho(b, parts.join('・') || '—', !list.length);
@@ -732,8 +737,9 @@ function fillTip(t) {
   head.append(box);
   tip.append(head);
   if (c.chart) {
-    // 観測値は名前の行が日付なので、日付の行を重ねない
+    // 観測値は名前の行が日付なので、日付の行を重ねない。階段の線は、その値が続いた期間を出す
     if (!c.spec.series) line('dates', fmtStr(t.startStr));
+    else if (c.chart.type === 'step') line('dates', rangeText(t, c.spec));
     line('days', `${c.title} ${chartValueText(c, t)}`);
   } else {
     line('dates', `${rangeText(t, c.spec)}${!t.ongoing && !t.point && t.end > model.asOf ? '（予定）' : ''}${t.approx ? '（推定・諸説あり）' : ''}`);

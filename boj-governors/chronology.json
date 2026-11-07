@@ -1,0 +1,83 @@
+{
+  "title": "歴代日本銀行総裁",
+  "short": "日銀総裁",
+  "description": "日本銀行の歴代総裁（第1〜32代）の在任期間。就任の前の職と顔写真つき。",
+  "category": "政治と首脳",
+  "order": 52,
+  "color": "violet",
+  "data": {
+    "file": "boj-governors.csv",
+    "columns": {
+      "ordinal": "代",
+      "name": "氏名",
+      "start": "就任日",
+      "end": "退任日",
+      "reading": "読み",
+      "url": "リンク",
+      "photo": "写真",
+      "photoCredit": "写真の出典",
+      "photoUrl": "写真のページ",
+      "photoLicense": "写真のライセンス"
+    },
+    "hidden": [
+      "Wikidata"
+    ],
+    "days": "exclusive",
+    "durationLabel": "在任",
+    "ongoing": "在任中",
+    "role": "日本銀行総裁",
+    "nameLabel": "氏名",
+    "startLabel": "就任日",
+    "endLabel": "退任日",
+    "check": {
+      "sequential": true,
+      "consecutive": true
+    }
+  },
+  "sources": [
+    {
+      "title": "日本銀行「歴代総裁」",
+      "url": "https://www.boj.or.jp/about/outline/history/pre_gov/index.htm"
+    },
+    {
+      "title": "日本銀行「総裁：植田和男」（履歴）",
+      "url": "https://www.boj.or.jp/about/organization/policyboard/gv_ueda.htm"
+    },
+    {
+      "title": "日本銀行『日本銀行百年史』資料編 I．年表（第6巻第6章該当分）",
+      "url": "https://www.boj.or.jp/about/outline/history/hyakunen/data/hyakus_1_6_2.pdf"
+    },
+    {
+      "title": "コトバンク（20世紀日本人名事典・デジタル版 日本人名大辞典+Plus・日本大百科全書など）",
+      "url": "https://kotobank.jp/"
+    },
+    {
+      "title": "日本語版 Wikipedia「日本銀行」（歴代日本銀行総裁）と各人物の記事",
+      "url": "https://ja.wikipedia.org/wiki/日本銀行"
+    },
+    {
+      "title": "Wikidata（各人物の項目）",
+      "url": "https://www.wikidata.org/"
+    }
+  ],
+  "credits": [
+    {
+      "title": "肖像",
+      "photos": true,
+      "short": "写真：Wikimedia Commons",
+      "text": "Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています"
+    }
+  ],
+  "notes": [
+    "代・氏名・読み・就任日・退任日は、日本銀行「歴代総裁」のページの値。和暦の日付を西暦に直した。",
+    "同じ人が2度務めた井上準之助（第9代・第11代）と新木栄吉（第17代・第19代）は、代ごとに1行ずつにした。任期の満了で続けて再任された一萬田尚登・山際正道・黒田東彦は、日本銀行のページと同じく1つの代で1行にした。",
+    "2008年3月20日から4月9日までは総裁が空席で、副総裁の白川方明が総裁の職務を代行した。この間は空白にした。",
+    "日本語版 Wikipedia と Wikidata は、富田鐵之助の就任を1888年2月22日、市来乙彦の退任を1927年5月9日としている。",
+    "読みの姓と名の区切りは、日本語版 Wikipedia の記事に合わせた。池田成彬の読みは日本銀行のページの「いけだ せいひん」で、日本語版 Wikipedia は「いけだ しげあき」。",
+    "前職は、総裁になる前に最後に就いていた主な職で、相談役や監務（三菱の相談役にあたる職）は除いた。人名事典（コトバンク）と日本語版 Wikipedia の記事を照らし合わせて決めた。前川春雄は『日本銀行百年史』の年表、植田和男は日本銀行の履歴のページでも確かめた。山本達雄の日本銀行理事と、澄田智の日本銀行副総裁は、日本語版 Wikipedia の記事だけによる。",
+    "川田小一郎は1885年に三菱の第一線を退き、1889年に総裁になった。池田成彬は1936年に三井合名会社を定年で退き、翌年に総裁になった。",
+    "岩崎彌之助が三菱の社長を甥の岩崎久弥に譲った年は、日本語版 Wikipedia では三菱合資会社を設けた1893年（その後は監務）、百科事典マイペディアでは1896年。",
+    "高橋是清は、日本銀行副総裁のまま1906年から横浜正金銀行頭取を兼ねていた。",
+    "在任日数は、退任日と就任日の差の日数。"
+  ]
+}

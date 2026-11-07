@@ -1,0 +1,490 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 760 3694" width="760" height="3694" role="img" aria-labelledby="tl-title">
+<title id="tl-title">歴代日本銀行総裁</title>
+<style>
+.tl{--paper:#fcfcfd;--ink:#1c2029;--ink2:#4b5260;--muted:#687080;--rule:#e8eaef;--rule2:#c3c8d2;--spine-a:#f0f1f5;--spine-b:#e6e8ef;--red:#d4452c;--blue:#2c5aa0;--amber:#b8730f;--violet:#7a4fc4;--green:#138a60;--teal:#00897b;--gray:#9aa0ab;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="760" height="3694" rx="14"/>
+<rect class="f-violet" x="79" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="108" y="44">歴代日本銀行総裁</text>
+<text class="spine-h" x="36" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="36" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="0" y="70" width="72" height="781.8"/>
+<rect class="spine-b" x="0" y="851.8" width="72" height="345.7"/>
+<rect class="spine-a" x="0" y="1197.5" width="72" height="1489"/>
+<rect class="spine-b" x="0" y="2686.5" width="72" height="727.4"/>
+<rect class="spine-a" x="0" y="3413.9" width="72" height="210.1"/>
+<line class="grid" x1="0" x2="760" y1="310" y2="310"/>
+<line class="grid" x1="0" x2="760" y1="550" y2="550"/>
+<line class="grid" x1="0" x2="760" y1="790" y2="790"/>
+<line class="grid" x1="0" x2="760" y1="1030" y2="1030"/>
+<line class="grid" x1="0" x2="760" y1="1270" y2="1270"/>
+<line class="grid" x1="0" x2="760" y1="1510" y2="1510"/>
+<line class="grid" x1="0" x2="760" y1="1750" y2="1750"/>
+<line class="grid" x1="0" x2="760" y1="1990" y2="1990"/>
+<line class="grid" x1="0" x2="760" y1="2230" y2="2230"/>
+<line class="grid" x1="0" x2="760" y1="2470" y2="2470"/>
+<line class="grid" x1="0" x2="760" y1="2950" y2="2950"/>
+<line class="grid" x1="0" x2="760" y1="3190" y2="3190"/>
+<line class="era-line" x1="0" x2="760" y1="851.8" y2="851.8"/>
+<line class="era-line" x1="0" x2="760" y1="1197.5" y2="1197.5"/>
+<line class="era-line" x1="0" x2="760" y1="2686.5" y2="2686.5"/>
+<line class="era-line" x1="0" x2="760" y1="3413.9" y2="3413.9"/>
+<path class="tick" d="M0 70h9M72 70h-9"/>
+<path class="tick" d="M0 94h3M72 94h-3"/>
+<path class="tick" d="M0 118h3M72 118h-3"/>
+<path class="tick" d="M0 142h3M72 142h-3"/>
+<path class="tick" d="M0 166h3M72 166h-3"/>
+<path class="tick" d="M0 190.1h6M72 190.1h-6"/>
+<path class="tick" d="M0 214h3M72 214h-3"/>
+<path class="tick" d="M0 238h3M72 238h-3"/>
+<path class="tick" d="M0 262h3M72 262h-3"/>
+<path class="tick" d="M0 286.1h3M72 286.1h-3"/>
+<path class="tick" d="M0 310h9M72 310h-9"/>
+<path class="tick" d="M0 334h3M72 334h-3"/>
+<path class="tick" d="M0 358h3M72 358h-3"/>
+<path class="tick" d="M0 382.1h3M72 382.1h-3"/>
+<path class="tick" d="M0 406h3M72 406h-3"/>
+<path class="tick" d="M0 430h6M72 430h-6"/>
+<path class="tick" d="M0 454h3M72 454h-3"/>
+<path class="tick" d="M0 478.1h3M72 478.1h-3"/>
+<path class="tick" d="M0 502h3M72 502h-3"/>
+<path class="tick" d="M0 526h3M72 526h-3"/>
+<path class="tick" d="M0 550h9M72 550h-9"/>
+<path class="tick" d="M0 574h3M72 574h-3"/>
+<path class="tick" d="M0 598h3M72 598h-3"/>
+<path class="tick" d="M0 622h3M72 622h-3"/>
+<path class="tick" d="M0 645.9h3M72 645.9h-3"/>
+<path class="tick" d="M0 670h6M72 670h-6"/>
+<path class="tick" d="M0 694h3M72 694h-3"/>
+<path class="tick" d="M0 718h3M72 718h-3"/>
+<path class="tick" d="M0 741.9h3M72 741.9h-3"/>
+<path class="tick" d="M0 766h3M72 766h-3"/>
+<path class="tick" d="M0 790h9M72 790h-9"/>
+<path class="tick" d="M0 814h3M72 814h-3"/>
+<path class="tick" d="M0 838h3M72 838h-3"/>
+<path class="tick" d="M0 862h3M72 862h-3"/>
+<path class="tick" d="M0 886h3M72 886h-3"/>
+<path class="tick" d="M0 910h6M72 910h-6"/>
+<path class="tick" d="M0 934h3M72 934h-3"/>
+<path class="tick" d="M0 958h3M72 958h-3"/>
+<path class="tick" d="M0 982h3M72 982h-3"/>
+<path class="tick" d="M0 1006h3M72 1006h-3"/>
+<path class="tick" d="M0 1030h9M72 1030h-9"/>
+<path class="tick" d="M0 1054h3M72 1054h-3"/>
+<path class="tick" d="M0 1078h3M72 1078h-3"/>
+<path class="tick" d="M0 1102h3M72 1102h-3"/>
+<path class="tick" d="M0 1126h3M72 1126h-3"/>
+<path class="tick" d="M0 1150h6M72 1150h-6"/>
+<path class="tick" d="M0 1174h3M72 1174h-3"/>
+<path class="tick" d="M0 1198h3M72 1198h-3"/>
+<path class="tick" d="M0 1222h3M72 1222h-3"/>
+<path class="tick" d="M0 1246h3M72 1246h-3"/>
+<path class="tick" d="M0 1270h9M72 1270h-9"/>
+<path class="tick" d="M0 1294h3M72 1294h-3"/>
+<path class="tick" d="M0 1318h3M72 1318h-3"/>
+<path class="tick" d="M0 1342h3M72 1342h-3"/>
+<path class="tick" d="M0 1366h3M72 1366h-3"/>
+<path class="tick" d="M0 1390h6M72 1390h-6"/>
+<path class="tick" d="M0 1414h3M72 1414h-3"/>
+<path class="tick" d="M0 1438h3M72 1438h-3"/>
+<path class="tick" d="M0 1462h3M72 1462h-3"/>
+<path class="tick" d="M0 1486h3M72 1486h-3"/>
+<path class="tick" d="M0 1510h9M72 1510h-9"/>
+<path class="tick" d="M0 1534h3M72 1534h-3"/>
+<path class="tick" d="M0 1558h3M72 1558h-3"/>
+<path class="tick" d="M0 1582h3M72 1582h-3"/>
+<path class="tick" d="M0 1606h3M72 1606h-3"/>
+<path class="tick" d="M0 1630h6M72 1630h-6"/>
+<path class="tick" d="M0 1654h3M72 1654h-3"/>
+<path class="tick" d="M0 1678h3M72 1678h-3"/>
+<path class="tick" d="M0 1702h3M72 1702h-3"/>
+<path class="tick" d="M0 1726h3M72 1726h-3"/>
+<path class="tick" d="M0 1750h9M72 1750h-9"/>
+<path class="tick" d="M0 1774h3M72 1774h-3"/>
+<path class="tick" d="M0 1798h3M72 1798h-3"/>
+<path class="tick" d="M0 1822h3M72 1822h-3"/>
+<path class="tick" d="M0 1846h3M72 1846h-3"/>
+<path class="tick" d="M0 1870h6M72 1870h-6"/>
+<path class="tick" d="M0 1894h3M72 1894h-3"/>
+<path class="tick" d="M0 1918h3M72 1918h-3"/>
+<path class="tick" d="M0 1942h3M72 1942h-3"/>
+<path class="tick" d="M0 1966h3M72 1966h-3"/>
+<path class="tick" d="M0 1990h9M72 1990h-9"/>
+<path class="tick" d="M0 2014h3M72 2014h-3"/>
+<path class="tick" d="M0 2038h3M72 2038h-3"/>
+<path class="tick" d="M0 2062h3M72 2062h-3"/>
+<path class="tick" d="M0 2086h3M72 2086h-3"/>
+<path class="tick" d="M0 2110h6M72 2110h-6"/>
+<path class="tick" d="M0 2134h3M72 2134h-3"/>
+<path class="tick" d="M0 2158h3M72 2158h-3"/>
+<path class="tick" d="M0 2182h3M72 2182h-3"/>
+<path class="tick" d="M0 2206h3M72 2206h-3"/>
+<path class="tick" d="M0 2230h9M72 2230h-9"/>
+<path class="tick" d="M0 2254h3M72 2254h-3"/>
+<path class="tick" d="M0 2278h3M72 2278h-3"/>
+<path class="tick" d="M0 2302h3M72 2302h-3"/>
+<path class="tick" d="M0 2326h3M72 2326h-3"/>
+<path class="tick" d="M0 2350h6M72 2350h-6"/>
+<path class="tick" d="M0 2374h3M72 2374h-3"/>
+<path class="tick" d="M0 2398h3M72 2398h-3"/>
+<path class="tick" d="M0 2422h3M72 2422h-3"/>
+<path class="tick" d="M0 2446h3M72 2446h-3"/>
+<path class="tick" d="M0 2470h9M72 2470h-9"/>
+<path class="tick" d="M0 2494h3M72 2494h-3"/>
+<path class="tick" d="M0 2518h3M72 2518h-3"/>
+<path class="tick" d="M0 2542h3M72 2542h-3"/>
+<path class="tick" d="M0 2566h3M72 2566h-3"/>
+<path class="tick" d="M0 2590h6M72 2590h-6"/>
+<path class="tick" d="M0 2614h3M72 2614h-3"/>
+<path class="tick" d="M0 2638h3M72 2638h-3"/>
+<path class="tick" d="M0 2662h3M72 2662h-3"/>
+<path class="tick" d="M0 2686h3M72 2686h-3"/>
+<path class="tick" d="M0 2710h9M72 2710h-9"/>
+<path class="tick" d="M0 2734h3M72 2734h-3"/>
+<path class="tick" d="M0 2758h3M72 2758h-3"/>
+<path class="tick" d="M0 2782h3M72 2782h-3"/>
+<path class="tick" d="M0 2806h3M72 2806h-3"/>
+<path class="tick" d="M0 2830h6M72 2830h-6"/>
+<path class="tick" d="M0 2854h3M72 2854h-3"/>
+<path class="tick" d="M0 2878h3M72 2878h-3"/>
+<path class="tick" d="M0 2902h3M72 2902h-3"/>
+<path class="tick" d="M0 2926h3M72 2926h-3"/>
+<path class="tick" d="M0 2950h9M72 2950h-9"/>
+<path class="tick" d="M0 2974h3M72 2974h-3"/>
+<path class="tick" d="M0 2998h3M72 2998h-3"/>
+<path class="tick" d="M0 3022h3M72 3022h-3"/>
+<path class="tick" d="M0 3046h3M72 3046h-3"/>
+<path class="tick" d="M0 3070h6M72 3070h-6"/>
+<path class="tick" d="M0 3094h3M72 3094h-3"/>
+<path class="tick" d="M0 3118h3M72 3118h-3"/>
+<path class="tick" d="M0 3142h3M72 3142h-3"/>
+<path class="tick" d="M0 3166h3M72 3166h-3"/>
+<path class="tick" d="M0 3190h9M72 3190h-9"/>
+<path class="tick" d="M0 3214h3M72 3214h-3"/>
+<path class="tick" d="M0 3238h3M72 3238h-3"/>
+<path class="tick" d="M0 3262h3M72 3262h-3"/>
+<path class="tick" d="M0 3286h3M72 3286h-3"/>
+<path class="tick" d="M0 3310h6M72 3310h-6"/>
+<path class="tick" d="M0 3334h3M72 3334h-3"/>
+<path class="tick" d="M0 3358.1h3M72 3358.1h-3"/>
+<path class="tick" d="M0 3382h3M72 3382h-3"/>
+<path class="tick" d="M0 3406h3M72 3406h-3"/>
+<path class="tick" d="M0 3430h9M72 3430h-9"/>
+<path class="tick" d="M0 3454.1h3M72 3454.1h-3"/>
+<path class="tick" d="M0 3478h3M72 3478h-3"/>
+<path class="tick" d="M0 3502h3M72 3502h-3"/>
+<path class="tick" d="M0 3526h3M72 3526h-3"/>
+<path class="tick" d="M0 3550.1h6M72 3550.1h-6"/>
+<path class="tick" d="M0 3574h3M72 3574h-3"/>
+<path class="tick" d="M0 3598h3M72 3598h-3"/>
+<path class="tick" d="M0 3622h3M72 3622h-3"/>
+<text class="dec-y" x="36" y="314.5" text-anchor="middle">1890</text>
+<text class="dec-w" x="36" y="328" text-anchor="middle">明治23年</text>
+<text class="dec-y" x="36" y="554.5" text-anchor="middle">1900</text>
+<text class="dec-w" x="36" y="568" text-anchor="middle">明治33年</text>
+<text class="dec-y" x="36" y="794.5" text-anchor="middle">1910</text>
+<text class="dec-w" x="36" y="808" text-anchor="middle">明治43年</text>
+<text class="dec-y" x="36" y="1034.5" text-anchor="middle">1920</text>
+<text class="dec-w" x="36" y="1048" text-anchor="middle">大正9年</text>
+<text class="dec-y" x="36" y="1274.5" text-anchor="middle">1930</text>
+<text class="dec-w" x="36" y="1288" text-anchor="middle">昭和5年</text>
+<text class="dec-y" x="36" y="1514.5" text-anchor="middle">1940</text>
+<text class="dec-w" x="36" y="1528" text-anchor="middle">昭和15年</text>
+<text class="dec-y" x="36" y="1754.5" text-anchor="middle">1950</text>
+<text class="dec-w" x="36" y="1768" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="36" y="1994.5" text-anchor="middle">1960</text>
+<text class="dec-w" x="36" y="2008" text-anchor="middle">昭和35年</text>
+<text class="dec-y" x="36" y="2234.5" text-anchor="middle">1970</text>
+<text class="dec-w" x="36" y="2248" text-anchor="middle">昭和45年</text>
+<text class="dec-y" x="36" y="2474.5" text-anchor="middle">1980</text>
+<text class="dec-w" x="36" y="2488" text-anchor="middle">昭和55年</text>
+<text class="dec-y" x="36" y="2954.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="36" y="2968" text-anchor="middle">平成12年</text>
+<text class="dec-y" x="36" y="3194.5" text-anchor="middle">2010</text>
+<text class="dec-w" x="36" y="3208" text-anchor="middle">平成22年</text>
+<text class="era-name" x="36" y="93" text-anchor="middle">明治</text>
+<text class="era-date" x="36" y="107" text-anchor="middle">1868.10.23</text>
+<text class="era-name" x="36" y="874.8" text-anchor="middle">大正</text>
+<text class="era-date" x="36" y="888.8" text-anchor="middle">1912.7.30</text>
+<text class="era-name" x="36" y="1220.5" text-anchor="middle">昭和</text>
+<text class="era-date" x="36" y="1234.5" text-anchor="middle">1926.12.25</text>
+<text class="era-name" x="36" y="2709.5" text-anchor="middle">平成</text>
+<text class="era-date" x="36" y="2723.5" text-anchor="middle">1989.1.8</text>
+<text class="era-name" x="36" y="3436.9" text-anchor="middle">令和</text>
+<text class="era-date" x="36" y="3450.9" text-anchor="middle">2019.5.1</text>
+<line class="asof-line" x1="-4" x2="97" y1="3594.4" y2="3594.4"/>
+<text class="era-date" x="36" y="3608.4" text-anchor="middle">2026.11.7</text>
+<text class="era-date" x="36" y="3621.4" text-anchor="middle">時点</text>
+<g class="term c-a" data-id="a0" data-person="a:吉原重俊">
+<title>第1代日本銀行総裁 吉原重俊　1882年10月6日 〜 1887年12月19日（在任 1,900日）</title>
+<rect class="bar f-violet" x="79" y="137.3" width="14" height="122.8" rx="3"/>
+<circle class="photo-ring" cx="123" cy="144.8" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAABgcFBAP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAbLF7RMmVdJ30N5S0ttIvOojxnO6obRHW+lyk8cUY9grZr4IqqisZWiH/8QAHhAAAgICAwEBAAAAAAAAAAAAAgQBAwAFBhITFBH/2gAIAQEAAQUCzd1CxzWvygY/Pzdx536Bj3QzkSg1b9Fv3mt0ZZ5FSVqvGaJoqzcAPYLqK2JsE8aDvmvX+ejOREFenN37mde2cEhI2PY20upVyfksOr1RZMaxto4Oz4SRerYHZQVpur50Lpq72TsTM7MUntH/xAAYEQACAwAAAAAAAAAAAAAAAAAAARARIP/aAAgBAwEBPwGGLNH/xAAYEQEBAAMAAAAAAAAAAAAAAAABABARIP/aAAgBAgEBPwE41MGf/8QAKRAAAgEDAQYGAwAAAAAAAAAAAQIDABESIQQQEzFBUTNCYXGRoVJz8f/aAAgBAQAGPwKlil8MIrEd9KsqqAOwr2qKbo2jChfnGcd2z7fxMc42VvS3X7rFJBMv5Y4mm2d+Lmuvhm3zQdOYNSqx1NjuglbkCU+f5WDOim1wCazjYEEaEUkB5O1qx3TSv5LN90DOsQK6As2NLC1pIraMpvX6x97uJtEqxr61JsOzQWjbnI/P4rELl7UkC6eW1tb9qggRspr8Rz351YjhydVNF3JZu5o0LXuKklG1IsvDsjm1x60Z5pGkuNHY9BWQvX//xAAjEAEAAgEDAwUBAAAAAAAAAAABABEhMUFREGFxgZGhsdHw/9oACAEBAAE/IZlzaTs0QnxeMEWxXhAFeSezK8ra/G3x0BZF5Lx4/jiUOfqKCuRCYCpavooi2iTkZZsZq0utejzb8Epf2JpzuQXvN2GjY3wym0bvv2ldnoFOwdNNSp5BicSCNHBD+qMUO1xVVZba3/h0cEHLL4N43JxuFN42Q6hVeFtRHRGQr+yI0je6DCvFvxBStDkdneN/GqTUA53q4XCDYR3JaPrTRu74pdaiWKrJbD65fWUmuxkq5//aAAwDAQACAAMAAAAQ5lE9rcs4W//EABkRAQEBAQEBAAAAAAAAAAAAAAEAETEhQf/aAAgBAwEBPxA7eZcSxt2X5JkQG//EABkRAQEBAAMAAAAAAAAAAAAAAAEAESExQf/aAAgBAgEBPxBZA7PURiVwRvsl/8QAIRABAAICAgIDAQEAAAAAAAAAAREhADFBUWFxEIHRofD/2gAIAQEAAT8QwsijSnJ6SknhwZYAgDEMh2NF/MFFI0B+s1OJcIDcLn9g+vgFqFcBCRZAIeTaacQJKKok8sSTIM0ViSuMFsmP3FJF2H4EQyStPCJMhO5jfiw+BJoS6hB/yvLNaOnMJOtXjcACeLkG8p5owzV4bm8Kb1CSggF5e/hxqrkLBDyzH3kcsyMGsoFzN4NiCo3QkC3JNll5LtWRXBQ9oz79/AA4psegteAclg80joFQkLVfBi45TAm1rxjJCBjhQHlq+nE9tpEkqPAO5Po8gZGRH1B404MNdg6/nrJAGoooJqiwZbzZE4xNEcmQpOXXc46howb7ZXnMGQRcDYQrheAZmZTuDTDDERwTn//Z" x="108" y="129.8" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="149.7"><tspan class="name">吉原重俊</tspan><tspan class="yrs" dx="6">1882–1887</tspan></text>
+</g>
+<g class="term c-a" data-id="a1" data-person="a:富田鐵之助">
+<title>第2代日本銀行総裁 富田鐵之助　1888年2月21日 〜 1889年9月3日（在任 560日）</title>
+<rect class="bar f-violet" x="79" y="266.4" width="14" height="34.8" rx="3"/>
+<circle class="photo-ring" cx="123" cy="273.9" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAABAUGAgMA/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAECAwT/2gAMAwEAAhADEAAAAa5GeHy6qKafYi2ieSjK8coRC2nSOwRpfFUglPQWldFJuEVIngb0j//EACEQAAICAgIBBQAAAAAAAAAAAAMEAQIAERMhBRIUM0FC/9oACAEBAAEFAnr7lodrBRXLOUHOi0jjCewDEndmySMKTJB1lq8OO2iATn6bpJF1Jva9vkevWZmvfp3J2QDhde5crThH7qhyaxh4pYknajPGF1ramAZLTC959hIEvhGj1p4HIz//xAAUEQEAAAAAAAAAAAAAAAAAAAAw/9oACAEDAQE/AR//xAAZEQADAAMAAAAAAAAAAAAAAAAAARACETH/2gAIAQIBAT8BQzGM5NT/xAAmEAACAAUDBAIDAAAAAAAAAAABAgADERIxECFBBBMyUSJxscHh/9oACAEBAAY/ArBiCqZMVVlUDgx8mrDg+oWYvGRoSucQBswrS23eH6coot+94ep8thqwGcwjpKqAfkYvtoaZgg+fGpF1x9CJYaqy1GAYKjx4EFq0J40oTaPQ0ReoqqlapMH4iY/TnuUXz4X+6ZuHo6zEnNb2zt+oky0O8076/wD/xAAiEAACAgICAgIDAAAAAAAAAAAAAREhMUFRYXGBkcGh4fH/2gAIAQEAAT8hel1HfkR43VWSDAwlFDLqBGvUnP5PeUMraLx8mVpR8UxRoyvVbaZlpxPR8QZmmUmpPInYcWtHogi3BUi67MTz0TcuVIpIkoxAehU9o3TRWoOVMl4GkXTBLivZChDY6eiq/ZV4J+ofCcvBIHInBX2GIYoittJELspFhGifcv8AoxJJfi39GT4H/9oADAMBAAIAAwAAABAyvb3Fvmjf/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERITH/2gAIAQMBAT8QeikHhBHSlwR//8QAGREBAQEBAQEAAAAAAAAAAAAAAQARITGB/9oACAECAQE/EBltYaOw95LsHiAPI0/ZC//EACMQAQACAgEEAgMBAAAAAAAAAAERIQAxQVFhcYGR8KGxweH/2gAIAQEAAT8QWVajz0esh/XBwhbviucbSxFlV1ImE2IIlEawSvE8gj/H1j/yoOR/TzGItipmconlm7tn895eRT4Sg0X3kfBiLJFiLlF1iRAZhtAivsuGyZYzbU4vDHACPW0fGBYeogzzQ8wW5IYvRJROyb4feDGAAKVEs9aM7IH4zYCXMYXII3F6LoxifTWtBBayPjF5igSxYTxWs7KLtOAHTgqRE89ckMrH7p3iOAgOhyG3xZ2uhvw1joY+KohdFDQdcUKjhBmhJMHZ2ZPkhanzhsMFE1nKTDxbA6TB7Tg+GAgUnb7j4wtJbHxlSWRPGf/Z" x="108" y="258.9" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="278.7"><tspan class="name">富田鐵之助</tspan><tspan class="yrs" dx="6">1888–1889</tspan></text>
+</g>
+<g class="term c-a" data-id="a2" data-person="a:川田小一郎">
+<title>第3代日本銀行総裁 川田小一郎　1889年9月3日 〜 1896年11月7日（在任 2,622日）</title>
+<rect class="bar f-violet" x="79" y="303.2" width="14" height="170.3" rx="3"/>
+<circle class="photo-ring" cx="123" cy="310.7" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGQAAAgMBAAAAAAAAAAAAAAAABQYCAwQB/9oACAEBAAAAAXvMK4DdpYAYPr5qGVg8r7YOCr9j5Jc7nwkjo0dC2f8A/8QAHRAAAwACAwEBAAAAAAAAAAAAAQIDAAQREhMhMf/aAAgBAQABBQIZX4IRFH3CgxGadFA4LZVwMOzQbm7t29VcoV56uMuuNypmzdZR99kD435dlVWYWixXXSFXi2vZLJeh6VUu2sU8EhprR2NLRPXKHlKALlR9SfY+YGLz0//EACcQAAEDAwMDBAMAAAAAAAAAAAEAAhEDEiEQMVEiQUIEEzJhgZHh/9oACAEBAAY/AlJRrV8nxb2bp7lP4zssatpAuNxiLMftOve4CYDLcLq4Q1L6dIPc0SVUfVotY+ekbprYnMnWXkAIm+3MAkSiGuuJTK3J25Clp/HdYwrnS7iV6ii/Hm2AnGtUvsE2BsXIvI/mkrKDmt+lsY+1MLZf/8QAIRABAAIDAAICAwEAAAAAAAAAAQARITFBUWFxgRCRscH/2gAIAQEAAT8hhGwILJ2tHx5h5gp5DaLsviopKxK2Uj7/AA5oQxD1NdfcBUadPcfja+oeSUhUecixr6GdM1GwRlUAp6IHE6SpF9Y+6b8Gw0eYIzHo0HxyZvXh/ZhGsu3pAumXZb5DH+kMy0R7MuE/krewCvgtgRhdAYPAlrL3c3D3FwDqHcK2PIxLMHu0Kqs8guaXeJ//2gAIAQEAAAAQ24c+zz//xAAjEAEAAgICAgEFAQAAAAAAAAABESEAMUFhUXGRgaGxweHx/9oACAEBAAE/EASsr9M0wDRhp0zfkoMqXtXRAZdlXAIwPEAzQ2w8CfCYBGenzkkKBW/3lUSEoiZvKW96/af9xua4vRhWNzhRAYsuTXrFbiij0ywQ14zS9Gc3fS51AbqYri8ZIwS+eZirwHRSNJa/OSBBOOsMpfnDPMzgvQeXrJtOqBDYlBUbdDWFcGAJK2JRMBWBudpYCEn0tD5OshrGVgvhOfZj6TlGyE11k6ioqQinpdZDAo5yBx2KJ1Ss5cPVTLAtx0cbrFpTFZaBwBAGAkkAAUj7yjNgp2TH3xpRSKTfOPYIsPmDrIcXRsHAzkKk8jn/ADvDJk1ywRe8/9k=" x="108" y="295.7" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="315.5"><tspan class="name">川田小一郎</tspan><tspan class="yrs" dx="6">1889–1896</tspan></text>
+</g>
+<g class="term c-a" data-id="a3" data-person="a:岩崎彌之助">
+<title>第4代日本銀行総裁 岩崎彌之助　1896年11月11日 〜 1898年10月20日（在任 708日）</title>
+<rect class="bar f-violet" x="79" y="475.7" width="14" height="44.5" rx="3"/>
+<circle class="photo-ring" cx="123" cy="483.2" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGgAAAwEBAQEAAAAAAAAAAAAAAwUGBAcBAP/aAAgBAQAAAAGqXb0uWwz41QvarKVcq+fDIgguguwCHDOq7n9iRpxb3//EACAQAAIDAAEFAQEAAAAAAAAAAAMEAQIFAAYREiEiExT/2gAIAQEAAQUCLPapV4KWqa9Y0s1ckdNTaq/LR34iO4V41Df16micZ8EnnSt/X6fUW8OfIrmZA2znWieRyY+qeuacOXKUll2MYcxm9uNMCWpmllydMxFF1hl1nh6dUm1jAarNL3v0t6XfROemYiJFdi36sqeUG//EACcQAAICAQIFBAMBAAAAAAAAAAECAAMREiEEEDFBURMiM7EjMlKR/9oACAEBAAY/AswYOMT41J8makX07OxWX0MfitwOWM9ZZr3sV8EwcMK67M+MgxuHQJWFG7sMy+xv2ZwT/nIQxuIftudo6I7Z077S30xhFbTzxDXTiunu3cz8Bx7dPQj7iMw9znVy13NjwO5l7aSiIAMT1B7hFr309XPgS7g7ELU12EIV6qPE1UWh/sQ8Rc2pj03nEZ/sfUNdboaj019oK03Y7u3ky2z+nJgKkqfIn//EACMQAQACAQMEAgMAAAAAAAAAAAEAESExQVFhcYGRsfCh0eH/2gAIAQEAAT8hsRa1g5lji1VrLhzgWyv3pKYsnsDPxCGL8V98SxVgjOCql6C8YL2VLkC2bXsBC4ZBQ6L/AAwWAHFvAANeb3qXU2FhoPmVQApsQcCQDsf2acs/alVYwsQtZRN+nMU20su54hPwrxdPiC0iUpep0AlcRBtqttvgJSfa4ZipLjbv0I+mtNTy1CVDW4Ndw2jltNbVFQotzCj4sWvpxqRubmH9ib7Ps1gK90akn//aAAgBAQAAABDEcmWQ/wD/xAAfEAEAAgIDAQEBAQAAAAAAAAABESEAMUFRYXGRgbH/2gAIAQEAAT8Q3cRDa4xvExd39eMmgskNnuXEbYQCInhWSbgSD2U6nAo4nzD7ICQa+HrgKL2YIUapmf7iDJ5RJJFgUlmsAAmeTQRmav3CeBaIWABBts8yUVvAskAy6nr0x+ZCCkqASvwMZVlUalzBKegzafCqGmUjkE9MMYziLkYfP9ZUkIWRjTYY5ZNDsTNS8ZOh9CUWhoL1iOJcILmUW29hjxm0lyAnqQPxyOcJrJGOBkvoWvuOgKzkYhpAVRLjshPhn2IwGgh4grMnLo5XxwjKOWViFNQuQq8dixPxAt/jAMCk1lRLqegovAlqmLkYhHVNdYg3IH5pi4WGKdThVBqBLnwWBxfK4kC0ZcyjLtjtsLpNZ//Z" x="108" y="468.2" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="488.1"><tspan class="name">岩崎彌之助</tspan><tspan class="yrs" dx="6">1896–1898</tspan></text>
+</g>
+<g class="term c-a" data-id="a4" data-person="a:山本達雄">
+<title>第5代日本銀行総裁 山本達雄　1898年10月20日 〜 1903年10月19日（在任 1,824日）</title>
+<rect class="bar f-violet" x="79" y="522.2" width="14" height="117.9" rx="3"/>
+<circle class="photo-ring" cx="123" cy="529.7" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGwAAAwACAwAAAAAAAAAAAAAABAUGAwcAAQL/2gAIAQEAAAABYhI6mf6olQ7vCnqhldUBKWJcHWclrDzB32vsdZrgkgPL/8QAIBAAAgICAQUBAAAAAAAAAAAAAwQBAgAFERITFCExIv/aAAgBAQABBQKKxzs72XT1upGbJ1al63WlRokZP3dxNk9WclM8lqGtrWeTZWn62K/dVs7TgR6GhywpGWfVJ919Y2n2XgLgHfYRWIN9iMYYCqMLNXtgY6WuG8zZk1Wec3DlllSTNrD6YkpurOeZz//EACgQAAIBAgQFBAMAAAAAAAAAAAECAAMREBIhMRMiQVFhFDJxgVJysf/aAAgBAQAGPwKNUT3nlXxOJWqsx7CZWp/d9YaWYuje04prtUECGkD00jUeCLDwZSY2ABuSegxuur0+YSgbHLnBa0zp/YyVRmNtBhqMBmtwmN0vt8QVKDBbjUJs0TM3M2wxz1nC+OpjequEuMig7DtMqBb/AIpC7H48S1QfYgWmbVKmx7CXYkk9TP1JgLY//8QAIhABAAICAQQCAwAAAAAAAAAAAQARITFBUXGBkWGxocHw/9oACAEBAAE/IRY1AZLROp5m2yuyr7sSt1yU8xNAhQz2ZgY2VLkKveGV0aibCK0fEGzqAj71LMcCwNzVECoDZmO7Ndb6nqEZ8sOIwqybA+6l2M0v3LFfMSDdRBtcxNp1w6Rh5Q6/A3KviwhWM8QDQx9A5j83JQUtPdTfiFGHrIvdlcR0B/CLX+9zL1Wr2TOSlEtZn0yp+dUfcRiBqoXt10j5n//aAAgBAQAAABAbE4Pmr//EACEQAQEAAgICAgMBAAAAAAAAAAERACExQVFhcYGRscGh/9oACAEBAAE/EIjA4fq7T/kFPczcEV2jytVyNmg3ocROsJoJ8OujSkTBvq94OaDjDi1A3Djuf3KhmFugKVvWnKhkjDfOnmcpiTe3ZoE+DZ9phRkpEveMi5O8dzz3SQh+3h7DK7wAj2EKXz9ZrcQNIrNmqRj5mKepAot/AvOAgNTNYjQCXIS5+lxuqMAbWENScPCZWnXdG6pD7ucv/SVhX+HzgGpTpeDGnSj3lfHER9XOs2BxQpA8VW8qw6wWeRBP26w9v4x4xPBAcHgH73m0KTyPsdvsywANega/ewPC3rNIPLvyFa4tktbIJN52YGgLTn3f0BxPNcMAmdUNwmpss06z/9k=" x="108" y="514.7" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="534.6"><tspan class="name">山本達雄</tspan><tspan class="yrs" dx="6">1898–1903</tspan></text>
+</g>
+<g class="term c-a" data-id="a5" data-person="a:松尾臣善">
+<title>第6代日本銀行総裁 松尾臣善　1903年10月20日 〜 1911年6月1日（在任 2,781日）</title>
+<rect class="bar f-violet" x="79" y="642.1" width="14" height="180.7" rx="3"/>
+<circle class="photo-ring" cx="123" cy="649.6" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGgABAQACAwAAAAAAAAAAAAAABgUDBAECB//aAAgBAQAAAAFBWqlDLDrT5Kk/Q81HYBwH+SllESnnXnd81PVn92YRDaX/xAAeEAADAAMAAwEBAAAAAAAAAAABAgMABAUREyESFP/aAAgBAQABBQJBmun6zwAOr9MrGdsAzW+ZO/tfbszLfz7NdxaMxkRjOq4lwRUNW2nL1asgcTKEiexaxbmXUdLIZt3aSlm/m6dth6AmOR71mOrWl9gyVI85qsnaWq3bU23eknQf/8QAKBAAAQQABQMDBQAAAAAAAAAAAQACAxEQEhMhMUFRYSIycVJikaHB/9oACAEBAAY/AleIAPJxNpzWOzV9pCzyyO8NbGT+0xw72hKAReFokpw3q1QFpkZ5A3xtuXzadqRsr4pMzAbgj4xyxR6kp6fT5K1A6iW2nNJ/CEhNFptNbK2MHvWxUkULGtazYyH+Itb15PdCOgWDY+FpwxgOcPc5H0lxG69bCOvC/8QAIBABAAIDAAICAwAAAAAAAAAAAQARITFBUXGBkaGxwf/aAAgBAQABPyE7slzxJgYnS0dqZMAUfM5VZnjlyEVDwsXdD7dxrQ2gAexDkmghey+HmanCVr4crcBe63CSu5zL/U4ALi/2jQDZpmGY+ADwW/glyPzG5oIC+TqWGtS1TBkLywP0RQGXnkMcgQsNN7/MVwIPcA+HJ+wc9k7jxIu+OwAM7G1W2KjJ53hN/dt3wRHrikbo7AjZFLwqf//aAAgBAQAAABAmTBlHX//EACIQAQACAgMAAgIDAAAAAAAAAAERIQAxQVFhocFxkYGx0f/aAAgBAQABPxDpSay5ECV7gTDRkMBohTHSoXCrBP04kyB9YYpplYAqq+c9ZP2ONJagA/hnOIV5JIINe4mHtzUgzPxm2Q7JQlr0wkJyxblnlAYNuZ8+8MshrBTSx5QuBfFEgqtQ4CTquSXYF4X1YvNpX5cEouyfrDM6bO8uNMn/AAWONKCXt+GH7wlgOjYj5WYwSAtXGSFa4vnICGSkFFlL0oLcYtiQqStLj96yaa3YW6lR/mKlEhZSqflkx2iVTxOpdkXrF4euMWD2N7fz0iJZ3c6JeX+tGCKOSiPT04MWT5QKShdBILeE8RAgJIRilNd5YLpcQUk8kSfHP//Z" x="108" y="634.6" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="654.5"><tspan class="name">松尾臣善</tspan><tspan class="yrs" dx="6">1903–1911</tspan></text>
+</g>
+<g class="term c-a" data-id="a6" data-person="a:高橋是清">
+<title>第7代日本銀行総裁 高橋是清　1911年6月1日 〜 1913年2月20日（在任 630日）</title>
+<rect class="bar f-violet" x="79" y="824.9" width="14" height="39.4" rx="3"/>
+<circle class="photo-ring" cx="123" cy="832.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGgABAQACAwAAAAAAAAAAAAAABgUEBwACA//aAAgBAQAAAAEHkv5cymMtPCUxQHRshPisAWHgPio7diHZect2Zrcsv6//xAAfEAACAgICAwEAAAAAAAAAAAACAwEEAAURExIhIyT/2gAIAQEAAQUCjFjJTUojXVf9Yhn14wYzWD5XRcXfsW+UV/ViBwM00futHIwo5BFRcssQODGUiJLOFMXd6UO11lANqtU8UhWJ9nVEetpW+AuzAOkWnlSzZrlXaCdrExMb6v0ZRl7rVFTxc5buz//EACgQAAEEAQIDCQEAAAAAAAAAAAEAAgMREiIxECFBBBMyQlFicZGx0f/aAAgBAQAGPwJUEHVcvU+nDD124xCvMu6dltd4UEHNeAD7VGTxjTiAMaTopKyGyZ7TfETVyZzKzHPL8Rayq6p2bsBXIlXGbrfkhC2OZ7+gb5v4nXof4u7ad/lHsszSDG2sh6I0C4/i8DvpaQ5Ry9cb+1Y2UpjadYFEfKezxulGrJam6nUdJ2xRmiYc2uLwD+L/xAAhEAEAAgEEAgMBAAAAAAAAAAABABEhMUFhoRBRcYGRwf/aAAgBAQABPyHTAJWrQROFjL0JcuW5YPVamHg1TYRDuWrKNcwESUC7+sOjba/ZhguZTWremGxpirTdTfRm8SN2zdJg8YHS1u1bxaqIvPCFusNDgeOZQcmXq+Ip24GiR63FYfK4G7luBT23ephYAar0n3KOMH8ZjOpVYHvpAIxMVTfxKwWHXhN9QUlosfcv2r0IQ4RrmslN31EaJjrRsw/VGN2Ppiz1zWRq2z//2gAIAQEAAAAQPma5VR//xAAhEAEBAAMAAgICAwAAAAAAAAABEQAhMUFRcZFhgaHB8P/aAAgBAQABPxDgTmILKB1cInJBdvonvri2FWxcNgEcHs6OLBAs8ZuCJcuc1kWWb/rAKcCEdS947ENi0z0n8ymRRSB8CEPtmI85Fu4fNU9dmVg60xLZrhr/ABgHh2CN+nil+kwFiMYeBB+qmTN9ZpuA1F+AsL4pcZLdS2rSjw3j3xppVp9IvM8M0SQ7+Sc+MdMUIkpYjj2cCGPIgA6u++PIjQdDHUnZVAgh13nIH9WpU6QhrswZsFZEGnkN3vq45eAuT9HXx78YwgJYz5Cb/SMwvMY8EIn5m/eAOKFsCUcIuAF3vTW9NL8Y28E4B3X07fOUCQigK00gGvJA2+hP6WyUYD2ULzP/2Q==" x="108" y="817.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="837.2"><tspan class="name">高橋是清</tspan><tspan class="yrs" dx="6">1911–1913</tspan></text>
+</g>
+<g class="term c-a" data-id="a7" data-person="a:三島彌太郎">
+<title>第8代日本銀行総裁 三島彌太郎　1913年2月28日 〜 1919年3月7日（在任 2,198日）</title>
+<rect class="bar f-violet" x="79" y="866.8" width="14" height="142.4" rx="3"/>
+<circle class="photo-ring" cx="123" cy="874.3" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQFBv/aAAgBAQAAAAHWKKNWixGF4msLma5INw2WpnzGuJEbYzdCyug5EPS//8QAIRAAAwACAgICAwAAAAAAAAAAAQIDAAQREgUhEzEUIiT/2gAIAQEAAQUCVhz2rRm8Y7NQtHcmfX3nPGa7gRG522NjbayqfQPOCq9pjqgAGfky4RgQDhX9tap4b4DjxSmxzgwQNDrTVKtpwod5YzpC5VV+l9ZN+PK+Rv8AFHTn/M3Sk9VgR//EACYQAAEEAQQBAwUAAAAAAAAAAAEAAhEhAxASMUFxBCJCIzJRYYH/2gAIAQEABj8CjtECD/KW4ZWt8BMk0+nedZXUBHC3G4n8qDj2D4rnT3KIRcGWso2BpmlVaftFp64K3vc2Y5KDcWQPk3UQjEaT9gIsp+KZO0HyvqY5TWen5aZcW9Ib3VpwjfQCg8umIKflNuc5ECWwbhEN+NL/xAAkEAEAAwACAQQBBQAAAAAAAAABABEhMUFRYXGBkbEQocHh8f/aAAgBAQABPyHMQc8mqRj955oY6YE3nzY9X9DYm8mvUqJ0ozvt3AFAXRyaKmrls/yVcWnUeKYSdOZUr6jujSInNfNXNlawPNTTuBkp4chG2xzAXqV9iUUbAXD44jwTQADuGHYcEKekYntjlnYBB50/1OVA42rllByA8agQDXl/ORqX6nio/iXdw/Zlqr4mzqO4AV8b/MCl6AbLItWJ/9oACAEBAAAAELT5Dcjf/8QAIhABAQADAAMAAgMBAQAAAAAAAREAITFBUWFxkYGx0aHw/9oACAEBAAE/EGbLWv8AM62hetoiUfaLiMSoClXxGG8TwWomCTXTSfhwBK1u8SAFJfeSjgcvXXnOjyZhOk44p7FoF3ZHZ+8HGCxtd6nNxJhyAg0dpV/GEJ06r/77iEJQtkkt+e8qNWxwXoL384q7i6M3qvj/ADBiIjFs7v2/q5oUtENCa78MZ9PY4Y4FBoPN/wB7x0mdi78/gn/cNQASR+Lbufd2BQNa5ebw2gHQ1hrxjB0aZ4XAXDLFTwh/GFeVS3UK+gAQ97ywRGwgUPUuLTVihDH0288axSSiAE+hzmEl6bDSeMAQAPBjdHtDCCd+Mw6gRW4Teb71Jx95u13RvyB9uBynVRXaJruz++5F01zpT1+8/9k=" x="108" y="859.3" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="879.2"><tspan class="name">三島彌太郎</tspan><tspan class="yrs" dx="6">1913–1919</tspan></text>
+</g>
+<g class="term c-a" data-id="a8" data-person="a:井上準之助">
+<title>第9代日本銀行総裁 井上準之助　1919年3月13日 〜 1923年9月2日（在任 1,634日）</title>
+<rect class="bar f-violet" x="79" y="1011.6" width="14" height="105.4" rx="3"/>
+<circle class="photo-ring" cx="123" cy="1019.1" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBkAGQAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGQAAAgMBAAAAAAAAAAAAAAAABQYDBAcC/9oACAEBAAAAAb4yuBbGzOCfI0aXR3ZrT1aE9dcc+GRsg7SV5H5sTug9Yrf/xAAgEAACAgICAgMAAAAAAAAAAAACAwEEAAUREgYTEBVB/9oACAEBAAEFAuMuK9pnrqohsFgoPFndqWTuoym4rSze33XSJk0Ls0s++Z8aKyv0zEd3PhW4cXY8DVHOBTGm+RKS2SyO8QcTxh3YiO7CZXaN2oaV1l8ZxkYOeP2OoXLRLks/P//EACoQAAEDAgUCBQUAAAAAAAAAAAEAAgMREhATITFRBEEgIjOhsSNCYYGy/9oACAEBAAY/Akxp2CrZ7oZLCK7qSI/Y/T94ej7rNso3shEZG68Rn5UrHvLGxmlrG1Lk6kbX3L0WYN6etJATQcjdXEFzqKSRzHZcmmvKLuTh5pAFDLnVNwoEdwVa0XOPDq1VK6jQ4UibU8lZhd5uUHvZbpv+e6kPTfU6n+B4ZoO4F7VJ04FLyDX5wK//xAAlEAEAAgIBAwMFAQAAAAAAAAABABEhMUFRYXEQgbGRocHR4fD/2gAIAQEAAT8hJFu7mvMcZ3urg6byc+YLKsg7C/kYhK2FF85VVd1EMoyihUPJ2bA6rwQ0YC5Ur/XKP2Pom5wqwm0ryhUBo7Q+c7V4G4vXhzLmZG8QW49Tu8PtDpaWhC/5MsBA2T7EFWLXyETU+x+/0hcyrZ0JqP2F7ZimIy1GKprZ8Re3mOEFPpxraCvfX8QLFsO+zw0SrbFLOZ//2gAIAQEAAAAQx+Z8F0//xAAhEAEBAAMAAgIDAQEAAAAAAAABEQAhMUFRYYGRwfBxsf/aAAgBAQABPxCRUusIhcsm/wBtT84oG1WivjLdcJMBG113gIB8U1h/C4tuuZ2kp/OYm36yNPY6102U945LqA6XeGt++ZoKFIC7wwk17cmhLrkjIHs2yDRbvb94KsuIKrlNRB8IkR7CZ3cg5A3Ht0feH4SARAQbEEn24wl0Nbl1/wAzQG4weTpX7ydGKC04FYFuHSvXYpaj8vvD4gy9p86PbqeckbdGwRGPkp3C97POPm22On+dP3l0hDa7IOAIY2cszGgJ4tdPMIp5NkimcEFq3n2fY1VXzcqw/GLt3rWbgaxjC4UCIBfG8ReSgAQPZCHo1niiqoZcOGZ//9k=" x="108" y="1004.1" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="1024"><tspan class="name">井上準之助</tspan><tspan class="yrs" dx="6">1919–1923</tspan></text>
+</g>
+<g class="term c-a" data-id="a9" data-person="a:市来乙彦">
+<title>第10代日本銀行総裁 市来乙彦　1923年9月5日 〜 1927年5月10日（在任 1,343日）</title>
+<rect class="bar f-violet" x="79" y="1119.2" width="14" height="86.2" rx="3"/>
+<circle class="photo-ring" cx="123" cy="1126.7" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAABAUBAgMG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFhthrmuA4sLigiQJsusN7B7CyVBAwGQ410sMAYUBXg/8QAIhAAAwACAQQCAwAAAAAAAAAAAQIDAAQRBRIhMhQiMUJD/9oACAEBAAEFAp+L6icsBmwnKPPskTn9dXuRb4ECBibVPOPjUUTVlbLeut9GWnON+X5yDVObFVnPZqSI0DLX12NyalN69AsKWbdcFpsUa1a2z9OmzHxOo7OcYB5//8QAFBEBAAAAAAAAAAAAAAAAAAAAMP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAMP/aAAgBAgEBPwEf/8QAIxAAAgECBgMBAQAAAAAAAAAAAQIAETEDEBJBcYETISJRYf/aAAgBAQAGPwIRmO5yM1m5NshPnygC4NotRiMDshh0hh/CawYVgPfM93yRjWjXpN6cQgR3Oy5AwKLrcTZkjExSvcqINvcBwvpxfiUw8LuasbVQfs0oKKJVTPs9RjxELLtPEncqcv/EACAQAQACAgICAwEAAAAAAAAAAAEAESFBMWFRcYGRofH/2gAIAQEAAT8hwV9T0SHqDSBEEGTMvqKFDgg3kl0rjuOhQMG36eSNseMhK1L+JLjcDnl4hu4eVS9gQCbBg1K2smbaVGviowGVkX3M97uA6rFR4rXVpmj8gU/GPXrExgh9uoa+UmFibGJqclWOkZsb0LqWCGd41K99OAIFHhvB4JhFqn7ECM2LnSBpuPus+Vc//9oADAMBAAIAAwAAABCOXm01U21//8QAFBEBAAAAAAAAAAAAAAAAAAAAMP/aAAgBAwEBPxAf/8QAGREAAQUAAAAAAAAAAAAAAAAAEAABESBB/9oACAECAQE/EA9MEL//xAAkEAEAAgIBAwMFAAAAAAAAAAABABEhMUFRYXGhsdGBkcHh8P/aAAgBAQABPxAo6pyrVVK3KKVYQstguuYpFo8s3MTHoQP3COxazEvsFu3acRSPuN9g8RSyhUsvhpFOdyrrpkjylfeVtWNRDJbg2u+0IXAArL7RLEJ6x+IlM1Ry1xiV0UQNovF31lMSrtTRLXUIrQwA7spKZYCQ2UteeIFwFAtXuk2a+0EW7Cmg3wHxDomnUvSZJzZTHR3Yvxculu8mx6QBwLqtBOe60FytzmvEZQD8A1cZ9AQdwG2N6sVbde/XzFomQRMMUHWnB+l8ykgGiXv+EOpLkZM0+1zbkdJZXxMFhtL4I6AwhU//2Q==" x="108" y="1111.7" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="1131.6"><tspan class="name">市来乙彦</tspan><tspan class="yrs" dx="6">1923–1927</tspan></text>
+</g>
+<g class="term c-a" data-id="a10" data-person="a:井上準之助">
+<title>第11代日本銀行総裁 井上準之助　1927年5月10日 〜 1928年6月12日（在任 399日）</title>
+<rect class="bar f-violet" x="79" y="1207.5" width="14" height="24.2" rx="3"/>
+<path class="leader" d="M94.5 1215h4L104 1211.1h2"/>
+<circle class="photo-ring" cx="123" cy="1211.1" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBkAGQAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGQAAAgMBAAAAAAAAAAAAAAAABQYDBAcC/9oACAEBAAAAAb4yuBbGzOCfI0aXR3ZrT1aE9dcc+GRsg7SV5H5sTug9Yrf/xAAgEAACAgICAgMAAAAAAAAAAAACAwEEAAUREgYTEBVB/9oACAEBAAEFAuMuK9pnrqohsFgoPFndqWTuoym4rSze33XSJk0Ls0s++Z8aKyv0zEd3PhW4cXY8DVHOBTGm+RKS2SyO8QcTxh3YiO7CZXaN2oaV1l8ZxkYOeP2OoXLRLks/P//EACoQAAEDAgUCBQUAAAAAAAAAAAEAAgMREhATITFRBEEgIjOhsSNCYYGy/9oACAEBAAY/Akxp2CrZ7oZLCK7qSI/Y/T94ej7rNso3shEZG68Rn5UrHvLGxmlrG1Lk6kbX3L0WYN6etJATQcjdXEFzqKSRzHZcmmvKLuTh5pAFDLnVNwoEdwVa0XOPDq1VK6jQ4UibU8lZhd5uUHvZbpv+e6kPTfU6n+B4ZoO4F7VJ04FLyDX5wK//xAAlEAEAAgIBAwMFAQAAAAAAAAABABEhMUFRYXEQgbGRocHR4fD/2gAIAQEAAT8hJFu7mvMcZ3urg6byc+YLKsg7C/kYhK2FF85VVd1EMoyihUPJ2bA6rwQ0YC5Ur/XKP2Pom5wqwm0ryhUBo7Q+c7V4G4vXhzLmZG8QW49Tu8PtDpaWhC/5MsBA2T7EFWLXyETU+x+/0hcyrZ0JqP2F7ZimIy1GKprZ8Re3mOEFPpxraCvfX8QLFsO+zw0SrbFLOZ//2gAIAQEAAAAQx+Z8F0//xAAhEAEBAAMAAgIDAQEAAAAAAAABEQAhMUFRYYGRwfBxsf/aAAgBAQABPxCRUusIhcsm/wBtT84oG1WivjLdcJMBG113gIB8U1h/C4tuuZ2kp/OYm36yNPY6102U945LqA6XeGt++ZoKFIC7wwk17cmhLrkjIHs2yDRbvb94KsuIKrlNRB8IkR7CZ3cg5A3Ht0feH4SARAQbEEn24wl0Nbl1/wAzQG4weTpX7ydGKC04FYFuHSvXYpaj8vvD4gy9p86PbqeckbdGwRGPkp3C97POPm22On+dP3l0hDa7IOAIY2cszGgJ4tdPMIp5NkimcEFq3n2fY1VXzcqw/GLt3rWbgaxjC4UCIBfG8ReSgAQPZCHo1niiqoZcOGZ//9k=" x="108" y="1196.1" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="1215.9"><tspan class="name">井上準之助</tspan><tspan class="yrs" dx="6">1927–1928</tspan></text>
+</g>
+<g class="term c-a" data-id="a11" data-person="a:土方久徴">
+<title>第12代日本銀行総裁 土方久徴　1928年6月12日 〜 1935年6月4日（在任 2,548日）</title>
+<rect class="bar f-violet" x="79" y="1233.7" width="14" height="165.4" rx="3"/>
+<path class="leader" d="M94.5 1241.2h4L104 1245.1h2"/>
+<circle class="photo-ring" cx="123" cy="1245.1" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAABAUGAQMHAv/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABdQVTJZvTSpcseLWAYplrqID7fml8MBvekSygGR3Yz1NWknTBx//EACAQAAICAgICAwAAAAAAAAAAAAIDAQQAEgUREBMhMTP/2gAIAQEAAQUCd+FQYllbWF+B+uVtMRCJ1Ooove0XBaXtMddZySfdVqHAlStCF4CFod4yfHKDIXKEbWEy/syiMmPizyCEwbSstpQoXBZUWbxExOw5GcSQPYpAIy6IDQ3IC//EABQRAQAAAAAAAAAAAAAAAAAAADD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAADD/2gAIAQIBAT8BH//EACYQAAICAAUDBAMAAAAAAAAAAAECABEDEiEiMRBRYRMjcZEycsH/2gAIAQEABj8CxP1MFsAPMAVgeprvEXDA3XZIgORW8NxMJlVEvkIf5KRcNgeM83qFPgzTVe8OlsuohR1+4Ga8vGkzC68jpp0bndqIBenzUysAV73KHPQhT6j+OITituP4z31++JlwxHZyABQubSCPHX0cVL2zKtV3MxBp3lqxHxP/xAAiEAEAAgICAgIDAQAAAAAAAAABABEhMVFxQWGBoRCRscH/2gAIAQEAAT8huUb/AMICeTKqAMobG4JWyPMqppaVgJyj4i/akQR73ikrl7l8TDlxzFip9hMpcYXtcwlaX5geKd01BwpEg1BBC2MSfuChrVMcRFI5vgaLVC1rT7MOO1WCXZfg8cKNXbMGy6HqoSV+FqZYLwGJm0MRgXxAs5ErjuLPU2uVvTLylbZ/YTuy9twsF+1T/9oADAMBAAIAAwAAABDP9MsXm9E//8QAFBEBAAAAAAAAAAAAAAAAAAAAMP/aAAgBAwEBPxAf/8QAFxEBAAMAAAAAAAAAAAAAAAAAAQAQIP/aAAgBAgEBPxDJC//EACMQAQADAAEEAgIDAAAAAAAAAAEAESExQVFhcaGxgZHB8PH/2gAIAQEAAT8QHQKv3eXDEYwIVR9BHxLaw9tROjcm8RZvTZ2fOgGU7Y8wWDMCv2FkZTik+XtHjFnNx42gSQ9HTG/Mc2RSXfkcfwxBa3ivOAfnzAo+080Yh3svIyMdDdnvRibSAGvRDli7oqKwa4FzYDhEh13axerKGWB2hpDYcIlPyMA+xbANxK56dYOvY1qvFb9yoDt+OsoTVUXZAmgUrT+uFy4nQQVW8egfuNrAlntHmCUbgz/BB0n5cJ16r9xe9GAH7I+HWIBMVicyknFtwfTUGCvAb9J7fMUVFXoWsr7/AIjW28X+k//Z" x="108" y="1230.1" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="1249.9"><tspan class="name">土方久徴</tspan><tspan class="yrs" dx="6">1928–1935</tspan></text>
+</g>
+<g class="term c-a" data-id="a12" data-person="a:深井英五">
+<title>第13代日本銀行総裁 深井英五　1935年6月4日 〜 1937年2月9日（在任 616日）</title>
+<rect class="bar f-violet" x="79" y="1401.1" width="14" height="38.5" rx="3"/>
+<path class="leader" d="M94.5 1408.6h4L104 1404.3h2"/>
+<circle class="photo-ring" cx="123" cy="1404.3" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAABwYFAQME/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAGAbhJlmsaqOqFKQSYCYylwhvTJQTNUPuElsUXurkeqWFnI1Ky0R3if/8QAIhAAAgICAAYDAAAAAAAAAAAAAwQBAgAFBhAREhMxFBVB/9oACAEBAAEFAv11WjMKWHZiMmMfjtepXvv8m31KLlqF2LZxhQuSwNqLxbH1ILTGlKa97DlYinTpXYl87+cNNdQNEmGEjxdXaMUBr4yc1hBhe3CFhMau9YX4sJWWOUetXsRJoou0ZUmZnl//xAAWEQADAAAAAAAAAAAAAAAAAAAQIEH/2gAIAQMBAT8BEf8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAMP/aAAgBAgEBPwEf/8QALBAAAgECAwYEBwAAAAAAAAAAAQIDABESISIEEDEyQVETQmFxFCAjUqGxwf/aAAgBAQAGPwKo/E8udOoSwBy3zjj9Q/ugmILfqelJOMJfAAO1+9Y5JgzMeUp/aWaDkYC2m5pS5ZifuW1TKWxarnK1Xp5ufHeRfS9LFO3hJe5JXOoog97IGFu1WqaUcC+W6XZHfhqjB/NHHqsTSlYZALdqlkJ8th779nkk5Mer2rEmtX5fWkTAwJyzHWooFe+AXcdj8nw22RSuGbElu1StGkqiJDrIq5Nzu//EACEQAQACAwACAgMBAAAAAAAAAAEAESExQYGxUXEQYZHx/9oACAEBAAE/Ibxz2Vos0XvEXtxOphWdy/TSS52x70LPBXD9mU2CYvPTw7F1CNim+nEXstgUbhp4Hf8A8jsqUjsW4KY2MwAtPWLLP5Dp5rftqZsyAtLVd6jm28VbA2xeBg9R3LqGlhr4HuZpVXm8sJHjhAa1KmVs+qKCYYIKdTTyHqi7P7Rr6PzDM6zTMWkqgcJrzX4dxG3CKbbCiCOW/MCMhQAaarO4uuTKvWE//9oADAMBAAIAAwAAABB4CF0kxuAX/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERITH/2gAIAQMBAT8QXRFF2iwfCi0e8P/EABoRAAMAAwEAAAAAAAAAAAAAAAABERAhMWH/2gAIAQIBAT8QZJwXcTQhekgj/8QAIRABAQADAAIDAQADAAAAAAAAAREAITFBUWFxgZGh0eH/2gAIAQEAAT8Q0nwG/T3GpNae/Bmtt8qEfbgkCYlyRfGk3/xxY21eXyZIzudluoCwN6Lg7Hqoh2LE0od+O5rTPwqQAQH6e8fAupoVUdRjO8zUW0J3fBj6J/MskMqqRK6F03YmCL1A+UcdR0RBFDxRz2Y75rqzdAqo6PneLlalFwcRHxb3UuWfMGqHt8e8VUuu9al+g/uTdeYiEneAKg+5Hy5puxPK6T/BlqBbJ5Au/wA7c3iBvVA+d34BwaE8NzAkgfvO2XqulU/Ra/WGkBEa38EEp5Il3gnPkoAbV8QW8zv0eG9E8AfYJgU0nee8vppf7jVTaCJ3Kn/+VOgiBde8X0MrVCUxpZ/rGJGrKp1V7XzhflL4z//Z" x="108" y="1389.3" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="1409.1"><tspan class="name">深井英五</tspan><tspan class="yrs" dx="6">1935–1937</tspan></text>
+</g>
+<g class="term c-a" data-id="a13" data-person="a:池田成彬">
+<title>第14代日本銀行総裁 池田成彬　1937年2月9日 〜 1937年7月27日（在任 168日）</title>
+<rect class="bar f-violet" x="79" y="1441.6" width="14" height="9" rx="3"/>
+<path class="leader" d="M94.5 1446.1h4L104 1438.3h2"/>
+<circle class="photo-ring" cx="123" cy="1438.3" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBkAGQAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGwAAAgIDAQAAAAAAAAAAAAAABgcCBAABAwX/2gAIAQEAAAABW3qNm4PqyNtyzHlhu69cVYnnU5MRNdR5kDpTYbb88sNFBv8A/8QAIBAAAQUAAgMBAQAAAAAAAAAAAwABAgQFBhEQEhMUI//aAAgBAQABBQKKqQcx8WgIK0aALMdfIrfjUUD3YmJMjBulJI124/wdunigS9CsSJGk7fE9r43VHxkXj2FJieu/RFWzGftMpGiy4t/Tay5hLncq1Gu22d2RX6GswjV8zkei9DJ8f//EACwQAAEDAgQEBAcAAAAAAAAAAAIBAxEAEhATIUEEIzFSBSBCUSIyYYGCodH/2gAIAQEABj8CptlFi8kGjfZU0QiWxJ0t2qXxuXaieb+FRCUjppiKh806Vlm7m2p1VuxaRpt9AXtypn70vB+tZSowAl2KaAg1GJ0qV0p93qVtoeQOHF/LUNu6rFJXSWifcXnqaR/K0w01psnAubADMkj6U0+yFgmMx7VlNLyWd+5ffBcHoKHOJLL/AATr+4SmfDm155tJfHpTH//EACIQAQACAgIBBAMAAAAAAAAAAAEAESFBMYFREGFxkaGxwf/aAAgBAQABPyGDeK8dW1cStNB0tp5rMNFDlsnEH9hSME4MAdoJORBI/wAT8zWQyZryOvUZh1dEZFyNQwhWCXTLhl4F6l4Ljwy3bZYfMcvosphm4wrDzk5le06MF11L02BOM6dfqEbhVMdk9o9zUAAeYorNPOWS9wPfZDTb8NEUsZ8gxKi2BoxaHf3XQyieSsGnPbx9+v8A/9oACAEBAAAAEKhyqI3/AP/EACEQAQACAgMAAgMBAAAAAAAAAAEAESExQVFhcZGBobHB/9oACAEBAAE/ELDZCKQ9VNL4G/xEi3rgoSsKBZ7qBD1F5Oo2heI2uHxAH0IGLWsxUbYOcJocZ2xyuJdrB5zCYc3HF5vmiAmQholm5ZkjW0BDd41n9+Q98pU2WNf5Mt9RsCSG0Bf5LKIHkOAnDljxJvjcas4ZXcdm4Y2rwV9mOYFLbXd8sYfMclWolGsUY+MUsIXnm6hdoAT5OJeO+56x3Gmy5MlfPG74j5yS1AFHX0+4YjSTzOD6gepO160lheARL5KYr4n214LwHpl5loQ9m5YBppb5hlsildEVtQHHvqOGWCZdZ0009joF1BzgMTuqn//Z" x="108" y="1423.3" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="1443.1"><tspan class="name">池田成彬</tspan><tspan class="yrs" dx="6">1937</tspan></text>
+</g>
+<g class="term c-a" data-id="a14" data-person="a:結城豊太郎">
+<title>第15代日本銀行総裁 結城豊太郎　1937年7月27日 〜 1944年3月18日（在任 2,426日）</title>
+<rect class="bar f-violet" x="79" y="1452.6" width="14" height="157.4" rx="3"/>
+<path class="leader" d="M94.5 1460.1h4L104 1472.3h2"/>
+<circle class="photo-ring" cx="123" cy="1472.3" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGQAAAwEBAQAAAAAAAAAAAAAABQYHBAMB/9oACAEBAAAAAUS09ZTgchzMRSUimMgossyjVeA2Jc3jqt4gBiwuoccITOw//8QAIRAAAgMAAgICAwAAAAAAAAAAAwQBAgUAEgYREyMVIiX/2gAIAQEAAQUC0vc6Kiqs0KCLQwgIWoAVI1LiilfKECfk/Hr/AM6HrQzuVuTQoeRlz5T0Fo/Wxoos4OopneZn4orbosSw7QPtx1WRcWbWtzfhcUYDHcGpmj7XtWlZ9WjZXtWAZATRlLDTVa1a9on2KPrl4Y2AZn1rHRIzzOxFFa//xAArEAABBAEDAgUDBQAAAAAAAAABAAIDERIhMUETQiJRYXGxBBAjMlOBkfD/2gAIAQEABj8Cny/dO/uhLFG1uQB2RZiBaxnFRnXytQiO8cvNOA5T5oo3OZIMjQ2PKYMrI4tCKXp6gnwDb+UXvA9CeAg+PdOd15Y3M/WDWiaHG755tOuPR5zTXxb/AAjEYRbgQH3ayo15o0dDuvFseF14rJG4tdPqBt7g6EKmTB7ydtynRu/pGWAYnuardt9ixrGhhBOVXXomSNc5oMeWJ1U/1ErzQNNpfiBd8Kzwun29qMbj4jt7qDO6v5/wTYWHSzYJoD1QyaJ5j3OG3sF//8QAIRAAAgMAAgIDAQEAAAAAAAAAAREAITFBUWFxgaHRkcH/2gAIAQEAAT8hJVOpBeVTI7IDyDggODZd10JKdoXPYeYHuEL7bfuCCTjOGTL0/mFAYFkc0dVsT1Gsj/kOKc0RuFwl9uHSrplNSH+0ayXkx/RFQqENRNGvyJN6MkquGaglQdKMfU+sZUGRUoAdiBAggohSgVO5GSV5MFpy79GXISUo+Xko4QEGDqAK1YRRHY/I51NPUuGLwjmOeWYkA4jvzCmbajHn3CrlrasHzB3Iqzkd0EiItlFfh4jzHBpQJ0jHQcL+xszI2GcC8g17J47cE//aAAgBAQAAABDtrq88/wD/xAAfEAEBAAMAAwADAQAAAAAAAAABEQAhMUFRcWGRsYH/2gAIAQEAAT8Q7d7kQNx+Y8sAapAF6AEhhQOggVv93eKq01PcD+dfvLFgmBiVg5DKBCDo2aUf3HsQ+5J4K4E/l9hjzbx76Lj8hcEbtupHgsZgoUKLB8uHs9VVwMHxsoXS7DD7oAq3g1UjsnpxARUTBJpF5vC74bQa85HSbZwCirGAImsUTaklA8f3JDH6IiCza3y6X24RLz9un3mAG38A9L7jvBfCFcIjfb/PGNQiJc+QijCb1NciGHLaTl3L0Hk8YHhc7jd0DTgC68GOR0wArwjqYZVb+dQfD+nrHZA6BYu35iHtC8QefRMQmhMox3tzwH8GIltIQgNQIquuYt5qQUKZ5U7vAuNAsFLM2PlK4xCf5JdY+bbs3vX5uz1Z6xKVQ6QjN9jxDo4NwFqShU+hafcT8aRR1bEap1pzE2MaUJUlAe2tT5n/2Q==" x="108" y="1457.3" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="1477.1"><tspan class="name">結城豊太郎</tspan><tspan class="yrs" dx="6">1937–1944</tspan></text>
+</g>
+<g class="term c-a" data-id="a15" data-person="a:渋澤敬三">
+<title>第16代日本銀行総裁 渋澤敬三　1944年3月18日 〜 1945年10月9日（在任 570日）</title>
+<rect class="bar f-violet" x="79" y="1612" width="14" height="35.5" rx="3"/>
+<path class="leader" d="M94.5 1619.5h4L104 1615.4h2"/>
+<circle class="photo-ring" cx="123" cy="1615.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAABAUGBwMB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAWK1nHxMV6TQaTrG+eRrUcdP0Xoee6SRkIcECedxyoayhITQTfE//8QAJBAAAgICAAUFAQAAAAAAAAAAAgMBBAAFBhITFCIQERUhMTP/2gAIAQEAAQUCnNjZ7WpHPYbU1EyVxx0IXsoaWcQM5p16fcqjTFnGZjK6pec5vFzDpNra6Upa/jcg6lL+vzVXNnfiy3VKB7pMaxbErF21XUwSnI/deK+92T+e9M9OdPYqi9vpVdEBWkiSXkKPvP/EABQRAQAAAAAAAAAAAAAAAAAAADD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAADD/2gAIAQIBAT8BH//EACgQAAEDAgUEAQUAAAAAAAAAAAEAAgMREhAhMUFRBCIygWETUnGRwf/aAAgBAQAGPwJOkHlo38qsr3OJ3KBY+h2KtnaXEb8qgjp7wZ04GncSnVc6ItFdMlG4Rhxcy4MrmosqEtXrATfcLUyCNtzjqoLonNfHGLSVA24300+F6XhL+k0RV+mBvymuvDHVTpJJSY2trzRSdS4eRyHAWcZ0xjLgTHWh5Kkiiy6dmQHPyuQrpe07V0QOxwLXbBXHlf3D/8QAIhABAAIBBAICAwAAAAAAAAAAAQARITFBUXFhkYGhsdHw/9oACAEBAAE/IYxPvr8ojNTUuNG1wajY5FHnLRcLuKlgPKdlRdVit33DhABVeSXmranuVLNR0lqihp5JproxzXEwRsGrrG39mPKhbxOXa/iI1gloOZD4fuHsbVDLBZJ0Nh9QtRKLZeN4ttdU6z1Hqm0HcNYiorzCN0QH0y8TRvXflHoAgEWjUMGHOyRm671GL2qbd4nii1Def//aAAwDAQACAAMAAAAQy424kkhM0//EABQRAQAAAAAAAAAAAAAAAAAAADD/2gAIAQMBAT8QH//EABcRAQADAAAAAAAAAAAAAAAAAAEQESD/2gAIAQIBAT8QqA3/AP/EACEQAQEAAgICAwADAAAAAAAAAAERACExQVGBYXGREKHB/9oACAEBAAE/EFesapsAKdDOwBfWSiHriv8AXrWR2crw/HjGFvpAFF6iIj6e8ewW4fzHTSXLcVnERAj/AH5y9sAuDc0194PtdB5suzIKfA7Ob7OMdoFXOBpFhUQhWxV/Ima9CDBrz65/ML16veVK60iPGGtTAm+7E+A3hYhG5QsOMOe/XGtNpxfLy6DR9uA+iKoSS0P5iGN8dqIuV1L284gI2uw164917wrRAlq0ScuK6d4CSAF+rmw6QJbzOEBTlZMDeeJiGs7Xeh4Pm4PotB1PeaLdpNHNLHKnKFE6fH8DmUVJyDSeEV9Li41lK0+cJCjFHkEO/jL0u0vnP//Z" x="108" y="1600.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="1620.2"><tspan class="name">渋澤敬三</tspan><tspan class="yrs" dx="6">1944–1945</tspan></text>
+</g>
+<g class="term c-a" data-id="a16" data-person="a:新木栄吉">
+<title>第17代日本銀行総裁 新木栄吉　1945年10月9日 〜 1946年6月1日（在任 235日）</title>
+<rect class="bar f-violet" x="79" y="1649.5" width="14" height="13.4" rx="3"/>
+<path class="leader" d="M94.5 1656.2h4L104 1649.4h2"/>
+<circle class="photo-ring" cx="123" cy="1649.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGgAAAwADAQAAAAAAAAAAAAAABQYHAgMEAP/aAAgBAQAAAAGsQOynAZ9Xh9OZsesBOHtuGdO2WMj2JzR0xtfJcTnO2sDp37//xAAhEAACAwACAgIDAAAAAAAAAAADBAECBQAGEhQQIRMiMf/aAAgBAQABBQKs/ZT+7o4NIhM4RGEmVgbfl9aLtUVFqx45xqIBtowR05aSet5nnZBSTI6/+x9g9VnAVEUjioQSPhp4xNc7cg2nOgtLXHyeZw/xjswJlk7Oq9gs6wi6DLgUx7rNaLdkms8Haw7j2vbb7u/+Vn4//8QAKRAAAgEDAwMEAgMBAAAAAAAAAQIDAAQREiFREBMiMTJBYSNCcXKB0f/aAAgBAQAGPwKpWkGp5JSc8AbAUuY9JoxyoGU81NbXB1qPKKTleD99HuHBIG2B8mjMZWU6sEaefuop7e8klimIUW7g5znGxNC2S5jhJ9NQ91KRIrNpxt0uABkgah/hrsaUYSfDVZQTuMRuJPacCjNAUdcn1HpVuIlChCSMD66yMR4yeanjPrSJrth+wftlsigZGhkTlVKmtv126fitJG/swFDxGs7Rxg0LYW5l0baX2KVJc3AjgjjXOA2WY/AoBooXPO9fntARzG3/AHorodLKcg8GrMo/al7eWATPcfPs/ilsEPhF5P8Abdf/xAAiEAEAAgMAAgEFAQAAAAAAAAABABEhMUFRYXGBkaGx0fD/2gAIAQEAAT8h1L7NwDjzh+qIaV2rJvU8Ccs8YP6h57E9ynNo2o0SvEEitOv4jterF8CZfiXOFra03VvzOra8bzuHbiPSQDOBiVswwtY6Jkhx7qiPWPKb9QyCKq7uWse7+sG/7dGj+4sSpZUWxj/Sm4ySUZ5PGSBO2AXxhWAdrDl77LIjiq4/jS5UdBqR2i9rv3AROI/vNhMpFjeSeW0QsINqW/eBjpaL9v6hHriH2GRg1HVEsBvygv1JxaMuwwfQfz6nIz//2gAIAQEAAAAQySwuxU//xAAgEAEBAAICAgMBAQAAAAAAAAABEQAhMUFRYXGRoYHR/9oACAEBAAE/EATKIP3CeHalR6AJ40+cQoMR0dJ5vNwmi8oXpPCOxNiYFNIxEgmaV8CKuy4CkV7uKL1uEkC6NtrwGFd2CBKyebRi93eQjUfTbIs4orqzNfqGdbQFJwvD4caoHskFdNxN61bOHBIvLB76VRA5gOGLdMAqmwPjSacXSquZSxdJSyPbl8nJ0Y0Hlew/nIlZQVTeifrKCZyKOKMeHcE0BzHTw4SpkoZdmFLonpcThxPgUSzh2efWChMy4U2PoP5j/wALIq7tj+D/AHKolAAAU8aTtFaOjI+uXCXpGx0ib6xV1HO2AALdFd5MIdseRCPqY5VSiPuCP0zUzlK/qEHwg4n0GcXWioW0K91MRDVUafRV3zkTpnHP/9k=" x="108" y="1634.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="1654.2"><tspan class="name">新木栄吉</tspan><tspan class="yrs" dx="6">1945–1946</tspan></text>
+</g>
+<g class="term c-a" data-id="a17" data-person="a:一萬田尚登">
+<title>第18代日本銀行総裁 一萬田尚登　1946年6月1日 〜 1954年12月10日（在任 3,114日）</title>
+<rect class="bar f-violet" x="79" y="1664.9" width="14" height="202.6" rx="3"/>
+<path class="leader" d="M94.5 1672.4h4L104 1683.4h2"/>
+<circle class="photo-ring" cx="123" cy="1683.4" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAABQYHAwQCAP/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABr0krsryF/HeDnsaQBwTaa2SPQzYD9SJMEYrpI0uNBtZdtRKxPjpw+r//xAAgEAACAgMBAAIDAAAAAAAAAAADBAIFAAEGERAUEjEy/9oACAEBAAEFAi50INv9ADna2MLitVlX8tORKTW8nl17G7jZb2kJshdVghrIwwn6sdDiwuT0RZxHBPf5Ki/lswlwPdCv6s3VSXjvTIU70i7tY2s6Dv2tyZwa8wI9ba/ZLixzLlu2ft22Wzk5z8358f/EABURAQEAAAAAAAAAAAAAAAAAACAB/9oACAEDAQE/ATB//8QAFBEBAAAAAAAAAAAAAAAAAAAAMP/aAAgBAgEBPwEf/8QALBAAAgECBAUCBgMAAAAAAAAAAQIDABEEEjFxEBMhIkEyYQUUI0JSgbHB4f/aAAgBAQAGPwKkwxkKxxxC/teheN23apRDEqyBehqIufSzKu3EyZ5IjkGUoP5osIJM69DvRH1XZh9w7RUUcfT98VklBKP2bHxTIIZcxe/Uf3TALY218VEym4twaWeRY0XVmrEIgkxCMwMdxly1zRKsd9UPg08hBhwadWkbpmHtUz8vNh5Xzcv8dq5mFkD21HldxUGDB7UXOw9zpw+F8uFGlxEhcE662C7V8lB2Qxeu3lv84CWCRo3GjKaxM97gv27DoOEJQlFhQJDbUAeauQbHzx//xAAjEAEAAgIBBAIDAQAAAAAAAAABABEhMUFRYXGREKGBsdHw/9oACAEBAAE/IYx65Rslx5xLhLl2xbTk99z8kWA5B0uJi3NZkrRGdW31c47Tl1GAwLf7DpYl0PohDoyvBXbMyHeC9QSF0q2+4IxY6arQlqZmXqxwgDXR9efuZi4NQrRQRLdRE1O+UsvXLAZToLyFfyYjuBgbo5/MyFbkpGh7qqUKnZ/qJrrieD6D7lRt2i2adlSlj0xhBYPZ408/HA98GVzZxf6METEHuy4BeipfqNC4Gkb6yvj/2gAMAwEAAgADAAAAED8GnOCw3QP/xAAYEQADAQEAAAAAAAAAAAAAAAAAARARQf/aAAgBAwEBPxCKsdNn/8QAGREAAwEBAQAAAAAAAAAAAAAAAAEQIRFR/9oACAECAQE/EPRDObGosn//xAAeEAEBAAIDAQEBAQAAAAAAAAABEQAhMUFxUWGBkf/aAAgBAQABPxC4TjGyTGlAh1RsvwxeKxXf8AB/MFdjrUNj6D7cPgLlXTL5U8DP4ThvLrCBDF1CFRhog4FyyeKENBN9cPmPAmkqEYaJeqOamFmyiwVjcGbKDJgHJp0AoYIi9T9wGPQIwaICdN/MIbptoPnzxwtdm28tW9lCdTHrEEzys8SPV4A2vGThQbcEta0odHGDEJVPOBW4vNc4AUmibQ4B4r6BjGCYuCIcEQjpTp3mj2L7T0m/Wx6XEZ2uaWaH0QZ5Qx2vbVEZ2JEVupNkXADntE0tRNIXoyZyNiAjsfo9jR+YiC9z4H5B/uKuQUQf3KuwCCg/ZL5kdZKAIhGdHtKX3OmQmf/Z" x="108" y="1668.4" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="1688.2"><tspan class="name">一萬田尚登</tspan><tspan class="yrs" dx="6">1946–1954</tspan></text>
+</g>
+<g class="term c-a" data-id="a18" data-person="a:新木栄吉">
+<title>第19代日本銀行総裁 新木栄吉　1954年12月11日 〜 1956年11月30日（在任 720日）</title>
+<rect class="bar f-violet" x="79" y="1869.6" width="14" height="45.3" rx="3"/>
+<circle class="photo-ring" cx="123" cy="1877.1" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/wgALCAAwADABASIA/8QAGgAAAwADAQAAAAAAAAAAAAAABQYHAgMEAP/aAAgBAQAAAAGsQOynAZ9Xh9OZsesBOHtuGdO2WMj2JzR0xtfJcTnO2sDp37//xAAhEAACAwACAgIDAAAAAAAAAAADBAECBQAGEhQQIRMiMf/aAAgBAQABBQKs/ZT+7o4NIhM4RGEmVgbfl9aLtUVFqx45xqIBtowR05aSet5nnZBSTI6/+x9g9VnAVEUjioQSPhp4xNc7cg2nOgtLXHyeZw/xjswJlk7Oq9gs6wi6DLgUx7rNaLdkms8Haw7j2vbb7u/+Vn4//8QAKRAAAgEDAwMEAgMBAAAAAAAAAQIDAAQREiFREBMiMTJBYSNCcXKB0f/aAAgBAQAGPwKpWkGp5JSc8AbAUuY9JoxyoGU81NbXB1qPKKTleD99HuHBIG2B8mjMZWU6sEaefuop7e8klimIUW7g5znGxNC2S5jhJ9NQ91KRIrNpxt0uABkgah/hrsaUYSfDVZQTuMRuJPacCjNAUdcn1HpVuIlChCSMD66yMR4yeanjPrSJrth+wftlsigZGhkTlVKmtv126fitJG/swFDxGs7Rxg0LYW5l0baX2KVJc3AjgjjXOA2WY/AoBooXPO9fntARzG3/AHorodLKcg8GrMo/al7eWATPcfPs/ilsEPhF5P8Abdf/xAAiEAEAAgMAAgEFAQAAAAAAAAABABEhMUFRYXGBkaGx0fD/2gAIAQEAAT8h1L7NwDjzh+qIaV2rJvU8Ccs8YP6h57E9ynNo2o0SvEEitOv4jterF8CZfiXOFra03VvzOra8bzuHbiPSQDOBiVswwtY6Jkhx7qiPWPKb9QyCKq7uWse7+sG/7dGj+4sSpZUWxj/Sm4ySUZ5PGSBO2AXxhWAdrDl77LIjiq4/jS5UdBqR2i9rv3AROI/vNhMpFjeSeW0QsINqW/eBjpaL9v6hHriH2GRg1HVEsBvygv1JxaMuwwfQfz6nIz//2gAIAQEAAAAQySwuxU//xAAgEAEBAAICAgMBAQAAAAAAAAABEQAhMUFRYXGRoYHR/9oACAEBAAE/EATKIP3CeHalR6AJ40+cQoMR0dJ5vNwmi8oXpPCOxNiYFNIxEgmaV8CKuy4CkV7uKL1uEkC6NtrwGFd2CBKyebRi93eQjUfTbIs4orqzNfqGdbQFJwvD4caoHskFdNxN61bOHBIvLB76VRA5gOGLdMAqmwPjSacXSquZSxdJSyPbl8nJ0Y0Hlew/nIlZQVTeifrKCZyKOKMeHcE0BzHTw4SpkoZdmFLonpcThxPgUSzh2efWChMy4U2PoP5j/wALIq7tj+D/AHKolAAAU8aTtFaOjI+uXCXpGx0ib6xV1HO2AALdFd5MIdseRCPqY5VSiPuCP0zUzlK/qEHwg4n0GcXWioW0K91MRDVUafRV3zkTpnHP/9k=" x="108" y="1862.1" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="1882"><tspan class="name">新木栄吉</tspan><tspan class="yrs" dx="6">1954–1956</tspan></text>
+</g>
+<g class="term c-a" data-id="a19" data-person="a:山際正道">
+<title>第20代日本銀行総裁 山際正道　1956年11月30日 〜 1964年12月17日（在任 2,939日）</title>
+<rect class="bar f-violet" x="79" y="1916.9" width="14" height="191.1" rx="3"/>
+<text class="label" x="108" y="1929.3"><tspan class="name">山際正道</tspan><tspan class="yrs" dx="6">1956–1964</tspan></text>
+</g>
+<g class="term c-a" data-id="a20" data-person="a:宇佐美洵">
+<title>第21代日本銀行総裁 宇佐美洵　1964年12月17日 〜 1969年12月16日（在任 1,825日）</title>
+<rect class="bar f-violet" x="79" y="2110" width="14" height="117.9" rx="3"/>
+<text class="label" x="108" y="2122.4"><tspan class="name">宇佐美洵</tspan><tspan class="yrs" dx="6">1964–1969</tspan></text>
+</g>
+<g class="term c-a" data-id="a21" data-person="a:佐々木直">
+<title>第22代日本銀行総裁 佐々木直　1969年12月17日 〜 1974年12月16日（在任 1,825日）</title>
+<rect class="bar f-violet" x="79" y="2230" width="14" height="117.9" rx="3"/>
+<text class="label" x="108" y="2242.4"><tspan class="name">佐々木直</tspan><tspan class="yrs" dx="6">1969–1974</tspan></text>
+</g>
+<g class="term c-a" data-id="a22" data-person="a:森永貞一郎">
+<title>第23代日本銀行総裁 森永貞一郎　1974年12月17日 〜 1979年12月16日（在任 1,825日）</title>
+<rect class="bar f-violet" x="79" y="2350" width="14" height="117.9" rx="3"/>
+<text class="label" x="108" y="2362.4"><tspan class="name">森永貞一郎</tspan><tspan class="yrs" dx="6">1974–1979</tspan></text>
+</g>
+<g class="term c-a" data-id="a23" data-person="a:前川春雄">
+<title>第24代日本銀行総裁 前川春雄　1979年12月17日 〜 1984年12月16日（在任 1,826日）</title>
+<rect class="bar f-violet" x="79" y="2470" width="14" height="118" rx="3"/>
+<text class="label" x="108" y="2482.4"><tspan class="name">前川春雄</tspan><tspan class="yrs" dx="6">1979–1984</tspan></text>
+</g>
+<g class="term c-a" data-id="a24" data-person="a:澄田智">
+<title>第25代日本銀行総裁 澄田智　1984年12月17日 〜 1989年12月16日（在任 1,825日）</title>
+<rect class="bar f-violet" x="79" y="2590" width="14" height="117.9" rx="3"/>
+<text class="label" x="108" y="2602.4"><tspan class="name">澄田智</tspan><tspan class="yrs" dx="6">1984–1989</tspan></text>
+</g>
+<g class="term c-a" data-id="a25" data-person="a:三重野康">
+<title>第26代日本銀行総裁 三重野康　1989年12月17日 〜 1994年12月16日（在任 1,825日）</title>
+<rect class="bar f-violet" x="79" y="2710" width="14" height="117.9" rx="3"/>
+<text class="label" x="108" y="2722.4"><tspan class="name">三重野康</tspan><tspan class="yrs" dx="6">1989–1994</tspan></text>
+</g>
+<g class="term c-a" data-id="a26" data-person="a:松下康雄">
+<title>第27代日本銀行総裁 松下康雄　1994年12月17日 〜 1998年3月20日（在任 1,189日）</title>
+<rect class="bar f-violet" x="79" y="2830" width="14" height="76.1" rx="3"/>
+<text class="label" x="108" y="2842.4"><tspan class="name">松下康雄</tspan><tspan class="yrs" dx="6">1994–1998</tspan></text>
+</g>
+<g class="term c-a" data-id="a27" data-person="a:速水優">
+<title>第28代日本銀行総裁 速水優　1998年3月20日 〜 2003年3月19日（在任 1,825日）</title>
+<rect class="bar f-violet" x="79" y="2908.2" width="14" height="117.9" rx="3"/>
+<circle class="photo-ring" cx="123" cy="2915.7" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAABAUGAwAHAv/EABgBAQEBAQEAAAAAAAAAAAAAAAMEAgAB/9oADAMBAAIQAxAAAAHzZgFX4aoWOQAqlfsxSgIamP5i9f5NhLbIYj6WQDaDHd5dI2Ufhh9Ritj/AP/EACEQAAICAQMFAQAAAAAAAAAAAAIDAQQFABIhEBETIjEU/9oACAEBAAEFAmCMjiky91aiAjla4LoqlpV6AplIDLGY6uyk5b92rEHYmRBuRTYrKy4/MZd3zG0TI5gXN8rpjXfiONKaX4sqRooDPEzoemRiFUc4ftH3S59kj5G5At9x7JY0eZjtr//EABwRAAICAgMAAAAAAAAAAAAAAAECABEQIQMSE//aAAgBAwEBPwHjWzCuozgGI3Uz0Wrh3hxSjH//xAAaEQACAwEBAAAAAAAAAAAAAAAAAQISMREQ/9oACAECAQE/AZviLCh1E42RR4LPFoj/xAAnEAACAQIFAwQDAAAAAAAAAAABAhEAAwQQEiExE0FxIEJRkVKBwf/aAAgBAQAGPwLioyux3FIGK6Su+1XLCAdSPugg7mBTq0NIkRWnTB80UadJ7RtVnCsYGjfemu3EbpJKoq5Kl5pddgT3FDSPMCiNPimufWcjn5qzdxELrHKn+UWhrfU2BPJzOWDT3C1NWMMpJW3aB/Z39CJ+TAVe3kBtI8CmuNyc/wD/xAAiEAEAAwACAQUAAwAAAAAAAAABABEhMVFBYYGRobFx0eH/2gAIAQEAAT8h1vDio8JdcvUtamkCahrKxIU51NHBu+RcZEEbuJgm0Nbg/FGYRKkZe/cwi4efFn8sTZ7w1hf3FWYBaiw1v1I3bdFQ8+o6xiMVd1TowguwjdDUGzowHJCcivLygRZ1RevSvMoAdSs9ZpE4lThtA50P9h20Vbedv2LfwTT+5uJQvPyLU1XsZwI+Gv1wfU29QAyf/9oADAMBAAIAAwAAABCnJ9fa6Vdb/8QAGREBAAMBAQAAAAAAAAAAAAAAAQAQESEx/9oACAEDAQE/EG0TkBRMV7kfaJdola1lq//EABgRAQEBAQEAAAAAAAAAAAAAAAEAETEh/9oACAECAQE/EOZ2Fos+nIMId8QDEM9TK//EACIQAQEAAgICAgMBAQAAAAAAAAERACExQWGBUXGRocHR8f/aAAgBAQABPxCyg+HzjKwTrg0f8ylbS62OE0gHxZU93LmlPeiV+zjjFXk6O6g+4hj/ACQcpYX24N5WlBak3w/7llIO23fgde8cCtCEfKa6fGBLALW6ovJokp1hfEhNO8Sjs75TBkpLXzj1am5+jfIPuI/LhcaoJ44ZzrEA4xyAbr4ySLbFO0PMLc2u35uOo7HKQjG5DYn04NVDc0o0QOt7OsiATV7BRacleJnBZ2PBmhWro5cYJecgGdbxRT7OEH7P2w6ApdfgAAA4Lijm9nqwDWA9o/mEKkesfhqPR/WbJISdCgeNP5yqgnoAHoGUaylo+c0xHu1z/9k=" x="108" y="2900.7" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="2920.5"><tspan class="name">速水優</tspan><tspan class="yrs" dx="6">1998–2003</tspan></text>
+</g>
+<g class="term c-a" data-id="a28" data-person="a:福井俊彦">
+<title>第29代日本銀行総裁 福井俊彦　2003年3月20日 〜 2008年3月19日（在任 1,826日）</title>
+<rect class="bar f-violet" x="79" y="3028.1" width="14" height="118" rx="3"/>
+<circle class="photo-ring" cx="123" cy="3035.6" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABgUEB//EABgBAAMBAQAAAAAAAAAAAAAAAAIDBAUB/9oADAMBAAIQAxAAAAFcEQHZHqd0vUizSMQHGqFLg6qmNjUIK8/UwDmkwg5krJUdDNv1+fJwPrJfCILn/8QAIhAAAgIBBAMAAwAAAAAAAAAAAQIDBAAFBhITESEiFCQ0/9oACAEBAAEFAu3r0xcg8dfBfHoZuYK1W8/6TkKtU8oq7clmkIbcIC0YJ5YchkE1eq8ZjiJBtD63DYLrmlfy1ZVVgfhxzk1PTQ+m5pnqldERj2/LLbynWV83rbCxZDdeOuxZ22/2BNvWPxMvWZLdr//EABsRAAIDAQEBAAAAAAAAAAAAAAABAgMRISIx/9oACAEDAQE/ARQWcLKcTZFkJ6i9+BCscfhKxz6z/8QAHBEAAgMBAAMAAAAAAAAAAAAAAAECAxEhEjEy/9oACAECAQE/AV6R5PSq3ZE1wksZR9klo6k10rqUD//EACwQAAIBAgMGBAcAAAAAAAAAAAECAAMREjFBBBAhIjJhUnGBsRMjJFFigvD/2gAIAQEABj8CdtVxW/vXcOGk0mUVtVf3ioD1VCYS2QzigsuLXCYbl+BtzCdoLX4sLzkfh4TlA9sxlKbrYKy3E+14ZTXDZfc7v2M+BiwsrXXuplyx9Tur7RUOEIl0PfcvmZeq2G3S2olSnUY1SmV8yJdlwqNJT2FNed/LTcKVNRfxGY6jFj3m21KZsVom02iuX+mpr8z8m0lTaKvU5v5dp//EACMQAQACAgEEAwADAAAAAAAAAAEAESFBMVFhcZGBocGx0fD/2gAIAQEAAT8hdIQeWvuCWXx3hwaR09q6cSy2eWA0/OGz3UMGPEuEA/altXNSEXeOSCa8zK6oEPYkPA5NMr3ZyfmU13zPSYeBh7uElhgMFq4jRyhjECrdwicpYfkTvxV9S50p/CPDZCLzW9kY0NZnn1cA/wCPmLRRlhKG2fcKgasGk7TEW68FX94ijZdPFXvEEDiGhg+7fgllubayypOreTl0RX1JhKS9DTTURUmD5ekvf91Ea02hodgxP//aAAwDAQACAAMAAAAQZVRd/m9nl//EABkRAQEBAAMAAAAAAAAAAAAAAAEAERAhMf/aAAgBAwEBPxAAWCAcKMOQHl2jfZ4zGxqP/8QAGREBAQEAAwAAAAAAAAAAAAAAAQARITFx/9oACAECAQE/EEvhaLWwCPlK+3U5MMJ2QDC//8QAJRABAQACAgICAgEFAAAAAAAAAREAITFBUWFxgZHBobHR4fDx/9oACAEBAAE/ENwgC9+P4PxhGc4Va9frJ6CBrF13ljF8G2JEKpFCpx/vW8AZCV5IB6hfWHKOaNmj2V+GBSz1Nw/Xn1khJWAlXfgXvG0wpJDjkTc2dNwakrdjZ/fFUSItlcb8H/Ex8AD2LefS+SOEZ0zs2o73fzgHIBsZV8s8/bjFNIuivT4cUZ7BPIf4z7LW2pX43PlxCzUwqNEn8n9ciOhE26w90PSZZrRUN6Q4xpfLTy4mm/Djtzsb83XjAPYsPb5xYW0id2frLQgg8mza+jGOkTWESwHtuznljFOGmsHIRLYt+8ZWE11DD0IhkGpF4AegwzFfVVGfZy/jPLBZUPRwHowTcS40Ue6ZEuFXQWi0eLup4VLCGK7wvUAPj3n/2Q==" x="108" y="3020.6" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="3040.5"><tspan class="name">福井俊彦</tspan><tspan class="yrs" dx="6">2003–2008</tspan></text>
+</g>
+<g class="term c-a" data-id="a29" data-person="a:白川方明">
+<title>第30代日本銀行総裁 白川方明　2008年4月9日 〜 2013年3月19日（在任 1,805日）</title>
+<rect class="bar f-violet" x="79" y="3149.5" width="14" height="116.6" rx="3"/>
+<circle class="photo-ring" cx="123" cy="3157" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAABAYCAwUA/8QAGAEAAwEBAAAAAAAAAAAAAAAAAgMEAAH/2gAMAwEAAhADEAAAAVaOKwQ3ty/eAqhgCCDU+8PMzaYHO7N7Mw2hFMrgA6Fpi9jWhB1SnGJj/8QAIRAAAgICAQQDAAAAAAAAAAAAAQMCBAAFERASEyQUISL/2gAIAQEAAQUC29+fdRqtaFKUiMyKt+y711mHh2S5xsULHrqslmDyMiwtkutFgU+HlWpfZGHEQWQlj7DHFIKdI28zI2Gh8p/qRh8YHFvnwc4wRXZo7rsVrsGDpQIlS3wjFWD7P//EAB0RAQACAgIDAAAAAAAAAAAAAAEAAhESAxATIkH/2gAIAQMBAT8BPbldpZqhiLTTP2X56LPIBNsuXpVOv//EAB0RAAEEAgMAAAAAAAAAAAAAAAEAAgMREBIhIkH/2gAIAQIBAT8BHWIaqj6oWmiooHhtFaWg0AUMN4ccf//EACcQAAICAQEHBAMAAAAAAAAAAAECABESAwQQEyEiMVEgQWFxMkKB/9oACAEBAAY/Ajs6ua/aAlgonTE1tLpTV6XEfK6rxAy8zXI1OIwrKAt2ExVcT7ZRs2ZvfnUYMORjFX7eJTdX3MKr+wEL73yl4Y5dhOp7+IdddThnUZRXkCdNLA5a/NzhueHNV0s4j8juC5GgbAPbfs7vY1Mac/E09PRNo7d/Pp0vrGbOqihzO4z/xAAjEAEAAwACAAUFAAAAAAAAAAABABEhMUEQUWGRsXGBocHx/9oACAEBAAE/IcIf718owszL9rV24bFmsZbw1CbHaqMGpgt+JZPy8dkRarmZZLq5C/bqVXYAnkNlBAiAUwt1MBVm/wAmRFG8Qry7UR0bhh3JeVJeoesSika6HtF226MJXzsZZU9NY4HpZ1AspDsIprvAPRFu3mCuPMAPnUa3AVsBYpB2MH6yn6yp0N+fB0R2D4F1rtHlsAFxQ98fqUS9LrJ//9oADAMBAAIAAwAAABDxAzvH/hCn/8QAHxEAAwABAwUAAAAAAAAAAAAAAAERITFBUWFxgbHh/9oACAEDAQE/EJU2+hQL28C+SXhcr4VqV6jZuqF1MiJBmh//xAAbEQACAwADAAAAAAAAAAAAAAABEQAQIXGB8P/aAAgBAgEBPxAXPDBuS57hLi1MMKAjS2JZlLQ//8QAIhABAAICAgICAwEAAAAAAAAAAQARIUExUWFxkaGBscHR/9oACAEBAAE/EOBs2QFZMdGL7hOhtEtr1KmLiyEd7UTbwhv+9wBzjEGr9zFqheMbbHU1HEtBIH+MT4RAM42d+orkSsHZYoeWhlJ4H4AOShxzH3lWgofMSsqnCFB0XZPTBp0IBac5OnMoxy7SrXkhtOAAjkOrbrKwVEVRMfOGr+IkOoLTTUU25GURM8AlJonhw6fYwy+lCI3+u5iyNdS04ya3ML9qrgB2qhuViX2jYbkrDRYv8dSoDmXPJSoX1BxODXlAb0+JWLq3dFV+cL9Qav6mS28Rfmv1HqbGO1BLLXavPqK+IuI4JrXacimdRerHg/2f/9k=" x="108" y="3142" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="3161.9"><tspan class="name">白川方明</tspan><tspan class="yrs" dx="6">2008–2013</tspan></text>
+</g>
+<g class="term c-a" data-id="a30" data-person="a:黒田東彦">
+<title>第31代日本銀行総裁 黒田東彦　2013年3月20日 〜 2023年4月8日（在任 3,671日）</title>
+<rect class="bar f-violet" x="79" y="3268.2" width="14" height="239.2" rx="3"/>
+<circle class="photo-ring" cx="123" cy="3275.7" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAABQYHBAED/8QAGAEAAwEBAAAAAAAAAAAAAAAAAQIEBQP/2gAMAwEAAhADEAAAAbGpNk6UpbCM1y2UMsju9cXunt08DjeCOxaFHPDSN2aiz4f7su9nSivZM7ir4lP/xAAfEAACAwACAwEBAAAAAAAAAAACAwEEBQARBhATFDT/2gAIAQEAAQUC55JcbXSs2uaFVk8zGz8/Xk5d20tKmkdWx88J7rV315ACYYwxAK7DgcL+X15ToqEmlDBpLXNjNBS6vNPbIifHfM135rF+zFfQRJAeTtSMwcxIv511Is+tHQUarN2Oo//EABwRAAICAgMAAAAAAAAAAAAAAAECABEDIRASMf/aAAgBAwEBPwFRcGNK3D7Mb9GuNlBSxGNm+GOpc//EABwRAAICAwEBAAAAAAAAAAAAAAACAREDEkEQIf/aAAgBAgEBPwFpo3eZtfMibLRix09ScIEj6SvD/8QALBAAAQMBBgUCBwAAAAAAAAAAAQACAxEEEBIhMUETIjJRYRSxM0JSgZHB0f/aAAgBAQAGPwJRxQGj5TmfAW8juw2VMDfujZ5PiRe217Q3WNnum4GZuzzCdIYozh8I2iSPCODhyBprfC9/U/kGWq59E6zenrxB1VFFph2pfFZ2UkfHJjeO3hNkaS+A79vBRo44afhNjjlbLTUg3GKyco+vcou37oPOcT+sftRxxMAiLKF4GT8SLA4iSPcbrgWwkj5ZP7dzLldVh0TbK7qjkxMPhR2sCscgzQIX/8QAIxAAAgIBAwQDAQAAAAAAAAAAAREAITFBUWEQcYGxkcHR8P/aAAgBAQABPyGN35uDMu7EdSocLEWYA1Zw3FQdtnlD0v1dPFsQ6ByCwfAzL8kAwSH8oIoZtwbDPmHoiu0BbB+ouoTFBOG3aFOwXb9gBiKvAdYY5mtklQEW3uVuJQXxNDBeOxZHdxDL4GPLMMLKmj6m0vhJygRiVhx/YS524qGPj3CK3TEmhm+niyON3eLozkQeEO6iYDMTp5h31LkWx4NxBZ32OCPuNnbzP//aAAwDAQACAAMAAAAQb0L4mZrOQ//EABsRAQEBAAIDAAAAAAAAAAAAAAEAESExQVHw/9oACAEDAQE/EFbnjmPjvkAQTB8yQKdQuJ4k0bHAfd//xAAYEQEBAQEBAAAAAAAAAAAAAAABABEhQf/aAAgBAgEBPxAR25gZs7nYmjgPsGAhr2IPIdV5f//EACEQAQACAgIDAQADAAAAAAAAAAERIQAxQVFhcYGREKHB/9oACAEBAAE/EMKcrFpvgoP3A9F5X06xUSoYCPFXjAhBhDUFuIq+sWTktUGUgkVnbAL8zbzlTnQWJPzCTzEpGYE2zLD+qUAL4RGHw1GKsnBcbxgQtuNvzAjCIzIigGsRKbBDx06TPpgh4YwaJh8oxb/hEgoagEh0prGoJ6wiTTvxaKw70mt5YlFE6MpmAFzlnfgn2wMx7x7yQWmBPYl1879ZeZzZKu2+Z5woJ+QaB5PpJkP8OVJtFk44ZUay3ZrHxqWKRPnDNUxIcw8oPZOZxY8vk33HnIKv9wc13m6YMBnNhtHh1ON8pBXBBfID29Y/gWBQE7qz9ZLOKAN3X+mf/9k=" x="108" y="3260.7" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="3280.5"><tspan class="name">黒田東彦</tspan><tspan class="yrs" dx="6">2013–2023</tspan></text>
+</g>
+<g class="term c-a" data-id="a31" data-person="a:植田和男">
+<title>第32代日本銀行総裁 植田和男　2023年4月9日 〜 在任中（在任 1,308日（2026年11月7日時点））</title>
+<linearGradient id="tl-g-a31" gradientUnits="userSpaceOnUse" x1="0" y1="3572.4" x2="0" y2="3594.4"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M79 3512.5Q79 3509.5 82 3509.5H90Q93 3509.5 93 3512.5V3594.4Q93 3594.4 93 3594.4H79Q79 3594.4 79 3594.4Z" fill="url(#tl-g-a31)"/>
+<circle class="photo-ring" cx="123" cy="3517" r="16"/>
+<image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAwADADASIAAhEBAxEB/8QAGgABAQADAQEAAAAAAAAAAAAABQYCBAcAA//EABgBAAMBAQAAAAAAAAAAAAAAAAIEBQMB/9oADAMBAAIQAxAAAAG+hLiFiUCevQLNDiG3IVSJ4TpRTa1akFkL6aRnsk+TfHX1rk/qoc8/mbqvM+tJ7//EACAQAAICAgMBAAMAAAAAAAAAAAMEAQIABQYSExEUISP/2gAIAQEAAQUC6VzmBfNDi4IuaC/MLQH5PWmT2zlYJMvx4XTWAsf0dam1bekR2tjrUd1Pg8sSQSuGtjuX/nstga8aBmlGBdlmWB2rPtVMWwMSAVavGEmJxZ1d/Rnb8cG8q8Pcp+4v18rPW+qn5sN+Lzuhfq8dhe4//8QAHREAAgICAwEAAAAAAAAAAAAAAAECEQMhEhQiI//aAAgBAwEBPwGSbi6IY6ijSO0uWhVPZlmrZQpySoh9V6P/xAAeEQACAQQDAQAAAAAAAAAAAAAAAQIDBBESEyExQf/aAAgBAgEBPwG3xyIc8yZcLvJSsJxW0hLX06rQaNh04s4IU24r6f/EAC4QAAEDAgQEBAYDAAAAAAAAAAEAAgMRIQQSMTITIkFRM2FxoRAUQlKBgpHB0f/aAAgBAQAGPwLaP4UcLQAZH39AjipRmbHYV7/AThoa42d5raFv9kDq9u3+1G1oqTzFFtJafa9ZImcxc1ubN1r2VnX9Fs91NUEsFGct8rl1A8kJBGXN60Oi4rgKx82mq8J2X1R4Dixo7alSYXE+FiLV7O6FfLYl2U/SejgqRSvH7VTWCjnnz1Ky8R7ZZLAvGipIFUGyIxd5ouW249iFh34cOiIqDmvdNixUdLjMP8THYRzmuhNmHQq4WXoVHelTRYct2vjr+VASaDOKlOJcOFoHBf/EACMQAQACAgIBBAMBAAAAAAAAAAEAESExQVFxYYGxwZGh4fD/2gAIAQEAAT8hwzcYShvN81C4ID59/aAMmPE6NKsHi/WFz8cFN/wnDW65rL8CKLFbYsom7oTyMwsiQLEcMWPjCMzJvvpKtn4BgXT7MWIMFOkVl/UezmFiVLUtdeYgmmmaNnrOpdV+SK1rt/2ZqFtEfrLPFclD7M5CHYWN5otDFZK/UMuB3c3ZWoxrj7ltfob8S6FJ1mHb3YyjE7j35DAw3XPq1en+xtXZLm7wXxKCixZ8Qt+Gvan6l9pEGwub5jvL+p//2gAMAwEAAgADAAAAEPmOC1cju6//xAAbEQEAAgMBAQAAAAAAAAAAAAABABEhMUFRkf/aAAgBAwEBPxAw2ggdxyhyUkGOsRUcSiEPEpBxFZ18n//EAB4RAQACAgEFAAAAAAAAAAAAAAEAETFBIVFhodHw/9oACAECAQE/EMlgjI1GC9xilKcHuNc0iiGk+89orDOQS440CwddavU//8QAIhABAQACAgMAAgMBAAAAAAAAAREAITFBUWGBcZGhscHw/9oACAEBAAE/EC2rvwwqU2YQ0Pqv1wvlSUTbHp/LmozGl5GOBnwukh4PD4Z4xKkutcDqt6zKlaEMSQ61A5D7hHolRVf+MfzAU2dZUPFfmQkZBFLyDV5/WBcmdEPTH5l6/wB4iiEAo1tmwsdSfglbIONch6wBXox7pVtLNEmdMyHEg+bG71DEMoGSb0aSecnJ9DRjVnHkDjy5y4cTiXm87H2e8ruylFUHoTROTKFN3Orxtn5ExYzEtOVI+IBWOK4kkDJ1YruCmrdZdWkAn+94AuRdJPWLG4UDUqeFDTre9YxUcuPicAfRPmEytEIg7Q/ATZhx2ECqFODzRfLnDwMOoX/HL2m6CK+4U/Z4KqD6WH3EMaQYUlX2hrh8w9iIUvcxh2gTG1OeC9TvP//Z" x="108" y="3502" width="30" height="30" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>
+<text class="label" x="144" y="3521.8"><tspan class="name">植田和男</tspan><tspan class="yrs" dx="6">2023–</tspan></text>
+</g>
+<text class="foot" x="380" y="3654" text-anchor="middle">出典：日本銀行「歴代総裁」、日本銀行「総裁：植田和男」（履歴）、日本銀行『日本銀行百年史』資料編 I．年表（第6巻第6章該当分）、コトバンク（20世紀日本人名事典・デジタル版 日本人名大辞典+Plus・日本大百科全書など）、日本語版 Wikipedia「日本銀行」（歴代日本銀行総裁）と各人物の記事、Wikidata（各人物の項目）　2026年11月7日時点</text>
+</svg>

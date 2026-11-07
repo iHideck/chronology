@@ -20,6 +20,8 @@
 | 政治と首脳 | [ドイツの首脳](https://ihideck.github.io/chronology/germany-leaders/) | 1867年〜現在 | 40 | [germany-leaders/](germany-leaders/) |
 | 政治と首脳 | [イタリアの首相](https://ihideck.github.io/chronology/italy-prime-ministers/) | 1861年〜現在 | 88 | [italy-prime-ministers/](italy-prime-ministers/) |
 | 政治と首脳 | [自由民主党総裁](https://ihideck.github.io/chronology/ldp-presidents/) | 1956年〜現在 | 29 | [ldp-presidents/](ldp-presidents/) |
+| 政治と首脳 | [歴代日本銀行総裁](https://ihideck.github.io/chronology/boj-governors/) | 1882年〜現在 | 32 | [boj-governors/](boj-governors/) |
+| 政治と首脳 | [日本銀行総裁と政策金利](https://ihideck.github.io/chronology/policy-rates/) | 1882年〜2026年 | 214 | [policy-rates/](policy-rates/) |
 | 政治と首脳 | [国政選挙と投票率](https://ihideck.github.io/chronology/elections/) | 1946年〜現在 | 57 | [elections/](elections/) |
 | 政治と首脳 | [選挙制度の変更（1945年〜）](https://ihideck.github.io/chronology/electoral-reforms/) | 1945年〜2018年 | 15 | [electoral-reforms/](electoral-reforms/) |
 | 政治と首脳 | [内閣支持率と総理大臣](https://ihideck.github.io/chronology/cabinet-approval/) | 2004年〜2026年 | 265 | [cabinet-approval/](cabinet-approval/) |

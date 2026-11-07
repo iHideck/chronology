@@ -1,0 +1,2362 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='6' y='3' width='8' height='26' rx='2' fill='%23d4452c'/%3E%3Crect x='18' y='9' width='8' height='20' rx='2' fill='%232c5aa0'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="日本銀行総裁と政策金利">
+<meta property="og:description" content="1882年の開業から今日まで、日本銀行の総裁と政策金利（公定歩合と短期金利の誘導目標）を、総理大臣と景気の波と同じ時間軸に並べた年表">
+<meta property="og:url" content="https://ihideck.github.io/chronology/policy-rates/">
+<style>body{margin:0}[hidden]{display:none!important}</style>
+<title>日本銀行総裁と政策金利</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="1882年の開業から今日まで、日本銀行の総裁と政策金利（公定歩合と短期金利の誘導目標）を、総理大臣と景気の波と同じ時間軸に並べた年表">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Shippori+Mincho+B1:wght@700;800&display=swap">
+<style>
+/* 中央（または左端）に西暦と時代の背骨を通し、その左右に列を吊るす。時間は上から下へ一定の縮尺で流れる。 */
+:root {
+  --paper: #fcfcfd;
+  --raise: #ffffff;
+  --ink: #1c2029;
+  --ink2: #4b5260;
+  --muted: #687080;
+  --rule: #e8eaef;
+  --rule2: #c3c8d2;
+  --spine-a: #f0f1f5;
+  --spine-b: #e6e8ef;
+  --red: #d4452c;
+  --blue: #2c5aa0;
+  --amber: #b8730f;
+  --violet: #7a4fc4;
+  --green: #138a60;
+  --teal: #00897b;
+  --gray: #9aa0ab;
+  --shadow: rgba(20, 24, 33, 0.12);
+  --font-body: "BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", sans-serif;
+  --font-display: "Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "Noto Serif JP", serif;
+  --measure: 820px;
+  --chart: 1300px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #14171f;
+    --raise: #1c2029;
+    --ink: #e6e8ee;
+    --ink2: #b2b8c4;
+    --muted: #8d94a3;
+    --rule: #232833;
+    --rule2: #3d4452;
+    --spine-a: #1b1f29;
+    --spine-b: #222733;
+    --red: #e5604a;
+    --blue: #678bd2;
+    --amber: #c98500;
+    --violet: #9085e9;
+    --green: #199e70;
+    --teal: #1f9fa1;
+    --gray: #6b7280;
+    --shadow: rgba(0, 0, 0, 0.45);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #14171f;
+  --raise: #1c2029;
+  --ink: #e6e8ee;
+  --ink2: #b2b8c4;
+  --muted: #8d94a3;
+  --rule: #232833;
+  --rule2: #3d4452;
+  --spine-a: #1b1f29;
+  --spine-b: #222733;
+  --red: #e5604a;
+  --blue: #678bd2;
+  --amber: #c98500;
+  --violet: #9085e9;
+  --green: #199e70;
+  --teal: #1f9fa1;
+  --gray: #6b7280;
+  --shadow: rgba(0, 0, 0, 0.45);
+  color-scheme: dark;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-text-size-adjust: 100%;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px);
+  z-index: 10;
+  background: var(--paper);
+}
+
+.wrap {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  box-sizing: content-box;
+}
+.wrap.wide { max-width: var(--chart); }
+
+/* 見出し */
+.masthead { padding-block: 28px 22px; display: grid; gap: 10px; }
+.crumb { margin: 0; font-size: 13px; }
+.crumb a { color: var(--muted); text-decoration: none; }
+.crumb a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+.masthead h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(27px, 4.6vw, 40px);
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  text-wrap: balance;
+}
+.lede { margin: 0; max-width: 38em; color: var(--ink2); overflow-wrap: anywhere; }
+.facts {
+  margin: 4px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 22px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.facts b { color: var(--ink); font-weight: 700; margin-right: 6px; }
+
+/* 追従する読み取り欄 */
+.dock {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 5;
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+}
+.dock-in {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas: "when who jump";
+  align-items: center;
+  gap: 6px 20px;
+  padding-block: 10px;
+}
+.when { grid-area: when; }
+.whos { grid-area: who; }
+.jump { grid-area: jump; }
+.whos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 18px;
+  min-width: 0;
+}
+.when { display: flex; align-items: baseline; gap: 8px; min-width: 9.6em; }
+.when b { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.when span { font-size: 13px; color: var(--muted); white-space: nowrap; }
+.who { display: flex; align-items: baseline; gap: 7px; min-width: 0; }
+.who i {
+  display: inline-block;
+  width: 5px;
+  height: 14px;
+  border-radius: 2px;
+  align-self: center;
+  flex: none;
+}
+.who .role { font-size: 12px; color: var(--muted); flex: none; }
+.who b { font-size: 15px; font-weight: 700; overflow-wrap: anywhere; }
+.who b.none { font-weight: 400; color: var(--muted); }
+
+.jump { display: flex; gap: 2px; flex-wrap: wrap; justify-content: flex-end; }
+.jump button {
+  font: 700 15px/1 var(--font-display);
+  color: var(--ink2);
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  padding: 7px 9px;
+  cursor: pointer;
+}
+.jump.many button { font-size: 13.5px; padding: 6px 7px; }
+.jump button:hover { background: var(--spine-a); color: var(--ink); }
+.jump button[aria-current="true"] { background: var(--spine-b); color: var(--ink); }
+.jump button:focus-visible, .table-view summary:focus-visible, a:focus-visible, .picker button:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+@media (max-width: 720px) {
+  .dock-in {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: "when jump" "who who";
+    padding-block: 8px;
+  }
+  .when { min-width: 0; }
+  .jump button { padding: 7px 8px; }
+  .jump .rest { display: none; }
+  .jump.many { flex-wrap: nowrap; overflow-x: auto; max-width: 52vw; scrollbar-width: none; }
+  .whos { gap: 0 14px; }
+  .who b { font-size: 14px; }
+}
+
+/* 列の切り替え */
+.picker { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 16px 0 0; font-size: 13px; }
+.picker > span { color: var(--muted); margin-right: 4px; }
+.picker button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font: inherit;
+  color: var(--ink2);
+  background: transparent;
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+  padding: 4px 12px 4px 10px;
+  cursor: pointer;
+}
+.picker button i { width: 5px; height: 13px; border-radius: 2px; }
+.picker button[aria-pressed="false"] { color: var(--muted); border-style: dashed; }
+.picker button[aria-pressed="false"] i { opacity: 0.25; }
+.picker button:hover { background: var(--spine-a); color: var(--ink); }
+
+/* 凡例 */
+.legend { margin: 12px 0 0; display: grid; gap: 4px; font-size: 12.5px; color: var(--ink2); }
+.legend-row { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
+.legend-row .k { color: var(--muted); }
+.legend-row i { display: inline-block; width: 11px; height: 11px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.legend-row i.shape-circle { border-radius: 50%; }
+.legend-row i.shape-diamond { border-radius: 1px; transform: rotate(45deg) scale(0.8); }
+
+/* 年表 */
+.how { margin: 14px 0 6px; font-size: 13px; color: var(--muted); }
+.chart { margin: 0 auto; padding-block: 4px 8px; }
+.chart svg { display: block; width: 100%; height: auto; touch-action: pan-y; }
+
+.tl .term { transition: opacity 0.15s ease; }
+.tl.has-focus .term { opacity: 0.18; }
+.tl.has-focus .term.is-focus, .tl.has-focus .term.is-counter { opacity: 1; }
+.tl .term.is-focus .name, .tl .term.is-now .name { font-weight: 700; }
+.tl .term:focus { outline: none; }
+.tl .term:focus-visible .bar, .tl .term:focus-visible .bar-open, .tl .term:focus-visible .bar-lead, .tl .term:focus-visible .dot, .tl .term:focus-visible .bar-hatch, .tl .term:focus-visible .mark { stroke: var(--ink); stroke-width: 2; }
+.tl .term.is-now .mark { stroke: var(--ink); }
+.tl .term.is-now .mark.quiet, .tl .term.is-focus .mark.quiet { opacity: 1; }
+.tl .xhair { pointer-events: none; }
+.tl .xhair-line { stroke: var(--ink); stroke-width: 1; opacity: 0.45; }
+.tl .xhair-dot { stroke: var(--paper); stroke-width: 2; }
+@media (prefers-reduced-motion: reduce) { .tl .term { transition: none; } }
+
+/* ツールチップ */
+.tip {
+  position: fixed;
+  z-index: 20;
+  max-width: min(320px, calc(100vw - 32px));
+  padding: 12px 14px;
+  background: var(--raise);
+  color: var(--ink);
+  border: 1px solid var(--rule2);
+  border-radius: 10px;
+  box-shadow: 0 6px 24px var(--shadow);
+  font-size: 13px;
+  line-height: 1.6;
+  pointer-events: none;
+}
+.tip.pinned { pointer-events: auto; }
+.tip p { margin: 0; }
+.tip .head { display: flex; gap: 12px; align-items: center; margin-bottom: 2px; }
+.tip .head img { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex: none; background: var(--spine-b); }
+.tip .kicker { display: flex; align-items: center; gap: 7px; color: var(--muted); font-size: 12px; }
+.tip .kicker i { width: 5px; height: 13px; border-radius: 2px; flex: none; }
+.tip .name { font-size: 17px; font-weight: 700; margin: 2px 0 2px; line-height: 1.4; }
+.tip .reading { font-size: 12px; color: var(--muted); }
+.tip .dates { font-variant-numeric: tabular-nums; }
+.tip .days { color: var(--ink2); }
+.tip .detail { color: var(--ink2); }
+.tip .detail span { color: var(--muted); margin-right: 6px; }
+.tip .with { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--rule); color: var(--ink2); }
+.tip .with + .with { margin-top: 4px; padding-top: 0; border-top: 0; }
+.tip .with span { display: block; color: var(--muted); font-size: 12px; }
+.tip .more { margin-top: 8px; font-size: 12px; }
+.tip .more a { color: var(--blue); text-underline-offset: 3px; }
+.tip .credit { margin-top: 6px; font-size: 11px; color: var(--muted); }
+
+/* 一覧表 */
+.table-view { margin: 28px 0 0; border-top: 1px solid var(--rule); padding-block: 18px 6px; }
+.table-view summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+  width: fit-content;
+  border-radius: 4px;
+}
+.tables { display: grid; gap: 32px; margin-top: 16px; }
+.tables section { min-width: 0; }
+.tables h2 { font-size: 15px; margin: 0 0 8px; display: flex; align-items: center; gap: 8px; }
+.tables h2 i { width: 5px; height: 15px; border-radius: 2px; }
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.45; font-variant-numeric: tabular-nums; }
+th, td { padding: 6px 10px; text-align: left; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+td.wrap-cell { white-space: normal; min-width: 14em; }
+th { font-weight: 700; color: var(--muted); font-size: 12px; position: sticky; top: 0; background: var(--paper); }
+td.num, th.num { text-align: right; }
+td img { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; vertical-align: middle; background: var(--spine-b); }
+tr.cont td { color: var(--muted); }
+
+/* 注記 */
+/* 下に余白を取り、年表の最後まで横線の位置に持ってこられるようにする */
+.notes { margin: 26px 0 0; padding-block: 18px max(48px, 38vh); border-top: 1px solid var(--rule); font-size: 13px; color: var(--ink2); overflow-wrap: anywhere; }
+.notes ul { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
+.notes p { margin: 12px 0 0; color: var(--muted); }
+.notes a { color: inherit; text-underline-offset: 3px; }
+</style>
+</head>
+<body>
+<header class="wrap wide masthead">
+  <p class="crumb"><a href="../">← 年表の一覧</a></p>
+  <h1>日本銀行総裁と政策金利</h1>
+  <p class="lede">日本銀行が開業した1882年から今日までの、歴代総裁と政策金利を、総理大臣と景気の波と同じ時間軸に並べた年表です。金利は、変わった日から次に変わる日まで同じ高さの線で描いています。1990年代半ばまでは公定歩合の上げ下げが金融政策の中心で、その後は短期の市場金利（無担保コールレート）を目標にするようになり、1998年からは数字の誘導目標を示しています。ゼロ金利、量的緩和、マイナス金利を経て、2024年からは利上げが続いています。</p>
+  <ul class="facts" id="facts"></ul>
+</header>
+
+<div class="dock" id="dock">
+  <div class="wrap wide dock-in">
+    <div class="when"><b id="r-date"></b><span id="r-sub"></span></div>
+    <div class="whos" id="whos"></div>
+    <nav class="jump" id="jump" aria-label="時代の始まりへ移動"></nav>
+  </div>
+</div>
+
+<main class="wrap wide">
+  <div class="picker" id="picker" hidden></div>
+  <div class="legend" id="legend" hidden></div>
+  <p class="how">線や棒にカーソルを合わせる（スマホではタップする）と、その金利が続いた期間と決めた内容や、総裁・総理の在任期間が表示されます。上の欄には、横線の位置の総裁・総理と、その日の金利が出ます。</p>
+  <div class="chart" id="chart"></div>
+
+  <details class="table-view" id="table-view">
+    <summary>一覧表で見る</summary>
+    <div class="tables" id="tables"></div>
+  </details>
+
+  <footer class="notes">
+    <ul><li>金利は、変わった日から次に変わる日まで同じ高さの線で描いた。誘導目標の線が途切れているところは、金利の目標がなかった時期（量的緩和など）。</li>
+      <li>1行に1回の変更。日付は、その金利が効き始めた日（実施日）。決定日は、決めた日（政策委員会・金融政策決定会合）が実施日と違うときだけ書いた。</li>
+      <li>公定歩合は、日本銀行の時系列統計（日次）で値が変わった日と、その値。1906年5月までは本店の、1906年7月からは全店の商業手形割引歩合（1910年3月6日までは当所割引歩合と他所割引歩合が分かれていて、当所割引歩合）、1969年9月からは商業手形の割引歩合と国債などを担保とする貸付の利子歩合を同じにした率、2001年1月4日からは基準割引率および基準貸付利率。2006年7月以降の公表文は、補完貸付の金利である「基準貸付利率」と呼んでいる。</li>
+      <li>1969年8月までは、公定歩合を日歩（元金100円あたり1日の利息。銭・厘・毛）で決めていた。金利（%）は、時系列統計にある年利の換算値（日歩×365。例：日歩2銭＝年7.30%）で、決めた日歩は内容に書いた。1969年9月1日からは年利で決めている。</li>
+      <li>公定歩合の値と日付は、時系列統計を『日本銀行百年史』の公定歩合の表（1882〜1972年）と、日本銀行の公表データの CSV（1955年〜）で照らし合わせ、すべて一致した。1973年以降の変更は、日本銀行の公表文で決定日と実施日を確かめた。1972年までは決定日を確かめていないので、決定日を空にした。</li>
+      <li>短期金利の誘導目標は、日本銀行が金融市場調節方針で示した無担保コールレート（オーバーナイト物）の目標。2016年2月16日から2024年3月20日までは、日本銀行当座預金のうち政策金利残高に付けた▲0.1%のマイナス金利（2016年9月21日からは、長短金利操作付き量的・質的金融緩和の短期金利の目標）。</li>
+      <li>誘導目標は、数字の目標を初めて示した1998年9月9日から。1995年7月から1998年9月までは、短期の市場金利を公定歩合を下回る水準に促す方針で、数字の目標はなかった。</li>
+      <li>「0〜0.1%程度」のように範囲で示した目標は、範囲の真ん中（0.05%）にし、元の文言を内容に書いた。「概ねゼロ%」は0%にした。1999年2月12日の「できるだけ低めに」は、公表文にある当初の目標の0.15%にした（その後の公表文は、この方針を「ゼロ金利政策」と呼んでいる）。</li>
+      <li>2001年3月19日から2006年3月8日まで（量的緩和政策。目標は日本銀行当座預金残高）と、2013年4月4日から2016年2月15日まで（量的・質的金融緩和。目標はマネタリーベース）は、金利の目標がなかった。それぞれの始まりの日に、金利を空にした誘導目標の行を置いた。</li>
+      <li>誘導目標の実施日は、2024年3月以降は公表文が「翌営業日から適用」と定めた日。それより前は、公表文に適用日の定めがないか「公表後直ちに実施」なので、決定日にした。マイナス金利は、公表文のとおり2016年2月16日からの準備預金の積み期間から。</li>
+      <li>2026年10月30日の金融政策決定会合（据え置き）までの決定を含む。</li>
+      <li>ほかの列の定義・注記・出典は、それぞれの年表に載せています：<a href="../boj-governors/">歴代日本銀行総裁</a>、<a href="../business-cycles/">日本の景気循環</a>、<a href="../prime-ministers/">歴代総理大臣と世界の首脳</a></li></ul>
+    <p>出典：<a href="https://www.stat-search.boj.or.jp/api/v1/getDataCode?format=csv&amp;lang=jp&amp;db=IR01&amp;code=MADR1Z@D" target="_blank" rel="noopener">日本銀行 時系列統計データ検索サイト「基準割引率および基準貸付利率（従来「公定歩合」として掲載されていたもの）の推移」（IR01、日次。API で取得）</a>、<a href="https://www.boj.or.jp/statistics/boj/other/discount/index.htm" target="_blank" rel="noopener">日本銀行「基準割引率および基準貸付利率（従来「公定歩合」として掲載されていたもの）の推移」（公表データの CSV。1955年〜）</a>、<a href="https://www.boj.or.jp/about/outline/history/hyakunen/data/hyakus_3_3.pdf" target="_blank" rel="noopener">日本銀行『日本銀行百年史』資料編 III．統計「7. 公定歩合」（1882〜1983年）</a>、<a href="https://www.boj.or.jp/mopo/mpmdeci/state_all/index.htm" target="_blank" rel="noopener">日本銀行「金融市場調節方針に関する公表文」（1973年以降の公定歩合の変更と、金融政策決定会合の公表文）</a></p>
+    <p>肖像：Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています</p>
+    <p>総理大臣の顔写真：「歴代内閣」（首相官邸ホームページ）（https://www.kantei.go.jp/jp/rekidainaikaku/index.html）を加工して作成（円形に切り抜き・縮小）（<a href="https://www.digital.go.jp/resources/open_data/public_data_license_v1.0" target="_blank" rel="noopener">公共データ利用規約（第1.0版）</a>）</p>
+    <p>データと作り方：<a href="https://github.com/iHideck/chronology/tree/main/policy-rates" target="_blank" rel="noopener">GitHub（iHideck/chronology）</a></p>
+  </footer>
+</main>
+
+<div class="tip" id="tip" role="tooltip" hidden></div>
+
+<script type="module">
+// 年表のデータ整形・レイアウト・SVG描画。
+// build.mjs（README 用の静的SVGの生成）と、各年表の index.html（ブラウザでの描画）の両方がこのファイルを使う。
+// 時間は上から下へ一定の縮尺で流れる。中央（または左端）に西暦と時代の帯を通し、その左右に列を並べる。
+
+export const DAY = 86400000;
+export const YEAR = 365.2425 * DAY;
+
+// ---------------------------------------------------------------- 日付
+
+// 日付は "YYYY-MM-DD"・"YYYY-MM"・"YYYY" のどれか（年は4桁以上）。紀元前は負の年で書く（紀元前221年 → "-0221"。0年はない）。
+// 1582年10月15日より前はユリウス暦、それ以後はグレゴリオ暦の日付として読む（日本史・世界史の慣例どおり）。
+const EPOCH_JDN = 2440588; // 1970年1月1日のユリウス通日
+const GREGORIAN_JDN = 2299161; // グレゴリオ暦の始まり（1582年10月15日）
+
+export function parseDate(s) {
+  const m = /^(-?)(\d{4,6})(?:-(\d{2})(?:-(\d{2}))?)?$/.exec(String(s ?? '').trim());
+  if (!m) return null;
+  const year = Number(m[2]);
+  if (m[1] && year === 0) return null;
+  const mo = m[3] ? Number(m[3]) : 1;
+  const d = m[4] ? Number(m[4]) : 1;
+  if (mo < 1 || mo > 12 || d < 1 || d > 31) return null;
+  // y は天文学的な年（紀元前1年 = 0、紀元前2年 = -1）
+  return { y: m[1] ? 1 - year : year, m: mo, d, prec: m[4] ? 'd' : m[3] ? 'm' : 'y' };
+}
+
+function toJdn(y, m, d) {
+  const a = Math.floor((14 - m) / 12);
+  const yy = y + 4800 - a;
+  const mm = m + 12 * a - 3;
+  const base = d + Math.floor((153 * mm + 2) / 5) + 365 * yy + Math.floor(yy / 4);
+  const gregorian = y > 1582 || (y === 1582 && (m > 10 || (m === 10 && d >= 15)));
+  return gregorian ? base - Math.floor(yy / 100) + Math.floor(yy / 400) - 32045 : base - 32083;
+}
+
+function fromJdn(j) {
+  let f = j + 1401;
+  if (j >= GREGORIAN_JDN) f += Math.floor((Math.floor((4 * j + 274277) / 146097) * 3) / 4) - 38;
+  const e = 4 * f + 3;
+  const h = 5 * Math.floor((e % 1461) / 4) + 2;
+  const d = Math.floor((h % 153) / 5) + 1;
+  const m = ((Math.floor(h / 153) + 2) % 12) + 1;
+  return { y: Math.floor(e / 1461) - 4716 + Math.floor((14 - m) / 12), m, d };
+}
+
+export const fromYMD = (y, m = 1, d = 1) => (toJdn(y, m, d) - EPOCH_JDN) * DAY;
+
+// end を付けると、年・月までしかない日付はその期間の終わり（翌年・翌月の初め）にする
+export function toTime(s, end = false) {
+  const p = parseDate(s);
+  if (!p) return NaN;
+  if (end && p.prec === 'y') return fromYMD(p.y + 1);
+  if (end && p.prec === 'm') return p.m === 12 ? fromYMD(p.y + 1) : fromYMD(p.y, p.m + 1);
+  return fromYMD(p.y, p.m, p.d);
+}
+
+export function ymd(t) {
+  return fromJdn(Math.floor(t / DAY) + EPOCH_JDN);
+}
+
+// 西暦の年の表記。紀元前は「紀元前」、狭いところでは「前」を付ける
+export const yearText = (y) => (y <= 0 ? `紀元前${1 - y}` : `${y}`);
+export const yearShort = (y) => (y <= 0 ? `前${1 - y}` : `${y}`);
+
+export function fmtDate(t) {
+  const { y, m, d } = ymd(t);
+  return `${yearText(y)}年${m}月${d}日`;
+}
+
+export function fmtDot(t) {
+  const { y, m, d } = ymd(t);
+  return `${yearShort(y)}.${m}.${d}`;
+}
+
+// データに書かれた精度のまま表す（"1543" → "1543年"、"1543-03" → "1543年3月"）
+export function fmtStr(s) {
+  const p = parseDate(s);
+  if (!p) return String(s ?? '');
+  const y = `${yearText(p.y)}年`;
+  return p.prec === 'y' ? y : p.prec === 'm' ? `${y}${p.m}月` : `${y}${p.m}月${p.d}日`;
+}
+
+// 整数の部分を3桁ずつ区切る（小数の部分は区切らない）
+export function fmtNum(n) {
+  const [int, frac] = String(n).split('.');
+  return `${int.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}${frac == null ? '' : `.${frac}`}`;
+}
+
+// 西暦の日付を和暦（元号＋年）に。eras は開始順の元号。
+// retro を付けると、最初の元号より前の日付もその元号の元年として扱う（明治改元より前の1868年を明治元年とする、など）。
+export function wareki(t, eras, retro = false) {
+  let era = null;
+  for (const e of eras) if (e.start <= t) era = e;
+  if (!era && retro) era = eras[0];
+  if (!era || (era.end != null && t >= era.end && era !== eras[eras.length - 1])) return null;
+  const year = Math.max(1, ymd(t).y - ymd(era.start).y + 1);
+  return { era: era.name, year, text: `${era.name}${year === 1 ? '元' : year}年` };
+}
+
+// ---------------------------------------------------------------- CSV
+
+// 引用符（"…"）で囲んだ値の中のカンマ・改行・二重引用符（""）にも対応する
+export function parseCSV(text) {
+  const s = text.replace(/^﻿/, '');
+  const lines = [];
+  let row = [];
+  let cell = '';
+  let quoted = false;
+  for (let i = 0; i < s.length; i += 1) {
+    const ch = s[i];
+    if (quoted) {
+      if (ch === '"' && s[i + 1] === '"') { cell += '"'; i += 1; } else if (ch === '"') quoted = false; else cell += ch;
+    } else if (ch === '"') {
+      quoted = true;
+    } else if (ch === ',') {
+      row.push(cell);
+      cell = '';
+    } else if (ch === '\n' || ch === '\r') {
+      if (ch === '\r' && s[i + 1] === '\n') i += 1;
+      row.push(cell);
+      lines.push(row);
+      row = [];
+      cell = '';
+    } else {
+      cell += ch;
+    }
+  }
+  if (cell !== '' || row.length) { row.push(cell); lines.push(row); }
+  const rows = lines.filter((r) => r.some((c) => c.trim() !== ''));
+  const head = rows[0].map((h) => h.trim());
+  return rows.slice(1).map((cells) => {
+    const r = {};
+    head.forEach((h, i) => { r[h] = (cells[i] ?? '').trim(); });
+    return r;
+  });
+}
+
+// ---------------------------------------------------------------- 項目
+
+const ONGOING = new Set(['継続中', '在任中', '現在']);
+
+// CSV の列の役割。chronology.json の data.columns で列名を変えられる。
+export const DEFAULT_COLUMNS = { name: '名前', start: '開始日', end: '終了日' };
+
+// 写真の小さい版（48px）の場所。どの写真にもあることを build.mjs が確かめる。埋め込んだ画像（data:）はそのまま返す
+const SMALL_PHOTO_PX = 48;
+export const smallPhoto = (path) => (path.startsWith('data:') ? path : path.replace(/([^/]+)$/, 'small/$1'));
+
+// CSV の行を年表の項目にする。spec は chronology.json の data、base は写真のパスの前に付けるディレクトリ。
+// 同じ人が続けて務めた行（例：吉田茂の第48〜51代）は、spec.merge があれば1本にまとめる。
+// 年・月までの終了日はふつうその期間の終わりまでとするが、spec.endAt が "start" なら初めで区切る
+// （時代区分の「奈良 〜794年」「平安 794年〜」のように、終わりの年が次の始まりの年と同じ書き方のデータ向け）。
+// 観測値のデータ（spec.series）は、1行を「その日（年・月）の値」とし、名前の列と終了日の列を持たない。
+export function makeItems(rows, spec, asOfT, base = '') {
+  const C = { ...DEFAULT_COLUMNS, ...spec.columns };
+  const roles = new Set(Object.values(C));
+  const hidden = new Set(spec.hidden ?? []);
+  const items = [];
+  for (const r of rows) {
+    const name = spec.series ? fmtStr(r[C.start]) : r[C.name];
+    const endStr = r[C.end] ?? '';
+    const point = endStr === '' && !!spec.points;
+    const ongoing = !point && (endStr === '' || ONGOING.has(endStr));
+    const start = toTime(r[C.start]);
+    const end = point ? start : ongoing ? Math.max(asOfT, start) : toTime(endStr, spec.endAt !== 'start');
+    const ord = C.ordinal && r[C.ordinal] !== '' && r[C.ordinal] != null ? Number(r[C.ordinal]) : null;
+    const prev = items[items.length - 1];
+    if (spec.merge && prev && !prev.ongoing && prev.name === name && prev.end === start) {
+      Object.assign(prev, { end, endStr, ongoing, ordTo: ord ?? prev.ordTo });
+      continue;
+    }
+    const laneVal = C.lane ? r[C.lane] ?? '' : '';
+    items.push({
+      name,
+      short: (C.short && r[C.short]) || name,
+      reading: (C.reading && r[C.reading]) || '',
+      startStr: r[C.start],
+      endStr: point ? '' : endStr,
+      startPrec: parseDate(r[C.start])?.prec ?? 'd',
+      endPrec: parseDate(endStr)?.prec ?? 'd',
+      start, end, ongoing, point,
+      approx: !!(C.approx && r[C.approx]),
+      ordFrom: ord, ordTo: ord,
+      group: (C.group && r[C.group]) || '',
+      lane: laneVal === '' ? null : spec.lanes?.[laneVal] ?? (Number.isFinite(Number(laneVal)) ? Number(laneVal) : null),
+      photo: C.photo && r[C.photo] ? base + r[C.photo] : '',
+      photoCredit: (C.photoCredit && r[C.photoCredit]) || '',
+      photoUrl: (C.photoUrl && r[C.photoUrl]) || '',
+      photoLicense: (C.photoLicense && r[C.photoLicense]) || '',
+      url: (C.url && r[C.url]) || '',
+      details: Object.keys(r).filter((h) => !roles.has(h) && !hidden.has(h) && r[h] !== '').map((h) => [h, r[h]]),
+    });
+  }
+  // 観測値は、同じ区分の次の行の日まで続くものとする。区分の最後の行は時点まで続く
+  if (spec.series) {
+    const next = new Map();
+    for (let i = items.length - 1; i >= 0; i -= 1) {
+      const t = items[i];
+      const n = next.get(t.group);
+      Object.assign(t, n
+        ? { end: n.start, endStr: n.startStr, endPrec: n.startPrec, ongoing: false }
+        : { end: Math.max(asOfT, t.start), endStr: '', ongoing: true });
+      next.set(t.group, t);
+    }
+  }
+  return items;
+}
+
+// 在任日数など。総理は首相官邸の数え方（就任日と退任日を両方含む）、大統領は就任日から退任日までの日数。
+export function countDays(t, spec) {
+  return Math.round((t.end - t.start) / DAY) + (spec.days === 'inclusive' ? 1 : 0);
+}
+
+const monthsOf = (s) => { const p = parseDate(s); return p ? p.y * 12 + p.m : NaN; };
+
+// 期間の長さの文。spec.days で数え方を選ぶ（inclusive / exclusive は日数、months は月数、age は満年齢、なしは年数）
+export function durationText(t, spec, asOfT) {
+  if (t.point || t.kind === 'lead') return '';
+  const label = spec.durationLabel ?? '期間';
+  if (spec.days === 'inclusive' || spec.days === 'exclusive') {
+    return `${label} ${fmtNum(t.days)}日${t.ongoing ? `（${fmtDate(asOfT)}時点）` : ''}`;
+  }
+  if (spec.days === 'months' && !t.ongoing) {
+    return `${label} ${monthsOf(t.endStr) - monthsOf(t.startStr)}か月`;
+  }
+  if (spec.days === 'age') {
+    const a = parseDate(t.startStr);
+    const b = t.ongoing ? ymd(asOfT) : parseDate(t.endStr);
+    if (!a || !b) return '';
+    const exact = a.prec === 'd' && (t.ongoing || b.prec === 'd');
+    const age = b.y - a.y - (exact && (b.m < a.m || (b.m === a.m && b.d < a.d)) ? 1 : 0);
+    if (t.ongoing) return `存命（${age}歳）`;
+    return exact && !t.approx ? `満${age}歳で没` : `${age}歳ごろ没`;
+  }
+  const years = (t.end - t.start) / YEAR;
+  if (years < 2 && parseDate(t.startStr)?.prec === 'd') return `${label} ${fmtNum(t.days)}日`;
+  return `${label} 約${Math.max(1, Math.round(years))}年`;
+}
+
+export function ordText(t) {
+  if (t.ordFrom == null) return '';
+  return t.ordFrom === t.ordTo ? `第${t.ordFrom}代` : `第${t.ordFrom}〜${t.ordTo}代`;
+}
+
+// spec.ongoing は続いているものの呼び方（在任中・存命など）
+export function rangeText(t, spec = {}) {
+  if (t.point) return fmtStr(t.startStr);
+  const end = t.ongoing ? spec.ongoing ?? '現在' : fmtStr(t.endStr);
+  return `${fmtStr(t.startStr)} 〜 ${end}`;
+}
+
+export function yearsText(t) {
+  const a = parseDate(t.startStr)?.y ?? ymd(t.start).y;
+  if (t.point) return yearShort(a);
+  if (t.ongoing) return `${yearShort(a)}–`;
+  const b = parseDate(t.endStr)?.y ?? ymd(t.end).y;
+  return a === b ? yearShort(a) : `${yearShort(a)}–${yearShort(b)}`;
+}
+
+// その時点の項目。重なりのある列では、その時点のものをすべて返す。
+export function termsAt(col, t) {
+  const out = [];
+  for (const x of col.terms) {
+    if (x.point) continue;
+    if (x.start <= t && (t < x.end || (x.ongoing && t <= x.end))) out.push(x);
+  }
+  return out;
+}
+
+// ---------------------------------------------------------------- モデル
+
+// page は chronology.json の page、datasets はデータ名 → { spec, rows, base }。
+export function buildModel({ page, datasets, asOf }) {
+  const asOfT = toTime(asOf);
+  const cache = new Map();
+  const itemsOf = (id) => {
+    if (!cache.has(id)) {
+      const d = datasets[id];
+      if (!d) throw new Error(`データ「${id}」が見つかりません`);
+      cache.set(id, makeItems(d.rows, d.spec, asOfT, d.base ?? ''));
+    }
+    return cache.get(id);
+  };
+  const pick = (src) => {
+    let list = itemsOf(src.data);
+    if (src.group) list = list.filter((x) => [].concat(src.group).includes(x.group));
+    if (src.lane != null) list = list.filter((x) => (x.lane ?? 0) === src.lane);
+    if (src.after) list = list.filter((x) => x.start >= toTime(src.after));
+    return list;
+  };
+
+  // 範囲。指定がなければ、列の最初の項目から最後の項目（続いているものは時点）まで。
+  const all = page.columns.flatMap((c) => pick(c));
+  const range = page.range ?? {};
+  const first = Math.min(...all.map((x) => x.start));
+  const last = Math.max(...all.map((x) => (x.ongoing ? asOfT : x.end)));
+  const start = range.start ? toTime(range.start) : fromYMD(Math.floor(ymd(first).y / 10) * 10);
+  const end = (range.end ? toTime(range.end) : last) + (range.pad ?? 450) * DAY;
+
+  const byId = new Map();
+  const columns = page.columns.map((c) => {
+    const spec = datasets[c.data].spec;
+    const terms = pick(c)
+      .filter((x) => x.end > start || (x.point && x.start >= start))
+      .filter((x) => x.start < end)
+      .map((x, i) => ({ ...x, id: `${c.id}${i}`, col: c.id }));
+    const col = { ...c, spec, terms, title: c.title ?? spec.title ?? c.data, role: c.role ?? spec.role ?? '' };
+    for (const t of terms) t.days = countDays(t, spec);
+    if (c.lead) {
+      col.lead = { id: `${c.id}-lead`, col: c.id, kind: 'lead', name: c.lead.name, text: c.lead.text, start, end: toTime(c.lead.until) };
+      byId.set(col.lead.id, col.lead);
+    }
+    // 同じ人が何度か務めたときの通算
+    col.persons = new Map();
+    for (const t of terms) {
+      if (!col.persons.has(t.name)) col.persons.set(t.name, { terms: [], days: 0 });
+      const p = col.persons.get(t.name);
+      p.terms.push(t);
+      p.days += t.days;
+    }
+    if (c.chart) placeOnChart(col);
+    else assignLanes(col);
+    if (c.share) for (const t of col.terms) t.share = shareOf(c.share, t);
+    for (const t of col.terms) byId.set(t.id, t);
+    return col;
+  });
+  const colById = new Map(columns.map((c) => [c.id, c]));
+  // 同じ時期の他の列の項目（吹き出しの「同じ時期の…」と強調に使う）
+  for (const c of columns) {
+    const others = (c.counter ?? []).map((id) => colById.get(id)).filter(Boolean);
+    for (const t of c.terms) {
+      t.counter = others.flatMap((o) => o.terms.filter((u) => !u.point && u.start < t.end && u.end > t.start).map((u) => u.id));
+    }
+  }
+
+  // 帯（元号・時代）と和暦
+  const sp = page.spine ?? {};
+  const bands = sp.bands
+    ? pick(sp.bands).filter((x) => x.end > start && x.start < end).map((x) => ({ name: x.name, short: x.short, start: x.start, end: x.ongoing ? null : x.end, startStr: x.startStr }))
+    : [];
+  const eras = sp.wareki ? pick(sp.wareki).map((x) => ({ name: x.name, start: x.start, end: x.ongoing ? null : x.end })) : [];
+
+  return {
+    page, columns, colById, byId, bands, eras,
+    retro: !!sp.retro,
+    start, end,
+    asOf: asOfT,
+  };
+}
+
+// 「党名 議席・党名 議席」の形の内訳。会派名に「・」が入ることがあるので、数字で区切る
+export function parseBreakdown(text) {
+  return [...String(text ?? '').matchAll(/(.+?)\s+(\d+)(?:・|$)/g)].map((m) => ({ name: m[1].trim(), seats: Number(m[2]) }));
+}
+
+// 割合の帯（share）の数。内訳の最初の党（首相の党）を lead とする
+function shareOf(share, t) {
+  const d = new Map(t.details);
+  const value = Number(d.get(share.value));
+  const total = Number(d.get(share.total));
+  if (!(value >= 0) || !(total > 0)) return null;
+  const lead = share.breakdown ? parseBreakdown(d.get(share.breakdown))[0]?.seats : undefined;
+  return { value, total, lead: Number.isFinite(lead) ? Math.min(lead, value) : value };
+}
+
+// 点を置く時刻。年・月までの日付は、その期間の真ん中（where が "end" なら終わりの日）に置く
+function pointTime(t, where) {
+  if (where === 'start' || t.startPrec === 'd') return t.start;
+  const end = toTime(t.startStr, true);
+  return where === 'end' ? end - DAY : (t.start + end) / 2;
+}
+
+// 数値の列（chart）。値の列が空か数でない項目は描かず、線はそこで切る。
+// chart.scale は値に掛ける数（千人 → 万人なら 0.1）で、目盛り（min・max・ticks）は掛けたあとの値で書く。
+// chart.split の列の値が変わるところでも線を切る（内閣ごとの支持率など）。
+function placeOnChart(col) {
+  const { value, scale = 1, split } = col.chart;
+  const where = col.chart.at ?? (col.chart.type === 'step' ? 'start' : 'middle');
+  const lastOk = new Map();
+  for (const t of col.terms) {
+    const raw = new Map(t.details).get(value) ?? '';
+    t.laneIdx = 0;
+    t.value = raw === '' ? NaN : Number(raw) * scale;
+    t.at = pointTime(t, where);
+    if (split) t.split = new Map(t.details).get(split) ?? '';
+    const ok = Number.isFinite(t.value);
+    if (ok && lastOk.get(t.group) === false) t.breakBefore = true;
+    lastOk.set(t.group, ok);
+  }
+  col.terms = col.terms.filter((t) => Number.isFinite(t.value));
+  col.nLanes = 1;
+  col.hasPoints = false;
+}
+
+// 値の表記。chart.digits か chart.scale があれば、掛けた値をその桁（なければ整数）に丸める
+export function chartValueText(col, t) {
+  const { unit = '', digits, scale } = col.chart;
+  const text = digits == null && scale == null ? new Map(t.details).get(col.chart.value) : t.value.toFixed(digits ?? 0);
+  return `${fmtNum(text)}${unit}`;
+}
+
+const SHAPES = ['circle', 'diamond', 'square'];
+export function shapeOf(col, t) {
+  const keys = Object.keys(col.spec.groups ?? {});
+  return SHAPES[Math.max(0, keys.indexOf(t.group)) % SHAPES.length];
+}
+
+const chartTicks = (chart) => [chart.min, ...(chart.ticks ?? []), chart.max];
+
+function chartX(col, v) {
+  const { min, max } = col.c.chart;
+  return col.barsX0 + Math.max(0, Math.min(1, (v - min) / (max - min))) * col.barsW;
+}
+
+// 区分（院など）ごとの点。日付の順
+function seriesOf(col) {
+  const series = new Map();
+  for (const b of col.bars) {
+    if (!series.has(b.term.group)) series.set(b.term.group, []);
+    series.get(b.term.group).push(b);
+  }
+  return [...series.values()];
+}
+
+// 線でつなぐ点の並び。区分ごとに分け、値の欠けたところと、chart.split の列の値が変わるところで切る
+function segmentsOf(col) {
+  return seriesOf(col).flatMap((bs) => {
+    const out = [];
+    bs.forEach((b, i) => {
+      if (!i || b.term.breakBefore || b.term.split !== bs[i - 1].term.split) out.push([]);
+      out[out.length - 1].push(b);
+    });
+    return out;
+  });
+}
+
+// 階段の折れ線の頂点。値は変わった日から次に変わる日まで続く
+function stepPoints(bs, g) {
+  return bs.flatMap((b) => [[b.cx, b.cy], [b.cx, Math.min(g.plotBottom, g.yOf(b.term.end))]]);
+}
+
+// 観測値の線の当たり判定。区分が1つの列では、点と点の中間で区切った横長の帯にする（点の印がなく、間隔の狭い線でも選べる）
+function bandHits(col) {
+  const out = new Map();
+  if (!col.c.spec.series || col.c.chart.type === 'step' || seriesOf(col).length !== 1) return out;
+  for (const bs of segmentsOf(col)) {
+    bs.forEach((b, i) => {
+      const prev = bs[i - 1];
+      const next = bs[i + 1];
+      const half = Math.max(4, Math.min(prev ? b.cy - prev.cy : Infinity, next ? next.cy - b.cy : Infinity, 40) / 2);
+      out.set(b, [prev ? (prev.cy + b.cy) / 2 : b.cy - half, next ? (b.cy + next.cy) / 2 : b.cy + half]);
+    });
+  }
+  return out;
+}
+
+// 区分ごとの最高・最低・最新の点と、chart.labels に書いた時点（"1989" など、CSV の日付の書き方）の点にだけ、数値を書く
+function valueLabelIds(col) {
+  const ids = new Set();
+  for (const bs of seriesOf(col)) {
+    const pick = (better) => bs.reduce((a, b) => (better(b.term.value, a.term.value) ? b : a));
+    ids.add(pick((x, y) => x > y).term.id).add(pick((x, y) => x < y).term.id).add(bs[bs.length - 1].term.id);
+  }
+  for (const b of col.bars) if (col.c.chart.labels?.includes(b.term.startStr)) ids.add(b.term.id);
+  return ids;
+}
+
+// 割合の帯。帯（西暦）の側から外へ、首相の党・ほかの与党・与党以外の順に塗り、境目に 2px の隙間を空ける
+function shareBarSVG(col, b, s, fill) {
+  const W = col.barW;
+  const y = b.y0 + 1;
+  const h = Math.max(3, b.y1 - b.y0 - (b.term.ongoing ? 1 : 2));
+  const parts = [
+    [s.lead / s.total, `bar f-${fill}`],
+    [(s.value - s.lead) / s.total, `bar f-${fill} share-sub`],
+    [1 - s.value / s.total, 'bar share-rest'],
+  ];
+  const out = [];
+  let acc = 0;
+  for (const [f, cls] of parts) {
+    if (f <= 0) continue;
+    const a = acc * W;
+    const z = Math.min(W, (acc + f) * W);
+    acc += f;
+    const ga = a > 0.01 ? 1 : 0;
+    const gz = z < W - 0.01 ? 1 : 0;
+    const w = z - a - ga - gz;
+    if (w <= 0.5) continue;
+    const x = col.side === 'left' ? col.barsX1 - z + gz : col.barsX0 + a + ga;
+    out.push(`<rect class="${cls}" x="${r1(x)}" y="${r1(y)}" width="${r1(w)}" height="${r1(h)}" rx="${r1(Math.min(1.5, h / 2))}"/>`);
+  }
+  return out.join('');
+}
+
+// 割合の帯の目盛り（過半数・3分の2など）の横の位置
+function shareLineX(col, f) {
+  return col.side === 'left' ? col.barsX1 - f * col.barW : col.barsX0 + f * col.barW;
+}
+
+function markerSVG(shape, x, y, r, cls) {
+  if (shape === 'diamond') {
+    const d = r * 1.3;
+    return `<path class="${cls}" d="M${r1(x)} ${r1(y - d)}L${r1(x + d)} ${r1(y)}L${r1(x)} ${r1(y + d)}L${r1(x - d)} ${r1(y)}Z"/>`;
+  }
+  if (shape === 'square') return `<rect class="${cls}" x="${r1(x - r)}" y="${r1(y - r)}" width="${r1(2 * r)}" height="${r1(2 * r)}"/>`;
+  return `<circle class="${cls}" cx="${r1(x)}" cy="${r1(y)}" r="${r}"/>`;
+}
+
+// 重なる期間を別の段に分ける。lane の指定（南朝=0、北朝=1 など）があればその段を優先する。
+// 一日の出来事（点）は段0に並べ、期間のあるものは段1から使う。
+// 月・年までしか分からない日付どうし（例：「1372-05」に終わり「1372-05」に始まる）は、その精度の分の重なりを許す。
+const SLACK = { d: 0, m: 31 * DAY, y: 366 * DAY };
+function assignLanes(col) {
+  const hasPoints = col.terms.some((t) => t.point);
+  const first = hasPoints ? 1 : 0;
+  const last = [];
+  for (const t of col.terms) {
+    if (t.point) { t.laneIdx = 0; continue; }
+    const pref = first + (t.lane ?? 0);
+    const tries = [pref];
+    for (let i = first; i <= Math.max(pref, last.length); i += 1) if (i !== pref) tries.push(i);
+    for (const i of tries) {
+      const p = last[i];
+      if (!p || p.end <= t.start + Math.max(SLACK[p.endPrec] ?? 0, SLACK[t.startPrec] ?? 0)) {
+        t.laneIdx = i;
+        last[i] = t;
+        break;
+      }
+    }
+  }
+  col.nLanes = Math.max(1, last.length, hasPoints ? 1 : 0);
+  col.hasPoints = hasPoints;
+}
+
+// ---------------------------------------------------------------- レイアウト
+
+// 全角はほぼ1em、数字とラテン文字は約0.6emとして幅を見積もる（ラベル幅の判定用）。
+export function textWidth(s, size) {
+  let w = 0;
+  for (const ch of String(s)) {
+    const c = ch.codePointAt(0);
+    w += (c > 0x2e80 ? 1 : 0.6) * size;
+  }
+  return w;
+}
+
+// ラベルを縦方向に重ならないよう並べる。順番は保ち、本来の位置からのずれ（二乗和）が最小になるよう塊ごとに寄せる。
+function dodge(items, lo, hi) {
+  const clusters = [];
+  const place = (c) => {
+    let off = 0;
+    let sum = 0;
+    for (const x of c.items) { sum += x.target - off - x.h / 2; off += x.h; }
+    c.top = Math.max(lo, Math.min(hi - c.h, sum / c.items.length));
+  };
+  for (const it of items) {
+    const c = { items: [it], h: it.h, top: 0 };
+    place(c);
+    clusters.push(c);
+    while (clusters.length > 1) {
+      const b = clusters[clusters.length - 1];
+      const a = clusters[clusters.length - 2];
+      if (a.top + a.h <= b.top + 0.01) break;
+      a.items.push(...b.items);
+      a.h += b.h;
+      clusters.pop();
+      place(a);
+    }
+  }
+  for (const c of clusters) {
+    let off = 0;
+    for (const x of c.items) { x.center = c.top + off + x.h / 2; off += x.h; }
+  }
+}
+
+// 目盛りの間隔（年）。縮尺が小さいほど粗くする。
+function tickSteps(ppy) {
+  if (ppy >= 12) return { major: 10, minor: 1 };
+  if (ppy >= 5) return { major: 50, minor: 10 };
+  if (ppy >= 2.5) return { major: 100, minor: 10 };
+  return { major: 200, minor: 50 };
+}
+
+const isTick = (y, step) => (y <= 0 ? (1 - y) % step === 0 : y % step === 0);
+
+export function layout(model, opts = {}) {
+  const P = model.page;
+  const width = Math.round(opts.width ?? 760);
+  const narrow = width < 600;
+  const g = { width, narrow };
+  const [ppyWide, ppyNarrow] = P.ppy ?? [24, 22];
+  g.ppy = opts.ppy ?? (narrow ? ppyNarrow : ppyWide);
+  g.headerH = narrow ? 58 : 70;
+  g.footerH = opts.footer ? 70 : 24;
+  g.top = g.headerH;
+  g.t0 = model.start;
+  g.t1 = model.end;
+  g.yOf = (t) => g.top + ((t - g.t0) / YEAR) * g.ppy;
+  g.tOf = (y) => g.t0 + ((y - g.top) / g.ppy) * YEAR;
+  g.plotBottom = g.yOf(g.t1);
+  g.height = Math.ceil(g.plotBottom + g.footerH);
+
+  g.nameSize = narrow ? 12.5 : 13.5;
+  g.yearSize = narrow ? 10.5 : 11;
+  g.labelH = narrow ? 15.5 : 17;
+  g.photo = narrow ? 24 : 30;
+  g.photoSmall = narrow ? 18 : 20;
+  g.labelGap = narrow ? 11 : 15;
+  g.insideSize = narrow ? 11 : 12;
+  const barGap = narrow ? 5 : 7;
+  let colGap = narrow ? 10 : 16;
+
+  // ---- 帯
+  g.spinePos = P.spine?.position ?? 'center';
+  g.spineW = g.spinePos === 'left' ? (narrow ? 56 : 72) : (narrow ? 66 : 92);
+
+  // ---- 列
+  const hidden = opts.hidden ?? new Set();
+  const cols = model.columns.filter((c) => !hidden.has(c.id)).map((c) => {
+    const barW = c.chart ? (narrow ? 96 : c.chart.width ?? 150) : c.share ? c.bar ?? (narrow ? 40 : 64) : c.bar ?? (c.labels === 'inside' ? (narrow ? 18 : 22) : (narrow ? 10 : 14));
+    const laneGap = 2;
+    return {
+      c, side: g.spinePos === 'left' ? 'right' : c.side ?? 'right',
+      barW, laneGap,
+      barsW: c.nLanes * barW + (c.nLanes - 1) * laneGap,
+      mode: c.chart ? 'chart' : c.labels ?? 'side',
+    };
+  });
+  // ラベル付きの列が多いページは、列のあいだを少し詰める
+  if (!narrow && cols.filter((x) => x.mode === 'side').length > 5) {
+    g.labelGap = 11;
+    colGap = 10;
+  }
+  // 各側でいちばん帯に近いラベル付きの列（総理・米大統領など）を主な列とし、名前を省略しない
+  for (const side of ['left', 'right']) {
+    const first = cols.find((x) => x.side === side && x.mode === 'side');
+    if (first) first.primary = true;
+  }
+  // 顔の直径（0 は顔なし）。主な列のほかは小さくして、列の多いページでも名前が入るようにする
+  for (const x of cols) x.photo = !x.c.photos ? 0 : x.primary ? g.photo : g.photoSmall;
+  const labelWidth = (col, t, withYears) => {
+    let w = textWidth(t.short, g.nameSize);
+    if (withYears) w += 6 + textWidth(yearsText(t), g.yearSize);
+    if (col.photo && t.photo) w += col.photo + 6;
+    return w;
+  };
+  // ラベルに要る幅。狭い画面では、とくに長い名前（上位1割）は省略してよいことにして配分する
+  const need = (col) => {
+    if (col.mode !== 'side' || !col.labeled) return 0;
+    if (col.faceOnly) return g.labelGap + col.photo + 4;
+    const ws = col.c.terms.map((t) => labelWidth(col, t, col.withYears)).sort((a, b) => a - b);
+    const widest = narrow || !col.primary ? ws[Math.floor((ws.length - 1) * 0.9)] ?? 0 : Math.max(0, ...ws, col.c.lead ? textWidth(col.c.lead.name, g.nameSize) : 0);
+    return g.labelGap + Math.min(widest, narrow ? 150 : 230) + 4;
+  };
+  // ラベルのない細い列のあとの間隔。縦書きの見出し（1文字ぶんの幅）が隣と重ならないようにする
+  const thinGap = (col) => Math.max(4, (narrow ? 10 : 11) + 3 - col.barsW);
+  const sideNeed = (side) => cols
+    .filter((x) => x.side === side)
+    .reduce((s, x) => s + x.barsW + need(x) + ((x.mode === 'side' && x.labeled) || x.mode === 'chart' ? colGap : Math.max(4, (narrow ? 10 : 11) + 3 - x.barsW)), barGap);
+
+  // 棒の中に名前を書く列が入りきらなければ、棒を細くして文字も小さくする
+  const avail = width - g.spineW;
+  const insideCols = cols.filter((x) => x.mode === 'inside');
+  if (insideCols.length) {
+    const fixed = cols.filter((x) => x.mode !== 'inside').reduce((s, x) => s + x.barsW + (x.mode === 'side' ? 120 : 4), 0);
+    const lanes = insideCols.reduce((s, x) => s + x.c.nLanes, 0);
+    const room = avail - fixed - colGap * insideCols.length - barGap * 2;
+    const per = Math.floor(room / lanes) - 2;
+    if (per < insideCols[0].barW) {
+      const barW = Math.max(12, per);
+      for (const x of insideCols) {
+        x.barW = barW;
+        x.barsW = x.c.nLanes * barW + (x.c.nLanes - 1) * x.laneGap;
+      }
+      g.insideSize = Math.max(9, Math.min(g.insideSize, barW - 5));
+    }
+  }
+
+  // 入りきらなければ、設定の後ろの列から順に年の表示をやめ（主な列の年はなるべく残す）、
+  // 次に顔のある列は外側から名前を省いて顔だけにし（入るかぎり顔は残す）、
+  // それでも入らなければ主な列のほかのラベルを外側から省く。省いて空いた幅には、内側の列から名前を戻す
+  const fits = () => {
+    const L = sideNeed('left');
+    const R = sideNeed('right');
+    return g.spinePos === 'left' ? R <= avail : L + R <= avail;
+  };
+  for (const x of cols) {
+    x.labeled = x.mode === 'side';
+    x.withYears = true;
+    x.faceOnly = false;
+  }
+  for (const x of [...cols].reverse()) {
+    if (fits()) break;
+    x.withYears = false;
+  }
+  for (const side of ['left', 'right']) {
+    for (const x of cols.filter((y) => y.side === side && y.labeled && y.photo && !y.primary).reverse()) {
+      if (fits()) break;
+      x.faceOnly = true;
+    }
+  }
+  if (!fits()) {
+    for (const side of ['left', 'right']) {
+      const labeled = cols.filter((x) => x.side === side && x.labeled);
+      for (const x of labeled.slice(1).reverse()) {
+        if (fits()) break;
+        x.labeled = false;
+      }
+    }
+    for (const x of cols.filter((y) => y.labeled && y.faceOnly)) {
+      x.faceOnly = false;
+      if (!fits()) {
+        x.faceOnly = true;
+        break;
+      }
+    }
+  }
+  // それでも画面からはみ出すなら、折れ線の列を細くする（64px まで）。
+  // はみ出しは、下の「帯の位置」と同じ決め方で帯を置いたときの量で、いちばん外側の列のあとのすき間は数えない
+  const charts = cols.filter((x) => x.mode === 'chart');
+  const outerGap = (side) => {
+    const list = cols.filter((x) => x.side === side);
+    const x = list.filter((y) => y.labeled || y.mode === 'chart').pop() ?? list.pop();
+    return !x ? 0 : x.labeled || x.mode === 'chart' ? colGap : thinGap(x);
+  };
+  const overflow = () => {
+    if (fits()) return 0;
+    const R = sideNeed('right');
+    if (g.spinePos === 'left') return R - avail - outerGap('right');
+    const L = sideNeed('left');
+    const left = (avail * L) / (L + R);
+    return Math.max(R - (avail - left) - outerGap('right'), L - left - outerGap('left'));
+  };
+  while (charts.length && overflow() > 0 && charts.every((x) => x.barW > 64)) {
+    for (const x of charts) { x.barW -= 1; x.barsW = x.barW; }
+  }
+  g.showYears = cols.some((x) => x.labeled && x.withYears);
+
+  // 帯の位置。両側が半分ずつに収まれば中央、そうでなければ広い側に寄せる
+  if (g.spinePos === 'left') {
+    g.spineX0 = 0;
+  } else {
+    const L = sideNeed('left');
+    const R = sideNeed('right');
+    const half = avail / 2;
+    let left = half;
+    if (L > half || R > half) left = L + R <= avail ? Math.max(L, Math.min(half, avail - R)) : (avail * L) / (L + R);
+    g.spineX0 = Math.round(left);
+  }
+  g.spineX1 = g.spineX0 + g.spineW;
+  g.cx = g.spineX0 + g.spineW / 2;
+
+
+  // 列を帯の外側へ順に置く。ラベルのない細い列は帯の側に寄せ、いちばん外側のラベル付きの列は画面の端までラベルを広げてよい
+  for (const side of ['left', 'right']) {
+    const thin = (x) => !x.labeled && x.mode !== 'chart';
+    const list = [...cols.filter((x) => x.side === side && thin(x)), ...cols.filter((x) => x.side === side && !thin(x))];
+    const outer = list[list.length - 1];
+    const lastLabeled = outer?.labeled ? outer : null;
+    let x = side === 'right' ? g.spineX1 + barGap : g.spineX0 - barGap;
+    for (const col of list) {
+      const n = need(col);
+      if (side === 'right') {
+        col.barsX0 = x;
+        col.barsX1 = x + col.barsW;
+        col.laneX = (i) => col.barsX0 + i * (col.barW + col.laneGap);
+        if (col.labeled) {
+          col.labelX = col.barsX1 + g.labelGap;
+          col.labelEdge = col === lastLabeled ? width - 4 : col.barsX1 + n;
+          x = col.labelEdge + colGap;
+        } else {
+          x = col.barsX1 + (col.mode === 'chart' ? colGap : thinGap(col));
+        }
+      } else {
+        col.barsX1 = x;
+        col.barsX0 = x - col.barsW;
+        col.laneX = (i) => col.barsX1 - (i + 1) * col.barW - i * col.laneGap;
+        if (col.labeled) {
+          col.labelX = col.barsX0 - g.labelGap;
+          col.labelEdge = col === lastLabeled ? 4 : col.barsX0 - n;
+          x = col.labelEdge - colGap;
+        } else {
+          x = col.barsX0 - (col.mode === 'chart' ? colGap : thinGap(col));
+        }
+      }
+      col.labelRoom = col.labeled ? Math.abs(col.labelX - col.labelEdge) : 0;
+    }
+    // 列の見出しは、次の列の棒の手前（いちばん外側の列は画面の端）まで使える
+    list.forEach((col, i) => {
+      const next = list[i + 1];
+      if (col.labeled) col.headRoom = side === 'right' ? (next ? next.barsX0 : width) - col.labelX - 6 : col.labelX - (next ? next.barsX1 : 0) - 6;
+      else col.headRoom = side === 'right' ? (next ? next.barsX0 : width) - col.barsX0 - 3 : col.barsX1 - (next ? next.barsX1 : 0) - 3;
+    });
+  }
+  g.cols = cols;
+
+  // ---- 棒とラベル
+  for (const col of cols) {
+    const c = col.c;
+    col.bars = c.terms.map((t) => {
+      const clipped = t.start < g.t0;
+      const y0 = Math.max(g.top, g.yOf(t.start));
+      const y1 = Math.min(g.plotBottom, g.yOf(t.end));
+      const h = col.labeled && col.photo && (t.photo || col.faceOnly) ? Math.max(g.labelH, col.photo + 4) : g.labelH;
+      const anchor = t.point ? y0 : y0 + Math.min((y1 - y0) / 2, g.labelH / 2);
+      return { term: t, y0, y1, h, target: anchor, anchor, clipped, x: col.laneX(t.laneIdx) };
+    });
+    if (col.mode === 'chart') {
+      // 期間の初めより前の点は描かない（階段の線は、初めより前から続く値を上端から描く）
+      if (!c.chart.type || c.chart.type === 'line') col.bars = col.bars.filter((b) => b.term.at >= g.t0);
+      for (const b of col.bars) {
+        b.cx = chartX(col, b.term.value);
+        b.cy = Math.max(g.top, g.yOf(b.term.at));
+      }
+    }
+    if (c.lead) {
+      const y0 = g.yOf(c.lead.start);
+      col.lead = { term: c.lead, y0: Math.max(g.top, y0), y1: g.yOf(c.lead.end), h: g.labelH, x: col.laneX(0) };
+      col.lead.target = col.lead.anchor = g.top + g.labelH / 2;
+    }
+    if (col.labeled) {
+      const items = [...(col.lead ? [col.lead] : []), ...col.bars].map((b) => ({ ref: b, target: b.target, h: b.h }));
+      dodge(items, g.top, g.plotBottom);
+      for (const it of items) it.ref.labelY = it.center;
+    }
+  }
+
+  // ---- 帯（元号・時代）と目盛り
+  const bands = model.bands;
+  g.eraBands = bands.map((e, i) => {
+    const next = bands[i + 1];
+    return {
+      era: e, i,
+      y0: i === 0 ? g.top : Math.max(g.top, g.yOf(e.start)),
+      y1: next ? g.yOf(next.start) : e.end != null ? Math.min(g.plotBottom, g.yOf(e.end)) : g.plotBottom,
+    };
+  });
+  // 帯の名前は、次の区切りまでの長さに応じて「名前と日付」「名前だけ」「出さない」を選ぶ
+  g.eraMarks = g.eraBands
+    .map((b) => ({ era: b.era, i: b.i, y: b.i === 0 && b.era.start < g.t0 ? g.top : g.yOf(b.era.start), room: b.y1 - Math.max(g.top, g.yOf(b.era.start)) }))
+    .filter((m) => m.y >= g.top && m.y <= g.plotBottom)
+    .map((m) => ({ ...m, show: m.room >= 46 ? 2 : m.room >= 26 ? 1 : 0 }));
+  g.asOfY = g.yOf(model.asOf);
+  g.showAsOf = model.columns.some((c) => c.terms.some((t) => t.ongoing)) && g.asOfY < g.plotBottom;
+
+  const steps = tickSteps(g.ppy);
+  g.steps = steps;
+  const startYear = ymd(g.t0).y;
+  const endYear = ymd(g.t1).y;
+  g.years = [];
+  for (let y = startYear; y <= endYear; y += 1) {
+    if (!isTick(y, steps.minor) && !(y === 1 && startYear < 1)) continue;
+    const yy = g.yOf(fromYMD(y));
+    if (yy >= g.top && yy <= g.plotBottom) g.years.push({ year: y, y: yy, major: isTick(y, steps.major) || (y === 1 && startYear < 1) });
+  }
+  const blocked = [
+    ...g.eraMarks.filter((m) => m.show).map((m) => [m.y - 4, m.y + (m.show === 2 ? 44 : 30)]),
+    ...(g.showAsOf ? [[g.asOfY - 4, g.asOfY + 34]] : []),
+  ];
+  g.decades = g.years
+    .filter((d) => d.major)
+    .map((d) => ({ ...d, hidden: blocked.some(([a, b]) => d.y + 19 > a && d.y - 10 < b) }));
+
+  return g;
+}
+
+// ---------------------------------------------------------------- SVG
+
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const r1 = (n) => Math.round(n * 10) / 10;
+
+// 上下の角を個別に丸められる棒の形
+function barPath(x, y, w, h, roundTop, roundBottom) {
+  const r = Math.min(3, h / 2, w / 2);
+  const t = roundTop ? r : 0;
+  const b = roundBottom ? r : 0;
+  const X = r1(x), Y = r1(y), R = r1(x + w), B = r1(y + h);
+  return `M${X} ${r1(y + t)}Q${X} ${Y} ${r1(x + t)} ${Y}H${r1(x + w - t)}Q${R} ${Y} ${R} ${r1(y + t)}V${r1(y + h - b)}Q${R} ${B} ${r1(x + w - b)} ${B}H${r1(x + b)}Q${X} ${B} ${X} ${r1(y + h - b)}Z`;
+}
+
+// 棒の色。列の色か、区分（group）ごとの色。"hatch" は斜線、"gray" は灰色。
+export function fillOf(col, t) {
+  const groups = col.spec.groups ?? {};
+  const name = col.colorBy === 'group' ? groups[t.group]?.color ?? 'gray' : col.color ?? 'gray';
+  return name;
+}
+
+export function shareText(t) {
+  return t.share ? `与党 ${t.share.value}/${t.share.total}（${Math.round((t.share.value / t.share.total) * 1000) / 10}%）` : '';
+}
+
+export function termSummary(t, col, model) {
+  if (col.chart) {
+    const when = col.chart.type === 'step' ? rangeText(t, col.spec) : fmtStr(t.startStr);
+    return `${col.spec.series ? '' : `${t.name}　`}${when}　${col.title} ${chartValueText(col, t)}`;
+  }
+  if (col.share && t.share) return `${t.name}　${rangeText(t, col.spec)}　${shareText(t)}`;
+  const head = [ordText(t), col.role].filter(Boolean).join('');
+  const dur = durationText(t, col.spec, model.asOf);
+  return `${head ? `${head} ` : ''}${t.name}　${rangeText(t, col.spec)}${dur ? `（${dur}）` : ''}`;
+}
+
+// 幅に入らない文字列は、末尾を「…」にして縮める
+function fitText(text, size, room) {
+  if (textWidth(text, size) <= room) return text;
+  const chars = [...text];
+  while (chars.length > 1 && textWidth(`${chars.join('')}…`, size) > room) chars.pop();
+  return `${chars.join('')}…`;
+}
+
+// 縦書きのラベルが入るか（棒の幅と長さで判定。縦書きでは1文字がほぼ1em）
+function insideFits(text, w, h, size) {
+  return w >= size + 4 && h >= [...String(text)].length * size + 8;
+}
+
+export function renderSVG(model, g, opts = {}) {
+  const { interactive = false, style = '', background = false, footer = null, titleTag = null, photoData = null, dpr = 1 } = opts;
+  const W = g.width;
+  const H = g.height;
+  const title = titleTag || model.page.title;
+  const o = [];
+  const a11y = interactive ? `role="group" aria-label="${esc(title)}の年表"` : 'role="img" aria-labelledby="tl-title"';
+  o.push(`<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" ${a11y}>`);
+  if (!interactive) o.push(`<title id="tl-title">${esc(title)}</title>`);
+  if (style) o.push(`<style>${style}</style>`);
+
+  o.push('<defs>');
+  o.push('<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>');
+  o.push('<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>');
+  o.push('</defs>');
+
+  if (background) o.push(`<rect class="bg" x="0" y="0" width="${W}" height="${H}" rx="14"/>`);
+
+  // 見出し（列名と、帯の「西暦／和暦」）
+  const hy = g.headerH - 26;
+  for (const col of g.cols) {
+    const c = col.c;
+    const fill = c.colorBy === 'group' ? 'gray' : c.color ?? 'gray';
+    const x = col.side === 'right' ? col.barsX0 : col.barsX1 - col.barW;
+    let text = g.narrow || (col.labeled && textWidth(c.title, 14.5) > col.headRoom) ? c.short ?? c.title : c.title;
+    if (col.faceOnly && textWidth(text, 14.5) > col.headRoom) text = c.mark ?? text;
+    if (col.labeled) {
+      o.push(`<rect class="f-${fill}" x="${r1(x)}" y="${hy - 11}" width="${col.barW}" height="14" rx="3"/>`);
+      const tx = col.labelX;
+      o.push(`<text class="lane-h" x="${r1(tx)}" y="${hy}"${col.side === 'left' ? ' text-anchor="end"' : ''}>${esc(text)}</text>`);
+    } else if (col.mode === 'chart') {
+      const size = g.narrow ? 11.5 : 13;
+      const name = [c.title, c.short].find((n) => n && textWidth(n, size) <= col.barsW) ?? c.short ?? c.title;
+      o.push(`<text class="lane-s" x="${r1(col.barsX0)}" y="${hy - 4}">${esc(name)}</text>`);
+      let kx = col.barsX0;
+      for (const [k, v] of Object.entries(c.spec.groups ?? {})) {
+        if (!c.terms.some((t) => t.group === k)) continue;
+        const label = v.short ?? k;
+        o.push(markerSVG(shapeOf(c, { group: k }), kx + 4, hy + 7, 3.5, `mark f-${v.color ?? 'gray'}`));
+        o.push(`<text class="key" x="${r1(kx + 11)}" y="${r1(hy + 11)}">${esc(label)}</text>`);
+        kx += 11 + textWidth(label, g.narrow ? 10.5 : 11) + 8;
+      }
+      // 目盛りの数字。重なるものは、両端を残して間を省く
+      const ticks = chartTicks(c.chart).map((v) => {
+        const text = `${fmtNum(v)}${v === c.chart.max ? c.chart.unit ?? '' : ''}`;
+        const x = chartX(col, v);
+        const w = textWidth(text, g.narrow ? 9.5 : 10);
+        const anchor = v === c.chart.min ? 'start' : v === c.chart.max ? 'end' : 'middle';
+        const x0 = anchor === 'start' ? x : anchor === 'end' ? x - w : x - w / 2;
+        return { text, x, anchor, x0, x1: x0 + w };
+      });
+      const last = ticks[ticks.length - 1];
+      const shown = [ticks[0]];
+      for (const t of ticks.slice(1, -1)) if (t.x0 >= shown[shown.length - 1].x1 + 6 && t.x1 + 6 <= last.x0) shown.push(t);
+      shown.push(last);
+      for (const t of shown) o.push(`<text class="scale" x="${r1(t.x)}" y="${r1(g.top - 4)}" text-anchor="${t.anchor}">${esc(t.text)}</text>`);
+    } else {
+      // ラベルを外に出さない列は、棒の上に名前を出す。正式名・略称・1文字の順に、横書きで入るものを使い、
+      // どれも入らない細い列は縦書きの短い名前にする
+      const size = g.narrow ? 11.5 : 13;
+      const names = [c.title, c.short, c.mark].filter(Boolean);
+      const name = names.find((n) => textWidth(n, size) <= Math.max(col.barsW + 2, col.headRoom));
+      if (name) {
+        o.push(`<text class="lane-s" x="${r1(col.barsX0)}" y="${hy - 4}">${esc(name)}</text>`);
+      } else {
+        const cx = (col.barsX0 + col.barsX1) / 2;
+        o.push(`<text class="lane-v" x="${r1(cx)}" y="${r1(hy - 24)}" writing-mode="vertical-rl">${esc(c.mark ?? c.short ?? c.title)}</text>`);
+      }
+      o.push(`<rect class="f-${fill}" x="${r1(col.barsX0)}" y="${hy + 2}" width="${r1(col.barsW)}" height="6" rx="2"/>`);
+    }
+    // 線の見出し（½・⅔）。近すぎるものは、前にあるものだけを出す
+    let lastX = null;
+    for (const line of c.share?.lines ?? []) {
+      const lx = shareLineX(col, line.at);
+      if (lastX != null && Math.abs(lx - lastX) < 10) continue;
+      o.push(`<text class="scale" x="${r1(lx)}" y="${r1(g.top - 4)}" text-anchor="middle">${esc(line.label)}</text>`);
+      lastX = lx;
+    }
+  }
+  const sp = model.page.spine ?? {};
+  o.push(`<text class="spine-h" x="${r1(g.cx)}" y="${hy - 3}" text-anchor="middle">西暦</text>`);
+  if (sp.headline) o.push(`<text class="spine-h2" x="${r1(g.cx)}" y="${hy + 10}" text-anchor="middle">${esc(sp.headline)}</text>`);
+
+  // 中央の帯（元号・時代ごとに色を交互に）
+  if (g.eraBands.length) {
+    for (const b of g.eraBands) {
+      const y0 = Math.max(g.top, b.y0);
+      const y1 = Math.min(g.plotBottom, b.y1);
+      if (y1 <= y0) continue;
+      o.push(`<rect class="${b.i % 2 ? 'spine-b' : 'spine-a'}" x="${r1(g.spineX0)}" y="${r1(y0)}" width="${g.spineW}" height="${r1(y1 - y0)}"/>`);
+    }
+  } else {
+    o.push(`<rect class="spine-a" x="${r1(g.spineX0)}" y="${r1(g.top)}" width="${g.spineW}" height="${r1(g.plotBottom - g.top)}"/>`);
+  }
+
+  // 大きな目盛りの横線（全幅）。帯の区切りのすぐ近くでは二重線に見えるので引かない。
+  for (const d of g.decades) {
+    if (d.hidden) continue;
+    o.push(`<line class="grid" x1="0" x2="${W}" y1="${r1(d.y)}" y2="${r1(d.y)}"/>`);
+  }
+  // 数値の列の目盛りの縦線
+  for (const col of g.cols) {
+    if (col.mode !== 'chart') continue;
+    for (const v of chartTicks(col.c.chart)) {
+      const x = r1(chartX(col, v));
+      o.push(`<line class="grid" x1="${x}" x2="${x}" y1="${r1(g.top)}" y2="${r1(g.plotBottom)}"/>`);
+    }
+  }
+  // 帯の区切り線（全幅）
+  for (const m of g.eraMarks) {
+    if (m.i === 0 && m.y <= g.top) continue;
+    o.push(`<line class="era-line" x1="0" x2="${W}" y1="${r1(m.y)}" y2="${r1(m.y)}"/>`);
+  }
+
+  // 年の目盛り（帯の両端）
+  for (const d of g.years) {
+    const len = d.major ? 9 : isTick(d.year, g.steps.minor * 5) ? 6 : 3;
+    const y = r1(d.y);
+    o.push(`<path class="tick" d="M${r1(g.spineX0)} ${y}h${len}M${r1(g.spineX1)} ${y}h-${len}"/>`);
+  }
+  // 大きな目盛りの年（西暦＋和暦）
+  for (const d of g.decades) {
+    if (d.hidden) continue;
+    o.push(`<text class="dec-y" x="${r1(g.cx)}" y="${r1(d.y + 4.5)}" text-anchor="middle">${yearShort(d.year)}</text>`);
+    const w = model.eras.length ? wareki(fromYMD(d.year), model.eras, model.retro) : null;
+    if (w) o.push(`<text class="dec-w" x="${r1(g.cx)}" y="${r1(d.y + 18)}" text-anchor="middle">${esc(w.text)}</text>`);
+  }
+  // 帯の見出し
+  for (const m of g.eraMarks) {
+    if (!m.show) continue;
+    // 帯の幅に入らない名前は略称にし、それでも入らなければ文字を小さくする
+    const size = g.narrow ? 17 : 19;
+    const room = g.spineW - 8;
+    const label = textWidth(m.era.name, size) > room && m.era.short ? m.era.short : m.era.name;
+    const fit = Math.min(size, room / Math.max(1, textWidth(label, 1)));
+    const fs = fit < size ? ` style="font-size:${r1(fit)}px"` : '';
+    o.push(`<text class="era-name" x="${r1(g.cx)}" y="${r1(m.y + 23)}" text-anchor="middle"${fs}>${esc(label)}</text>`);
+    if (m.show === 2) {
+      const p = parseDate(m.era.startStr);
+      const date = p && p.prec === 'd' ? fmtDot(m.era.start) : p ? yearShort(p.y) : '';
+      if (date) o.push(`<text class="era-date" x="${r1(g.cx)}" y="${r1(m.y + 37)}" text-anchor="middle">${date}</text>`);
+    }
+  }
+  // データの時点
+  if (g.showAsOf) {
+    const xs = g.cols.flatMap((c) => [c.barsX0, c.barsX1]);
+    o.push(`<line class="asof-line" x1="${r1(Math.min(g.spineX0, ...xs) - 4)}" x2="${r1(Math.max(g.spineX1, ...xs) + 4)}" y1="${r1(g.asOfY)}" y2="${r1(g.asOfY)}"/>`);
+    o.push(`<text class="era-date" x="${r1(g.cx)}" y="${r1(g.asOfY + 14)}" text-anchor="middle">${fmtDot(model.asOf)}</text>`);
+    o.push(`<text class="era-date" x="${r1(g.cx)}" y="${r1(g.asOfY + 27)}" text-anchor="middle">時点</text>`);
+  }
+
+  // 列のはじまりより前の期間（内閣制度発足前など）
+  for (const col of g.cols) {
+    const p = col.lead;
+    if (!p) continue;
+    const h = r1(p.y1 - p.y0 - 1);
+    o.push(`<g class="term lead" data-id="${p.term.id}"${interactive ? ` tabindex="0" aria-label="${esc(`${p.term.name}。${p.term.text}`)}"` : ''}>`);
+    if (!interactive) o.push(`<title>${esc(p.term.text)}</title>`);
+    const reach = col.labeled ? 120 : 0;
+    const hx0 = col.side === 'left' ? p.x - reach : p.x;
+    o.push(`<rect class="hit" x="${r1(hx0)}" y="${r1(p.y0)}" width="${r1(col.barW + reach)}" height="${h}"/>`);
+    o.push(`<rect class="bar-lead" x="${r1(p.x)}" y="${r1(p.y0)}" width="${col.barW}" height="${h}" rx="3"/>`);
+    if (col.labeled && !col.faceOnly) {
+      const name = fitText(p.term.name, g.nameSize, Math.abs(col.labelX - col.labelEdge));
+      o.push(`<text class="label" x="${r1(col.labelX)}" y="${r1(p.labelY + g.nameSize * 0.36)}"${col.side === 'left' ? ' text-anchor="end"' : ''}><tspan class="name lead-name">${esc(name)}</tspan></text>`);
+    }
+    o.push('</g>');
+  }
+
+  // 読み取り用の横線（棒とラベルの下に敷く）
+  if (interactive) {
+    o.push(`<g class="xhair" transform="translate(0 ${g.top})" aria-hidden="true"><line class="xhair-line" x1="0" x2="${W}" y1="0" y2="0"/></g>`);
+  }
+
+  // ホバー用の当たり判定（描画はしない）。棒とラベルより下に置き、ラベルの上では隣の期間に負けないようにする。
+  if (interactive) {
+    o.push('<g class="hits">');
+    for (const col of g.cols) {
+      const bands = col.mode === 'chart' ? bandHits(col) : null;
+      for (const b of col.bars) {
+        if (col.mode === 'chart') {
+          const band = bands.get(b);
+          if (band) {
+            o.push(`<rect class="hit" data-id="${b.term.id}" x="${r1(col.barsX0 - 4)}" y="${r1(band[0])}" width="${r1(col.barsW + 8)}" height="${r1(band[1] - band[0])}"/>`);
+          } else if (col.c.chart.type === 'step') {
+            const y1 = Math.min(g.plotBottom, g.yOf(b.term.end));
+            o.push(`<rect class="hit" data-id="${b.term.id}" x="${r1(b.cx - 7)}" y="${r1(b.cy - 3)}" width="14" height="${r1(Math.max(6, y1 - b.cy + 3))}"/>`);
+          } else {
+            o.push(`<rect class="hit" data-id="${b.term.id}" x="${r1(b.cx - 7)}" y="${r1(b.cy - 7)}" width="14" height="14"/>`);
+          }
+          continue;
+        }
+        let x0;
+        let x1;
+        if (col.labeled) {
+          const reach = Math.min(col.labelRoom, col.withYears ? 160 : 104);
+          x0 = col.side === 'left' ? col.labelX - reach : b.x;
+          x1 = col.side === 'left' ? b.x + col.barW : col.labelX + reach;
+        } else {
+          x0 = b.x - 3;
+          x1 = b.x + col.barW + 3;
+        }
+        const ly = b.labelY ?? b.anchor;
+        const y0 = Math.min(b.y0, col.labeled ? ly - b.h / 2 : b.y0) - (b.term.point ? 5 : 0);
+        const y1 = Math.max(b.y1, col.labeled ? ly + b.h / 2 : b.y1, b.y0 + 4) + (b.term.point ? 5 : 0);
+        o.push(`<rect class="hit" data-id="${b.term.id}" x="${r1(x0)}" y="${r1(y0)}" width="${r1(x1 - x0)}" height="${r1(y1 - y0)}"/>`);
+      }
+    }
+    o.push('</g>');
+  }
+
+  // 数値の列の折れ線
+  for (const col of g.cols) {
+    if (col.mode !== 'chart') continue;
+    for (const bs of segmentsOf(col)) {
+      const pts = col.c.chart.type === 'step' ? stepPoints(bs, g) : bs.map((b) => [b.cx, b.cy]);
+      o.push(`<polyline class="series k-${fillOf(col.c, bs[0].term)}" points="${pts.map(([x, y]) => `${r1(x)},${r1(y)}`).join(' ')}"/>`);
+    }
+  }
+
+  // 期間の棒・出来事の点・数値の点・ラベル
+  for (const col of g.cols) {
+    const c = col.c;
+    const valueLabels = col.mode === 'chart' ? valueLabelIds(col) : new Set();
+    const placed = [];
+    if (col.c.hasPoints) {
+      // 点を並べる軸
+      const x = r1(col.laneX(0) + col.barW / 2);
+      o.push(`<line class="axis" x1="${x}" x2="${x}" y1="${r1(g.top)}" y2="${r1(g.plotBottom)}"/>`);
+    }
+    for (const b of col.bars) {
+      const t = b.term;
+      const fill = fillOf(c, t);
+      const attrs = interactive ? ` tabindex="0" aria-label="${esc(termSummary(t, c, model))}"` : '';
+      o.push(`<g class="term c-${c.id}" data-id="${t.id}" data-person="${esc(`${c.id}:${t.name}`)}"${attrs}>`);
+      if (!interactive) o.push(`<title>${esc(termSummary(t, c, model))}</title>`);
+      const x = b.x;
+      if (col.mode === 'chart') {
+        // 観測値の線は、数値を書く点のほかは印を描かない。ブラウザ版では、選んだ点と横線の位置の点にだけ印を出す
+        const quiet = c.spec.series && !valueLabels.has(t.id);
+        if (!quiet || interactive) o.push(markerSVG(shapeOf(c, t), b.cx, b.cy, g.narrow ? 3.5 : 4, `mark f-${fill}${quiet ? ' quiet' : ''}`));
+        if (valueLabels.has(t.id)) {
+          // 階段の線は、角に横の線が来るので、数値を角の少し下（縦の線の横）に書く。先に書いた数値と重なるなら、下へずらす
+          const right = b.cx < col.barsX0 + col.barsW * 0.6;
+          const text = chartValueText(c, t);
+          const w = textWidth(text, g.yearSize);
+          const x0 = right ? b.cx + 7 : b.cx - 7 - w;
+          let ly = c.chart.type === 'step' ? b.cy + g.yearSize + 2 : b.cy + g.yearSize * 0.36;
+          while (placed.some((p) => p.x0 < x0 + w && x0 < p.x1 && Math.abs(p.y - ly) < g.yearSize + 1)) ly += g.yearSize + 1;
+          placed.push({ x0, x1: x0 + w, y: ly });
+          o.push(`<text class="val" x="${r1(b.cx + (right ? 7 : -7))}" y="${r1(ly)}"${right ? '' : ' text-anchor="end"'}>${esc(text)}</text>`);
+        }
+      } else if (t.share) {
+        o.push(shareBarSVG(col, b, t.share, fill));
+      } else if (t.point) {
+        const cy = r1(b.y0);
+        o.push(`<circle class="dot f-${fill}" cx="${r1(x + col.barW / 2)}" cy="${cy}" r="${g.narrow ? 3.5 : 4}"/>`);
+      } else {
+        const gapTop = 1;
+        const gapBottom = t.ongoing ? 0 : 1;
+        let y0 = b.y0 + gapTop;
+        let h = b.y1 - b.y0 - gapTop - gapBottom;
+        if (h < 3) { y0 = b.y0 + (b.y1 - b.y0) / 2 - 1.5; h = 3; }
+        const cls = `${fill === 'hatch' ? 'bar-hatch' : `bar f-${fill}`}${c.fadeApprox && t.approx ? ' approx' : ''}`;
+        if ((t.ongoing || b.clipped) && fill !== 'hatch') {
+          // 在任中は下端を、年表の始まりより前から続くものは上端を薄くして、棒が続いていることを示す
+          const yTop = b.clipped ? b.y0 : y0;
+          const yBot = t.ongoing ? b.y1 : b.y1 - gapBottom;
+          const gid = `tl-g-${t.id}`;
+          const [g1, g2, o1, o2] = t.ongoing ? [yBot - 22, yBot, 1, 0] : [yTop, yTop + 22, 0, 1];
+          o.push(`<linearGradient id="${gid}" gradientUnits="userSpaceOnUse" x1="0" y1="${r1(g1)}" x2="0" y2="${r1(g2)}"><stop offset="0" class="s-${fill}" stop-opacity="${o1}"/><stop offset="1" class="s-${fill}" stop-opacity="${o2}"/></linearGradient>`);
+          o.push(`<path class="bar-open" d="${barPath(x, yTop, col.barW, yBot - yTop, !b.clipped, !t.ongoing)}" fill="url(#${gid})"/>`);
+        } else if (t.end > model.asOf && fill !== 'hatch') {
+          // 終了がまだ先のもの（予定）は、時点より後を薄くする
+          const split = Math.max(y0, Math.min(y0 + h, g.yOf(model.asOf)));
+          if (split > y0) o.push(`<rect class="${cls}" x="${r1(x)}" y="${r1(y0)}" width="${col.barW}" height="${r1(split - y0)}" rx="${r1(Math.min(3, (split - y0) / 2))}"/>`);
+          o.push(`<rect class="${cls} future" x="${r1(x)}" y="${r1(split)}" width="${col.barW}" height="${r1(y0 + h - split)}" rx="${r1(Math.min(3, (y0 + h - split) / 2))}"/>`);
+        } else {
+          o.push(`<rect class="${cls}" x="${r1(x)}" y="${r1(y0)}" width="${col.barW}" height="${r1(h)}" rx="${r1(Math.min(3, h / 2))}"/>`);
+        }
+        // 棒の中の縦書きの名前
+        if (col.mode === 'inside') {
+          const text = t.short;
+          if (insideFits(text, col.barW, h, g.insideSize)) {
+            o.push(`<text class="inside${fill === 'hatch' || fill === 'gray' ? ' on-pale' : ''}" x="${r1(x + col.barW / 2)}" y="${r1(y0 + 5)}" writing-mode="vertical-rl">${esc(text)}</text>`);
+          }
+        }
+      }
+      if (col.labeled) {
+        // 引き出し線（ラベルが本来の位置からずれたときと、外側の段の棒をまたぐときだけ）
+        const dy = b.labelY - b.anchor;
+        const photo = col.photo && t.photo;
+        const crosses = col.c.nLanes > 1 && col.bars.some((o) => o.term.laneIdx > t.laneIdx && !o.term.point && o.y0 <= b.anchor && o.y1 >= b.anchor);
+        if (Math.abs(dy) > 1.5 || crosses) {
+          if (col.side === 'left') {
+            const xb = x - 1.5;
+            o.push(`<path class="leader" d="M${r1(xb)} ${r1(b.anchor)}h-4L${r1(col.labelX + 4)} ${r1(b.labelY)}h-2"/>`);
+          } else {
+            const xb = x + col.barW + 1.5;
+            o.push(`<path class="leader" d="M${r1(xb)} ${r1(b.anchor)}h4L${r1(col.labelX - 4)} ${r1(b.labelY)}h2"/>`);
+          }
+        }
+        const ty = r1(b.labelY + g.nameSize * 0.36);
+        const yrs = esc(yearsText(t));
+        let tx = col.labelX;
+        // 顔だけの列では名前を書かず、顔の無い期間は顔の大きさの丸だけを置く
+        if (photo || col.faceOnly) {
+          const size = col.photo;
+          const px = col.side === 'left' ? col.labelX - size : col.labelX;
+          const py = b.labelY - size / 2;
+          o.push(`<circle class="photo-ring" cx="${r1(px + size / 2)}" cy="${r1(b.labelY)}" r="${r1(size / 2 + 1)}"/>`);
+          if (photo) {
+            // 画面の画素が小さい版で足りる顔は、小さい版を読む（dpr は画面の画素の倍率）
+            const href = photoData?.[t.photo] ?? (size * dpr <= SMALL_PHOTO_PX ? smallPhoto(t.photo) : t.photo);
+            o.push(`<image href="${esc(href)}" x="${r1(px)}" y="${r1(py)}" width="${size}" height="${size}" clip-path="url(#tl-round)" preserveAspectRatio="xMidYMid slice"/>`);
+          }
+          tx = col.side === 'left' ? px - 6 : px + size + 6;
+        }
+        if (!col.faceOnly) {
+          const room = Math.abs(tx - col.labelEdge);
+          const withYears = col.withYears && textWidth(t.short, g.nameSize) + 6 + textWidth(yearsText(t), g.yearSize) <= room;
+          // 入りきらない名前は末尾を「…」にする（全文は吹き出しと読み取り欄に出る）
+          const nm = esc(fitText(t.short, g.nameSize, room));
+          if (col.side === 'left') {
+            const inner = withYears ? `<tspan class="yrs">${yrs}</tspan><tspan class="name" dx="6">${nm}</tspan>` : `<tspan class="name">${nm}</tspan>`;
+            o.push(`<text class="label" x="${r1(tx)}" y="${ty}" text-anchor="end">${inner}</text>`);
+          } else {
+            const inner = withYears ? `<tspan class="name">${nm}</tspan><tspan class="yrs" dx="6">${yrs}</tspan>` : `<tspan class="name">${nm}</tspan>`;
+            o.push(`<text class="label" x="${r1(tx)}" y="${ty}">${inner}</text>`);
+          }
+        }
+      }
+      o.push('</g>');
+    }
+  }
+
+  // 割合の帯の目盛り（過半数・3分の2など）の縦線。帯の上に重ねる
+  for (const col of g.cols) {
+    for (const line of col.c.share?.lines ?? []) {
+      const x = r1(shareLineX(col, line.at));
+      o.push(`<line class="share-line${line.dash ? ' dash' : ''}" x1="${x}" x2="${x}" y1="${r1(g.top)}" y2="${r1(g.plotBottom)}"/>`);
+    }
+  }
+
+  // 横線が棒と交わる点（棒の上に重ねる）。段が1つの列だけ。
+  if (interactive) {
+    o.push(`<g class="xhair xhair-dots" transform="translate(0 ${g.top})" aria-hidden="true">`);
+    for (const col of g.cols) {
+      if (col.c.nLanes !== 1 || col.c.hasPoints || col.mode === 'chart') continue;
+      const fill = col.c.colorBy === 'group' ? 'gray' : col.c.color ?? 'gray';
+      o.push(`<circle class="xhair-dot f-${fill}" data-col="${col.c.id}" cx="${r1(col.laneX(0) + col.barW / 2)}" cy="0" r="${g.narrow ? 4 : 5}"/>`);
+    }
+    o.push('</g>');
+  }
+
+  if (footer) {
+    const fy = g.plotBottom + 30;
+    footer.forEach((line, i) => {
+      o.push(`<text class="foot" x="${W / 2}" y="${r1(fy + i * 16)}" text-anchor="middle">${esc(line)}</text>`);
+    });
+  }
+
+  o.push('</svg>');
+  return o.join('\n');
+}
+
+// ---------------------------------------------------------------- 静的SVG用のスタイル
+
+// 列の色。名前は色相で付け、ページ側の CSS 変数と同じものを使う（ライト／ダークそれぞれ検証済み）。
+export const HUES = ['red', 'blue', 'amber', 'violet', 'green', 'teal'];
+
+export const THEMES = {
+  light: {
+    paper: '#fcfcfd', ink: '#1c2029', ink2: '#4b5260', muted: '#687080',
+    rule: '#e8eaef', rule2: '#c3c8d2', spineA: '#f0f1f5', spineB: '#e6e8ef',
+    red: '#d4452c', blue: '#2c5aa0', amber: '#b8730f', violet: '#7a4fc4', green: '#138a60', teal: '#00897b',
+    gray: '#9aa0ab',
+  },
+  dark: {
+    paper: '#14171f', ink: '#e6e8ee', ink2: '#b2b8c4', muted: '#8d94a3',
+    rule: '#232833', rule2: '#3d4452', spineA: '#1b1f29', spineB: '#222733',
+    red: '#e5604a', blue: '#678bd2', amber: '#c98500', violet: '#9085e9', green: '#199e70', teal: '#1f9fa1',
+    gray: '#6b7280',
+  },
+};
+
+export const FONT_BODY = '"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif';
+export const FONT_DISPLAY = '"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif';
+
+// 色以外の見た目。ページ側では var(--…) をページのトークンに対応させる。
+export function svgRules(g) {
+  const chart = g.cols.some((col) => col.mode === 'chart');
+  const fills = [...HUES, 'gray'].map((h) => `.tl .f-${h}{fill:var(--${h})}\n.tl .s-${h}{stop-color:var(--${h})}${chart ? `\n.tl .k-${h}{stroke:var(--${h})}` : ''}`).join('\n');
+  const chartRules = chart ? `
+.tl .series{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.tl .mark{stroke:var(--paper);stroke-width:1.5}
+.tl .val{font-size:${g.yearSize}px;fill:var(--ink2);font-variant-numeric:tabular-nums}
+.tl .scale{font-size:${g.narrow ? 9.5 : 10}px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .key{font-size:${g.narrow ? 10.5 : 11}px;fill:var(--ink2)}${g.cols.some((col) => col.mode === 'chart' && col.c.spec.series) ? '\n.tl .mark.quiet{opacity:0}' : ''}` : '';
+  const share = g.cols.some((col) => col.c.share);
+  const shareRules = share ? `
+.tl .share-sub{opacity:0.45}
+.tl .share-rest{fill:var(--rule2)}
+.tl .share-line{stroke:var(--ink);stroke-width:1;opacity:0.55;pointer-events:none}
+.tl .share-line.dash{stroke-dasharray:3 2}` : '';
+  const scaleRule = share && !chart ? `
+.tl .scale{font-size:${g.narrow ? 9.5 : 10}px;fill:var(--muted);font-variant-numeric:tabular-nums}` : '';
+  return `
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:${g.narrow ? 12 : 13}px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:${g.narrow ? 9.5 : 10.5}px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:${g.narrow ? 17 : 19}px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:${g.narrow ? 9.5 : 10}px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:${g.narrow ? 13 : 14.5}px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:${g.narrow ? 10 : 11}px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:${g.narrow ? 11.5 : 13}px;font-weight:700;fill:var(--ink)}
+${fills}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}${chartRules}${shareRules}${scaleRule}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:${g.nameSize}px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:${g.yearSize}px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:${g.insideSize}px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+`;
+}
+
+export function themeVars(c) {
+  return `--paper:${c.paper};--ink:${c.ink};--ink2:${c.ink2};--muted:${c.muted};--rule:${c.rule};--rule2:${c.rule2};--spine-a:${c.spineA};--spine-b:${c.spineB};${[...HUES, 'gray'].map((h) => `--${h}:${c[h]}`).join(';')}`;
+}
+
+export function staticStyle(g, theme) {
+  return `
+.tl{${themeVars(THEMES[theme])};--font-body:${FONT_BODY};--font-display:${FONT_DISPLAY}}
+${svgRules(g)}`;
+}
+
+
+const DATA = {"page":{"title":"日本銀行総裁と政策金利","description":"1882年の開業から今日まで、日本銀行の総裁と政策金利（公定歩合と短期金利の誘導目標）を、総理大臣と景気の波と同じ時間軸に並べた年表","lede":"日本銀行が開業した1882年から今日までの、歴代総裁と政策金利を、総理大臣と景気の波と同じ時間軸に並べた年表です。金利は、変わった日から次に変わる日まで同じ高さの線で描いています。1990年代半ばまでは公定歩合の上げ下げが金融政策の中心で、その後は短期の市場金利（無担保コールレート）を目標にするようになり、1998年からは数字の誘導目標を示しています。ゼロ金利、量的緩和、マイナス金利を経て、2024年からは利上げが続いています。","how":"線や棒にカーソルを合わせる（スマホではタップする）と、その金利が続いた期間と決めた内容や、総裁・総理の在任期間が表示されます。上の欄には、横線の位置の総裁・総理と、その日の金利が出ます。","notes":["金利は、変わった日から次に変わる日まで同じ高さの線で描いた。誘導目標の線が途切れているところは、金利の目標がなかった時期（量的緩和など）。"],"range":{"start":"1880-01-01"},"ppy":[24,20],"maxWidth":1300,"spine":{"bands":{"data":"eras","after":"1868-10-23"},"wareki":{"data":"eras","after":"1868-10-23"},"retro":true,"headline":"和暦"},"jump":"bands","facts":["gov","rate"],"columns":[{"id":"gov","data":"boj-governors","side":"left","title":"日本銀行総裁","short":"総裁","counterLabel":"日銀総裁","color":"violet","photos":true,"fixed":true,"counter":["pm"]},{"id":"econ","data":"business-cycles","side":"left","title":"景気の波（内閣府「景気基準日付」）","short":"景気","mark":"景気","colorBy":"group","labels":"none","bar":6,"narrowHidden":true},{"id":"rate","data":"policy-rates","side":"right","title":"政策金利","short":"金利","colorBy":"group","fixed":true,"chart":{"type":"step","value":"金利（%）","min":-2,"max":12,"ticks":[0,4,8],"unit":"%","width":260,"labels":["1980-03-19","1990-08-30"],"digits":2}},{"id":"pm","data":"prime-ministers","side":"right","title":"内閣総理大臣","short":"総理","counterLabel":"総理","color":"gray","narrowHidden":true,"counter":["gov"]}],"preview":{"width":1000}},"datasets":{"boj-governors":{"spec":{"file":"boj-governors.csv","columns":{"ordinal":"代","name":"氏名","start":"就任日","end":"退任日","reading":"読み","url":"リンク","photo":"写真","photoCredit":"写真の出典","photoUrl":"写真のページ","photoLicense":"写真のライセンス"},"hidden":["Wikidata"],"days":"exclusive","durationLabel":"在任","ongoing":"在任中","role":"日本銀行総裁","nameLabel":"氏名","startLabel":"就任日","endLabel":"退任日","check":{"sequential":true,"consecutive":true},"title":"歴代日本銀行総裁","photoCredit":"写真：Wikimedia Commons"},"rows":[{"代":"1","氏名":"吉原重俊","読み":"よしはら しげとし","就任日":"1882-10-06","退任日":"1887-12-19","前職":"大蔵少輔","リンク":"https://ja.wikipedia.org/wiki/吉原重俊","Wikidata":"Q5385791","写真":"photos/Q5385791.jpg","写真の出典":"Shigekazu Yoshihara・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Yoshihara_Shigetoshi.jpg","写真のライセンス":""},{"代":"2","氏名":"富田鐵之助","読み":"とみた てつのすけ","就任日":"1888-02-21","退任日":"1889-09-03","前職":"日本銀行副総裁","リンク":"https://ja.wikipedia.org/wiki/富田鐵之助","Wikidata":"Q5385762","写真":"photos/Q5385762.jpg","写真の出典":"作者不明・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Tomita_Tetsunosuke.jpg","写真のライセンス":""},{"代":"3","氏名":"川田小一郎","読み":"かわだ こいちろう","就任日":"1889-09-03","退任日":"1896-11-07","前職":"三菱の管事","リンク":"https://ja.wikipedia.org/wiki/川田小一郎","Wikidata":"Q5385749","写真":"photos/Q5385749.jpg","写真の出典":"Published by 博文館(Hakubunkan)・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Kawada_Koichir%C5%8D.jpg","写真のライセンス":""},{"代":"4","氏名":"岩崎彌之助","読み":"いわさき やのすけ","就任日":"1896-11-11","退任日":"1898-10-20","前職":"三菱の社長","リンク":"https://ja.wikipedia.org/wiki/岩崎弥之助","Wikidata":"Q4923018","写真":"photos/Q4923018.jpg","写真の出典":"Published by 博文館(Hakubunkan)・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Iwasaki_Yanosuke.jpg","写真のライセンス":""},{"代":"5","氏名":"山本達雄","読み":"やまもと たつお","就任日":"1898-10-20","退任日":"1903-10-19","前職":"日本銀行理事","リンク":"https://ja.wikipedia.org/wiki/山本達雄_(政治家)","Wikidata":"Q458627","写真":"photos/Q458627.jpg","写真の出典":"Published by 博文館(Hakubunkan)・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Yamamoto_Tatsuo.jpg","写真のライセンス":""},{"代":"6","氏名":"松尾臣善","読み":"まつお しげよし","就任日":"1903-10-20","退任日":"1911-06-01","前職":"大蔵省理財局長","リンク":"https://ja.wikipedia.org/wiki/松尾臣善","Wikidata":"Q3656104","写真":"photos/Q3656104.jpg","写真の出典":"作者不明・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Shigeyoshi_Matsuo.jpg","写真のライセンス":""},{"代":"7","氏名":"高橋是清","読み":"たかはし これきよ","就任日":"1911-06-01","退任日":"1913-02-20","前職":"日本銀行副総裁・横浜正金銀行頭取","リンク":"https://ja.wikipedia.org/wiki/高橋是清","Wikidata":"Q315842","写真":"photos/Q315842.jpg","写真の出典":"作者不明・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Korekiyo_Takahashi_2.jpg","写真のライセンス":""},{"代":"8","氏名":"三島彌太郎","読み":"みしま やたろう","就任日":"1913-02-28","退任日":"1919-03-07","前職":"横浜正金銀行頭取","リンク":"https://ja.wikipedia.org/wiki/三島彌太郎","Wikidata":"Q5385640","写真":"photos/Q5385640.jpg","写真の出典":"published by 西日本新聞社・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Yataro_Mishima.jpg","写真のライセンス":""},{"代":"9","氏名":"井上準之助","読み":"いのうえ じゅんのすけ","就任日":"1919-03-13","退任日":"1923-09-02","前職":"横浜正金銀行頭取","リンク":"https://ja.wikipedia.org/wiki/井上準之助","Wikidata":"Q5385606","写真":"photos/Q5385606.jpg","写真の出典":"作者不明・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Junnosuke_Inoue.jpg","写真のライセンス":""},{"代":"10","氏名":"市来乙彦","読み":"いちき おとひこ","就任日":"1923-09-05","退任日":"1927-05-10","前職":"大蔵大臣","リンク":"https://ja.wikipedia.org/wiki/市来乙彦","Wikidata":"Q5385617","写真":"photos/Q5385617.jpg","写真の出典":"作者不明・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Ichiki_Otohiko.jpg","写真のライセンス":""},{"代":"11","氏名":"井上準之助","読み":"いのうえ じゅんのすけ","就任日":"1927-05-10","退任日":"1928-06-12","前職":"貴族院議員","リンク":"https://ja.wikipedia.org/wiki/井上準之助","Wikidata":"Q5385606","写真":"photos/Q5385606.jpg","写真の出典":"作者不明・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Junnosuke_Inoue.jpg","写真のライセンス":""},{"代":"12","氏名":"土方久徴","読み":"ひじかた ひさあきら","就任日":"1928-06-12","退任日":"1935-06-04","前職":"日本銀行副総裁","リンク":"https://ja.wikipedia.org/wiki/土方久徴","Wikidata":"Q5385581","写真":"photos/Q5385581.jpg","写真の出典":"作者不明・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Hijikata_Hisaakira.jpg","写真のライセンス":""},{"代":"13","氏名":"深井英五","読み":"ふかい えいご","就任日":"1935-06-04","退任日":"1937-02-09","前職":"日本銀行副総裁","リンク":"https://ja.wikipedia.org/wiki/深井英五","Wikidata":"Q5349177","写真":"photos/Q5349177.jpg","写真の出典":"作者不明・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Fukai_Eigo.jpg","写真のライセンス":""},{"代":"14","氏名":"池田成彬","読み":"いけだ せいひん","就任日":"1937-02-09","退任日":"1937-07-27","前職":"三井合名会社常務理事","リンク":"https://ja.wikipedia.org/wiki/池田成彬","Wikidata":"Q3148403","写真":"photos/Q3148403.jpg","写真の出典":"作者不明・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Shigeaki_Ikeda.jpg","写真のライセンス":""},{"代":"15","氏名":"結城豊太郎","読み":"ゆうき とよたろう","就任日":"1937-07-27","退任日":"1944-03-18","前職":"大蔵大臣","リンク":"https://ja.wikipedia.org/wiki/結城豊太郎","Wikidata":"Q3080909","写真":"photos/Q3080909.jpg","写真の出典":"作者不明・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Toyotarou_Yuuki.jpg","写真のライセンス":""},{"代":"16","氏名":"渋澤敬三","読み":"しぶさわ けいぞう","就任日":"1944-03-18","退任日":"1945-10-09","前職":"日本銀行副総裁","リンク":"https://ja.wikipedia.org/wiki/渋沢敬三","Wikidata":"Q981818","写真":"photos/Q981818.jpg","写真の出典":"Ihei Kimura・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Keizo_Shibusawa.jpg","写真のライセンス":""},{"代":"17","氏名":"新木栄吉","読み":"あらき えいきち","就任日":"1945-10-09","退任日":"1946-06-01","前職":"日本銀行副総裁","リンク":"https://ja.wikipedia.org/wiki/新木栄吉","Wikidata":"Q5102831","写真":"photos/Q5102831.jpg","写真の出典":"日本銀行 / The Bank of Japan・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Eikichi_Araki.jpg","写真のライセンス":""},{"代":"18","氏名":"一萬田尚登","読み":"いちまだ ひさと","就任日":"1946-06-01","退任日":"1954-12-10","前職":"日本銀行理事","リンク":"https://ja.wikipedia.org/wiki/一万田尚登","Wikidata":"Q5385490","写真":"photos/Q5385490.jpg","写真の出典":"作者不明・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Hisato_Ichimada.jpg","写真のライセンス":""},{"代":"19","氏名":"新木栄吉","読み":"あらき えいきち","就任日":"1954-12-11","退任日":"1956-11-30","前職":"駐米大使","リンク":"https://ja.wikipedia.org/wiki/新木栄吉","Wikidata":"Q5102831","写真":"photos/Q5102831.jpg","写真の出典":"日本銀行 / The Bank of Japan・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Eikichi_Araki.jpg","写真のライセンス":""},{"代":"20","氏名":"山際正道","読み":"やまぎわ まさみち","就任日":"1956-11-30","退任日":"1964-12-17","前職":"日本輸出入銀行総裁","リンク":"https://ja.wikipedia.org/wiki/山際正道","Wikidata":"Q5385444","写真":"","写真の出典":"","写真のページ":"","写真のライセンス":""},{"代":"21","氏名":"宇佐美洵","読み":"うさみ まこと","就任日":"1964-12-17","退任日":"1969-12-16","前職":"三菱銀行頭取","リンク":"https://ja.wikipedia.org/wiki/宇佐美洵","Wikidata":"Q5385423","写真":"","写真の出典":"","写真のページ":"","写真のライセンス":""},{"代":"22","氏名":"佐々木直","読み":"ささき ただし","就任日":"1969-12-17","退任日":"1974-12-16","前職":"日本銀行副総裁","リンク":"https://ja.wikipedia.org/wiki/佐々木直","Wikidata":"Q5385404","写真":"","写真の出典":"","写真のページ":"","写真のライセンス":""},{"代":"23","氏名":"森永貞一郎","読み":"もりなが ていいちろう","就任日":"1974-12-17","退任日":"1979-12-16","前職":"東京証券取引所理事長","リンク":"https://ja.wikipedia.org/wiki/森永貞一郎","Wikidata":"Q5385381","写真":"","写真の出典":"","写真のページ":"","写真のライセンス":""},{"代":"24","氏名":"前川春雄","読み":"まえかわ はるお","就任日":"1979-12-17","退任日":"1984-12-16","前職":"日本銀行副総裁","リンク":"https://ja.wikipedia.org/wiki/前川春雄","Wikidata":"Q5385356","写真":"","写真の出典":"","写真のページ":"","写真のライセンス":""},{"代":"25","氏名":"澄田智","読み":"すみた さとし","就任日":"1984-12-17","退任日":"1989-12-16","前職":"日本銀行副総裁","リンク":"https://ja.wikipedia.org/wiki/澄田智","Wikidata":"Q5385335","写真":"","写真の出典":"","写真のページ":"","写真のライセンス":""},{"代":"26","氏名":"三重野康","読み":"みえの やすし","就任日":"1989-12-17","退任日":"1994-12-16","前職":"日本銀行副総裁","リンク":"https://ja.wikipedia.org/wiki/三重野康","Wikidata":"Q4204309","写真":"","写真の出典":"","写真のページ":"","写真のライセンス":""},{"代":"27","氏名":"松下康雄","読み":"まつした やすお","就任日":"1994-12-17","退任日":"1998-03-20","前職":"さくら銀行会長","リンク":"https://ja.wikipedia.org/wiki/松下康雄","Wikidata":"Q5385313","写真":"","写真の出典":"","写真のページ":"","写真のライセンス":""},{"代":"28","氏名":"速水優","読み":"はやみ まさる","就任日":"1998-03-20","退任日":"2003-03-19","前職":"日商岩井会長","リンク":"https://ja.wikipedia.org/wiki/速水優","Wikidata":"Q1047651","写真":"photos/Q1047651.jpg","写真の出典":"the International Monetary Fund・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Masaru_Hayami.jpg","写真のライセンス":""},{"代":"29","氏名":"福井俊彦","読み":"ふくい としひこ","就任日":"2003-03-20","退任日":"2008-03-19","前職":"富士通総研理事長","リンク":"https://ja.wikipedia.org/wiki/福井俊彦","Wikidata":"Q1045577","写真":"photos/Q1045577.jpg","写真の出典":"the International Monetary Fund・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Toshihiko_Fukui.jpg","写真のライセンス":""},{"代":"30","氏名":"白川方明","読み":"しらかわ まさあき","就任日":"2008-04-09","退任日":"2013-03-19","前職":"日本銀行副総裁","リンク":"https://ja.wikipedia.org/wiki/白川方明","Wikidata":"Q168716","写真":"photos/Q168716.jpg","写真の出典":"US Government・パブリックドメイン","写真のページ":"https://commons.wikimedia.org/wiki/File:Masaaki_Shirakawa_2012.jpg","写真のライセンス":""},{"代":"31","氏名":"黒田東彦","読み":"くろだ はるひこ","就任日":"2013-03-20","退任日":"2023-04-08","前職":"アジア開発銀行総裁","リンク":"https://ja.wikipedia.org/wiki/黒田東彦","Wikidata":"Q5244721","写真":"photos/Q5244721.jpg","写真の出典":"Asian Development Bank・CC BY 2.0","写真のページ":"https://commons.wikimedia.org/wiki/File:Haruhiko_Kuroda_at_ADB_Philippines_(crop).jpg","写真のライセンス":"https://creativecommons.org/licenses/by/2.0/deed.ja"},{"代":"32","氏名":"植田和男","読み":"うえだ かずお","就任日":"2023-04-09","退任日":"","前職":"共立女子大学教授","リンク":"https://ja.wikipedia.org/wiki/植田和男","Wikidata":"Q11540681","写真":"photos/Q11540681.jpg","写真の出典":"内閣広報室｜Cabinet Public Affairs Office・CC BY 4.0","写真のページ":"https://commons.wikimedia.org/wiki/File:BOJ_governor_Kazuo_Ueda_(cropped).jpg","写真のライセンス":"https://creativecommons.org/licenses/by/4.0/deed.ja"}],"base":"../boj-governors/"},"business-cycles":{"spec":{"file":"business-cycles.csv","columns":{"name":"名前","start":"開始日","end":"終了日","group":"区分","url":"リンク"},"groups":{"拡張期":{"color":"teal"},"後退期":{"color":"hatch"}},"hidden":["Wikidata","期間"],"days":"months","durationLabel":"期間","ongoing":"現在","startLabel":"始まり","endLabel":"終わり","nameLabel":"景気","title":"日本の景気循環"},"rows":[{"名前":"後退期","開始日":"1951-06","終了日":"1951-10","区分":"後退期","循環":"第1循環","期間":"4か月","リンク":""},{"名前":"拡張期","開始日":"1951-10","終了日":"1954-01","区分":"拡張期","循環":"第2循環","期間":"27か月","リンク":""},{"名前":"後退期","開始日":"1954-01","終了日":"1954-11","区分":"後退期","循環":"第2循環","期間":"10か月","リンク":""},{"名前":"神武景気","開始日":"1954-11","終了日":"1957-06","区分":"拡張期","循環":"第3循環","期間":"31か月","リンク":"https://ja.wikipedia.org/wiki/神武景気"},{"名前":"なべ底不況","開始日":"1957-06","終了日":"1958-06","区分":"後退期","循環":"第3循環","期間":"12か月","リンク":"https://ja.wikipedia.org/wiki/なべ底不況"},{"名前":"岩戸景気","開始日":"1958-06","終了日":"1961-12","区分":"拡張期","循環":"第4循環","期間":"42か月","リンク":"https://ja.wikipedia.org/wiki/岩戸景気"},{"名前":"転換型不況","開始日":"1961-12","終了日":"1962-10","区分":"後退期","循環":"第4循環","期間":"10か月","リンク":""},{"名前":"オリンピック景気","開始日":"1962-10","終了日":"1964-10","区分":"拡張期","循環":"第5循環","期間":"24か月","リンク":"https://ja.wikipedia.org/wiki/オリンピック景気"},{"名前":"証券不況","開始日":"1964-10","終了日":"1965-10","区分":"後退期","循環":"第5循環","期間":"12か月","リンク":"https://ja.wikipedia.org/wiki/証券不況"},{"名前":"いざなぎ景気","開始日":"1965-10","終了日":"1970-07","区分":"拡張期","循環":"第6循環","期間":"57か月","リンク":"https://ja.wikipedia.org/wiki/いざなぎ景気"},{"名前":"ニクソン不況","開始日":"1970-07","終了日":"1971-12","区分":"後退期","循環":"第6循環","期間":"17か月","リンク":"https://ja.wikipedia.org/wiki/ニクソン・ショック"},{"名前":"列島改造ブーム","開始日":"1971-12","終了日":"1973-11","区分":"拡張期","循環":"第7循環","期間":"23か月","リンク":"https://ja.wikipedia.org/wiki/日本列島改造論"},{"名前":"第1次石油危機","開始日":"1973-11","終了日":"1975-03","区分":"後退期","循環":"第7循環","期間":"16か月","リンク":"https://ja.wikipedia.org/wiki/オイルショック"},{"名前":"拡張期","開始日":"1975-03","終了日":"1977-01","区分":"拡張期","循環":"第8循環","期間":"22か月","リンク":""},{"名前":"後退期","開始日":"1977-01","終了日":"1977-10","区分":"後退期","循環":"第8循環","期間":"9か月","リンク":""},{"名前":"拡張期","開始日":"1977-10","終了日":"1980-02","区分":"拡張期","循環":"第9循環","期間":"28か月","リンク":""},{"名前":"第2次石油危機","開始日":"1980-02","終了日":"1983-02","区分":"後退期","循環":"第9循環","期間":"36か月","リンク":"https://ja.wikipedia.org/wiki/オイルショック"},{"名前":"ハイテク景気","開始日":"1983-02","終了日":"1985-06","区分":"拡張期","循環":"第10循環","期間":"28か月","リンク":""},{"名前":"円高不況","開始日":"1985-06","終了日":"1986-11","区分":"後退期","循環":"第10循環","期間":"17か月","リンク":"https://ja.wikipedia.org/wiki/円高不況"},{"名前":"バブル景気","開始日":"1986-11","終了日":"1991-02","区分":"拡張期","循環":"第11循環","期間":"51か月","リンク":"https://ja.wikipedia.org/wiki/バブル景気"},{"名前":"第1次平成不況","開始日":"1991-02","終了日":"1993-10","区分":"後退期","循環":"第11循環","期間":"32か月","リンク":"https://ja.wikipedia.org/wiki/平成不況"},{"名前":"カンフル景気","開始日":"1993-10","終了日":"1997-05","区分":"拡張期","循環":"第12循環","期間":"43か月","リンク":""},{"名前":"第2次平成不況","開始日":"1997-05","終了日":"1999-01","区分":"後退期","循環":"第12循環","期間":"20か月","リンク":"https://ja.wikipedia.org/wiki/平成不況"},{"名前":"ITバブル","開始日":"1999-01","終了日":"2000-11","区分":"拡張期","循環":"第13循環","期間":"22か月","リンク":"https://ja.wikipedia.org/wiki/インターネット・バブル"},{"名前":"第3次平成不況","開始日":"2000-11","終了日":"2002-01","区分":"後退期","循環":"第13循環","期間":"14か月","リンク":"https://ja.wikipedia.org/wiki/平成不況"},{"名前":"いざなみ景気","開始日":"2002-01","終了日":"2008-02","区分":"拡張期","循環":"第14循環","期間":"73か月","リンク":"https://ja.wikipedia.org/wiki/第14循環"},{"名前":"リーマン不況","開始日":"2008-02","終了日":"2009-03","区分":"後退期","循環":"第14循環","期間":"13か月","リンク":"https://ja.wikipedia.org/wiki/第14循環"},{"名前":"拡張期","開始日":"2009-03","終了日":"2012-03","区分":"拡張期","循環":"第15循環","期間":"36か月","リンク":""},{"名前":"後退期","開始日":"2012-03","終了日":"2012-11","区分":"後退期","循環":"第15循環","期間":"8か月","リンク":""},{"名前":"アベノミクス景気","開始日":"2012-11","終了日":"2018-10","区分":"拡張期","循環":"第16循環","期間":"71か月","リンク":"https://ja.wikipedia.org/wiki/アベノミクス"},{"名前":"後退期","開始日":"2018-10","終了日":"2020-05","区分":"後退期","循環":"第16循環","期間":"19か月","リンク":""},{"名前":"拡張期","開始日":"2020-05","終了日":"","区分":"拡張期","循環":"第17循環","期間":"未確定","リンク":""}],"base":"../business-cycles/"},"policy-rates":{"spec":{"file":"policy-rates.csv","series":true,"columns":{"start":"日付","group":"区分","url":"リンク"},"groups":{"公定歩合":{"color":"blue","short":"公定歩合"},"短期金利の誘導目標":{"color":"red","short":"誘導目標"}},"title":"日本の政策金利（公定歩合と短期金利の誘導目標）"},"rows":[{"日付":"1882-10-11","区分":"公定歩合","金利（%）":"10.22","内容":"商業手形割引歩合を日歩2銭8厘と定める","決定日":"","リンク":""},{"日付":"1882-11-21","区分":"公定歩合","金利（%）":"9.49","内容":"商業手形割引歩合を日歩2銭6厘に引き下げる","決定日":"","リンク":""},{"日付":"1883-03-14","区分":"公定歩合","金利（%）":"8.76","内容":"商業手形割引歩合を日歩2銭4厘に引き下げる","決定日":"","リンク":""},{"日付":"1883-10-02","区分":"公定歩合","金利（%）":"8.03","内容":"商業手形割引歩合を日歩2銭2厘に引き下げる","決定日":"","リンク":""},{"日付":"1883-11-29","区分":"公定歩合","金利（%）":"7.67","内容":"商業手形割引歩合を日歩2銭1厘に引き下げる","決定日":"","リンク":""},{"日付":"1883-12-10","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き下げる","決定日":"","リンク":""},{"日付":"1884-04-26","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き下げる","決定日":"","リンク":""},{"日付":"1884-07-03","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き上げる","決定日":"","リンク":""},{"日付":"1884-07-18","区分":"公定歩合","金利（%）":"7.67","内容":"商業手形割引歩合を日歩2銭1厘に引き上げる","決定日":"","リンク":""},{"日付":"1884-08-12","区分":"公定歩合","金利（%）":"8.03","内容":"商業手形割引歩合を日歩2銭2厘に引き上げる","決定日":"","リンク":""},{"日付":"1884-11-19","区分":"公定歩合","金利（%）":"8.76","内容":"商業手形割引歩合を日歩2銭4厘に引き上げる","決定日":"","リンク":""},{"日付":"1885-02-01","区分":"公定歩合","金利（%）":"9.49","内容":"商業手形割引歩合を日歩2銭6厘に引き上げる","決定日":"","リンク":""},{"日付":"1885-04-02","区分":"公定歩合","金利（%）":"8.76","内容":"商業手形割引歩合を日歩2銭4厘に引き下げる","決定日":"","リンク":""},{"日付":"1885-04-17","区分":"公定歩合","金利（%）":"8.4","内容":"商業手形割引歩合を日歩2銭3厘に引き下げる","決定日":"","リンク":""},{"日付":"1885-05-09","区分":"公定歩合","金利（%）":"8.03","内容":"商業手形割引歩合を日歩2銭2厘に引き下げる","決定日":"","リンク":""},{"日付":"1885-08-06","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き下げる","決定日":"","リンク":""},{"日付":"1885-08-25","区分":"公定歩合","金利（%）":"6.94","内容":"商業手形割引歩合を日歩1銭9厘に引き下げる","決定日":"","リンク":""},{"日付":"1886-03-06","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き下げる","決定日":"","リンク":""},{"日付":"1886-04-09","区分":"公定歩合","金利（%）":"6.21","内容":"商業手形割引歩合を日歩1銭7厘に引き下げる","決定日":"","リンク":""},{"日付":"1886-05-03","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き下げる","決定日":"","リンク":""},{"日付":"1886-05-28","区分":"公定歩合","金利（%）":"5.48","内容":"商業手形割引歩合を日歩1銭5厘に引き下げる","決定日":"","リンク":""},{"日付":"1886-06-22","区分":"公定歩合","金利（%）":"4.93","内容":"商業手形割引歩合を日歩1銭3厘5毛に引き下げる","決定日":"","リンク":""},{"日付":"1886-10-14","区分":"公定歩合","金利（%）":"5.48","内容":"商業手形割引歩合を日歩1銭5厘に引き上げる","決定日":"","リンク":""},{"日付":"1886-10-22","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き上げる","決定日":"","リンク":""},{"日付":"1887-01-24","区分":"公定歩合","金利（%）":"5.48","内容":"商業手形割引歩合を日歩1銭5厘に引き下げる","決定日":"","リンク":""},{"日付":"1888-01-04","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き上げる","決定日":"","リンク":""},{"日付":"1888-03-10","区分":"公定歩合","金利（%）":"5.48","内容":"商業手形割引歩合を日歩1銭5厘に引き下げる","決定日":"","リンク":""},{"日付":"1888-05-11","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き上げる","決定日":"","リンク":""},{"日付":"1888-06-02","区分":"公定歩合","金利（%）":"6.21","内容":"商業手形割引歩合を日歩1銭7厘に引き上げる","決定日":"","リンク":""},{"日付":"1888-08-24","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き上げる","決定日":"","リンク":""},{"日付":"1888-09-29","区分":"公定歩合","金利（%）":"6.75","内容":"商業手形割引歩合を日歩1銭8厘5毛に引き上げる","決定日":"","リンク":""},{"日付":"1889-01-04","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き下げる","決定日":"","リンク":""},{"日付":"1889-02-01","区分":"公定歩合","金利（%）":"6.39","内容":"商業手形割引歩合を日歩1銭7厘5毛に引き下げる","決定日":"","リンク":""},{"日付":"1889-02-19","区分":"公定歩合","金利（%）":"6.02","内容":"商業手形割引歩合を日歩1銭6厘5毛に引き下げる","決定日":"","リンク":""},{"日付":"1889-05-08","区分":"公定歩合","金利（%）":"6.39","内容":"商業手形割引歩合を日歩1銭7厘5毛に引き上げる","決定日":"","リンク":""},{"日付":"1889-06-01","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き上げる","決定日":"","リンク":""},{"日付":"1889-08-19","区分":"公定歩合","金利（%）":"6.75","内容":"商業手形割引歩合を日歩1銭8厘5毛に引き上げる","決定日":"","リンク":""},{"日付":"1889-09-03","区分":"公定歩合","金利（%）":"6.94","内容":"商業手形割引歩合を日歩1銭9厘に引き上げる","決定日":"","リンク":""},{"日付":"1890-06-14","区分":"公定歩合","金利（%）":"6.21","内容":"商業手形割引歩合を日歩1銭7厘に引き下げる","決定日":"","リンク":""},{"日付":"1890-10-20","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き上げる","決定日":"","リンク":""},{"日付":"1891-03-02","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き上げる","決定日":"","リンク":""},{"日付":"1891-05-06","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き下げる","決定日":"","リンク":""},{"日付":"1891-07-21","区分":"公定歩合","金利（%）":"6.21","内容":"商業手形割引歩合を日歩1銭7厘に引き下げる","決定日":"","リンク":""},{"日付":"1892-11-24","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き下げる","決定日":"","リンク":""},{"日付":"1893-03-23","区分":"公定歩合","金利（%）":"5.11","内容":"商業手形割引歩合を日歩1銭4厘に引き下げる","決定日":"","リンク":""},{"日付":"1893-05-31","区分":"公定歩合","金利（%）":"4.75","内容":"商業手形割引歩合を日歩1銭3厘に引き下げる","決定日":"","リンク":""},{"日付":"1893-09-02","区分":"公定歩合","金利（%）":"5.48","内容":"商業手形割引歩合を日歩1銭5厘に引き上げる","決定日":"","リンク":""},{"日付":"1893-11-21","区分":"公定歩合","金利（%）":"6.21","内容":"商業手形割引歩合を日歩1銭7厘に引き上げる","決定日":"","リンク":""},{"日付":"1894-01-22","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き上げる","決定日":"","リンク":""},{"日付":"1894-02-08","区分":"公定歩合","金利（%）":"6.94","内容":"商業手形割引歩合を日歩1銭9厘に引き上げる","決定日":"","リンク":""},{"日付":"1894-06-19","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き上げる","決定日":"","リンク":""},{"日付":"1894-07-26","区分":"公定歩合","金利（%）":"7.67","内容":"商業手形割引歩合を日歩2銭1厘に引き上げる","決定日":"","リンク":""},{"日付":"1895-07-12","区分":"公定歩合","金利（%）":"6.94","内容":"商業手形割引歩合を日歩1銭9厘に引き下げる","決定日":"","リンク":""},{"日付":"1896-09-07","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き上げる","決定日":"","リンク":""},{"日付":"1897-08-11","区分":"公定歩合","金利（%）":"7.67","内容":"商業手形割引歩合を日歩2銭1厘に引き上げる","決定日":"","リンク":""},{"日付":"1897-10-23","区分":"公定歩合","金利（%）":"8.03","内容":"商業手形割引歩合を日歩2銭2厘に引き上げる","決定日":"","リンク":""},{"日付":"1898-02-09","区分":"公定歩合","金利（%）":"8.4","内容":"商業手形割引歩合を日歩2銭3厘に引き上げる","決定日":"","リンク":""},{"日付":"1898-03-14","区分":"公定歩合","金利（%）":"8.76","内容":"商業手形割引歩合を日歩2銭4厘に引き上げる","決定日":"","リンク":""},{"日付":"1898-10-08","区分":"公定歩合","金利（%）":"8.03","内容":"商業手形割引歩合を日歩2銭2厘に引き下げる","決定日":"","リンク":""},{"日付":"1898-12-07","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き下げる","決定日":"","リンク":""},{"日付":"1899-02-10","区分":"公定歩合","金利（%）":"6.94","内容":"商業手形割引歩合を日歩1銭9厘に引き下げる","決定日":"","リンク":""},{"日付":"1899-03-11","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き下げる","決定日":"","リンク":""},{"日付":"1899-04-12","区分":"公定歩合","金利（%）":"6.21","内容":"商業手形割引歩合を日歩1銭7厘に引き下げる","決定日":"","リンク":""},{"日付":"1899-07-28","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き下げる","決定日":"","リンク":""},{"日付":"1899-11-10","区分":"公定歩合","金利（%）":"6.21","内容":"商業手形割引歩合を日歩1銭7厘に引き上げる","決定日":"","リンク":""},{"日付":"1899-11-27","区分":"公定歩合","金利（%）":"6.94","内容":"商業手形割引歩合を日歩1銭9厘に引き上げる","決定日":"","リンク":""},{"日付":"1900-03-20","区分":"公定歩合","金利（%）":"7.67","内容":"商業手形割引歩合を日歩2銭1厘に引き上げる","決定日":"","リンク":""},{"日付":"1900-04-18","区分":"公定歩合","金利（%）":"8.4","内容":"商業手形割引歩合を日歩2銭3厘に引き上げる","決定日":"","リンク":""},{"日付":"1900-07-18","区分":"公定歩合","金利（%）":"8.76","内容":"商業手形割引歩合を日歩2銭4厘に引き上げる","決定日":"","リンク":""},{"日付":"1902-03-19","区分":"公定歩合","金利（%）":"8.03","内容":"商業手形割引歩合を日歩2銭2厘に引き下げる","決定日":"","リンク":""},{"日付":"1902-06-27","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き下げる","決定日":"","リンク":""},{"日付":"1902-10-03","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き下げる","決定日":"","リンク":""},{"日付":"1902-12-09","区分":"公定歩合","金利（%）":"6.21","内容":"商業手形割引歩合を日歩1銭7厘に引き下げる","決定日":"","リンク":""},{"日付":"1903-03-18","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き下げる","決定日":"","リンク":""},{"日付":"1904-07-02","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き上げる","決定日":"","リンク":""},{"日付":"1904-12-19","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き上げる","決定日":"","リンク":""},{"日付":"1905-06-16","区分":"公定歩合","金利（%）":"8.03","内容":"商業手形割引歩合を日歩2銭2厘に引き上げる","決定日":"","リンク":""},{"日付":"1906-03-13","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き下げる","決定日":"","リンク":""},{"日付":"1906-05-01","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き下げる","決定日":"","リンク":""},{"日付":"1907-12-04","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き上げる","決定日":"","リンク":""},{"日付":"1909-05-04","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き下げる","決定日":"","リンク":""},{"日付":"1909-08-13","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き下げる","決定日":"","リンク":""},{"日付":"1910-01-11","区分":"公定歩合","金利（%）":"5.11","内容":"商業手形割引歩合を日歩1銭4厘に引き下げる","決定日":"","リンク":""},{"日付":"1910-03-07","区分":"公定歩合","金利（%）":"4.75","内容":"商業手形割引歩合を日歩1銭3厘に引き下げる","決定日":"","リンク":""},{"日付":"1911-09-27","区分":"公定歩合","金利（%）":"5.48","内容":"商業手形割引歩合を日歩1銭5厘に引き上げる","決定日":"","リンク":""},{"日付":"1912-02-07","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き上げる","決定日":"","リンク":""},{"日付":"1912-10-02","区分":"公定歩合","金利（%）":"6.21","内容":"商業手形割引歩合を日歩1銭7厘に引き上げる","決定日":"","リンク":""},{"日付":"1912-11-14","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き上げる","決定日":"","リンク":""},{"日付":"1914-07-06","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き上げる","決定日":"","リンク":""},{"日付":"1916-04-17","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き下げる","決定日":"","リンク":""},{"日付":"1916-07-05","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き下げる","決定日":"","リンク":""},{"日付":"1917-03-16","区分":"公定歩合","金利（%）":"5.11","内容":"商業手形割引歩合を日歩1銭4厘に引き下げる","決定日":"","リンク":""},{"日付":"1918-09-16","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き上げる","決定日":"","リンク":""},{"日付":"1918-11-25","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き上げる","決定日":"","リンク":""},{"日付":"1919-10-06","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き上げる","決定日":"","リンク":""},{"日付":"1919-11-19","区分":"公定歩合","金利（%）":"8.03","内容":"商業手形割引歩合を日歩2銭2厘に引き上げる","決定日":"","リンク":""},{"日付":"1925-04-15","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き下げる","決定日":"","リンク":""},{"日付":"1926-10-04","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き下げる","決定日":"","リンク":""},{"日付":"1927-03-09","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き下げる","決定日":"","リンク":""},{"日付":"1927-10-10","区分":"公定歩合","金利（%）":"5.48","内容":"商業手形割引歩合を日歩1銭5厘に引き下げる","決定日":"","リンク":""},{"日付":"1930-10-07","区分":"公定歩合","金利（%）":"5.11","内容":"商業手形割引歩合を日歩1銭4厘に引き下げる","決定日":"","リンク":""},{"日付":"1931-10-06","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き上げる","決定日":"","リンク":""},{"日付":"1931-11-05","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き上げる","決定日":"","リンク":""},{"日付":"1932-03-12","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き下げる","決定日":"","リンク":""},{"日付":"1932-06-08","区分":"公定歩合","金利（%）":"5.11","内容":"商業手形割引歩合を日歩1銭4厘に引き下げる","決定日":"","リンク":""},{"日付":"1932-08-18","区分":"公定歩合","金利（%）":"4.38","内容":"商業手形割引歩合を日歩1銭2厘に引き下げる","決定日":"","リンク":""},{"日付":"1933-07-03","区分":"公定歩合","金利（%）":"3.65","内容":"商業手形割引歩合を日歩1銭に引き下げる","決定日":"","リンク":""},{"日付":"1936-04-07","区分":"公定歩合","金利（%）":"3.29","内容":"商業手形割引歩合を日歩9厘に引き下げる","決定日":"","リンク":""},{"日付":"1946-10-14","区分":"公定歩合","金利（%）":"3.65","内容":"商業手形割引歩合を日歩1銭に引き上げる","決定日":"","リンク":""},{"日付":"1948-04-26","区分":"公定歩合","金利（%）":"4.38","内容":"商業手形割引歩合を日歩1銭2厘に引き上げる","決定日":"","リンク":""},{"日付":"1948-07-05","区分":"公定歩合","金利（%）":"5.11","内容":"商業手形割引歩合を日歩1銭4厘に引き上げる","決定日":"","リンク":""},{"日付":"1951-10-01","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き上げる","決定日":"","リンク":""},{"日付":"1955-08-10","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き上げる","決定日":"","リンク":""},{"日付":"1957-03-20","区分":"公定歩合","金利（%）":"7.67","内容":"商業手形割引歩合を日歩2銭1厘に引き上げる","決定日":"","リンク":""},{"日付":"1957-05-08","区分":"公定歩合","金利（%）":"8.4","内容":"商業手形割引歩合を日歩2銭3厘に引き上げる","決定日":"","リンク":""},{"日付":"1958-06-18","区分":"公定歩合","金利（%）":"7.67","内容":"商業手形割引歩合を日歩2銭1厘に引き下げる","決定日":"","リンク":""},{"日付":"1958-09-05","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き下げる","決定日":"","リンク":""},{"日付":"1959-02-19","区分":"公定歩合","金利（%）":"6.94","内容":"商業手形割引歩合を日歩1銭9厘に引き下げる","決定日":"","リンク":""},{"日付":"1959-12-02","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き上げる","決定日":"","リンク":""},{"日付":"1960-08-24","区分":"公定歩合","金利（%）":"6.94","内容":"商業手形割引歩合を日歩1銭9厘に引き下げる","決定日":"","リンク":""},{"日付":"1961-01-26","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き下げる","決定日":"","リンク":""},{"日付":"1961-07-22","区分":"公定歩合","金利（%）":"6.94","内容":"商業手形割引歩合を日歩1銭9厘に引き上げる","決定日":"","リンク":""},{"日付":"1961-09-29","区分":"公定歩合","金利（%）":"7.3","内容":"商業手形割引歩合を日歩2銭に引き上げる","決定日":"","リンク":""},{"日付":"1962-10-27","区分":"公定歩合","金利（%）":"6.94","内容":"商業手形割引歩合を日歩1銭9厘に引き下げる","決定日":"","リンク":""},{"日付":"1962-11-27","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き下げる","決定日":"","リンク":""},{"日付":"1963-03-20","区分":"公定歩合","金利（%）":"6.21","内容":"商業手形割引歩合を日歩1銭7厘に引き下げる","決定日":"","リンク":""},{"日付":"1963-04-20","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き下げる","決定日":"","リンク":""},{"日付":"1964-03-18","区分":"公定歩合","金利（%）":"6.57","内容":"商業手形割引歩合を日歩1銭8厘に引き上げる","決定日":"","リンク":""},{"日付":"1965-01-09","区分":"公定歩合","金利（%）":"6.21","内容":"商業手形割引歩合を日歩1銭7厘に引き下げる","決定日":"","リンク":""},{"日付":"1965-04-03","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き下げる","決定日":"","リンク":""},{"日付":"1965-06-26","区分":"公定歩合","金利（%）":"5.48","内容":"商業手形割引歩合を日歩1銭5厘に引き下げる","決定日":"","リンク":""},{"日付":"1967-09-01","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き上げる","決定日":"","リンク":""},{"日付":"1968-01-06","区分":"公定歩合","金利（%）":"6.21","内容":"商業手形割引歩合を日歩1銭7厘に引き上げる","決定日":"","リンク":""},{"日付":"1968-08-07","区分":"公定歩合","金利（%）":"5.84","内容":"商業手形割引歩合を日歩1銭6厘に引き下げる","決定日":"","リンク":""},{"日付":"1969-09-01","区分":"公定歩合","金利（%）":"6.25","内容":"公定歩合を日歩建てから年利建てに改め、年6.25%に引き上げる","決定日":"","リンク":""},{"日付":"1970-10-28","区分":"公定歩合","金利（%）":"6","内容":"公定歩合を0.25%引き下げ、年6.0%とする","決定日":"","リンク":""},{"日付":"1971-01-20","区分":"公定歩合","金利（%）":"5.75","内容":"公定歩合を0.25%引き下げ、年5.75%とする","決定日":"","リンク":""},{"日付":"1971-05-08","区分":"公定歩合","金利（%）":"5.5","内容":"公定歩合を0.25%引き下げ、年5.5%とする","決定日":"","リンク":""},{"日付":"1971-07-28","区分":"公定歩合","金利（%）":"5.25","内容":"公定歩合を0.25%引き下げ、年5.25%とする","決定日":"","リンク":""},{"日付":"1971-12-29","区分":"公定歩合","金利（%）":"4.75","内容":"公定歩合を0.5%引き下げ、年4.75%とする","決定日":"","リンク":""},{"日付":"1972-06-24","区分":"公定歩合","金利（%）":"4.25","内容":"公定歩合を0.5%引き下げ、年4.25%とする","決定日":"","リンク":""},{"日付":"1973-04-02","区分":"公定歩合","金利（%）":"5","内容":"公定歩合を0.75%引き上げ、年5.0%とする","決定日":"1973-03-31","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19730331.pdf"},{"日付":"1973-05-30","区分":"公定歩合","金利（%）":"5.5","内容":"公定歩合を0.5%引き上げ、年5.5%とする","決定日":"1973-05-29","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19730529.pdf"},{"日付":"1973-07-02","区分":"公定歩合","金利（%）":"6","内容":"公定歩合を0.5%引き上げ、年6.0%とする","決定日":"1973-06-30","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19730630.pdf"},{"日付":"1973-08-29","区分":"公定歩合","金利（%）":"7","内容":"公定歩合を1%引き上げ、年7.0%とする","決定日":"1973-08-28","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19730828.pdf"},{"日付":"1973-12-22","区分":"公定歩合","金利（%）":"9","内容":"公定歩合を2%引き上げ、年9.0%とする","決定日":"1973-12-21","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19731221.pdf"},{"日付":"1975-04-16","区分":"公定歩合","金利（%）":"8.5","内容":"公定歩合を0.5%引き下げ、年8.5%とする","決定日":"1975-04-15","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19750415.pdf"},{"日付":"1975-06-07","区分":"公定歩合","金利（%）":"8","内容":"公定歩合を0.5%引き下げ、年8.0%とする","決定日":"1975-06-06","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19750606.pdf"},{"日付":"1975-08-13","区分":"公定歩合","金利（%）":"7.5","内容":"公定歩合を0.5%引き下げ、年7.5%とする","決定日":"1975-08-12","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19750812.pdf"},{"日付":"1975-10-24","区分":"公定歩合","金利（%）":"6.5","内容":"公定歩合を1%引き下げ、年6.5%とする","決定日":"1975-10-23","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19751023.pdf"},{"日付":"1977-03-12","区分":"公定歩合","金利（%）":"6","内容":"公定歩合を0.5%引き下げ、年6.0%とする","決定日":"1977-03-11","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19770311.pdf"},{"日付":"1977-04-19","区分":"公定歩合","金利（%）":"5","内容":"公定歩合を1%引き下げ、年5.0%とする","決定日":"1977-04-18","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19770418.pdf"},{"日付":"1977-09-05","区分":"公定歩合","金利（%）":"4.25","内容":"公定歩合を0.75%引き下げ、年4.25%とする","決定日":"1977-09-03","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19770903.pdf"},{"日付":"1978-03-16","区分":"公定歩合","金利（%）":"3.5","内容":"公定歩合を0.75%引き下げ、年3.5%とする","決定日":"1978-03-15","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19780315.pdf"},{"日付":"1979-04-17","区分":"公定歩合","金利（%）":"4.25","内容":"公定歩合を0.75%引き上げ、年4.25%とする","決定日":"1979-04-16","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19790416.pdf"},{"日付":"1979-07-24","区分":"公定歩合","金利（%）":"5.25","内容":"公定歩合を1%引き上げ、年5.25%とする","決定日":"1979-07-23","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19790723.pdf"},{"日付":"1979-11-02","区分":"公定歩合","金利（%）":"6.25","内容":"公定歩合を1%引き上げ、年6.25%とする","決定日":"1979-11-01","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19791101.pdf"},{"日付":"1980-02-19","区分":"公定歩合","金利（%）":"7.25","内容":"公定歩合を1%引き上げ、年7.25%とする","決定日":"1980-02-18","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19800218.pdf"},{"日付":"1980-03-19","区分":"公定歩合","金利（%）":"9","内容":"公定歩合を1.75%引き上げ、年9.0%とする","決定日":"1980-03-18","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19800318.pdf"},{"日付":"1980-08-20","区分":"公定歩合","金利（%）":"8.25","内容":"公定歩合を0.75%引き下げ、年8.25%とする","決定日":"1980-08-19","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19800819.pdf"},{"日付":"1980-11-06","区分":"公定歩合","金利（%）":"7.25","内容":"公定歩合を1%引き下げ、年7.25%とする","決定日":"1980-11-05","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19801105.pdf"},{"日付":"1981-03-18","区分":"公定歩合","金利（%）":"6.25","内容":"公定歩合を1%引き下げ、年6.25%とする","決定日":"1981-03-17","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19810317.pdf"},{"日付":"1981-12-11","区分":"公定歩合","金利（%）":"5.5","内容":"公定歩合を0.75%引き下げ、年5.5%とする","決定日":"1981-12-10","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19811210.pdf"},{"日付":"1983-10-22","区分":"公定歩合","金利（%）":"5","内容":"公定歩合を0.5%引き下げ、年5.0%とする","決定日":"1983-10-21","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19831021.pdf"},{"日付":"1986-01-30","区分":"公定歩合","金利（%）":"4.5","内容":"公定歩合を0.5%引き下げ、年4.5%とする","決定日":"1986-01-29","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19860129.pdf"},{"日付":"1986-03-10","区分":"公定歩合","金利（%）":"4","内容":"公定歩合を0.5%引き下げ、年4.0%とする","決定日":"1986-03-07","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19860307.pdf"},{"日付":"1986-04-21","区分":"公定歩合","金利（%）":"3.5","内容":"公定歩合を0.5%引き下げ、年3.5%とする","決定日":"1986-04-19","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19860419.pdf"},{"日付":"1986-11-01","区分":"公定歩合","金利（%）":"3","内容":"公定歩合を0.5%引き下げ、年3.0%とする","決定日":"1986-10-31","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19861031.pdf"},{"日付":"1987-02-23","区分":"公定歩合","金利（%）":"2.5","内容":"公定歩合を0.5%引き下げ、年2.5%とする","決定日":"1987-02-20","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/gdan19870220.pdf"},{"日付":"1989-05-31","区分":"公定歩合","金利（%）":"3.25","内容":"公定歩合を0.75%引き上げ、年3.25%とする","決定日":"1989-05-30","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k890530.pdf"},{"日付":"1989-10-11","区分":"公定歩合","金利（%）":"3.75","内容":"公定歩合を0.5%引き上げ、年3.75%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k891011.pdf"},{"日付":"1989-12-25","区分":"公定歩合","金利（%）":"4.25","内容":"公定歩合を0.5%引き上げ、年4.25%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k891225.pdf"},{"日付":"1990-03-20","区分":"公定歩合","金利（%）":"5.25","内容":"公定歩合を1%引き上げ、年5.25%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k900320.pdf"},{"日付":"1990-08-30","区分":"公定歩合","金利（%）":"6","内容":"公定歩合を0.75%引き上げ、年6.0%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k900830.pdf"},{"日付":"1991-07-01","区分":"公定歩合","金利（%）":"5.5","内容":"公定歩合を0.5%引き下げ、年5.5%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k910701.pdf"},{"日付":"1991-11-14","区分":"公定歩合","金利（%）":"5","内容":"公定歩合を0.5%引き下げ、年5.0%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k911114.pdf"},{"日付":"1991-12-30","区分":"公定歩合","金利（%）":"4.5","内容":"公定歩合を0.5%引き下げ、年4.5%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k911230.pdf"},{"日付":"1992-04-01","区分":"公定歩合","金利（%）":"3.75","内容":"公定歩合を0.75%引き下げ、年3.75%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k920401.pdf"},{"日付":"1992-07-27","区分":"公定歩合","金利（%）":"3.25","内容":"公定歩合を0.5%引き下げ、年3.25%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k920727.pdf"},{"日付":"1993-02-04","区分":"公定歩合","金利（%）":"2.5","内容":"公定歩合を0.75%引き下げ、年2.5%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k930204.pdf"},{"日付":"1993-09-21","区分":"公定歩合","金利（%）":"1.75","内容":"公定歩合を0.75%引き下げ、年1.75%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k930921.pdf"},{"日付":"1995-04-14","区分":"公定歩合","金利（%）":"1","内容":"公定歩合を0.75%引き下げ、年1.0%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k950414.pdf"},{"日付":"1995-09-08","区分":"公定歩合","金利（%）":"0.5","内容":"公定歩合を0.5%引き下げ、年0.5%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_before1995/k950908.pdf"},{"日付":"1998-09-09","区分":"短期金利の誘導目標","金利（%）":"0.25","内容":"無担保コールレート（オーバーナイト物）を、平均的にみて0.25%前後で推移するよう促す","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_1998/k980909c.htm"},{"日付":"1999-02-12","区分":"短期金利の誘導目標","金利（%）":"0.15","内容":"無担保コールレート（オーバーナイト物）を、できるだけ低めに推移するよう促す。当初0.15%前後を目指し、その後徐々に一層の低下を促す（ゼロ金利政策）","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_1999/k990212c.htm"},{"日付":"2000-08-11","区分":"短期金利の誘導目標","金利（%）":"0.25","内容":"無担保コールレート（オーバーナイト物）を、平均的にみて0.25%前後で推移するよう促す（ゼロ金利政策の解除）","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2000/k000811.htm"},{"日付":"2001-02-13","区分":"公定歩合","金利（%）":"0.35","内容":"公定歩合を0.15%引き下げ、年0.35%とする","決定日":"2001-02-09","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2001/k010209b.htm"},{"日付":"2001-02-28","区分":"短期金利の誘導目標","金利（%）":"0.15","内容":"無担保コールレート（オーバーナイト物）を、平均的にみて0.15%前後で推移するよう促す","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2001/k010228a.htm"},{"日付":"2001-03-01","区分":"公定歩合","金利（%）":"0.25","内容":"公定歩合を0.1%引き下げ、年0.25%とする","決定日":"2001-02-28","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2001/k010228a.htm"},{"日付":"2001-03-19","区分":"短期金利の誘導目標","金利（%）":"","内容":"主な操作目標を無担保コールレートから日本銀行当座預金残高に変え、残高が5兆円程度となるよう金融市場調節を行う（量的緩和政策）","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2001/k010319a.htm"},{"日付":"2001-09-19","区分":"公定歩合","金利（%）":"0.1","内容":"公定歩合を0.15%引き下げ、年0.1%とする","決定日":"2001-09-18","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2001/k010918.htm"},{"日付":"2006-03-09","区分":"短期金利の誘導目標","金利（%）":"0","内容":"操作目標を日本銀行当座預金残高から無担保コールレート（オーバーナイト物）に戻し、概ねゼロ%で推移するよう促す（量的緩和政策の解除）","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2006/k060309.htm"},{"日付":"2006-07-14","区分":"公定歩合","金利（%）":"0.4","内容":"基準貸付利率を0.3%引き上げ、年0.4%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2006/k060714.pdf"},{"日付":"2006-07-14","区分":"短期金利の誘導目標","金利（%）":"0.25","内容":"無担保コールレート（オーバーナイト物）を、0.25%前後で推移するよう促す","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2006/k060714.pdf"},{"日付":"2007-02-21","区分":"公定歩合","金利（%）":"0.75","内容":"基準貸付利率を0.35%引き上げ、年0.75%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2007/k070221.pdf"},{"日付":"2007-02-21","区分":"短期金利の誘導目標","金利（%）":"0.5","内容":"無担保コールレート（オーバーナイト物）を、0.5%前後で推移するよう促す","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2007/k070221.pdf"},{"日付":"2008-10-31","区分":"公定歩合","金利（%）":"0.5","内容":"基準貸付利率を0.25%引き下げ、年0.5%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2008/k081031.pdf"},{"日付":"2008-10-31","区分":"短期金利の誘導目標","金利（%）":"0.3","内容":"無担保コールレート（オーバーナイト物）を、0.3%前後で推移するよう促す","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2008/k081031.pdf"},{"日付":"2008-12-19","区分":"公定歩合","金利（%）":"0.3","内容":"基準貸付利率を0.2%引き下げ、年0.3%とする","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2008/k081219.pdf"},{"日付":"2008-12-19","区分":"短期金利の誘導目標","金利（%）":"0.1","内容":"無担保コールレート（オーバーナイト物）を、0.1%前後で推移するよう促す","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2008/k081219.pdf"},{"日付":"2010-10-05","区分":"短期金利の誘導目標","金利（%）":"0.05","内容":"無担保コールレート（オーバーナイト物）を、0〜0.1%程度で推移するよう促す（「包括的な金融緩和政策」）","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2010/k101005.pdf"},{"日付":"2013-04-04","区分":"短期金利の誘導目標","金利（%）":"","内容":"操作目標を無担保コールレートからマネタリーベースに変え、マネタリーベースが年間約60〜70兆円に相当するペースで増加するよう金融市場調節を行う（「量的・質的金融緩和」）","決定日":"","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2013/k130404a.pdf"},{"日付":"2016-02-16","区分":"短期金利の誘導目標","金利（%）":"-0.1","内容":"日本銀行当座預金を3段階に分け、政策金利残高に▲0.1%のマイナス金利を適用する（「マイナス金利付き量的・質的金融緩和」）","決定日":"2016-01-29","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2016/k160129a.pdf"},{"日付":"2024-03-21","区分":"短期金利の誘導目標","金利（%）":"0.05","内容":"無担保コールレート（オーバーナイト物）を、0〜0.1%程度で推移するよう促す（マイナス金利政策の解除）","決定日":"2024-03-19","リンク":"https://www.boj.or.jp/mopo/mpmdeci/state_2024/k240319a.htm"},{"日付":"2024-08-01","区分":"公定歩合","金利（%）":"0.5","内容":"基準貸付利率を0.2%引き上げ、年0.5%とする","決定日":"2024-07-31","リンク":"https://www.boj.or.jp/mopo/mpmdeci/state_2024/k240731a.htm"},{"日付":"2024-08-01","区分":"短期金利の誘導目標","金利（%）":"0.25","内容":"無担保コールレート（オーバーナイト物）を、0.25%程度で推移するよう促す","決定日":"2024-07-31","リンク":"https://www.boj.or.jp/mopo/mpmdeci/state_2024/k240731a.htm"},{"日付":"2025-01-27","区分":"公定歩合","金利（%）":"0.75","内容":"基準貸付利率を0.25%引き上げ、年0.75%とする","決定日":"2025-01-24","リンク":"https://www.boj.or.jp/mopo/mpmdeci/state_2025/k250124a.htm"},{"日付":"2025-01-27","区分":"短期金利の誘導目標","金利（%）":"0.5","内容":"無担保コールレート（オーバーナイト物）を、0.5%程度で推移するよう促す","決定日":"2025-01-24","リンク":"https://www.boj.or.jp/mopo/mpmdeci/state_2025/k250124a.htm"},{"日付":"2025-12-22","区分":"公定歩合","金利（%）":"1","内容":"基準貸付利率を0.25%引き上げ、年1.0%とする","決定日":"2025-12-19","リンク":"https://www.boj.or.jp/mopo/mpmdeci/state_2025/k251219a.htm"},{"日付":"2025-12-22","区分":"短期金利の誘導目標","金利（%）":"0.75","内容":"無担保コールレート（オーバーナイト物）を、0.75%程度で推移するよう促す","決定日":"2025-12-19","リンク":"https://www.boj.or.jp/mopo/mpmdeci/state_2025/k251219a.htm"},{"日付":"2026-06-17","区分":"公定歩合","金利（%）":"1.25","内容":"基準貸付利率を0.25%引き上げ、年1.25%とする","決定日":"2026-06-16","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k260616a.pdf"},{"日付":"2026-06-17","区分":"短期金利の誘導目標","金利（%）":"1.0","内容":"無担保コールレート（オーバーナイト物）を、1.0%程度で推移するよう促す","決定日":"2026-06-16","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k260616a.pdf"},{"日付":"2026-09-24","区分":"公定歩合","金利（%）":"1.5","内容":"基準貸付利率を0.25%引き上げ、年1.5%とする","決定日":"2026-09-18","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k260918a.pdf"},{"日付":"2026-09-24","区分":"短期金利の誘導目標","金利（%）":"1.25","内容":"無担保コールレート（オーバーナイト物）を、1.25%程度で推移するよう促す","決定日":"2026-09-18","リンク":"https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k260918a.pdf"}],"base":""},"prime-ministers":{"spec":{"file":"prime-ministers.csv","columns":{"ordinal":"代","name":"氏名","start":"就任日","end":"退任日","photo":"写真"},"merge":true,"days":"inclusive","durationLabel":"在任","ongoing":"在任中","role":"内閣総理大臣","nameLabel":"氏名","startLabel":"就任日","endLabel":"退任日","check":{"sequential":true,"consecutive":true},"title":"歴代内閣総理大臣","photoCredit":"写真：首相官邸ホームページ「歴代内閣」を加工して作成"},"rows":[{"代":"1","氏名":"伊藤博文","就任日":"1885-12-22","退任日":"1888-04-30","写真":"photos/001.jpg"},{"代":"2","氏名":"黒田清隆","就任日":"1888-04-30","退任日":"1889-10-25","写真":"photos/002.jpg"},{"代":"3","氏名":"山縣有朋","就任日":"1889-12-24","退任日":"1891-05-06","写真":"photos/003.jpg"},{"代":"4","氏名":"松方正義","就任日":"1891-05-06","退任日":"1892-08-08","写真":"photos/004.jpg"},{"代":"5","氏名":"伊藤博文","就任日":"1892-08-08","退任日":"1896-08-31","写真":"photos/001.jpg"},{"代":"6","氏名":"松方正義","就任日":"1896-09-18","退任日":"1898-01-12","写真":"photos/004.jpg"},{"代":"7","氏名":"伊藤博文","就任日":"1898-01-12","退任日":"1898-06-30","写真":"photos/001.jpg"},{"代":"8","氏名":"大隈重信","就任日":"1898-06-30","退任日":"1898-11-08","写真":"photos/008.jpg"},{"代":"9","氏名":"山縣有朋","就任日":"1898-11-08","退任日":"1900-10-19","写真":"photos/003.jpg"},{"代":"10","氏名":"伊藤博文","就任日":"1900-10-19","退任日":"1901-05-10","写真":"photos/001.jpg"},{"代":"11","氏名":"桂太郎","就任日":"1901-06-02","退任日":"1906-01-07","写真":"photos/011.jpg"},{"代":"12","氏名":"西園寺公望","就任日":"1906-01-07","退任日":"1908-07-14","写真":"photos/012.jpg"},{"代":"13","氏名":"桂太郎","就任日":"1908-07-14","退任日":"1911-08-30","写真":"photos/011.jpg"},{"代":"14","氏名":"西園寺公望","就任日":"1911-08-30","退任日":"1912-12-21","写真":"photos/012.jpg"},{"代":"15","氏名":"桂太郎","就任日":"1912-12-21","退任日":"1913-02-20","写真":"photos/011.jpg"},{"代":"16","氏名":"山本権兵衛","就任日":"1913-02-20","退任日":"1914-04-16","写真":"photos/016.jpg"},{"代":"17","氏名":"大隈重信","就任日":"1914-04-16","退任日":"1916-10-09","写真":"photos/008.jpg"},{"代":"18","氏名":"寺内正毅","就任日":"1916-10-09","退任日":"1918-09-29","写真":"photos/018.jpg"},{"代":"19","氏名":"原敬","就任日":"1918-09-29","退任日":"1921-11-04","写真":"photos/019.jpg"},{"代":"20","氏名":"高橋是清","就任日":"1921-11-13","退任日":"1922-06-12","写真":"photos/020.jpg"},{"代":"21","氏名":"加藤友三郎","就任日":"1922-06-12","退任日":"1923-08-24","写真":"photos/021.jpg"},{"代":"22","氏名":"山本権兵衛","就任日":"1923-09-02","退任日":"1924-01-07","写真":"photos/016.jpg"},{"代":"23","氏名":"清浦奎吾","就任日":"1924-01-07","退任日":"1924-06-11","写真":"photos/023.jpg"},{"代":"24","氏名":"加藤高明","就任日":"1924-06-11","退任日":"1926-01-28","写真":"photos/024.jpg"},{"代":"25","氏名":"若槻禮次郎","就任日":"1926-01-30","退任日":"1927-04-20","写真":"photos/025.jpg"},{"代":"26","氏名":"田中義一","就任日":"1927-04-20","退任日":"1929-07-02","写真":"photos/026.jpg"},{"代":"27","氏名":"濱口雄幸","就任日":"1929-07-02","退任日":"1931-04-14","写真":"photos/027.jpg"},{"代":"28","氏名":"若槻禮次郎","就任日":"1931-04-14","退任日":"1931-12-13","写真":"photos/025.jpg"},{"代":"29","氏名":"犬養毅","就任日":"1931-12-13","退任日":"1932-05-16","写真":"photos/029.jpg"},{"代":"30","氏名":"齋藤實","就任日":"1932-05-26","退任日":"1934-07-08","写真":"photos/030.jpg"},{"代":"31","氏名":"岡田啓介","就任日":"1934-07-08","退任日":"1936-03-09","写真":"photos/031.jpg"},{"代":"32","氏名":"廣田弘毅","就任日":"1936-03-09","退任日":"1937-02-02","写真":"photos/032.jpg"},{"代":"33","氏名":"林銑十郎","就任日":"1937-02-02","退任日":"1937-06-04","写真":"photos/033.jpg"},{"代":"34","氏名":"近衛文麿","就任日":"1937-06-04","退任日":"1939-01-05","写真":"photos/034.jpg"},{"代":"35","氏名":"平沼騏一郎","就任日":"1939-01-05","退任日":"1939-08-30","写真":"photos/035.jpg"},{"代":"36","氏名":"阿部信行","就任日":"1939-08-30","退任日":"1940-01-16","写真":"photos/036.jpg"},{"代":"37","氏名":"米内光政","就任日":"1940-01-16","退任日":"1940-07-22","写真":"photos/037.jpg"},{"代":"38","氏名":"近衛文麿","就任日":"1940-07-22","退任日":"1941-07-18","写真":"photos/034.jpg"},{"代":"39","氏名":"近衛文麿","就任日":"1941-07-18","退任日":"1941-10-18","写真":"photos/034.jpg"},{"代":"40","氏名":"東條英機","就任日":"1941-10-18","退任日":"1944-07-22","写真":"photos/040.jpg"},{"代":"41","氏名":"小磯國昭","就任日":"1944-07-22","退任日":"1945-04-07","写真":"photos/041.jpg"},{"代":"42","氏名":"鈴木貫太郎","就任日":"1945-04-07","退任日":"1945-08-17","写真":"photos/042.jpg"},{"代":"43","氏名":"東久邇宮稔彦王","就任日":"1945-08-17","退任日":"1945-10-09","写真":"photos/043.jpg"},{"代":"44","氏名":"幣原喜重郎","就任日":"1945-10-09","退任日":"1946-05-22","写真":"photos/044.jpg"},{"代":"45","氏名":"吉田茂","就任日":"1946-05-22","退任日":"1947-05-24","写真":"photos/045.jpg"},{"代":"46","氏名":"片山哲","就任日":"1947-05-24","退任日":"1948-03-10","写真":"photos/046.jpg"},{"代":"47","氏名":"芦田均","就任日":"1948-03-10","退任日":"1948-10-15","写真":"photos/047.jpg"},{"代":"48","氏名":"吉田茂","就任日":"1948-10-15","退任日":"1949-02-16","写真":"photos/045.jpg"},{"代":"49","氏名":"吉田茂","就任日":"1949-02-16","退任日":"1952-10-30","写真":"photos/045.jpg"},{"代":"50","氏名":"吉田茂","就任日":"1952-10-30","退任日":"1953-05-21","写真":"photos/045.jpg"},{"代":"51","氏名":"吉田茂","就任日":"1953-05-21","退任日":"1954-12-10","写真":"photos/045.jpg"},{"代":"52","氏名":"鳩山一郎","就任日":"1954-12-10","退任日":"1955-03-19","写真":"photos/052.jpg"},{"代":"53","氏名":"鳩山一郎","就任日":"1955-03-19","退任日":"1955-11-22","写真":"photos/052.jpg"},{"代":"54","氏名":"鳩山一郎","就任日":"1955-11-22","退任日":"1956-12-23","写真":"photos/052.jpg"},{"代":"55","氏名":"石橋湛山","就任日":"1956-12-23","退任日":"1957-02-25","写真":"photos/055.jpg"},{"代":"56","氏名":"岸信介","就任日":"1957-02-25","退任日":"1958-06-12","写真":"photos/056.jpg"},{"代":"57","氏名":"岸信介","就任日":"1958-06-12","退任日":"1960-07-19","写真":"photos/056.jpg"},{"代":"58","氏名":"池田勇人","就任日":"1960-07-19","退任日":"1960-12-08","写真":"photos/058.jpg"},{"代":"59","氏名":"池田勇人","就任日":"1960-12-08","退任日":"1963-12-09","写真":"photos/058.jpg"},{"代":"60","氏名":"池田勇人","就任日":"1963-12-09","退任日":"1964-11-09","写真":"photos/058.jpg"},{"代":"61","氏名":"佐藤栄作","就任日":"1964-11-09","退任日":"1967-02-17","写真":"photos/061.jpg"},{"代":"62","氏名":"佐藤栄作","就任日":"1967-02-17","退任日":"1970-01-14","写真":"photos/061.jpg"},{"代":"63","氏名":"佐藤栄作","就任日":"1970-01-14","退任日":"1972-07-07","写真":"photos/061.jpg"},{"代":"64","氏名":"田中角栄","就任日":"1972-07-07","退任日":"1972-12-22","写真":"photos/064.jpg"},{"代":"65","氏名":"田中角栄","就任日":"1972-12-22","退任日":"1974-12-09","写真":"photos/064.jpg"},{"代":"66","氏名":"三木武夫","就任日":"1974-12-09","退任日":"1976-12-24","写真":"photos/066.jpg"},{"代":"67","氏名":"福田赳夫","就任日":"1976-12-24","退任日":"1978-12-07","写真":"photos/067.jpg"},{"代":"68","氏名":"大平正芳","就任日":"1978-12-07","退任日":"1979-11-09","写真":"photos/068.jpg"},{"代":"69","氏名":"大平正芳","就任日":"1979-11-09","退任日":"1980-06-12","写真":"photos/068.jpg"},{"代":"70","氏名":"鈴木善幸","就任日":"1980-07-17","退任日":"1982-11-27","写真":"photos/070.jpg"},{"代":"71","氏名":"中曽根康弘","就任日":"1982-11-27","退任日":"1983-12-27","写真":"photos/071.jpg"},{"代":"72","氏名":"中曽根康弘","就任日":"1983-12-27","退任日":"1986-07-22","写真":"photos/071.jpg"},{"代":"73","氏名":"中曽根康弘","就任日":"1986-07-22","退任日":"1987-11-06","写真":"photos/071.jpg"},{"代":"74","氏名":"竹下登","就任日":"1987-11-06","退任日":"1989-06-03","写真":"photos/074.jpg"},{"代":"75","氏名":"宇野宗佑","就任日":"1989-06-03","退任日":"1989-08-10","写真":"photos/075.jpg"},{"代":"76","氏名":"海部俊樹","就任日":"1989-08-10","退任日":"1990-02-28","写真":"photos/076.jpg"},{"代":"77","氏名":"海部俊樹","就任日":"1990-02-28","退任日":"1991-11-05","写真":"photos/076.jpg"},{"代":"78","氏名":"宮澤喜一","就任日":"1991-11-05","退任日":"1993-08-09","写真":"photos/078.jpg"},{"代":"79","氏名":"細川護煕","就任日":"1993-08-09","退任日":"1994-04-28","写真":"photos/079.jpg"},{"代":"80","氏名":"羽田孜","就任日":"1994-04-28","退任日":"1994-06-30","写真":"photos/080.jpg"},{"代":"81","氏名":"村山富市","就任日":"1994-06-30","退任日":"1996-01-11","写真":"photos/081.jpg"},{"代":"82","氏名":"橋本龍太郎","就任日":"1996-01-11","退任日":"1996-11-07","写真":"photos/082.jpg"},{"代":"83","氏名":"橋本龍太郎","就任日":"1996-11-07","退任日":"1998-07-30","写真":"photos/082.jpg"},{"代":"84","氏名":"小渕恵三","就任日":"1998-07-30","退任日":"2000-04-05","写真":"photos/084.jpg"},{"代":"85","氏名":"森喜朗","就任日":"2000-04-05","退任日":"2000-07-04","写真":"photos/085.jpg"},{"代":"86","氏名":"森喜朗","就任日":"2000-07-04","退任日":"2001-04-26","写真":"photos/085.jpg"},{"代":"87","氏名":"小泉純一郎","就任日":"2001-04-26","退任日":"2003-11-19","写真":"photos/087.jpg"},{"代":"88","氏名":"小泉純一郎","就任日":"2003-11-19","退任日":"2005-09-21","写真":"photos/087.jpg"},{"代":"89","氏名":"小泉純一郎","就任日":"2005-09-21","退任日":"2006-09-26","写真":"photos/087.jpg"},{"代":"90","氏名":"安倍晋三","就任日":"2006-09-26","退任日":"2007-09-26","写真":"photos/090.jpg"},{"代":"91","氏名":"福田康夫","就任日":"2007-09-26","退任日":"2008-09-24","写真":"photos/091.jpg"},{"代":"92","氏名":"麻生太郎","就任日":"2008-09-24","退任日":"2009-09-16","写真":"photos/092.jpg"},{"代":"93","氏名":"鳩山由紀夫","就任日":"2009-09-16","退任日":"2010-06-08","写真":"photos/093.jpg"},{"代":"94","氏名":"菅直人","就任日":"2010-06-08","退任日":"2011-09-02","写真":"photos/094.jpg"},{"代":"95","氏名":"野田佳彦","就任日":"2011-09-02","退任日":"2012-12-26","写真":"photos/095.jpg"},{"代":"96","氏名":"安倍晋三","就任日":"2012-12-26","退任日":"2014-12-24","写真":"photos/096.jpg"},{"代":"97","氏名":"安倍晋三","就任日":"2014-12-24","退任日":"2017-11-01","写真":"photos/096.jpg"},{"代":"98","氏名":"安倍晋三","就任日":"2017-11-01","退任日":"2020-09-16","写真":"photos/096.jpg"},{"代":"99","氏名":"菅義偉","就任日":"2020-09-16","退任日":"2021-10-04","写真":"photos/099.jpg"},{"代":"100","氏名":"岸田文雄","就任日":"2021-10-04","退任日":"2021-11-10","写真":"photos/100.jpg"},{"代":"101","氏名":"岸田文雄","就任日":"2021-11-10","退任日":"2024-10-01","写真":"photos/100.jpg"},{"代":"102","氏名":"石破茂","就任日":"2024-10-01","退任日":"2024-11-11","写真":"photos/102.jpg"},{"代":"103","氏名":"石破茂","就任日":"2024-11-11","退任日":"2025-10-21","写真":"photos/102.jpg"},{"代":"104","氏名":"高市早苗","就任日":"2025-10-21","退任日":"2026-02-18","写真":"photos/104.jpg"},{"代":"105","氏名":"高市早苗","就任日":"2026-02-18","退任日":"","写真":"photos/104.jpg"}],"base":"../prime-ministers/"},"eras":{"spec":{"file":"eras.csv","columns":{"name":"元号","start":"開始日","end":"終了日","reading":"読み","group":"区分","lane":"系統","approx":"推定","url":"リンク"},"groups":{"代始改元":{"color":"blue"},"祥瑞改元":{"color":"green"},"災異改元":{"color":"red"},"革年改元（辛酉・甲子）":{"color":"hatch"},"その他":{"color":"gray"}},"lanes":{"北朝":1},"hidden":["Wikidata"],"role":"元号","durationLabel":"期間","ongoing":"現在","startLabel":"改元日","endLabel":"次の改元","nameLabel":"元号","title":"元号"},"rows":[{"元号":"大化","開始日":"0645-07-17","終了日":"0650-03-22","系統":"","区分":"代始改元"},{"元号":"白雉","開始日":"0650-03-22","終了日":"0655-02-11","系統":"","区分":"祥瑞改元"},{"元号":"朱鳥","開始日":"0686-08-14","終了日":"0687-02-17","系統":"","区分":""},{"元号":"大宝","開始日":"0701-05-03","終了日":"0704-06-16","系統":"","区分":"祥瑞改元"},{"元号":"慶雲","開始日":"0704-06-16","終了日":"0708-02-07","系統":"","区分":"祥瑞改元"},{"元号":"和銅","開始日":"0708-02-07","終了日":"0715-10-03","系統":"","区分":"祥瑞改元"},{"元号":"霊亀","開始日":"0715-10-03","終了日":"0717-12-24","系統":"","区分":"祥瑞改元"},{"元号":"養老","開始日":"0717-12-24","終了日":"0724-03-03","系統":"","区分":"祥瑞改元"},{"元号":"神亀","開始日":"0724-03-03","終了日":"0729-09-02","系統":"","区分":"祥瑞改元"},{"元号":"天平","開始日":"0729-09-02","終了日":"0749-05-04","系統":"","区分":"祥瑞改元"},{"元号":"天平感宝","開始日":"0749-05-04","終了日":"0749-08-19","系統":"","区分":"祥瑞改元"},{"元号":"天平勝宝","開始日":"0749-08-19","終了日":"0757-09-06","系統":"","区分":"代始改元"},{"元号":"天平宝字","開始日":"0757-09-06","終了日":"0765-02-01","系統":"","区分":"祥瑞改元"},{"元号":"天平神護","開始日":"0765-02-01","終了日":"0767-09-13","系統":"","区分":"代始改元"},{"元号":"神護景雲","開始日":"0767-09-13","終了日":"0770-10-23","系統":"","区分":"祥瑞改元"},{"元号":"宝亀","開始日":"0770-10-23","終了日":"0781-01-30","系統":"","区分":"祥瑞改元"},{"元号":"天応","開始日":"0781-01-30","終了日":"0782-09-30","系統":"","区分":"祥瑞改元"},{"元号":"延暦","開始日":"0782-09-30","終了日":"0806-06-08","系統":"","区分":"代始改元"},{"元号":"大同","開始日":"0806-06-08","終了日":"0810-10-20","系統":"","区分":"代始改元"},{"元号":"弘仁","開始日":"0810-10-20","終了日":"0824-02-08","系統":"","区分":"代始改元"},{"元号":"天長","開始日":"0824-02-08","終了日":"0834-02-14","系統":"","区分":"代始改元"},{"元号":"承和","開始日":"0834-02-14","終了日":"0848-07-16","系統":"","区分":"代始改元"},{"元号":"嘉祥","開始日":"0848-07-16","終了日":"0851-06-01","系統":"","区分":"祥瑞改元"},{"元号":"仁寿","開始日":"0851-06-01","終了日":"0854-12-23","系統":"","区分":"代始改元"},{"元号":"斉衡","開始日":"0854-12-23","終了日":"0857-03-20","系統":"","区分":"祥瑞改元"},{"元号":"天安","開始日":"0857-03-20","終了日":"0859-05-20","系統":"","区分":"祥瑞改元"},{"元号":"貞観","開始日":"0859-05-20","終了日":"0877-06-01","系統":"","区分":"代始改元"},{"元号":"元慶","開始日":"0877-06-01","終了日":"0885-03-11","系統":"","区分":"代始改元"},{"元号":"仁和","開始日":"0885-03-11","終了日":"0889-05-30","系統":"","区分":"代始改元"},{"元号":"寛平","開始日":"0889-05-30","終了日":"0898-05-20","系統":"","区分":"代始改元"},{"元号":"昌泰","開始日":"0898-05-20","終了日":"0901-08-31","系統":"","区分":"代始改元"},{"元号":"延喜","開始日":"0901-08-31","終了日":"0923-05-29","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"延長","開始日":"0923-05-29","終了日":"0931-05-16","系統":"","区分":"災異改元"},{"元号":"承平","開始日":"0931-05-16","終了日":"0938-06-22","系統":"","区分":"代始改元"},{"元号":"天慶","開始日":"0938-06-22","終了日":"0947-05-15","系統":"","区分":"災異改元"},{"元号":"天暦","開始日":"0947-05-15","終了日":"0957-11-21","系統":"","区分":"代始改元"},{"元号":"天徳","開始日":"0957-11-21","終了日":"0961-03-05","系統":"","区分":"災異改元"},{"元号":"応和","開始日":"0961-03-05","終了日":"0964-08-19","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"康保","開始日":"0964-08-19","終了日":"0968-09-08","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"安和","開始日":"0968-09-08","終了日":"0970-05-03","系統":"","区分":"代始改元"},{"元号":"天禄","開始日":"0970-05-03","終了日":"0974-01-16","系統":"","区分":"代始改元"},{"元号":"天延","開始日":"0974-01-16","終了日":"0976-08-11","系統":"","区分":"災異改元"},{"元号":"貞元","開始日":"0976-08-11","終了日":"0978-12-31","系統":"","区分":"災異改元"},{"元号":"天元","開始日":"0978-12-31","終了日":"0983-05-29","系統":"","区分":"災異改元"},{"元号":"永観","開始日":"0983-05-29","終了日":"0985-05-19","系統":"","区分":"災異改元"},{"元号":"寛和","開始日":"0985-05-19","終了日":"0987-05-05","系統":"","区分":"代始改元"},{"元号":"永延","開始日":"0987-05-05","終了日":"0989-09-10","系統":"","区分":"代始改元"},{"元号":"永祚","開始日":"0989-09-10","終了日":"0990-11-26","系統":"","区分":"災異改元"},{"元号":"正暦","開始日":"0990-11-26","終了日":"0995-03-25","系統":"","区分":"災異改元"},{"元号":"長徳","開始日":"0995-03-25","終了日":"0999-02-01","系統":"","区分":"災異改元"},{"元号":"長保","開始日":"0999-02-01","終了日":"1004-08-08","系統":"","区分":"災異改元"},{"元号":"寛弘","開始日":"1004-08-08","終了日":"1013-02-08","系統":"","区分":"災異改元"},{"元号":"長和","開始日":"1013-02-08","終了日":"1017-05-21","系統":"","区分":"代始改元"},{"元号":"寛仁","開始日":"1017-05-21","終了日":"1021-03-17","系統":"","区分":"代始改元"},{"元号":"治安","開始日":"1021-03-17","終了日":"1024-08-19","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"万寿","開始日":"1024-08-19","終了日":"1028-08-18","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"長元","開始日":"1028-08-18","終了日":"1037-05-09","系統":"","区分":"災異改元"},{"元号":"長暦","開始日":"1037-05-09","終了日":"1040-12-16","系統":"","区分":"代始改元"},{"元号":"長久","開始日":"1040-12-16","終了日":"1044-12-16","系統":"","区分":"災異改元"},{"元号":"寛徳","開始日":"1044-12-16","終了日":"1046-05-22","系統":"","区分":"災異改元"},{"元号":"永承","開始日":"1046-05-22","終了日":"1053-02-02","系統":"","区分":"代始改元"},{"元号":"天喜","開始日":"1053-02-02","終了日":"1058-09-19","系統":"","区分":"災異改元"},{"元号":"康平","開始日":"1058-09-19","終了日":"1065-09-04","系統":"","区分":"災異改元"},{"元号":"治暦","開始日":"1065-09-04","終了日":"1069-05-06","系統":"","区分":"災異改元"},{"元号":"延久","開始日":"1069-05-06","終了日":"1074-09-16","系統":"","区分":"代始改元"},{"元号":"承保","開始日":"1074-09-16","終了日":"1077-12-05","系統":"","区分":"代始改元"},{"元号":"承暦","開始日":"1077-12-05","終了日":"1081-03-22","系統":"","区分":"災異改元"},{"元号":"永保","開始日":"1081-03-22","終了日":"1084-03-15","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"応徳","開始日":"1084-03-15","終了日":"1087-05-11","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"寛治","開始日":"1087-05-11","終了日":"1095-01-23","系統":"","区分":"代始改元"},{"元号":"嘉保","開始日":"1095-01-23","終了日":"1097-01-03","系統":"","区分":"災異改元"},{"元号":"永長","開始日":"1097-01-03","終了日":"1097-12-27","系統":"","区分":"災異改元"},{"元号":"承徳","開始日":"1097-12-27","終了日":"1099-09-15","系統":"","区分":"災異改元"},{"元号":"康和","開始日":"1099-09-15","終了日":"1104-03-08","系統":"","区分":"災異改元"},{"元号":"長治","開始日":"1104-03-08","終了日":"1106-05-13","系統":"","区分":"災異改元"},{"元号":"嘉承","開始日":"1106-05-13","終了日":"1108-09-09","系統":"","区分":"災異改元"},{"元号":"天仁","開始日":"1108-09-09","終了日":"1110-07-31","系統":"","区分":"代始改元"},{"元号":"天永","開始日":"1110-07-31","終了日":"1113-08-25","系統":"","区分":"災異改元"},{"元号":"永久","開始日":"1113-08-25","終了日":"1118-04-25","系統":"","区分":"災異改元"},{"元号":"元永","開始日":"1118-04-25","終了日":"1120-05-09","系統":"","区分":"災異改元"},{"元号":"保安","開始日":"1120-05-09","終了日":"1124-05-18","系統":"","区分":"災異改元"},{"元号":"天治","開始日":"1124-05-18","終了日":"1126-02-15","系統":"","区分":"代始改元"},{"元号":"大治","開始日":"1126-02-15","終了日":"1131-02-28","系統":"","区分":"災異改元"},{"元号":"天承","開始日":"1131-02-28","終了日":"1132-09-21","系統":"","区分":"災異改元"},{"元号":"長承","開始日":"1132-09-21","終了日":"1135-06-10","系統":"","区分":"災異改元"},{"元号":"保延","開始日":"1135-06-10","終了日":"1141-08-13","系統":"","区分":"災異改元"},{"元号":"永治","開始日":"1141-08-13","終了日":"1142-05-25","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"康治","開始日":"1142-05-25","終了日":"1144-03-28","系統":"","区分":"代始改元"},{"元号":"天養","開始日":"1144-03-28","終了日":"1145-08-12","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"久安","開始日":"1145-08-12","終了日":"1151-02-14","系統":"","区分":"災異改元"},{"元号":"仁平","開始日":"1151-02-14","終了日":"1154-12-04","系統":"","区分":"災異改元"},{"元号":"久寿","開始日":"1154-12-04","終了日":"1156-05-18","系統":"","区分":"災異改元"},{"元号":"保元","開始日":"1156-05-18","終了日":"1159-05-09","系統":"","区分":"代始改元"},{"元号":"平治","開始日":"1159-05-09","終了日":"1160-02-18","系統":"","区分":"代始改元"},{"元号":"永暦","開始日":"1160-02-18","終了日":"1161-09-24","系統":"","区分":"災異改元"},{"元号":"応保","開始日":"1161-09-24","終了日":"1163-05-04","系統":"","区分":"災異改元"},{"元号":"長寛","開始日":"1163-05-04","終了日":"1165-07-14","系統":"","区分":"災異改元"},{"元号":"永万","開始日":"1165-07-14","終了日":"1166-09-23","系統":"","区分":"災異改元"},{"元号":"仁安","開始日":"1166-09-23","終了日":"1169-05-06","系統":"","区分":"代始改元"},{"元号":"嘉応","開始日":"1169-05-06","終了日":"1171-05-27","系統":"","区分":"代始改元"},{"元号":"承安","開始日":"1171-05-27","終了日":"1175-08-16","系統":"","区分":"災異改元"},{"元号":"安元","開始日":"1175-08-16","終了日":"1177-08-29","系統":"","区分":"災異改元"},{"元号":"治承","開始日":"1177-08-29","終了日":"1181-08-25","系統":"","区分":"災異改元"},{"元号":"養和","開始日":"1181-08-25","終了日":"1182-06-29","系統":"","区分":"代始改元"},{"元号":"寿永","開始日":"1182-06-29","終了日":"1184-05-27","系統":"","区分":"災異改元"},{"元号":"元暦","開始日":"1184-05-27","終了日":"1185-09-09","系統":"","区分":"代始改元"},{"元号":"文治","開始日":"1185-09-09","終了日":"1190-05-16","系統":"","区分":"災異改元"},{"元号":"建久","開始日":"1190-05-16","終了日":"1199-05-23","系統":"","区分":"災異改元"},{"元号":"正治","開始日":"1199-05-23","終了日":"1201-03-19","系統":"","区分":"代始改元"},{"元号":"建仁","開始日":"1201-03-19","終了日":"1204-03-23","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"元久","開始日":"1204-03-23","終了日":"1206-06-05","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"建永","開始日":"1206-06-05","終了日":"1207-11-16","系統":"","区分":"災異改元"},{"元号":"承元","開始日":"1207-11-16","終了日":"1211-04-23","系統":"","区分":"災異改元"},{"元号":"建暦","開始日":"1211-04-23","終了日":"1214-01-18","系統":"","区分":"代始改元"},{"元号":"建保","開始日":"1214-01-18","終了日":"1219-05-27","系統":"","区分":"災異改元"},{"元号":"承久","開始日":"1219-05-27","終了日":"1222-05-25","系統":"","区分":"災異改元"},{"元号":"貞応","開始日":"1222-05-25","終了日":"1224-12-31","系統":"","区分":"代始改元"},{"元号":"元仁","開始日":"1224-12-31","終了日":"1225-05-28","系統":"","区分":"災異改元"},{"元号":"嘉禄","開始日":"1225-05-28","終了日":"1228-01-18","系統":"","区分":"災異改元"},{"元号":"安貞","開始日":"1228-01-18","終了日":"1229-03-31","系統":"","区分":"災異改元"},{"元号":"寛喜","開始日":"1229-03-31","終了日":"1232-04-23","系統":"","区分":"災異改元"},{"元号":"貞永","開始日":"1232-04-23","終了日":"1233-05-25","系統":"","区分":"災異改元"},{"元号":"天福","開始日":"1233-05-25","終了日":"1234-11-27","系統":"","区分":"代始改元"},{"元号":"文暦","開始日":"1234-11-27","終了日":"1235-11-01","系統":"","区分":"災異改元"},{"元号":"嘉禎","開始日":"1235-11-01","終了日":"1238-12-30","系統":"","区分":"災異改元"},{"元号":"暦仁","開始日":"1238-12-30","終了日":"1239-03-13","系統":"","区分":"災異改元"},{"元号":"延応","開始日":"1239-03-13","終了日":"1240-08-05","系統":"","区分":"災異改元"},{"元号":"仁治","開始日":"1240-08-05","終了日":"1243-03-18","系統":"","区分":"災異改元"},{"元号":"寛元","開始日":"1243-03-18","終了日":"1247-04-05","系統":"","区分":"代始改元"},{"元号":"宝治","開始日":"1247-04-05","終了日":"1249-05-02","系統":"","区分":"代始改元"},{"元号":"建長","開始日":"1249-05-02","終了日":"1256-10-24","系統":"","区分":"災異改元"},{"元号":"康元","開始日":"1256-10-24","終了日":"1257-03-31","系統":"","区分":"災異改元"},{"元号":"正嘉","開始日":"1257-03-31","終了日":"1259-04-20","系統":"","区分":"災異改元"},{"元号":"正元","開始日":"1259-04-20","終了日":"1260-05-24","系統":"","区分":"災異改元"},{"元号":"文応","開始日":"1260-05-24","終了日":"1261-03-22","系統":"","区分":"代始改元"},{"元号":"弘長","開始日":"1261-03-22","終了日":"1264-03-27","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"文永","開始日":"1264-03-27","終了日":"1275-05-22","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"建治","開始日":"1275-05-22","終了日":"1278-03-23","系統":"","区分":"代始改元"},{"元号":"弘安","開始日":"1278-03-23","終了日":"1288-05-29","系統":"","区分":"災異改元"},{"元号":"正応","開始日":"1288-05-29","終了日":"1293-09-06","系統":"","区分":"代始改元"},{"元号":"永仁","開始日":"1293-09-06","終了日":"1299-05-25","系統":"","区分":"災異改元"},{"元号":"正安","開始日":"1299-05-25","終了日":"1302-12-10","系統":"","区分":"代始改元"},{"元号":"乾元","開始日":"1302-12-10","終了日":"1303-09-16","系統":"","区分":"代始改元"},{"元号":"嘉元","開始日":"1303-09-16","終了日":"1307-01-18","系統":"","区分":"災異改元"},{"元号":"徳治","開始日":"1307-01-18","終了日":"1308-11-22","系統":"","区分":"災異改元"},{"元号":"延慶","開始日":"1308-11-22","終了日":"1311-05-17","系統":"","区分":"代始改元"},{"元号":"応長","開始日":"1311-05-17","終了日":"1312-04-27","系統":"","区分":"災異改元"},{"元号":"正和","開始日":"1312-04-27","終了日":"1317-03-16","系統":"","区分":"災異改元"},{"元号":"文保","開始日":"1317-03-16","終了日":"1319-05-18","系統":"","区分":"災異改元"},{"元号":"元応","開始日":"1319-05-18","終了日":"1321-03-22","系統":"","区分":"代始改元"},{"元号":"元亨","開始日":"1321-03-22","終了日":"1324-12-25","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"正中","開始日":"1324-12-25","終了日":"1326-05-28","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"嘉暦","開始日":"1326-05-28","終了日":"1329-09-22","系統":"","区分":"災異改元"},{"元号":"元徳","開始日":"1329-09-22","終了日":"1331-09-11","系統":"","区分":"災異改元"},{"元号":"元弘","開始日":"1331-09-11","終了日":"1334-03-05","系統":"","区分":"災異改元"},{"元号":"元徳","開始日":"1331-09-11","終了日":"1332-05-23","系統":"北朝","区分":"災異改元"},{"元号":"正慶","開始日":"1332-05-23","終了日":"1333-07-07","系統":"北朝","区分":"代始改元"},{"元号":"建武","開始日":"1334-03-05","終了日":"1336-04-11","系統":"","区分":""},{"元号":"延元","開始日":"1336-04-11","終了日":"1340-05-25","系統":"","区分":"災異改元"},{"元号":"建武","開始日":"1336-04-11","終了日":"1338-10-11","系統":"北朝","区分":""},{"元号":"暦応","開始日":"1338-10-11","終了日":"1342-06-01","系統":"北朝","区分":"代始改元"},{"元号":"興国","開始日":"1340-05-25","終了日":"1347-01-20","系統":"","区分":"代始改元"},{"元号":"康永","開始日":"1342-06-01","終了日":"1345-11-15","系統":"北朝","区分":"災異改元"},{"元号":"貞和","開始日":"1345-11-15","終了日":"1350-04-04","系統":"北朝","区分":"災異改元"},{"元号":"正平","開始日":"1347-01-20","終了日":"1370-08-16","系統":"","区分":""},{"元号":"観応","開始日":"1350-04-04","終了日":"1352-11-04","系統":"北朝","区分":"代始改元"},{"元号":"文和","開始日":"1352-11-04","終了日":"1356-04-29","系統":"北朝","区分":"代始改元"},{"元号":"延文","開始日":"1356-04-29","終了日":"1361-05-04","系統":"北朝","区分":"災異改元"},{"元号":"康安","開始日":"1361-05-04","終了日":"1362-10-11","系統":"北朝","区分":"災異改元"},{"元号":"貞治","開始日":"1362-10-11","終了日":"1368-03-07","系統":"北朝","区分":"災異改元"},{"元号":"応安","開始日":"1368-03-07","終了日":"1375-03-29","系統":"北朝","区分":"災異改元"},{"元号":"建徳","開始日":"1370-08-16","終了日":"1372-05","系統":"","区分":""},{"元号":"文中","開始日":"1372-05","終了日":"1375-06-26","系統":"","区分":""},{"元号":"永和","開始日":"1375-03-29","終了日":"1379-04-09","系統":"北朝","区分":"代始改元"},{"元号":"天授","開始日":"1375-06-26","終了日":"1381-03-06","系統":"","区分":"災異改元"},{"元号":"康暦","開始日":"1379-04-09","終了日":"1381-03-20","系統":"北朝","区分":"災異改元"},{"元号":"弘和","開始日":"1381-03-06","終了日":"1384-05-18","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"永徳","開始日":"1381-03-20","終了日":"1384-03-19","系統":"北朝","区分":"革年改元（辛酉・甲子）"},{"元号":"至徳","開始日":"1384-03-19","終了日":"1387-10-05","系統":"北朝","区分":"革年改元（辛酉・甲子）"},{"元号":"元中","開始日":"1384-05-18","終了日":"1392-11-19","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"嘉慶","開始日":"1387-10-05","終了日":"1389-03-07","系統":"北朝","区分":"災異改元"},{"元号":"康応","開始日":"1389-03-07","終了日":"1390-04-12","系統":"北朝","区分":"災異改元"},{"元号":"明徳","開始日":"1390-04-12","終了日":"1392-11-19","系統":"北朝","区分":"災異改元"},{"元号":"明徳","開始日":"1392-11-19","終了日":"1394-08-02","系統":"","区分":"災異改元"},{"元号":"応永","開始日":"1394-08-02","終了日":"1428-06-10","系統":"","区分":"災異改元"},{"元号":"正長","開始日":"1428-06-10","終了日":"1429-10-03","系統":"","区分":"代始改元"},{"元号":"永享","開始日":"1429-10-03","終了日":"1441-03-10","系統":"","区分":"代始改元"},{"元号":"嘉吉","開始日":"1441-03-10","終了日":"1444-02-23","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"文安","開始日":"1444-02-23","終了日":"1449-08-16","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"宝徳","開始日":"1449-08-16","終了日":"1452-08-10","系統":"","区分":"災異改元"},{"元号":"享徳","開始日":"1452-08-10","終了日":"1455-09-06","系統":"","区分":"災異改元"},{"元号":"康正","開始日":"1455-09-06","終了日":"1457-10-16","系統":"","区分":"災異改元"},{"元号":"長禄","開始日":"1457-10-16","終了日":"1461-02-01","系統":"","区分":"災異改元"},{"元号":"寛正","開始日":"1461-02-01","終了日":"1466-03-14","系統":"","区分":"災異改元"},{"元号":"文正","開始日":"1466-03-14","終了日":"1467-04-09","系統":"","区分":"代始改元"},{"元号":"応仁","開始日":"1467-04-09","終了日":"1469-06-08","系統":"","区分":"災異改元"},{"元号":"文明","開始日":"1469-06-08","終了日":"1487-08-09","系統":"","区分":"災異改元"},{"元号":"長享","開始日":"1487-08-09","終了日":"1489-09-16","系統":"","区分":"災異改元"},{"元号":"延徳","開始日":"1489-09-16","終了日":"1492-08-12","系統":"","区分":"災異改元"},{"元号":"明応","開始日":"1492-08-12","終了日":"1501-03-18","系統":"","区分":"災異改元"},{"元号":"文亀","開始日":"1501-03-18","終了日":"1504-03-16","系統":"","区分":"代始改元"},{"元号":"永正","開始日":"1504-03-16","終了日":"1521-09-23","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"大永","開始日":"1521-09-23","終了日":"1528-09-03","系統":"","区分":"災異改元"},{"元号":"享禄","開始日":"1528-09-03","終了日":"1532-08-29","系統":"","区分":"代始改元"},{"元号":"天文","開始日":"1532-08-29","終了日":"1555-11-07","系統":"","区分":"災異改元"},{"元号":"弘治","開始日":"1555-11-07","終了日":"1558-03-18","系統":"","区分":"災異改元"},{"元号":"永禄","開始日":"1558-03-18","終了日":"1570-05-27","系統":"","区分":"代始改元"},{"元号":"元亀","開始日":"1570-05-27","終了日":"1573-08-25","系統":"","区分":"災異改元"},{"元号":"天正","開始日":"1573-08-25","終了日":"1593-01-10","系統":"","区分":"災異改元"},{"元号":"文禄","開始日":"1593-01-10","終了日":"1596-12-16","系統":"","区分":"代始改元"},{"元号":"慶長","開始日":"1596-12-16","終了日":"1615-09-05","系統":"","区分":"災異改元"},{"元号":"元和","開始日":"1615-09-05","終了日":"1624-04-17","系統":"","区分":"代始改元"},{"元号":"寛永","開始日":"1624-04-17","終了日":"1645-01-13","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"正保","開始日":"1645-01-13","終了日":"1648-04-07","系統":"","区分":"代始改元"},{"元号":"慶安","開始日":"1648-04-07","終了日":"1652-10-20","系統":"","区分":"その他"},{"元号":"承応","開始日":"1652-10-20","終了日":"1655-05-18","系統":"","区分":"その他"},{"元号":"明暦","開始日":"1655-05-18","終了日":"1658-08-21","系統":"","区分":"代始改元"},{"元号":"万治","開始日":"1658-08-21","終了日":"1661-05-23","系統":"","区分":"災異改元"},{"元号":"寛文","開始日":"1661-05-23","終了日":"1673-10-30","系統":"","区分":"災異改元"},{"元号":"延宝","開始日":"1673-10-30","終了日":"1681-11-09","系統":"","区分":"災異改元"},{"元号":"天和","開始日":"1681-11-09","終了日":"1684-04-05","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"貞享","開始日":"1684-04-05","終了日":"1688-10-23","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"元禄","開始日":"1688-10-23","終了日":"1704-04-16","系統":"","区分":"代始改元"},{"元号":"宝永","開始日":"1704-04-16","終了日":"1711-06-11","系統":"","区分":"災異改元"},{"元号":"正徳","開始日":"1711-06-11","終了日":"1716-08-09","系統":"","区分":"代始改元"},{"元号":"享保","開始日":"1716-08-09","終了日":"1736-06-07","系統":"","区分":"災異改元"},{"元号":"元文","開始日":"1736-06-07","終了日":"1741-04-12","系統":"","区分":"代始改元"},{"元号":"寛保","開始日":"1741-04-12","終了日":"1744-04-03","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"延享","開始日":"1744-04-03","終了日":"1748-08-05","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"寛延","開始日":"1748-08-05","終了日":"1751-12-14","系統":"","区分":"代始改元"},{"元号":"宝暦","開始日":"1751-12-14","終了日":"1764-06-30","系統":"","区分":"災異改元"},{"元号":"明和","開始日":"1764-06-30","終了日":"1772-12-10","系統":"","区分":"代始改元"},{"元号":"安永","開始日":"1772-12-10","終了日":"1781-04-25","系統":"","区分":"災異改元"},{"元号":"天明","開始日":"1781-04-25","終了日":"1789-02-19","系統":"","区分":"代始改元"},{"元号":"寛政","開始日":"1789-02-19","終了日":"1801-03-19","系統":"","区分":"災異改元"},{"元号":"享和","開始日":"1801-03-19","終了日":"1804-03-22","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"文化","開始日":"1804-03-22","終了日":"1818-05-26","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"文政","開始日":"1818-05-26","終了日":"1831-01-23","系統":"","区分":"代始改元"},{"元号":"天保","開始日":"1831-01-23","終了日":"1845-01-09","系統":"","区分":"災異改元"},{"元号":"弘化","開始日":"1845-01-09","終了日":"1848-04-01","系統":"","区分":"災異改元"},{"元号":"嘉永","開始日":"1848-04-01","終了日":"1855-01-15","系統":"","区分":"代始改元"},{"元号":"安政","開始日":"1855-01-15","終了日":"1860-04-08","系統":"","区分":"災異改元"},{"元号":"万延","開始日":"1860-04-08","終了日":"1861-03-29","系統":"","区分":"災異改元"},{"元号":"文久","開始日":"1861-03-29","終了日":"1864-03-27","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"元治","開始日":"1864-03-27","終了日":"1865-05-01","系統":"","区分":"革年改元（辛酉・甲子）"},{"元号":"慶応","開始日":"1865-05-01","終了日":"1868-10-23","系統":"","区分":"災異改元"},{"元号":"明治","開始日":"1868-10-23","終了日":"1912-07-30","系統":"","区分":"代始改元"},{"元号":"大正","開始日":"1912-07-30","終了日":"1926-12-25","系統":"","区分":"代始改元"},{"元号":"昭和","開始日":"1926-12-25","終了日":"1989-01-08","系統":"","区分":"代始改元"},{"元号":"平成","開始日":"1989-01-08","終了日":"2019-05-01","系統":"","区分":"代始改元"},{"元号":"令和","開始日":"2019-05-01","終了日":"","系統":"","区分":"代始改元"}],"base":"../eras/"}},"asOf":"2026-11-07","dir":"policy-rates"};
+// 続いている期間は、ページを開いた日（日本時間）まで伸ばして表示する。データを更新した日より前には戻さない。
+const todayJST = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
+const asOf = todayJST > DATA.asOf ? todayJST : DATA.asOf;
+const model = buildModel({ page: DATA.page, datasets: DATA.datasets, asOf });
+const P = model.page;
+
+const $ = (s) => document.querySelector(s);
+const chart = $('#chart');
+const dock = $('#dock');
+const tip = $('#tip');
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+const svgStyle = document.createElement('style');
+document.head.appendChild(svgStyle);
+const el = (tag, cls, text) => {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+};
+const swatch = (color) => {
+  const i = el('i');
+  i.style.background = color === 'hatch' ? 'repeating-linear-gradient(45deg, var(--rule2) 0 2px, var(--spine-a) 2px 5px)' : `var(--${color})`;
+  return i;
+};
+const colColor = (c) => (c.colorBy === 'group' ? 'gray' : c.color ?? 'gray');
+
+let g = null;
+let svg = null;
+let xhairs = [];
+let mouseY = null;
+let active = null;
+let pinned = false;
+
+// ---- 表示する列（ボタンで切り替え、ブラウザに覚えておく）
+const storeKey = `chronology:${DATA.dir}:hidden`;
+// 狭い画面では、narrowHidden の付いた列や、hideBelow（px）より狭いときに隠す列を、最初は出さない（ボタンで出せる）
+const narrowScreen = window.innerWidth < 600;
+let hidden = new Set(P.columns.filter((c) => c.hidden || (narrowScreen && c.narrowHidden) || (c.hideBelow && window.innerWidth < c.hideBelow)).map((c) => c.id));
+try {
+  const saved = JSON.parse(localStorage.getItem(storeKey) ?? 'null');
+  if (Array.isArray(saved)) hidden = new Set(saved.filter((id) => model.colById.has(id) && !model.colById.get(id).fixed));
+} catch { /* 保存できない環境では毎回の既定に戻す */ }
+const visible = () => model.columns.filter((c) => !hidden.has(c.id));
+
+{
+  const optional = model.columns.filter((c) => !c.fixed);
+  if (optional.length && model.columns.length > 1) {
+    const box = $('#picker');
+    box.append(el('span', '', '表示する列'));
+    for (const c of optional) {
+      const b = el('button');
+      b.type = 'button';
+      b.setAttribute('aria-pressed', String(!hidden.has(c.id)));
+      b.append(swatch(colColor(c)), c.short ?? c.title);
+      b.title = c.title;
+      b.addEventListener('click', () => {
+        if (hidden.has(c.id)) hidden.delete(c.id); else hidden.add(c.id);
+        b.setAttribute('aria-pressed', String(!hidden.has(c.id)));
+        try { localStorage.setItem(storeKey, JSON.stringify([...hidden])); } catch { /* 覚えられなくても表示は切り替わる */ }
+        buildWhos();
+        buildLegend();
+        render();
+      });
+      box.append(b);
+    }
+    box.hidden = false;
+  }
+}
+
+// ---- 見出しの数字
+{
+  const items = [['データ更新', fmtDate(toTime(DATA.asOf))]];
+  for (const id of P.facts ?? model.columns.slice(0, 2).map((c) => c.id)) {
+    // 数字を書き添えたいときは {"label": "…", "text": "…"} で直接書ける
+    if (typeof id === 'object') { items.push([id.label, id.text]); continue; }
+    const c = model.colById.get(id);
+    if (!c) continue;
+    // 観測値の線は、最新の値とその時点。区分のある線は、区分ごとの最新の値を並べる
+    if (c.chart && c.spec.series) {
+      const last = c.terms[c.terms.length - 1];
+      if (!last) continue;
+      const groups = Object.keys(c.spec.groups ?? {}).filter((k) => c.terms.some((t) => t.group === k));
+      const value = groups.length > 1
+        ? groups.map((k) => `${c.spec.groups[k].short ?? k} ${chartValueText(c, c.terms.findLast((t) => t.group === k))}`).join('・')
+        : chartValueText(c, last);
+      items.push([c.short ?? c.title, `${value}（${fmtStr(last.startStr)}）`]);
+      continue;
+    }
+    const ords = c.terms.flatMap((t) => [t.ordFrom, t.ordTo]).filter((n) => n != null);
+    const people = c.persons.size;
+    const text = ords.length
+      ? `${people}${c.unit ?? '人'}（第${Math.min(...ords)}〜${Math.max(...ords)}代）`
+      : `${c.terms.length}${c.unit ?? '件'}`;
+    items.push([c.short ?? c.title, text]);
+  }
+  const ul = $('#facts');
+  for (const [k, v] of items) {
+    const li = el('li');
+    li.append(el('b', '', k), v);
+    ul.append(li);
+  }
+}
+
+// ---- 区分で色分けした列の凡例
+function buildLegend() {
+  const box = $('#legend');
+  box.replaceChildren();
+  for (const c of visible()) {
+    if (c.colorBy !== 'group') continue;
+    const groups = Object.entries(c.spec.groups ?? {}).filter(([k]) => c.terms.some((t) => t.group === k));
+    if (!groups.length) continue;
+    const row = el('p', 'legend-row');
+    row.append(el('span', 'k', c.title));
+    for (const [k, v] of groups) {
+      const item = el('span');
+      const sw = swatch(v.color ?? 'gray');
+      if (c.chart) sw.className = `shape-${shapeOf(c, { group: k })}`;
+      item.append(sw, k);
+      row.append(item);
+    }
+    if (c.terms.some((t) => !t.group && !t.point)) {
+      const item = el('span');
+      item.append(swatch('gray'), '分類なし');
+      row.append(item);
+    }
+    box.append(row);
+  }
+  // 割合の帯の塗り分け
+  for (const c of visible()) {
+    if (!c.share?.labels) continue;
+    const row = el('p', 'legend-row');
+    row.append(el('span', 'k', c.title));
+    c.share.labels.forEach((label, i) => {
+      const item = el('span');
+      const sw = swatch(i === 2 ? 'rule2' : c.color ?? 'gray');
+      if (i === 1) sw.style.opacity = '0.45';
+      item.append(sw, label);
+      row.append(item);
+    });
+    if (c.share.lines?.length) row.append(el('span', '', `縦の線：${c.share.lines.map((l) => `${l.label}（${l.name}）`).join('・')}`));
+    box.append(row);
+  }
+  // 推定の日付を薄く描いている列があれば、その説明も出す
+  for (const c of visible()) {
+    if (!c.fadeApprox || !c.terms.some((t) => t.approx)) continue;
+    const row = el('p', 'legend-row');
+    const i = swatch(colColor(c));
+    i.style.opacity = '0.45';
+    const item = el('span');
+    item.append(i, c.fadeApprox);
+    row.append(item);
+    box.append(row);
+    break;
+  }
+  box.hidden = !box.childElementCount;
+}
+buildLegend();
+
+// ---- 読み取り欄の「その時点の…」
+let whoEls = [];
+function buildWhos() {
+  const box = $('#whos');
+  box.replaceChildren();
+  // dockCombine を指定したページは、すべての列のその時点の項目を1つの欄にまとめる（例：発行中のお札の肖像）
+  if (P.dockCombine) {
+    const d = el('div', 'who');
+    const b = el('b');
+    d.append(swatch(colColor(model.columns[0])), el('span', 'role', P.dockCombine.label), b);
+    box.append(d);
+    whoEls = [{ c: null, b }];
+    return;
+  }
+  whoEls = visible().filter((c) => c.dock !== false).map((c) => {
+    const d = el('div', 'who');
+    const b = el('b');
+    d.append(swatch(colColor(c)), el('span', 'role', c.short ?? c.title), b);
+    box.append(d);
+    return { c, b };
+  });
+}
+buildWhos();
+
+// ---- 時代の始まりへのジャンプ
+const jumps = (P.jump === 'bands' ? model.bands.map((b, i) => ({ label: b.name, short: b.short, t: i === 0 ? model.start : b.start })) : (P.jump ?? []).map((j) => ({ label: j.label, t: toTime(j.date) })))
+  .filter((j) => j.t < model.end);
+const jumpNav = $('#jump');
+if (jumps.length > 7) jumpNav.classList.add('many');
+const jumpButtons = jumps.map((j, i) => {
+  const b = el('button');
+  b.type = 'button';
+  // スマホでは「明・大・昭・平・令」のように1文字に縮める（多いときは横に送る）
+  if (jumps.length <= 7 && [...j.label].length > 1) {
+    b.append([...j.label][0], el('span', 'rest', [...j.label].slice(1).join('')));
+  } else {
+    b.textContent = j.short ?? j.label;
+  }
+  b.setAttribute('aria-label', j.label);
+  b.setAttribute('aria-current', 'false');
+  b.addEventListener('click', () => {
+    if (!svg) return;
+    const y = i === 0 ? g.top : g.yOf(j.t);
+    const r = svg.getBoundingClientRect();
+    const k = r.width / g.width;
+    // 移動後は読み取り欄が上に貼り付くので、その状態での横線の位置に時代の始まりを合わせる
+    const stuckTop = parseFloat(getComputedStyle(dock).top) || 0;
+    const stuck = stuckTop + dock.offsetHeight;
+    const line = stuck + (window.innerHeight - stuck) * 0.32;
+    // 読み取り欄が貼り付く位置より上には止めない（貼り付く前は横線の位置がずれるため）
+    const dockStart = window.scrollY + $('.masthead').getBoundingClientRect().bottom - stuckTop;
+    const target = Math.max(dockStart, window.scrollY + r.top + y * k - line + 1);
+    window.scrollTo({ top: Math.max(0, target), behavior: reduceMotion.matches ? 'auto' : 'smooth' });
+  });
+  jumpNav.append(b);
+  return b;
+});
+
+// ---- 描画
+function render() {
+  const w = Math.floor(chart.clientWidth);
+  if (!w) return;
+  clearActive();
+  g = layout(model, { width: w, hidden });
+  svgStyle.textContent = svgRules(g);
+  chart.innerHTML = renderSVG(model, g, { interactive: true, dpr: window.devicePixelRatio || 1 });
+  svg = chart.querySelector('svg');
+  xhairs = [...svg.querySelectorAll('.xhair')];
+  update();
+}
+
+let lastWidth = 0;
+new ResizeObserver(() => {
+  const w = Math.floor(chart.clientWidth);
+  if (w && w !== lastWidth) { lastWidth = w; render(); }
+}).observe(chart);
+
+// ---- 横線（読み取り位置）
+function readingLine() {
+  const top = dock.getBoundingClientRect().bottom;
+  return top + (window.innerHeight - top) * 0.32;
+}
+
+function setWho(b, text, none) {
+  b.textContent = text;
+  b.classList.toggle('none', none);
+}
+
+let frame = 0;
+function schedule() {
+  if (!frame) frame = requestAnimationFrame(() => { frame = 0; update(); });
+}
+
+function ageAt(t, x) {
+  const a = ymd(x.start);
+  const b = ymd(t);
+  return b.y - a.y - (b.m < a.m || (b.m === a.m && b.d < a.d) ? 1 : 0);
+}
+
+function update() {
+  if (!svg) return;
+  const r = svg.getBoundingClientRect();
+  const k = g.width / r.width;
+  const cy = mouseY ?? readingLine();
+  const lastY = g.showAsOf ? g.asOfY : g.plotBottom;
+  const y = Math.max(g.top, Math.min(lastY, (cy - r.top) * k));
+  const t = g.tOf(y);
+  const d = ymd(t);
+  for (const x of xhairs) x.setAttribute('transform', `translate(0 ${y.toFixed(1)})`);
+  $('#r-date').textContent = d.y > 0 ? `${d.y}年${d.m}月` : `${yearText(d.y)}年`;
+  const w = model.eras.length ? wareki(t, model.eras, model.retro) : null;
+  const band = model.bands.findLast?.((b) => b.start <= t) ?? null;
+  $('#r-sub').textContent = w ? w.text : band && P.spine?.bands ? band.name : '';
+  const now = new Set();
+  for (const { c, b } of whoEls) {
+    if (!c) {
+      const all = visible().flatMap((v) => termsAt(v, t).map((x) => ({ x, v })));
+      for (const { x } of all) now.add(x.id);
+      const names = all.map(({ x, v }) => `${x.short}（${v.short ?? v.title}）`);
+      const more = names.length > 6 ? `ほか${names.length - 6}${P.dockCombine.unit ?? '件'}` : '';
+      setWho(b, names.length ? `${names.slice(0, 6).join('・')}${more ? `・${more}` : ''}` : '—', !names.length);
+      continue;
+    }
+    const list = termsAt(c, t);
+    for (const x of list) now.add(x.id);
+    if (c.chart) {
+      const order = Object.keys(c.spec.groups ?? {});
+      // 観測値の線は、いつの値かを書き添える（階段の線は、その日に効いている値なので書かない）
+      const when = (x) => (c.spec.series && c.chart.type !== 'step' ? `（${fmtStr(x.startStr)}）` : '');
+      const parts = [...list].sort((a, b) => order.indexOf(a.group) - order.indexOf(b.group))
+        .map((x) => `${[c.spec.groups?.[x.group]?.short ?? x.group, chartValueText(c, x)].filter(Boolean).join(' ')}${when(x)}`);
+      setWho(b, parts.join('・') || '—', !list.length);
+    } else if (list.length) {
+      const names = list.map((x) => (c.share && x.share ? `${x.short} 与党 ${x.share.value}/${x.share.total}` : c.spec.days === 'age' ? `${x.short}（${ageAt(t, x)}）` : x.short));
+      setWho(b, names.length > 4 ? `${names.slice(0, 4).join('・')}ほか${names.length - 4}人` : names.join('・'), false);
+    } else if (c.lead && t < c.lead.end) {
+      setWho(b, c.lead.name, true);
+    } else {
+      setWho(b, c.gapText ?? '—', true);
+    }
+  }
+  for (const dot of svg.querySelectorAll('.xhair-dot')) {
+    const c = model.colById.get(dot.dataset.col);
+    dot.style.display = termsAt(c, t).length ? '' : 'none';
+  }
+  const cur = jumps.reduce((acc, j, i) => (j.t <= t ? i : acc), 0);
+  jumpButtons.forEach((b, i) => b.setAttribute('aria-current', String(i === cur)));
+  for (const e of svg.querySelectorAll('.term.is-now')) e.classList.remove('is-now');
+  for (const id of now) svg.querySelector(`.term[data-id="${id}"]`)?.classList.add('is-now');
+}
+
+window.addEventListener('scroll', schedule, { passive: true });
+window.addEventListener('resize', schedule);
+chart.addEventListener('pointermove', (e) => {
+  if (e.pointerType !== 'mouse') return;
+  mouseY = e.clientY;
+  schedule();
+  if (active && !pinned) placeTip(e.clientX, e.clientY);
+});
+chart.addEventListener('pointerleave', (e) => {
+  if (e.pointerType !== 'mouse') return;
+  mouseY = null;
+  schedule();
+  if (!pinned) clearActive();
+});
+
+// ---- 強調とツールチップ
+function mark(id, cls) {
+  svg.querySelector(`.term[data-id="${id}"]`)?.classList.add(cls);
+}
+
+function clearActive() {
+  active = null;
+  pinned = false;
+  tip.hidden = true;
+  tip.classList.remove('pinned');
+  if (!svg) return;
+  svg.classList.remove('has-focus');
+  for (const e of svg.querySelectorAll('.is-focus, .is-counter')) e.classList.remove('is-focus', 'is-counter');
+}
+
+function activate(id) {
+  if (active === id) return;
+  clearActive();
+  active = id;
+  svg.classList.add('has-focus');
+  const t = model.byId.get(id);
+  if (t.kind === 'lead') {
+    mark(id, 'is-focus');
+  } else {
+    const c = model.colById.get(t.col);
+    for (const x of c.persons.get(t.name).terms) mark(x.id, 'is-focus');
+    for (const u of t.counter) mark(u, 'is-counter');
+  }
+  fillTip(t);
+  tip.hidden = false;
+}
+
+function line(cls, text, parent = tip) {
+  const p = el('p', cls, text);
+  parent.append(p);
+  return p;
+}
+
+function fillTip(t) {
+  tip.replaceChildren();
+  const c = model.colById.get(t.col);
+  if (t.kind === 'lead') {
+    const k = line('kicker', '');
+    k.append(swatch('hatch'), `${yearShort(ymd(t.start).y)}〜${yearShort(ymd(t.end).y)}年`);
+    line('name', t.name);
+    line('days', t.text);
+    return;
+  }
+  const head = el('div', 'head');
+  if (t.photo) {
+    const img = el('img');
+    img.src = t.photo;
+    img.alt = '';
+    head.append(img);
+  }
+  const box = el('div');
+  const k = line('kicker', '', box);
+  const color = c.colorBy === 'group' ? c.spec.groups?.[t.group]?.color ?? 'gray' : colColor(c);
+  k.append(swatch(color), [ordText(t), c.role || c.title].filter(Boolean).join('　'));
+  const nm = line('name', t.name, box);
+  if (t.reading) nm.append(' ', el('span', 'reading', t.reading));
+  head.append(box);
+  tip.append(head);
+  if (c.chart) {
+    // 観測値は名前の行が日付なので、日付の行を重ねない。階段の線は、その値が続いた期間を出す
+    if (!c.spec.series) line('dates', fmtStr(t.startStr));
+    else if (c.chart.type === 'step') line('dates', rangeText(t, c.spec));
+    line('days', `${c.title} ${chartValueText(c, t)}`);
+  } else {
+    line('dates', `${rangeText(t, c.spec)}${!t.ongoing && !t.point && t.end > model.asOf ? '（予定）' : ''}${t.approx ? '（推定・諸説あり）' : ''}`);
+    const dur = durationText(t, c.spec, model.asOf);
+    if (dur) line('days', dur);
+    if (c.share && t.share) line('days', shareText(t));
+  }
+  const p = c.persons.get(t.name);
+  if (p.terms.length > 1 && (c.spec.days === 'inclusive' || c.spec.days === 'exclusive')) line('days', `通算 ${fmtNum(p.days)}日（${p.terms.length}回）`);
+  if (c.colorBy === 'group' && t.group) {
+    const d = line('detail', t.group);
+    d.prepend(el('span', '', '区分'));
+  }
+  for (const [key, value] of t.details) {
+    if (c.chart && key === c.chart.value) continue;
+    if (c.share && t.share && (key === c.share.value || key === c.share.total)) continue;
+    const d = line('detail', c.spec.series && /^-?\d{5,}(\.\d+)?$/.test(value) ? fmtNum(value) : value);
+    d.prepend(el('span', '', key));
+  }
+  for (const oid of c.counter ?? []) {
+    if (hidden.has(oid)) continue;
+    const o = model.colById.get(oid);
+    if (!o) continue;
+    const names = [];
+    for (const id of t.counter) {
+      const x = model.byId.get(id);
+      if (x.col !== oid) continue;
+      const label = o.share && x.share ? `${x.short}（与党 ${x.share.value}/${x.share.total}）` : x.short;
+      if (!names.includes(label)) names.push(label);
+    }
+    const w = line('with', names.join('、') || '—');
+    w.prepend(el('span', '', `同じ時期の${o.counterLabel ?? o.short ?? o.title}`));
+  }
+  // リンクにするのは http(s) の URL だけ
+  if (/^https?:\/\//i.test(t.url)) {
+    const m = line('more', '');
+    const a = el('a', '', '詳しい説明');
+    a.href = t.url;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    m.append(a);
+  }
+  // 写真の出典。画像ごとの作者とライセンスがあればそれを、なければデータ全体の出典を出す
+  if (t.photo && (t.photoCredit || c.spec.photoCredit)) {
+    const p = line('credit', t.photoCredit ? `写真：${t.photoCredit}` : c.spec.photoCredit);
+    const links = [['画像のページ', t.photoUrl], ['ライセンス', t.photoLicense]].filter(([, url]) => /^https?:\/\//i.test(url));
+    links.forEach(([text, url], i) => {
+      const a = el('a', '', text);
+      a.href = url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      p.append(i ? '・' : '（', a);
+    });
+    if (links.length) p.append('）');
+  }
+}
+
+function placeTip(x, y, side) {
+  const pad = 14;
+  const tw = tip.offsetWidth;
+  const th = tip.offsetHeight;
+  let left = side === 'left' ? x - tw - pad : x + pad;
+  if (side === undefined && left + tw > window.innerWidth - 8) left = x - tw - pad;
+  left = Math.max(8, Math.min(window.innerWidth - tw - 8, left));
+  let top = y + pad;
+  if (top + th > window.innerHeight - 8) top = y - th - pad;
+  top = Math.max(dock.getBoundingClientRect().bottom + 6, top);
+  tip.style.left = `${left}px`;
+  tip.style.top = `${top}px`;
+}
+
+function placeTipAt(e) {
+  const target = e.querySelector('.label') || e.querySelector('.photo-ring') || e;
+  const r = target.getBoundingClientRect();
+  const col = g.cols.find((x) => x.c.id === model.byId.get(e.dataset.id)?.col);
+  const side = col?.side ?? 'right';
+  placeTip(side === 'left' ? r.left : r.right, r.top, side);
+}
+
+function termFrom(e) {
+  const hit = e.target.closest('[data-id]');
+  if (!hit || !chart.contains(hit)) return null;
+  return svg.querySelector(`.term[data-id="${hit.dataset.id}"]`);
+}
+
+chart.addEventListener('pointerover', (e) => {
+  if (e.pointerType !== 'mouse' || pinned) return;
+  const t = termFrom(e);
+  if (t) { activate(t.dataset.id); placeTip(e.clientX, e.clientY); }
+});
+chart.addEventListener('pointerout', (e) => {
+  if (e.pointerType !== 'mouse' || pinned) return;
+  const to = e.relatedTarget && e.relatedTarget.closest ? e.relatedTarget.closest('[data-id]') : null;
+  if (!to) clearActive();
+});
+chart.addEventListener('click', (e) => {
+  const t = termFrom(e);
+  if (!t) { clearActive(); return; }
+  if (pinned && active === t.dataset.id) { clearActive(); return; }
+  activate(t.dataset.id);
+  pinned = true;
+  tip.classList.add('pinned');
+  placeTipAt(t);
+});
+chart.addEventListener('focusin', (e) => {
+  const t = e.target.closest('.term');
+  if (!t) return;
+  activate(t.dataset.id);
+  placeTipAt(t);
+});
+chart.addEventListener('focusout', (e) => {
+  if (!chart.contains(e.relatedTarget) && !tip.contains(e.relatedTarget)) clearActive();
+});
+document.addEventListener('pointerdown', (e) => {
+  if (pinned && !chart.contains(e.target) && !tip.contains(e.target)) clearActive();
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') clearActive();
+});
+window.addEventListener('scroll', () => { if (pinned) clearActive(); }, { passive: true });
+
+// ---- 一覧表（列ごと。CSV の追加の列もそのまま出す）
+function buildTable(c) {
+  const sec = el('section');
+  const h = el('h2');
+  h.append(swatch(colColor(c)), c.title);
+  const box = el('div', 'scroll');
+  const table = el('table');
+  const extra = [];
+  for (const t of c.terms) for (const [key] of t.details) if (!extra.includes(key)) extra.push(key);
+  const hasOrd = c.terms.some((t) => t.ordFrom != null);
+  const hasPhoto = c.terms.some((t) => t.photo);
+  const hasGroup = c.colorBy === 'group' && c.terms.some((t) => t.group);
+  const durable = c.terms.some((t) => !t.point);
+  const heads = [
+    ...(hasOrd ? [['代', 'num']] : []),
+    ...(hasPhoto ? [['', '']] : []),
+    [c.spec.nameLabel ?? '名前', ''],
+    ...(c.terms.some((t) => t.reading) ? [['読み', '']] : []),
+    [durable ? (c.spec.startLabel ?? '開始') : '日付', ''],
+    ...(durable ? [[c.spec.endLabel ?? '終了', ''], [c.spec.durationLabel ?? '期間', '']] : []),
+    ...(hasGroup ? [['区分', '']] : []),
+    ...extra.map((x) => [x, '']),
+  ];
+  const thead = table.createTHead().insertRow();
+  for (const [label, cls] of heads) {
+    const th = el('th', cls, label);
+    th.scope = 'col';
+    thead.append(th);
+  }
+  const tbody = table.createTBody();
+  let prev = null;
+  for (const t of c.terms) {
+    const tr = tbody.insertRow();
+    if (prev === t.name && c.spec.merge) tr.className = 'cont';
+    prev = t.name;
+    const add = (text, cls = '') => {
+      const td = tr.insertCell();
+      if (cls) td.className = cls;
+      if (text instanceof Node) td.append(text); else td.textContent = text;
+    };
+    if (hasOrd) add(t.ordFrom == null ? '' : t.ordFrom === t.ordTo ? String(t.ordFrom) : `${t.ordFrom}〜${t.ordTo}`, 'num');
+    if (hasPhoto) {
+      if (t.photo) {
+        const img = el('img');
+        img.src = t.photo;
+        img.alt = '';
+        img.loading = 'lazy';
+        add(img);
+      } else add('');
+    }
+    add(t.name);
+    if (heads.some(([l]) => l === '読み')) add(t.reading);
+    add(`${fmtStr(t.startStr)}${t.approx ? '頃' : ''}`);
+    if (durable) {
+      add(t.point ? '' : t.ongoing ? (c.spec.ongoing ?? '現在') : fmtStr(t.endStr));
+      add(durationText(t, c.spec, model.asOf).replace(/^\S+ /, ''));
+    }
+    if (hasGroup) add(t.group);
+    const map = new Map(t.details);
+    for (const key of extra) add(map.get(key) ?? '', (map.get(key) ?? '').length > 24 ? 'wrap-cell' : '');
+  }
+  box.append(table);
+  sec.append(h, box);
+  return sec;
+}
+// 観測値のデータは、CSV の行をそのまま表にする（数の列は右に寄せ、桁を区切る）
+function buildRowsTable(c) {
+  const d = DATA.datasets[c.data];
+  const skip = new Set(d.spec.hidden ?? []);
+  const heads = Object.keys(d.rows[0] ?? {}).filter((h) => !skip.has(h));
+  const isNum = (v) => /^-?\d+(\.\d+)?$/.test(v);
+  const date = { ...DEFAULT_COLUMNS, ...d.spec.columns }.start;
+  const numeric = new Set(heads.filter((h) => h !== date && d.rows.some((r) => isNum(r[h])) && d.rows.every((r) => r[h] === '' || isNum(r[h]))));
+  const sec = el('section');
+  const h = el('h2');
+  h.append(swatch(colColor(c)), d.spec.title ?? c.title);
+  const box = el('div', 'scroll');
+  const table = el('table');
+  const thead = table.createTHead().insertRow();
+  for (const k of heads) {
+    const th = el('th', numeric.has(k) ? 'num' : '', k);
+    th.scope = 'col';
+    thead.append(th);
+  }
+  const tbody = table.createTBody();
+  for (const r of d.rows) {
+    const tr = tbody.insertRow();
+    for (const k of heads) {
+      const td = tr.insertCell();
+      const v = r[k] ?? '';
+      if (numeric.has(k)) td.className = 'num';
+      else if (v.length > 24) td.className = 'wrap-cell';
+      td.textContent = numeric.has(k) ? fmtNum(v) : v;
+    }
+  }
+  box.append(table);
+  sec.append(h, box);
+  return sec;
+}
+const seriesCols = model.columns.filter((c, i, all) => c.chart && c.spec.series && all.findIndex((x) => x.data === c.data) === i);
+$('#tables').append(...model.columns.filter((c) => !c.chart).map(buildTable), ...seriesCols.map(buildRowsTable));
+</script>
+</body>
+</html>
