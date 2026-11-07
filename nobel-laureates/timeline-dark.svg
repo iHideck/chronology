@@ -1,0 +1,325 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 900 1471" width="900" height="1471" role="img" aria-labelledby="tl-title">
+<title id="tl-title">ノーベル賞の日本人受賞者</title>
+<style>
+.tl{--paper:#14171f;--ink:#e6e8ee;--ink2:#b2b8c4;--muted:#8d94a3;--rule:#232833;--rule2:#3d4452;--spine-a:#1b1f29;--spine-b:#222733;--red:#e5604a;--blue:#678bd2;--amber:#c98500;--violet:#9085e9;--green:#199e70;--teal:#1f9fa1;--gray:#6b7280;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .bar-mark{fill:var(--paper);stroke:var(--ink);stroke-width:1.5}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="900" height="1471" rx="14"/>
+<text class="lane-s" x="79" y="40">ノーベル賞の受賞者</text>
+<rect class="f-gray" x="79" y="46" width="790" height="6" rx="2"/>
+<text class="spine-h" x="36" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="36" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="0" y="70" width="72" height="175.7"/>
+<rect class="spine-b" x="0" y="245.7" width="72" height="144"/>
+<rect class="spine-a" x="0" y="389.8" width="72" height="620.4"/>
+<rect class="spine-b" x="0" y="1010.2" width="72" height="303.1"/>
+<rect class="spine-a" x="0" y="1313.3" width="72" height="87.5"/>
+<line class="grid" x1="0" x2="900" y1="620" y2="620"/>
+<line class="grid" x1="0" x2="900" y1="1120" y2="1120"/>
+<line class="era-line" x1="0" x2="900" y1="245.7" y2="245.7"/>
+<line class="era-line" x1="0" x2="900" y1="389.8" y2="389.8"/>
+<line class="era-line" x1="0" x2="900" y1="1010.2" y2="1010.2"/>
+<line class="era-line" x1="0" x2="900" y1="1313.3" y2="1313.3"/>
+<path class="tick" d="M0 120h9M72 120h-9"/>
+<path class="tick" d="M0 220h3M72 220h-3"/>
+<path class="tick" d="M0 320h3M72 320h-3"/>
+<path class="tick" d="M0 420h3M72 420h-3"/>
+<path class="tick" d="M0 520h3M72 520h-3"/>
+<path class="tick" d="M0 620h9M72 620h-9"/>
+<path class="tick" d="M0 720h3M72 720h-3"/>
+<path class="tick" d="M0 820h3M72 820h-3"/>
+<path class="tick" d="M0 920h3M72 920h-3"/>
+<path class="tick" d="M0 1020h3M72 1020h-3"/>
+<path class="tick" d="M0 1120h9M72 1120h-9"/>
+<path class="tick" d="M0 1220h3M72 1220h-3"/>
+<path class="tick" d="M0 1320h3M72 1320h-3"/>
+<text class="dec-y" x="36" y="624.5" text-anchor="middle">1950</text>
+<text class="dec-w" x="36" y="638" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="36" y="1124.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="36" y="1138" text-anchor="middle">平成12年</text>
+<text class="era-name" x="36" y="93" text-anchor="middle">明治</text>
+<text class="era-date" x="36" y="107" text-anchor="middle">1868.10.23</text>
+<text class="era-name" x="36" y="268.7" text-anchor="middle">大正</text>
+<text class="era-date" x="36" y="282.7" text-anchor="middle">1912.7.30</text>
+<text class="era-name" x="36" y="412.8" text-anchor="middle">昭和</text>
+<text class="era-date" x="36" y="426.8" text-anchor="middle">1926.12.25</text>
+<text class="era-name" x="36" y="1033.2" text-anchor="middle">平成</text>
+<text class="era-date" x="36" y="1047.2" text-anchor="middle">1989.1.8</text>
+<text class="era-name" x="36" y="1336.3" text-anchor="middle">令和</text>
+<text class="era-date" x="36" y="1350.3" text-anchor="middle">2019.5.1</text>
+<line class="asof-line" x1="-4" x2="873" y1="1388.5" y2="1388.5"/>
+<text class="era-date" x="36" y="1402.5" text-anchor="middle">2026.11.7</text>
+<text class="era-date" x="36" y="1415.5" text-anchor="middle">時点</text>
+<g class="term c-nb" data-id="nb0" data-person="nb:川端康成">
+<title>川端康成　1899年6月14日 〜 1972年4月16日（満72歳で没）　受賞 1968年10月17日</title>
+<rect class="bar f-violet" x="79" y="115.5" width="22" height="726.4" rx="3"/>
+<text class="inside" x="90" y="120.5" writing-mode="vertical-rl">川端康成</text>
+<circle class="bar-mark" cx="90" cy="807.9" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb1" data-person="nb:佐藤栄作">
+<title>佐藤栄作　1901年3月27日 〜 1975年6月3日（満74歳で没）　受賞 1974年10月9日</title>
+<rect class="bar f-teal" x="103" y="133.3" width="22" height="739.9" rx="3"/>
+<text class="inside" x="114" y="138.3" writing-mode="vertical-rl">佐藤栄作</text>
+<circle class="bar-mark" cx="114" cy="867.7" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb2" data-person="nb:朝永振一郎">
+<title>朝永振一郎　1906年3月31日 〜 1979年7月8日（満73歳で没）　受賞 1965年10月21日</title>
+<rect class="bar f-blue" x="127" y="183.4" width="22" height="730.7" rx="3"/>
+<text class="inside" x="138" y="188.4" writing-mode="vertical-rl">朝永振一郎</text>
+<circle class="bar-mark" cx="138" cy="778" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb3" data-person="nb:湯川秀樹">
+<title>湯川秀樹　1907年1月23日 〜 1981年9月8日（満74歳で没）　受賞 1949年11月3日</title>
+<rect class="bar f-blue" x="151" y="191.6" width="22" height="744.3" rx="3"/>
+<text class="inside" x="162" y="196.6" writing-mode="vertical-rl">湯川秀樹</text>
+<circle class="bar-mark" cx="162" cy="618.4" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb4" data-person="nb:福井謙一">
+<title>福井謙一　1918年10月4日 〜 1998年1月9日（満79歳で没）　受賞 1981年10月19日</title>
+<rect class="bar f-green" x="175" y="308.5" width="22" height="790.7" rx="3"/>
+<text class="inside" x="186" y="313.5" writing-mode="vertical-rl">福井謙一</text>
+<circle class="bar-mark" cx="186" cy="938" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb5" data-person="nb:南部陽一郎">
+<title>南部陽一郎　1921年1月18日 〜 2015年7月5日（満94歳で没）　受賞 2008年10月7日</title>
+<rect class="bar f-blue" x="199" y="331.5" width="22" height="942.6" rx="3"/>
+<text class="inside" x="210" y="336.5" writing-mode="vertical-rl">南部陽一郎</text>
+<circle class="bar-mark" cx="210" cy="1207.7" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb6" data-person="nb:江崎玲於奈">
+<title>江崎玲於奈　1925年3月12日 〜 存命（存命（101歳））　受賞 1973年10月23日</title>
+<linearGradient id="tl-g-nb6" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M223 375.9Q223 372.9 226 372.9H242Q245 372.9 245 375.9V1388.5Q245 1388.5 245 1388.5H223Q223 1388.5 223 1388.5Z" fill="url(#tl-g-nb6)"/>
+<text class="inside" x="234" y="377.9" writing-mode="vertical-rl">江崎玲於奈</text>
+<circle class="bar-mark" cx="234" cy="858.1" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb7" data-person="nb:小柴昌俊">
+<title>小柴昌俊　1926年9月19日 〜 2020年11月12日（満94歳で没）　受賞 2002年10月8日</title>
+<rect class="bar f-blue" x="247" y="388.1" width="22" height="939.5" rx="3"/>
+<text class="inside" x="258" y="393.1" writing-mode="vertical-rl">小柴昌俊</text>
+<circle class="bar-mark" cx="258" cy="1147.7" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb8" data-person="nb:下村脩">
+<title>下村脩　1928年8月27日 〜 2018年10月19日（満90歳で没）　受賞 2008年10月8日</title>
+<rect class="bar f-green" x="271" y="407.5" width="22" height="899.5" rx="3"/>
+<text class="inside" x="282" y="412.5" writing-mode="vertical-rl">下村脩</text>
+<circle class="bar-mark" cx="282" cy="1207.7" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb9" data-person="nb:赤﨑勇">
+<title>赤﨑勇　1929年1月30日 〜 2021年4月1日（満92歳で没）　受賞 2014年10月7日</title>
+<rect class="bar f-blue" x="295" y="411.8" width="22" height="919.7" rx="3"/>
+<text class="inside" x="306" y="416.8" writing-mode="vertical-rl">赤﨑勇</text>
+<circle class="bar-mark" cx="306" cy="1267.6" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb10" data-person="nb:鈴木章">
+<title>鈴木章　1930年9月12日 〜 存命（存命（96歳））　受賞 2010年10月6日</title>
+<linearGradient id="tl-g-nb10" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M319 430.9Q319 427.9 322 427.9H338Q341 427.9 341 430.9V1388.5Q341 1388.5 341 1388.5H319Q319 1388.5 319 1388.5Z" fill="url(#tl-g-nb10)"/>
+<text class="inside" x="330" y="432.9" writing-mode="vertical-rl">鈴木章</text>
+<circle class="bar-mark" cx="330" cy="1227.6" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb11" data-person="nb:眞鍋淑郎">
+<title>眞鍋淑郎　1931年9月21日 〜 存命（存命（95歳））　受賞 2021年10月5日</title>
+<linearGradient id="tl-g-nb11" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M343 441.2Q343 438.2 346 438.2H362Q365 438.2 365 441.2V1388.5Q365 1388.5 365 1388.5H343Q343 1388.5 343 1388.5Z" fill="url(#tl-g-nb11)"/>
+<text class="inside" x="354" y="443.2" writing-mode="vertical-rl">眞鍋淑郎</text>
+<circle class="bar-mark" cx="354" cy="1337.6" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb12" data-person="nb:大江健三郎">
+<title>大江健三郎　1935年1月31日 〜 2023年3月3日（満88歳で没）　受賞 1994年10月13日</title>
+<rect class="bar f-violet" x="367" y="471.8" width="22" height="878.9" rx="3"/>
+<text class="inside" x="378" y="476.8" writing-mode="vertical-rl">大江健三郎</text>
+<circle class="bar-mark" cx="378" cy="1067.8" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb13" data-person="nb:大村智">
+<title>大村智　1935年7月12日 〜 存命（存命（91歳））　受賞 2015年10月5日</title>
+<linearGradient id="tl-g-nb13" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M391 479.2Q391 476.2 394 476.2H410Q413 476.2 413 479.2V1388.5Q413 1388.5 413 1388.5H391Q391 1388.5 391 1388.5Z" fill="url(#tl-g-nb13)"/>
+<text class="inside" x="402" y="481.2" writing-mode="vertical-rl">大村智</text>
+<circle class="bar-mark" cx="402" cy="1277.6" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb14" data-person="nb:根岸英一">
+<title>根岸英一　1935年7月14日 〜 2021年6月6日（満85歳で没）　受賞 2010年10月6日</title>
+<rect class="bar f-green" x="415" y="476.3" width="22" height="857" rx="3"/>
+<text class="inside" x="426" y="481.3" writing-mode="vertical-rl">根岸英一</text>
+<circle class="bar-mark" cx="426" cy="1227.6" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb15" data-person="nb:白川英樹">
+<title>白川英樹　1936年8月20日 〜 2026年8月24日（満90歳で没）　受賞 2000年10月10日</title>
+<rect class="bar f-green" x="439" y="487.3" width="22" height="898.1" rx="3"/>
+<text class="inside" x="450" y="492.3" writing-mode="vertical-rl">白川英樹</text>
+<circle class="bar-mark" cx="450" cy="1127.7" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb16" data-person="nb:野依良治">
+<title>野依良治　1938年9月3日 〜 存命（存命（88歳））　受賞 2001年10月10日</title>
+<linearGradient id="tl-g-nb16" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M463 510.7Q463 507.7 466 507.7H482Q485 507.7 485 510.7V1388.5Q485 1388.5 485 1388.5H463Q463 1388.5 463 1388.5Z" fill="url(#tl-g-nb16)"/>
+<text class="inside" x="474" y="512.7" writing-mode="vertical-rl">野依良治</text>
+<circle class="bar-mark" cx="474" cy="1137.7" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb17" data-person="nb:利根川進">
+<title>利根川進　1939年9月5日 〜 2026年7月11日（満86歳で没）　受賞 1987年10月12日</title>
+<rect class="bar f-red" x="487" y="517.7" width="22" height="866.5" rx="3"/>
+<text class="inside" x="498" y="522.7" writing-mode="vertical-rl">利根川進</text>
+<circle class="bar-mark" cx="498" cy="997.8" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb18" data-person="nb:益川敏英">
+<title>益川敏英　1940年2月7日 〜 2021年7月23日（満81歳で没）　受賞 2008年10月7日</title>
+<rect class="bar f-blue" x="511" y="522" width="22" height="812.6" rx="3"/>
+<text class="inside" x="522" y="527" writing-mode="vertical-rl">益川敏英</text>
+<circle class="bar-mark" cx="522" cy="1207.7" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb19" data-person="nb:本庶佑">
+<title>本庶佑　1942年1月27日 〜 存命（存命（84歳））　受賞 2018年10月1日</title>
+<linearGradient id="tl-g-nb19" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M535 544.7Q535 541.7 538 541.7H554Q557 541.7 557 544.7V1388.5Q557 1388.5 557 1388.5H535Q535 1388.5 535 1388.5Z" fill="url(#tl-g-nb19)"/>
+<text class="inside" x="546" y="546.7" writing-mode="vertical-rl">本庶佑</text>
+<circle class="bar-mark" cx="546" cy="1307.5" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb20" data-person="nb:小林誠">
+<title>小林誠　1944年4月7日 〜 存命（存命（82歳））　受賞 2008年10月7日</title>
+<linearGradient id="tl-g-nb20" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M559 566.6Q559 563.6 562 563.6H578Q581 563.6 581 566.6V1388.5Q581 1388.5 581 1388.5H559Q559 1388.5 559 1388.5Z" fill="url(#tl-g-nb20)"/>
+<text class="inside" x="570" y="568.6" writing-mode="vertical-rl">小林誠</text>
+<circle class="bar-mark" cx="570" cy="1207.7" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb21" data-person="nb:大隅良典">
+<title>大隅良典　1945年2月9日 〜 存命（存命（81歳））　受賞 2016年10月3日</title>
+<linearGradient id="tl-g-nb21" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M583 575.1Q583 572.1 586 572.1H602Q605 572.1 605 575.1V1388.5Q605 1388.5 605 1388.5H583Q583 1388.5 583 1388.5Z" fill="url(#tl-g-nb21)"/>
+<text class="inside" x="594" y="577.1" writing-mode="vertical-rl">大隅良典</text>
+<circle class="bar-mark" cx="594" cy="1287.5" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb22" data-person="nb:吉野彰">
+<title>吉野彰　1948年1月30日 〜 存命（存命（78歳））　受賞 2019年10月9日</title>
+<linearGradient id="tl-g-nb22" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M607 604.8Q607 601.8 610 601.8H626Q629 601.8 629 604.8V1388.5Q629 1388.5 629 1388.5H607Q607 1388.5 607 1388.5Z" fill="url(#tl-g-nb22)"/>
+<text class="inside" x="618" y="606.8" writing-mode="vertical-rl">吉野彰</text>
+<circle class="bar-mark" cx="618" cy="1317.7" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb23" data-person="nb:硤合憲三">
+<title>硤合憲三　1950年 〜 存命（存命（76歳））　受賞 2026年10月7日</title>
+<linearGradient id="tl-g-nb23" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M631 624Q631 621 634 621H650Q653 621 653 624V1388.5Q653 1388.5 653 1388.5H631Q631 1388.5 631 1388.5Z" fill="url(#tl-g-nb23)"/>
+<text class="inside" x="642" y="626" writing-mode="vertical-rl">硤合憲三</text>
+<circle class="bar-mark" cx="642" cy="1387.6" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb24" data-person="nb:坂口志文">
+<title>坂口志文　1951年1月19日 〜 存命（存命（75歳））　受賞 2025年10月6日</title>
+<linearGradient id="tl-g-nb24" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M655 634.5Q655 631.5 658 631.5H674Q677 631.5 677 634.5V1388.5Q677 1388.5 677 1388.5H655Q655 1388.5 655 1388.5Z" fill="url(#tl-g-nb24)"/>
+<text class="inside" x="666" y="636.5" writing-mode="vertical-rl">坂口志文</text>
+<circle class="bar-mark" cx="666" cy="1377.6" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb25" data-person="nb:北川進">
+<title>北川進　1951年7月4日 〜 存命（存命（75歳））　受賞 2025年10月8日</title>
+<linearGradient id="tl-g-nb25" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M679 639Q679 636 682 636H698Q701 636 701 639V1388.5Q701 1388.5 701 1388.5H679Q679 1388.5 679 1388.5Z" fill="url(#tl-g-nb25)"/>
+<text class="inside" x="690" y="641" writing-mode="vertical-rl">北川進</text>
+<circle class="bar-mark" cx="690" cy="1377.7" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb26" data-person="nb:中村修二">
+<title>中村修二　1954年5月22日 〜 存命（存命（72歳））　受賞 2014年10月7日</title>
+<linearGradient id="tl-g-nb26" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M703 667.9Q703 664.9 706 664.9H722Q725 664.9 725 667.9V1388.5Q725 1388.5 725 1388.5H703Q703 1388.5 703 1388.5Z" fill="url(#tl-g-nb26)"/>
+<text class="inside" x="714" y="669.9" writing-mode="vertical-rl">中村修二</text>
+<circle class="bar-mark" cx="714" cy="1267.6" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb27" data-person="nb:カズオ・イシグロ">
+<title>カズオ・イシグロ　1954年11月8日 〜 存命（存命（71歳））　受賞 2017年10月5日</title>
+<linearGradient id="tl-g-nb27" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-violet" stop-opacity="1"/><stop offset="1" class="s-violet" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M727 672.5Q727 669.5 730 669.5H746Q749 669.5 749 672.5V1388.5Q749 1388.5 749 1388.5H727Q727 1388.5 727 1388.5Z" fill="url(#tl-g-nb27)"/>
+<text class="inside" x="738" y="674.5" writing-mode="vertical-rl">カズオ・イシグロ</text>
+<circle class="bar-mark" cx="738" cy="1297.6" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb28" data-person="nb:日本原水爆被害者団体協議会">
+<title>日本原水爆被害者団体協議会　1956年8月10日 〜 現在（期間 約70年）　受賞 2024年10月11日</title>
+<linearGradient id="tl-g-nb28" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-teal" stop-opacity="1"/><stop offset="1" class="s-teal" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M751 690.1Q751 687.1 754 687.1H770Q773 687.1 773 690.1V1388.5Q773 1388.5 773 1388.5H751Q751 1388.5 751 1388.5Z" fill="url(#tl-g-nb28)"/>
+<text class="inside" x="762" y="692.1" writing-mode="vertical-rl">日本被団協</text>
+<circle class="bar-mark" cx="762" cy="1367.8" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb29" data-person="nb:梶田隆章">
+<title>梶田隆章　1959年3月9日 〜 存命（存命（67歳））　受賞 2015年10月6日</title>
+<linearGradient id="tl-g-nb29" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M775 715.8Q775 712.8 778 712.8H794Q797 712.8 797 715.8V1388.5Q797 1388.5 797 1388.5H775Q775 1388.5 775 1388.5Z" fill="url(#tl-g-nb29)"/>
+<text class="inside" x="786" y="717.8" writing-mode="vertical-rl">梶田隆章</text>
+<circle class="bar-mark" cx="786" cy="1277.6" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb30" data-person="nb:田中耕一">
+<title>田中耕一　1959年8月3日 〜 存命（存命（67歳））　受賞 2002年10月9日</title>
+<linearGradient id="tl-g-nb30" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-green" stop-opacity="1"/><stop offset="1" class="s-green" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M799 719.8Q799 716.8 802 716.8H818Q821 716.8 821 719.8V1388.5Q821 1388.5 821 1388.5H799Q799 1388.5 799 1388.5Z" fill="url(#tl-g-nb30)"/>
+<text class="inside" x="810" y="721.8" writing-mode="vertical-rl">田中耕一</text>
+<circle class="bar-mark" cx="810" cy="1147.7" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb31" data-person="nb:天野浩">
+<title>天野浩　1960年9月11日 〜 存命（存命（66歳））　受賞 2014年10月7日</title>
+<linearGradient id="tl-g-nb31" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-blue" stop-opacity="1"/><stop offset="1" class="s-blue" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M823 730.9Q823 727.9 826 727.9H842Q845 727.9 845 730.9V1388.5Q845 1388.5 845 1388.5H823Q823 1388.5 823 1388.5Z" fill="url(#tl-g-nb31)"/>
+<text class="inside" x="834" y="732.9" writing-mode="vertical-rl">天野浩</text>
+<circle class="bar-mark" cx="834" cy="1267.6" r="4"/>
+</g>
+<g class="term c-nb" data-id="nb32" data-person="nb:山中伸弥">
+<title>山中伸弥　1962年9月4日 〜 存命（存命（64歳））　受賞 2012年10月8日</title>
+<linearGradient id="tl-g-nb32" gradientUnits="userSpaceOnUse" x1="0" y1="1366.5" x2="0" y2="1388.5"><stop offset="0" class="s-red" stop-opacity="1"/><stop offset="1" class="s-red" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M847 750.7Q847 747.7 850 747.7H866Q869 747.7 869 750.7V1388.5Q869 1388.5 869 1388.5H847Q847 1388.5 847 1388.5Z" fill="url(#tl-g-nb32)"/>
+<text class="inside" x="858" y="752.7" writing-mode="vertical-rl">山中伸弥</text>
+<circle class="bar-mark" cx="858" cy="1247.7" r="4"/>
+</g>
+<text class="foot" x="450" y="1430.8" text-anchor="middle">出典：Nobel Prize API（受賞者と賞のデータ。生年月日・没年月日・出生地・受賞年・発表日・英語の受賞理由・受賞時の所属・共同受賞者）、nobelprize.org 各賞のプレスリリース（発表日と国籍の照合）、nobelprize.org「Sin-Itiro Tomonaga – Biographical」（朝永振一郎の出生地）、nobelprize.org「The Nobel Prize in Literature 2017 – Press release」（カズオ・イシグロの国籍）、スウェーデン王立科学アカデミー「2000年ノーベル化学賞」プレスリリース日本語版（白川英樹の受賞理由）、スウェーデン王立科学アカデミー「2001年度 ノーベル化学賞」プレスリリース日本語版（野依良治の受賞理由）、スウェーデン王立科学アカデミー「2002年 ノーベル物理学賞」プレスリリース日本語版（小柴昌俊の受賞理由）、スウェーデン王立科学アカデミー「2002年 ノーベル化学賞」プレスリリース日本語版（田中耕一の受賞理由）、スウェーデン王立科学アカデミー「2008年ノーベル物理学賞」プレスリリース日本語版（南部陽一郎・小林誠・益川敏英の受賞理由と国籍）、スウェーデン王立科学アカデミー「2008年 ノーベル化学賞」プレスリリース日本語版（下村脩の受賞理由）、スウェーデン王立科学アカデミー「2010年 ノーベル化学賞」プレスリリース日本語版（根岸英一・鈴木章の受賞理由）、ノルウェー・ノーベル委員会 2024年ノーベル平和賞のお知らせ（日本語版。日本被団協の受賞理由）、日本被団協 2024年ノーベル平和賞受賞講演（日本語。結成日）、国立国会図書館 典拠データ（名前の読み、生没年の照合）、国立国会図書館「近代日本人の肖像」湯川秀樹、国立国会図書館「近代日本人の肖像」朝永振一郎、国立国会図書館「近代日本人の肖像」川端康成、文京区「文京ゆかりの文人 川端康成」、首相官邸「歴代内閣 佐藤榮作」、衆議院本会議 1975年6月13日（佐藤榮作の逝去の報告と追悼演説。国会会議録検索システム）、日本学士院「物故会員一覧」、日本学士院「物故名誉会員・物故客員一覧」（南部陽一郎）、日本学士院「客員一覧」（眞鍋淑郎）、日本学士院「日本学士院賞授賞の決定について」（2025年。硤合憲三の生年）、東京理科大学「硤合憲三栄誉教授ノーベル化学賞記念ページ」、文部科学省「令和8年度 文化勲章受章者」（硤合憲三の読み）、新エネルギー・産業技術総合開発機構「硤合憲三博士のノーベル化学賞受賞のお祝い」（硤合憲三の受賞理由）、京都大学「ノーベル賞受賞者一覧」（受賞時の国籍の照合）、科学技術振興機構 理事長談話（2012年 山中伸弥）、科学技術振興機構 理事長談話（2014年 赤﨑勇・天野浩・中村修二）、科学技術振興機構「本庶佑博士 ノーベル生理学・医学賞受賞をお祝いして」、科学技術振興機構「山中博士の経歴」、科学技術振興機構「赤﨑博士の経歴」、科学技術振興機構「天野博士の経歴」、科学技術振興機構「中村博士の経歴」、日本医療研究開発機構「北里大学特別栄誉教授 大村 智 博士のノーベル生理学・医学賞受賞のお祝い―理事長談話―」、東京工業大学「大隅良典栄誉教授 ノーベル生理学・医学賞受賞決定」（大隅良典の受賞理由）、日本学術振興会「第31回国際生物学賞 受賞者について」（大隅良典）、大阪大学「坂口志文 略歴」、大阪大学 広報誌「阪大NewsLetter」94号（坂口志文の受賞理由）、旭化成「吉野彰 経歴書」、北海道大学の資料（鈴木章）、長崎大学「下村脩 名誉博士 略歴」、Marine Biological Laboratory「Osamu Shimomura」（訃報）、講談社「大江健三郎さん ご逝去のお知らせ」、Purdue University「Ei-ichi Negishi, one of 2 Nobel Prize winners from Purdue University, dies」、Purdue University Department of Chemistry「Biography」（根岸英一）、理化学研究所「利根川 進 元脳科学総合研究センター長の訃報に接して」、京都大学「利根川進 京都大学名誉博士が逝去されました」、筑波大学「【訃報】ノーベル化学賞受賞者 白川 英樹 名誉教授」、Wikidata（生年月日 P569・没年月日 P570・かな P1814。照合に使用）、日本語版 Wikipedia（各人物の記事の名前と冒頭。照合と共同受賞者の名前に使用）　2026年11月7日時点</text>
+</svg>

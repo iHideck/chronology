@@ -228,7 +228,7 @@ function markdownTable(model, c) {
       ...(hasOrd ? [ord] : []),
       t.name,
       `${TL.fmtStr(t.startStr)}${t.approx ? '頃' : ''}`,
-      ...(durable ? [t.point ? '' : t.ongoing ? c.spec.ongoing ?? '現在' : TL.fmtStr(t.endStr), TL.durationText(t, c.spec, model.asOf).replace(/^\S+ /, '')] : []),
+      ...(durable ? [t.point ? '' : t.ongoing ? TL.ongoingText(t, c.spec) : TL.fmtStr(t.endStr), TL.durationText(t, c.spec, model.asOf).replace(/^\S+ /, '')] : []),
       ...(c.colorBy === 'group' ? [t.group] : []),
       ...extra.map((k) => m.get(k) ?? ''),
     ].map(cell).join(' | ')} |`);

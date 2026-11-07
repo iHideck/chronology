@@ -180,6 +180,8 @@ export function makeItems(rows, spec, asOfT, base = '') {
       endPrec: parseDate(endStr)?.prec ?? 'd',
       start, end, ongoing, point,
       approx: !!(C.approx && r[C.approx]),
+      // 生没年の年表に混ざる団体（columns.org の列が空でない行）は、年齢でなく期間で書く
+      org: !!(C.org && r[C.org]),
       ordFrom: ord, ordTo: ord,
       group: (C.group && r[C.group]) || '',
       lane: laneVal === '' ? null : spec.lanes?.[laneVal] ?? (Number.isFinite(Number(laneVal)) ? Number(laneVal) : null),
@@ -223,7 +225,7 @@ export function durationText(t, spec, asOfT) {
   if (spec.days === 'months' && !t.ongoing) {
     return `${label} ${monthsOf(t.endStr) - monthsOf(t.startStr)}か月`;
   }
-  if (spec.days === 'age') {
+  if (spec.days === 'age' && !t.org) {
     const a = parseDate(t.startStr);
     const b = t.ongoing ? ymd(asOfT) : parseDate(t.endStr);
     if (!a || !b) return '';
@@ -243,9 +245,11 @@ export function ordText(t) {
 }
 
 // spec.ongoing は続いているものの呼び方（在任中・存命など）
+export const ongoingText = (t, spec = {}) => (t.org ? '現在' : spec.ongoing ?? '現在');
+
 export function rangeText(t, spec = {}) {
   if (t.point) return fmtStr(t.startStr);
-  const end = t.ongoing ? spec.ongoing ?? '現在' : fmtStr(t.endStr);
+  const end = t.ongoing ? ongoingText(t, spec) : fmtStr(t.endStr);
   return `${fmtStr(t.startStr)} 〜 ${end}`;
 }
 
@@ -313,6 +317,13 @@ export function buildModel({ page, datasets, asOf }) {
       .map((x, i) => ({ ...x, id: `${c.id}${i}`, col: c.id }));
     const col = { ...c, spec, terms, title: c.title ?? spec.title ?? c.data, role: c.role ?? spec.role ?? '' };
     for (const t of terms) t.days = countDays(t, spec);
+    // 棒の上の印（受賞の日など）。marks.value の列の日付に置く
+    if (c.marks) {
+      for (const t of terms) {
+        const s = new Map(t.details).get(c.marks.value);
+        if (parseDate(s)) t.mark = { at: toTime(s), str: s };
+      }
+    }
     if (c.lead) {
       col.lead = { id: `${c.id}-lead`, col: c.id, kind: 'lead', name: c.lead.name, text: c.lead.text, start, end: toTime(c.lead.until) };
       byId.set(col.lead.id, col.lead);
@@ -673,8 +684,9 @@ export function layout(model, opts = {}) {
     const lanes = insideCols.reduce((s, x) => s + x.c.nLanes, 0);
     const room = avail - fixed - colGap * insideCols.length - barGap * 2;
     const per = Math.floor(room / lanes) - 2;
+    // 細くするのは 12px まで。列の minBar でもっと細くできる（12px より細い棒には名前が入らず、吹き出しと上の欄で読む）
     if (per < insideCols[0].barW) {
-      const barW = Math.max(12, per);
+      const barW = Math.max(Math.min(...insideCols.map((x) => x.c.minBar ?? 12)), per);
       for (const x of insideCols) {
         x.barW = barW;
         x.barsW = x.c.nLanes * barW + (x.c.nLanes - 1) * x.laneGap;
@@ -904,7 +916,8 @@ export function termSummary(t, col, model) {
   if (col.share && t.share) return `${t.name}　${rangeText(t, col.spec)}　${shareText(t)}`;
   const head = [ordText(t), col.role].filter(Boolean).join('');
   const dur = durationText(t, col.spec, model.asOf);
-  return `${head ? `${head} ` : ''}${t.name}　${rangeText(t, col.spec)}${dur ? `（${dur}）` : ''}`;
+  const mark = t.mark ? `　${col.marks.label} ${fmtStr(t.mark.str)}` : '';
+  return `${head ? `${head} ` : ''}${t.name}　${rangeText(t, col.spec)}${dur ? `（${dur}）` : ''}${mark}`;
 }
 
 // 幅に入らない文字列は、末尾を「…」にして縮める
@@ -1208,6 +1221,9 @@ export function renderSVG(model, g, opts = {}) {
             o.push(`<text class="inside${fill === 'hatch' || fill === 'gray' ? ' on-pale' : ''}" x="${r1(x + col.barW / 2)}" y="${r1(y0 + 5)}" writing-mode="vertical-rl">${esc(text)}</text>`);
           }
         }
+        if (t.mark && t.mark.at >= t.start && t.mark.at <= t.end) {
+          o.push(`<circle class="bar-mark" cx="${r1(x + col.barW / 2)}" cy="${r1(g.yOf(t.mark.at))}" r="${r1(Math.max(2.5, Math.min(4, col.barW / 2 - 1.5)))}"/>`);
+        }
       }
       if (col.labeled) {
         // 引き出し線（ラベルが本来の位置からずれたときと、外側の段の棒をまたぐときだけ）
@@ -1326,6 +1342,8 @@ export function svgRules(g) {
 .tl .share-rest{fill:var(--rule2)}
 .tl .share-line{stroke:var(--ink);stroke-width:1;opacity:0.55;pointer-events:none}
 .tl .share-line.dash{stroke-dasharray:3 2}` : '';
+  const markRule = g.cols.some((col) => col.c.marks) ? `
+.tl .bar-mark{fill:var(--paper);stroke:var(--ink);stroke-width:1.5}` : '';
   const scaleRule = share && !chart ? `
 .tl .scale{font-size:${g.narrow ? 9.5 : 10}px;fill:var(--muted);font-variant-numeric:tabular-nums}` : '';
   return `
@@ -1354,7 +1372,7 @@ ${fills}
 .tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
 .tl .hatch-bg{fill:var(--spine-a)}
 .tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
-.tl .dot{stroke:var(--paper);stroke-width:2}${chartRules}${shareRules}${scaleRule}
+.tl .dot{stroke:var(--paper);stroke-width:2}${chartRules}${shareRules}${scaleRule}${markRule}
 .tl .photo-ring{fill:var(--spine-b)}
 .tl .label{font-size:${g.nameSize}px}
 .tl .name{fill:var(--ink)}

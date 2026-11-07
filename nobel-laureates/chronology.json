@@ -1,0 +1,337 @@
+{
+  "title": "ノーベル賞の日本人受賞者",
+  "short": "ノーベル賞",
+  "description": "日本出身のノーベル賞受賞者の生没年を並べ、生涯のどの時点で受賞したかを見る年表。",
+  "category": "文化",
+  "order": 87,
+  "color": "amber",
+  "colorBy": "group",
+  "data": {
+    "file": "nobel-laureates.csv",
+    "columns": {
+      "name": "名前",
+      "start": "開始日",
+      "end": "終了日",
+      "short": "略称",
+      "reading": "読み",
+      "group": "区分",
+      "url": "リンク",
+      "photo": "写真",
+      "photoCredit": "写真の出典",
+      "photoUrl": "写真のページ",
+      "photoLicense": "写真のライセンス",
+      "org": "種類"
+    },
+    "groups": {
+      "物理学賞": {
+        "color": "blue"
+      },
+      "化学賞": {
+        "color": "green"
+      },
+      "生理学・医学賞": {
+        "color": "red"
+      },
+      "文学賞": {
+        "color": "violet"
+      },
+      "平和賞": {
+        "color": "teal"
+      },
+      "経済学賞": {
+        "color": "amber"
+      }
+    },
+    "hidden": [
+      "Wikidata"
+    ],
+    "days": "age",
+    "ongoing": "存命",
+    "startLabel": "生まれ",
+    "endLabel": "没",
+    "nameLabel": "受賞者"
+  },
+  "sources": [
+    {
+      "title": "Nobel Prize API（受賞者と賞のデータ。生年月日・没年月日・出生地・受賞年・発表日・英語の受賞理由・受賞時の所属・共同受賞者）",
+      "url": "https://api.nobelprize.org/2.1/laureates"
+    },
+    {
+      "title": "nobelprize.org 各賞のプレスリリース（発表日と国籍の照合）",
+      "url": "https://www.nobelprize.org/prizes/"
+    },
+    {
+      "title": "nobelprize.org「Sin-Itiro Tomonaga – Biographical」（朝永振一郎の出生地）",
+      "url": "https://www.nobelprize.org/prizes/physics/1965/tomonaga/biographical/"
+    },
+    {
+      "title": "nobelprize.org「The Nobel Prize in Literature 2017 – Press release」（カズオ・イシグロの国籍）",
+      "url": "https://www.nobelprize.org/prizes/literature/2017/press-release/"
+    },
+    {
+      "title": "スウェーデン王立科学アカデミー「2000年ノーベル化学賞」プレスリリース日本語版（白川英樹の受賞理由）",
+      "url": "https://www.nobelprize.org/uploads/2018/06/chemja.pdf"
+    },
+    {
+      "title": "スウェーデン王立科学アカデミー「2001年度 ノーベル化学賞」プレスリリース日本語版（野依良治の受賞理由）",
+      "url": "https://www.nobelprize.org/uploads/2018/06/chemja-1.pdf"
+    },
+    {
+      "title": "スウェーデン王立科学アカデミー「2002年 ノーベル物理学賞」プレスリリース日本語版（小柴昌俊の受賞理由）",
+      "url": "https://www.nobelprize.org/uploads/2018/06/press-ja.pdf"
+    },
+    {
+      "title": "スウェーデン王立科学アカデミー「2002年 ノーベル化学賞」プレスリリース日本語版（田中耕一の受賞理由）",
+      "url": "https://www.nobelprize.org/uploads/2018/06/press-ja-1.pdf"
+    },
+    {
+      "title": "スウェーデン王立科学アカデミー「2008年ノーベル物理学賞」プレスリリース日本語版（南部陽一郎・小林誠・益川敏英の受賞理由と国籍）",
+      "url": "https://www.nobelprize.org/uploads/2018/06/press_jap.pdf"
+    },
+    {
+      "title": "スウェーデン王立科学アカデミー「2008年 ノーベル化学賞」プレスリリース日本語版（下村脩の受賞理由）",
+      "url": "https://www.nobelprize.org/uploads/2018/06/press-jap.pdf"
+    },
+    {
+      "title": "スウェーデン王立科学アカデミー「2010年 ノーベル化学賞」プレスリリース日本語版（根岸英一・鈴木章の受賞理由）",
+      "url": "https://www.nobelprize.org/uploads/2018/06/press_jap-1.pdf"
+    },
+    {
+      "title": "ノルウェー・ノーベル委員会 2024年ノーベル平和賞のお知らせ（日本語版。日本被団協の受賞理由）",
+      "url": "https://www.nobelprize.org/uploads/2024/10/press-peaceprize2024-japanese.pdf"
+    },
+    {
+      "title": "日本被団協 2024年ノーベル平和賞受賞講演（日本語。結成日）",
+      "url": "https://nobelprize.org/uploads/2024/12/nihon-hidankyo-lecture-japanese.pdf"
+    },
+    {
+      "title": "国立国会図書館 典拠データ（名前の読み、生没年の照合）",
+      "url": "https://id.ndl.go.jp/auth/ndla"
+    },
+    {
+      "title": "国立国会図書館「近代日本人の肖像」湯川秀樹",
+      "url": "https://www.ndl.go.jp/portrait/datas/6080"
+    },
+    {
+      "title": "国立国会図書館「近代日本人の肖像」朝永振一郎",
+      "url": "https://www.ndl.go.jp/portrait/datas/6465"
+    },
+    {
+      "title": "国立国会図書館「近代日本人の肖像」川端康成",
+      "url": "https://www.ndl.go.jp/portrait/datas/6086"
+    },
+    {
+      "title": "文京区「文京ゆかりの文人 川端康成」",
+      "url": "https://www.city.bunkyo.lg.jp/b014/p003901.html"
+    },
+    {
+      "title": "首相官邸「歴代内閣 佐藤榮作」",
+      "url": "https://www.kantei.go.jp/jp/rekidainaikaku/061.html"
+    },
+    {
+      "title": "衆議院本会議 1975年6月13日（佐藤榮作の逝去の報告と追悼演説。国会会議録検索システム）",
+      "url": "https://kokkai.ndl.go.jp/txt/107505254X02719750613/5"
+    },
+    {
+      "title": "日本学士院「物故会員一覧」",
+      "url": "https://www.japan-acad.go.jp/japanese/members/bukko_members_index.html"
+    },
+    {
+      "title": "日本学士院「物故名誉会員・物故客員一覧」（南部陽一郎）",
+      "url": "https://www.japan-acad.go.jp/japanese/members/bukko/bukko_kyakuin.html"
+    },
+    {
+      "title": "日本学士院「客員一覧」（眞鍋淑郎）",
+      "url": "https://www.japan-acad.go.jp/japanese/members/kyakuin.html"
+    },
+    {
+      "title": "日本学士院「日本学士院賞授賞の決定について」（2025年。硤合憲三の生年）",
+      "url": "https://www.japan-acad.go.jp/japanese/news/2025/031201.html"
+    },
+    {
+      "title": "東京理科大学「硤合憲三栄誉教授ノーベル化学賞記念ページ」",
+      "url": "https://www.tus.ac.jp/about/nobelprize2026/"
+    },
+    {
+      "title": "文部科学省「令和8年度 文化勲章受章者」（硤合憲三の読み）",
+      "url": "https://www.mext.go.jp/b_menu/houdou/2026/1422026_00001.htm"
+    },
+    {
+      "title": "新エネルギー・産業技術総合開発機構「硤合憲三博士のノーベル化学賞受賞のお祝い」（硤合憲三の受賞理由）",
+      "url": "https://www.nedo.go.jp/news/other/ZZKH_100132.html"
+    },
+    {
+      "title": "京都大学「ノーベル賞受賞者一覧」（受賞時の国籍の照合）",
+      "url": "https://www.kyoto-u.ac.jp/ja/about/history/honor/award-b/nobel"
+    },
+    {
+      "title": "科学技術振興機構 理事長談話（2012年 山中伸弥）",
+      "url": "https://www.jst.go.jp/topics/nobel/2012/danwa20121008.html"
+    },
+    {
+      "title": "科学技術振興機構 理事長談話（2014年 赤﨑勇・天野浩・中村修二）",
+      "url": "https://www.jst.go.jp/topics/nobel/2014/danwa20141007.html"
+    },
+    {
+      "title": "科学技術振興機構「本庶佑博士 ノーベル生理学・医学賞受賞をお祝いして」",
+      "url": "https://www.jst.go.jp/topics/nobel/2018/index.html"
+    },
+    {
+      "title": "科学技術振興機構「山中博士の経歴」",
+      "url": "https://www.jst.go.jp/topics/nobel/2012/yamanaka.html"
+    },
+    {
+      "title": "科学技術振興機構「赤﨑博士の経歴」",
+      "url": "https://www.jst.go.jp/topics/nobel/2014/akasaki.html"
+    },
+    {
+      "title": "科学技術振興機構「天野博士の経歴」",
+      "url": "https://www.jst.go.jp/topics/nobel/2014/amano.html"
+    },
+    {
+      "title": "科学技術振興機構「中村博士の経歴」",
+      "url": "https://www.jst.go.jp/topics/nobel/2014/nakamura.html"
+    },
+    {
+      "title": "日本医療研究開発機構「北里大学特別栄誉教授 大村 智 博士のノーベル生理学・医学賞受賞のお祝い―理事長談話―」",
+      "url": "https://www.amed.go.jp/news/topics/20151005.html"
+    },
+    {
+      "title": "東京工業大学「大隅良典栄誉教授 ノーベル生理学・医学賞受賞決定」（大隅良典の受賞理由）",
+      "url": "https://www.titech.ac.jp/news/2016/036278"
+    },
+    {
+      "title": "日本学術振興会「第31回国際生物学賞 受賞者について」（大隅良典）",
+      "url": "https://www.jsps.go.jp/j-biol/03_recipients/31_pastrecipients_awardee.html"
+    },
+    {
+      "title": "大阪大学「坂口志文 略歴」",
+      "url": "https://www.osaka-u.ac.jp/ja/news/topics/2025/10/files/ymejyi/@@download/file"
+    },
+    {
+      "title": "大阪大学 広報誌「阪大NewsLetter」94号（坂口志文の受賞理由）",
+      "url": "https://www.osaka-u.ac.jp/ja/guide/public-relations/newsletter/files/NL94_forweb_ALL_14MB.pdf/@@download/file"
+    },
+    {
+      "title": "旭化成「吉野彰 経歴書」",
+      "url": "https://www.asahi-kasei.co.jp/asahi/jp/news/2013/pdf/ze140108.pdf"
+    },
+    {
+      "title": "北海道大学の資料（鈴木章）",
+      "url": "https://www.hokudai.ac.jp/introduction/pdf/R3_8_teireishiryo.pdf"
+    },
+    {
+      "title": "長崎大学「下村脩 名誉博士 略歴」",
+      "url": "https://www.nagasaki-u.ac.jp/ja/special/shimomura/file/outline.pdf"
+    },
+    {
+      "title": "Marine Biological Laboratory「Osamu Shimomura」（訃報）",
+      "url": "https://www.mbl.edu/news/obituaries/osamu-shimomura"
+    },
+    {
+      "title": "講談社「大江健三郎さん ご逝去のお知らせ」",
+      "url": "https://www.kodansha.co.jp/notices/142"
+    },
+    {
+      "title": "Purdue University「Ei-ichi Negishi, one of 2 Nobel Prize winners from Purdue University, dies」",
+      "url": "https://www.purdue.edu/newsroom/releases/2021/Q2/ei-ichi-negishi,-one-of-2-nobel-prize-winners-from-purdue-university,-dies.html"
+    },
+    {
+      "title": "Purdue University Department of Chemistry「Biography」（根岸英一）",
+      "url": "https://www.chem.purdue.edu/negishi/bio.html"
+    },
+    {
+      "title": "理化学研究所「利根川 進 元脳科学総合研究センター長の訃報に接して」",
+      "url": "https://www.riken.jp/pr/news/2026/20260716_1/index.html"
+    },
+    {
+      "title": "京都大学「利根川進 京都大学名誉博士が逝去されました」",
+      "url": "https://www.kyoto-u.ac.jp/ja/news/2026-07-16"
+    },
+    {
+      "title": "筑波大学「【訃報】ノーベル化学賞受賞者 白川 英樹 名誉教授」",
+      "url": "https://www.tsukuba.ac.jp/news/20260903154606.html"
+    },
+    {
+      "title": "Wikidata（生年月日 P569・没年月日 P570・かな P1814。照合に使用）",
+      "url": "https://www.wikidata.org/"
+    },
+    {
+      "title": "日本語版 Wikipedia（各人物の記事の名前と冒頭。照合と共同受賞者の名前に使用）",
+      "url": "https://ja.wikipedia.org/"
+    }
+  ],
+  "credits": [
+    {
+      "title": "肖像",
+      "photos": true,
+      "short": "写真：Wikimedia Commons",
+      "text": "Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、吹き出しと README の「写真の出典」に載せています"
+    }
+  ],
+  "notes": [
+    "日本で生まれ、生まれたときに日本国籍だった受賞者を並べた。受賞のときにアメリカ国籍だった南部陽一郎・中村修二・眞鍋淑郎と、イギリス国籍だったカズオ・イシグロも入れた。満洲国の新京（今の中国の長春）で生まれ、日本国籍で受賞した根岸英一と、2024年に平和賞を受けた日本原水爆被害者団体協議会（日本被団協）も入れた。日本の統治下で生まれた李遠哲（1936年に台湾の新竹で生まれ、1986年に化学賞）と金大中（1924年に朝鮮の木浦で生まれ、2000年に平和賞）は入れていない。",
+    "ノーベル財団のデータで生まれた国が日本の受賞者は、2026年10月の発表までで31人。この31人に根岸英一と日本被団協を足した33件。",
+    "開始日は生年月日、終了日は没年月日（存命なら空欄）。日本被団協は、長崎で結成した1956年8月10日を開始日にした。",
+    "生年月日・没年月日はノーベル財団のデータにより、Wikidata・日本語版 Wikipedia・国立国会図書館の典拠データと照らし合わせた。没年月日は、全員が政府・所属機関などの発表（訃報など）と合う。川端康成の生年月日は、ノーベル財団は1899年6月11日とするが、国立国会図書館「近代日本人の肖像」と文京区の資料に合わせて6月14日にした。硤合憲三は、ノーベル財団・東京理科大学・日本学士院が生まれた年しか示していないので、年だけにした。",
+    "発表日は、各選考機関が受賞を発表した日（ノーベル財団のデータ）。プレスリリースのある年は、その日付と合う。1974年の平和賞（佐藤栄作）の発表日は、ノーベル財団のデータでは10月9日だが、日本の年表などでは10月8日とされる。",
+    "受賞理由は、ノーベル財団の英語の受賞理由の日本語訳。スウェーデン王立科学アカデミーとノルウェー・ノーベル委員会の日本語のプレスリリース（2000年・2001年・2002年・2008年・2010年の化学賞、2002年・2008年の物理学賞、2024年の平和賞）、科学技術振興機構・日本医療研究開発機構・新エネルギー・産業技術総合開発機構の談話や発表、受賞者の所属大学の発表に訳があるものはそれを使った。訳が見つからなかった13件（湯川秀樹・朝永振一郎・川端康成・江崎玲於奈・佐藤栄作・福井謙一・利根川進・大江健三郎・梶田隆章・カズオ・イシグロ・吉野彰・眞鍋淑郎・北川進）は、この年表で訳した。",
+    "受賞時の国籍は、ノーベル財団のプレスリリース（2000〜2015年の多くの年は国籍を書いている）、京都大学「ノーベル賞受賞者一覧」（南部陽一郎・中村修二・眞鍋淑郎を「受賞時：米国籍」とする）、日本学士院の客員一覧で確かめた。カズオ・イシグロは、スウェーデン・アカデミーのプレスリリースの「English author」によった。",
+    "受賞時の所属は、ノーベル財団のデータの受賞時の所属（Affiliation at the time of the award）を日本語にした。文学賞・平和賞の受賞者には所属がない。",
+    "生まれた所は、ノーベル財団のデータの出生地を今の都道府県で書いた。朝永振一郎は、ノーベル財団のデータでは京都だが、同じ財団の経歴（Biographical）と国立国会図書館「近代日本人の肖像」に合わせて東京都にした。",
+    "名前は日本語版 Wikipedia の記事名に合わせた（赤﨑勇・眞鍋淑郎の字体も記事名どおり）。共同受賞者の名前も同じ。読みは国立国会図書館の典拠データ（硤合憲三は文部科学省の文化勲章受章者の発表）により、Wikidata・日本語版 Wikipedia と照らし合わせた。"
+  ],
+  "page": {
+    "title": "ノーベル賞の日本人受賞者",
+    "description": "日本出身のノーベル賞受賞者の生まれてから亡くなるまでを並べ、生涯のどの時点で受賞したかを印で示した年表",
+    "lede": "湯川秀樹（1949年）から硤合憲三（2026年）まで、日本出身のノーベル賞受賞者の生まれてから亡くなるまでを、賞の種類で色分けして並べた年表です。棒の上の白い丸が、受賞が発表された日です。",
+    "how": "棒にカーソルを合わせる（スマホではタップする）と、肖像と生没年月日、受賞の発表日とそのときの年齢、受賞理由が表示されます。上の欄には、横線の位置の年に生きていた受賞者と、そのときの年齢が出ます。",
+    "range": {
+      "start": "1895"
+    },
+    "ppy": [
+      10,
+      8
+    ],
+    "maxWidth": 1100,
+    "spine": {
+      "position": "left",
+      "bands": {
+        "data": "eras",
+        "lane": 0,
+        "after": "1868-10-23"
+      },
+      "wareki": {
+        "data": "eras",
+        "lane": 0
+      },
+      "headline": "和暦"
+    },
+    "jump": "bands",
+    "facts": [
+      "nb"
+    ],
+    "columns": [
+      {
+        "id": "nb",
+        "data": "nobel-laureates",
+        "side": "right",
+        "title": "ノーベル賞の受賞者",
+        "short": "受賞者",
+        "colorBy": "group",
+        "labels": "inside",
+        "fixed": true,
+        "unit": "件",
+        "marks": {
+          "value": "発表日",
+          "label": "受賞",
+          "legend": "白い丸：受賞の発表日"
+        },
+        "minBar": 6
+      }
+    ],
+    "preview": {
+      "width": 900
+    }
+  }
+}

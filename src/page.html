@@ -225,6 +225,7 @@ body::before {
 .legend-row i { display: inline-block; width: 11px; height: 11px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
 .legend-row i.shape-circle { border-radius: 50%; }
 .legend-row i.shape-diamond { border-radius: 1px; transform: rotate(45deg) scale(0.8); }
+.legend-row i.ring { border-radius: 50%; background: var(--paper); box-shadow: inset 0 0 0 2px var(--ink); }
 
 /* 年表 */
 .how { margin: 14px 0 6px; font-size: 13px; color: var(--muted); }
@@ -491,6 +492,15 @@ function buildLegend() {
     if (c.share.lines?.length) row.append(el('span', '', `縦の線：${c.share.lines.map((l) => `${l.label}（${l.name}）`).join('・')}`));
     box.append(row);
   }
+  // 棒の上の印
+  for (const c of visible()) {
+    if (!c.marks || !c.terms.some((t) => t.mark)) continue;
+    const row = el('p', 'legend-row');
+    const item = el('span');
+    item.append(el('i', 'ring'), c.marks.legend ?? c.marks.label);
+    row.append(item);
+    box.append(row);
+  }
   // 推定の日付を薄く描いている列があれば、その説明も出す
   for (const c of visible()) {
     if (!c.fadeApprox || !c.terms.some((t) => t.approx)) continue;
@@ -648,7 +658,7 @@ function update() {
       for (const x of items) now.add(x.id);
       setWho(b, items.map((x) => `${x.short} ${yearShort(ymd(x.start).y)}`).join('・') || '—', !items.length);
     } else if (list.length) {
-      const names = list.map((x) => (c.share && x.share ? `${x.short} 与党 ${x.share.value}/${x.share.total}` : c.spec.days === 'age' ? `${x.short}（${ageAt(t, x)}）` : x.short));
+      const names = list.map((x) => (c.share && x.share ? `${x.short} 与党 ${x.share.value}/${x.share.total}` : c.spec.days === 'age' && !x.org ? `${x.short}（${ageAt(t, x)}）` : x.short));
       setWho(b, names.length > 4 ? `${names.slice(0, 4).join('・')}ほか${names.length - 4}人` : names.join('・'), false);
     } else if (c.lead && t < c.lead.end) {
       setWho(b, c.lead.name, true);
@@ -753,6 +763,7 @@ function fillTip(t) {
     line('dates', `${rangeText(t, c.spec)}${(t.point ? t.start : t.ongoing ? -Infinity : t.end) > model.asOf ? '（予定）' : ''}${t.approx ? '（推定・諸説あり）' : ''}`);
     const dur = durationText(t, c.spec, model.asOf);
     if (dur) line('days', dur);
+    if (c.marks && t.mark) line('days', `${c.marks.label} ${fmtStr(t.mark.str)}${c.spec.days === 'age' && !t.org ? `（${ageAt(t.mark.at, t)}歳）` : ''}`);
     if (c.share && t.share) line('days', shareText(t));
   }
   const p = c.persons.get(t.name);
@@ -763,6 +774,7 @@ function fillTip(t) {
   }
   for (const [key, value] of t.details) {
     if (c.chart && key === c.chart.value) continue;
+    if (c.marks && t.mark && key === c.marks.value) continue;
     if (c.share && t.share && (key === c.share.value || key === c.share.total)) continue;
     const d = line('detail', c.spec.series && /^-?\d{5,}(\.\d+)?$/.test(value) ? fmtNum(value) : value);
     d.prepend(el('span', '', key));
@@ -923,7 +935,7 @@ function buildTable(c) {
     if (heads.some(([l]) => l === '読み')) add(t.reading);
     add(`${fmtStr(t.startStr)}${t.approx ? '頃' : ''}`);
     if (durable) {
-      add(t.point ? '' : t.ongoing ? (c.spec.ongoing ?? '現在') : fmtStr(t.endStr));
+      add(t.point ? '' : t.ongoing ? ongoingText(t, c.spec) : fmtStr(t.endStr));
       add(durationText(t, c.spec, model.asOf).replace(/^\S+ /, ''));
     }
     if (hasGroup) add(t.group);
