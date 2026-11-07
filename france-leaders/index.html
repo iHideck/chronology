@@ -822,13 +822,14 @@ function bandHits(col) {
   return out;
 }
 
-// 区分ごとの最高・最低・最新の点にだけ、数値を書く
+// 区分ごとの最高・最低・最新の点と、chart.labels に書いた時点（"1989" など、CSV の日付の書き方）の点にだけ、数値を書く
 function valueLabelIds(col) {
   const ids = new Set();
   for (const bs of seriesOf(col)) {
     const pick = (better) => bs.reduce((a, b) => (better(b.term.value, a.term.value) ? b : a));
     ids.add(pick((x, y) => x > y).term.id).add(pick((x, y) => x < y).term.id).add(bs[bs.length - 1].term.id);
   }
+  for (const b of col.bars) if (col.c.chart.labels?.includes(b.term.startStr)) ids.add(b.term.id);
   return ids;
 }
 
@@ -1019,6 +1020,8 @@ export function layout(model, opts = {}) {
     const widest = narrow || !col.primary ? ws[Math.floor((ws.length - 1) * 0.9)] ?? 0 : Math.max(0, ...ws, col.c.lead ? textWidth(col.c.lead.name, g.nameSize) : 0);
     return g.labelGap + Math.min(widest, narrow ? 150 : 230) + 4;
   };
+  // ラベルのない細い列のあとの間隔。縦書きの見出し（1文字ぶんの幅）が隣と重ならないようにする
+  const thinGap = (col) => Math.max(4, (narrow ? 10 : 11) + 3 - col.barsW);
   const sideNeed = (side) => cols
     .filter((x) => x.side === side)
     .reduce((s, x) => s + x.barsW + need(x) + ((x.mode === 'side' && x.labeled) || x.mode === 'chart' ? colGap : Math.max(4, (narrow ? 10 : 11) + 3 - x.barsW)), barGap);
@@ -1080,6 +1083,25 @@ export function layout(model, opts = {}) {
       }
     }
   }
+  // それでも画面からはみ出すなら、折れ線の列を細くする（64px まで）。
+  // はみ出しは、下の「帯の位置」と同じ決め方で帯を置いたときの量で、いちばん外側の列のあとのすき間は数えない
+  const charts = cols.filter((x) => x.mode === 'chart');
+  const outerGap = (side) => {
+    const list = cols.filter((x) => x.side === side);
+    const x = list.filter((y) => y.labeled || y.mode === 'chart').pop() ?? list.pop();
+    return !x ? 0 : x.labeled || x.mode === 'chart' ? colGap : thinGap(x);
+  };
+  const overflow = () => {
+    if (fits()) return 0;
+    const R = sideNeed('right');
+    if (g.spinePos === 'left') return R - avail - outerGap('right');
+    const L = sideNeed('left');
+    const left = (avail * L) / (L + R);
+    return Math.max(R - (avail - left) - outerGap('right'), L - left - outerGap('left'));
+  };
+  while (charts.length && overflow() > 0 && charts.every((x) => x.barW > 64)) {
+    for (const x of charts) { x.barW -= 1; x.barsW = x.barW; }
+  }
   g.showYears = cols.some((x) => x.labeled && x.withYears);
 
   // 帯の位置。両側が半分ずつに収まれば中央、そうでなければ広い側に寄せる
@@ -1096,8 +1118,6 @@ export function layout(model, opts = {}) {
   g.spineX1 = g.spineX0 + g.spineW;
   g.cx = g.spineX0 + g.spineW / 2;
 
-  // ラベルのない細い列のあとの間隔。縦書きの見出し（1文字ぶんの幅）が隣と重ならないようにする
-  const thinGap = (col) => Math.max(4, (narrow ? 10 : 11) + 3 - col.barsW);
 
   // 列を帯の外側へ順に置く。ラベルのない細い列は帯の側に寄せ、いちばん外側のラベル付きの列は画面の端までラベルを広げてよい
   for (const side of ['left', 'right']) {

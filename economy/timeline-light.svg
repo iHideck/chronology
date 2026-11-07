@@ -1,0 +1,1302 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 1100 2223" width="1100" height="2223" role="img" aria-labelledby="tl-title">
+<title id="tl-title">ドル円・日経平均・消費者物価</title>
+<style>
+.tl{--paper:#fcfcfd;--ink:#1c2029;--ink2:#4b5260;--muted:#687080;--rule:#e8eaef;--rule2:#c3c8d2;--spine-a:#f0f1f5;--spine-b:#e6e8ef;--red:#d4452c;--blue:#2c5aa0;--amber:#b8730f;--violet:#7a4fc4;--green:#138a60;--teal:#00897b;--gray:#9aa0ab;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .k-red{stroke:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .k-blue{stroke:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .k-amber{stroke:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .k-violet{stroke:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .k-green{stroke:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .k-teal{stroke:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .k-gray{stroke:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .series{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.tl .mark{stroke:var(--paper);stroke-width:1.5}
+.tl .val{font-size:11px;fill:var(--ink2);font-variant-numeric:tabular-nums}
+.tl .scale{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .key{font-size:11px;fill:var(--ink2)}
+.tl .mark.quiet{opacity:0}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="1100" height="2223" rx="14"/>
+<rect class="f-gray" x="116" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="101" y="44" text-anchor="end">内閣総理大臣</text>
+<text class="lane-v" x="141" y="20" writing-mode="vertical-rl">景気</text>
+<rect class="f-gray" x="138" y="46" width="6" height="6" rx="2"/>
+<text class="lane-s" x="250" y="40">ドル円（年平均）</text>
+<text class="scale" x="250" y="66" text-anchor="start">0</text>
+<text class="scale" x="300" y="66" text-anchor="middle">100</text>
+<text class="scale" x="350" y="66" text-anchor="middle">200</text>
+<text class="scale" x="400" y="66" text-anchor="middle">300</text>
+<text class="scale" x="450" y="66" text-anchor="end">400円</text>
+<text class="lane-s" x="466" y="40">日経平均株価（年末の終値）</text>
+<text class="scale" x="466" y="66" text-anchor="start">0</text>
+<text class="scale" x="546" y="66" text-anchor="middle">20,000</text>
+<text class="scale" x="626" y="66" text-anchor="middle">40,000</text>
+<text class="scale" x="706" y="66" text-anchor="end">60,000円</text>
+<text class="lane-s" x="722" y="40">消費者物価（前年比）</text>
+<text class="scale" x="722" y="66" text-anchor="start">-10</text>
+<text class="scale" x="762" y="66" text-anchor="middle">0</text>
+<text class="scale" x="802" y="66" text-anchor="middle">10</text>
+<text class="scale" x="842" y="66" text-anchor="middle">20</text>
+<text class="scale" x="882" y="66" text-anchor="middle">30</text>
+<text class="scale" x="922" y="66" text-anchor="end">40%</text>
+<rect class="f-green" x="938" y="33" width="6" height="14" rx="3"/>
+<text class="lane-h" x="959" y="44">経済の出来事</text>
+<text class="spine-h" x="197" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="197" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="151" y="70" width="92" height="1066.6"/>
+<rect class="spine-b" x="151" y="1136.6" width="92" height="788"/>
+<rect class="spine-a" x="151" y="1924.6" width="92" height="227.6"/>
+<line class="grid" x1="0" x2="1100" y1="382" y2="382"/>
+<line class="grid" x1="0" x2="1100" y1="642" y2="642"/>
+<line class="grid" x1="0" x2="1100" y1="902" y2="902"/>
+<line class="grid" x1="0" x2="1100" y1="1422" y2="1422"/>
+<line class="grid" x1="0" x2="1100" y1="1682.1" y2="1682.1"/>
+<line class="grid" x1="250" x2="250" y1="70" y2="2152.2"/>
+<line class="grid" x1="300" x2="300" y1="70" y2="2152.2"/>
+<line class="grid" x1="350" x2="350" y1="70" y2="2152.2"/>
+<line class="grid" x1="400" x2="400" y1="70" y2="2152.2"/>
+<line class="grid" x1="450" x2="450" y1="70" y2="2152.2"/>
+<line class="grid" x1="466" x2="466" y1="70" y2="2152.2"/>
+<line class="grid" x1="546" x2="546" y1="70" y2="2152.2"/>
+<line class="grid" x1="626" x2="626" y1="70" y2="2152.2"/>
+<line class="grid" x1="706" x2="706" y1="70" y2="2152.2"/>
+<line class="grid" x1="722" x2="722" y1="70" y2="2152.2"/>
+<line class="grid" x1="762" x2="762" y1="70" y2="2152.2"/>
+<line class="grid" x1="802" x2="802" y1="70" y2="2152.2"/>
+<line class="grid" x1="842" x2="842" y1="70" y2="2152.2"/>
+<line class="grid" x1="882" x2="882" y1="70" y2="2152.2"/>
+<line class="grid" x1="922" x2="922" y1="70" y2="2152.2"/>
+<line class="era-line" x1="0" x2="1100" y1="1136.6" y2="1136.6"/>
+<line class="era-line" x1="0" x2="1100" y1="1924.6" y2="1924.6"/>
+<path class="tick" d="M151 70h3M243 70h-3"/>
+<path class="tick" d="M151 96.1h3M243 96.1h-3"/>
+<path class="tick" d="M151 122h9M243 122h-9"/>
+<path class="tick" d="M151 148h3M243 148h-3"/>
+<path class="tick" d="M151 174h3M243 174h-3"/>
+<path class="tick" d="M151 200.1h3M243 200.1h-3"/>
+<path class="tick" d="M151 226h3M243 226h-3"/>
+<path class="tick" d="M151 252h6M243 252h-6"/>
+<path class="tick" d="M151 278h3M243 278h-3"/>
+<path class="tick" d="M151 304.1h3M243 304.1h-3"/>
+<path class="tick" d="M151 330h3M243 330h-3"/>
+<path class="tick" d="M151 356h3M243 356h-3"/>
+<path class="tick" d="M151 382h9M243 382h-9"/>
+<path class="tick" d="M151 408.1h3M243 408.1h-3"/>
+<path class="tick" d="M151 434h3M243 434h-3"/>
+<path class="tick" d="M151 460h3M243 460h-3"/>
+<path class="tick" d="M151 486h3M243 486h-3"/>
+<path class="tick" d="M151 512.1h6M243 512.1h-6"/>
+<path class="tick" d="M151 538h3M243 538h-3"/>
+<path class="tick" d="M151 564h3M243 564h-3"/>
+<path class="tick" d="M151 590h3M243 590h-3"/>
+<path class="tick" d="M151 616.1h3M243 616.1h-3"/>
+<path class="tick" d="M151 642h9M243 642h-9"/>
+<path class="tick" d="M151 668h3M243 668h-3"/>
+<path class="tick" d="M151 694h3M243 694h-3"/>
+<path class="tick" d="M151 720.1h3M243 720.1h-3"/>
+<path class="tick" d="M151 746h3M243 746h-3"/>
+<path class="tick" d="M151 772h6M243 772h-6"/>
+<path class="tick" d="M151 798h3M243 798h-3"/>
+<path class="tick" d="M151 824.1h3M243 824.1h-3"/>
+<path class="tick" d="M151 850.1h3M243 850.1h-3"/>
+<path class="tick" d="M151 876h3M243 876h-3"/>
+<path class="tick" d="M151 902h9M243 902h-9"/>
+<path class="tick" d="M151 928.1h3M243 928.1h-3"/>
+<path class="tick" d="M151 954.1h3M243 954.1h-3"/>
+<path class="tick" d="M151 980h3M243 980h-3"/>
+<path class="tick" d="M151 1006h3M243 1006h-3"/>
+<path class="tick" d="M151 1032.1h6M243 1032.1h-6"/>
+<path class="tick" d="M151 1058.1h3M243 1058.1h-3"/>
+<path class="tick" d="M151 1084h3M243 1084h-3"/>
+<path class="tick" d="M151 1110h3M243 1110h-3"/>
+<path class="tick" d="M151 1136.1h3M243 1136.1h-3"/>
+<path class="tick" d="M151 1162.1h9M243 1162.1h-9"/>
+<path class="tick" d="M151 1188h3M243 1188h-3"/>
+<path class="tick" d="M151 1214h3M243 1214h-3"/>
+<path class="tick" d="M151 1240.1h3M243 1240.1h-3"/>
+<path class="tick" d="M151 1266.1h3M243 1266.1h-3"/>
+<path class="tick" d="M151 1292h6M243 1292h-6"/>
+<path class="tick" d="M151 1318h3M243 1318h-3"/>
+<path class="tick" d="M151 1344.1h3M243 1344.1h-3"/>
+<path class="tick" d="M151 1370.1h3M243 1370.1h-3"/>
+<path class="tick" d="M151 1396h3M243 1396h-3"/>
+<path class="tick" d="M151 1422h9M243 1422h-9"/>
+<path class="tick" d="M151 1448.1h3M243 1448.1h-3"/>
+<path class="tick" d="M151 1474.1h3M243 1474.1h-3"/>
+<path class="tick" d="M151 1500h3M243 1500h-3"/>
+<path class="tick" d="M151 1526h3M243 1526h-3"/>
+<path class="tick" d="M151 1552.1h6M243 1552.1h-6"/>
+<path class="tick" d="M151 1578.1h3M243 1578.1h-3"/>
+<path class="tick" d="M151 1604h3M243 1604h-3"/>
+<path class="tick" d="M151 1630h3M243 1630h-3"/>
+<path class="tick" d="M151 1656.1h3M243 1656.1h-3"/>
+<path class="tick" d="M151 1682.1h9M243 1682.1h-9"/>
+<path class="tick" d="M151 1708.1h3M243 1708.1h-3"/>
+<path class="tick" d="M151 1734h3M243 1734h-3"/>
+<path class="tick" d="M151 1760.1h3M243 1760.1h-3"/>
+<path class="tick" d="M151 1786.1h3M243 1786.1h-3"/>
+<path class="tick" d="M151 1812.1h6M243 1812.1h-6"/>
+<path class="tick" d="M151 1838h3M243 1838h-3"/>
+<path class="tick" d="M151 1864.1h3M243 1864.1h-3"/>
+<path class="tick" d="M151 1890.1h3M243 1890.1h-3"/>
+<path class="tick" d="M151 1916.1h3M243 1916.1h-3"/>
+<path class="tick" d="M151 1942h9M243 1942h-9"/>
+<path class="tick" d="M151 1968.1h3M243 1968.1h-3"/>
+<path class="tick" d="M151 1994.1h3M243 1994.1h-3"/>
+<path class="tick" d="M151 2020.1h3M243 2020.1h-3"/>
+<path class="tick" d="M151 2046h3M243 2046h-3"/>
+<path class="tick" d="M151 2072.1h6M243 2072.1h-6"/>
+<path class="tick" d="M151 2098.1h3M243 2098.1h-3"/>
+<path class="tick" d="M151 2124.1h3M243 2124.1h-3"/>
+<path class="tick" d="M151 2150h3M243 2150h-3"/>
+<text class="dec-y" x="197" y="386.5" text-anchor="middle">1960</text>
+<text class="dec-w" x="197" y="400" text-anchor="middle">昭和35年</text>
+<text class="dec-y" x="197" y="646.5" text-anchor="middle">1970</text>
+<text class="dec-w" x="197" y="660" text-anchor="middle">昭和45年</text>
+<text class="dec-y" x="197" y="906.5" text-anchor="middle">1980</text>
+<text class="dec-w" x="197" y="920" text-anchor="middle">昭和55年</text>
+<text class="dec-y" x="197" y="1426.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="197" y="1440" text-anchor="middle">平成12年</text>
+<text class="dec-y" x="197" y="1686.6" text-anchor="middle">2010</text>
+<text class="dec-w" x="197" y="1700.1" text-anchor="middle">平成22年</text>
+<text class="era-name" x="197" y="93" text-anchor="middle">昭和</text>
+<text class="era-date" x="197" y="107" text-anchor="middle">1926.12.25</text>
+<text class="era-name" x="197" y="1159.6" text-anchor="middle">平成</text>
+<text class="era-date" x="197" y="1173.6" text-anchor="middle">1989.1.8</text>
+<text class="era-name" x="197" y="1947.6" text-anchor="middle">令和</text>
+<text class="era-date" x="197" y="1961.6" text-anchor="middle">2019.5.1</text>
+<line class="asof-line" x1="112" x2="948" y1="2120.1" y2="2120.1"/>
+<text class="era-date" x="197" y="2134.1" text-anchor="middle">2026.11.7</text>
+<text class="era-date" x="197" y="2147.1" text-anchor="middle">時点</text>
+<polyline class="series k-blue" points="430,135 430,161 430,187 430,213 430,239 430,265 430,291 430,317 430,343 430,369 430,395 430,421.1 430,447 430,473 430,499 430,525.1 430,551 430,577 430,603 430,629.1 430,655 423.9,681 401.5,707 386.1,733.1 396,759 398.4,785 398.2,811 384.2,837.1 355.1,863 359.7,889 363.2,915 360.4,941.1 374.6,967 368.8,993 368.8,1019 369,1045.1 334,1071 322.3,1097 314.1,1123 319.1,1149.1 322.4,1175 317.3,1201 313.3,1227.1 305.5,1253.1 301.1,1279.1 297,1305 304.4,1331.1 310.5,1357.1 315.5,1383.1 307,1409 303.9,1435.1 310.8,1461.1 312.6,1487.1 308,1513 304.1,1539.1 305.1,1565.1 308.2,1591.1 308.9,1617 301.7,1643.1 296.8,1669.1 293.9,1695.1 289.9,1721 289.9,1747.1 298.9,1773.1 302.9,1799.1 310.5,1825 304.4,1851.1 306.1,1877.1 305.2,1903.1 304.5,1929 303.4,1955.1 304.9,1981.1 315.8,2007.1 320.3,2033 325.8,2059.1 324.8,2085.1"/>
+<polyline class="series k-red" points="466.4,122 466.4,147.9 466.7,173.9 467.5,200 467.5,226 467.4,252 467.7,277.9 468.2,304 467.9,330 468.7,356 469.5,381.9 471.4,408 471.7,434 471.7,460 470.9,485.9 470.9,512 471.7,538 471.8,564 471.1,589.9 472.9,616 475.4,642 473.9,668 476.9,693.9 486.8,720 483.2,746 481.3,772 483.4,797.9 486,824 485.5,850 490,876 492.3,901.9 494.5,928 496.7,954 498.1,980 505.6,1005.9 512.2,1032 518.5,1058 540.8,1084 552.3,1110 586.6,1136 621.7,1162 561.4,1188 557.9,1214 533.7,1240 535.7,1266 544.9,1292 545.5,1318 543.4,1344 527,1370 521.4,1396 541.7,1422 521.1,1448 508.2,1474 500.3,1500 508.7,1526 512,1552 530.4,1578 534.9,1604 527.2,1630 501.4,1656 508.2,1682 506.9,1708 499.8,1734 507.6,1760 531.2,1786 535.8,1812 542.1,1838 542.5,1864 557.1,1890 546.1,1916 560.6,1942 575.8,1968 581.2,1994 570.4,2020 599.9,2046 625.6,2072 667.4,2098"/>
+<polyline class="series k-amber" points="890,109 734.4,135 827.6,161 782,187 788,213 788,239 757.6,265 763.2,291 774.4,317 760.4,343 766,369 776.4,395 783.2,421.1 789.2,447 792.4,473 777.6,499 788.4,525.1 782.4,551 778,577 783.2,603 782.8,629.1 792.8,655 787.2,681 781.6,707 808.8,733.1 854.8,759 808.8,785 799.6,811 794.4,837.1 778.8,863 776.8,889 792.8,915 781.6,941.1 773.2,967 769.6,993 771.2,1019 770,1045.1 764.4,1071 762.4,1097 764.8,1123 771.2,1149.1 774.4,1175 775.2,1201 768.4,1227.1 767.2,1253.1 764.8,1279.1 761.6,1305 762.4,1331.1 769.2,1357.1 764.4,1383.1 760.8,1409 759.2,1435.1 759.2,1461.1 758.4,1487.1 760.8,1513 762,1539.1 760.8,1565.1 763.2,1591.1 762,1617 767.6,1643.1 756.4,1669.1 759.2,1695.1 760.8,1721 762,1747.1 763.6,1773.1 772.8,1799.1 765.2,1825 761.6,1851.1 764,1877.1 766,1903.1 764,1929 762,1955.1 761.2,1981.1 772,2007.1 774.8,2033 772.8,2059.1 774.8,2085.1"/>
+<g class="term c-pm" data-id="pm0" data-person="pm:片山哲">
+<title>第46代内閣総理大臣 片山哲　1947年5月24日 〜 1948年3月10日（在任 292日）</title>
+<linearGradient id="tl-g-pm0" gradientUnits="userSpaceOnUse" x1="0" y1="70" x2="0" y2="92"><stop offset="0" class="s-gray" stop-opacity="0"/><stop offset="1" class="s-gray" stop-opacity="1"/></linearGradient>
+<path class="bar-open" d="M116 70Q116 70 116 70H130Q130 70 130 70V72Q130 73.9 128 73.9H118Q116 73.9 116 72Z" fill="url(#tl-g-pm0)"/>
+<path class="leader" d="M114.5 72.5h-4L105 78.5h-2"/>
+<text class="label" x="101" y="83.4" text-anchor="end"><tspan class="name">片山哲</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm1" data-person="pm:芦田均">
+<title>第47代内閣総理大臣 芦田均　1948年3月10日 〜 1948年10月15日（在任 220日）</title>
+<rect class="bar f-gray" x="116" y="75.9" width="14" height="13.6" rx="3"/>
+<path class="leader" d="M114.5 82.7h-4L105 95.5h-2"/>
+<text class="label" x="101" y="100.4" text-anchor="end"><tspan class="name">芦田均</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm2" data-person="pm:吉田茂">
+<title>第48〜51代内閣総理大臣 吉田茂　1948年10月15日 〜 1954年12月10日（在任 2,248日）</title>
+<rect class="bar f-gray" x="116" y="91.5" width="14" height="158" rx="3"/>
+<path class="leader" d="M114.5 99h-4L105 112.5h-2"/>
+<text class="label" x="101" y="117.4" text-anchor="end"><tspan class="name">吉田茂</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm3" data-person="pm:鳩山一郎">
+<title>第52〜54代内閣総理大臣 鳩山一郎　1954年12月10日 〜 1956年12月23日（在任 745日）</title>
+<rect class="bar f-gray" x="116" y="251.5" width="14" height="51" rx="3"/>
+<text class="label" x="101" y="263.8" text-anchor="end"><tspan class="name">鳩山一郎</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm4" data-person="pm:石橋湛山">
+<title>第55代内閣総理大臣 石橋湛山　1956年12月23日 〜 1957年2月25日（在任 65日）</title>
+<rect class="bar f-gray" x="116" y="304.2" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M114.5 305.7h-4L105 302.6h-2"/>
+<text class="label" x="101" y="307.4" text-anchor="end"><tspan class="name">石橋湛山</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm5" data-person="pm:岸信介">
+<title>第56〜57代内閣総理大臣 岸信介　1957年2月25日 〜 1960年7月19日（在任 1,241日）</title>
+<rect class="bar f-gray" x="116" y="309" width="14" height="86.3" rx="3"/>
+<path class="leader" d="M114.5 316.5h-4L105 319.6h-2"/>
+<text class="label" x="101" y="324.4" text-anchor="end"><tspan class="name">岸信介</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm6" data-person="pm:池田勇人">
+<title>第58〜60代内閣総理大臣 池田勇人　1960年7月19日 〜 1964年11月9日（在任 1,575日）</title>
+<rect class="bar f-gray" x="116" y="397.2" width="14" height="110" rx="3"/>
+<text class="label" x="101" y="409.6" text-anchor="end"><tspan class="name">池田勇人</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm7" data-person="pm:佐藤栄作">
+<title>第61〜63代内閣総理大臣 佐藤栄作　1964年11月9日 〜 1972年7月7日（在任 2,798日）</title>
+<rect class="bar f-gray" x="116" y="509.3" width="14" height="197.1" rx="3"/>
+<text class="label" x="101" y="521.6" text-anchor="end"><tspan class="name">佐藤栄作</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm8" data-person="pm:田中角栄">
+<title>第64〜65代内閣総理大臣 田中角栄　1972年7月7日 〜 1974年12月9日（在任 886日）</title>
+<rect class="bar f-gray" x="116" y="708.4" width="14" height="61" rx="3"/>
+<text class="label" x="101" y="720.8" text-anchor="end"><tspan class="name">田中角栄</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm9" data-person="pm:三木武夫">
+<title>第66代内閣総理大臣 三木武夫　1974年12月9日 〜 1976年12月24日（在任 747日）</title>
+<rect class="bar f-gray" x="116" y="771.4" width="14" height="51.1" rx="3"/>
+<text class="label" x="101" y="783.8" text-anchor="end"><tspan class="name">三木武夫</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm10" data-person="pm:福田赳夫">
+<title>第67代内閣総理大臣 福田赳夫　1976年12月24日 〜 1978年12月7日（在任 714日）</title>
+<rect class="bar f-gray" x="116" y="824.5" width="14" height="48.8" rx="3"/>
+<text class="label" x="101" y="836.9" text-anchor="end"><tspan class="name">福田赳夫</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm11" data-person="pm:大平正芳">
+<title>第68〜69代内閣総理大臣 大平正芳　1978年12月7日 〜 1980年6月12日（在任 554日）</title>
+<rect class="bar f-gray" x="116" y="875.3" width="14" height="37.4" rx="3"/>
+<text class="label" x="101" y="887.6" text-anchor="end"><tspan class="name">大平正芳</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm12" data-person="pm:鈴木善幸">
+<title>第70代内閣総理大臣 鈴木善幸　1980年7月17日 〜 1982年11月27日（在任 864日）</title>
+<rect class="bar f-gray" x="116" y="917.1" width="14" height="59.4" rx="3"/>
+<text class="label" x="101" y="929.5" text-anchor="end"><tspan class="name">鈴木善幸</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm13" data-person="pm:中曽根康弘">
+<title>第71〜73代内閣総理大臣 中曽根康弘　1982年11月27日 〜 1987年11月6日（在任 1,806日）</title>
+<rect class="bar f-gray" x="116" y="978.5" width="14" height="126.5" rx="3"/>
+<text class="label" x="101" y="990.9" text-anchor="end"><tspan class="name">中曽根康弘</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm14" data-person="pm:竹下登">
+<title>第74代内閣総理大臣 竹下登　1987年11月6日 〜 1989年6月3日（在任 576日）</title>
+<rect class="bar f-gray" x="116" y="1107" width="14" height="38.9" rx="3"/>
+<text class="label" x="101" y="1119.4" text-anchor="end"><tspan class="name">竹下登</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm15" data-person="pm:宇野宗佑">
+<title>第75代内閣総理大臣 宇野宗佑　1989年6月3日 〜 1989年8月10日（在任 69日）</title>
+<rect class="bar f-gray" x="116" y="1147.9" width="14" height="3" rx="1.5"/>
+<path class="leader" d="M114.5 1149.4h-4L105 1146.3h-2"/>
+<text class="label" x="101" y="1151.2" text-anchor="end"><tspan class="name">宇野宗佑</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm16" data-person="pm:海部俊樹">
+<title>第76〜77代内閣総理大臣 海部俊樹　1989年8月10日 〜 1991年11月5日（在任 818日）</title>
+<rect class="bar f-gray" x="116" y="1152.8" width="14" height="56.2" rx="3"/>
+<path class="leader" d="M114.5 1160.3h-4L105 1163.3h-2"/>
+<text class="label" x="101" y="1168.2" text-anchor="end"><tspan class="name">海部俊樹</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm17" data-person="pm:宮澤喜一">
+<title>第78代内閣総理大臣 宮澤喜一　1991年11月5日 〜 1993年8月9日（在任 644日）</title>
+<rect class="bar f-gray" x="116" y="1211" width="14" height="43.8" rx="3"/>
+<text class="label" x="101" y="1223.3" text-anchor="end"><tspan class="name">宮澤喜一</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm18" data-person="pm:細川護煕">
+<title>第79代内閣総理大臣 細川護煕　1993年8月9日 〜 1994年4月28日（在任 263日）</title>
+<rect class="bar f-gray" x="116" y="1256.7" width="14" height="16.7" rx="3"/>
+<path class="leader" d="M114.5 1264.2h-4L105 1259.1h-2"/>
+<text class="label" x="101" y="1263.9" text-anchor="end"><tspan class="name">細川護煕</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm19" data-person="pm:羽田孜">
+<title>第80代内閣総理大臣 羽田孜　1994年4月28日 〜 1994年6月30日（在任 64日）</title>
+<rect class="bar f-gray" x="116" y="1275.1" width="14" height="3" rx="1.5"/>
+<text class="label" x="101" y="1280.9" text-anchor="end"><tspan class="name">羽田孜</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm20" data-person="pm:村山富市">
+<title>第81代内閣総理大臣 村山富市　1994年6月30日 〜 1996年1月11日（在任 561日）</title>
+<rect class="bar f-gray" x="116" y="1279.9" width="14" height="37.9" rx="3"/>
+<path class="leader" d="M114.5 1287.4h-4L105 1293.1h-2"/>
+<text class="label" x="101" y="1297.9" text-anchor="end"><tspan class="name">村山富市</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm21" data-person="pm:橋本龍太郎">
+<title>第82〜83代内閣総理大臣 橋本龍太郎　1996年1月11日 〜 1998年7月30日（在任 932日）</title>
+<rect class="bar f-gray" x="116" y="1319.7" width="14" height="64.3" rx="3"/>
+<text class="label" x="101" y="1332.1" text-anchor="end"><tspan class="name">橋本龍太郎</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm22" data-person="pm:小渕恵三">
+<title>第84代内閣総理大臣 小渕恵三　1998年7月30日 〜 2000年4月5日（在任 616日）</title>
+<rect class="bar f-gray" x="116" y="1386" width="14" height="41.8" rx="3"/>
+<text class="label" x="101" y="1398.4" text-anchor="end"><tspan class="name">小渕恵三</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm23" data-person="pm:森喜朗">
+<title>第85〜86代内閣総理大臣 森喜朗　2000年4月5日 〜 2001年4月26日（在任 387日）</title>
+<rect class="bar f-gray" x="116" y="1429.8" width="14" height="25.5" rx="3"/>
+<text class="label" x="101" y="1442.2" text-anchor="end"><tspan class="name">森喜朗</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm24" data-person="pm:小泉純一郎">
+<title>第87〜89代内閣総理大臣 小泉純一郎　2001年4月26日 〜 2006年9月26日（在任 1,980日）</title>
+<rect class="bar f-gray" x="116" y="1457.3" width="14" height="138.9" rx="3"/>
+<text class="label" x="101" y="1469.6" text-anchor="end"><tspan class="name">小泉純一郎</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm25" data-person="pm:安倍晋三">
+<title>第90代内閣総理大臣 安倍晋三　2006年9月26日 〜 2007年9月26日（在任 366日）</title>
+<rect class="bar f-gray" x="116" y="1598.1" width="14" height="24" rx="3"/>
+<text class="label" x="101" y="1610.5" text-anchor="end"><tspan class="name">安倍晋三</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm26" data-person="pm:福田康夫">
+<title>第91代内閣総理大臣 福田康夫　2007年9月26日 〜 2008年9月24日（在任 365日）</title>
+<rect class="bar f-gray" x="116" y="1624.1" width="14" height="23.9" rx="3"/>
+<text class="label" x="101" y="1636.5" text-anchor="end"><tspan class="name">福田康夫</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm27" data-person="pm:麻生太郎">
+<title>第92代内閣総理大臣 麻生太郎　2008年9月24日 〜 2009年9月16日（在任 358日）</title>
+<rect class="bar f-gray" x="116" y="1650" width="14" height="23.4" rx="3"/>
+<text class="label" x="101" y="1662.4" text-anchor="end"><tspan class="name">麻生太郎</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm28" data-person="pm:鳩山由紀夫">
+<title>第93代内閣総理大臣 鳩山由紀夫　2009年9月16日 〜 2010年6月8日（在任 266日）</title>
+<rect class="bar f-gray" x="116" y="1675.5" width="14" height="16.9" rx="3"/>
+<text class="label" x="101" y="1687.8" text-anchor="end"><tspan class="name">鳩山由紀夫</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm29" data-person="pm:菅直人">
+<title>第94代内閣総理大臣 菅直人　2010年6月8日 〜 2011年9月2日（在任 452日）</title>
+<rect class="bar f-gray" x="116" y="1694.3" width="14" height="30.1" rx="3"/>
+<text class="label" x="101" y="1706.7" text-anchor="end"><tspan class="name">菅直人</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm30" data-person="pm:野田佳彦">
+<title>第95代内閣総理大臣 野田佳彦　2011年9月2日 〜 2012年12月26日（在任 482日）</title>
+<rect class="bar f-gray" x="116" y="1726.4" width="14" height="32.2" rx="3"/>
+<text class="label" x="101" y="1738.8" text-anchor="end"><tspan class="name">野田佳彦</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm31" data-person="pm:安倍晋三">
+<title>第96〜98代内閣総理大臣 安倍晋三　2012年12月26日 〜 2020年9月16日（在任 2,822日）</title>
+<rect class="bar f-gray" x="116" y="1760.7" width="14" height="198.8" rx="3"/>
+<text class="label" x="101" y="1773" text-anchor="end"><tspan class="name">安倍晋三</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm32" data-person="pm:菅義偉">
+<title>第99代内閣総理大臣 菅義偉　2020年9月16日 〜 2021年10月4日（在任 384日）</title>
+<rect class="bar f-gray" x="116" y="1961.5" width="14" height="25.3" rx="3"/>
+<text class="label" x="101" y="1973.8" text-anchor="end"><tspan class="name">菅義偉</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm33" data-person="pm:岸田文雄">
+<title>第100〜101代内閣総理大臣 岸田文雄　2021年10月4日 〜 2024年10月1日（在任 1,094日）</title>
+<rect class="bar f-gray" x="116" y="1988.7" width="14" height="75.8" rx="3"/>
+<text class="label" x="101" y="2001.1" text-anchor="end"><tspan class="name">岸田文雄</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm34" data-person="pm:石破茂">
+<title>第102〜103代内閣総理大臣 石破茂　2024年10月1日 〜 2025年10月21日（在任 386日）</title>
+<rect class="bar f-gray" x="116" y="2066.5" width="14" height="25.4" rx="3"/>
+<text class="label" x="101" y="2078.9" text-anchor="end"><tspan class="name">石破茂</tspan></text>
+</g>
+<g class="term c-pm" data-id="pm35" data-person="pm:高市早苗">
+<title>第104〜105代内閣総理大臣 高市早苗　2025年10月21日 〜 在任中（在任 383日（2026年11月7日時点））</title>
+<linearGradient id="tl-g-pm35" gradientUnits="userSpaceOnUse" x1="0" y1="2098.1" x2="0" y2="2120.1"><stop offset="0" class="s-gray" stop-opacity="1"/><stop offset="1" class="s-gray" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M116 2097Q116 2094 119 2094H127Q130 2094 130 2097V2120.1Q130 2120.1 130 2120.1H116Q116 2120.1 116 2120.1Z" fill="url(#tl-g-pm35)"/>
+<text class="label" x="101" y="2106.3" text-anchor="end"><tspan class="name">高市早苗</tspan></text>
+</g>
+<g class="term c-econ" data-id="econ0" data-person="econ:後退期">
+<title>後退期　1951年6月 〜 1951年10月（期間 4か月）</title>
+<rect class="bar-hatch" x="138" y="159.8" width="6" height="8.9" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ1" data-person="econ:拡張期">
+<title>拡張期　1951年10月 〜 1954年1月（期間 27か月）</title>
+<rect class="bar f-teal" x="138" y="168.5" width="6" height="58.8" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ2" data-person="econ:後退期">
+<title>後退期　1954年1月 〜 1954年11月（期間 10か月）</title>
+<rect class="bar-hatch" x="138" y="227" width="6" height="21.8" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ3" data-person="econ:神武景気">
+<title>神武景気　1954年11月 〜 1957年6月（期間 31か月）</title>
+<rect class="bar f-teal" x="138" y="248.7" width="6" height="67.3" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ4" data-person="econ:なべ底不況">
+<title>なべ底不況　1957年6月 〜 1958年6月（期間 12か月）</title>
+<rect class="bar-hatch" x="138" y="315.8" width="6" height="26.1" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ5" data-person="econ:岩戸景気">
+<title>岩戸景気　1958年6月 〜 1961年12月（期間 42か月）</title>
+<rect class="bar f-teal" x="138" y="341.8" width="6" height="91.3" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ6" data-person="econ:転換型不況">
+<title>転換型不況　1961年12月 〜 1962年10月（期間 10か月）</title>
+<rect class="bar-hatch" x="138" y="432.8" width="6" height="21.8" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ7" data-person="econ:オリンピック景気">
+<title>オリンピック景気　1962年10月 〜 1964年10月（期間 24か月）</title>
+<rect class="bar f-teal" x="138" y="454.5" width="6" height="52.2" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ8" data-person="econ:証券不況">
+<title>証券不況　1964年10月 〜 1965年10月（期間 12か月）</title>
+<rect class="bar-hatch" x="138" y="506.5" width="6" height="26.2" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ9" data-person="econ:いざなぎ景気">
+<title>いざなぎ景気　1965年10月 〜 1970年7月（期間 57か月）</title>
+<rect class="bar f-teal" x="138" y="532.5" width="6" height="123.6" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ10" data-person="econ:ニクソン不況">
+<title>ニクソン不況　1970年7月 〜 1971年12月（期間 17か月）</title>
+<rect class="bar-hatch" x="138" y="655.9" width="6" height="37.1" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ11" data-person="econ:列島改造ブーム">
+<title>列島改造ブーム　1971年12月 〜 1973年11月（期間 23か月）</title>
+<rect class="bar f-teal" x="138" y="692.8" width="6" height="50" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ12" data-person="econ:第1次石油危機">
+<title>第1次石油危機　1973年11月 〜 1975年3月（期間 16か月）</title>
+<rect class="bar-hatch" x="138" y="742.7" width="6" height="34.7" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ13" data-person="econ:拡張期">
+<title>拡張期　1975年3月 〜 1977年1月（期間 22か月）</title>
+<rect class="bar f-teal" x="138" y="777.2" width="6" height="48" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ14" data-person="econ:後退期">
+<title>後退期　1977年1月 〜 1977年10月（期間 9か月）</title>
+<rect class="bar-hatch" x="138" y="825.1" width="6" height="19.6" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ15" data-person="econ:拡張期">
+<title>拡張期　1977年10月 〜 1980年2月（期間 28か月）</title>
+<rect class="bar f-teal" x="138" y="844.5" width="6" height="60.8" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ16" data-person="econ:第2次石油危機">
+<title>第2次石油危機　1980年2月 〜 1983年2月（期間 36か月）</title>
+<rect class="bar-hatch" x="138" y="905.2" width="6" height="78" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ17" data-person="econ:ハイテク景気">
+<title>ハイテク景気　1983年2月 〜 1985年6月（期間 28か月）</title>
+<rect class="bar f-teal" x="138" y="983.2" width="6" height="60.7" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ18" data-person="econ:円高不況">
+<title>円高不況　1985年6月 〜 1986年11月（期間 17か月）</title>
+<rect class="bar-hatch" x="138" y="1043.8" width="6" height="37" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ19" data-person="econ:バブル景気">
+<title>バブル景気　1986年11月 〜 1991年2月（期間 51か月）</title>
+<rect class="bar f-teal" x="138" y="1080.7" width="6" height="110.5" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ20" data-person="econ:第1次平成不況">
+<title>第1次平成不況　1991年2月 〜 1993年10月（期間 32か月）</title>
+<rect class="bar-hatch" x="138" y="1191.2" width="6" height="69.5" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ21" data-person="econ:カンフル景気">
+<title>カンフル景気　1993年10月 〜 1997年5月（期間 43か月）</title>
+<rect class="bar f-teal" x="138" y="1260.5" width="6" height="93.3" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ22" data-person="econ:第2次平成不況">
+<title>第2次平成不況　1997年5月 〜 1999年1月（期間 20か月）</title>
+<rect class="bar-hatch" x="138" y="1353.6" width="6" height="43.6" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ23" data-person="econ:ITバブル">
+<title>ITバブル　1999年1月 〜 2000年11月（期間 22か月）</title>
+<rect class="bar f-teal" x="138" y="1397" width="6" height="47.8" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ24" data-person="econ:第3次平成不況">
+<title>第3次平成不況　2000年11月 〜 2002年1月（期間 14か月）</title>
+<rect class="bar-hatch" x="138" y="1444.7" width="6" height="30.5" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ25" data-person="econ:いざなみ景気">
+<title>いざなみ景気　2002年1月 〜 2008年2月（期間 73か月）</title>
+<rect class="bar f-teal" x="138" y="1475.1" width="6" height="158.2" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ26" data-person="econ:リーマン不況">
+<title>リーマン不況　2008年2月 〜 2009年3月（期間 13か月）</title>
+<rect class="bar-hatch" x="138" y="1633.2" width="6" height="28.3" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ27" data-person="econ:拡張期">
+<title>拡張期　2009年3月 〜 2012年3月（期間 36か月）</title>
+<rect class="bar f-teal" x="138" y="1661.3" width="6" height="78.2" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ28" data-person="econ:後退期">
+<title>後退期　2012年3月 〜 2012年11月（期間 8か月）</title>
+<rect class="bar-hatch" x="138" y="1739.3" width="6" height="17.6" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ29" data-person="econ:アベノミクス景気">
+<title>アベノミクス景気　2012年11月 〜 2018年10月（期間 71か月）</title>
+<rect class="bar f-teal" x="138" y="1756.7" width="6" height="154" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ30" data-person="econ:後退期">
+<title>後退期　2018年10月 〜 2020年5月（期間 19か月）</title>
+<rect class="bar-hatch" x="138" y="1910.5" width="6" height="41.4" rx="3"/>
+</g>
+<g class="term c-econ" data-id="econ31" data-person="econ:拡張期">
+<title>拡張期　2020年5月 〜 現在（期間 約7年）</title>
+<linearGradient id="tl-g-econ31" gradientUnits="userSpaceOnUse" x1="0" y1="2098.1" x2="0" y2="2120.1"><stop offset="0" class="s-teal" stop-opacity="1"/><stop offset="1" class="s-teal" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M138 1954.7Q138 1951.7 141 1951.7H141Q144 1951.7 144 1954.7V2120.1Q144 2120.1 144 2120.1H138Q138 2120.1 138 2120.1Z" fill="url(#tl-g-econ31)"/>
+</g>
+<g class="term c-usd" data-id="usd1" data-person="usd:1950年">
+<title>1950年　ドル円（年平均） 360.00円</title>
+<circle class="mark f-blue" cx="430" cy="135" r="4"/>
+<text class="val" x="423" y="139" text-anchor="end">360.00円</text>
+</g>
+<g class="term c-usd" data-id="usd2" data-person="usd:1951年">
+<title>1951年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd3" data-person="usd:1952年">
+<title>1952年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd4" data-person="usd:1953年">
+<title>1953年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd5" data-person="usd:1954年">
+<title>1954年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd6" data-person="usd:1955年">
+<title>1955年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd7" data-person="usd:1956年">
+<title>1956年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd8" data-person="usd:1957年">
+<title>1957年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd9" data-person="usd:1958年">
+<title>1958年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd10" data-person="usd:1959年">
+<title>1959年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd11" data-person="usd:1960年">
+<title>1960年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd12" data-person="usd:1961年">
+<title>1961年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd13" data-person="usd:1962年">
+<title>1962年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd14" data-person="usd:1963年">
+<title>1963年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd15" data-person="usd:1964年">
+<title>1964年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd16" data-person="usd:1965年">
+<title>1965年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd17" data-person="usd:1966年">
+<title>1966年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd18" data-person="usd:1967年">
+<title>1967年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd19" data-person="usd:1968年">
+<title>1968年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd20" data-person="usd:1969年">
+<title>1969年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd21" data-person="usd:1970年">
+<title>1970年　ドル円（年平均） 360.00円</title>
+</g>
+<g class="term c-usd" data-id="usd22" data-person="usd:1971年">
+<title>1971年　ドル円（年平均） 347.83円</title>
+</g>
+<g class="term c-usd" data-id="usd23" data-person="usd:1972年">
+<title>1972年　ドル円（年平均） 303.08円</title>
+</g>
+<g class="term c-usd" data-id="usd24" data-person="usd:1973年">
+<title>1973年　ドル円（年平均） 272.18円</title>
+</g>
+<g class="term c-usd" data-id="usd25" data-person="usd:1974年">
+<title>1974年　ドル円（年平均） 292.06円</title>
+</g>
+<g class="term c-usd" data-id="usd26" data-person="usd:1975年">
+<title>1975年　ドル円（年平均） 296.84円</title>
+</g>
+<g class="term c-usd" data-id="usd27" data-person="usd:1976年">
+<title>1976年　ドル円（年平均） 296.49円</title>
+</g>
+<g class="term c-usd" data-id="usd28" data-person="usd:1977年">
+<title>1977年　ドル円（年平均） 268.32円</title>
+</g>
+<g class="term c-usd" data-id="usd29" data-person="usd:1978年">
+<title>1978年　ドル円（年平均） 210.11円</title>
+</g>
+<g class="term c-usd" data-id="usd30" data-person="usd:1979年">
+<title>1979年　ドル円（年平均） 219.47円</title>
+</g>
+<g class="term c-usd" data-id="usd31" data-person="usd:1980年">
+<title>1980年　ドル円（年平均） 226.45円</title>
+</g>
+<g class="term c-usd" data-id="usd32" data-person="usd:1981年">
+<title>1981年　ドル円（年平均） 220.83円</title>
+</g>
+<g class="term c-usd" data-id="usd33" data-person="usd:1982年">
+<title>1982年　ドル円（年平均） 249.26円</title>
+</g>
+<g class="term c-usd" data-id="usd34" data-person="usd:1983年">
+<title>1983年　ドル円（年平均） 237.61円</title>
+</g>
+<g class="term c-usd" data-id="usd35" data-person="usd:1984年">
+<title>1984年　ドル円（年平均） 237.61円</title>
+</g>
+<g class="term c-usd" data-id="usd36" data-person="usd:1985年">
+<title>1985年　ドル円（年平均） 238.05円</title>
+</g>
+<g class="term c-usd" data-id="usd37" data-person="usd:1986年">
+<title>1986年　ドル円（年平均） 168.03円</title>
+</g>
+<g class="term c-usd" data-id="usd38" data-person="usd:1987年">
+<title>1987年　ドル円（年平均） 144.52円</title>
+</g>
+<g class="term c-usd" data-id="usd39" data-person="usd:1988年">
+<title>1988年　ドル円（年平均） 128.20円</title>
+</g>
+<g class="term c-usd" data-id="usd40" data-person="usd:1989年">
+<title>1989年　ドル円（年平均） 138.11円</title>
+</g>
+<g class="term c-usd" data-id="usd41" data-person="usd:1990年">
+<title>1990年　ドル円（年平均） 144.88円</title>
+</g>
+<g class="term c-usd" data-id="usd42" data-person="usd:1991年">
+<title>1991年　ドル円（年平均） 134.59円</title>
+</g>
+<g class="term c-usd" data-id="usd43" data-person="usd:1992年">
+<title>1992年　ドル円（年平均） 126.62円</title>
+</g>
+<g class="term c-usd" data-id="usd44" data-person="usd:1993年">
+<title>1993年　ドル円（年平均） 111.06円</title>
+</g>
+<g class="term c-usd" data-id="usd45" data-person="usd:1994年">
+<title>1994年　ドル円（年平均） 102.18円</title>
+</g>
+<g class="term c-usd" data-id="usd46" data-person="usd:1995年">
+<title>1995年　ドル円（年平均） 93.97円</title>
+</g>
+<g class="term c-usd" data-id="usd47" data-person="usd:1996年">
+<title>1996年　ドル円（年平均） 108.81円</title>
+</g>
+<g class="term c-usd" data-id="usd48" data-person="usd:1997年">
+<title>1997年　ドル円（年平均） 120.92円</title>
+</g>
+<g class="term c-usd" data-id="usd49" data-person="usd:1998年">
+<title>1998年　ドル円（年平均） 131.02円</title>
+</g>
+<g class="term c-usd" data-id="usd50" data-person="usd:1999年">
+<title>1999年　ドル円（年平均） 113.94円</title>
+</g>
+<g class="term c-usd" data-id="usd51" data-person="usd:2000年">
+<title>2000年　ドル円（年平均） 107.79円</title>
+</g>
+<g class="term c-usd" data-id="usd52" data-person="usd:2001年">
+<title>2001年　ドル円（年平均） 121.58円</title>
+</g>
+<g class="term c-usd" data-id="usd53" data-person="usd:2002年">
+<title>2002年　ドル円（年平均） 125.17円</title>
+</g>
+<g class="term c-usd" data-id="usd54" data-person="usd:2003年">
+<title>2003年　ドル円（年平均） 115.94円</title>
+</g>
+<g class="term c-usd" data-id="usd55" data-person="usd:2004年">
+<title>2004年　ドル円（年平均） 108.17円</title>
+</g>
+<g class="term c-usd" data-id="usd56" data-person="usd:2005年">
+<title>2005年　ドル円（年平均） 110.21円</title>
+</g>
+<g class="term c-usd" data-id="usd57" data-person="usd:2006年">
+<title>2006年　ドル円（年平均） 116.31円</title>
+</g>
+<g class="term c-usd" data-id="usd58" data-person="usd:2007年">
+<title>2007年　ドル円（年平均） 117.77円</title>
+</g>
+<g class="term c-usd" data-id="usd59" data-person="usd:2008年">
+<title>2008年　ドル円（年平均） 103.39円</title>
+</g>
+<g class="term c-usd" data-id="usd60" data-person="usd:2009年">
+<title>2009年　ドル円（年平均） 93.61円</title>
+</g>
+<g class="term c-usd" data-id="usd61" data-person="usd:2010年">
+<title>2010年　ドル円（年平均） 87.75円</title>
+</g>
+<g class="term c-usd" data-id="usd62" data-person="usd:2011年">
+<title>2011年　ドル円（年平均） 79.76円</title>
+<circle class="mark f-blue" cx="289.9" cy="1721" r="4"/>
+<text class="val" x="296.9" y="1725">79.76円</text>
+</g>
+<g class="term c-usd" data-id="usd63" data-person="usd:2012年">
+<title>2012年　ドル円（年平均） 79.79円</title>
+</g>
+<g class="term c-usd" data-id="usd64" data-person="usd:2013年">
+<title>2013年　ドル円（年平均） 97.71円</title>
+</g>
+<g class="term c-usd" data-id="usd65" data-person="usd:2014年">
+<title>2014年　ドル円（年平均） 105.79円</title>
+</g>
+<g class="term c-usd" data-id="usd66" data-person="usd:2015年">
+<title>2015年　ドル円（年平均） 121.09円</title>
+</g>
+<g class="term c-usd" data-id="usd67" data-person="usd:2016年">
+<title>2016年　ドル円（年平均） 108.77円</title>
+</g>
+<g class="term c-usd" data-id="usd68" data-person="usd:2017年">
+<title>2017年　ドル円（年平均） 112.13円</title>
+</g>
+<g class="term c-usd" data-id="usd69" data-person="usd:2018年">
+<title>2018年　ドル円（年平均） 110.40円</title>
+</g>
+<g class="term c-usd" data-id="usd70" data-person="usd:2019年">
+<title>2019年　ドル円（年平均） 108.99円</title>
+</g>
+<g class="term c-usd" data-id="usd71" data-person="usd:2020年">
+<title>2020年　ドル円（年平均） 106.73円</title>
+</g>
+<g class="term c-usd" data-id="usd72" data-person="usd:2021年">
+<title>2021年　ドル円（年平均） 109.89円</title>
+</g>
+<g class="term c-usd" data-id="usd73" data-person="usd:2022年">
+<title>2022年　ドル円（年平均） 131.57円</title>
+</g>
+<g class="term c-usd" data-id="usd74" data-person="usd:2023年">
+<title>2023年　ドル円（年平均） 140.59円</title>
+</g>
+<g class="term c-usd" data-id="usd75" data-person="usd:2024年">
+<title>2024年　ドル円（年平均） 151.59円</title>
+</g>
+<g class="term c-usd" data-id="usd76" data-person="usd:2025年">
+<title>2025年　ドル円（年平均） 149.56円</title>
+<circle class="mark f-blue" cx="324.8" cy="2085.1" r="4"/>
+<text class="val" x="331.8" y="2089">149.56円</text>
+</g>
+<g class="term c-nk" data-id="nk0" data-person="nk:1949年">
+<title>1949年　日経平均株価（年末の終値） 109.91円</title>
+</g>
+<g class="term c-nk" data-id="nk1" data-person="nk:1950年">
+<title>1950年　日経平均株価（年末の終値） 101.91円</title>
+<circle class="mark f-red" cx="466.4" cy="147.9" r="4"/>
+<text class="val" x="473.4" y="151.9">101.91円</text>
+</g>
+<g class="term c-nk" data-id="nk2" data-person="nk:1951年">
+<title>1951年　日経平均株価（年末の終値） 166.06円</title>
+</g>
+<g class="term c-nk" data-id="nk3" data-person="nk:1952年">
+<title>1952年　日経平均株価（年末の終値） 362.64円</title>
+</g>
+<g class="term c-nk" data-id="nk4" data-person="nk:1953年">
+<title>1953年　日経平均株価（年末の終値） 377.95円</title>
+</g>
+<g class="term c-nk" data-id="nk5" data-person="nk:1954年">
+<title>1954年　日経平均株価（年末の終値） 356.09円</title>
+</g>
+<g class="term c-nk" data-id="nk6" data-person="nk:1955年">
+<title>1955年　日経平均株価（年末の終値） 425.69円</title>
+</g>
+<g class="term c-nk" data-id="nk7" data-person="nk:1956年">
+<title>1956年　日経平均株価（年末の終値） 549.14円</title>
+</g>
+<g class="term c-nk" data-id="nk8" data-person="nk:1957年">
+<title>1957年　日経平均株価（年末の終値） 474.55円</title>
+</g>
+<g class="term c-nk" data-id="nk9" data-person="nk:1958年">
+<title>1958年　日経平均株価（年末の終値） 666.54円</title>
+</g>
+<g class="term c-nk" data-id="nk10" data-person="nk:1959年">
+<title>1959年　日経平均株価（年末の終値） 874.88円</title>
+</g>
+<g class="term c-nk" data-id="nk11" data-person="nk:1960年">
+<title>1960年　日経平均株価（年末の終値） 1,356.71円</title>
+</g>
+<g class="term c-nk" data-id="nk12" data-person="nk:1961年">
+<title>1961年　日経平均株価（年末の終値） 1,432.60円</title>
+</g>
+<g class="term c-nk" data-id="nk13" data-person="nk:1962年">
+<title>1962年　日経平均株価（年末の終値） 1,420.43円</title>
+</g>
+<g class="term c-nk" data-id="nk14" data-person="nk:1963年">
+<title>1963年　日経平均株価（年末の終値） 1,225.10円</title>
+</g>
+<g class="term c-nk" data-id="nk15" data-person="nk:1964年">
+<title>1964年　日経平均株価（年末の終値） 1,216.55円</title>
+</g>
+<g class="term c-nk" data-id="nk16" data-person="nk:1965年">
+<title>1965年　日経平均株価（年末の終値） 1,417.83円</title>
+</g>
+<g class="term c-nk" data-id="nk17" data-person="nk:1966年">
+<title>1966年　日経平均株価（年末の終値） 1,452.10円</title>
+</g>
+<g class="term c-nk" data-id="nk18" data-person="nk:1967年">
+<title>1967年　日経平均株価（年末の終値） 1,283.47円</title>
+</g>
+<g class="term c-nk" data-id="nk19" data-person="nk:1968年">
+<title>1968年　日経平均株価（年末の終値） 1,714.89円</title>
+</g>
+<g class="term c-nk" data-id="nk20" data-person="nk:1969年">
+<title>1969年　日経平均株価（年末の終値） 2,358.96円</title>
+</g>
+<g class="term c-nk" data-id="nk21" data-person="nk:1970年">
+<title>1970年　日経平均株価（年末の終値） 1,987.14円</title>
+</g>
+<g class="term c-nk" data-id="nk22" data-person="nk:1971年">
+<title>1971年　日経平均株価（年末の終値） 2,713.74円</title>
+</g>
+<g class="term c-nk" data-id="nk23" data-person="nk:1972年">
+<title>1972年　日経平均株価（年末の終値） 5,207.94円</title>
+</g>
+<g class="term c-nk" data-id="nk24" data-person="nk:1973年">
+<title>1973年　日経平均株価（年末の終値） 4,306.80円</title>
+</g>
+<g class="term c-nk" data-id="nk25" data-person="nk:1974年">
+<title>1974年　日経平均株価（年末の終値） 3,817.22円</title>
+</g>
+<g class="term c-nk" data-id="nk26" data-person="nk:1975年">
+<title>1975年　日経平均株価（年末の終値） 4,358.60円</title>
+</g>
+<g class="term c-nk" data-id="nk27" data-person="nk:1976年">
+<title>1976年　日経平均株価（年末の終値） 4,990.85円</title>
+</g>
+<g class="term c-nk" data-id="nk28" data-person="nk:1977年">
+<title>1977年　日経平均株価（年末の終値） 4,865.60円</title>
+</g>
+<g class="term c-nk" data-id="nk29" data-person="nk:1978年">
+<title>1978年　日経平均株価（年末の終値） 6,001.85円</title>
+</g>
+<g class="term c-nk" data-id="nk30" data-person="nk:1979年">
+<title>1979年　日経平均株価（年末の終値） 6,569.47円</title>
+</g>
+<g class="term c-nk" data-id="nk31" data-person="nk:1980年">
+<title>1980年　日経平均株価（年末の終値） 7,116.38円</title>
+</g>
+<g class="term c-nk" data-id="nk32" data-person="nk:1981年">
+<title>1981年　日経平均株価（年末の終値） 7,681.84円</title>
+</g>
+<g class="term c-nk" data-id="nk33" data-person="nk:1982年">
+<title>1982年　日経平均株価（年末の終値） 8,016.67円</title>
+</g>
+<g class="term c-nk" data-id="nk34" data-person="nk:1983年">
+<title>1983年　日経平均株価（年末の終値） 9,893.82円</title>
+</g>
+<g class="term c-nk" data-id="nk35" data-person="nk:1984年">
+<title>1984年　日経平均株価（年末の終値） 11,542.60円</title>
+</g>
+<g class="term c-nk" data-id="nk36" data-person="nk:1985年">
+<title>1985年　日経平均株価（年末の終値） 13,113.32円</title>
+</g>
+<g class="term c-nk" data-id="nk37" data-person="nk:1986年">
+<title>1986年　日経平均株価（年末の終値） 18,701.30円</title>
+</g>
+<g class="term c-nk" data-id="nk38" data-person="nk:1987年">
+<title>1987年　日経平均株価（年末の終値） 21,564.00円</title>
+</g>
+<g class="term c-nk" data-id="nk39" data-person="nk:1988年">
+<title>1988年　日経平均株価（年末の終値） 30,159.00円</title>
+</g>
+<g class="term c-nk" data-id="nk40" data-person="nk:1989年">
+<title>1989年　日経平均株価（年末の終値） 38,915.87円</title>
+<circle class="mark f-red" cx="621.7" cy="1162" r="4"/>
+<text class="val" x="614.7" y="1165.9" text-anchor="end">38,915.87円</text>
+</g>
+<g class="term c-nk" data-id="nk41" data-person="nk:1990年">
+<title>1990年　日経平均株価（年末の終値） 23,848.71円</title>
+</g>
+<g class="term c-nk" data-id="nk42" data-person="nk:1991年">
+<title>1991年　日経平均株価（年末の終値） 22,983.77円</title>
+</g>
+<g class="term c-nk" data-id="nk43" data-person="nk:1992年">
+<title>1992年　日経平均株価（年末の終値） 16,924.95円</title>
+</g>
+<g class="term c-nk" data-id="nk44" data-person="nk:1993年">
+<title>1993年　日経平均株価（年末の終値） 17,417.24円</title>
+</g>
+<g class="term c-nk" data-id="nk45" data-person="nk:1994年">
+<title>1994年　日経平均株価（年末の終値） 19,723.06円</title>
+</g>
+<g class="term c-nk" data-id="nk46" data-person="nk:1995年">
+<title>1995年　日経平均株価（年末の終値） 19,868.15円</title>
+</g>
+<g class="term c-nk" data-id="nk47" data-person="nk:1996年">
+<title>1996年　日経平均株価（年末の終値） 19,361.35円</title>
+</g>
+<g class="term c-nk" data-id="nk48" data-person="nk:1997年">
+<title>1997年　日経平均株価（年末の終値） 15,258.74円</title>
+</g>
+<g class="term c-nk" data-id="nk49" data-person="nk:1998年">
+<title>1998年　日経平均株価（年末の終値） 13,842.17円</title>
+</g>
+<g class="term c-nk" data-id="nk50" data-person="nk:1999年">
+<title>1999年　日経平均株価（年末の終値） 18,934.34円</title>
+</g>
+<g class="term c-nk" data-id="nk51" data-person="nk:2000年">
+<title>2000年　日経平均株価（年末の終値） 13,785.69円</title>
+</g>
+<g class="term c-nk" data-id="nk52" data-person="nk:2001年">
+<title>2001年　日経平均株価（年末の終値） 10,542.62円</title>
+</g>
+<g class="term c-nk" data-id="nk53" data-person="nk:2002年">
+<title>2002年　日経平均株価（年末の終値） 8,578.95円</title>
+</g>
+<g class="term c-nk" data-id="nk54" data-person="nk:2003年">
+<title>2003年　日経平均株価（年末の終値） 10,676.64円</title>
+</g>
+<g class="term c-nk" data-id="nk55" data-person="nk:2004年">
+<title>2004年　日経平均株価（年末の終値） 11,488.76円</title>
+</g>
+<g class="term c-nk" data-id="nk56" data-person="nk:2005年">
+<title>2005年　日経平均株価（年末の終値） 16,111.43円</title>
+</g>
+<g class="term c-nk" data-id="nk57" data-person="nk:2006年">
+<title>2006年　日経平均株価（年末の終値） 17,225.83円</title>
+</g>
+<g class="term c-nk" data-id="nk58" data-person="nk:2007年">
+<title>2007年　日経平均株価（年末の終値） 15,307.78円</title>
+</g>
+<g class="term c-nk" data-id="nk59" data-person="nk:2008年">
+<title>2008年　日経平均株価（年末の終値） 8,859.56円</title>
+<circle class="mark f-red" cx="501.4" cy="1656" r="4"/>
+<text class="val" x="508.4" y="1660">8,859.56円</text>
+</g>
+<g class="term c-nk" data-id="nk60" data-person="nk:2009年">
+<title>2009年　日経平均株価（年末の終値） 10,546.44円</title>
+</g>
+<g class="term c-nk" data-id="nk61" data-person="nk:2010年">
+<title>2010年　日経平均株価（年末の終値） 10,228.92円</title>
+</g>
+<g class="term c-nk" data-id="nk62" data-person="nk:2011年">
+<title>2011年　日経平均株価（年末の終値） 8,455.35円</title>
+</g>
+<g class="term c-nk" data-id="nk63" data-person="nk:2012年">
+<title>2012年　日経平均株価（年末の終値） 10,395.18円</title>
+</g>
+<g class="term c-nk" data-id="nk64" data-person="nk:2013年">
+<title>2013年　日経平均株価（年末の終値） 16,291.31円</title>
+</g>
+<g class="term c-nk" data-id="nk65" data-person="nk:2014年">
+<title>2014年　日経平均株価（年末の終値） 17,450.77円</title>
+</g>
+<g class="term c-nk" data-id="nk66" data-person="nk:2015年">
+<title>2015年　日経平均株価（年末の終値） 19,033.71円</title>
+</g>
+<g class="term c-nk" data-id="nk67" data-person="nk:2016年">
+<title>2016年　日経平均株価（年末の終値） 19,114.37円</title>
+</g>
+<g class="term c-nk" data-id="nk68" data-person="nk:2017年">
+<title>2017年　日経平均株価（年末の終値） 22,764.94円</title>
+</g>
+<g class="term c-nk" data-id="nk69" data-person="nk:2018年">
+<title>2018年　日経平均株価（年末の終値） 20,014.77円</title>
+</g>
+<g class="term c-nk" data-id="nk70" data-person="nk:2019年">
+<title>2019年　日経平均株価（年末の終値） 23,656.62円</title>
+</g>
+<g class="term c-nk" data-id="nk71" data-person="nk:2020年">
+<title>2020年　日経平均株価（年末の終値） 27,444.17円</title>
+</g>
+<g class="term c-nk" data-id="nk72" data-person="nk:2021年">
+<title>2021年　日経平均株価（年末の終値） 28,791.71円</title>
+</g>
+<g class="term c-nk" data-id="nk73" data-person="nk:2022年">
+<title>2022年　日経平均株価（年末の終値） 26,094.50円</title>
+</g>
+<g class="term c-nk" data-id="nk74" data-person="nk:2023年">
+<title>2023年　日経平均株価（年末の終値） 33,464.17円</title>
+</g>
+<g class="term c-nk" data-id="nk75" data-person="nk:2024年">
+<title>2024年　日経平均株価（年末の終値） 39,894.54円</title>
+</g>
+<g class="term c-nk" data-id="nk76" data-person="nk:2025年">
+<title>2025年　日経平均株価（年末の終値） 50,339.48円</title>
+<circle class="mark f-red" cx="667.4" cy="2098" r="4"/>
+<text class="val" x="660.4" y="2102" text-anchor="end">50,339.48円</text>
+</g>
+<g class="term c-cpi" data-id="cpi0" data-person="cpi:1949年">
+<title>1949年　消費者物価（前年比） 32.0%</title>
+<circle class="mark f-amber" cx="890" cy="109" r="4"/>
+<text class="val" x="883" y="113" text-anchor="end">32.0%</text>
+</g>
+<g class="term c-cpi" data-id="cpi1" data-person="cpi:1950年">
+<title>1950年　消費者物価（前年比） -6.9%</title>
+<circle class="mark f-amber" cx="734.4" cy="135" r="4"/>
+<text class="val" x="741.4" y="139">-6.9%</text>
+</g>
+<g class="term c-cpi" data-id="cpi2" data-person="cpi:1951年">
+<title>1951年　消費者物価（前年比） 16.4%</title>
+</g>
+<g class="term c-cpi" data-id="cpi3" data-person="cpi:1952年">
+<title>1952年　消費者物価（前年比） 5.0%</title>
+</g>
+<g class="term c-cpi" data-id="cpi4" data-person="cpi:1953年">
+<title>1953年　消費者物価（前年比） 6.5%</title>
+</g>
+<g class="term c-cpi" data-id="cpi5" data-person="cpi:1954年">
+<title>1954年　消費者物価（前年比） 6.5%</title>
+</g>
+<g class="term c-cpi" data-id="cpi6" data-person="cpi:1955年">
+<title>1955年　消費者物価（前年比） -1.1%</title>
+</g>
+<g class="term c-cpi" data-id="cpi7" data-person="cpi:1956年">
+<title>1956年　消費者物価（前年比） 0.3%</title>
+</g>
+<g class="term c-cpi" data-id="cpi8" data-person="cpi:1957年">
+<title>1957年　消費者物価（前年比） 3.1%</title>
+</g>
+<g class="term c-cpi" data-id="cpi9" data-person="cpi:1958年">
+<title>1958年　消費者物価（前年比） -0.4%</title>
+</g>
+<g class="term c-cpi" data-id="cpi10" data-person="cpi:1959年">
+<title>1959年　消費者物価（前年比） 1.0%</title>
+</g>
+<g class="term c-cpi" data-id="cpi11" data-person="cpi:1960年">
+<title>1960年　消費者物価（前年比） 3.6%</title>
+</g>
+<g class="term c-cpi" data-id="cpi12" data-person="cpi:1961年">
+<title>1961年　消費者物価（前年比） 5.3%</title>
+</g>
+<g class="term c-cpi" data-id="cpi13" data-person="cpi:1962年">
+<title>1962年　消費者物価（前年比） 6.8%</title>
+</g>
+<g class="term c-cpi" data-id="cpi14" data-person="cpi:1963年">
+<title>1963年　消費者物価（前年比） 7.6%</title>
+</g>
+<g class="term c-cpi" data-id="cpi15" data-person="cpi:1964年">
+<title>1964年　消費者物価（前年比） 3.9%</title>
+</g>
+<g class="term c-cpi" data-id="cpi16" data-person="cpi:1965年">
+<title>1965年　消費者物価（前年比） 6.6%</title>
+</g>
+<g class="term c-cpi" data-id="cpi17" data-person="cpi:1966年">
+<title>1966年　消費者物価（前年比） 5.1%</title>
+</g>
+<g class="term c-cpi" data-id="cpi18" data-person="cpi:1967年">
+<title>1967年　消費者物価（前年比） 4.0%</title>
+</g>
+<g class="term c-cpi" data-id="cpi19" data-person="cpi:1968年">
+<title>1968年　消費者物価（前年比） 5.3%</title>
+</g>
+<g class="term c-cpi" data-id="cpi20" data-person="cpi:1969年">
+<title>1969年　消費者物価（前年比） 5.2%</title>
+</g>
+<g class="term c-cpi" data-id="cpi21" data-person="cpi:1970年">
+<title>1970年　消費者物価（前年比） 7.7%</title>
+</g>
+<g class="term c-cpi" data-id="cpi22" data-person="cpi:1971年">
+<title>1971年　消費者物価（前年比） 6.3%</title>
+</g>
+<g class="term c-cpi" data-id="cpi23" data-person="cpi:1972年">
+<title>1972年　消費者物価（前年比） 4.9%</title>
+</g>
+<g class="term c-cpi" data-id="cpi24" data-person="cpi:1973年">
+<title>1973年　消費者物価（前年比） 11.7%</title>
+</g>
+<g class="term c-cpi" data-id="cpi25" data-person="cpi:1974年">
+<title>1974年　消費者物価（前年比） 23.2%</title>
+<circle class="mark f-amber" cx="854.8" cy="759" r="4"/>
+<text class="val" x="847.8" y="763" text-anchor="end">23.2%</text>
+</g>
+<g class="term c-cpi" data-id="cpi26" data-person="cpi:1975年">
+<title>1975年　消費者物価（前年比） 11.7%</title>
+</g>
+<g class="term c-cpi" data-id="cpi27" data-person="cpi:1976年">
+<title>1976年　消費者物価（前年比） 9.4%</title>
+</g>
+<g class="term c-cpi" data-id="cpi28" data-person="cpi:1977年">
+<title>1977年　消費者物価（前年比） 8.1%</title>
+</g>
+<g class="term c-cpi" data-id="cpi29" data-person="cpi:1978年">
+<title>1978年　消費者物価（前年比） 4.2%</title>
+</g>
+<g class="term c-cpi" data-id="cpi30" data-person="cpi:1979年">
+<title>1979年　消費者物価（前年比） 3.7%</title>
+</g>
+<g class="term c-cpi" data-id="cpi31" data-person="cpi:1980年">
+<title>1980年　消費者物価（前年比） 7.7%</title>
+</g>
+<g class="term c-cpi" data-id="cpi32" data-person="cpi:1981年">
+<title>1981年　消費者物価（前年比） 4.9%</title>
+</g>
+<g class="term c-cpi" data-id="cpi33" data-person="cpi:1982年">
+<title>1982年　消費者物価（前年比） 2.8%</title>
+</g>
+<g class="term c-cpi" data-id="cpi34" data-person="cpi:1983年">
+<title>1983年　消費者物価（前年比） 1.9%</title>
+</g>
+<g class="term c-cpi" data-id="cpi35" data-person="cpi:1984年">
+<title>1984年　消費者物価（前年比） 2.3%</title>
+</g>
+<g class="term c-cpi" data-id="cpi36" data-person="cpi:1985年">
+<title>1985年　消費者物価（前年比） 2.0%</title>
+</g>
+<g class="term c-cpi" data-id="cpi37" data-person="cpi:1986年">
+<title>1986年　消費者物価（前年比） 0.6%</title>
+</g>
+<g class="term c-cpi" data-id="cpi38" data-person="cpi:1987年">
+<title>1987年　消費者物価（前年比） 0.1%</title>
+</g>
+<g class="term c-cpi" data-id="cpi39" data-person="cpi:1988年">
+<title>1988年　消費者物価（前年比） 0.7%</title>
+</g>
+<g class="term c-cpi" data-id="cpi40" data-person="cpi:1989年">
+<title>1989年　消費者物価（前年比） 2.3%</title>
+</g>
+<g class="term c-cpi" data-id="cpi41" data-person="cpi:1990年">
+<title>1990年　消費者物価（前年比） 3.1%</title>
+</g>
+<g class="term c-cpi" data-id="cpi42" data-person="cpi:1991年">
+<title>1991年　消費者物価（前年比） 3.3%</title>
+</g>
+<g class="term c-cpi" data-id="cpi43" data-person="cpi:1992年">
+<title>1992年　消費者物価（前年比） 1.6%</title>
+</g>
+<g class="term c-cpi" data-id="cpi44" data-person="cpi:1993年">
+<title>1993年　消費者物価（前年比） 1.3%</title>
+</g>
+<g class="term c-cpi" data-id="cpi45" data-person="cpi:1994年">
+<title>1994年　消費者物価（前年比） 0.7%</title>
+</g>
+<g class="term c-cpi" data-id="cpi46" data-person="cpi:1995年">
+<title>1995年　消費者物価（前年比） -0.1%</title>
+</g>
+<g class="term c-cpi" data-id="cpi47" data-person="cpi:1996年">
+<title>1996年　消費者物価（前年比） 0.1%</title>
+</g>
+<g class="term c-cpi" data-id="cpi48" data-person="cpi:1997年">
+<title>1997年　消費者物価（前年比） 1.8%</title>
+</g>
+<g class="term c-cpi" data-id="cpi49" data-person="cpi:1998年">
+<title>1998年　消費者物価（前年比） 0.6%</title>
+</g>
+<g class="term c-cpi" data-id="cpi50" data-person="cpi:1999年">
+<title>1999年　消費者物価（前年比） -0.3%</title>
+</g>
+<g class="term c-cpi" data-id="cpi51" data-person="cpi:2000年">
+<title>2000年　消費者物価（前年比） -0.7%</title>
+</g>
+<g class="term c-cpi" data-id="cpi52" data-person="cpi:2001年">
+<title>2001年　消費者物価（前年比） -0.7%</title>
+</g>
+<g class="term c-cpi" data-id="cpi53" data-person="cpi:2002年">
+<title>2002年　消費者物価（前年比） -0.9%</title>
+</g>
+<g class="term c-cpi" data-id="cpi54" data-person="cpi:2003年">
+<title>2003年　消費者物価（前年比） -0.3%</title>
+</g>
+<g class="term c-cpi" data-id="cpi55" data-person="cpi:2004年">
+<title>2004年　消費者物価（前年比） 0.0%</title>
+</g>
+<g class="term c-cpi" data-id="cpi56" data-person="cpi:2005年">
+<title>2005年　消費者物価（前年比） -0.3%</title>
+</g>
+<g class="term c-cpi" data-id="cpi57" data-person="cpi:2006年">
+<title>2006年　消費者物価（前年比） 0.3%</title>
+</g>
+<g class="term c-cpi" data-id="cpi58" data-person="cpi:2007年">
+<title>2007年　消費者物価（前年比） 0.0%</title>
+</g>
+<g class="term c-cpi" data-id="cpi59" data-person="cpi:2008年">
+<title>2008年　消費者物価（前年比） 1.4%</title>
+</g>
+<g class="term c-cpi" data-id="cpi60" data-person="cpi:2009年">
+<title>2009年　消費者物価（前年比） -1.4%</title>
+</g>
+<g class="term c-cpi" data-id="cpi61" data-person="cpi:2010年">
+<title>2010年　消費者物価（前年比） -0.7%</title>
+</g>
+<g class="term c-cpi" data-id="cpi62" data-person="cpi:2011年">
+<title>2011年　消費者物価（前年比） -0.3%</title>
+</g>
+<g class="term c-cpi" data-id="cpi63" data-person="cpi:2012年">
+<title>2012年　消費者物価（前年比） 0.0%</title>
+</g>
+<g class="term c-cpi" data-id="cpi64" data-person="cpi:2013年">
+<title>2013年　消費者物価（前年比） 0.4%</title>
+</g>
+<g class="term c-cpi" data-id="cpi65" data-person="cpi:2014年">
+<title>2014年　消費者物価（前年比） 2.7%</title>
+</g>
+<g class="term c-cpi" data-id="cpi66" data-person="cpi:2015年">
+<title>2015年　消費者物価（前年比） 0.8%</title>
+</g>
+<g class="term c-cpi" data-id="cpi67" data-person="cpi:2016年">
+<title>2016年　消費者物価（前年比） -0.1%</title>
+</g>
+<g class="term c-cpi" data-id="cpi68" data-person="cpi:2017年">
+<title>2017年　消費者物価（前年比） 0.5%</title>
+</g>
+<g class="term c-cpi" data-id="cpi69" data-person="cpi:2018年">
+<title>2018年　消費者物価（前年比） 1.0%</title>
+</g>
+<g class="term c-cpi" data-id="cpi70" data-person="cpi:2019年">
+<title>2019年　消費者物価（前年比） 0.5%</title>
+</g>
+<g class="term c-cpi" data-id="cpi71" data-person="cpi:2020年">
+<title>2020年　消費者物価（前年比） 0.0%</title>
+</g>
+<g class="term c-cpi" data-id="cpi72" data-person="cpi:2021年">
+<title>2021年　消費者物価（前年比） -0.2%</title>
+</g>
+<g class="term c-cpi" data-id="cpi73" data-person="cpi:2022年">
+<title>2022年　消費者物価（前年比） 2.5%</title>
+</g>
+<g class="term c-cpi" data-id="cpi74" data-person="cpi:2023年">
+<title>2023年　消費者物価（前年比） 3.2%</title>
+</g>
+<g class="term c-cpi" data-id="cpi75" data-person="cpi:2024年">
+<title>2024年　消費者物価（前年比） 2.7%</title>
+</g>
+<g class="term c-cpi" data-id="cpi76" data-person="cpi:2025年">
+<title>2025年　消費者物価（前年比） 3.2%</title>
+<circle class="mark f-amber" cx="774.8" cy="2085.1" r="4"/>
+<text class="val" x="781.8" y="2089">3.2%</text>
+</g>
+<line class="axis" x1="941" x2="941" y1="70" y2="2152.2"/>
+<g class="term c-ev" data-id="ev0" data-person="ev:東海道新幹線の開業">
+<title>東海道新幹線の開業　1964年10月1日</title>
+<circle class="dot f-green" cx="941" cy="505.5" r="4"/>
+<text class="label" x="959" y="510.4"><tspan class="name">新幹線開業</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev1" data-person="ev:ニクソン・ショック">
+<title>ニクソン・ショック　1971年8月15日</title>
+<circle class="dot f-green" cx="941" cy="684.1" r="4"/>
+<text class="label" x="959" y="689"><tspan class="name">ニクソン・ショック</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev2" data-person="ev:第1次石油危機">
+<title>第1次石油危機　1973年10月16日</title>
+<circle class="dot f-green" cx="941" cy="740.6" r="4"/>
+<text class="label" x="959" y="745.4"><tspan class="name">石油危機</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev3" data-person="ev:プラザ合意">
+<title>プラザ合意　1985年9月22日</title>
+<circle class="dot f-green" cx="941" cy="1050.9" r="4"/>
+<text class="label" x="959" y="1055.7"><tspan class="name">プラザ合意</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev4" data-person="ev:消費税の導入">
+<title>消費税の導入　1989年4月1日</title>
+<circle class="dot f-green" cx="941" cy="1142.5" r="4"/>
+<text class="label" x="959" y="1147.3"><tspan class="name">消費税導入</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev5" data-person="ev:日経平均株価がバブル期の最高値">
+<title>日経平均株価がバブル期の最高値　1989年12月29日</title>
+<circle class="dot f-green" cx="941" cy="1161.8" r="4"/>
+<text class="label" x="959" y="1166.7"><tspan class="name">日経平均最高値</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev6" data-person="ev:山一證券の自主廃業">
+<title>山一證券の自主廃業　1997年11月24日</title>
+<circle class="dot f-green" cx="941" cy="1367.4" r="4"/>
+<text class="label" x="959" y="1372.2"><tspan class="name">山一證券廃業</tspan></text>
+</g>
+<g class="term c-ev" data-id="ev7" data-person="ev:リーマン・ショック">
+<title>リーマン・ショック　2008年9月15日</title>
+<circle class="dot f-green" cx="941" cy="1648.4" r="4"/>
+<text class="label" x="959" y="1653.3"><tspan class="name">リーマン・ショック</tspan></text>
+</g>
+<text class="foot" x="550" y="2182.2" text-anchor="middle">出典：日本経済新聞社「日経平均プロフィル」ヒストリカルデータ（年次データ）、内閣府「令和7年度 年次経済財政報告」長期経済統計（国際経済の円相場、1955〜2024年）、内閣府「月例経済報告 主要経済指標」2026年10月（金融の円相場、2025年）、総務省統計局「日本の長期統計系列」18-8 外国為替相場（国立国会図書館 WARP の保存版。1950〜1954年の基準相場）、総務省統計局「2025年基準消費者物価指数 長期時系列データ」全国 年平均（e-Stat）、総務省統計局「2025年基準消費者物価指数 長期時系列データ」東京都区部 年平均（e-Stat）　2026年11月7日時点</text>
+</svg>

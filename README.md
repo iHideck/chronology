@@ -28,6 +28,7 @@
 | 日本の歴史 | [偉人の生没年](https://ihideck.github.io/chronology/lifespans/) | 570年〜1989年 | 63 | [lifespans/](lifespans/) |
 | 日本の歴史 | [戦争・大きな出来事（1868年〜）](https://ihideck.github.io/chronology/events/) | 1868年〜現在 | 70 | [events/](events/) |
 | 日本の歴史 | [日本の景気循環](https://ihideck.github.io/chronology/business-cycles/) | 1951年〜現在 | 32 | [business-cycles/](business-cycles/) |
+| 日本の歴史 | [ドル円・日経平均・消費者物価](https://ihideck.github.io/chronology/economy/) | 1949年〜2025年 | 77 | [economy/](economy/) |
 | 日本の歴史 | [日本の人口と出生数](https://ihideck.github.io/chronology/population/) | 1872年〜2025年 | 154 | [population/](population/) |
 | 文化 | [お札の肖像](https://ihideck.github.io/chronology/banknotes/) | 1885年〜現在 | 48 | [banknotes/](banknotes/) |
 | 文化 | [歴代横綱](https://ihideck.github.io/chronology/yokozuna/) | 1790年〜現在 | 72 | [yokozuna/](yokozuna/) |
