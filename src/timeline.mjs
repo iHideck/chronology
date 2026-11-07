@@ -1168,8 +1168,9 @@ export function renderSVG(model, g, opts = {}) {
       } else if (t.share) {
         o.push(shareBarSVG(col, b, t.share, fill));
       } else if (t.point) {
+        // 時点より後の出来事（予定）は、棒の予定の部分と同じく薄くする
         const cy = r1(b.y0);
-        o.push(`<circle class="dot f-${fill}" cx="${r1(x + col.barW / 2)}" cy="${cy}" r="${g.narrow ? 3.5 : 4}"/>`);
+        o.push(`<circle class="dot f-${fill}${t.start > model.asOf ? ' future' : ''}" cx="${r1(x + col.barW / 2)}" cy="${cy}" r="${g.narrow ? 3.5 : 4}"/>`);
       } else {
         const gapTop = 1;
         const gapBottom = t.ongoing ? 0 : 1;

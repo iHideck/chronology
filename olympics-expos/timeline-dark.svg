@@ -1,0 +1,1150 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tl" viewBox="0 0 900 2735" width="900" height="2735" role="img" aria-labelledby="tl-title">
+<title id="tl-title">オリンピックと万博</title>
+<style>
+.tl{--paper:#14171f;--ink:#e6e8ee;--ink2:#b2b8c4;--muted:#8d94a3;--rule:#232833;--rule2:#3d4452;--spine-a:#1b1f29;--spine-b:#222733;--red:#e5604a;--blue:#678bd2;--amber:#c98500;--violet:#9085e9;--green:#199e70;--teal:#1f9fa1;--gray:#6b7280;--font-body:"BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP", sans-serif;--font-display:"Shippori Mincho B1", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "BIZ UDPMincho", "Noto Serif JP", "Noto Serif CJK JP", serif}
+
+.tl .bg{fill:var(--paper)}
+.tl .spine-a{fill:var(--spine-a)}
+.tl .spine-b{fill:var(--spine-b)}
+.tl .grid{stroke:var(--rule);stroke-width:1}
+.tl .era-line{stroke:var(--rule2);stroke-width:1}
+.tl .asof-line{stroke:var(--muted);stroke-width:1}
+.tl .tick{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .axis{stroke:var(--rule2);stroke-width:1}
+.tl text{font-family:var(--font-body)}
+.tl .dec-y{font-size:13px;font-weight:700;fill:var(--ink);font-variant-numeric:tabular-nums}
+.tl .dec-w{font-size:10.5px;fill:var(--muted)}
+.tl .era-name{font-family:var(--font-display);font-size:19px;font-weight:800;fill:var(--ink)}
+.tl .era-date{font-size:10px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .spine-h{font-size:10.5px;font-weight:700;fill:var(--ink2)}
+.tl .spine-h2{font-size:10.5px;fill:var(--muted)}
+.tl .lane-h{font-size:14.5px;font-weight:700;fill:var(--ink)}
+.tl .lane-v{font-size:11px;font-weight:700;fill:var(--ink2)}
+.tl .lane-s{font-size:13px;font-weight:700;fill:var(--ink)}
+.tl .f-red{fill:var(--red)}
+.tl .s-red{stop-color:var(--red)}
+.tl .f-blue{fill:var(--blue)}
+.tl .s-blue{stop-color:var(--blue)}
+.tl .f-amber{fill:var(--amber)}
+.tl .s-amber{stop-color:var(--amber)}
+.tl .f-violet{fill:var(--violet)}
+.tl .s-violet{stop-color:var(--violet)}
+.tl .f-green{fill:var(--green)}
+.tl .s-green{stop-color:var(--green)}
+.tl .f-teal{fill:var(--teal)}
+.tl .s-teal{stop-color:var(--teal)}
+.tl .f-gray{fill:var(--gray)}
+.tl .s-gray{stop-color:var(--gray)}
+.tl .future{opacity:0.4}
+.tl .approx{opacity:0.45}
+.tl .bar-lead{fill:url(#tl-hatch)}
+.tl .bar-hatch{fill:url(#tl-hatch);stroke:var(--rule2);stroke-width:1}
+.tl .hatch-bg{fill:var(--spine-a)}
+.tl .hatch-line{stroke:var(--rule2);stroke-width:1.5}
+.tl .dot{stroke:var(--paper);stroke-width:2}
+.tl .photo-ring{fill:var(--spine-b)}
+.tl .label{font-size:13.5px}
+.tl .name{fill:var(--ink)}
+.tl .lead-name{fill:var(--muted)}
+.tl .yrs{font-size:11px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.tl .inside{font-size:12px;font-weight:700;fill:#fff;letter-spacing:0.04em}
+.tl .inside.on-pale{fill:var(--ink)}
+.tl .leader{stroke:var(--rule2);stroke-width:1;fill:none}
+.tl .hit{fill:transparent}
+.tl .foot{font-size:11px;fill:var(--muted)}
+</style>
+<defs>
+<pattern id="tl-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" class="hatch-bg"/><line x1="0" y1="0" x2="0" y2="6" class="hatch-line"/></pattern>
+<clipPath id="tl-round" clipPathUnits="objectBoundingBox"><circle cx="0.5" cy="0.5" r="0.5"/></clipPath>
+</defs>
+<rect class="bg" x="0" y="0" width="900" height="2735" rx="14"/>
+<rect class="f-gray" x="341" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="326" y="44" text-anchor="end">オリンピック</text>
+<text class="lane-s" x="359" y="40">戦争</text>
+<rect class="f-gray" x="359" y="46" width="38" height="6" rx="2"/>
+<rect class="f-gray" x="503" y="33" width="14" height="14" rx="3"/>
+<text class="lane-h" x="532" y="44">国際博覧会（万博）</text>
+<text class="spine-h" x="450" y="41" text-anchor="middle">西暦</text>
+<text class="spine-h2" x="450" y="54" text-anchor="middle">和暦</text>
+<rect class="spine-a" x="404" y="70" width="92" height="252"/>
+<rect class="spine-b" x="404" y="322" width="92" height="616"/>
+<rect class="spine-a" x="404" y="938" width="92" height="196"/>
+<rect class="spine-b" x="404" y="1134" width="92" height="882"/>
+<rect class="spine-a" x="404" y="2016" width="92" height="420"/>
+<rect class="spine-b" x="404" y="2436" width="92" height="228.8"/>
+<line class="grid" x1="0" x2="900" y1="210" y2="210"/>
+<line class="grid" x1="0" x2="900" y1="490" y2="490"/>
+<line class="grid" x1="0" x2="900" y1="630" y2="630"/>
+<line class="grid" x1="0" x2="900" y1="770" y2="770"/>
+<line class="grid" x1="0" x2="900" y1="910" y2="910"/>
+<line class="grid" x1="0" x2="900" y1="1050" y2="1050"/>
+<line class="grid" x1="0" x2="900" y1="1190" y2="1190"/>
+<line class="grid" x1="0" x2="900" y1="1330" y2="1330"/>
+<line class="grid" x1="0" x2="900" y1="1470" y2="1470"/>
+<line class="grid" x1="0" x2="900" y1="1610" y2="1610"/>
+<line class="grid" x1="0" x2="900" y1="1750" y2="1750"/>
+<line class="grid" x1="0" x2="900" y1="1890" y2="1890"/>
+<line class="grid" x1="0" x2="900" y1="2170" y2="2170"/>
+<line class="grid" x1="0" x2="900" y1="2310" y2="2310"/>
+<line class="grid" x1="0" x2="900" y1="2590" y2="2590"/>
+<line class="era-line" x1="0" x2="900" y1="322" y2="322"/>
+<line class="era-line" x1="0" x2="900" y1="938" y2="938"/>
+<line class="era-line" x1="0" x2="900" y1="1134" y2="1134"/>
+<line class="era-line" x1="0" x2="900" y1="2016" y2="2016"/>
+<line class="era-line" x1="0" x2="900" y1="2436" y2="2436"/>
+<path class="tick" d="M404 70h9M496 70h-9"/>
+<path class="tick" d="M404 84h3M496 84h-3"/>
+<path class="tick" d="M404 98h3M496 98h-3"/>
+<path class="tick" d="M404 112h3M496 112h-3"/>
+<path class="tick" d="M404 126h3M496 126h-3"/>
+<path class="tick" d="M404 140h6M496 140h-6"/>
+<path class="tick" d="M404 154h3M496 154h-3"/>
+<path class="tick" d="M404 168h3M496 168h-3"/>
+<path class="tick" d="M404 182h3M496 182h-3"/>
+<path class="tick" d="M404 196h3M496 196h-3"/>
+<path class="tick" d="M404 210h9M496 210h-9"/>
+<path class="tick" d="M404 224h3M496 224h-3"/>
+<path class="tick" d="M404 238h3M496 238h-3"/>
+<path class="tick" d="M404 252h3M496 252h-3"/>
+<path class="tick" d="M404 266h3M496 266h-3"/>
+<path class="tick" d="M404 280h6M496 280h-6"/>
+<path class="tick" d="M404 294h3M496 294h-3"/>
+<path class="tick" d="M404 308h3M496 308h-3"/>
+<path class="tick" d="M404 322h3M496 322h-3"/>
+<path class="tick" d="M404 336h3M496 336h-3"/>
+<path class="tick" d="M404 350h9M496 350h-9"/>
+<path class="tick" d="M404 364h3M496 364h-3"/>
+<path class="tick" d="M404 378h3M496 378h-3"/>
+<path class="tick" d="M404 392h3M496 392h-3"/>
+<path class="tick" d="M404 406h3M496 406h-3"/>
+<path class="tick" d="M404 420h6M496 420h-6"/>
+<path class="tick" d="M404 434h3M496 434h-3"/>
+<path class="tick" d="M404 448h3M496 448h-3"/>
+<path class="tick" d="M404 462h3M496 462h-3"/>
+<path class="tick" d="M404 476h3M496 476h-3"/>
+<path class="tick" d="M404 490h9M496 490h-9"/>
+<path class="tick" d="M404 504h3M496 504h-3"/>
+<path class="tick" d="M404 518h3M496 518h-3"/>
+<path class="tick" d="M404 532h3M496 532h-3"/>
+<path class="tick" d="M404 546h3M496 546h-3"/>
+<path class="tick" d="M404 560h6M496 560h-6"/>
+<path class="tick" d="M404 574h3M496 574h-3"/>
+<path class="tick" d="M404 588h3M496 588h-3"/>
+<path class="tick" d="M404 602h3M496 602h-3"/>
+<path class="tick" d="M404 616h3M496 616h-3"/>
+<path class="tick" d="M404 630h9M496 630h-9"/>
+<path class="tick" d="M404 644h3M496 644h-3"/>
+<path class="tick" d="M404 658h3M496 658h-3"/>
+<path class="tick" d="M404 672h3M496 672h-3"/>
+<path class="tick" d="M404 686h3M496 686h-3"/>
+<path class="tick" d="M404 700h6M496 700h-6"/>
+<path class="tick" d="M404 714h3M496 714h-3"/>
+<path class="tick" d="M404 728h3M496 728h-3"/>
+<path class="tick" d="M404 742h3M496 742h-3"/>
+<path class="tick" d="M404 756h3M496 756h-3"/>
+<path class="tick" d="M404 770h9M496 770h-9"/>
+<path class="tick" d="M404 784h3M496 784h-3"/>
+<path class="tick" d="M404 798h3M496 798h-3"/>
+<path class="tick" d="M404 812h3M496 812h-3"/>
+<path class="tick" d="M404 826h3M496 826h-3"/>
+<path class="tick" d="M404 840h6M496 840h-6"/>
+<path class="tick" d="M404 854h3M496 854h-3"/>
+<path class="tick" d="M404 868h3M496 868h-3"/>
+<path class="tick" d="M404 882h3M496 882h-3"/>
+<path class="tick" d="M404 896h3M496 896h-3"/>
+<path class="tick" d="M404 910h9M496 910h-9"/>
+<path class="tick" d="M404 924h3M496 924h-3"/>
+<path class="tick" d="M404 938h3M496 938h-3"/>
+<path class="tick" d="M404 952h3M496 952h-3"/>
+<path class="tick" d="M404 966h3M496 966h-3"/>
+<path class="tick" d="M404 980h6M496 980h-6"/>
+<path class="tick" d="M404 994h3M496 994h-3"/>
+<path class="tick" d="M404 1008h3M496 1008h-3"/>
+<path class="tick" d="M404 1022h3M496 1022h-3"/>
+<path class="tick" d="M404 1036h3M496 1036h-3"/>
+<path class="tick" d="M404 1050h9M496 1050h-9"/>
+<path class="tick" d="M404 1064h3M496 1064h-3"/>
+<path class="tick" d="M404 1078h3M496 1078h-3"/>
+<path class="tick" d="M404 1092h3M496 1092h-3"/>
+<path class="tick" d="M404 1106h3M496 1106h-3"/>
+<path class="tick" d="M404 1120h6M496 1120h-6"/>
+<path class="tick" d="M404 1134h3M496 1134h-3"/>
+<path class="tick" d="M404 1148h3M496 1148h-3"/>
+<path class="tick" d="M404 1162h3M496 1162h-3"/>
+<path class="tick" d="M404 1176h3M496 1176h-3"/>
+<path class="tick" d="M404 1190h9M496 1190h-9"/>
+<path class="tick" d="M404 1204h3M496 1204h-3"/>
+<path class="tick" d="M404 1218h3M496 1218h-3"/>
+<path class="tick" d="M404 1232h3M496 1232h-3"/>
+<path class="tick" d="M404 1246h3M496 1246h-3"/>
+<path class="tick" d="M404 1260h6M496 1260h-6"/>
+<path class="tick" d="M404 1274h3M496 1274h-3"/>
+<path class="tick" d="M404 1288h3M496 1288h-3"/>
+<path class="tick" d="M404 1302h3M496 1302h-3"/>
+<path class="tick" d="M404 1316h3M496 1316h-3"/>
+<path class="tick" d="M404 1330h9M496 1330h-9"/>
+<path class="tick" d="M404 1344h3M496 1344h-3"/>
+<path class="tick" d="M404 1358h3M496 1358h-3"/>
+<path class="tick" d="M404 1372h3M496 1372h-3"/>
+<path class="tick" d="M404 1386h3M496 1386h-3"/>
+<path class="tick" d="M404 1400h6M496 1400h-6"/>
+<path class="tick" d="M404 1414h3M496 1414h-3"/>
+<path class="tick" d="M404 1428h3M496 1428h-3"/>
+<path class="tick" d="M404 1442h3M496 1442h-3"/>
+<path class="tick" d="M404 1456h3M496 1456h-3"/>
+<path class="tick" d="M404 1470h9M496 1470h-9"/>
+<path class="tick" d="M404 1484h3M496 1484h-3"/>
+<path class="tick" d="M404 1498h3M496 1498h-3"/>
+<path class="tick" d="M404 1512h3M496 1512h-3"/>
+<path class="tick" d="M404 1526h3M496 1526h-3"/>
+<path class="tick" d="M404 1540h6M496 1540h-6"/>
+<path class="tick" d="M404 1554h3M496 1554h-3"/>
+<path class="tick" d="M404 1568h3M496 1568h-3"/>
+<path class="tick" d="M404 1582h3M496 1582h-3"/>
+<path class="tick" d="M404 1596h3M496 1596h-3"/>
+<path class="tick" d="M404 1610h9M496 1610h-9"/>
+<path class="tick" d="M404 1624h3M496 1624h-3"/>
+<path class="tick" d="M404 1638h3M496 1638h-3"/>
+<path class="tick" d="M404 1652h3M496 1652h-3"/>
+<path class="tick" d="M404 1666h3M496 1666h-3"/>
+<path class="tick" d="M404 1680h6M496 1680h-6"/>
+<path class="tick" d="M404 1694h3M496 1694h-3"/>
+<path class="tick" d="M404 1708h3M496 1708h-3"/>
+<path class="tick" d="M404 1722h3M496 1722h-3"/>
+<path class="tick" d="M404 1736h3M496 1736h-3"/>
+<path class="tick" d="M404 1750h9M496 1750h-9"/>
+<path class="tick" d="M404 1764h3M496 1764h-3"/>
+<path class="tick" d="M404 1778h3M496 1778h-3"/>
+<path class="tick" d="M404 1792h3M496 1792h-3"/>
+<path class="tick" d="M404 1806h3M496 1806h-3"/>
+<path class="tick" d="M404 1820h6M496 1820h-6"/>
+<path class="tick" d="M404 1834h3M496 1834h-3"/>
+<path class="tick" d="M404 1848h3M496 1848h-3"/>
+<path class="tick" d="M404 1862h3M496 1862h-3"/>
+<path class="tick" d="M404 1876h3M496 1876h-3"/>
+<path class="tick" d="M404 1890h9M496 1890h-9"/>
+<path class="tick" d="M404 1904h3M496 1904h-3"/>
+<path class="tick" d="M404 1918h3M496 1918h-3"/>
+<path class="tick" d="M404 1932h3M496 1932h-3"/>
+<path class="tick" d="M404 1946h3M496 1946h-3"/>
+<path class="tick" d="M404 1960h6M496 1960h-6"/>
+<path class="tick" d="M404 1974h3M496 1974h-3"/>
+<path class="tick" d="M404 1988h3M496 1988h-3"/>
+<path class="tick" d="M404 2002h3M496 2002h-3"/>
+<path class="tick" d="M404 2016h3M496 2016h-3"/>
+<path class="tick" d="M404 2030h9M496 2030h-9"/>
+<path class="tick" d="M404 2044h3M496 2044h-3"/>
+<path class="tick" d="M404 2058h3M496 2058h-3"/>
+<path class="tick" d="M404 2072h3M496 2072h-3"/>
+<path class="tick" d="M404 2086h3M496 2086h-3"/>
+<path class="tick" d="M404 2100h6M496 2100h-6"/>
+<path class="tick" d="M404 2114h3M496 2114h-3"/>
+<path class="tick" d="M404 2128h3M496 2128h-3"/>
+<path class="tick" d="M404 2142h3M496 2142h-3"/>
+<path class="tick" d="M404 2156h3M496 2156h-3"/>
+<path class="tick" d="M404 2170h9M496 2170h-9"/>
+<path class="tick" d="M404 2184h3M496 2184h-3"/>
+<path class="tick" d="M404 2198h3M496 2198h-3"/>
+<path class="tick" d="M404 2212h3M496 2212h-3"/>
+<path class="tick" d="M404 2226h3M496 2226h-3"/>
+<path class="tick" d="M404 2240h6M496 2240h-6"/>
+<path class="tick" d="M404 2254h3M496 2254h-3"/>
+<path class="tick" d="M404 2268h3M496 2268h-3"/>
+<path class="tick" d="M404 2282h3M496 2282h-3"/>
+<path class="tick" d="M404 2296h3M496 2296h-3"/>
+<path class="tick" d="M404 2310h9M496 2310h-9"/>
+<path class="tick" d="M404 2324h3M496 2324h-3"/>
+<path class="tick" d="M404 2338h3M496 2338h-3"/>
+<path class="tick" d="M404 2352h3M496 2352h-3"/>
+<path class="tick" d="M404 2366h3M496 2366h-3"/>
+<path class="tick" d="M404 2380h6M496 2380h-6"/>
+<path class="tick" d="M404 2394h3M496 2394h-3"/>
+<path class="tick" d="M404 2408h3M496 2408h-3"/>
+<path class="tick" d="M404 2422h3M496 2422h-3"/>
+<path class="tick" d="M404 2436h3M496 2436h-3"/>
+<path class="tick" d="M404 2450h9M496 2450h-9"/>
+<path class="tick" d="M404 2464h3M496 2464h-3"/>
+<path class="tick" d="M404 2478h3M496 2478h-3"/>
+<path class="tick" d="M404 2492h3M496 2492h-3"/>
+<path class="tick" d="M404 2506h3M496 2506h-3"/>
+<path class="tick" d="M404 2520h6M496 2520h-6"/>
+<path class="tick" d="M404 2534h3M496 2534h-3"/>
+<path class="tick" d="M404 2548h3M496 2548h-3"/>
+<path class="tick" d="M404 2562h3M496 2562h-3"/>
+<path class="tick" d="M404 2576h3M496 2576h-3"/>
+<path class="tick" d="M404 2590h9M496 2590h-9"/>
+<path class="tick" d="M404 2604h3M496 2604h-3"/>
+<path class="tick" d="M404 2618h3M496 2618h-3"/>
+<path class="tick" d="M404 2632h3M496 2632h-3"/>
+<path class="tick" d="M404 2646h3M496 2646h-3"/>
+<path class="tick" d="M404 2660h6M496 2660h-6"/>
+<text class="dec-y" x="450" y="214.5" text-anchor="middle">1860</text>
+<text class="dec-w" x="450" y="228" text-anchor="middle">安政6年</text>
+<text class="dec-y" x="450" y="494.5" text-anchor="middle">1880</text>
+<text class="dec-w" x="450" y="508" text-anchor="middle">明治13年</text>
+<text class="dec-y" x="450" y="634.5" text-anchor="middle">1890</text>
+<text class="dec-w" x="450" y="648" text-anchor="middle">明治23年</text>
+<text class="dec-y" x="450" y="774.5" text-anchor="middle">1900</text>
+<text class="dec-w" x="450" y="788" text-anchor="middle">明治33年</text>
+<text class="dec-y" x="450" y="914.5" text-anchor="middle">1910</text>
+<text class="dec-w" x="450" y="928" text-anchor="middle">明治43年</text>
+<text class="dec-y" x="450" y="1054.5" text-anchor="middle">1920</text>
+<text class="dec-w" x="450" y="1068" text-anchor="middle">大正9年</text>
+<text class="dec-y" x="450" y="1194.5" text-anchor="middle">1930</text>
+<text class="dec-w" x="450" y="1208" text-anchor="middle">昭和5年</text>
+<text class="dec-y" x="450" y="1334.5" text-anchor="middle">1940</text>
+<text class="dec-w" x="450" y="1348" text-anchor="middle">昭和15年</text>
+<text class="dec-y" x="450" y="1474.5" text-anchor="middle">1950</text>
+<text class="dec-w" x="450" y="1488" text-anchor="middle">昭和25年</text>
+<text class="dec-y" x="450" y="1614.5" text-anchor="middle">1960</text>
+<text class="dec-w" x="450" y="1628" text-anchor="middle">昭和35年</text>
+<text class="dec-y" x="450" y="1754.5" text-anchor="middle">1970</text>
+<text class="dec-w" x="450" y="1768" text-anchor="middle">昭和45年</text>
+<text class="dec-y" x="450" y="1894.5" text-anchor="middle">1980</text>
+<text class="dec-w" x="450" y="1908" text-anchor="middle">昭和55年</text>
+<text class="dec-y" x="450" y="2174.5" text-anchor="middle">2000</text>
+<text class="dec-w" x="450" y="2188" text-anchor="middle">平成12年</text>
+<text class="dec-y" x="450" y="2314.5" text-anchor="middle">2010</text>
+<text class="dec-w" x="450" y="2328" text-anchor="middle">平成22年</text>
+<text class="dec-y" x="450" y="2594.5" text-anchor="middle">2030</text>
+<text class="dec-w" x="450" y="2608" text-anchor="middle">令和12年</text>
+<text class="era-name" x="450" y="93" text-anchor="middle">江戸時代</text>
+<text class="era-date" x="450" y="107" text-anchor="middle">1603</text>
+<text class="era-name" x="450" y="345" text-anchor="middle">明治時代</text>
+<text class="era-date" x="450" y="359" text-anchor="middle">1868</text>
+<text class="era-name" x="450" y="961" text-anchor="middle">大正時代</text>
+<text class="era-date" x="450" y="975" text-anchor="middle">1912</text>
+<text class="era-name" x="450" y="1157" text-anchor="middle">昭和時代</text>
+<text class="era-date" x="450" y="1171" text-anchor="middle">1926</text>
+<text class="era-name" x="450" y="2039" text-anchor="middle">平成時代</text>
+<text class="era-date" x="450" y="2053" text-anchor="middle">1989</text>
+<text class="era-name" x="450" y="2459" text-anchor="middle">令和時代</text>
+<text class="era-date" x="450" y="2473" text-anchor="middle">2019</text>
+<line class="asof-line" x1="337" x2="521" y1="2545.9" y2="2545.9"/>
+<text class="era-date" x="450" y="2559.9" text-anchor="middle">2026.11.7</text>
+<text class="era-date" x="450" y="2572.9" text-anchor="middle">時点</text>
+<line class="axis" x1="348" x2="348" y1="70" y2="2664.8"/>
+<g class="term c-oly" data-id="oly0" data-person="oly:第1回オリンピック競技大会（アテネ）">
+<title>第1回オリンピック競技大会（アテネ）　1896年4月6日</title>
+<circle class="dot f-red" cx="348" cy="717.7" r="4"/>
+<text class="label" x="326" y="722.5" text-anchor="end"><tspan class="yrs">1896</tspan><tspan class="name" dx="6">アテネ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly1" data-person="oly:第2回オリンピック競技大会（パリ）">
+<title>第2回オリンピック競技大会（パリ）　1900年5月14日</title>
+<circle class="dot f-red" cx="348" cy="775.1" r="4"/>
+<text class="label" x="326" y="780" text-anchor="end"><tspan class="yrs">1900</tspan><tspan class="name" dx="6">パリ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly2" data-person="oly:第3回オリンピック競技大会（セントルイス）">
+<title>第3回オリンピック競技大会（セントルイス）　1904年7月1日</title>
+<circle class="dot f-red" cx="348" cy="832.9" r="4"/>
+<text class="label" x="326" y="837.8" text-anchor="end"><tspan class="yrs">1904</tspan><tspan class="name" dx="6">セントルイス</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly3" data-person="oly:第4回オリンピック競技大会（ロンドン）">
+<title>第4回オリンピック競技大会（ロンドン）　1908年4月27日</title>
+<circle class="dot f-red" cx="348" cy="886.4" r="4"/>
+<text class="label" x="326" y="891.3" text-anchor="end"><tspan class="yrs">1908</tspan><tspan class="name" dx="6">ロンドン</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly4" data-person="oly:第5回オリンピック競技大会（ストックホルム）">
+<title>第5回オリンピック競技大会（ストックホルム）　1912年7月6日</title>
+<circle class="dot f-red" cx="348" cy="945.1" r="4"/>
+<text class="label" x="326" y="950" text-anchor="end"><tspan class="yrs">1912</tspan><tspan class="name" dx="6">ストックホルム</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly5" data-person="oly:第6回オリンピック競技大会（ベルリン）">
+<title>第6回オリンピック競技大会（ベルリン）　1916年</title>
+<circle class="dot f-red" cx="348" cy="994" r="4"/>
+<text class="label" x="326" y="998.8" text-anchor="end"><tspan class="yrs">1916</tspan><tspan class="name" dx="6">ベルリン（中止）</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly6" data-person="oly:第7回オリンピック競技大会（アントワープ）">
+<title>第7回オリンピック競技大会（アントワープ）　1920年8月14日</title>
+<circle class="dot f-red" cx="348" cy="1058.6" r="4"/>
+<text class="label" x="326" y="1063.5" text-anchor="end"><tspan class="yrs">1920</tspan><tspan class="name" dx="6">アントワープ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly7" data-person="oly:第1回オリンピック冬季競技大会（シャモニー・モンブラン）">
+<title>第1回オリンピック冬季競技大会（シャモニー・モンブラン）　1924年1月25日</title>
+<circle class="dot f-blue" cx="348" cy="1106.9" r="4"/>
+<path class="leader" d="M339.5 1106.9h-4L330 1101.5h-2"/>
+<text class="label" x="326" y="1106.3" text-anchor="end"><tspan class="yrs">1924</tspan><tspan class="name" dx="6">シャモニー・モンブラン</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly8" data-person="oly:第8回オリンピック競技大会（パリ）">
+<title>第8回オリンピック競技大会（パリ）　1924年7月5日</title>
+<circle class="dot f-red" cx="348" cy="1113.1" r="4"/>
+<path class="leader" d="M339.5 1113.1h-4L330 1118.5h-2"/>
+<text class="label" x="326" y="1123.3" text-anchor="end"><tspan class="yrs">1924</tspan><tspan class="name" dx="6">パリ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly9" data-person="oly:第2回オリンピック冬季競技大会（サン・モリッツ）">
+<title>第2回オリンピック冬季競技大会（サン・モリッツ）　1928年2月11日</title>
+<circle class="dot f-blue" cx="348" cy="1163.5" r="4"/>
+<path class="leader" d="M339.5 1163.5h-4L330 1158.3h-2"/>
+<text class="label" x="326" y="1163.1" text-anchor="end"><tspan class="yrs">1928</tspan><tspan class="name" dx="6">サン・モリッツ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly10" data-person="oly:第9回オリンピック競技大会（アムステルダム）">
+<title>第9回オリンピック競技大会（アムステルダム）　1928年7月28日</title>
+<circle class="dot f-red" cx="348" cy="1170" r="4"/>
+<path class="leader" d="M339.5 1170h-4L330 1175.3h-2"/>
+<text class="label" x="326" y="1180.1" text-anchor="end"><tspan class="yrs">1928</tspan><tspan class="name" dx="6">アムステルダム</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly11" data-person="oly:第3回オリンピック冬季競技大会（レークプラシッド）">
+<title>第3回オリンピック冬季競技大会（レークプラシッド）　1932年2月4日</title>
+<circle class="dot f-blue" cx="348" cy="1219.3" r="4"/>
+<path class="leader" d="M339.5 1219.3h-4L330 1214.2h-2"/>
+<text class="label" x="326" y="1219" text-anchor="end"><tspan class="yrs">1932</tspan><tspan class="name" dx="6">レークプラシッド</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly12" data-person="oly:第10回オリンピック競技大会（ロサンゼルス）">
+<title>第10回オリンピック競技大会（ロサンゼルス）　1932年7月30日</title>
+<circle class="dot f-red" cx="348" cy="1226.1" r="4"/>
+<path class="leader" d="M339.5 1226.1h-4L330 1231.2h-2"/>
+<text class="label" x="326" y="1236" text-anchor="end"><tspan class="yrs">1932</tspan><tspan class="name" dx="6">ロサンゼルス</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly13" data-person="oly:第4回オリンピック冬季競技大会（ガルミッシュ・パルテンキルヘン）">
+<title>第4回オリンピック冬季競技大会（ガルミッシュ・パルテンキルヘン）　1936年2月6日</title>
+<circle class="dot f-blue" cx="348" cy="1275.3" r="4"/>
+<path class="leader" d="M339.5 1275.3h-4L330 1270.2h-2"/>
+<text class="label" x="326" y="1275.1" text-anchor="end"><tspan class="yrs">1936</tspan><tspan class="name" dx="6">ガルミッシュ・パルテンキルヘン</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly14" data-person="oly:第11回オリンピック競技大会（ベルリン）">
+<title>第11回オリンピック競技大会（ベルリン）　1936年8月1日</title>
+<circle class="dot f-red" cx="348" cy="1282.1" r="4"/>
+<path class="leader" d="M339.5 1282.1h-4L330 1287.2h-2"/>
+<text class="label" x="326" y="1292.1" text-anchor="end"><tspan class="yrs">1936</tspan><tspan class="name" dx="6">ベルリン</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly15" data-person="oly:1940年札幌オリンピック">
+<title>1940年札幌オリンピック　1940年2月3日</title>
+<circle class="dot f-blue" cx="348" cy="1331.2" r="4"/>
+<path class="leader" d="M339.5 1331.2h-4L330 1327.2h-2"/>
+<text class="label" x="326" y="1332" text-anchor="end"><tspan class="yrs">1940</tspan><tspan class="name" dx="6">札幌（中止）</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly16" data-person="oly:第12回オリンピック競技大会（東京）">
+<title>第12回オリンピック競技大会（東京）　1940年9月21日</title>
+<circle class="dot f-red" cx="348" cy="1340.1" r="4"/>
+<path class="leader" d="M339.5 1340.1h-4L330 1344.2h-2"/>
+<text class="label" x="326" y="1349" text-anchor="end"><tspan class="yrs">1940</tspan><tspan class="name" dx="6">東京（中止）</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly17" data-person="oly:1944年コルチナ・ダンペッツオオリンピック">
+<title>1944年コルチナ・ダンペッツオオリンピック　1944年</title>
+<circle class="dot f-blue" cx="348" cy="1386" r="4"/>
+<path class="leader" d="M339.5 1386h-4L330 1377.5h-2"/>
+<text class="label" x="326" y="1382.3" text-anchor="end"><tspan class="yrs">1944</tspan><tspan class="name" dx="6">コルチナ・ダンペッツオ（中止）</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly18" data-person="oly:第13回オリンピック競技大会（ロンドン）">
+<title>第13回オリンピック競技大会（ロンドン）　1944年</title>
+<circle class="dot f-red" cx="348" cy="1386" r="4"/>
+<path class="leader" d="M339.5 1386h-4L330 1394.5h-2"/>
+<text class="label" x="326" y="1399.3" text-anchor="end"><tspan class="yrs">1944</tspan><tspan class="name" dx="6">ロンドン（中止）</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly19" data-person="oly:第5回オリンピック冬季競技大会（サン・モリッツ）">
+<title>第5回オリンピック冬季競技大会（サン・モリッツ）　1948年1月30日</title>
+<circle class="dot f-blue" cx="348" cy="1443.1" r="4"/>
+<path class="leader" d="M339.5 1443.1h-4L330 1438.1h-2"/>
+<text class="label" x="326" y="1442.9" text-anchor="end"><tspan class="yrs">1948</tspan><tspan class="name" dx="6">サン・モリッツ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly20" data-person="oly:第14回オリンピック競技大会（ロンドン）">
+<title>第14回オリンピック競技大会（ロンドン）　1948年7月29日</title>
+<circle class="dot f-red" cx="348" cy="1450" r="4"/>
+<path class="leader" d="M339.5 1450h-4L330 1455.1h-2"/>
+<text class="label" x="326" y="1459.9" text-anchor="end"><tspan class="yrs">1948</tspan><tspan class="name" dx="6">ロンドン</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly21" data-person="oly:第6回オリンピック冬季競技大会（オスロ）">
+<title>第6回オリンピック冬季競技大会（オスロ）　1952年2月14日</title>
+<circle class="dot f-blue" cx="348" cy="1499.7" r="4"/>
+<path class="leader" d="M339.5 1499.7h-4L330 1494.1h-2"/>
+<text class="label" x="326" y="1499" text-anchor="end"><tspan class="yrs">1952</tspan><tspan class="name" dx="6">オスロ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly22" data-person="oly:第15回オリンピック競技大会（ヘルシンキ）">
+<title>第15回オリンピック競技大会（ヘルシンキ）　1952年7月19日</title>
+<circle class="dot f-red" cx="348" cy="1505.6" r="4"/>
+<path class="leader" d="M339.5 1505.6h-4L330 1511.1h-2"/>
+<text class="label" x="326" y="1516" text-anchor="end"><tspan class="yrs">1952</tspan><tspan class="name" dx="6">ヘルシンキ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly23" data-person="oly:第7回オリンピック冬季競技大会（コルチナ・ダンペッツオ）">
+<title>第7回オリンピック冬季競技大会（コルチナ・ダンペッツオ）　1956年1月26日</title>
+<circle class="dot f-blue" cx="348" cy="1554.9" r="4"/>
+<path class="leader" d="M339.5 1554.9h-4L330 1552.2h-2"/>
+<text class="label" x="326" y="1557.1" text-anchor="end"><tspan class="yrs">1956</tspan><tspan class="name" dx="6">コルチナ・ダンペッツオ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly24" data-person="oly:第16回オリンピック競技大会（メルボルン）">
+<title>第16回オリンピック競技大会（メルボルン）　1956年11月22日</title>
+<circle class="dot f-red" cx="348" cy="1566.5" r="4"/>
+<path class="leader" d="M339.5 1566.5h-4L330 1569.2h-2"/>
+<text class="label" x="326" y="1574.1" text-anchor="end"><tspan class="yrs">1956</tspan><tspan class="name" dx="6">メルボルン</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly25" data-person="oly:第8回オリンピック冬季競技大会（スコーバレー）">
+<title>第8回オリンピック冬季競技大会（スコーバレー）　1960年2月18日</title>
+<circle class="dot f-blue" cx="348" cy="1611.8" r="4"/>
+<path class="leader" d="M339.5 1611.8h-4L330 1606.9h-2"/>
+<text class="label" x="326" y="1611.8" text-anchor="end"><tspan class="yrs">1960</tspan><tspan class="name" dx="6">スコーバレー</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly26" data-person="oly:第17回オリンピック競技大会（ローマ）">
+<title>第17回オリンピック競技大会（ローマ）　1960年8月25日</title>
+<circle class="dot f-red" cx="348" cy="1619.1" r="4"/>
+<path class="leader" d="M339.5 1619.1h-4L330 1623.9h-2"/>
+<text class="label" x="326" y="1628.8" text-anchor="end"><tspan class="yrs">1960</tspan><tspan class="name" dx="6">ローマ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly27" data-person="oly:第9回オリンピック冬季競技大会（インスブルック）">
+<title>第9回オリンピック冬季競技大会（インスブルック）　1964年1月29日</title>
+<circle class="dot f-blue" cx="348" cy="1667" r="4"/>
+<path class="leader" d="M339.5 1667h-4L330 1663.4h-2"/>
+<text class="label" x="326" y="1668.3" text-anchor="end"><tspan class="yrs">1964</tspan><tspan class="name" dx="6">インスブルック</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly28" data-person="oly:第18回オリンピック競技大会（東京）">
+<title>第18回オリンピック競技大会（東京）　1964年10月10日</title>
+<circle class="dot f-red" cx="348" cy="1676.8" r="4"/>
+<path class="leader" d="M339.5 1676.8h-4L330 1680.4h-2"/>
+<text class="label" x="326" y="1685.3" text-anchor="end"><tspan class="yrs">1964</tspan><tspan class="name" dx="6">東京</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly29" data-person="oly:第10回オリンピック冬季競技大会（グルノーブル）">
+<title>第10回オリンピック冬季競技大会（グルノーブル）　1968年2月6日</title>
+<circle class="dot f-blue" cx="348" cy="1723.4" r="4"/>
+<path class="leader" d="M339.5 1723.4h-4L330 1719.6h-2"/>
+<text class="label" x="326" y="1724.5" text-anchor="end"><tspan class="yrs">1968</tspan><tspan class="name" dx="6">グルノーブル</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly30" data-person="oly:第19回オリンピック競技大会（メキシコシティー）">
+<title>第19回オリンピック競技大会（メキシコシティー）　1968年10月12日</title>
+<circle class="dot f-red" cx="348" cy="1732.9" r="4"/>
+<path class="leader" d="M339.5 1732.9h-4L330 1736.6h-2"/>
+<text class="label" x="326" y="1741.5" text-anchor="end"><tspan class="yrs">1968</tspan><tspan class="name" dx="6">メキシコシティー</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly31" data-person="oly:第11回オリンピック冬季競技大会（札幌）">
+<title>第11回オリンピック冬季競技大会（札幌）　1972年2月3日</title>
+<circle class="dot f-blue" cx="348" cy="1779.2" r="4"/>
+<path class="leader" d="M339.5 1779.2h-4L330 1774.7h-2"/>
+<text class="label" x="326" y="1779.5" text-anchor="end"><tspan class="yrs">1972</tspan><tspan class="name" dx="6">札幌</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly32" data-person="oly:第20回オリンピック競技大会（ミュンヘン）">
+<title>第20回オリンピック競技大会（ミュンヘン）　1972年8月26日</title>
+<circle class="dot f-red" cx="348" cy="1787.1" r="4"/>
+<path class="leader" d="M339.5 1787.1h-4L330 1791.7h-2"/>
+<text class="label" x="326" y="1796.5" text-anchor="end"><tspan class="yrs">1972</tspan><tspan class="name" dx="6">ミュンヘン</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly33" data-person="oly:第12回オリンピック冬季競技大会（インスブルック）">
+<title>第12回オリンピック冬季競技大会（インスブルック）　1976年2月4日</title>
+<circle class="dot f-blue" cx="348" cy="1835.3" r="4"/>
+<path class="leader" d="M339.5 1835.3h-4L330 1829.9h-2"/>
+<text class="label" x="326" y="1834.8" text-anchor="end"><tspan class="yrs">1976</tspan><tspan class="name" dx="6">インスブルック</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly34" data-person="oly:第21回オリンピック競技大会（モントリオール）">
+<title>第21回オリンピック競技大会（モントリオール）　1976年7月17日</title>
+<circle class="dot f-red" cx="348" cy="1841.6" r="4"/>
+<path class="leader" d="M339.5 1841.6h-4L330 1846.9h-2"/>
+<text class="label" x="326" y="1851.8" text-anchor="end"><tspan class="yrs">1976</tspan><tspan class="name" dx="6">モントリオール</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly35" data-person="oly:第13回オリンピック冬季競技大会（レークプラシッド）">
+<title>第13回オリンピック冬季競技大会（レークプラシッド）　1980年2月13日</title>
+<circle class="dot f-blue" cx="348" cy="1891.6" r="4"/>
+<path class="leader" d="M339.5 1891.6h-4L330 1886.1h-2"/>
+<text class="label" x="326" y="1891" text-anchor="end"><tspan class="yrs">1980</tspan><tspan class="name" dx="6">レークプラシッド</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly36" data-person="oly:第22回オリンピック競技大会（モスクワ）">
+<title>第22回オリンピック競技大会（モスクワ）　1980年7月19日</title>
+<circle class="dot f-red" cx="348" cy="1897.6" r="4"/>
+<path class="leader" d="M339.5 1897.6h-4L330 1903.1h-2"/>
+<text class="label" x="326" y="1908" text-anchor="end"><tspan class="yrs">1980</tspan><tspan class="name" dx="6">モスクワ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly37" data-person="oly:第14回オリンピック冬季競技大会（サラエボ）">
+<title>第14回オリンピック冬季競技大会（サラエボ）　1984年2月8日</title>
+<circle class="dot f-blue" cx="348" cy="1947.4" r="4"/>
+<path class="leader" d="M339.5 1947.4h-4L330 1942.2h-2"/>
+<text class="label" x="326" y="1947.1" text-anchor="end"><tspan class="yrs">1984</tspan><tspan class="name" dx="6">サラエボ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly38" data-person="oly:第23回オリンピック競技大会（ロサンゼルス）">
+<title>第23回オリンピック競技大会（ロサンゼルス）　1984年7月28日</title>
+<circle class="dot f-red" cx="348" cy="1954" r="4"/>
+<path class="leader" d="M339.5 1954h-4L330 1959.2h-2"/>
+<text class="label" x="326" y="1964.1" text-anchor="end"><tspan class="yrs">1984</tspan><tspan class="name" dx="6">ロサンゼルス</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly39" data-person="oly:第15回オリンピック冬季競技大会（カルガリー）">
+<title>第15回オリンピック冬季競技大会（カルガリー）　1988年2月13日</title>
+<circle class="dot f-blue" cx="348" cy="2003.6" r="4"/>
+<path class="leader" d="M339.5 2003.6h-4L330 1999.3h-2"/>
+<text class="label" x="326" y="2004.1" text-anchor="end"><tspan class="yrs">1988</tspan><tspan class="name" dx="6">カルガリー</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly40" data-person="oly:第24回オリンピック競技大会（ソウル）">
+<title>第24回オリンピック競技大会（ソウル）　1988年9月17日</title>
+<circle class="dot f-red" cx="348" cy="2011.9" r="4"/>
+<path class="leader" d="M339.5 2011.9h-4L330 2016.3h-2"/>
+<text class="label" x="326" y="2021.1" text-anchor="end"><tspan class="yrs">1988</tspan><tspan class="name" dx="6">ソウル</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly41" data-person="oly:第16回オリンピック冬季競技大会（アルベールビル）">
+<title>第16回オリンピック冬季競技大会（アルベールビル）　1992年2月8日</title>
+<circle class="dot f-blue" cx="348" cy="2059.4" r="4"/>
+<path class="leader" d="M339.5 2059.4h-4L330 2054h-2"/>
+<text class="label" x="326" y="2058.8" text-anchor="end"><tspan class="yrs">1992</tspan><tspan class="name" dx="6">アルベールビル</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly42" data-person="oly:第25回オリンピック競技大会（バルセロナ）">
+<title>第25回オリンピック競技大会（バルセロナ）　1992年7月25日</title>
+<circle class="dot f-red" cx="348" cy="2065.9" r="4"/>
+<path class="leader" d="M339.5 2065.9h-4L330 2071h-2"/>
+<text class="label" x="326" y="2075.8" text-anchor="end"><tspan class="yrs">1992</tspan><tspan class="name" dx="6">バルセロナ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly43" data-person="oly:第17回オリンピック冬季競技大会（リレハンメル）">
+<title>第17回オリンピック冬季競技大会（リレハンメル）　1994年2月12日</title>
+<circle class="dot f-blue" cx="348" cy="2087.6" r="4"/>
+<text class="label" x="326" y="2092.8" text-anchor="end"><tspan class="yrs">1994</tspan><tspan class="name" dx="6">リレハンメル</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly44" data-person="oly:第26回オリンピック競技大会（アトランタ）">
+<title>第26回オリンピック競技大会（アトランタ）　1996年7月19日</title>
+<circle class="dot f-red" cx="348" cy="2121.7" r="4"/>
+<text class="label" x="326" y="2126.5" text-anchor="end"><tspan class="yrs">1996</tspan><tspan class="name" dx="6">アトランタ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly45" data-person="oly:第18回オリンピック冬季競技大会（長野）">
+<title>第18回オリンピック冬季競技大会（長野）　1998年2月7日</title>
+<circle class="dot f-blue" cx="348" cy="2143.4" r="4"/>
+<text class="label" x="326" y="2148.3" text-anchor="end"><tspan class="yrs">1998</tspan><tspan class="name" dx="6">長野</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly46" data-person="oly:第27回オリンピック競技大会（シドニー）">
+<title>第27回オリンピック競技大会（シドニー）　2000年9月15日</title>
+<circle class="dot f-red" cx="348" cy="2179.9" r="4"/>
+<text class="label" x="326" y="2184.7" text-anchor="end"><tspan class="yrs">2000</tspan><tspan class="name" dx="6">シドニー</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly47" data-person="oly:第19回オリンピック冬季競技大会（ソルトレークシティー）">
+<title>第19回オリンピック冬季競技大会（ソルトレークシティー）　2002年2月8日</title>
+<circle class="dot f-blue" cx="348" cy="2199.5" r="4"/>
+<text class="label" x="326" y="2204.3" text-anchor="end"><tspan class="yrs">2002</tspan><tspan class="name" dx="6">ソルトレークシティー</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly48" data-person="oly:第28回オリンピック競技大会（アテネ）">
+<title>第28回オリンピック競技大会（アテネ）　2004年8月13日</title>
+<circle class="dot f-red" cx="348" cy="2234.6" r="4"/>
+<text class="label" x="326" y="2239.5" text-anchor="end"><tspan class="yrs">2004</tspan><tspan class="name" dx="6">アテネ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly49" data-person="oly:第20回オリンピック冬季競技大会（トリノ）">
+<title>第20回オリンピック冬季競技大会（トリノ）　2006年2月10日</title>
+<circle class="dot f-blue" cx="348" cy="2255.5" r="4"/>
+<text class="label" x="326" y="2260.4" text-anchor="end"><tspan class="yrs">2006</tspan><tspan class="name" dx="6">トリノ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly50" data-person="oly:第29回オリンピック競技大会（北京）">
+<title>第29回オリンピック競技大会（北京）　2008年8月8日</title>
+<circle class="dot f-red" cx="348" cy="2290.4" r="4"/>
+<text class="label" x="326" y="2295.3" text-anchor="end"><tspan class="yrs">2008</tspan><tspan class="name" dx="6">北京</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly51" data-person="oly:第21回オリンピック冬季競技大会（バンクーバー）">
+<title>第21回オリンピック冬季競技大会（バンクーバー）　2010年2月12日</title>
+<circle class="dot f-blue" cx="348" cy="2311.6" r="4"/>
+<text class="label" x="326" y="2316.5" text-anchor="end"><tspan class="yrs">2010</tspan><tspan class="name" dx="6">バンクーバー</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly52" data-person="oly:第30回オリンピック競技大会（ロンドン）">
+<title>第30回オリンピック競技大会（ロンドン）　2012年7月27日</title>
+<circle class="dot f-red" cx="348" cy="2346" r="4"/>
+<text class="label" x="326" y="2350.8" text-anchor="end"><tspan class="yrs">2012</tspan><tspan class="name" dx="6">ロンドン</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly53" data-person="oly:第22回オリンピック冬季競技大会（ソチ）">
+<title>第22回オリンピック冬季競技大会（ソチ）　2014年2月7日</title>
+<circle class="dot f-blue" cx="348" cy="2367.4" r="4"/>
+<text class="label" x="326" y="2372.3" text-anchor="end"><tspan class="yrs">2014</tspan><tspan class="name" dx="6">ソチ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly54" data-person="oly:第31回オリンピック競技大会（リオデジャネイロ）">
+<title>第31回オリンピック競技大会（リオデジャネイロ）　2016年8月5日</title>
+<circle class="dot f-red" cx="348" cy="2402.3" r="4"/>
+<text class="label" x="326" y="2407.2" text-anchor="end"><tspan class="yrs">2016</tspan><tspan class="name" dx="6">リオデジャネイロ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly55" data-person="oly:第23回オリンピック冬季競技大会（平昌）">
+<title>第23回オリンピック冬季競技大会（平昌）　2018年2月9日</title>
+<circle class="dot f-blue" cx="348" cy="2423.5" r="4"/>
+<text class="label" x="326" y="2428.4" text-anchor="end"><tspan class="yrs">2018</tspan><tspan class="name" dx="6">平昌</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly56" data-person="oly:第32回オリンピック競技大会（東京）">
+<title>第32回オリンピック競技大会（東京）　2021年7月23日</title>
+<circle class="dot f-red" cx="348" cy="2471.8" r="4"/>
+<path class="leader" d="M339.5 2471.8h-4L330 2467.1h-2"/>
+<text class="label" x="326" y="2471.9" text-anchor="end"><tspan class="yrs">2021</tspan><tspan class="name" dx="6">東京（延期）</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly57" data-person="oly:第24回オリンピック冬季競技大会（北京）">
+<title>第24回オリンピック冬季競技大会（北京）　2022年2月4日</title>
+<circle class="dot f-blue" cx="348" cy="2479.3" r="4"/>
+<path class="leader" d="M339.5 2479.3h-4L330 2484.1h-2"/>
+<text class="label" x="326" y="2488.9" text-anchor="end"><tspan class="yrs">2022</tspan><tspan class="name" dx="6">北京</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly58" data-person="oly:第33回オリンピック競技大会（パリ）">
+<title>第33回オリンピック競技大会（パリ）　2024年7月26日</title>
+<circle class="dot f-red" cx="348" cy="2513.9" r="4"/>
+<text class="label" x="326" y="2518.8" text-anchor="end"><tspan class="yrs">2024</tspan><tspan class="name" dx="6">パリ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly59" data-person="oly:第25回オリンピック冬季競技大会（ミラノ・コルティナ）">
+<title>第25回オリンピック冬季競技大会（ミラノ・コルティナ）　2026年2月6日</title>
+<circle class="dot f-blue" cx="348" cy="2535.4" r="4"/>
+<text class="label" x="326" y="2540.3" text-anchor="end"><tspan class="yrs">2026</tspan><tspan class="name" dx="6">ミラノ・コルティナ</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly60" data-person="oly:第34回オリンピック競技大会（ロサンゼルス）">
+<title>第34回オリンピック競技大会（ロサンゼルス）　2028年7月14日</title>
+<circle class="dot f-red future" cx="348" cy="2569.5" r="4"/>
+<text class="label" x="326" y="2574.3" text-anchor="end"><tspan class="yrs">2028</tspan><tspan class="name" dx="6">ロサンゼルス</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly61" data-person="oly:第26回オリンピック冬季競技大会（フランスアルプス）">
+<title>第26回オリンピック冬季競技大会（フランスアルプス）　2030年2月1日</title>
+<circle class="dot f-blue future" cx="348" cy="2591.2" r="4"/>
+<text class="label" x="326" y="2596.1" text-anchor="end"><tspan class="yrs">2030</tspan><tspan class="name" dx="6">フランスアルプス</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly62" data-person="oly:第35回オリンピック競技大会（ブリスベン）">
+<title>第35回オリンピック競技大会（ブリスベン）　2032年7月23日</title>
+<circle class="dot f-red future" cx="348" cy="2625.8" r="4"/>
+<text class="label" x="326" y="2630.7" text-anchor="end"><tspan class="yrs">2032</tspan><tspan class="name" dx="6">ブリスベン</tspan></text>
+</g>
+<g class="term c-oly" data-id="oly63" data-person="oly:第27回オリンピック冬季競技大会（ソルトレークシティー）">
+<title>第27回オリンピック冬季競技大会（ソルトレークシティー）　2034年2月10日</title>
+<circle class="dot f-blue future" cx="348" cy="2647.5" r="4"/>
+<text class="label" x="326" y="2652.4" text-anchor="end"><tspan class="yrs">2034</tspan><tspan class="name" dx="6">ソルトレークシティー</tspan></text>
+</g>
+<line class="axis" x1="394" x2="394" y1="70" y2="2664.8"/>
+<g class="term c-war" data-id="war0" data-person="war:戊辰戦争">
+<title>戊辰戦争　1868年1月27日 〜 1869年6月27日（期間 517日）</title>
+<rect class="bar f-gray" x="383" y="324" width="6" height="17.8" rx="3"/>
+</g>
+<g class="term c-war" data-id="war1" data-person="war:西南戦争">
+<title>西南戦争　1877年1月29日 〜 1877年9月24日（期間 238日）</title>
+<rect class="bar f-gray" x="383" y="450.1" width="6" height="7.1" rx="3"/>
+</g>
+<g class="term c-war" data-id="war2" data-person="war:日清戦争">
+<title>日清戦争　1894年7月25日 〜 1895年4月17日（期間 266日）</title>
+<rect class="bar f-gray" x="383" y="694.9" width="6" height="8.2" rx="3"/>
+</g>
+<g class="term c-war" data-id="war3" data-person="war:日露戦争">
+<title>日露戦争　1904年2月8日 〜 1905年9月5日（期間 575日）</title>
+<rect class="bar f-gray" x="383" y="828.4" width="6" height="20" rx="3"/>
+</g>
+<g class="term c-war" data-id="war4" data-person="war:第一次世界大戦">
+<title>第一次世界大戦　1914年7月28日 〜 1918年11月11日（期間 約4年）</title>
+<rect class="bar f-gray" x="383" y="975" width="6" height="58.1" rx="3"/>
+</g>
+<g class="term c-war" data-id="war5" data-person="war:満州事変">
+<title>満州事変　1931年9月18日 〜 1933年5月31日（期間 621日）</title>
+<rect class="bar f-gray" x="383" y="1214.9" width="6" height="21.8" rx="3"/>
+</g>
+<g class="term c-war" data-id="war6" data-person="war:日中戦争">
+<title>日中戦争　1937年7月7日 〜 1945年9月2日（期間 約8年）</title>
+<rect class="bar f-gray" x="383" y="1296.2" width="6" height="112.2" rx="3"/>
+</g>
+<g class="term c-war" data-id="war7" data-person="war:第二次世界大戦">
+<title>第二次世界大戦　1939年9月1日 〜 1945年9月2日（期間 約6年）</title>
+<rect class="bar f-gray" x="375" y="1326.3" width="6" height="82.1" rx="3"/>
+</g>
+<g class="term c-war" data-id="war8" data-person="war:太平洋戦争">
+<title>太平洋戦争　1941年12月8日 〜 1945年9月2日（期間 約4年）</title>
+<rect class="bar f-gray" x="367" y="1358.1" width="6" height="50.3" rx="3"/>
+</g>
+<g class="term c-war" data-id="war9" data-person="war:広島・長崎への原爆投下">
+<title>広島・長崎への原爆投下　1945年8月6日 〜 1945年8月9日（期間 3日）</title>
+<rect class="bar f-gray" x="359" y="1406.9" width="6" height="3" rx="1.5"/>
+</g>
+<g class="term c-war" data-id="war10" data-person="war:朝鮮戦争">
+<title>朝鮮戦争　1950年6月25日 〜 1953年7月27日（期間 約3年）</title>
+<rect class="bar f-gray" x="383" y="1477.7" width="6" height="41.2" rx="3"/>
+</g>
+<g class="term c-war" data-id="war11" data-person="war:ベトナム戦争">
+<title>ベトナム戦争　1955年11月1日 〜 1975年4月30日（期間 約19年）</title>
+<rect class="bar f-gray" x="383" y="1552.6" width="6" height="270.9" rx="3"/>
+</g>
+<g class="term c-war" data-id="war12" data-person="war:ソ連のアフガニスタン侵攻">
+<title>ソ連のアフガニスタン侵攻　1979年12月24日 〜 1989年2月15日（期間 約9年）</title>
+<rect class="bar f-gray" x="383" y="1890.7" width="6" height="126.1" rx="3"/>
+</g>
+<g class="term c-war" data-id="war13" data-person="war:湾岸戦争">
+<title>湾岸戦争　1991年1月17日 〜 1991年2月28日（期間 42日）</title>
+<rect class="bar f-gray" x="383" y="2043.9" width="6" height="3" rx="1.5"/>
+</g>
+<g class="term c-war" data-id="war14" data-person="war:アメリカ同時多発テロ事件">
+<title>アメリカ同時多発テロ事件　2001年9月11日</title>
+<circle class="dot f-gray" cx="394" cy="2193.7" r="4"/>
+</g>
+<g class="term c-war" data-id="war15" data-person="war:イラク戦争">
+<title>イラク戦争　2003年3月20日 〜 2011年12月18日（期間 約9年）</title>
+<rect class="bar f-gray" x="383" y="2216" width="6" height="120.5" rx="3"/>
+</g>
+<g class="term c-war" data-id="war16" data-person="war:ロシアのウクライナ侵攻">
+<title>ロシアのウクライナ侵攻　2022年2月24日 〜 継続中（期間 約5年）</title>
+<linearGradient id="tl-g-war16" gradientUnits="userSpaceOnUse" x1="0" y1="2523.9" x2="0" y2="2545.9"><stop offset="0" class="s-gray" stop-opacity="1"/><stop offset="1" class="s-gray" stop-opacity="0"/></linearGradient>
+<path class="bar-open" d="M383 2484.1Q383 2481.1 386 2481.1H386Q389 2481.1 389 2484.1V2545.9Q389 2545.9 389 2545.9H383Q383 2545.9 383 2545.9Z" fill="url(#tl-g-war16)"/>
+</g>
+<line class="axis" x1="510" x2="510" y1="70" y2="2664.8"/>
+<g class="term c-expo" data-id="expo0" data-person="expo:ロンドン万国博覧会（1851年）">
+<title>ロンドン万国博覧会（1851年）　1851年5月1日</title>
+<circle class="dot f-green" cx="510" cy="88.6" r="4"/>
+<text class="label" x="532" y="93.5"><tspan class="name">ロンドン</tspan><tspan class="yrs" dx="6">1851</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo1" data-person="expo:パリ万国博覧会（1855年）">
+<title>パリ万国博覧会（1855年）　1855年5月15日</title>
+<circle class="dot f-green" cx="510" cy="145.1" r="4"/>
+<text class="label" x="532" y="150"><tspan class="name">パリ</tspan><tspan class="yrs" dx="6">1855</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo2" data-person="expo:ロンドン万国博覧会（1862年）">
+<title>ロンドン万国博覧会（1862年）　1862年5月1日</title>
+<circle class="dot f-green" cx="510" cy="242.6" r="4"/>
+<text class="label" x="532" y="247.5"><tspan class="name">ロンドン</tspan><tspan class="yrs" dx="6">1862</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo3" data-person="expo:パリ万国博覧会（1867年）">
+<title>パリ万国博覧会（1867年）　1867年4月1日</title>
+<circle class="dot f-green" cx="510" cy="311.4" r="4"/>
+<text class="label" x="532" y="316.3"><tspan class="name">パリ</tspan><tspan class="yrs" dx="6">1867</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo4" data-person="expo:ウィーン万国博覧会">
+<title>ウィーン万国博覧会　1873年5月1日</title>
+<circle class="dot f-green" cx="510" cy="396.6" r="4"/>
+<text class="label" x="532" y="401.5"><tspan class="name">ウィーン</tspan><tspan class="yrs" dx="6">1873</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo5" data-person="expo:フィラデルフィア万国博覧会">
+<title>フィラデルフィア万国博覧会　1876年5月10日</title>
+<circle class="dot f-green" cx="510" cy="439" r="4"/>
+<text class="label" x="532" y="443.8"><tspan class="name">フィラデルフィア</tspan><tspan class="yrs" dx="6">1876</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo6" data-person="expo:パリ万国博覧会（1878年）">
+<title>パリ万国博覧会（1878年）　1878年5月20日</title>
+<circle class="dot f-green" cx="510" cy="467.3" r="4"/>
+<text class="label" x="532" y="472.2"><tspan class="name">パリ</tspan><tspan class="yrs" dx="6">1878</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo7" data-person="expo:メルボルン万国博覧会">
+<title>メルボルン万国博覧会　1880年10月1日</title>
+<circle class="dot f-green" cx="510" cy="500.5" r="4"/>
+<text class="label" x="532" y="505.4"><tspan class="name">メルボルン</tspan><tspan class="yrs" dx="6">1880</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo8" data-person="expo:バルセロナ万国博覧会（1888年）">
+<title>バルセロナ万国博覧会（1888年）　1888年4月8日</title>
+<circle class="dot f-green" cx="510" cy="605.7" r="4"/>
+<text class="label" x="532" y="609.6"><tspan class="name">バルセロナ</tspan><tspan class="yrs" dx="6">1888</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo9" data-person="expo:パリ万国博覧会（1889年）">
+<title>パリ万国博覧会（1889年）　1889年5月6日</title>
+<circle class="dot f-green" cx="510" cy="620.8" r="4"/>
+<text class="label" x="532" y="626.6"><tspan class="name">パリ</tspan><tspan class="yrs" dx="6">1889</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo10" data-person="expo:シカゴ万国博覧会（1893年）">
+<title>シカゴ万国博覧会（1893年）　1893年5月1日</title>
+<circle class="dot f-green" cx="510" cy="676.6" r="4"/>
+<text class="label" x="532" y="681.5"><tspan class="name">シカゴ</tspan><tspan class="yrs" dx="6">1893</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo11" data-person="expo:ブリュッセル万国博覧会（1897年）">
+<title>ブリュッセル万国博覧会（1897年）　1897年5月10日</title>
+<circle class="dot f-green" cx="510" cy="733" r="4"/>
+<text class="label" x="532" y="737.8"><tspan class="name">ブリュッセル</tspan><tspan class="yrs" dx="6">1897</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo12" data-person="expo:パリ万国博覧会（1900年）">
+<title>パリ万国博覧会（1900年）　1900年4月14日</title>
+<circle class="dot f-green" cx="510" cy="773.9" r="4"/>
+<text class="label" x="532" y="778.8"><tspan class="name">パリ</tspan><tspan class="yrs" dx="6">1900</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo13" data-person="expo:セントルイス万国博覧会">
+<title>セントルイス万国博覧会　1904年4月30日</title>
+<circle class="dot f-green" cx="510" cy="830.6" r="4"/>
+<path class="leader" d="M518.5 830.6h4L528 827.5h2"/>
+<text class="label" x="532" y="832.3"><tspan class="name">セントルイス</tspan><tspan class="yrs" dx="6">1904</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo14" data-person="expo:リエージュ万国博覧会（1905年）">
+<title>リエージュ万国博覧会（1905年）　1905年4月27日</title>
+<circle class="dot f-green" cx="510" cy="844.4" r="4"/>
+<text class="label" x="532" y="849.3"><tspan class="name">リエージュ</tspan><tspan class="yrs" dx="6">1905</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo15" data-person="expo:ミラノ万国博覧会（1906年）">
+<title>ミラノ万国博覧会（1906年）　1906年4月28日</title>
+<circle class="dot f-green" cx="510" cy="858.5" r="4"/>
+<path class="leader" d="M518.5 858.5h4L528 861.5h2"/>
+<text class="label" x="532" y="866.3"><tspan class="name">ミラノ</tspan><tspan class="yrs" dx="6">1906</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo16" data-person="expo:ブリュッセル万国博覧会（1910年）">
+<title>ブリュッセル万国博覧会（1910年）　1910年4月23日</title>
+<circle class="dot f-green" cx="510" cy="914.3" r="4"/>
+<text class="label" x="532" y="919.1"><tspan class="name">ブリュッセル</tspan><tspan class="yrs" dx="6">1910</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo17" data-person="expo:ヘント万国博覧会">
+<title>ヘント万国博覧会　1913年4月26日</title>
+<circle class="dot f-green" cx="510" cy="956.4" r="4"/>
+<text class="label" x="532" y="961.3"><tspan class="name">ヘント</tspan><tspan class="yrs" dx="6">1913</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo18" data-person="expo:サンフランシスコ万国博覧会">
+<title>サンフランシスコ万国博覧会　1915年2月20日</title>
+<circle class="dot f-green" cx="510" cy="981.9" r="4"/>
+<text class="label" x="532" y="986.7"><tspan class="name">サンフランシスコ</tspan><tspan class="yrs" dx="6">1915</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo19" data-person="expo:バルセロナ万国博覧会（1929年）">
+<title>バルセロナ万国博覧会（1929年）　1929年5月20日</title>
+<circle class="dot f-green" cx="510" cy="1181.3" r="4"/>
+<text class="label" x="532" y="1186.2"><tspan class="name">バルセロナ</tspan><tspan class="yrs" dx="6">1929</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo20" data-person="expo:シカゴ万国博覧会（1933年）">
+<title>シカゴ万国博覧会（1933年）　1933年5月27日</title>
+<circle class="dot f-green" cx="510" cy="1237.6" r="4"/>
+<text class="label" x="532" y="1242.5"><tspan class="name">シカゴ</tspan><tspan class="yrs" dx="6">1933</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo21" data-person="expo:ブリュッセル万国博覧会（1935年）">
+<title>ブリュッセル万国博覧会（1935年）　1935年4月27日</title>
+<circle class="dot f-green" cx="510" cy="1264.4" r="4"/>
+<path class="leader" d="M518.5 1264.4h4L528 1255.2h2"/>
+<text class="label" x="532" y="1260"><tspan class="name">ブリュッセル</tspan><tspan class="yrs" dx="6">1935</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo22" data-person="expo:ストックホルム国際博覧会（1936年）">
+<title>ストックホルム国際博覧会（1936年）　1936年5月15日</title>
+<circle class="dot f-amber" cx="510" cy="1279.1" r="4"/>
+<path class="leader" d="M518.5 1279.1h4L528 1272.2h2"/>
+<text class="label" x="532" y="1277"><tspan class="name">ストックホルム</tspan><tspan class="yrs" dx="6">1936</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo23" data-person="expo:パリ万国博覧会（1937年）">
+<title>パリ万国博覧会（1937年）　1937年5月25日</title>
+<circle class="dot f-green" cx="510" cy="1293.5" r="4"/>
+<path class="leader" d="M518.5 1293.5h4L528 1289.2h2"/>
+<text class="label" x="532" y="1294"><tspan class="name">パリ</tspan><tspan class="yrs" dx="6">1937</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo24" data-person="expo:ヘルシンキ国際博覧会">
+<title>ヘルシンキ国際博覧会　1938年5月14日</title>
+<circle class="dot f-amber" cx="510" cy="1307.1" r="4"/>
+<text class="label" x="532" y="1311"><tspan class="name">ヘルシンキ</tspan><tspan class="yrs" dx="6">1938</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo25" data-person="expo:ニューヨーク万国博覧会（1939年）">
+<title>ニューヨーク万国博覧会（1939年）　1939年4月30日</title>
+<circle class="dot f-green" cx="510" cy="1320.5" r="4"/>
+<path class="leader" d="M518.5 1320.5h4L528 1323.2h2"/>
+<text class="label" x="532" y="1328"><tspan class="name">ニューヨーク</tspan><tspan class="yrs" dx="6">1939</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo26" data-person="expo:リエージュ国際博覧会（1939年）">
+<title>リエージュ国際博覧会（1939年）　1939年5月20日</title>
+<circle class="dot f-amber" cx="510" cy="1321.3" r="4"/>
+<path class="leader" d="M518.5 1321.3h4L528 1340.2h2"/>
+<text class="label" x="532" y="1345"><tspan class="name">リエージュ</tspan><tspan class="yrs" dx="6">1939</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo27" data-person="expo:パリ国際博覧会（1947年）">
+<title>パリ国際博覧会（1947年）　1947年7月10日</title>
+<circle class="dot f-amber" cx="510" cy="1435.3" r="4"/>
+<path class="leader" d="M518.5 1435.3h4L528 1412.9h2"/>
+<text class="label" x="532" y="1417.8"><tspan class="name">パリ</tspan><tspan class="yrs" dx="6">1947</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo28" data-person="expo:ストックホルム国際博覧会（1949年）">
+<title>ストックホルム国際博覧会（1949年）　1949年7月27日</title>
+<circle class="dot f-amber" cx="510" cy="1463.9" r="4"/>
+<path class="leader" d="M518.5 1463.9h4L528 1429.9h2"/>
+<text class="label" x="532" y="1434.8"><tspan class="name">ストックホルム</tspan><tspan class="yrs" dx="6">1949</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo29" data-person="expo:リヨン国際博覧会">
+<title>リヨン国際博覧会　1949年9月24日</title>
+<circle class="dot f-amber" cx="510" cy="1466.2" r="4"/>
+<path class="leader" d="M518.5 1466.2h4L528 1446.9h2"/>
+<text class="label" x="532" y="1451.8"><tspan class="name">リヨン</tspan><tspan class="yrs" dx="6">1949</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo30" data-person="expo:ポルトープランス万国博覧会">
+<title>ポルトープランス万国博覧会　1949年12月8日</title>
+<circle class="dot f-green" cx="510" cy="1469.1" r="4"/>
+<path class="leader" d="M518.5 1469.1h4L528 1463.9h2"/>
+<text class="label" x="532" y="1468.8"><tspan class="name">ポルトープランス</tspan><tspan class="yrs" dx="6">1949</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo31" data-person="expo:リール国際博覧会">
+<title>リール国際博覧会　1951年4月28日</title>
+<circle class="dot f-amber" cx="510" cy="1488.5" r="4"/>
+<path class="leader" d="M518.5 1488.5h4L528 1480.9h2"/>
+<text class="label" x="532" y="1485.8"><tspan class="name">リール</tspan><tspan class="yrs" dx="6">1951</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo32" data-person="expo:ローマ国際博覧会">
+<title>ローマ国際博覧会　1953年7月26日</title>
+<circle class="dot f-amber" cx="510" cy="1519.9" r="4"/>
+<path class="leader" d="M518.5 1519.9h4L528 1497.9h2"/>
+<text class="label" x="532" y="1502.8"><tspan class="name">ローマ</tspan><tspan class="yrs" dx="6">1953</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo33" data-person="expo:エルサレム国際博覧会">
+<title>エルサレム国際博覧会　1953年9月22日</title>
+<circle class="dot f-amber" cx="510" cy="1522.1" r="4"/>
+<path class="leader" d="M518.5 1522.1h4L528 1514.9h2"/>
+<text class="label" x="532" y="1519.8"><tspan class="name">エルサレム</tspan><tspan class="yrs" dx="6">1953</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo34" data-person="expo:ナポリ国際博覧会">
+<title>ナポリ国際博覧会　1954年5月15日</title>
+<circle class="dot f-amber" cx="510" cy="1531.1" r="4"/>
+<text class="label" x="532" y="1536.8"><tspan class="name">ナポリ</tspan><tspan class="yrs" dx="6">1954</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo35" data-person="expo:トリノ国際博覧会（1955年）">
+<title>トリノ国際博覧会（1955年）　1955年5月25日</title>
+<circle class="dot f-amber" cx="510" cy="1545.5" r="4"/>
+<path class="leader" d="M518.5 1545.5h4L528 1548.9h2"/>
+<text class="label" x="532" y="1553.8"><tspan class="name">トリノ</tspan><tspan class="yrs" dx="6">1955</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo36" data-person="expo:ヘルシンボリ国際博覧会">
+<title>ヘルシンボリ国際博覧会　1955年6月10日</title>
+<circle class="dot f-amber" cx="510" cy="1546.1" r="4"/>
+<path class="leader" d="M518.5 1546.1h4L528 1565.9h2"/>
+<text class="label" x="532" y="1570.8"><tspan class="name">ヘルシンボリ</tspan><tspan class="yrs" dx="6">1955</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo37" data-person="expo:ベト・ダゴン国際博覧会">
+<title>ベト・ダゴン国際博覧会　1956年5月21日</title>
+<circle class="dot f-amber" cx="510" cy="1559.4" r="4"/>
+<path class="leader" d="M518.5 1559.4h4L528 1582.9h2"/>
+<text class="label" x="532" y="1587.8"><tspan class="name">ベト・ダゴン</tspan><tspan class="yrs" dx="6">1956</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo38" data-person="expo:ベルリン国際博覧会">
+<title>ベルリン国際博覧会　1957年7月6日</title>
+<circle class="dot f-amber" cx="510" cy="1575.1" r="4"/>
+<path class="leader" d="M518.5 1575.1h4L528 1599.9h2"/>
+<text class="label" x="532" y="1604.8"><tspan class="name">ベルリン</tspan><tspan class="yrs" dx="6">1957</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo39" data-person="expo:ブリュッセル万国博覧会（1958年）">
+<title>ブリュッセル万国博覧会（1958年）　1958年4月17日</title>
+<circle class="dot f-green" cx="510" cy="1586.1" r="4"/>
+<path class="leader" d="M518.5 1586.1h4L528 1616.9h2"/>
+<text class="label" x="532" y="1621.8"><tspan class="name">ブリュッセル</tspan><tspan class="yrs" dx="6">1958</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo40" data-person="expo:トリノ国際博覧会（1961年）">
+<title>トリノ国際博覧会（1961年）　1961年5月1日</title>
+<circle class="dot f-amber" cx="510" cy="1628.6" r="4"/>
+<path class="leader" d="M518.5 1628.6h4L528 1633.9h2"/>
+<text class="label" x="532" y="1638.8"><tspan class="name">トリノ</tspan><tspan class="yrs" dx="6">1961</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo41" data-person="expo:シアトル万国博覧会">
+<title>シアトル万国博覧会　1962年4月21日</title>
+<circle class="dot f-green" cx="510" cy="1642.2" r="4"/>
+<path class="leader" d="M518.5 1642.2h4L528 1650.9h2"/>
+<text class="label" x="532" y="1655.8"><tspan class="name">シアトル</tspan><tspan class="yrs" dx="6">1962</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo42" data-person="expo:ミュンヘン国際博覧会">
+<title>ミュンヘン国際博覧会　1965年6月25日</title>
+<circle class="dot f-amber" cx="510" cy="1686.7" r="4"/>
+<text class="label" x="532" y="1691.6"><tspan class="name">ミュンヘン</tspan><tspan class="yrs" dx="6">1965</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo43" data-person="expo:モントリオール万国博覧会">
+<title>モントリオール万国博覧会　1967年4月28日</title>
+<circle class="dot f-green" cx="510" cy="1712.5" r="4"/>
+<path class="leader" d="M518.5 1712.5h4L528 1710.6h2"/>
+<text class="label" x="532" y="1715.4"><tspan class="name">モントリオール</tspan><tspan class="yrs" dx="6">1967</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo44" data-person="expo:サンアントニオ国際博覧会">
+<title>サンアントニオ国際博覧会　1968年4月6日</title>
+<circle class="dot f-amber" cx="510" cy="1725.7" r="4"/>
+<path class="leader" d="M518.5 1725.7h4L528 1727.6h2"/>
+<text class="label" x="532" y="1732.4"><tspan class="name">サンアントニオ</tspan><tspan class="yrs" dx="6">1968</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo45" data-person="expo:日本万国博覧会">
+<title>日本万国博覧会　1970年3月15日</title>
+<circle class="dot f-green" cx="510" cy="1752.8" r="4"/>
+<text class="label" x="532" y="1757.7"><tspan class="name">大阪</tspan><tspan class="yrs" dx="6">1970</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo46" data-person="expo:ブダペスト国際博覧会">
+<title>ブダペスト国際博覧会　1971年8月27日</title>
+<circle class="dot f-amber" cx="510" cy="1773.1" r="4"/>
+<text class="label" x="532" y="1778"><tspan class="name">ブダペスト</tspan><tspan class="yrs" dx="6">1971</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo47" data-person="expo:スポーケン国際博覧会">
+<title>スポーケン国際博覧会　1974年5月4日</title>
+<circle class="dot f-amber" cx="510" cy="1810.7" r="4"/>
+<text class="label" x="532" y="1815.5"><tspan class="name">スポーケン</tspan><tspan class="yrs" dx="6">1974</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo48" data-person="expo:沖縄国際海洋博覧会">
+<title>沖縄国際海洋博覧会　1975年7月20日</title>
+<circle class="dot f-amber" cx="510" cy="1827.7" r="4"/>
+<text class="label" x="532" y="1832.5"><tspan class="name">沖縄</tspan><tspan class="yrs" dx="6">1975</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo49" data-person="expo:プロヴディフ国際博覧会（1981年）">
+<title>プロヴディフ国際博覧会（1981年）　1981年6月14日</title>
+<circle class="dot f-amber" cx="510" cy="1910.3" r="4"/>
+<path class="leader" d="M518.5 1910.3h4L528 1906.7h2"/>
+<text class="label" x="532" y="1911.5"><tspan class="name">プロヴディフ</tspan><tspan class="yrs" dx="6">1981</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo50" data-person="expo:ノックスビル国際博覧会">
+<title>ノックスビル国際博覧会　1982年5月1日</title>
+<circle class="dot f-amber" cx="510" cy="1922.6" r="4"/>
+<text class="label" x="532" y="1928.5"><tspan class="name">ノックスビル</tspan><tspan class="yrs" dx="6">1982</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo51" data-person="expo:ニューオーリンズ国際河川博覧会">
+<title>ニューオーリンズ国際河川博覧会　1984年5月12日</title>
+<circle class="dot f-amber" cx="510" cy="1951" r="4"/>
+<path class="leader" d="M518.5 1951h4L528 1940.7h2"/>
+<text class="label" x="532" y="1945.5"><tspan class="name">ニューオーリンズ</tspan><tspan class="yrs" dx="6">1984</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo52" data-person="expo:国際科学技術博覧会">
+<title>国際科学技術博覧会　1985年3月17日</title>
+<circle class="dot f-amber" cx="510" cy="1962.9" r="4"/>
+<path class="leader" d="M518.5 1962.9h4L528 1957.7h2"/>
+<text class="label" x="532" y="1962.5"><tspan class="name">つくば</tspan><tspan class="yrs" dx="6">1985</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo53" data-person="expo:プロヴディフ国際博覧会（1985年）">
+<title>プロヴディフ国際博覧会（1985年）　1985年11月4日</title>
+<circle class="dot f-amber" cx="510" cy="1971.8" r="4"/>
+<path class="leader" d="M518.5 1971.8h4L528 1974.7h2"/>
+<text class="label" x="532" y="1979.5"><tspan class="name">プロヴディフ</tspan><tspan class="yrs" dx="6">1985</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo54" data-person="expo:バンクーバー国際交通博覧会">
+<title>バンクーバー国際交通博覧会　1986年5月2日</title>
+<circle class="dot f-amber" cx="510" cy="1978.6" r="4"/>
+<path class="leader" d="M518.5 1978.6h4L528 1991.7h2"/>
+<text class="label" x="532" y="1996.5"><tspan class="name">バンクーバー</tspan><tspan class="yrs" dx="6">1986</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo55" data-person="expo:ブリスベン国際レジャー博覧会">
+<title>ブリスベン国際レジャー博覧会　1988年4月30日</title>
+<circle class="dot f-amber" cx="510" cy="2006.6" r="4"/>
+<path class="leader" d="M518.5 2006.6h4L528 2008.7h2"/>
+<text class="label" x="532" y="2013.5"><tspan class="name">ブリスベン</tspan><tspan class="yrs" dx="6">1988</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo56" data-person="expo:プロヴディフ国際博覧会（1991年）">
+<title>プロヴディフ国際博覧会（1991年）　1991年6月7日</title>
+<circle class="dot f-amber" cx="510" cy="2050" r="4"/>
+<path class="leader" d="M518.5 2050h4L528 2038.4h2"/>
+<text class="label" x="532" y="2043.3"><tspan class="name">プロヴディフ</tspan><tspan class="yrs" dx="6">1991</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo57" data-person="expo:セビリア万国博覧会">
+<title>セビリア万国博覧会　1992年4月20日</title>
+<circle class="dot f-green" cx="510" cy="2062.2" r="4"/>
+<path class="leader" d="M518.5 2062.2h4L528 2055.4h2"/>
+<text class="label" x="532" y="2060.3"><tspan class="name">セビリア</tspan><tspan class="yrs" dx="6">1992</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo58" data-person="expo:ジェノヴァ国際博覧会">
+<title>ジェノヴァ国際博覧会　1992年5月15日</title>
+<circle class="dot f-amber" cx="510" cy="2063.2" r="4"/>
+<path class="leader" d="M518.5 2063.2h4L528 2072.4h2"/>
+<text class="label" x="532" y="2077.3"><tspan class="name">ジェノヴァ</tspan><tspan class="yrs" dx="6">1992</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo59" data-person="expo:大田国際博覧会">
+<title>大田国際博覧会　1993年8月7日</title>
+<circle class="dot f-amber" cx="510" cy="2080.4" r="4"/>
+<path class="leader" d="M518.5 2080.4h4L528 2089.4h2"/>
+<text class="label" x="532" y="2094.3"><tspan class="name">大田</tspan><tspan class="yrs" dx="6">1993</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo60" data-person="expo:リスボン国際博覧会">
+<title>リスボン国際博覧会　1998年5月22日</title>
+<circle class="dot f-amber" cx="510" cy="2147.4" r="4"/>
+<text class="label" x="532" y="2152.3"><tspan class="name">リスボン</tspan><tspan class="yrs" dx="6">1998</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo61" data-person="expo:ハノーヴァー万国博覧会">
+<title>ハノーヴァー万国博覧会　2000年6月1日</title>
+<circle class="dot f-green" cx="510" cy="2175.8" r="4"/>
+<text class="label" x="532" y="2180.7"><tspan class="name">ハノーヴァー</tspan><tspan class="yrs" dx="6">2000</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo62" data-person="expo:2005年日本国際博覧会">
+<title>2005年日本国際博覧会　2005年3月25日</title>
+<circle class="dot f-green" cx="510" cy="2243.2" r="4"/>
+<text class="label" x="532" y="2248.1"><tspan class="name">愛知</tspan><tspan class="yrs" dx="6">2005</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo63" data-person="expo:サラゴサ国際博覧会">
+<title>サラゴサ国際博覧会　2008年6月14日</title>
+<circle class="dot f-amber" cx="510" cy="2288.3" r="4"/>
+<text class="label" x="532" y="2293.2"><tspan class="name">サラゴサ</tspan><tspan class="yrs" dx="6">2008</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo64" data-person="expo:上海国際博覧会">
+<title>上海国際博覧会　2010年5月1日</title>
+<circle class="dot f-green" cx="510" cy="2314.6" r="4"/>
+<text class="label" x="532" y="2319.5"><tspan class="name">上海</tspan><tspan class="yrs" dx="6">2010</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo65" data-person="expo:麗水（ヨス）国際博覧会">
+<title>麗水（ヨス）国際博覧会　2012年5月12日</title>
+<circle class="dot f-amber" cx="510" cy="2343" r="4"/>
+<text class="label" x="532" y="2347.9"><tspan class="name">麗水</tspan><tspan class="yrs" dx="6">2012</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo66" data-person="expo:ミラノ国際博覧会">
+<title>ミラノ国際博覧会　2015年5月1日</title>
+<circle class="dot f-green" cx="510" cy="2384.6" r="4"/>
+<text class="label" x="532" y="2389.5"><tspan class="name">ミラノ</tspan><tspan class="yrs" dx="6">2015</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo67" data-person="expo:2017年アスタナ国際博覧会">
+<title>2017年アスタナ国際博覧会　2017年6月10日</title>
+<circle class="dot f-amber" cx="510" cy="2414.2" r="4"/>
+<text class="label" x="532" y="2419"><tspan class="name">アスタナ</tspan><tspan class="yrs" dx="6">2017</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo68" data-person="expo:2020年ドバイ国際博覧会">
+<title>2020年ドバイ国際博覧会　2021年10月1日</title>
+<circle class="dot f-green" cx="510" cy="2474.5" r="4"/>
+<text class="label" x="532" y="2479.3"><tspan class="name">ドバイ</tspan><tspan class="yrs" dx="6">2021</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo69" data-person="expo:2025年日本国際博覧会">
+<title>2025年日本国際博覧会　2025年4月13日</title>
+<circle class="dot f-green" cx="510" cy="2523.9" r="4"/>
+<text class="label" x="532" y="2528.8"><tspan class="name">大阪</tspan><tspan class="yrs" dx="6">2025</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo70" data-person="expo:2027年ベオグラード国際博覧会">
+<title>2027年ベオグラード国際博覧会　2027年5月15日</title>
+<circle class="dot f-amber future" cx="510" cy="2553.1" r="4"/>
+<text class="label" x="532" y="2558"><tspan class="name">ベオグラード</tspan><tspan class="yrs" dx="6">2027</tspan></text>
+</g>
+<g class="term c-expo" data-id="expo71" data-person="expo:2030年リヤド国際博覧会">
+<title>2030年リヤド国際博覧会　2030年10月1日</title>
+<circle class="dot f-green future" cx="510" cy="2600.5" r="4"/>
+<text class="label" x="532" y="2605.3"><tspan class="name">リヤド</tspan><tspan class="yrs" dx="6">2030</tspan></text>
+</g>
+<text class="foot" x="450" y="2694.8" text-anchor="middle">出典：IOC「Olympic Games」（Internet Archive の保存版）、JOC「オリンピック開催地一覧＆ポスター」、JOC「オリンピック競技大会」、オリンピック憲章（2024年7月23日から有効）、BIE「All World Expos」、BIE「All Specialised Expos」、BIE「About World Expos」、BIE「About Specialised Expos」、BIE「Expo 2020 Dubai date change」、経済産業省「国際博覧会」、日本語版 Wikipedia（各項目の url の記事）、英語版 Wikipedia（日付の突き合わせ）、Olympedia「Editions」　2026年11月7日時点</text>
+</svg>

@@ -1533,8 +1533,9 @@ export function renderSVG(model, g, opts = {}) {
       } else if (t.share) {
         o.push(shareBarSVG(col, b, t.share, fill));
       } else if (t.point) {
+        // 時点より後の出来事（予定）は、棒の予定の部分と同じく薄くする
         const cy = r1(b.y0);
-        o.push(`<circle class="dot f-${fill}" cx="${r1(x + col.barW / 2)}" cy="${cy}" r="${g.narrow ? 3.5 : 4}"/>`);
+        o.push(`<circle class="dot f-${fill}${t.start > model.asOf ? ' future' : ''}" cx="${r1(x + col.barW / 2)}" cy="${cy}" r="${g.narrow ? 3.5 : 4}"/>`);
       } else {
         const gapTop = 1;
         const gapBottom = t.ongoing ? 0 : 1;
@@ -2027,6 +2028,14 @@ function update() {
       const parts = [...list].sort((a, b) => order.indexOf(a.group) - order.indexOf(b.group))
         .map((x) => `${[c.spec.groups?.[x.group]?.short ?? x.group, chartValueText(c, x)].filter(Boolean).join(' ')}${when(x)}`);
       setWho(b, parts.join('・') || '—', !list.length);
+    } else if (c.dock === 'recent') {
+      // 点の出来事の列（dock: "recent"）は、横線の位置までのいちばん新しい出来事を、区分ごとに出す
+      const order = Object.keys(c.spec.groups ?? {});
+      const recent = new Map();
+      for (const x of c.terms) if (x.point && x.start <= t) recent.set(x.group, x);
+      const items = [...recent.values()].sort((a, b) => order.indexOf(a.group) - order.indexOf(b.group));
+      for (const x of items) now.add(x.id);
+      setWho(b, items.map((x) => `${x.short} ${yearShort(ymd(x.start).y)}`).join('・') || '—', !items.length);
     } else if (list.length) {
       const names = list.map((x) => (c.share && x.share ? `${x.short} 与党 ${x.share.value}/${x.share.total}` : c.spec.days === 'age' ? `${x.short}（${ageAt(t, x)}）` : x.short));
       setWho(b, names.length > 4 ? `${names.slice(0, 4).join('・')}ほか${names.length - 4}人` : names.join('・'), false);
@@ -2130,7 +2139,7 @@ function fillTip(t) {
     else if (c.chart.type === 'step') line('dates', rangeText(t, c.spec));
     line('days', `${c.title} ${chartValueText(c, t)}`);
   } else {
-    line('dates', `${rangeText(t, c.spec)}${!t.ongoing && !t.point && t.end > model.asOf ? '（予定）' : ''}${t.approx ? '（推定・諸説あり）' : ''}`);
+    line('dates', `${rangeText(t, c.spec)}${(t.point ? t.start : t.ongoing ? -Infinity : t.end) > model.asOf ? '（予定）' : ''}${t.approx ? '（推定・諸説あり）' : ''}`);
     const dur = durationText(t, c.spec, model.asOf);
     if (dur) line('days', dur);
     if (c.share && t.share) line('days', shareText(t));

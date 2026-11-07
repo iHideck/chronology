@@ -1,0 +1,181 @@
+{
+  "title": "近代オリンピックと国際博覧会の開催地",
+  "short": "五輪・万博",
+  "description": "1851年から現在までの、近代オリンピック（夏季・冬季）と国際博覧会（登録博・認定博）の開催地と開会日。戦争による中止や、東京大会の延期も分かる。",
+  "category": "文化",
+  "order": 88,
+  "color": "violet",
+  "colorBy": "group",
+  "data": {
+    "file": "olympics-expos.csv",
+    "columns": {
+      "name": "名前",
+      "start": "開始日",
+      "short": "略称",
+      "group": "区分",
+      "url": "リンク"
+    },
+    "groups": {
+      "夏季オリンピック": {
+        "color": "red"
+      },
+      "冬季オリンピック": {
+        "color": "blue"
+      },
+      "登録博": {
+        "color": "green"
+      },
+      "認定博": {
+        "color": "amber"
+      }
+    },
+    "points": true,
+    "nameLabel": "大会・博覧会"
+  },
+  "sources": [
+    {
+      "title": "IOC「Olympic Games」（Internet Archive の保存版）",
+      "url": "https://www.olympics.com/en/olympic-games"
+    },
+    {
+      "title": "JOC「オリンピック開催地一覧＆ポスター」",
+      "url": "https://www.joc.or.jp/games/olympic/poster/"
+    },
+    {
+      "title": "JOC「オリンピック競技大会」",
+      "url": "https://www.joc.or.jp/games/olympic/"
+    },
+    {
+      "title": "オリンピック憲章（2024年7月23日から有効）",
+      "url": "https://www.joc.or.jp/olympism/charter/pdf/olympiccharter2024.pdf"
+    },
+    {
+      "title": "BIE「All World Expos」",
+      "url": "https://www.bie-paris.org/site/en/expo-index/all-world-expos"
+    },
+    {
+      "title": "BIE「All Specialised Expos」",
+      "url": "https://www.bie-paris.org/site/en/expo-index/all-specialised-expos"
+    },
+    {
+      "title": "BIE「About World Expos」",
+      "url": "https://www.bie-paris.org/site/en/about-world-expos"
+    },
+    {
+      "title": "BIE「About Specialised Expos」",
+      "url": "https://www.bie-paris.org/site/en/expos/specialised-expos/about-specialised-expos"
+    },
+    {
+      "title": "BIE「Expo 2020 Dubai date change」",
+      "url": "https://www.bie-paris.org/site/en/news-announcements/world-expo/bie-general-assembly-officially-approves-expo-2020-dubai-date-change"
+    },
+    {
+      "title": "経済産業省「国際博覧会」",
+      "url": "https://www.meti.go.jp/policy/exhibition/index.html"
+    },
+    {
+      "title": "日本語版 Wikipedia（各項目の url の記事）",
+      "url": "https://ja.wikipedia.org/"
+    },
+    {
+      "title": "英語版 Wikipedia（日付の突き合わせ）",
+      "url": "https://en.wikipedia.org/"
+    },
+    {
+      "title": "Olympedia「Editions」",
+      "url": "https://www.olympedia.org/editions"
+    }
+  ],
+  "notes": [
+    "オリンピックは、夏季が1896年アテネから、冬季が1924年シャモニー・モンブランから、開催地の決まっている2032年・2034年の大会まで。戦争で中止になった大会（夏季1916年・1940年・1944年、冬季1940年・1944年）も入れた。1906年アテネの中間大会は、IOC が公式の大会と認めていないので入れていない。",
+    "国際博覧会は、博覧会国際事務局（BIE）の公式の一覧にある登録博（World Expos）と認定博（Specialised Expos）の、1851年ロンドンから2030年リヤドまで。園芸博とミラノ・トリエンナーレは入れていない。1988年の条約改正（1996年から適用）より前の「一般博」は登録博、「特別博」は認定博とし、BIE の今の分類に合わせた。BIE の設立（1928年）より前の博覧会は、BIE が World Expos に入れているものを登録博にした。",
+    "開会日（博覧会は開幕日）の点で描く。閉会日・状態・回・都市・国・備考は、吹き出しと一覧表に出る。",
+    "名前は、オリンピックは JOC の表記（第N回オリンピック競技大会、第N回オリンピック冬季競技大会）。冬季の中止された2大会は回が付かないので、日本語版 Wikipedia の記事名。博覧会は、経済産業省のページにある名称（2020年ドバイ、2025年日本、2027年ベオグラード、2030年リヤドなど）はその名称、ほかは日本語版 Wikipedia の記事名。",
+    "回は IOC の数え方。夏季はオリンピアード（4年間）の番号なので、中止された1916年・1940年・1944年にも第6・12・13回が付く。冬季は開催順に番号が付くので、中止された1940年・1944年には付かず、1948年が第5回（オリンピック憲章 規則6の付属細則）。",
+    "国は、開催当時の国名でなく今の国名で書いた（1972年ミュンヘンは西ドイツ、1980年モスクワはソ連、1984年サラエボはユーゴスラビアだった）。",
+    "オリンピックの開会日・閉会日は、IOC のページの日付を基本にし、日本語版と英語版の Wikipedia が同じ日を挙げていればそれを採った。IOC の日付が現地の日付と1日違うもの（夏季は1904年・1956年・1964年・1968年・1976年・1988年・1996年、冬季は1972年・1998年・2018年）は、Wikipedia・Olympedia・JOC が一致する日にした。夏季の1912年・1920年・1924年・1928年は、IOC が最初の競技の日から大会の期間を数えるため、開会式・閉会式の日を採り、IOC の期間は備考に書いた。",
+    "中止になった大会は、閉会日を空にした。開始日は、開会の予定日が分かる1940年の東京（9月21日）と札幌（2月3日）はその日、分からない大会は年だけにした。1940年の2大会は、返上された東京・札幌の行にして、その後の変更先は備考に書いた。略称には、中止になった大会に「（中止）」、延期された2020年東京に「（延期）」を付けた。",
+    "状態の「延期して開催」は、開催の予定が1年延びた2020年東京と2020年ドバイ。実際の開会日・開幕日を開始日にした。ほかに日程が動いた1975年沖縄（開幕が4か月延びた）は備考に書いた。",
+    "博覧会の会期は BIE の公式の一覧の日付を採った。ただし、BIE のページの中で食い違う1900年パリ（本文は開幕4月14日、会期の欄は4月15日）、閉幕の年が誤っている1936年ストックホルム（会期の欄は1935年6月1日）、日本語版と英語版の Wikipedia が11月3日としている1974年スポーケン（BIE は11月2日）は、一致する日付にした。1851年ロンドンの閉幕日（10月11日）は一般公開の最終日で、閉会式は10月15日。会期が2期に分かれる1933年シカゴと1939年ニューヨークは、最初の開幕日と最後の閉幕日を書いた。"
+  ],
+  "page": {
+    "title": "オリンピックと万博",
+    "description": "1851年からの近代オリンピック（夏季・冬季）と国際博覧会の開催地を、戦争と同じ時間軸に並べた年表",
+    "lede": "1851年のロンドン万博から、開催地の決まっている2034年の冬季オリンピックまで、オリンピックと国際博覧会（万博）の開催地を、戦争と同じ時間軸に並べた年表です。2度の世界大戦では、オリンピックが3度中止になりました。1940年の東京大会は、日中戦争のために返上されています。",
+    "how": "点や名前にカーソルを合わせる（スマホではタップする）と、開会日と閉会日、回、開催地が表示されます。上の欄には、横線の位置までのいちばん新しい大会と博覧会が出ます。",
+    "range": {
+      "start": "1850-01-01"
+    },
+    "ppy": [
+      14,
+      12
+    ],
+    "maxWidth": 1100,
+    "spine": {
+      "position": "center",
+      "bands": {
+        "data": "periods",
+        "group": "日本",
+        "lane": 0
+      },
+      "wareki": {
+        "data": "eras",
+        "lane": 0
+      },
+      "headline": "和暦"
+    },
+    "jump": "bands",
+    "facts": [
+      "oly",
+      "expo"
+    ],
+    "columns": [
+      {
+        "id": "oly",
+        "data": "olympics-expos",
+        "group": [
+          "夏季オリンピック",
+          "冬季オリンピック"
+        ],
+        "side": "left",
+        "title": "オリンピック",
+        "short": "五輪",
+        "colorBy": "group",
+        "unit": "大会",
+        "fixed": true,
+        "dock": "recent"
+      },
+      {
+        "id": "war",
+        "data": "events",
+        "group": "戦争・紛争",
+        "side": "left",
+        "title": "戦争・紛争",
+        "short": "戦争",
+        "mark": "戦",
+        "color": "gray",
+        "labels": "none",
+        "bar": 6,
+        "narrowHidden": true
+      },
+      {
+        "id": "expo",
+        "data": "olympics-expos",
+        "group": [
+          "登録博",
+          "認定博"
+        ],
+        "side": "right",
+        "title": "国際博覧会（万博）",
+        "short": "万博",
+        "colorBy": "group",
+        "unit": "回",
+        "fixed": true,
+        "dock": "recent"
+      }
+    ],
+    "preview": {
+      "width": 900
+    }
+  }
+}

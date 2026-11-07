@@ -36,6 +36,7 @@
 | 文化 | [お札の肖像](https://ihideck.github.io/chronology/banknotes/) | 1885年〜現在 | 48 | [banknotes/](banknotes/) |
 | 文化 | [歴代横綱](https://ihideck.github.io/chronology/yokozuna/) | 1790年〜現在 | 72 | [yokozuna/](yokozuna/) |
 | 文化 | [将棋の名人と竜王](https://ihideck.github.io/chronology/shogi-titles/) | 1612年〜現在 | 58 | [shogi-titles/](shogi-titles/) |
+| 文化 | [オリンピックと万博](https://ihideck.github.io/chronology/olympics-expos/) | 1851年〜2034年 | 136 | [olympics-expos/](olympics-expos/) |
 | テクノロジー | [ソフトウェアのサポート期間](https://ihideck.github.io/chronology/software-support/) | 1995年〜現在 | 75 | [software-support/](software-support/) |
 <!-- 年表の一覧ここまで -->
 
