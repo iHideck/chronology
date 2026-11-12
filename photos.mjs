@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // 年表の人物写真を Wikimedia Commons から取り込む。
 //   node photos.mjs <ディレクトリ>...
+// 取り込む CSV は chronology.json の data.file。photos.file があれば、そちらを取り込む（写真の列は既定の名前）。
 // <ディレクトリ>/chronology.json と CSV を読み、Wikidata 列の ID から肖像を探して、顔を中心にした正方形に切り出し、
 // photos/<ID>.jpg（128px）と photos/small/<ID>.jpg（48px）に書く。作者とライセンスも CSV に書く。
 // Mac 専用（顔の検出に Vision を使う）。swiftc と ImageMagick（magick）が要る。
@@ -280,17 +281,20 @@ async function loadDataset(arg) {
   const label = basename(dir);
   let conf;
   try { conf = JSON.parse(await readFile(join(dir, 'chronology.json'), 'utf8')); } catch { throw new UserError(`${label}/chronology.json を読めません`); }
-  if (!conf.data?.file) throw new UserError(`${label}/chronology.json に data.file（CSV のファイル名）がありません`);
-  const lacking = PHOTO_ROLES.filter((role) => !conf.data.columns?.[role]);
+  // 議席のページのように主な CSV に人物がいない年表は、photos.file に写真用の CSV を書く（列は既定の名前）
+  const file = conf.photos?.file ?? conf.data?.file;
+  if (!file) throw new UserError(`${label}/chronology.json に data.file（CSV のファイル名）がありません`);
+  const columns = conf.photos?.file ? { ...PHOTO_COLUMNS, ...conf.photos.columns } : conf.data.columns;
+  const lacking = PHOTO_ROLES.filter((role) => !columns?.[role]);
   if (lacking.length) {
     throw new UserError(`${label}/chronology.json の data.columns に ${lacking.join('・')} がありません（${lacking.map((r) => `"${r}": "${PHOTO_COLUMNS[r]}"`).join('、')} のように足してください）`);
   }
-  const cols = { ...DEFAULT_COLUMNS, ...conf.data.columns };
-  const csvFile = join(dir, conf.data.file);
+  const cols = { ...DEFAULT_COLUMNS, ...columns };
+  const csvFile = join(dir, file);
   const text = await readFile(csvFile, 'utf8');
   const rows = parseCSV(text);
   const header = Object.keys(rows[0] ?? {});
-  if (!header.includes('Wikidata')) throw new UserError(`${label}/${conf.data.file} に Wikidata の列（人物の QID）がありません`);
+  if (!header.includes('Wikidata')) throw new UserError(`${label}/${file} に Wikidata の列（人物の QID）がありません`);
   return { dir, label, csvFile, text, rows, header, cols };
 }
 
