@@ -1,0 +1,47 @@
+name: CI
+
+# データの誤り（議席の合計と定数、党の名前、日付、出典）を、main に入ったときと月 2 回に確かめる。
+# 公開リポジトリなので、Actions の分数はかからない。文書だけの変更では流さない。
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "**.md"
+  schedule:
+    # 毎月 1 日と 15 日の 9:00 JST（cron は UTC）
+    - cron: "0 0 1,15 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+      - run: node build.mjs --check
+      # Docker イメージの取得を避けるため、通知用のアクションを使わず curl で送る
+      - name: Notify Slack
+        if: always() && (failure() || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL_DEPLOY }}
+          STATUS: ${{ job.status }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$SLACK_WEBHOOK_URL" ]; then
+            echo "SLACK_WEBHOOK_URL_DEPLOY が設定されていないため、通知を送りません"
+            exit 0
+          fi
+          if [ "$STATUS" = success ]; then color=good; else color=danger; fi
+          payload="$(jq -n --arg color "$color" --arg title "データの検査（chronology・${GITHUB_REF_NAME}）" --arg text "$(printf '%s\n%s' "$STATUS" "$RUN_URL")" \
+            '{username: "CI Weekly Check", attachments: [{color: $color, title: $title, text: $text}]}')"
+          curl -fsS -X POST -H 'Content-Type: application/json' --data "$payload" "$SLACK_WEBHOOK_URL"
