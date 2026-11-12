@@ -1,0 +1,659 @@
+<title>@@TITLE@@ @@FIRST@@〜現在</title>
+<meta name="description" content="@@DESCRIPTION@@">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0B0E13">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Inter+Tight:wght@500;700;800&display=swap">
+<style>
+/* 選挙特番調の暗い画面。ライトテーマは作らない。 */
+:root {
+  color-scheme: dark;
+  --bg: #0b0e13;
+  --panel: #12171f;
+  --panel2: #161c25;
+  --line: #232b37;
+  --line2: #2a3340;
+  --ink: #edebe6;
+  --muted: #8d96a4;
+  --soft: #b9c0cb;
+  --amber: #f5a524;
+  --alert: #f07a6e;
+  --good: #5bd08a;
+  --font-body: "BIZ UDPGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", sans-serif;
+  --font-num: "Inter Tight", "BIZ UDPGothic", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.6; -webkit-text-size-adjust: 100%; }
+a { color: #9db8e8; text-underline-offset: 3px; }
+a:hover { color: #c9d8f2; }
+button { font-family: inherit; }
+:focus-visible { outline: 2px solid #9db8e8; outline-offset: 2px; }
+.num { font-family: var(--font-num); font-variant-numeric: tabular-nums; }
+
+.app {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 28px max(40px, env(safe-area-inset-right)) 40px max(40px, env(safe-area-inset-left));
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* 見出し */
+.top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+.brand { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.crumb { margin: 0; display: flex; align-items: center; gap: 10px; font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.08em; color: var(--muted); }
+.crumb a { color: var(--muted); text-decoration: none; }
+.crumb a:hover { color: var(--ink); text-decoration: underline; }
+h1 { margin: 0; font-size: 40px; font-weight: 700; letter-spacing: -0.01em; line-height: 1.2; text-wrap: balance; }
+.now { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; text-align: right; }
+.now .cap { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.14em; color: var(--muted); }
+.now .row { display: flex; align-items: center; gap: 10px; }
+.latest { font-family: var(--font-mono); font-size: 11px; font-weight: 700; color: var(--bg); background: var(--amber); border-radius: 4px; padding: 3px 7px; letter-spacing: 0.08em; }
+.now time { font-family: var(--font-num); font-size: 40px; font-weight: 800; line-height: 1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.now .gov { font-size: 13px; color: var(--muted); }
+
+/* 操作バー */
+.controls { display: flex; justify-content: space-between; align-items: center; gap: 12px 16px; flex-wrap: wrap; }
+.seg { display: flex; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 4px; gap: 2px; }
+.seg button { height: 38px; padding: 0 20px; border-radius: 999px; border: 0; font-size: 14px; font-weight: 700; cursor: pointer; background: transparent; color: var(--soft); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.pill { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 10px; border: 1px solid rgba(245, 165, 36, 0.55); border-radius: 18px; padding: 6px 14px; font-size: 12px; }
+.pill b { font-weight: 700; color: var(--amber); }
+.pill[data-kind="minority"] { border-color: rgba(240, 122, 110, 0.6); }
+.pill[data-kind="minority"] b { color: var(--alert); }
+.pill[data-kind="dissolved"], .pill[data-kind="noRuling"] { border-color: var(--line2); }
+.pill[data-kind="dissolved"] b, .pill[data-kind="noRuling"] b { color: var(--soft); }
+.pill i { width: 1px; height: 12px; background: var(--line2); }
+.pill .bad { color: var(--alert); }
+.pill .ok { color: var(--soft); }
+.pill .sub { color: var(--muted); }
+.key { display: flex; align-items: center; gap: 8px 18px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
+.key span { display: inline-flex; align-items: center; gap: 8px; }
+.key .l { width: 24px; border-top: 2px dashed var(--ink); }
+.key .l.dot { border-top: 2px dotted var(--ink); }
+.key .mono { font-family: var(--font-mono); letter-spacing: 0.04em; }
+
+/* 院のパネル。段の高さは左右でそろえる（subgrid） */
+.panels { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); column-gap: 16px; row-gap: 0; }
+.panel {
+  min-width: 0;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 26px 26px 28px;
+  display: grid;
+  grid-row: span 8;
+  grid-template-rows: subgrid;
+  row-gap: 20px;
+  align-content: start;
+  margin-bottom: 16px;
+}
+.panel > :nth-child(1) { grid-row: 1; }
+.panel > :nth-child(2) { grid-row: 2; }
+.panel > :nth-child(3) { grid-row: 3; }
+.panel > :nth-child(4) { grid-row: 4; }
+.panel > :nth-child(5) { grid-row: 5; }
+.panel > :nth-child(6) { grid-row: 6; }
+.panel > :nth-child(7) { grid-row: 7; }
+.panel > :nth-child(8) { grid-row: 8; }
+.panel[data-phase="none"] > :nth-child(n + 4) { display: none; }
+.p-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; flex-wrap: wrap; }
+.p-head .en { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.16em; color: var(--muted); }
+.p-head h2 { margin: 0; font-size: 28px; font-weight: 700; letter-spacing: 0.02em; line-height: 1.3; }
+.p-head .when { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; font-size: 13px; color: var(--muted); }
+.p-head .when em { font-style: normal; color: var(--amber); }
+.p-head .when time { font-family: var(--font-mono); font-size: 15px; font-weight: 700; letter-spacing: 0.04em; color: var(--ink); }
+.p-headline { margin: 0; font-size: 16px; font-weight: 700; line-height: 1.6; min-height: 3.2em; }
+.p-fan svg { display: block; width: 100%; height: auto; overflow: visible; }
+.fan circle { transition: opacity 0.12s; }
+.fan.hl-on circle:not(.hl) { opacity: 0.1; }
+.fan.hl-on circle.hl { opacity: 1; stroke: var(--ink); stroke-width: 1.5; }
+.p-bar { display: flex; flex-direction: column; gap: 8px; }
+.bar { position: relative; height: 10px; }
+.bar .fill { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: var(--line); }
+.bar .fill i { display: block; height: 100%; }
+.bar .tick { position: absolute; top: -5px; height: 20px; border-left: 2px dashed var(--ink); }
+.bar .tick.two { border-left: 2px dotted var(--ink); }
+.barfoot { display: flex; justify-content: space-between; align-items: baseline; gap: 4px 12px; flex-wrap: wrap; }
+.barfoot .who { font-size: 13px; color: var(--muted); }
+.barfoot .who b { font-family: var(--font-num); font-size: 20px; color: var(--ink); margin-left: 6px; font-variant-numeric: tabular-nums; }
+.barfoot .st { font-size: 13px; font-weight: 700; color: var(--ink); text-align: right; }
+.barfoot .st.bad { color: var(--alert); }
+.barfoot .st small { display: block; font-weight: 400; font-size: 11px; color: var(--muted); }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.stat { background: var(--panel2); padding: 12px 14px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.stat .k { font-size: 11px; color: var(--muted); }
+.stat .v { font-family: var(--font-num); font-size: 22px; font-weight: 800; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; line-height: 1.25; white-space: nowrap; }
+.stat .s { font-size: 11px; color: var(--muted); min-height: 1.6em; }
+.legend { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2px 24px; align-content: start; }
+.legend li { display: flex; align-items: center; gap: 10px; font-size: 14px; padding: 6px 0; border-bottom: 1px solid #1c232d; cursor: default; }
+.legend li:hover, .legend li.on { background: rgba(255, 255, 255, 0.04); }
+.legend .sw { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.legend .nm { flex: 1; min-width: 0; overflow-wrap: anywhere; line-height: 1.3; }
+.legend .sub { font-family: var(--font-mono); font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.legend .sub.up { color: var(--good); }
+.legend .sub.down { color: var(--alert); }
+.legend .v { font-family: var(--font-num); font-weight: 700; font-size: 16px; font-variant-numeric: tabular-nums; min-width: 32px; text-align: right; }
+.p-notes { display: flex; flex-direction: column; gap: 6px; margin-top: -10px; }
+.p-notes:empty { display: none; }
+.p-notes p { margin: 0; font-size: 12px; color: var(--muted); }
+.p-notes p.stale { color: var(--amber); }
+.people { display: flex; flex-direction: column; gap: 10px; }
+.people .cap { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; color: var(--muted); }
+.people ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 14px; }
+.people li { display: flex; align-items: center; gap: 12px; flex: 1 1 170px; min-width: 0; }
+.people .face { width: 52px; height: 52px; flex: none; border-radius: 50%; object-fit: cover; background: #1b222c; box-shadow: 0 0 0 2px var(--panel), 0 0 0 4px var(--ring, var(--line2)); }
+.people .role { font-size: 11px; color: var(--muted); display: block; }
+.people .name { font-size: 16px; font-weight: 700; }
+
+/* 時系列 */
+.timeline { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 22px 26px 26px; display: flex; flex-direction: column; gap: 18px; }
+.tl-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.tl-head h2 { margin: 0; font-size: 18px; font-weight: 700; display: flex; align-items: baseline; gap: 12px; }
+.tl-head h2 span { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; color: var(--muted); font-weight: 400; }
+.tl-btns { display: flex; gap: 8px; }
+.round { width: 44px; height: 44px; border-radius: 22px; border: 1px solid var(--line2); background: var(--panel2); color: var(--ink); display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
+.round:disabled { opacity: 0.35; cursor: default; }
+.play { height: 44px; padding: 0 20px; border-radius: 22px; border: 0; background: var(--ink); color: var(--bg); font-size: 14px; font-weight: 700; display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.tl-scroll { overflow-x: auto; padding-top: 24px; scrollbar-color: var(--line2) transparent; }
+.tl-grid { min-width: 900px; display: grid; grid-template-columns: 60px minmax(0, 1fr); column-gap: 14px; }
+/* 狭い画面で横にスクロールしても、段の名前は左に残す */
+.tl-labels { position: sticky; left: 0; z-index: 4; background: var(--panel); box-shadow: 14px 0 0 var(--panel); height: 140px; font-size: 12px; font-weight: 700; }
+.tl-labels span { position: absolute; left: 0; }
+.tl-labels .sm { font-size: 11px; font-weight: 400; color: var(--muted); }
+.tl-track { position: relative; height: 140px; cursor: pointer; touch-action: pan-x pan-y; user-select: none; -webkit-user-select: none; }
+.tl-track .gov { position: absolute; top: 0; height: 22px; border-radius: 4px; padding-left: 6px; font-size: 11px; color: #0b0e13; font-weight: 700; display: flex; align-items: center; overflow: hidden; white-space: nowrap; border-right: 1px solid var(--panel); }
+.tl-track .rail { position: absolute; height: 2px; background: #3a4352; transform: translateY(-1px); border-radius: 1px; }
+.tl-track .band { position: absolute; top: 106px; height: 10px; border-radius: 2px; }
+.tl-track .band.twisted { background: repeating-linear-gradient(45deg, rgba(245, 165, 36, 0.75) 0 2px, rgba(245, 165, 36, 0.18) 2px 5px); }
+.tl-track .band.minority { background: repeating-linear-gradient(-45deg, rgba(240, 122, 110, 0.8) 0 3px, rgba(240, 122, 110, 0.25) 3px 5px); }
+.mark { position: absolute; width: 10px; height: 10px; padding: 0; border: 2px solid var(--panel); box-sizing: content-box; background: #6b7584; cursor: pointer; transform: translate(-50%, -50%); }
+.mark.lower { top: 44px; border-radius: 50%; }
+.mark.upper { top: 82px; border-radius: 1px; transform: translate(-50%, -50%) rotate(45deg); width: 9px; height: 9px; }
+.mark.on { background: var(--ink); }
+.mark:hover { background: var(--amber); }
+.mark:focus-visible { outline-offset: 3px; }
+.cur-line { position: absolute; top: -4px; bottom: 0; width: 2px; margin-left: -1px; background: var(--amber); pointer-events: none; }
+.cur-flag { position: absolute; top: -26px; font-family: var(--font-mono); font-size: 11px; font-weight: 700; color: var(--bg); background: var(--amber); border-radius: 4px; padding: 2px 6px; white-space: nowrap; pointer-events: none; transform: translateX(-100%); }
+.cur-flag.right { transform: none; }
+.knob { position: absolute; top: 128px; width: 16px; height: 16px; margin-left: -8px; border-radius: 50%; background: var(--amber); border: 3px solid var(--panel); box-shadow: 0 0 0 1px var(--amber); cursor: grab; touch-action: none; }
+.knob:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+.tl-ticks { position: relative; height: 18px; margin-top: 12px; font-family: var(--font-mono); font-size: 11px; color: var(--muted); }
+.tl-ticks span { position: absolute; transform: translateX(-50%); }
+.tl-note { margin: 0; font-size: 12px; color: var(--muted); }
+
+.related { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; font-size: 14px; }
+.related .cap { font-size: 13px; color: var(--muted); }
+.foot { font-size: 12px; color: var(--muted); display: flex; flex-direction: column; gap: 6px; padding-top: 4px; border-top: 1px solid var(--line); }
+.foot ul { margin: 12px 0 0; padding-left: 1.2em; display: grid; gap: 4px; }
+.foot p { margin: 0; overflow-wrap: anywhere; }
+.foot a { color: inherit; }
+
+@media (max-width: 760px) {
+  .app { padding: 18px max(16px, env(safe-area-inset-right)) 28px max(16px, env(safe-area-inset-left)); gap: 18px; }
+  h1 { font-size: 26px; }
+  .now { align-items: flex-start; text-align: left; }
+  .now time { font-size: 32px; }
+  .panel { padding: 20px 16px 22px; border-radius: 14px; }
+  .p-head h2 { font-size: 24px; }
+  .stat { padding: 10px; }
+  .stat .v { font-size: 15px; }
+  .legend { column-gap: 14px; }
+  .legend li { font-size: 13px; gap: 8px; }
+  .timeline { padding: 18px 14px 20px; border-radius: 14px; }
+  .fan-line, .fan-cap, .fan-side { font-size: 17px; }
+  .fan-total { font-size: 70px; }
+  .pill { border-radius: 14px; }
+}
+@media (max-width: 420px) {
+  .legend { grid-template-columns: minmax(0, 1fr); }
+  .seg button { padding: 0 14px; }
+  .stat .v { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) { .fan circle { transition: none; } }
+</style>
+<!--@@BODY@@-->
+
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <p class="crumb">
+        <svg width="26" height="14" viewBox="0 0 26 14" aria-hidden="true"><circle cx="2" cy="12" r="1.8" fill="#F0443A"/><circle cx="5" cy="6" r="1.8" fill="#F0443A"/><circle cx="10" cy="2.4" r="1.8" fill="#4CC26E"/><circle cx="16" cy="2.4" r="1.8" fill="#F7C736"/><circle cx="21" cy="6" r="1.8" fill="#48B4FF"/><circle cx="24" cy="12" r="1.8" fill="#48B4FF"/><circle cx="8" cy="10" r="1.8" fill="#F0443A"/><circle cx="13" cy="7" r="1.8" fill="#FF9A1F"/><circle cx="18" cy="10" r="1.8" fill="#3D7BEA"/></svg>
+        <a href="@@HOME@@">chronology ／ 国会の議席 @@FIRST@@–現在</a>
+      </p>
+      <h1>国会の議席は、どう動いてきたか</h1>
+    </div>
+    <div class="now">
+      <span class="cap">表示中の時点</span>
+      <div class="row"><span class="latest" id="latest" hidden>LATEST</span><time id="date"></time></div>
+      <span class="gov" id="gov"></span>
+    </div>
+  </header>
+
+  <div class="controls">
+    <div class="seg" role="group" aria-label="扇グラフの色分け">
+      <button type="button" id="mode-party" aria-pressed="true">政党別</button>
+      <button type="button" id="mode-bloc" aria-pressed="false">与党・野党</button>
+    </div>
+    <div class="pill" id="status" role="status" hidden></div>
+    <div class="key">
+      <span><i class="l"></i>過半数</span>
+      <span><i class="l dot"></i>3分の2</span>
+      <span class="mono">左端＝与党第一党　右端＝最大野党</span>
+    </div>
+  </div>
+
+  <main class="panels" id="panels">
+<!--@@PANEL-->
+    <section class="panel" data-house="@@HOUSE@@" data-phase="seated">
+      <div class="p-head">
+        <div><span class="en" data-f="en"></span><h2 data-f="name"></h2></div>
+        <div class="when"><span data-f="election"></span><time data-f="date"></time></div>
+      </div>
+      <p class="p-headline" data-f="headline"></p>
+      <div class="p-fan" data-f="fan">@@FAN@@</div>
+      <div class="p-bar">
+        <div class="bar"><div class="fill" data-f="fill"></div><span class="tick" data-f="tick-maj"></span><span class="tick two" data-f="tick-two"></span></div>
+        <div class="barfoot"><span class="who" data-f="who"></span><span class="st" data-f="st"></span></div>
+      </div>
+      <div class="stats" data-f="stats"></div>
+      <ul class="legend" data-f="legend"></ul>
+      <div class="p-notes" data-f="notes"></div>
+      <div class="people" data-f="people"></div>
+    </section>
+<!--@@/PANEL-->
+  </main>
+
+  <section class="timeline" aria-label="時系列">
+    <div class="tl-head">
+      <h2>時系列<span>TIMELINE</span></h2>
+      <div class="tl-btns">
+        <button type="button" class="round" id="prev" aria-label="前の選挙へ"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <button type="button" class="play" id="play"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" id="play-icon"><path d="M7 4l13 8-13 8z"/></svg><span id="play-text">最初から再生</span></button>
+        <button type="button" class="round" id="next" aria-label="次の選挙へ"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
+    </div>
+    <div class="tl-scroll" id="tl-scroll">
+      <div class="tl-grid">
+        <div class="tl-labels"><span class="sm" style="top:4px">政権</span><span style="top:36px">衆議院</span><span style="top:74px">参議院</span><span class="sm" style="top:104px">ねじれ・少数</span></div>
+        <div class="tl-track" id="track"></div>
+        <div></div>
+        <div class="tl-ticks" id="ticks"></div>
+      </div>
+    </div>
+    <p class="tl-note">● 衆議院総選挙　◆ 参議院通常選挙　<span style="color:var(--amber)">▨</span> ねじれ（衆議院で与党が過半数、参議院で過半数割れ）　<span style="color:var(--alert)">▨</span> 少数与党（衆議院で与党が過半数割れ）｜ バーを押すか、つまみをドラッグ（キーボードは ←→ で1か月、Shift＋←→ で前後の選挙）すると、その日の両院の構成を上に表示します。</p>
+  </section>
+
+  <nav class="related" aria-label="この時点の年表へ" id="related"><span class="cap">この時点の年表へ</span></nav>
+
+  <footer class="foot">
+    <ul>@@NOTES@@</ul>
+    <p>出典：@@SOURCES@@</p>
+    @@CREDITS@@
+    <p>データと作り方：<a href="https://github.com/iHideck/chronology/tree/main/@@DIR@@" target="_blank" rel="noopener">GitHub（iHideck/chronology）</a></p>
+  </footer>
+</div>
+
+<script type="module">
+/*@@LIB@@*/
+
+const DATA = /*@@DATA@@*/null;
+
+// ---- モデルと時点
+const todayJST = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
+const asOfIso = todayJST > DATA.asOf ? todayJST : DATA.asOf;
+const model = buildSeatsModel({
+  parties: DATA.parties, results: DATA.results, governments: DATA.governments, elections: DATA.elections,
+  primeMinisters: DATA.pms, asOf: asOfIso, files: DATA.files,
+});
+const T_FIRST = model.first;
+const T_LAST = model.asOf;
+const clampT = (v) => Math.max(T_FIRST, Math.min(T_LAST, v));
+const dates = electionDates(model);
+
+const $ = (s, r = document) => r.querySelector(s);
+const escHtml = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+
+function timeFromHash() {
+  const m = /^#(\d{4}(?:-\d{2}(?:-\d{2})?)?)$/.exec(location.hash);
+  if (!m || !parseDate(m[1])) return null;
+  return clampT(toTime(m[1]));
+}
+
+let t = timeFromHash() ?? T_LAST;
+let mode = 'party';
+const hl = { lower: null, upper: null };
+
+// ---- パネル
+const panels = Object.fromEntries(['lower', 'upper'].map((k) => [k, $(`.panel[data-house="${k}"]`)]));
+const f = (k, name) => $(`[data-f="${name}"]`, panels[k]);
+const statusClass = (s) => (s === '過半数割れ' ? 'bad' : '');
+
+function applyHighlight(k) {
+  const svg = $('svg', f(k, 'fan'));
+  if (!svg) return;
+  svg.classList.toggle('hl-on', !!hl[k]);
+  for (const c of svg.querySelectorAll('circle')) c.classList.toggle('hl', !!hl[k] && c.dataset.k === hl[k]);
+  for (const li of f(k, 'legend').children) li.classList.toggle('on', !!hl[k] && li.dataset.k === hl[k]);
+}
+
+function paintPanel(k, h) {
+  const root = panels[k];
+  root.dataset.phase = h.phase;
+  f(k, 'en').textContent = h.en;
+  f(k, 'name').textContent = h.name;
+  if (h.phase === 'none') {
+    f(k, 'election').textContent = '';
+    f(k, 'date').textContent = '';
+    f(k, 'headline').textContent = '';
+    f(k, 'fan').innerHTML = renderHouseSVG(h, { mode });
+    return;
+  }
+  const e = h.election;
+  const kind = k === 'lower' ? '総選挙' : '通常選挙';
+  const parts = [`${e.short} ${kind}`];
+  if (k === 'lower' && e.n === 22) parts.push('（帝国議会の衆議院）');
+  f(k, 'election').replaceChildren(parts.join(' '), ...(h.phase === 'dissolved' ? [' ', Object.assign(document.createElement('em'), { textContent: `解散中（${dotOf(h.dissolvedAt)}解散）` })] : []));
+  f(k, 'date').textContent = dotOf(e.date);
+  f(k, 'headline').textContent = headline(model, k, e);
+  f(k, 'fan').innerHTML = renderHouseSVG(h, { mode });
+
+  // 与党の議席のバー
+  const pct = (n) => `${((n / h.total) * 100).toFixed(2)}%`;
+  const fill = f(k, 'fill');
+  fill.replaceChildren();
+  if (h.hasRuling) {
+    const segs = mode === 'bloc' ? [{ n: h.ruling, c: BLOC.ruling }] : h.groups.filter((g) => g.role === 'ruling').map((g) => ({ n: g.count, c: g.color }));
+    for (const s of segs) {
+      const i = document.createElement('i');
+      i.style.width = pct(s.n);
+      i.style.background = s.c;
+      fill.append(i);
+    }
+  }
+  fill.style.opacity = h.phase === 'dissolved' ? '0.35' : '1';
+  f(k, 'tick-maj').style.left = pct(h.majority);
+  f(k, 'tick-two').style.left = pct(h.twoThirds);
+  const names = h.groups.filter((g) => g.role === 'ruling').map((g) => g.short).join('・');
+  f(k, 'who').innerHTML = h.hasRuling ? `与党（${escHtml(names)}）<b>${h.ruling}</b>` : '与党なし';
+  const st = f(k, 'st');
+  if (h.phase === 'dissolved') {
+    st.className = 'st';
+    st.innerHTML = '解散中<small>この議会は判定しない</small>';
+  } else if (!h.hasRuling) {
+    st.className = 'st';
+    st.textContent = '';
+  } else {
+    st.className = `st ${statusClass(h.status)}`;
+    st.innerHTML = `${escHtml(h.status)}${h.reach ? `<small>${escHtml(h.reach)}</small>` : ''}`;
+  }
+
+  // 数字
+  f(k, 'stats').innerHTML = houseStats(model, h).map((s) => `<div class="stat"><span class="k">${escHtml(s.label)}</span><span class="v">${escHtml(s.value)}</span><span class="s">${escHtml(s.sub)}</span></div>`).join('');
+
+  // 凡例
+  f(k, 'legend').innerHTML = legendEntries(h, mode).map((x) => {
+    const cls = x.delta > 0 ? ' up' : x.delta < 0 ? ' down' : '';
+    return `<li data-k="${escHtml(x.key)}"><span class="sw" style="background:${escHtml(x.color)}"></span><span class="nm">${escHtml(x.label)}</span><span class="sub${cls}">${escHtml(x.sub)}</span><span class="v">${x.value}</span></li>`;
+  }).join('');
+
+  // 注記
+  const notes = [];
+  if (mode === 'bloc') notes.push('<p>与党・閣外協力の範囲は、表示中の時点の内閣による。</p>');
+  else if (k === 'upper') notes.push('<p>右の数字は「今回改選＋非改選」。扇の濃い色が今回改選、淡い色が非改選。</p>');
+  else if (h.election.seats.every((s) => s.before != null)) notes.push('<p>右の数字は選挙前の議席からの増減（選挙前は、資料により公示前か解散時の数）。</p>');
+  if (h.note) notes.push(`<p class="stale">${escHtml(h.note)}</p>`);
+  f(k, 'notes').innerHTML = notes.join('');
+
+  // 顔ぶれ
+  const people = faces(model, h);
+  f(k, 'people').innerHTML = people.length
+    ? `<span class="cap">顔ぶれ</span><ul>${people.map((p) => `<li>${p.photo ? `<img class="face" src="${escHtml(DATA.pmBase + p.photo)}" alt="" width="52" height="52" loading="lazy" style="--ring:${escHtml(p.color)}">` : `<span class="face" style="--ring:${escHtml(p.color)}"></span>`}<span><span class="role">${escHtml(p.role)}</span><span class="name">${escHtml(p.name)}</span></span></li>`).join('')}</ul>`
+    : '';
+  applyHighlight(k);
+}
+
+// ---- 見出しと状態の札
+function paintHeader(s) {
+  $('#date').textContent = dotOf(s.t);
+  $('#date').dateTime = isoOf(s.t);
+  $('#latest').hidden = isoOf(s.t) !== asOfIso;
+  const g = govSummary(model, s.government);
+  $('#gov').textContent = g
+    ? `${g.cabinet}（${g.since}〜）　与党：${g.ruling.join('・') || 'なし'}${g.outside.length ? `　閣外協力：${g.outside.join('・')}` : ''}`
+    : '内閣のデータなし';
+  const box = $('#status');
+  const st = s.status;
+  box.hidden = !st.kind;
+  if (!st.kind) { box.textContent = ''; return; }
+  box.dataset.kind = st.kind;
+  const row = (h) => `<span class="${h.status === '過半数割れ' ? 'bad' : 'ok'}">${h.short} ${escHtml(h.status)}</span>`;
+  const bits = [`<b>${escHtml(st.label)}</b>`];
+  if (st.kind === 'twisted' || st.kind === 'minority') bits.push('<i></i>', row(s.lower), row(s.upper));
+  if (st.kind === 'dissolved') bits.push('<i></i>', `<span class="sub">${dotOf(s.lower.dissolvedAt)} 解散</span>`);
+  if (st.note) bits.push('<i></i>', `<span class="sub">${escHtml(st.note)}</span>`);
+  box.innerHTML = bits.join('');
+}
+
+// ---- 時系列
+const tStart = fromYMD(ymd(T_FIRST).y, 1, 1);
+const tEnd = T_LAST + 45 * DAY;
+const xPct = (v) => ((v - tStart) / (tEnd - tStart)) * 100;
+const track = $('#track');
+const scroller = $('#tl-scroll');
+const cursor = { line: document.createElement('div'), flag: document.createElement('div'), knob: document.createElement('div') };
+const markEls = [];
+
+function buildTimeline() {
+  const parts = [];
+  for (const b of govBands(model)) {
+    const s = Math.max(b.start, tStart);
+    parts.push(`<div class="gov" style="left:${xPct(s).toFixed(3)}%;width:${(xPct(b.end) - xPct(s)).toFixed(3)}%;background:${escHtml(b.color)}" title="${escHtml(b.cabinet)}（${escHtml(isoOf(b.start))}〜）">${escHtml(b.surname)}</div>`);
+  }
+  // 衆議院は解散中を途切れさせ、参議院は途切れない
+  for (const k of ['lower', 'upper']) {
+    const list = model.houses[k].filter((e) => e.covered);
+    const y = k === 'lower' ? 44 : 82;
+    list.forEach((e, i) => {
+      const next = list[i + 1];
+      const stop = k === 'lower' && e.how === '解散' && e.end != null ? e.end : (next?.date ?? T_LAST);
+      parts.push(`<div class="rail" style="top:${y}px;left:${xPct(e.date).toFixed(3)}%;width:${(xPct(Math.min(stop, T_LAST)) - xPct(e.date)).toFixed(3)}%"></div>`);
+    });
+  }
+  for (const b of statusBands(model)) {
+    parts.push(`<div class="band ${b.kind}" style="left:${xPct(b.start).toFixed(3)}%;width:${(xPct(b.end) - xPct(b.start)).toFixed(3)}%" title="${b.kind === 'twisted' ? 'ねじれ国会' : '少数与党'} ${escHtml(isoOf(b.start))}〜${escHtml(isoOf(b.end))}"></div>`);
+  }
+  track.innerHTML = parts.join('');
+  for (const k of ['lower', 'upper']) {
+    for (const e of model.houses[k].filter((x) => x.covered)) {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = `mark ${k}`;
+      b.style.left = `${xPct(e.date).toFixed(3)}%`;
+      b.dataset.t = String(e.date);
+      b.dataset.h = k;
+      b.title = `${HOUSES[k].name} ${e.name}（${e.dateStr}）`;
+      b.setAttribute('aria-label', b.title);
+      b.addEventListener('click', (ev) => { ev.stopPropagation(); setTime(e.date); });
+      track.append(b);
+      markEls.push(b);
+    }
+  }
+  cursor.line.className = 'cur-line';
+  cursor.flag.className = 'cur-flag';
+  cursor.knob.className = 'knob';
+  cursor.knob.tabIndex = 0;
+  cursor.knob.setAttribute('role', 'slider');
+  cursor.knob.setAttribute('aria-label', '表示する日付');
+  cursor.knob.setAttribute('aria-valuemin', isoOf(T_FIRST));
+  cursor.knob.setAttribute('aria-valuemax', isoOf(T_LAST));
+  track.append(cursor.line, cursor.flag, cursor.knob);
+
+  const span = (tEnd - tStart) / YEAR;
+  const step = span > 50 ? 10 : span > 25 ? 5 : span > 12 ? 2 : 1;
+  const y0 = ymd(tStart).y;
+  const ticks = [];
+  for (let y = Math.ceil(y0 / step) * step; fromYMD(y, 1, 1) < tEnd; y += step) ticks.push(`<span style="left:${xPct(fromYMD(y, 1, 1)).toFixed(3)}%">${y}</span>`);
+  $('#ticks').innerHTML = ticks.join('');
+}
+
+function paintTimeline(s) {
+  const left = xPct(s.t);
+  for (const el of [cursor.line, cursor.flag, cursor.knob]) el.style.left = `${left.toFixed(3)}%`;
+  cursor.flag.textContent = dotOf(s.t);
+  cursor.knob.setAttribute('aria-valuenow', isoOf(s.t));
+  cursor.knob.setAttribute('aria-valuetext', `${isoOf(s.t)}${s.status.label ? `　${s.status.label}` : ''}`);
+  const cur = { lower: s.lower.election?.date, upper: s.upper.election?.date };
+  for (const m of markEls) m.classList.toggle('on', Number(m.dataset.t) === cur[m.dataset.h]);
+  // 左端に近いときは、日付の札を右側に出す
+  cursor.flag.classList.toggle('right', cursor.line.offsetLeft < 90);
+}
+
+function ensureVisible() {
+  const x = cursor.line.offsetLeft + track.offsetLeft;
+  const view = scroller.clientWidth;
+  if (x < scroller.scrollLeft + 80 || x > scroller.scrollLeft + view - 40) scroller.scrollLeft = Math.max(0, x - view / 2);
+}
+
+// ---- 描画
+const related = DATA.related ?? [];
+const relatedLinks = related.map((r) => {
+  const a = document.createElement('a');
+  a.textContent = r.title;
+  a.rel = 'noopener';
+  $('#related').append(a);
+  return { a, url: r.url };
+});
+
+let frame = 0;
+function paint() {
+  const s = stateAt(model, t);
+  paintHeader(s);
+  paintPanel('lower', s.lower);
+  paintPanel('upper', s.upper);
+  paintTimeline(s);
+  for (const { a, url } of relatedLinks) a.href = `${url}#${isoOf(t)}`;
+  $('#prev').disabled = !dates.some((d) => d < t);
+  $('#next').disabled = !dates.some((d) => d > t);
+}
+function schedulePaint() {
+  if (!frame) frame = requestAnimationFrame(() => { frame = 0; paint(); });
+}
+
+function setTime(next, { user = true, scroll = true } = {}) {
+  if (user) stopPlay();
+  t = clampT(next);
+  history.replaceState(null, '', `#${isoOf(t)}`);
+  schedulePaint();
+  if (scroll) requestAnimationFrame(ensureVisible);
+}
+
+// ---- 操作：切り替え
+function setMode(next) {
+  mode = next;
+  $('#mode-party').setAttribute('aria-pressed', String(next === 'party'));
+  $('#mode-bloc').setAttribute('aria-pressed', String(next === 'bloc'));
+  hl.lower = null;
+  hl.upper = null;
+  paint();
+}
+$('#mode-party').addEventListener('click', () => setMode('party'));
+$('#mode-bloc').addEventListener('click', () => setMode('bloc'));
+
+// 凡例の党にカーソルを合わせる（タップでも）と、その党の点を目立たせる
+for (const k of ['lower', 'upper']) {
+  const legend = f(k, 'legend');
+  const set = (key) => { hl[k] = key; applyHighlight(k); };
+  legend.addEventListener('pointerover', (e) => { if (e.pointerType === 'mouse') set(e.target.closest('li')?.dataset.k ?? null); });
+  legend.addEventListener('pointerleave', (e) => { if (e.pointerType === 'mouse') set(null); });
+  legend.addEventListener('click', (e) => {
+    const key = e.target.closest('li')?.dataset.k ?? null;
+    set(hl[k] === key ? null : key);
+  });
+  legend.addEventListener('focusout', () => set(null));
+}
+
+// ---- 操作：時系列
+const timeAtX = (clientX) => {
+  const r = track.getBoundingClientRect();
+  const ratio = Math.max(0, Math.min(1, (clientX - r.left) / r.width));
+  return Math.round((tStart + ratio * (tEnd - tStart)) / DAY) * DAY;
+};
+let dragging = false;
+track.addEventListener('pointerdown', (e) => {
+  if (e.target.closest('.mark') || (e.pointerType === 'touch' && !e.target.closest('.knob'))) return;
+  dragging = true;
+  track.setPointerCapture(e.pointerId);
+  cursor.knob.focus({ preventScroll: true });
+  setTime(timeAtX(e.clientX), { scroll: false });
+  e.preventDefault();
+});
+track.addEventListener('pointermove', (e) => { if (dragging) setTime(timeAtX(e.clientX), { scroll: false }); });
+const endDrag = () => { dragging = false; };
+track.addEventListener('pointerup', endDrag);
+track.addEventListener('pointercancel', endDrag);
+// 指でバーを押したときは、スクロールと区別するため、離したときに時点を動かす
+track.addEventListener('click', (e) => {
+  if (e.target.closest('.mark') || e.target.closest('.knob') || e.pointerType !== 'touch') return;
+  setTime(timeAtX(e.clientX));
+});
+
+const prevDate = () => dates.findLast((d) => d < t);
+const nextDate = () => dates.find((d) => d > t);
+$('#prev').addEventListener('click', () => { const d = prevDate(); if (d != null) setTime(d); });
+$('#next').addEventListener('click', () => { const d = nextDate(); if (d != null) setTime(d); });
+cursor.knob.addEventListener('keydown', (e) => {
+  const step = (n) => setTime(addMonths(t, n));
+  let handled = true;
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowDown') { if (e.shiftKey) { const d = prevDate(); if (d != null) setTime(d); } else step(-1); }
+  else if (e.key === 'ArrowRight' || e.key === 'ArrowUp') { if (e.shiftKey) { const d = nextDate(); if (d != null) setTime(d); } else step(1); }
+  else if (e.key === 'Home') setTime(T_FIRST);
+  else if (e.key === 'End') setTime(T_LAST);
+  else handled = false;
+  if (handled) e.preventDefault();
+});
+
+// ---- 再生：選挙を1つずつ進める
+let timer = 0;
+const playBtn = $('#play');
+function setPlayLabel(on) {
+  $('#play-text').textContent = on ? '停止' : '最初から再生';
+  $('#play-icon').innerHTML = on ? '<path d="M6 4h4v16H6zM14 4h4v16h-4z"/>' : '<path d="M7 4l13 8-13 8z"/>';
+}
+function stopPlay() {
+  if (!timer) return;
+  clearInterval(timer);
+  timer = 0;
+  setPlayLabel(false);
+}
+function startPlay() {
+  stopPlay();
+  let i = 0;
+  setTime(dates[0], { user: false });
+  setPlayLabel(true);
+  timer = setInterval(() => {
+    i += 1;
+    if (i >= dates.length) { stopPlay(); return; }
+    setTime(dates[i], { user: false });
+    if (i === dates.length - 1) stopPlay();
+  }, reduceMotion.matches ? 400 : 1200);
+}
+playBtn.addEventListener('click', () => (timer ? stopPlay() : startPlay()));
+
+window.addEventListener('hashchange', () => {
+  const next = timeFromHash();
+  if (next == null || next === t) return;
+  stopPlay();
+  t = next;
+  schedulePaint();
+  requestAnimationFrame(ensureVisible);
+});
+
+buildTimeline();
+paint();
+requestAnimationFrame(ensureVisible);
+</script>

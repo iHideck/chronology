@@ -2,6 +2,7 @@
 // 各ディレクトリの chronology.json と CSV から、年表を作り直す。
 //   node build.mjs                    … 今日（日本時間）を「時点」として生成
 //   node build.mjs --as-of=2026-10-30 … 時点の日付を指定して生成
+//   node build.mjs --check            … データの検査だけをして、何も書かずに終わる
 // 出力: 各ディレクトリの index.html（ブラウザで開く版）・timeline-light.svg / timeline-dark.svg（README用）・README.md、
 //       トップの index.html（年表の一覧）と README.md の一覧
 import { readFile, writeFile, readdir } from 'node:fs/promises';
@@ -9,6 +10,8 @@ import { existsSync } from 'node:fs';
 import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as TL from './src/timeline.mjs';
+import * as SM from './src/seats.mjs';
+import * as SB from './src/seats-build.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 const read = (p) => readFile(join(root, p), 'utf8');
@@ -25,12 +28,21 @@ for (const d of await readdir(root, { withFileTypes: true })) {
   if (!d.isDirectory() || d.name.startsWith('.') || !existsSync(join(root, d.name, 'chronology.json'))) continue;
   const conf = JSON.parse(await read(`${d.name}/chronology.json`));
   const rows = TL.parseCSV(await read(`${d.name}/${conf.data.file}`));
+  // 議席のページは年表と別の形（results.csv に parties.csv と governments.csv が付く）
+  if (conf.kind === 'seats') {
+    if (!conf.data.parties || !conf.data.governments) throw new Error(`${d.name}/chronology.json: 議席のページの data には parties と governments のファイル名が要ります`);
+    const extra = { parties: TL.parseCSV(await read(`${d.name}/${conf.data.parties}`)), governments: TL.parseCSV(await read(`${d.name}/${conf.data.governments}`)) };
+    sets[d.name] = { dir: d.name, conf, rows, extra };
+    continue;
+  }
   const photoCredit = conf.credits?.find((c) => c.photos)?.short;
   sets[d.name] = { dir: d.name, conf, rows, spec: { ...conf.data, title: conf.title, photoCredit } };
 }
 
 // ---- データの点検（日付の書式、順序、列の名前、写真のファイル）
 const problems = [];
+const seatsSets = Object.values(sets).filter((s) => s.conf.kind === 'seats');
+const timelineSets = Object.values(sets).filter((s) => s.conf.kind !== 'seats');
 const ONGOING = new Set(['継続中', '在任中', '現在']);
 const isDate = (s) => TL.parseDate(s) != null;
 // リンクにしてよいのは http(s) の URL だけ（javascript: などをページに書き出さない）
@@ -38,7 +50,7 @@ const isWebUrl = (u) => /^https?:\/\//i.test(u ?? '');
 // 写真の出典は Commons から取った文と URL なので、README の Markdown のリンクや書式にならないようにする
 const mdUrl = (u) => u.replace(/[\s()<>\\]/g, (c) => ({ '(': '%28', ')': '%29' })[c] ?? encodeURIComponent(c));
 const mdText = (s) => String(s ?? '').replace(/[\\[\]<>*_`~]/g, '\\$&');
-for (const s of Object.values(sets)) {
+for (const s of timelineSets) {
   const { spec, rows, dir } = s;
   const C = { ...TL.DEFAULT_COLUMNS, ...spec.columns };
   const file = `${dir}/${spec.file}`;
@@ -105,9 +117,21 @@ for (const s of Object.values(sets)) {
     if (!en && !spec.points && isDate(st) && st > asOf) problems.push(`${where}: 時点（${asOf}）より後に始まっています`);
   });
 }
+if (seatsSets.length) problems.push(...SB.checkTemplates({ page: await read('src/seats.html'), timeline: await read('src/timeline.mjs'), seats: await read('src/seats.mjs') }));
+for (const s of seatsSets) {
+  s.model = SB.seatsModelOf(s, sets, asOf);
+  problems.push(...SM.validateSeats(s.model));
+  for (const u of [...(s.conf.sources ?? []), ...(s.conf.related ?? [])]) {
+    if (u.url && !isWebUrl(u.url) && !u.url.startsWith('../')) problems.push(`${s.dir}/chronology.json: URL「${u.url}」が http:// か https:// で始まっていません`);
+  }
+}
 if (problems.length) {
   console.error(`データに問題があります:\n- ${problems.join('\n- ')}`);
   process.exit(1);
+}
+if (process.argv.includes('--check')) {
+  console.log('データの検査を通りました');
+  process.exit(0);
 }
 
 // ---- ページの設定。page がなければ、そのデータだけを1列に並べる
@@ -240,7 +264,7 @@ const template = await read('src/page.html');
 const lib = await read('src/timeline.mjs');
 const pages = [];
 
-for (const s of Object.values(sets)) {
+for (const s of timelineSets) {
   const dir = s.dir;
   const { page, missing } = usable(pageOf(s), datasetsFor(dir, pageOf(s)));
   if (missing.length) console.warn(`${dir}: データ ${missing.join('、')} がまだないので、その列を外して作ります`);
@@ -398,6 +422,16 @@ for (const s of Object.values(sets)) {
   });
 }
 
+// ---- 議席のページ
+if (seatsSets.length) {
+  const templates = { page: await read('src/seats.html'), timeline: lib, seats: await read('src/seats.mjs') };
+  const helpers = { esc, link, isWebUrl, mdUrl, mdText, scriptJSON, htmlDoc, SITE_URL };
+  for (const s of seatsSets) {
+    await SB.writeSeatsPage({ root, set: s, sets, model: s.model, asOf, templates, h: helpers });
+    pages.push(SB.seatsCard(s, s.model));
+  }
+}
+
 // ---- トップページ（年表の一覧）とルートの README の一覧。分類ごとに、分類の中は order の順
 const CATEGORY_ORDER = ['政治と首脳', '日本の歴史', '文化', 'テクノロジー'];
 const catIndex = (p) => { const i = CATEGORY_ORDER.indexOf(p.conf.category); return i < 0 ? CATEGORY_ORDER.length : i; };
@@ -408,8 +442,8 @@ const home = await read('src/home.html');
 const cards = categories.map((cat) => [
   `<section><h2>${esc(cat)}</h2><ul class="cards">`,
   ...pages.filter((p) => (p.conf.category ?? 'その他') === cat).map((p) => {
-    const colors = p.page.columns.slice(0, 6).map((c) => (c.colorBy === 'group' ? sets[c.data]?.conf.color ?? 'gray' : c.color ?? 'gray'));
-    return `<li><a href="${p.dir}/"><span class="bars" aria-hidden="true">${colors.map((c) => `<i style="background:var(--${c})"></i>`).join('')}</span><b>${esc(p.page.title)}</b><span class="desc">${esc(p.conf.description)}</span><span class="meta">${esc(spanText(p))}・${p.count}件</span></a></li>`;
+    const colors = p.colors ?? p.page.columns.slice(0, 6).map((c) => (c.colorBy === 'group' ? sets[c.data]?.conf.color ?? 'gray' : c.color ?? 'gray'));
+    return `<li><a href="${p.dir}/"><span class="bars" aria-hidden="true">${colors.map((c) => `<i style="background:${c.startsWith('#') ? c : `var(--${c})`}"></i>`).join('')}</span><b>${esc(p.page.title)}</b><span class="desc">${esc(p.conf.description)}</span><span class="meta">${esc(spanText(p))}・${p.count}件</span></a></li>`;
   }),
   '</ul></section>',
 ].join('\n')).join('\n');

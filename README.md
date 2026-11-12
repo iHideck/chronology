@@ -23,6 +23,7 @@
 | 政治と首脳 | [歴代日本銀行総裁](https://ihideck.github.io/chronology/boj-governors/) | 1882年〜現在 | 32 | [boj-governors/](boj-governors/) |
 | 政治と首脳 | [日本銀行総裁と政策金利](https://ihideck.github.io/chronology/policy-rates/) | 1882年〜2026年 | 214 | [policy-rates/](policy-rates/) |
 | 政治と首脳 | [国政選挙と投票率](https://ihideck.github.io/chronology/elections/) | 1946年〜現在 | 57 | [elections/](elections/) |
+| 政治と首脳 | [国会の議席](https://ihideck.github.io/chronology/diet-seats/) | 1946年〜現在 | 57 | [diet-seats/](diet-seats/) |
 | 政治と首脳 | [選挙制度の変更（1945年〜）](https://ihideck.github.io/chronology/electoral-reforms/) | 1945年〜2018年 | 15 | [electoral-reforms/](electoral-reforms/) |
 | 政治と首脳 | [内閣支持率と総理大臣](https://ihideck.github.io/chronology/cabinet-approval/) | 2004年〜2026年 | 265 | [cabinet-approval/](cabinet-approval/) |
 | 日本の歴史 | [元号と天皇](https://ihideck.github.io/chronology/eras/) | 645年〜現在 | 251 | [eras/](eras/) |
@@ -53,7 +54,10 @@
 | `<年表>/README.md` | 説明と一覧表（マーカーの間を `build.mjs` が書き換える） |
 | `src/timeline.mjs` | データの整形・レイアウト・SVG の描画（ビルドとブラウザで共用） |
 | `src/page.html`・`src/home.html` | 年表ページとトップページの雛形 |
-| `build.mjs` | すべての年表を作り直す |
+| `src/seats.mjs` | 国会の議席の、データの組み立て・ある日の状態・扇の配置・SVG の描画（ビルドとブラウザで共用） |
+| `src/seats.html`・`src/seats-build.mjs` | 国会の議席ページ（`diet-seats/`）の雛形と、その検査・書き出し |
+| `diet-seats/*.csv` | 国会の議席のデータ（`results.csv` は議席、`parties.csv` は政党、`governments.csv` は政権の与党） |
+| `build.mjs` | すべての年表を作り直す（`--check` を付けると、データの検査だけをする） |
 | `photos.mjs`・`src/faces.swift` | 肖像を Wikimedia Commons から取り込み、顔の位置で切り抜く（Mac のみ） |
 
 ページには、ほかのディレクトリのデータも列として重ねられます。たとえば総理大臣の年表は、`us-presidents/` や `events/` のデータを読み込んで並べています。
