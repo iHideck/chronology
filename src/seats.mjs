@@ -32,6 +32,9 @@ export function dayOf(s) {
   return Number.isFinite(t) && isoOf(t) === s ? t : NaN;
 }
 const intOf = (s) => (/^\d+$/.test(String(s ?? '').trim()) ? Number(s) : null);
+export const CAMPAIGN_COLUMNS = ['院', '回', '通称', '通称の出どころ', '首相の説明', '野党の批判', '争点', '野党第一党', '党首', '党首の役職', '出典', 'メモ'];
+const LEADER_COLUMNS = ['名前', 'Wikidata', '写真', '写真の出典', '写真のページ', '写真のライセンス'];
+const splitOn = (s, sep) => String(s ?? '').split(sep).map((x) => x.trim()).filter(Boolean);
 const urlsOf = (s) => String(s ?? '').split(' ; ').map((u) => u.trim()).filter(Boolean);
 const isWebUrl = (u) => /^https?:\/\//i.test(u ?? '');
 
@@ -64,8 +67,8 @@ function splitParties(text, known) {
 // ---------------------------------------------------------------- モデル
 
 // CSV の行 → 型のそろったモデル。誤りがあっても止まらず、validateSeats が文にして返す
-export function buildSeatsModel({ parties, results, governments, elections, primeMinisters = [], asOf, files = {} }) {
-  const F = { results: 'results.csv', parties: 'parties.csv', governments: 'governments.csv', ...files };
+export function buildSeatsModel({ parties, results, governments, elections, primeMinisters = [], campaigns = [], leaders = [], asOf, files = {} }) {
+  const F = { results: 'results.csv', parties: 'parties.csv', governments: 'governments.csv', campaigns: 'campaigns.csv', leaders: 'leaders.csv', ...files };
   const partyMap = new Map();
   const partyRows = parties.map((r, i) => {
     const p = {
@@ -133,9 +136,23 @@ export function buildSeatsModel({ parties, results, governments, elections, prim
     name: r['氏名'], start: dayOf(r['就任日']), end: r['退任日'] ? dayOf(r['退任日']) : null, photo: r['写真'] ?? '',
   }));
 
+  const campaignRows = campaigns.map((r, i) => ({
+    houseName: r['院'], key: HOUSE_OF[r['院']] ?? null, n: intOf(r['回']),
+    nickname: r['通称'] ?? '', nicknameBy: r['通称の出どころ'] ?? '', pmSays: r['首相の説明'] ?? '', oppSays: r['野党の批判'] ?? '',
+    issues: splitOn(r['争点'], '／'), oppParty: r['野党第一党'] ?? '', leaders: splitOn(r['党首'], '・'), role: r['党首の役職'] ?? '',
+    sourceRaw: r['出典'] ?? '', sources: urlsOf(r['出典']), memo: r['メモ'] ?? '', line: i + 2,
+  }));
+  const campaignMap = new Map(campaignRows.filter((c) => c.key && c.n != null).map((c) => [`${c.key}:${c.n}`, c]));
+  const leaderRows = leaders.map((r, i) => ({
+    name: r['名前'] ?? '', wikidata: r['Wikidata'] ?? '', photo: r['写真'] ?? '', credit: r['写真の出典'] ?? '',
+    pageUrl: r['写真のページ'] ?? '', licenseUrl: r['写真のライセンス'] ?? '', line: i + 2,
+  }));
+
   const covered = Object.values(houses).flat().filter((e) => e.covered);
   return {
-    files: F, asOfStr: asOf, asOf: dayOf(asOf),
+    files: F,
+    campaignHeader: campaigns.length ? Object.keys(campaigns[0]) : [], leaderHeader: Object.keys(leaders[0] ?? {}),
+    campaignRows, campaigns: campaignMap, leaderRows, leaders: new Map(leaderRows.map((l) => [l.name, l])), electionOf, asOfStr: asOf, asOf: dayOf(asOf),
     parties: partyMap, partyRows, houses, seatRows, orphans, governments: govs, pms,
     first: covered.length ? Math.min(...covered.map((e) => e.date)) : NaN,
     firstOf: Object.fromEntries(Object.entries(houses).map(([k, l]) => [k, l.find((e) => e.covered)?.date ?? NaN])),
@@ -229,6 +246,61 @@ export function validateSeats(model) {
     const firstIdx = list.findIndex((e) => e.covered);
     if (firstIdx >= 0) {
       for (const e of list.slice(firstIdx)) if (!e.covered) P.push(`${F.results}: ${HOUSES[key].name}第${e.n}回の議席がありません（第${list[firstIdx].n}回から現在まで途切れずに必要です）`);
+    }
+  }
+
+  // campaigns.csv・leaders.csv
+  const columnProblems = (file, have, want) => {
+    if (!have.length || have.join() === want.join()) return;
+    const missing = want.filter((c) => !have.includes(c));
+    const extra = have.filter((c) => !want.includes(c));
+    for (const c of missing) P.push(`${file}: 列「${c}」がありません（列は ${want.join('・')} の順）`);
+    for (const c of extra) P.push(`${file}: 列「${c}」は決まりにありません（列は ${want.join('・')} の順）`);
+    if (!missing.length && !extra.length) P.push(`${file}: 列の順番が違います（列は ${want.join('・')} の順）`);
+  };
+  columnProblems(F.campaigns, model.campaignHeader, CAMPAIGN_COLUMNS);
+  columnProblems(F.leaders, model.leaderHeader, LEADER_COLUMNS);
+  const leaderNames = new Set();
+  for (const l of model.leaderRows) {
+    const where = at(F.leaders, l.line, l.name);
+    if (!l.name) { P.push(`${F.leaders} ${l.line}行目: 名前が空です`); continue; }
+    if (leaderNames.has(l.name)) P.push(`${where}: 同じ名前が重複しています`);
+    leaderNames.add(l.name);
+    if (!/^Q\d+$/.test(l.wikidata)) P.push(`${where}: Wikidata「${l.wikidata}」が Q と数字の形ではありません`);
+  }
+  const pmNames = new Set(model.pms.map((p) => p.name));
+  const seenCampaign = new Set();
+  for (const c of model.campaignRows) {
+    const where = at(F.campaigns, c.line, `${c.houseName}第${c.n}回`);
+    const e = c.key && c.n != null ? model.electionOf.get(`${c.key}:${c.n}`) : null;
+    if (!e) P.push(`${where}: この回が elections/elections.csv にありません（院は「衆議院」か「参議院」、回は整数）`);
+    if (seenCampaign.has(`${c.key}:${c.n}`)) P.push(`${where}: 同じ回が重複しています`);
+    seenCampaign.add(`${c.key}:${c.n}`);
+    if (!c.sources.length) P.push(`${where}: 出典がありません`);
+    checkUrls(where, c.sourceRaw);
+    if (c.nickname && !c.nicknameBy) P.push(`${where}: 通称があるのに、通称の出どころが空です`);
+    if (c.key === 'upper' && (c.pmSays || c.oppSays)) P.push(`${where}: 参議院は解散が無いので、首相の説明と野党の批判は空にします`);
+    if (c.issues.some((x) => x.includes('/'))) P.push(`${where}: 争点は全角の「／」で区切ります`);
+    if (c.oppParty) {
+      const p = parties.get(c.oppParty);
+      if (!p) P.push(`${where}: 野党第一党「${c.oppParty}」が ${F.parties} にありません`);
+      else if (e && Number.isFinite(e.date)) {
+        if (!exists(p, e.date)) P.push(`${where}: 野党第一党「${c.oppParty}」は投票日（${e.dateStr}）に結党前か解党後です（${F.parties} の結党・解党と合いません）`);
+        const { date } = campaignTime(model, c.key, e);
+        if (governmentAt(model, date)?.ruling.includes(c.oppParty)) P.push(`${where}: 野党第一党「${c.oppParty}」は、${isoOf(date)} の与党です（${F.governments}）`);
+      }
+    }
+    if (c.leaders.length && !c.oppParty) P.push(`${where}: 野党第一党が空なのに党首があります`);
+    if (new Set(c.leaders).size !== c.leaders.length) P.push(`${where}: 党首が重複しています`);
+    if (c.leaders.length && !c.role) P.push(`${where}: 党首があるのに、党首の役職が空です`);
+    if (c.role && !c.leaders.length) P.push(`${where}: 党首が空なのに、党首の役職があります`);
+    for (const name of c.leaders) {
+      if (!leaderNames.has(name) && !pmNames.has(name)) P.push(`${where}: 党首「${name}」が ${F.leaders} にも総理大臣の年表（prime-ministers/prime-ministers.csv）にもいません`);
+    }
+  }
+  for (const [key, list] of Object.entries(model.houses)) {
+    for (const e of list.filter((x) => x.covered && !model.campaigns.has(`${key}:${x.n}`))) {
+      P.push(`${F.campaigns}: ${e.name}（${e.dateStr}）の行がありません（議席のある回は、空の欄があっても1行ずつ書きます）`);
     }
   }
 
@@ -514,19 +586,70 @@ export function houseStats(model, house) {
   return [turnout, { label: '解散から投票まで', ...gap }, term];
 }
 
-// 顔ぶれ：その選挙の日（衆議院は、その選挙を招いた解散の日）の総理大臣
+// 写真は、総理大臣の年表（官邸の肖像）にいる人はそれを、いなければ leaders.csv のものを使う
+function portraitOf(model, name) {
+  const pm = model.pms.find((p) => p.name === name && p.photo);
+  if (pm) return { photo: pm.photo, from: 'pm' };
+  const own = model.leaders.get(name)?.photo;
+  return own ? { photo: own, from: 'own' } : { photo: '', from: '' };
+}
+
+export const campaignOf = (model, key, election) => model.campaigns.get(`${key}:${election.n}`) ?? null;
+
+// 選挙の説明と顔ぶれの時点：衆議院は、その選挙を招いた解散の日（任期満了と最初の回は投票日）、参議院は投票日
+export function campaignTime(model, key, e) {
+  const prev = key === 'lower' ? model.houses.lower[model.houses.lower.indexOf(e) - 1] : null;
+  const byDissolution = prev?.how === '解散' && prev.end != null;
+  return { prev, byDissolution, date: byDissolution ? prev.end : e.date, when: byDissolution ? '解散時' : '選挙時' };
+}
+
+// 顔ぶれ：その時点の総理大臣と、野党第一党の党首。片方の側だけが並ばないように、
+// 首相がいない日（首相の死去のあと）は「不在」、党首が空の回は党の名前で枠を出す
 export function faces(model, house) {
   const e = house.election;
   if (!e) return [];
-  const prev = house.key === 'lower' ? model.houses.lower[model.houses.lower.indexOf(e) - 1] : null;
-  const byDissolution = prev?.how === '解散' && prev.end != null;
-  const date = byDissolution ? prev.end : e.date;
+  const { date, when } = campaignTime(model, house.key, e);
   const pm = model.pms.find((p) => p.start <= date && (p.end == null || date < p.end));
-  if (!pm) return [];
-  const gov = governmentAt(model, date);
-  const color = model.parties.get(gov?.ruling[0])?.color ?? '#8D96A4';
-  return [{ role: byDissolution ? '首相（解散時）' : '首相（選挙時）', name: pm.name, photo: pm.photo, color }];
+  const pmColor = model.parties.get(governmentAt(model, date)?.ruling[0])?.color ?? '#8D96A4';
+  const people = [pm
+    ? { role: `首相（${when}）`, name: pm.name, ...portraitOf(model, pm.name), color: pmColor }
+    : { role: `首相（${when}）`, name: '不在', photo: '', from: '', color: pmColor }];
+  const c = campaignOf(model, house.key, e);
+  const party = c?.oppParty ? model.parties.get(c.oppParty) : null;
+  if (party) {
+    const color = party.color ?? '#8D96A4';
+    if (!c.leaders.length) people.push({ role: `野党第一党（${when}）`, name: party.name, photo: '', from: '', color });
+    const role = `野党第一党（${when}・${[party.short, c.role].filter(Boolean).join(' ')}）`;
+    for (const name of c.leaders) people.push({ role, name, ...portraitOf(model, name), color });
+  }
+  return people;
 }
+
+// 通称には、誰が使った呼び方かを添える（「報道の呼び方」「首相が記者会見で用いた呼び方」）
+export const aliasOf = (c) => (c?.nickname ? `『${c.nickname}』（${c.nicknameBy}${/[でに]$/.test(c.nicknameBy) ? '用いた' : 'の'}呼び方）` : '');
+// 首相が使った通称は、見出しにせず首相の説明の枠に入れる（一方の呼び方だけが大きく出ないように）
+const pmAliasOf = (c) => (/^首相/.test(c?.nicknameBy ?? '') ? aliasOf(c) : '');
+
+// 首相の説明と野党の批判は、両方そろった回だけ返す（片方だけでは偏って見えるため）。ページも README もこれで出す
+export const saysOf = (c) => (c?.pmSays && c?.oppSays
+  ? [{ label: '首相の説明', alias: pmAliasOf(c), text: c.pmSays }, { label: '野党の批判', alias: '', text: c.oppSays }]
+  : []);
+
+// 解散の箱：衆議院は解散（または任期満了）の日・通称・首相の説明と野党の批判、参議院は「解散なし」。
+// 解散中に出ているのは、いまの解散の前の解散なので「前回の解散」とする
+export function dissolutionBox(model, house) {
+  const e = house.election;
+  if (!e) return null;
+  const c = campaignOf(model, house.key, e);
+  const alias = pmAliasOf(c) ? '' : aliasOf(c);
+  const sources = c?.sources ?? [];
+  if (house.key === 'upper') return { title: '解散なし', sub: '任期満了（3年ごとの半数改選）', alias, says: [], sources };
+  const { prev, byDissolution } = campaignTime(model, 'lower', e);
+  const title = byDissolution ? `${house.phase === 'dissolved' ? '前回の解散' : '解散'} ${dotOf(prev.end)}` : prev?.how.startsWith('任期満了') ? '任期満了' : '解散';
+  return { title, sub: '', alias, says: saysOf(c), sources };
+}
+
+export const issuesOf = (model, house) => (house.election ? campaignOf(model, house.key, house.election)?.issues ?? [] : []);
 
 const deltaText = (d) => (d > 0 ? `+${d}` : d < 0 ? `−${Math.abs(d)}` : '±0');
 

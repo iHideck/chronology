@@ -31,7 +31,11 @@ for (const d of await readdir(root, { withFileTypes: true })) {
   // 議席のページは年表と別の形（results.csv に parties.csv と governments.csv が付く）
   if (conf.kind === 'seats') {
     if (!conf.data.parties || !conf.data.governments) throw new Error(`${d.name}/chronology.json: 議席のページの data には parties と governments のファイル名が要ります`);
-    const extra = { parties: TL.parseCSV(await read(`${d.name}/${conf.data.parties}`)), governments: TL.parseCSV(await read(`${d.name}/${conf.data.governments}`)) };
+    if (!conf.data.campaigns || !conf.photos?.file) throw new Error(`${d.name}/chronology.json: 議席のページの data には campaigns、photos には file（党首の CSV）が要ります`);
+    const extra = {
+      parties: TL.parseCSV(await read(`${d.name}/${conf.data.parties}`)), governments: TL.parseCSV(await read(`${d.name}/${conf.data.governments}`)),
+      campaigns: TL.parseCSV(await read(`${d.name}/${conf.data.campaigns}`)), leaders: TL.parseCSV(await read(`${d.name}/${conf.photos.file}`)),
+    };
     sets[d.name] = { dir: d.name, conf, rows, extra };
     continue;
   }
@@ -120,7 +124,7 @@ for (const s of timelineSets) {
 if (seatsSets.length) problems.push(...SB.checkTemplates({ page: await read('src/seats.html'), timeline: await read('src/timeline.mjs'), seats: await read('src/seats.mjs') }));
 for (const s of seatsSets) {
   s.model = SB.seatsModelOf(s, sets, asOf);
-  problems.push(...SM.validateSeats(s.model));
+  problems.push(...SM.validateSeats(s.model), ...SB.leaderPhotoProblems(s.model, root, s.dir));
   for (const u of [...(s.conf.sources ?? []), ...(s.conf.related ?? [])]) {
     if (u.url && !isWebUrl(u.url) && !u.url.startsWith('../')) problems.push(`${s.dir}/chronology.json: URL「${u.url}」が http:// か https:// で始まっていません`);
   }

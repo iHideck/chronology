@@ -14,8 +14,13 @@ export function seatsModelOf(set, sets, asOf) {
     governments: set.extra.governments,
     elections: sets.elections?.rows ?? [],
     primeMinisters: sets[PM_DIR]?.rows ?? [],
+    campaigns: set.extra.campaigns,
+    leaders: set.extra.leaders,
     asOf,
-    files: { results: `${set.dir}/${set.conf.data.file}`, parties: `${set.dir}/${set.conf.data.parties}`, governments: `${set.dir}/${set.conf.data.governments}` },
+    files: {
+      results: `${set.dir}/${set.conf.data.file}`, parties: `${set.dir}/${set.conf.data.parties}`, governments: `${set.dir}/${set.conf.data.governments}`,
+      campaigns: `${set.dir}/${set.conf.data.campaigns}`, leaders: `${set.dir}/${set.conf.photos.file}`,
+    },
   });
 }
 
@@ -30,6 +35,28 @@ export function seatsCard(set, model) {
     span: [new Date(model.first + 12 * 3600000).getUTCFullYear(), null],
   };
 }
+
+// 党首の写真：ファイルがあること、画像のページとライセンスが URL であること。
+// 写真を載せる人は、作者とライセンスを表示しなければならないので、出典と画像のページ（パブリックドメインでなければライセンスも）が要る
+export function leaderPhotoProblems(model, root, dir) {
+  const F = model.files;
+  const P = [];
+  for (const l of model.leaderRows) {
+    const where = `${F.leaders} ${l.line}行目（${l.name}）`;
+    if (l.photo && !existsSync(join(root, dir, l.photo))) P.push(`${where}: 写真 ${l.photo} がありません`);
+    for (const [col, v] of [['写真のページ', l.pageUrl], ['写真のライセンス', l.licenseUrl]]) {
+      if (v && !(col === '写真のページ' && v === 'なし' && !l.photo) && !/^https?:\/\//i.test(v)) P.push(`${where}: ${col}「${v}」が http:// か https:// で始まっていません`);
+    }
+    if (!l.photo) continue;
+    if (!l.credit) P.push(`${where}: 写真があるのに、写真の出典（作者とライセンス）が空です`);
+    if (!l.pageUrl) P.push(`${where}: 写真があるのに、写真のページが空です`);
+    if (!l.licenseUrl && !l.credit.includes('パブリックドメイン')) P.push(`${where}: 写真のライセンスの URL が空です（空にできるのはパブリックドメインだけです）`);
+  }
+  return P;
+}
+
+// 写真の出典（Commons から取った党首だけ。総理大臣の年表の写真は、総理大臣の年表の出典に載る）
+const leaderCredits = (model) => model.leaderRows.filter((l) => l.photo && l.credit);
 
 const cell = (v) => String(v ?? '').replace(/\|/g, '\\|').replace(/\s*\n\s*/g, ' ');
 
@@ -60,6 +87,26 @@ function houseTables(model, key, h) {
 }
 
 // ブラウザ版は timeline.mjs・seats.mjs・seats.html のスクリプトを1つのモジュールにつなぐので、トップレベルの名前が重なると読み込みで止まる
+function campaignBlocks(model, key, h) {
+  const elections = model.houses[key].filter((e) => e.covered).reverse();
+  const blocks = elections.map((e) => {
+    const c = SM.campaignOf(model, key, e);
+    if (!c) return '';
+    const party = c.oppParty ? model.parties.get(c.oppParty)?.name ?? c.oppParty : '';
+    const line = (label, text) => (text ? `- ${label}：${cell(h.mdText(text))}` : '');
+    return [
+      `#### ${e.name}（${e.dateStr}）`,
+      '',
+      line('通称', SM.aliasOf(c)),
+      ...SM.saysOf(c).map((x) => line(x.label, x.text)),
+      line('争点', c.issues.join('、')),
+      line('野党第一党', party && (c.leaders.length ? `${party}（${[c.leaders.join('・'), c.role].filter(Boolean).join(' ')}）` : party)),
+      `- 出典：${c.sources.map((u, i) => `[${i + 1}](${h.mdUrl(u)})`).join(' ')}`,
+    ].filter((x, i) => i < 2 || x).join('\n');
+  }).filter(Boolean);
+  return ['<details>', `<summary>${key === 'lower' ? '衆議院' : '参議院'}の選挙の説明（${blocks.length}回）</summary>`, '', blocks.join('\n\n'), '', '</details>'].join('\n');
+}
+
 export function checkTemplates(templates) {
   const names = (src) => new Set([...src.matchAll(/^(?:export )?(?:const|let|function|class) +([A-Za-z_$][\w$]*)/gm)].map((m) => m[1]));
   const clash = [...names(templates.seats), ...names(templates.page)].filter((n) => names(templates.timeline).has(n) || (names(templates.seats).has(n) && names(templates.page).has(n)));
@@ -85,6 +132,8 @@ export async function writeSeatsPage({ root, set, sets, model, asOf, templates, 
   const data = h.scriptJSON({
     asOf, dir, files: model.files,
     parties: set.extra.parties, results: set.rows, governments: set.extra.governments, elections,
+    // メモは画面に出さないので送らない
+    campaigns: set.extra.campaigns.map(({ メモ, ...r }) => r), leaders: set.extra.leaders,
     pms: sets[PM_DIR]?.rows ?? [], pmBase: `../${PM_DIR}/`,
     related: conf.related ?? [],
   });
@@ -92,9 +141,14 @@ export async function writeSeatsPage({ root, set, sets, model, asOf, templates, 
   const panel = panelRe.exec(templates.page)[1];
   const panels = ['lower', 'upper'].map((k) => panel.replaceAll('@@HOUSE@@', k).replace('@@FAN@@', () => SM.renderHouseSVG(state[k], { mode: 'party' }))).join('\n');
   const first = new Date(model.first + 12 * 3600000).getUTCFullYear();
-  const credits = photoCredit
-    ? `<p>${h.esc(photoCredit.title)}：${h.esc(photoCredit.text)}${photoCredit.license ? `（${h.link({ title: photoCredit.license, url: photoCredit.licenseUrl })}）` : ''}</p>`
-    : '';
+  const creditP = (c) => `<p>${h.esc(c.title)}：${h.esc(c.text)}${c.license ? `（${h.link({ title: c.license, url: c.licenseUrl })}）` : ''}</p>`;
+  const ownCredits = leaderCredits(model);
+  // 写真の加工（切り抜き・縮小）の表示はライセンスが求めるので、ページにも README にも出す
+  const creditList = [...(photoCredit ? [photoCredit] : []), ...(conf.credits ?? [])];
+  const credits = [
+    ...creditList.map(creditP),
+    ...(ownCredits.length ? [`<ul>${ownCredits.map((l) => `<li>${h.esc(l.name)}：${h.esc(l.credit)}${[['画像のページ', l.pageUrl], ['ライセンス', l.licenseUrl]].filter(([, u]) => h.isWebUrl(u)).map(([title, url]) => `（${h.link({ title, url })}）`).join('')}</li>`).join('')}</ul>`] : []),
+  ].join('\n    ');
   const html = templates.page
     .replace(panelRe, () => panels)
     .replaceAll('@@TITLE@@', () => h.esc(conf.title))
@@ -128,6 +182,12 @@ export async function writeSeatsPage({ root, set, sets, model, asOf, templates, 
     '',
     houseTables(model, 'upper', h),
     '',
+    '## 選挙の説明',
+    '',
+    campaignBlocks(model, 'lower', h),
+    '',
+    campaignBlocks(model, 'upper', h),
+    '',
     '## 注記',
     '',
     ...(conf.notes ?? []).map((n) => `- ${n}`),
@@ -135,7 +195,11 @@ export async function writeSeatsPage({ root, set, sets, model, asOf, templates, 
     '## 出典',
     '',
     ...(conf.sources ?? []).map((x) => `- ${h.isWebUrl(x.url) ? `[${x.title}](${x.url})` : x.title}`),
-    ...(photoCredit ? ['', `- ${photoCredit.title}：${photoCredit.text}${photoCredit.license ? `（${h.isWebUrl(photoCredit.licenseUrl) ? `[${photoCredit.license}](${photoCredit.licenseUrl})` : photoCredit.license}）` : ''}`] : []),
+    ...(creditList.length ? ['', ...creditList.map((c) => `- ${c.title}：${c.text}${c.license ? `（${h.isWebUrl(c.licenseUrl) ? `[${c.license}](${c.licenseUrl})` : c.license}）` : ''}`)] : []),
+    ...(ownCredits.length ? ['', '### 写真の出典', '', ...ownCredits.map((l) => {
+      const links = [['画像のページ', l.pageUrl], ['ライセンス', l.licenseUrl]].filter(([, u]) => h.isWebUrl(u)).map(([text, u]) => `[${text}](${h.mdUrl(u)})`);
+      return `- ${h.mdText(l.name)}：${h.mdText(l.credit)}${links.length ? `（${links.join('・')}）` : ''}`;
+    })] : []),
     END,
   ].join('\n');
   const readmePath = join(root, dir, 'README.md');
@@ -151,7 +215,7 @@ export async function writeSeatsPage({ root, set, sets, model, asOf, templates, 
       '',
       conf.description,
       '',
-      `**動く版：[ihideck.github.io/chronology/${dir}](${h.SITE_URL}${dir}/)**　データ：[${conf.data.file}](${conf.data.file})・[${conf.data.parties}](${conf.data.parties})・[${conf.data.governments}](${conf.data.governments})（[決まり](../README.md#しくみ)）`,
+      `**動く版：[ihideck.github.io/chronology/${dir}](${h.SITE_URL}${dir}/)**　データ：[${conf.data.file}](${conf.data.file})・[${conf.data.parties}](${conf.data.parties})・[${conf.data.governments}](${conf.data.governments})・[${conf.data.campaigns}](${conf.data.campaigns})・[${conf.photos.file}](${conf.photos.file})（[決まり](../README.md#しくみ)）`,
       '',
       generated,
       '',

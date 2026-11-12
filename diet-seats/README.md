@@ -2,7 +2,7 @@
 
 1946年からの衆議院と参議院の政党別の議席を、好きな日付の両院の構成として扇形に並べ、時系列のバーで日付を動かして見るページ。与党の議席、ねじれ、少数与党が一目で分かる。
 
-**動く版：[ihideck.github.io/chronology/diet-seats](https://ihideck.github.io/chronology/diet-seats/)**　データ：[results.csv](results.csv)・[parties.csv](parties.csv)・[governments.csv](governments.csv)（[決まり](../README.md#しくみ)）
+**動く版：[ihideck.github.io/chronology/diet-seats](https://ihideck.github.io/chronology/diet-seats/)**　データ：[results.csv](results.csv)・[parties.csv](parties.csv)・[governments.csv](governments.csv)・[campaigns.csv](campaigns.csv)・[leaders.csv](leaders.csv)（[決まり](../README.md#しくみ)）
 
 <!-- ここから下は build.mjs が書き換えます -->
 <a href="https://ihideck.github.io/chronology/diet-seats/">
@@ -1168,6 +1168,429 @@
 
 </details>
 
+## 選挙の説明
+
+<details>
+<summary>衆議院の選挙の説明（30回）</summary>
+
+#### 第51回衆議院議員総選挙（2026-02-08）
+
+- 首相の説明：連立の枠組みが変わり、重要政策を大きく転換する前に、高市早苗が首相でよいのかを国民に直接決めてもらうため。
+- 野党の批判：政治空白をつくって信を問うやり方の是非が厳しく問われる。選挙は首相の「自分ファースト」と生活者ファーストの競い合いだ。
+- 争点：物価高対策、消費税減税と財源、外国人政策、自維連立の是非
+- 野党第一党：中道改革連合（野田佳彦・斉藤鉄夫 共同代表）
+- 出典：[1](https://www.kantei.go.jp/jp/104/statement/2026/0119kaiken.html) [2](https://www.kantei.go.jp/jp/104/statement/2026/0123kaiken.html) [3](https://www.sakigake.jp/news/article/20260110CO0084/) [4](https://www.sakigake.jp/news/article/20260122CO0071/) [5](https://www.nippon.com/ja/articles/-/10379) [6](https://www.jimin.jp/news/information/212281.html) [7](https://ja.wikipedia.org/wiki/第51回衆議院議員総選挙) [8](https://ja.wikipedia.org/wiki/中道改革連合)
+
+#### 第50回衆議院議員総選挙（2024-10-27）
+
+- 首相の説明：国民の納得と共感がなければ政治は前に進まない。信を問い、信任を得て、新政権の政策に後押しをもらいたい。
+- 野党の批判：予算委員会で判断材料をそろえてから信を問うべきだと言っていたのに、就任直後に戦後最短で解散するのは心変わりだ。
+- 争点：物価高対策、社会保障の見直し、政治とカネ（裏金問題）
+- 野党第一党：立憲民主党（野田佳彦 代表）
+- 出典：[1](https://www.kantei.go.jp/jp/102_ishiba/statement/2024/1009kaiken.html) [2](https://kokkai.ndl.go.jp/txt/121405254X00320241007/18) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030925_00000) [4](https://ja.wikipedia.org/wiki/第50回衆議院議員総選挙) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第49回衆議院議員総選挙（2021-10-31）
+
+- 首相の説明：衆議院の任期は10月21日まで。早く衆議院の構成を確定し、主要政策の具体化とコロナ対策・経済対策を急ぐため。
+- 野党の批判：野党が求めた予算委員会での質疑に政府・与党が応じないまま解散するのは、「逃げ恥解散」だ。
+- 争点：新型コロナ対策、経済対策と分配、野党共闘の是非、気候変動対策
+- 野党第一党：立憲民主党（枝野幸男 代表）
+- 出典：[1](https://warp.ndl.go.jp/info:ndljp/pid/11887161/www.kantei.go.jp/jp/100_kishida/statement/2021/1014kaiken2.html) [2](https://web.archive.org/web/20211014114755/https://www.jiji.com/jc/article?k=2021101401095&g=pol) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030871_00000) [4](https://ja.wikipedia.org/wiki/第49回衆議院議員総選挙) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第48回衆議院議員総選挙（2017-10-22）
+
+- 通称：『国難突破解散』（首相が記者会見で用いた呼び方）
+- 首相の説明：消費税の使い道を子育て世代への投資に変える約束の変更と、北朝鮮への対応について、国民に信を問う。
+- 野党の批判：代表質問にも応じず臨時国会の冒頭で解散するのは政局優先で、森友・加計の疑惑隠しの「敵前逃亡解散」だ。
+- 争点：消費税の使い道、北朝鮮への対応、憲法改正、森友・加計学園問題、安保法制
+- 野党第一党：民進党（前原誠司 代表）
+- 出典：[1](https://warp.ndl.go.jp/info:ndljp/pid/10992693/www.kantei.go.jp/jp/97_abe/statement/2017/0925kaiken.html) [2](https://www.jcp.or.jp/akahata/aik17/2017-09-27/2017092702_01_1.html) [3](https://data-max.co.jp/article/18873) [4](https://www2.nhk.or.jp/archives/movies/?id=D0009030797_00000) [5](https://ja.wikipedia.org/wiki/第48回衆議院議員総選挙) [6](https://www.nippon.com/ja/features/h00086/)
+
+#### 第47回衆議院議員総選挙（2014-12-14）
+
+- 通称：『アベノミクス解散』（首相が記者会見で用いた呼び方）
+- 首相の説明：消費税10％への引き上げを18か月延ばす。税制で大きな変更をする以上、国民に信を問うべきだと考えた。
+- 野党の批判：任期を2年余り残し、消費増税を先送りするほどアベノミクスが失速する中での、自分勝手な「駄々っ子解散」だ。
+- 争点：アベノミクスの評価、消費税10％の先送り、集団的自衛権、原発の再稼働、地方創生
+- 野党第一党：民主党（海江田万里 代表）
+- 出典：[1](https://warp.ndl.go.jp/info:ndljp/pid/8833367/www.kantei.go.jp/jp/96_abe/statement/2014/1118kaiken.html) [2](https://warp.ndl.go.jp/info:ndljp/pid/8833367/www.kantei.go.jp/jp/96_abe/statement/2014/1121kaiken.html) [3](https://web.archive.org/web/20141124161653/http://www.yomiuri.co.jp/election/shugiin/2014/news1/20141119-OYT1T50143.html) [4](https://www2.nhk.or.jp/archives/movies/?id=D0009030793_00000) [5](https://ja.wikipedia.org/wiki/第47回衆議院議員総選挙) [6](https://www.nippon.com/ja/features/h00086/)
+
+#### 第46回衆議院議員総選挙（2012-12-16）
+
+- 通称：『近いうち解散』（報道の呼び方）
+- 首相の説明：社会保障と税の一体改革を実現したら近いうちに信を問うという約束を果たし、決められない政治を断ち切るため。
+- 野党の批判：「近いうちに」の約束の日から期限を大幅に過ぎ、政治を混乱させた。一日も早く国民に信を問うべきだ。
+- 争点：民主党政権の評価、景気と円高対策、消費税率の引き上げ、原発政策、TPP参加の是非、震災からの復興
+- 野党第一党：自由民主党（安倍晋三 総裁）
+- 出典：[1](https://warp.ndl.go.jp/info:ndljp/pid/4410784/www.kantei.go.jp/jp/noda/statement/2012/1116kaiken.html) [2](https://kokkai.ndl.go.jp/txt/118124293X00120121114/2) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030372_00000) [4](https://ja.wikipedia.org/wiki/第46回衆議院議員総選挙) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第45回衆議院議員総選挙（2009-08-30）
+
+- 通称：『政権選択解散』（報道の呼び方）
+- 首相の説明：日本と国民の暮らしを守るのはどの政党かを問い、経済対策の成果を示して、景気回復の経済運営を任せてもらえるかを問う。
+- 野党の批判：内閣の使命は解散して国民の信を問うことだったのに、危機や政策優先を理由に解散を避け、首相の座にしがみついてきた。
+- 争点：政権交代の是非、景気・雇用対策、年金記録問題、郵政民営化の見直し、後期高齢者医療制度
+- 野党第一党：民主党（鳩山由紀夫 代表）
+- 出典：[1](https://warp.ndl.go.jp/info:ndljp/pid/286775/www.kantei.go.jp/jp/asospeech/2009/07/21kaiken.html) [2](https://kokkai.ndl.go.jp/txt/117105254X04620090714/6) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030352_00000) [4](https://ja.wikipedia.org/wiki/第45回衆議院議員総選挙) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第44回衆議院議員総選挙（2005-09-11）
+
+- 通称：『郵政解散』（首相が記者会見で用いた呼び方）
+- 首相の説明：改革の本丸の郵政民営化法案が参議院で否決された。民営化に賛成か反対か、国民にはっきり問いたい。
+- 野党の批判：政権の全体像を問うべき総選挙を一法案の国民投票のように使い、参院の否決で衆院を解散したのは解散権の濫用だ。
+- 争点：郵政民営化、社会保障（年金）、税制改革、外交と安全保障、靖国神社参拝
+- 野党第一党：民主党（岡田克也 代表）
+- 出典：[1](https://warp.ndl.go.jp/info:ndljp/pid/234460/www.kantei.go.jp/jp/koizumispeech/2005/08/08kaiken.html) [2](https://kokkai.ndl.go.jp/txt/116305254X00420050928/3) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030328_00000) [4](https://ja.wikipedia.org/wiki/第44回衆議院議員総選挙) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第43回衆議院議員総選挙（2003-11-09）
+
+- 通称：『マニフェスト解散』（報道の呼び方）
+- 首相の説明：任期が3年を過ぎ、野党も不信任案を出して解散を求めてきた。国民に信を問う時期が来たと考えた。
+- 野党の批判：解散するなら、この2年間なぜ改革が何一つ進まなかったのか、これから何をするのかを国民に説明すべきだ。
+- 争点：政権公約（マニフェスト）、構造改革の評価、政権交代の是非
+- 野党第一党：民主党（菅直人 代表）
+- 出典：[1](https://warp.ndl.go.jp/info:ndljp/pid/234460/www.kantei.go.jp/jp/koizumispeech/2003/09/22press.html) [2](https://kokkai.ndl.go.jp/txt/115705254X00220030929/3) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030768_00000) [4](https://ja.wikipedia.org/wiki/第43回衆議院議員総選挙) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第42回衆議院議員総選挙（2000-06-25）
+
+- 通称：『神の国解散』（報道の呼び方）
+- 争点：自公保連立の是非、景気回復と財政再建、首相の「神の国」発言
+- 野党第一党：民主党（鳩山由紀夫 代表）
+- 出典：[1](https://warp.ndl.go.jp/info:ndljp/pid/234460/www.kantei.go.jp/jp/morisouri/mori_speech/2000/0705kaiken.html) [2](https://warp.ndl.go.jp/info:ndljp/pid/234460/www.kantei.go.jp/jp/morisouri/mori_speech/2000/0526kaiken.html) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030762_00000) [4](https://ja.wikipedia.org/wiki/第42回衆議院議員総選挙) [5](https://ja.wikipedia.org/wiki/神の国解散) [6](https://www.nippon.com/ja/features/h00086/)
+
+#### 第41回衆議院議員総選挙（1996-10-20）
+
+- 通称：『小選挙区解散』（報道の呼び方）
+- 争点：消費税率の引き上げ、行政改革、自民・新進の政権選択
+- 野党第一党：新進党（小沢一郎 党首）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/113915261X00119961210/242) [2](https://kokkai.ndl.go.jp/txt/113905261X00119961206/93) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030745_00000) [4](https://ja.wikipedia.org/wiki/第41回衆議院議員総選挙) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第40回衆議院議員総選挙（1993-07-18）
+
+- 通称：『嘘つき解散』（報道の呼び方）
+- 争点：政治改革（選挙制度）、政権交代の是非、政治とカネ
+- 野党第一党：日本社会党（山花貞夫 委員長）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/112605254X03419930618/6) [2](https://www2.nhk.or.jp/archives/movies/?id=D0009030732_00000) [3](https://ja.wikipedia.org/wiki/第40回衆議院議員総選挙) [4](https://ja.wikipedia.org/wiki/嘘つき解散) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第39回衆議院議員総選挙（1990-02-18）
+
+- 通称：『消費税解散』（報道の呼び方）
+- 首相の説明：消費税の存続と見直しを争点として真正面に掲げ、自民党の内政・外交の政策について国民の審判を仰いだ。
+- 野党の批判：消費税をただちに廃止したうえで衆議院を解散し、自民党政権の可否について総選挙で国民の審判を仰ぐべきだ。
+- 争点：消費税の是非、リクルート事件、政権の選択
+- 野党第一党：日本社会党（土井たか子 委員長）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/111805254X02519900611/46) [2](https://kokkai.ndl.go.jp/txt/111605254X01319891212/8) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030719_00000) [4](https://ja.wikipedia.org/wiki/第39回衆議院議員総選挙) [5](https://ja.wikipedia.org/wiki/消費税解散) [6](https://www.nippon.com/ja/features/h00086/)
+
+#### 第38回衆議院議員総選挙（1986-07-06）
+
+- 通称：『死んだふり解散』（報道の呼び方）
+- 首相の説明：衆議院の定数の違憲状態を速やかに解消するという院の決議と政府の方針に基づく、やむを得ない措置だった。
+- 野党の批判：首相は解散権を恫喝の手法として乱用している。解散のための臨時国会の召集と衆参同日選挙に断固反対する。
+- 争点：衆参同日選挙の是非、議員定数の是正、国鉄の分割・民営化
+- 野党第一党：日本社会党（石橋政嗣 委員長）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/110705254X00319860916/4) [2](https://ja.wikipedia.org/wiki/死んだふり解散) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030685_00000) [4](https://ja.wikipedia.org/wiki/第38回衆議院議員総選挙) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第37回衆議院議員総選挙（1983-12-18）
+
+- 通称：『田中判決解散』（報道の呼び方）
+- 首相の説明：田中元首相の議員辞職勧告決議案が国会の大きな争点となって解散に至り、国民が判断する主題になった。
+- 野党の批判：ロッキード事件で実刑判決を受けた田中元首相の議員辞職勧告決議案を、本会議に上程して採決すべきだ。
+- 争点：田中問題、政治倫理の確立、行政改革
+- 野党第一党：日本社会党（石橋政嗣 委員長）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/110115261X00819840321/598) [2](https://ja.wikipedia.org/wiki/田中判決解散) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030660_00000) [4](https://ja.wikipedia.org/wiki/第37回衆議院議員総選挙) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第36回衆議院議員総選挙（1980-06-22）
+
+- 通称：『ハプニング解散』（報道の呼び方）
+- 首相の説明：総辞職すれば政局の混迷が倍増する。不信任の理由は承認できず、国民の判断を仰ぐのが憲政の常道だ。
+- 野党の批判：経済政策の失敗が招いた財政危機や物価高の犠牲を国民に負わせ、与野党の間の信義まで踏みにじった。
+- 争点：政治腐敗の追及、物価高と経済政策、外交の自主性
+- 野党第一党：日本社会党（飛鳥田一雄 委員長）
+- 出典：[1](https://ja.wikipedia.org/wiki/ハプニング解散) [2](https://kokkai.ndl.go.jp/txt/109105254X02519800516/6) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030170_00000) [4](https://ja.wikipedia.org/wiki/第36回衆議院議員総選挙) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第35回衆議院議員総選挙（1979-10-07）
+
+- 通称：『増税解散』（報道の呼び方）
+- 首相の説明：前回の総選挙から3年近くたち、経済も回復の軌道に乗ったので、人心を一新して80年代に向かう態勢をつくる。
+- 野党の批判：ダグラス・グラマン事件など汚職の疑惑にふたをして解散を急いでおり、汚職・疑惑隠しの解散との疑いがある。
+- 争点：一般消費税の導入、財政再建、政治倫理の確立、自民党の安定多数
+- 野党第一党：日本社会党（飛鳥田一雄 委員長）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/109015261X00119791204/28) [2](https://kokkai.ndl.go.jp/txt/108805254X00319790905/7) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030633_00000) [4](https://ja.wikipedia.org/wiki/第35回衆議院議員総選挙) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第34回衆議院議員総選挙（1976-12-05）
+
+- 争点：ロッキード事件の究明、自民党の単独過半数、新自由クラブなど多党化
+- 野党第一党：日本社会党（成田知巳 委員長）
+- 出典：[1](https://www2.nhk.or.jp/archives/movies/?id=D0009030605_00000) [2](https://ja.wikipedia.org/wiki/第34回衆議院議員総選挙) [3](https://www.nippon.com/ja/features/h00086/)
+
+#### 第33回衆議院議員総選挙（1972-12-10）
+
+- 通称：『日中解散』（報道の呼び方）
+- 首相の説明：日本列島改造など経済の流れを変える政策の方向を国民に訴え、審判を受けるのは当然のことだ。
+- 野党の批判：金権政治をなくすため、政治資金規正法を今の国会で成立させてから解散し、金によらない総選挙を行うべきだ。
+- 争点：日本列島改造論、日中国交正常化、金権政治、地価の高騰
+- 野党第一党：日本社会党（成田知巳 委員長）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/107005261X00519721108/224) [2](https://kokkai.ndl.go.jp/txt/107005254X00319721030/3) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030574_00000) [4](https://ja.wikipedia.org/wiki/第33回衆議院議員総選挙) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第32回衆議院議員総選挙（1969-12-27）
+
+- 通称：『沖縄解散』（報道の呼び方）
+- 首相の説明：沖縄の核抜き・本土並み返還の決定と、日米安保条約で補う防衛の政策について、国民の判断を求めた。
+- 野党の批判：日米共同声明の内容を徹底して審議し、沖縄県民の国政参加など当面の重大案件を処理してから解散すべきだ。
+- 争点：沖縄返還、日米安保条約、消費者物価
+- 野党第一党：日本社会党（成田知巳 委員長）
+- 出典：[1](https://worldjpn.net/documents/texts/pm/19700214.SWJ.html) [2](https://kokkai.ndl.go.jp/txt/106205254X00319691202/8) [3](https://kokkai.ndl.go.jp/txt/106205254X00319691202/6) [4](https://www2.nhk.or.jp/archives/movies/?id=D0009030544_00000) [5](https://ja.wikipedia.org/wiki/第32回衆議院議員総選挙) [6](https://www.nippon.com/ja/features/h00086/)
+
+#### 第31回衆議院議員総選挙（1967-01-29）
+
+- 通称：『黒い霧解散』（報道の呼び方）
+- 首相の説明：一連の不祥事で失った政治への信頼を取り戻すため、まだ審判を受けていない内閣が国民の審判を受ける出直しの解散。
+- 野党の批判：黒い霧事件で失われた国会の信頼を回復するには、時期を失したとはいえ、解散・総選挙しかない。
+- 争点：黒い霧事件、政界の浄化、金のかからない選挙
+- 野党第一党：日本社会党（佐々木更三 委員長）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/105505261X00919670329/181) [2](https://kokkai.ndl.go.jp/txt/105315261X00319661220/6) [3](https://kokkai.ndl.go.jp/txt/105314024X00219661215/8) [4](https://www2.nhk.or.jp/archives/movies/?id=D0009030518_00000) [5](https://www2.nhk.or.jp/archives/movies/?id=D0009030520_00000) [6](https://ja.wikipedia.org/wiki/第31回衆議院議員総選挙) [7](https://www.nippon.com/ja/features/h00086/)
+
+#### 第30回衆議院議員総選挙（1963-11-21）
+
+- 通称：『所得倍増解散』（報道の呼び方）
+- 首相の説明：所得倍増や外交などの政策を国民の批判に訴え、各党の政策を中心に、新たな気持ちで政治に当たるため。
+- 野党の批判：補正予算や災害対策などの審議に入らずに解散すれば、臨時国会を開いた意義がまったくなくなる。
+- 争点：所得倍増政策、物価問題、外交政策
+- 野党第一党：日本社会党（河上丈太郎 委員長）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/104415254X00619631023/14) [2](https://kokkai.ndl.go.jp/txt/104405254X00419631021/3) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030487_00000) [4](https://ja.wikipedia.org/wiki/第30回衆議院議員総選挙) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第29回衆議院議員総選挙（1960-11-20）
+
+- 通称：『安保解散』（報道の呼び方）
+- 首相の説明：安保条約や国会運営をめぐって国民の批判を受け、各党の政策も問い、人心の一新と時局の収拾を図る。
+- 野党の批判：安保条約の単独採決など多数の力で国会を混乱させた自民党の責任と真相を、解散の前にまず明らかにすべきだ。
+- 争点：日米安保条約、所得倍増計画、議会政治の正常化
+- 野党第一党：日本社会党（江田三郎 委員長代行）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/103605254X00419601022/12) [2](https://kokkai.ndl.go.jp/txt/103605254X00419601022/11) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030459_00000) [4](https://ja.wikipedia.org/wiki/第29回衆議院議員総選挙) [5](https://ja.wikipedia.org/wiki/安保解散) [6](https://ja.wikipedia.org/wiki/江田三郎) [7](https://www.nippon.com/ja/features/h00086/)
+
+#### 第28回衆議院議員総選挙（1958-05-22）
+
+- 通称：『話し合い解散』（報道の呼び方）
+- 首相の説明：来年の任期満了を繰り上げて国民に信を問うのがいちばんの理由で、4月中の解散を求める民意も高まっている。
+- 野党の批判：内閣を組織した直後に解散して国民に信を問うべきだったのに、今回も事務的な繰り上げ解散だと考えている。
+- 争点：二大政党の対決、岸内閣の信任、経済政策
+- 野党第一党：日本社会党（鈴木茂三郎 委員長）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/102814720X03119580417/137) [2](https://kokkai.ndl.go.jp/txt/102814889X03019580418/72) [3](https://kokkai.ndl.go.jp/txt/102805254X03619580425/4) [4](https://www2.nhk.or.jp/archives/movies/?id=D0009030428_00000) [5](https://ja.wikipedia.org/wiki/第28回衆議院議員総選挙) [6](https://ja.wikipedia.org/wiki/話し合い解散) [7](https://www.nippon.com/ja/features/h00086/)
+
+#### 第27回衆議院議員総選挙（1955-02-27）
+
+- 通称：『天の声解散』（報道の呼び方）
+- 争点：鳩山内閣の信任、自主独立の完成、日ソ国交の回復
+- 野党第一党：自由党（緒方竹虎 総裁）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/102105254X00719550122/3) [2](https://kokkai.ndl.go.jp/txt/102105254X00819550123/3) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030413_00000) [4](https://ja.wikipedia.org/wiki/第27回衆議院議員総選挙) [5](https://ja.wikipedia.org/wiki/天の声解散) [6](https://www.nippon.com/ja/features/h00086/)
+
+#### 第26回衆議院議員総選挙（1953-04-19）
+
+- 通称：『バカヤロー解散』（報道の呼び方）
+- 首相の説明：総選挙で国民の多数に信任された政府に国会が不信任を可決した以上、国民の意思に問うのが憲政の常道だ。
+- 野党の批判：首相は解散で国会を恫喝している。不信任で敗れて解散するなら、政治的クーデターで民主主義の破壊だ。
+- 争点：吉田内閣の信任、自由党の分裂、警察法と保安隊
+- 野党第一党：改進党（重光葵 総裁）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/101515261X00219530320/3) [2](https://kokkai.ndl.go.jp/txt/101505254X04119530314/9) [3](https://www2.nhk.or.jp/archives/movies/?id=D0009030401_00000) [4](https://ja.wikipedia.org/wiki/第26回衆議院議員総選挙) [5](https://ja.wikipedia.org/wiki/バカヤロー解散) [6](https://www.nippon.com/ja/features/h00086/)
+
+#### 第25回衆議院議員総選挙（1952-10-01）
+
+- 通称：『抜き打ち解散』（報道の呼び方）
+- 首相の説明：解散は国民の総意を新たに問う必要があるときに行うもので、今回は憲法第7条による正当な解散だ。
+- 野党の批判：解散そのものには反対しないが、国会に諮らず側近だけで決めた抜き打ちのやり方は新憲法の精神を無視している。
+- 争点：再軍備の是非、自由党の内紛、追放解除者の政界復帰
+- 野党第一党：改進党（重光葵 総裁）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/101505261X00619521203/115) [2](https://kokkai.ndl.go.jp/txt/101505254X00619521126/7) [3](https://kokkai.ndl.go.jp/txt/101505254X00619521126/6) [4](https://worldjpn.net/documents/texts/pm/19521124.SWJ.html) [5](https://ja.wikipedia.org/wiki/第25回衆議院議員総選挙) [6](https://ja.wikipedia.org/wiki/抜き打ち解散) [7](https://www.nippon.com/ja/features/h00086/)
+
+#### 第24回衆議院議員総選挙（1949-01-23）
+
+- 通称：『馴れ合い解散』（報道の呼び方）
+- 首相の説明：芦田内閣の総辞職を受けて指名された少数党の内閣なので、まず国民の信を問うため解散すべきだ。
+- 野党の批判：内閣の態度はことごとく当を失している。無力無能の政府に解散を断行する資格はなく、総辞職すべきだ。
+- 争点：少数与党の政権基盤、昭和電工事件、連立政権の評価
+- 野党第一党：日本社会党（片山哲 委員長）
+- 出典：[1](https://kokkai.ndl.go.jp/txt/100405254X00319481204/3) [2](https://kokkai.ndl.go.jp/txt/100405254X02119481223/8) [3](https://ja.wikipedia.org/wiki/第24回衆議院議員総選挙) [4](https://ja.wikipedia.org/wiki/馴れ合い解散) [5](https://www.nippon.com/ja/features/h00086/)
+
+#### 第23回衆議院議員総選挙（1947-04-25）
+
+- 通称：『新憲法解散』（報道の呼び方）
+- 争点：新憲法下の政権の選択、労働争議、経済の再建
+- 野党第一党：日本社会党（片山哲 委員長）
+- 出典：[1](https://worldjpn.net/documents/texts/pm/19470214.SWJ.html) [2](https://ja.wikipedia.org/wiki/第23回衆議院議員総選挙) [3](https://www.nippon.com/ja/features/h00086/)
+
+#### 第22回衆議院議員総選挙（1946-04-10）
+
+- 通称：『終戦解散』（報道の呼び方）
+- 争点：日本の民主化、女性の参政権、新しい選挙法
+- 出典：[1](https://worldjpn.net/documents/texts/pm/19451128.SWJ.html) [2](https://www2.nhk.or.jp/archives/movies/?id=D0009181420_00000) [3](https://ja.wikipedia.org/wiki/第22回衆議院議員総選挙) [4](https://www.nippon.com/ja/features/h00086/) [5](https://ja.wikipedia.org/wiki/日本進歩党) [6](https://ja.wikipedia.org/wiki/幣原内閣)
+
+</details>
+
+<details>
+<summary>参議院の選挙の説明（27回）</summary>
+
+#### 第27回参議院議員通常選挙（2025-07-20）
+
+- 争点：物価高対策、消費税減税の是非、米国の関税措置への対応
+- 野党第一党：立憲民主党（野田佳彦 代表）
+- 出典：[1](https://web.archive.org/web/20251020051250/https://www.jiji.com/jc/article?k=2025070300110&g=pol) [2](https://ja.wikipedia.org/w/index.php?title=%E7%AC%AC27%E5%9B%9E%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%80%9A%E5%B8%B8%E9%81%B8%E6%8C%99&oldid=111684435) [3](https://ja.wikipedia.org/w/index.php?title=%E7%AB%8B%E6%86%B2%E6%B0%91%E4%B8%BB%E5%85%9A%20%28%E6%97%A5%E6%9C%AC%202020%29&oldid=111667495)
+
+#### 第26回参議院議員通常選挙（2022-07-10）
+
+- 争点：物価高への対応、安全保障政策、憲法改正
+- 野党第一党：立憲民主党（泉健太 代表）
+- 出典：[1](https://web.archive.org/web/20220624191012/https://www.jiji.com/jc/article?k=2022062201010&g=pol) [2](https://web.archive.org/web/20220628003258/https://www.jiji.com/jc/article?k=2022061700946&g=pol) [3](https://ja.wikipedia.org/w/index.php?title=%E7%AC%AC26%E5%9B%9E%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%80%9A%E5%B8%B8%E9%81%B8%E6%8C%99&oldid=111578951) [4](https://ja.wikipedia.org/w/index.php?title=%E7%AB%8B%E6%86%B2%E6%B0%91%E4%B8%BB%E5%85%9A%20%28%E6%97%A5%E6%9C%AC%202020%29&oldid=111667495)
+
+#### 第25回参議院議員通常選挙（2019-07-21）
+
+- 争点：消費税率の引き上げ、年金制度、憲法改正
+- 野党第一党：立憲民主党（枝野幸男 代表）
+- 出典：[1](https://www.jiji.com/jc/graphics?p=ve_pol_election-sangiin20190704j-03-w420) [2](https://www.kobe-np.co.jp/rentoku/keyword/201907/0012507919.shtml) [3](https://web.archive.org/web/20190720081037/http://www.sangiin.go.jp/japanese/joho1/kousei/giin/198/giinsu.htm) [4](https://ja.wikipedia.org/w/index.php?title=%E7%AC%AC25%E5%9B%9E%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%80%9A%E5%B8%B8%E9%81%B8%E6%8C%99&oldid=111498025) [5](https://www.jiji.com/jc/graphics?p=ve_pol_election-sangiin20190722j-06-w610) [6](https://ja.wikipedia.org/w/index.php?title=%E7%AB%8B%E6%86%B2%E6%B0%91%E4%B8%BB%E5%85%9A%20%28%E6%97%A5%E6%9C%AC%202017%29&oldid=111537517)
+
+#### 第24回参議院議員通常選挙（2016-07-10）
+
+- 争点：アベノミクスの是非、消費増税の再延期、憲法改正、TPPの是非、子育て支援・雇用対策
+- 野党第一党：民進党（岡田克也 代表）
+- 出典：[1](https://www.jiji.com/jc/graphics?p=ve_pol_election-sangiin20160622j-01-w590) [2](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50030/) [3](https://ja.wikipedia.org/w/index.php?title=%E7%AC%AC24%E5%9B%9E%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%80%9A%E5%B8%B8%E9%81%B8%E6%8C%99&oldid=111522025) [4](https://ja.wikipedia.org/w/index.php?title=%E6%B0%91%E4%B8%BB%E5%85%9A%E4%BB%A3%E8%A1%A8&oldid=111501253)
+
+#### 第23回参議院議員通常選挙（2013-07-21）
+
+- 争点：アベノミクスの是非、憲法改正、原発再稼働、衆参ねじれ解消の可否
+- 野党第一党：民主党（海江田万里 代表）
+- 出典：[1](https://www.jiji.com/jc/graphics?p=ve_pol_election-sangiin20130704j-01-w490) [2](https://www.jiji.com/jc/graphics?p=ve_pol_election-sangiin20130704j-16-w470) [3](https://vdata.nikkei.com/newsgraphics/shuin-sanin-history/) [4](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50028/) [5](https://dl.ndl.go.jp/pid/8689381) [6](https://ja.wikipedia.org/w/index.php?title=%E6%B0%91%E4%B8%BB%E5%85%9A%E4%BB%A3%E8%A1%A8&oldid=111501253)
+
+#### 第22回参議院議員通常選挙（2010-07-11）
+
+- 争点：消費税率の引き上げ、財政再建
+- 野党第一党：自由民主党（谷垣禎一 総裁）
+- 出典：[1](https://www.nikkei.com/article/DGXNASFS20012_Q0A620C1PE8001/) [2](https://www.jiji.com/jc/graphics?p=ve_soc_general-10bignews2010) [3](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50026/) [4](https://vdata.nikkei.com/newsgraphics/shuin-sanin-history/) [5](https://dl.ndl.go.jp/pid/8689381) [6](https://ja.wikipedia.org/w/index.php?title=%E8%87%AA%E7%94%B1%E6%B0%91%E4%B8%BB%E5%85%9A%E7%B7%8F%E8%A3%81&oldid=111116216)
+
+#### 第21回参議院議員通常選挙（2007-07-29）
+
+- 争点：年金記録問題、政治とカネ（事務所費）、閣僚の失言・辞任
+- 野党第一党：民主党（小沢一郎 代表）
+- 出典：[1](https://jiji.com/jc/d4?d=d4_oldnews&p=jtn207-2007d03) [2](https://jiji.com/jc/d4?d=d4_oldnews&p=jtn207-2007d02) [3](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50024/) [4](https://vdata.nikkei.com/newsgraphics/shuin-sanin-history/) [5](https://dl.ndl.go.jp/pid/8689381) [6](https://ja.wikipedia.org/w/index.php?title=%E6%B0%91%E4%B8%BB%E5%85%9A%E4%BB%A3%E8%A1%A8&oldid=111501253)
+
+#### 第20回参議院議員通常選挙（2004-07-11）
+
+- 争点：年金改革、イラク多国籍軍への自衛隊参加、構造改革路線、郵政民営化・道路公団改革、北朝鮮政策
+- 野党第一党：民主党（岡田克也 代表）
+- 出典：[1](https://web.archive.org/web/20040817152029/http://www.yomiuri.co.jp:80/election/sangiin2004/feature/fe20040625_05.htm) [2](https://web.archive.org/web/20040711003519/http://www.yomiuri.co.jp:80/election/sangiin2004/feature/fe09.htm) [3](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50022/) [4](https://vdata.nikkei.com/newsgraphics/shuin-sanin-history/) [5](https://dl.ndl.go.jp/pid/8689381) [6](https://ja.wikipedia.org/w/index.php?title=%E6%B0%91%E4%B8%BB%E5%85%9A%E4%BB%A3%E8%A1%A8&oldid=111501253)
+
+#### 第19回参議院議員通常選挙（2001-07-29）
+
+- 争点：小泉内閣の構造改革、郵政3事業の民営化、首相公選制、集団的自衛権の見直し、首相の靖国神社参拝
+- 野党第一党：民主党（鳩山由紀夫 代表）
+- 出典：[1](https://web.archive.org/web/20010625104647/http://www.asahi.com:80/senkyo2001/sanin/topics/010617e.html) [2](https://vdata.nikkei.com/newsgraphics/shuin-sanin-history/) [3](https://www.kobe-np.co.jp/rentoku/keyword/201907/0012507919.shtml) [4](https://dl.ndl.go.jp/pid/8689381) [5](https://ja.wikipedia.org/w/index.php?title=%E6%B0%91%E4%B8%BB%E5%85%9A%E4%BB%A3%E8%A1%A8&oldid=111501253)
+
+#### 第18回参議院議員通常選挙（1998-07-12）
+
+- 争点：景気対策、不良債権処理、恒久減税、消費税のあり方
+- 野党第一党：民主党（菅直人 代表）
+- 出典：[1](https://web.archive.org/web/19990417215112/http://www.asahi.com:80/senkyo98/news/honsi/9806/n9806index2.html) [2](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50018/) [3](https://vdata.nikkei.com/newsgraphics/shuin-sanin-history/) [4](https://web.archive.org/web/19980703080747/http://www1.asahi.com:80/) [5](https://web.archive.org/web/20010123110600/http://www.asahi.com:80/senkyo98/news/honsi/9807/n9807index1.html) [6](https://dl.ndl.go.jp/pid/8689381) [7](https://ja.wikipedia.org/w/index.php?title=%E6%B0%91%E4%B8%BB%E5%85%9A%E4%BB%A3%E8%A1%A8&oldid=111501253)
+
+#### 第17回参議院議員通常選挙（1995-07-23）
+
+- 争点：村山連立政権の評価、阪神・淡路大震災への対応、地下鉄サリン事件への対応
+- 野党第一党：新進党（海部俊樹 党首）
+- 出典：[1](https://ja.wikipedia.org/w/index.php?title=%E7%AC%AC17%E5%9B%9E%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%80%9A%E5%B8%B8%E9%81%B8%E6%8C%99&oldid=111564534) [2](https://www.csmonitor.com/1995/0725/25051.html) [3](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50027/) [4](https://vdata.nikkei.com/newsgraphics/shuin-sanin-history/) [5](https://dl.ndl.go.jp/pid/8689381) [6](https://ja.wikipedia.org/w/index.php?title=%E6%96%B0%E9%80%B2%E5%85%9A&oldid=110788431)
+
+#### 第16回参議院議員通常選挙（1992-07-26）
+
+- 争点：PKO協力法の是非
+- 野党第一党：日本社会党（田邊誠 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50025/) [2](https://vdata.nikkei.com/newsgraphics/shuin-sanin-history/) [3](https://ja.wikipedia.org/w/index.php?title=%E7%AC%AC16%E5%9B%9E%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%80%9A%E5%B8%B8%E9%81%B8%E6%8C%99&oldid=111564528) [4](https://dl.ndl.go.jp/pid/8689381) [5](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第15回参議院議員通常選挙（1989-07-23）
+
+- 争点：消費税、リクルート事件、農産物の輸入自由化、宇野首相の女性問題
+- 野党第一党：日本社会党（土井たか子 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50023/) [2](https://vdata.nikkei.com/newsgraphics/shuin-sanin-history/) [3](https://www.jiji.com/jc/v8?id=202505Sanin-team) [4](https://ja.wikipedia.org/w/index.php?title=%E7%AC%AC15%E5%9B%9E%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%80%9A%E5%B8%B8%E9%81%B8%E6%8C%99&oldid=111564517) [5](https://dl.ndl.go.jp/pid/8689381) [6](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第14回参議院議員通常選挙（1986-07-06）
+
+- 通称：『衆参同日選挙』（報道の呼び方）
+- 野党第一党：日本社会党（石橋政嗣 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50021/) [2](https://vdata.nikkei.com/newsgraphics/shuin-sanin-history/) [3](https://dl.ndl.go.jp/pid/8689381) [4](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第13回参議院議員通常選挙（1983-06-26）
+
+- 野党第一党：日本社会党（飛鳥田一雄 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50019/) [2](https://dl.ndl.go.jp/pid/8689381) [3](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第12回参議院議員通常選挙（1980-06-22）
+
+- 通称：『衆参同日選挙』（報道の呼び方）
+- 争点：保革伯仲の行方
+- 野党第一党：日本社会党（飛鳥田一雄 委員長）
+- 出典：[1](https://ja.wikipedia.org/w/index.php?title=%E7%AC%AC12%E5%9B%9E%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%80%9A%E5%B8%B8%E9%81%B8%E6%8C%99&oldid=111564483) [2](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50017/) [3](https://dl.ndl.go.jp/pid/8689381) [4](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第11回参議院議員通常選挙（1977-07-10）
+
+- 争点：与野党逆転の可否
+- 野党第一党：日本社会党（成田知巳 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50015/) [2](https://ja.wikipedia.org/w/index.php?title=%E7%AC%AC11%E5%9B%9E%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%80%9A%E5%B8%B8%E9%81%B8%E6%8C%99&oldid=111564477) [3](https://dl.ndl.go.jp/pid/8689381) [4](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第10回参議院議員通常選挙（1974-07-07）
+
+- 争点：物価対策、地価の高騰、政治とカネ
+- 野党第一党：日本社会党（成田知巳 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50016/) [2](https://ja.wikipedia.org/w/index.php?title=%E7%AC%AC10%E5%9B%9E%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%80%9A%E5%B8%B8%E9%81%B8%E6%8C%99&oldid=111564470) [3](https://dl.ndl.go.jp/pid/8689381) [4](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第9回参議院議員通常選挙（1971-06-27）
+
+- 争点：沖縄返還、日中国交正常化、公害、物価
+- 野党第一党：日本社会党（成田知巳 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50013/) [2](https://hdl.handle.net/2115/16142) [3](https://dl.ndl.go.jp/pid/8689381) [4](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第8回参議院議員通常選挙（1968-07-07）
+
+- 争点：日米安保条約の70年問題、沖縄返還、物価対策、ベトナム和平
+- 野党第一党：日本社会党（勝間田清一 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50011/) [2](https://hdl.handle.net/2115/16146) [3](https://dl.ndl.go.jp/pid/8689381) [4](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第7回参議院議員通常選挙（1965-07-04）
+
+- 争点：日韓基本条約の批准、景気の後退
+- 野党第一党：日本社会党（佐々木更三 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50010/) [2](https://ja.wikipedia.org/w/index.php?title=%E7%AC%AC7%E5%9B%9E%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%80%9A%E5%B8%B8%E9%81%B8%E6%8C%99&oldid=111564457) [3](https://dl.ndl.go.jp/pid/8689381) [4](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第6回参議院議員通常選挙（1962-07-01）
+
+- 争点：憲法改正、高度成長に伴う物価高
+- 野党第一党：日本社会党（河上丈太郎 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50007/) [2](https://dl.ndl.go.jp/pid/8689381) [3](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第5回参議院議員通常選挙（1959-06-02）
+
+- 争点：日米安保条約の改定
+- 野党第一党：日本社会党（鈴木茂三郎 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50014/) [2](https://dl.ndl.go.jp/pid/8689381) [3](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第4回参議院議員通常選挙（1956-07-08）
+
+- 争点：憲法改正
+- 野党第一党：日本社会党（鈴木茂三郎 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50012/) [2](https://ja.wikipedia.org/w/index.php?title=%E7%AC%AC4%E5%9B%9E%E5%8F%82%E8%AD%B0%E9%99%A2%E8%AD%B0%E5%93%A1%E9%80%9A%E5%B8%B8%E9%81%B8%E6%8C%99&oldid=111564432) [3](https://dl.ndl.go.jp/pid/8689381) [4](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第3回参議院議員通常選挙（1953-04-24）
+
+- 野党第一党：日本社会党（鈴木茂三郎 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50009/) [2](https://web.archive.org/web/20260214153404/https://www.sangiin.go.jp/japanese/san60/s60_shiryou/giinsuu_kaiha.htm) [3](https://dl.ndl.go.jp/pid/8689381) [4](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第2回参議院議員通常選挙（1950-06-04）
+
+- 争点：ドッジ・ラインのデフレ政策、全面講和か部分講和か
+- 野党第一党：日本社会党
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50008/) [2](https://dl.ndl.go.jp/pid/8689381) [3](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A&oldid=111717389) [4](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+#### 第1回参議院議員通常選挙（1947-04-20）
+
+- 野党第一党：日本社会党（片山哲 委員長）
+- 出典：[1](https://www.yomiuri.co.jp/election/sangiin/rekishi/20190606-OYT8T50006/) [2](https://web.archive.org/web/20260214153404/https://www.sangiin.go.jp/japanese/san60/s60_shiryou/giinsuu_kaiha.htm) [3](https://dl.ndl.go.jp/pid/8689381) [4](https://ja.wikipedia.org/w/index.php?title=%E6%97%A5%E6%9C%AC%E7%A4%BE%E4%BC%9A%E5%85%9A%E5%A7%94%E5%93%A1%E9%95%B7&oldid=111574782)
+
+</details>
+
 ## 注記
 
 - 議席は、選挙の結果（党派別の公認の当選者数）です。衆議院は選挙から解散まで、参議院は当選者と非改選の議員を合わせた数を、次の選挙まで同じとして並べています。選挙のあとの追加公認・会派入り・離党・補欠選挙は反映していません。
@@ -1177,6 +1600,7 @@
 - 過半数は定数の半分を超える数、3分の2は定数の3分の2以上の数です。衆議院の与党が3分の2以上なら、参議院が否決した法案を再可決できます。
 - 「ねじれ国会」は衆議院で与党が過半数、参議院で過半数割れの日、「少数与党」は衆議院で与党が過半数割れの日です。衆議院が解散している間は判定しません。
 - 衆議院の選挙前の議席は、1947〜1963年は国立国会図書館の資料の「選挙前」、1990〜2009年は NHK、2012年からは時事通信の公示前の集計です。1946年と1967〜1986年は、照らし合わせられる資料が無いので出していません。
+- 選挙の説明は、衆議院は解散（または任期満了）の日、参議院は投票日の時点のものです。首相の説明と野党の批判は、両方がそろった回だけ並べています。通称は、誰が使った呼び方かを添えています（首相が使った呼び方は、首相の説明の枠に入れています）。顔ぶれは同じ時点の首相と野党第一党の党首で、首相の死去のあとの選挙は首相を「不在」としています。野党第一党は、与党に入っていない党のうち、その院で議席が最も多い党です。
 - 回ごと・党ごと・政権ごとの出典と、資料による数の違いは、CSV の「出典」「メモ」の列にあります。
 
 ## 出典
@@ -1188,9 +1612,35 @@
 - 衆議院「衆議院の動き」、衆議院事務局『衆議院議員総選挙一覧』
 - [参議院「国会概観」「会派別所属議員数の変遷」](https://www.sangiin.go.jp/)
 - [首相官邸「歴代内閣」（内閣と閣僚）](https://www.kantei.go.jp/jp/rekidainaikaku/)
+- 首相官邸の記者会見録・国会会議録・各党の声明、NHK と新聞各紙の報道（解散の理由と争点。回ごとの出典は campaigns.csv の「出典」の列）
 - 時事通信・毎日新聞・共同通信・読売新聞・NHK の選挙の集計（公示前と非改選の照らし合わせ）
 - 各党の公式サイト・ロゴ（党の色）
 - [日本語版 Wikipedia（各回の選挙・各党・各内閣の記事。照らし合わせ）](https://ja.wikipedia.org/)
 
 - 総理大臣の顔写真：「歴代内閣」（首相官邸ホームページ）（https://www.kantei.go.jp/jp/rekidainaikaku/index.html）を加工して作成（円形に切り抜き・縮小）（[公共データ利用規約（第1.0版）](https://www.digital.go.jp/resources/open_data/public_data_license_v1.0)）
+- 党首の写真：野党第一党の党首（総理大臣の年表にいない人）の顔写真は、Wikimedia Commons の画像を円形に切り抜き・縮小して使用。ライセンスは画像ごとに異なり、切り抜いた画像も元の画像と同じライセンスで公開しています。作者・ライセンス・画像のページは、画像ごとに下の一覧に載せています
+
+### 写真の出典
+
+- 重光葵：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Shigemitsu_Mamoru.jpg)）
+- 緒方竹虎：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Taketora_Ogata_2.jpg)）
+- 鈴木茂三郎：朝日新聞社・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Suzuki_Mosaburo.JPG)）
+- 江田三郎：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Saburo_Eda.jpg)）
+- 河上丈太郎：朝日新聞社・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Kawakami_Jotaro_1952.JPG)）
+- 佐々木更三：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:SASAKI_Kozo.jpg)）
+- 成田知巳：作者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Tomomi_Narita.png)）
+- 飛鳥田一雄：自治研中央推進委員会・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Ichio-Asukata-1.png)）
+- 石橋政嗣：日本社会党中央本部機関紙局 撮影者不明・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Masashi_Ishibashi.jpg)）
+- 土井たか子：대한민국 국가기록원・KOGL Type 1（[画像のページ](https://commons.wikimedia.org/wiki/File:Takako_Doi.jpg)・[ライセンス](http://www.kogl.or.kr/info/licenseType1.do)）
+- 山花貞夫：防衛庁・CC BY 3.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Sadao_Yamahana_Morihiro_Hosokawa_Cabinet_19930809-2.jpg)・[ライセンス](https://creativecommons.org/licenses/by/3.0/deed.ja)）
+- 小沢一郎：東北地方整備局・CC BY 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Ichiro_Ozawa_20131116_%28cropped_1%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)）
+- 岡田克也：Noukei314・CC BY-SA 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Katsuya_Okada_2023-4-22_%283%29_%28cropped%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)）
+- 海江田万里：首相官邸ホームページ・CC BY 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Banri_Kaieda_201106.jpg)・[ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)）
+- 前原誠司：總統府・CC BY 2.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Seiji_Maehara_20230703.jpg)・[ライセンス](https://creativecommons.org/licenses/by/2.0/deed.ja)）
+- 枝野幸男：Noukei314・CC BY-SA 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Yukio_Edano_2024-10-14_%28cropped%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)）
+- 斉藤鉄夫：首相官邸・CC BY 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Tetsuo_Saito_20211004_%28cropped%29.jpg)・[ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)）
+- 勝間田清一：文藝春秋・パブリックドメイン（[画像のページ](https://commons.wikimedia.org/wiki/File:Seiichi_Katsumata_1953.png)）
+- 田邊誠：外務省 (MOFA)・CC BY 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Makoto_Tanabe_19920407.jpg)・[ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)）
+- 谷垣禎一：首相官邸ホームページ・CC BY 4.0（[画像のページ](https://commons.wikimedia.org/wiki/File:Sadakazu_Tanigaki_201212.jpg)・[ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)）
+- 泉健太：대한민국 국회・KOGL Type 1（[画像のページ](https://commons.wikimedia.org/wiki/File:Kenta_Izumi_2022.jpg)・[ライセンス](http://www.kogl.or.kr/info/licenseType1.do)）
 <!-- ここまで -->

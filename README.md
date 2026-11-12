@@ -56,7 +56,7 @@
 | `src/page.html`・`src/home.html` | 年表ページとトップページの雛形 |
 | `src/seats.mjs` | 国会の議席の、データの組み立て・ある日の状態・扇の配置・SVG の描画（ビルドとブラウザで共用） |
 | `src/seats.html`・`src/seats-build.mjs` | 国会の議席ページ（`diet-seats/`）の雛形と、その検査・書き出し |
-| `diet-seats/*.csv` | 国会の議席のデータ（`results.csv` は議席、`parties.csv` は政党、`governments.csv` は政権の与党） |
+| `diet-seats/*.csv` | 国会の議席のデータ（`results.csv` は議席、`parties.csv` は政党、`governments.csv` は政権の与党、`campaigns.csv` は選挙ごとの解散の理由・争点・野党第一党の党首、`leaders.csv` は党首の写真の取り込み用） |
 | `build.mjs` | すべての年表を作り直す（`--check` を付けると、データの検査だけをする） |
 | `photos.mjs`・`src/faces.swift` | 肖像を Wikimedia Commons から取り込み、顔の位置で切り抜く（Mac のみ） |
 
@@ -75,5 +75,5 @@
 2. `chronology.json` に、名前・CSV のどの列が名前／開始日／終了日か（`data.columns`）・出典を書きます。既存のディレクトリが見本です。`page` を書かなければ、そのデータだけを1列に並べたページになります。
 3. 別の年表と重ねたいときは、`page.columns` に列を足します（`data` にディレクトリ名を書く）。
 4. 人口のような数の移り変わりは、1行に1つの時点（年・月・日）とその値を書いた CSV にし、`data.series` を `true` にして、`page.columns` の `chart` で折れ線にします（見本は `population/`）。各行の値は次の行の時点まで続くものとして読み、値の空いた行で線を切ります。
-5. 肖像をつけるときは、CSV に `Wikidata` 列（人物の QID）を、`chronology.json` の `data.columns` と `credits` に写真の項目を足して（見本は `germany-leaders/`）、`node photos.mjs <ディレクトリ>` を実行します。Wikidata の画像を Commons から取り、顔の位置で切り抜いて、作者とライセンスを CSV に書きます。写真のファイルがある人は取り直しません。別の画像にしたいときは、その人の写真のファイル（`photos/<ID>.jpg`）を消し、その人の最初の行の「写真のページ」に Commons のファイルのページを書いてから実行します。写真を使わない人は「写真のページ」に「なし」と書くと、取り込みません（Mac のみ。ImageMagick が要ります）。
+5. 肖像をつけるときは、CSV に `Wikidata` 列（人物の QID）を、`chronology.json` の `data.columns` と `credits` に写真の項目を足して（見本は `germany-leaders/`）、`node photos.mjs <ディレクトリ>` を実行します。Wikidata の画像を Commons から取り、顔の位置で切り抜いて、作者とライセンスを CSV に書きます。写真のファイルがある人は取り直しません。別の画像にしたいときは、その人の写真のファイル（`photos/<ID>.jpg`）を消し、その人の最初の行の「写真のページ」に Commons のファイルのページを書いてから実行します。写真を使わない人は「写真のページ」に「なし」と書くと、取り込みません（Mac のみ。ImageMagick が要ります）。主な CSV に人物がいない年表（`diet-seats/`）は、`chronology.json` に `"photos": { "file": "leaders.csv" }` と書くと、そのファイルを取り込みます（写真の列は既定の名前）。
 6. `node build.mjs` を実行します。

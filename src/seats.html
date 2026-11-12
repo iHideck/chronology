@@ -85,7 +85,7 @@ h1 { margin: 0; font-size: 40px; font-weight: 700; letter-spacing: -0.01em; line
   border-radius: 18px;
   padding: 26px 26px 28px;
   display: grid;
-  grid-row: span 8;
+  grid-row: span 10;
   grid-template-rows: subgrid;
   row-gap: 20px;
   align-content: start;
@@ -99,6 +99,8 @@ h1 { margin: 0; font-size: 40px; font-weight: 700; letter-spacing: -0.01em; line
 .panel > :nth-child(6) { grid-row: 6; }
 .panel > :nth-child(7) { grid-row: 7; }
 .panel > :nth-child(8) { grid-row: 8; }
+.panel > :nth-child(9) { grid-row: 9; }
+.panel > :nth-child(10) { grid-row: 10; }
 .panel[data-phase="none"] > :nth-child(n + 4) { display: none; }
 .p-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; flex-wrap: wrap; }
 .p-head .en { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.16em; color: var(--muted); }
@@ -141,12 +143,26 @@ h1 { margin: 0; font-size: 40px; font-weight: 700; letter-spacing: -0.01em; line
 .p-notes:empty { display: none; }
 .p-notes p { margin: 0; font-size: 12px; color: var(--muted); }
 .p-notes p.stale { color: var(--amber); }
+.dissolve { background: var(--panel2); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
+.dissolve .alias { margin: 0; font-size: 16px; font-weight: 700; line-height: 1.5; }
+.dissolve .sub { margin: 0; font-size: 13px; color: var(--soft); }
+.says { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 10px; }
+.say { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: flex; flex-direction: column; gap: 4px; }
+.say b { font-size: 11px; font-weight: 700; color: var(--muted); }
+.say p { margin: 0; font-size: 13px; line-height: 1.7; color: var(--soft); }
+.srcs { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; font-size: 11px; color: var(--muted); }
+.srcs a { color: var(--muted); }
+.srcs a:hover { color: var(--ink); }
+.dissolve:empty, .issues:empty { display: none; }
+.issues { display: flex; flex-direction: column; gap: 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font-size: 13px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line2); color: #d6dae0; line-height: 1.4; }
 .people { display: flex; flex-direction: column; gap: 10px; }
-.people .cap { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; color: var(--muted); }
+.dissolve .cap, .issues .cap, .people .cap { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; color: var(--muted); }
 .people ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 14px; }
 .people li { display: flex; align-items: center; gap: 12px; flex: 1 1 170px; min-width: 0; }
 .people .face { width: 52px; height: 52px; flex: none; border-radius: 50%; object-fit: cover; background: #1b222c; box-shadow: 0 0 0 2px var(--panel), 0 0 0 4px var(--ring, var(--line2)); }
-.people .role { font-size: 11px; color: var(--muted); display: block; }
+.people .role { font-size: 11px; color: var(--muted); display: block; word-break: keep-all; overflow-wrap: anywhere; }
 .people .name { font-size: 16px; font-weight: 700; }
 
 /* 時系列 */
@@ -262,7 +278,9 @@ h1 { margin: 0; font-size: 40px; font-weight: 700; letter-spacing: -0.01em; line
       <div class="stats" data-f="stats"></div>
       <ul class="legend" data-f="legend"></ul>
       <div class="p-notes" data-f="notes"></div>
+      <div class="dissolve" data-f="dissolve"></div>
       <div class="people" data-f="people"></div>
+      <div class="issues" data-f="issues"></div>
     </section>
 <!--@@/PANEL-->
   </main>
@@ -307,7 +325,7 @@ const todayJST = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
 const asOfIso = todayJST > DATA.asOf ? todayJST : DATA.asOf;
 const model = buildSeatsModel({
   parties: DATA.parties, results: DATA.results, governments: DATA.governments, elections: DATA.elections,
-  primeMinisters: DATA.pms, asOf: asOfIso, files: DATA.files,
+  primeMinisters: DATA.pms, campaigns: DATA.campaigns, leaders: DATA.leaders, asOf: asOfIso, files: DATA.files,
 });
 const T_FIRST = model.first;
 const T_LAST = model.asOf;
@@ -409,11 +427,27 @@ function paintPanel(k, h) {
   if (h.note) notes.push(`<p class="stale">${escHtml(h.note)}</p>`);
   f(k, 'notes').innerHTML = notes.join('');
 
+  // 解散の箱（首相の説明と野党の批判は同じ大きさで並べる）
+  const box = dissolutionBox(model, h);
+  const srcs = box.sources.filter((u) => /^https?:\/\//i.test(u));
+  f(k, 'dissolve').innerHTML = [
+    `<span class="cap">${escHtml(box.title)}</span>`,
+    box.alias ? `<p class="alias">${escHtml(box.alias)}</p>` : '',
+    box.sub ? `<p class="sub">${escHtml(box.sub)}</p>` : '',
+    box.says.length ? `<div class="says">${box.says.map((x) => `<div class="say"><b>${escHtml(x.label)}</b>${x.alias ? `<p>${escHtml(x.alias)}</p>` : ''}<p>${escHtml(x.text)}</p></div>`).join('')}</div>` : '',
+    srcs.length ? `<div class="srcs"><span>この回の出典</span>${srcs.map((u, i) => `<a href="${escHtml(u)}" target="_blank" rel="noopener" aria-label="出典${i + 1}">${i + 1}</a>`).join('')}</div>` : '',
+  ].join('');
+
   // 顔ぶれ
   const people = faces(model, h);
+  const base = { pm: DATA.pmBase, own: '' };
   f(k, 'people').innerHTML = people.length
-    ? `<span class="cap">顔ぶれ</span><ul>${people.map((p) => `<li>${p.photo ? `<img class="face" src="${escHtml(DATA.pmBase + p.photo)}" alt="" width="52" height="52" loading="lazy" style="--ring:${escHtml(p.color)}">` : `<span class="face" style="--ring:${escHtml(p.color)}"></span>`}<span><span class="role">${escHtml(p.role)}</span><span class="name">${escHtml(p.name)}</span></span></li>`).join('')}</ul>`
+    ? `<span class="cap">顔ぶれ</span><ul>${people.map((p) => `<li>${p.photo ? `<img class="face" src="${escHtml(base[p.from] + p.photo)}" alt="" width="52" height="52" loading="lazy" style="--ring:${escHtml(p.color)}">` : `<span class="face" style="--ring:${escHtml(p.color)}"></span>`}<span><span class="role">${escHtml(p.role)}</span><span class="name">${escHtml(p.name)}</span></span></li>`).join('')}</ul>`
     : '';
+
+  // 主な争点
+  const issues = issuesOf(model, h);
+  f(k, 'issues').innerHTML = issues.length ? `<span class="cap">主な争点</span><div class="chips">${issues.map((x) => `<span class="chip">${escHtml(x)}</span>`).join('')}</div>` : '';
   applyHighlight(k);
 }
 
