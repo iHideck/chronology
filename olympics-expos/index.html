@@ -1965,6 +1965,21 @@ const jumps = (P.jump === 'bands' ? model.bands.map((b, i) => ({ label: b.name, 
   .filter((j) => j.t < model.end);
 const jumpNav = $('#jump');
 if (jumps.length > 7) jumpNav.classList.add('many');
+// 図の縦位置 y を、横線の位置に持ってくる
+function scrollToY(y, behavior) {
+  if (!svg || y == null) return;
+  const r = svg.getBoundingClientRect();
+  const k = r.width / g.width;
+  // 移動後は読み取り欄が上に貼り付くので、その状態での横線の位置に合わせる
+  const stuckTop = parseFloat(getComputedStyle(dock).top) || 0;
+  const stuck = stuckTop + dock.offsetHeight;
+  const line = stuck + (window.innerHeight - stuck) * 0.32;
+  // 読み取り欄が貼り付く位置より上には止めない（貼り付く前は横線の位置がずれるため）
+  const dockStart = window.scrollY + $('.masthead').getBoundingClientRect().bottom - stuckTop;
+  const target = Math.max(dockStart, window.scrollY + r.top + y * k - line + 1);
+  window.scrollTo({ top: Math.max(0, target), behavior });
+}
+
 const jumpButtons = jumps.map((j, i) => {
   const b = el('button');
   b.type = 'button';
@@ -1976,20 +1991,7 @@ const jumpButtons = jumps.map((j, i) => {
   }
   b.setAttribute('aria-label', j.label);
   b.setAttribute('aria-current', 'false');
-  b.addEventListener('click', () => {
-    if (!svg) return;
-    const y = i === 0 ? g.top : g.yOf(j.t);
-    const r = svg.getBoundingClientRect();
-    const k = r.width / g.width;
-    // 移動後は読み取り欄が上に貼り付くので、その状態での横線の位置に時代の始まりを合わせる
-    const stuckTop = parseFloat(getComputedStyle(dock).top) || 0;
-    const stuck = stuckTop + dock.offsetHeight;
-    const line = stuck + (window.innerHeight - stuck) * 0.32;
-    // 読み取り欄が貼り付く位置より上には止めない（貼り付く前は横線の位置がずれるため）
-    const dockStart = window.scrollY + $('.masthead').getBoundingClientRect().bottom - stuckTop;
-    const target = Math.max(dockStart, window.scrollY + r.top + y * k - line + 1);
-    window.scrollTo({ top: Math.max(0, target), behavior: reduceMotion.matches ? 'auto' : 'smooth' });
-  });
+  b.addEventListener('click', () => scrollToY(i === 0 ? g?.top : g?.yOf(j.t), reduceMotion.matches ? 'auto' : 'smooth'));
   jumpNav.append(b);
   return b;
 });
@@ -2005,7 +2007,36 @@ function render() {
   svg = chart.querySelector('svg');
   xhairs = [...svg.querySelectorAll('.xhair')];
   update();
+  if (hashPending) { hashPending = false; goHash('auto'); }
 }
+
+// ---- #YYYY-MM-DD（#YYYY-MM・#YYYY も）で、その日を横線の位置に持ってくる。範囲の外は端にする
+let hashPending = /^#-?\d{4}/.test(location.hash);
+function goHash(behavior) {
+  const m = /^#(-?\d{4,6}(?:-\d{2}(?:-\d{2})?)?)$/.exec(location.hash);
+  if (!m || !parseDate(m[1]) || !g) return;
+  const lastY = g.showAsOf ? g.asOfY : g.plotBottom;
+  const y = Math.max(g.top, Math.min(lastY, g.yOf(toTime(m[1]))));
+  scrollToY(y, behavior);
+  // 移ったあとに読み取り欄の高さが変わると横線がずれるので、実際の横線との差を測って合わせ直す
+  const fix = (n) => requestAnimationFrame(() => {
+    const r = svg.getBoundingClientRect();
+    const d = r.top + (y * r.width) / g.width - readingLine();
+    if (Math.abs(d) < 1) return;
+    window.scrollBy(0, d);
+    if (n > 1) fix(n - 1);
+  });
+  if (behavior === 'auto') fix(2);
+}
+window.addEventListener('hashchange', () => goHash('auto'));
+
+// ---- 関連するページへのリンク（date: true は、横線の位置の日付を #日付 として付ける）
+const relatedLinks = (P.related ?? []).map((r) => {
+  const a = el('a', '', r.title);
+  a.href = r.url;
+  $('.crumb').append(el('span', '', '　'), a);
+  return { a, r };
+});
 
 let lastWidth = 0;
 new ResizeObserver(() => {
@@ -2045,6 +2076,7 @@ function update() {
   const t = g.tOf(y);
   const d = ymd(t);
   for (const x of xhairs) x.setAttribute('transform', `translate(0 ${y.toFixed(1)})`);
+  if (d.y > 0) for (const { a, r } of relatedLinks) if (r.date) a.href = `${r.url}#${String(d.y).padStart(4, '0')}-${String(d.m).padStart(2, '0')}-${String(d.d).padStart(2, '0')}`;
   $('#r-date').textContent = d.y > 0 ? `${d.y}年${d.m}月` : `${yearText(d.y)}年`;
   const w = model.eras.length ? wareki(t, model.eras, model.retro) : null;
   const band = model.bands.findLast?.((b) => b.start <= t) ?? null;
