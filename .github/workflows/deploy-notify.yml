@@ -20,13 +20,13 @@ jobs:
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_COLOR: "good"
-          SLACK_MESSAGE: "Env: `prd`\nMsg: chronology の deploy に成功しました:rocket: (`${{ github.event.deployment.sha }}`)"
+          SLACK_MESSAGE: "Env: `prd`\nMsg: chronology の deploy に成功しました:rocket:"
       - name: Slack Notification (Deploy Failed)
         if: env.SLACK_WEBHOOK != '' && github.event.deployment_status.state != 'success'
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_COLOR: "danger"
-          SLACK_MESSAGE: "<!channel>\nEnv: `prd`\nMsg: chronology の deploy に失敗しました:cry: (`${{ github.event.deployment.sha }}`)"
+          SLACK_MESSAGE: "<!channel>\nEnv: `prd`\nMsg: chronology の deploy に失敗しました:cry:"
       - name: Webhook の URL がないときは知らせない
         if: env.SLACK_WEBHOOK == ''
         run: echo "SLACK_WEBHOOK_URL_DEPLOY が設定されていないため、通知を送りません"
